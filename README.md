@@ -23,7 +23,7 @@ In development, please **Watch** this repo to get the latest news.
 
   - Forward Shading（Lit Transparent）
   - Dither Opacity
-  - （TODO）Translucency Shadow
+  - (TODO) Translucency Shadow
 
 - Great flexibility, with the Material Layer you can freely combine and create materials that contain the following features
 
@@ -32,13 +32,15 @@ In development, please **Watch** this repo to get the latest news.
   - Customizable base color, shadow color, highlight color
   - Customizable **light and shadow ranges**, transitions, (TODO) support **Ramp**
   - Customizable **highlight range, transition**, support **anisotropic highlights**
-  - （TODO）Customizable the range of **shadows cast and accepted**
-  - （TODO）**Rimlight** based on NoV or Screen Space Depth
-  - （TODO）**Hair Shadow** based on Screen Space Depth
-  - （TODO）**Face Shadow** based on Vertex Normal, Normal Map, Spherical Mapping, or any other method
+  - (TODO) Customizable the range of **shadows cast and accepted**
+  - (TODO) **Rimlight** based on NoV or Screen Space Depth
+  - (TODO) **Hair Shadow** based on Screen Space Depth
+  - (TODO) **Face Shadow** based on Vertex Normal, Normal Map, Spherical Mapping, or any other method
   - Free to create and modify any features you need in the material editor
 
-- （TODO）Movie post effect support
+- (TODO) **Back Face Outline**, **Geometry Outline**, and other methods
+
+- (TODO) Movie post effect support
 
   - Correct **automatic exposure and manual exposure**
   - Globally controlled exposure compensation
