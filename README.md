@@ -1,6 +1,6 @@
 # MooaToon
 
-中文 | English
+[中文](https://github.com/JasonMa0012/MooaToon/blob/main/README_CN.md) | English
 
 Mooatoon is a Toon Rendering Pipeline that supports  UE5 lighting system for **Movie**.
 
@@ -10,23 +10,24 @@ In development, please **Watch** this repo to get the latest news.
 
 - Full support for **Lumen**
 
-- - GI
+  - GI
+
   - Reflection
 
 - Full support for **Shadow**
 
-- - Virtual Shadow Map
+  - Virtual Shadow Map
   - Ray Tracing Shadow
 
 - Partial support for **Translucency**
 
-- - Forward Shading（Lit Transparent）
+  - Forward Shading（Lit Transparent）
   - Dither Opacity
   - （TODO）Translucency Shadow
 
 - Great flexibility, with the Material Layer you can freely combine and create materials that contain the following features
 
-- - **Japanese animation style**, mainly pure color fast, clear light and shadow, often used to restore animation and hand-painted effect
+  - **Japanese animation style**, mainly pure color fast, clear light and shadow, often used to restore animation and hand-painted effect
   - **American cartoon style**, usually with GI, with a softer shading
   - Customizable base color, shadow color, highlight color
   - Customizable **light and shadow ranges**, transitions, (TODO) support **Ramp**
@@ -39,7 +40,7 @@ In development, please **Watch** this repo to get the latest news.
 
 - （TODO）Movie post effect support
 
-- - Correct **automatic exposure and manual exposure**
+  - Correct **automatic exposure and manual exposure**
   - Globally controlled exposure compensation
   - Globally controlled Saturation, Contrast and other adjustments
   - **LookDev** support
