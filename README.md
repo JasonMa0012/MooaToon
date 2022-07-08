@@ -2,7 +2,7 @@
 
 [中文](https://github.com/JasonMa0012/MooaToon/blob/main/README_CN.md) | English
 
-Mooatoon is a Toon Rendering Pipeline that supports  UE5 lighting system for **Movie**.
+Mooatoon is a Toon Rendering Pipeline that supports  UE5 lighting system for **Cinematics**.
 
 In development, please **Watch** this repo to get the latest news.
 
