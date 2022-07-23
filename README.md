@@ -13,18 +13,20 @@ In development, please **Watch** this repo to get the latest news.
   - GI
 
   - Reflection
-
 - Full support for **Shadow**
 
   - Virtual Shadow Map
   - Ray Tracing Shadow
+- **Toon Shadow**
+  - Ray Tracing Hair/Face Shadow
+
+  - Support to ignore Ray Tracing Self-Shadow
 
 - Partial support for **Translucency**
 
   - Forward Shading（Lit Transparent）
   - Dither Opacity
   - (TODO) Translucency Shadow
-
 - Great flexibility, with the Material Layer you can freely combine and create materials that contain the following features
 
   - **Japanese animation style**, mainly pure color fast, clear light and shadow, often used to restore animation and hand-painted effect
@@ -32,22 +34,24 @@ In development, please **Watch** this repo to get the latest news.
   - Customizable base color, shadow color, highlight color
   - Customizable **light and shadow ranges**, transitions, (TODO) support **Ramp**
   - Customizable **highlight range, transition**, support **anisotropic highlights**
-  - (TODO) Customizable the range of **shadows cast and accepted**
   - (TODO) **Rimlight** based on NoV or Screen Space Depth
-  - (TODO) **Hair Shadow** based on Screen Space Depth
   - (TODO) **Face Shadow** based on Vertex Normal, Normal Map, Spherical Mapping, or any other method
   - Free to create and modify any features you need in the material editor
-
 - (TODO) **Back Face Outline**, **Geometry Outline**, and other methods
+- (TODO) Cinematic post effect support
 
-- (TODO) Movie post effect support
-
-  - Correct **automatic exposure and manual exposure**
+  - (TODO) Correct **automatic exposure and manual exposure**
   - Globally controlled exposure compensation
   - Globally controlled Saturation, Contrast and other adjustments
   - **LookDev** support
 
-Video：
+Videos：
+
+![image-20220723170300020](README.assets/image-20220723170300020.png)
+
+https://www.youtube.com/watch?v=oBibO0WlakE
+
+Model：KAGAMI Ⅱ WORKs
 
 ![image-20220613220050376](README.assets/image-20220613220050376.png)
 
