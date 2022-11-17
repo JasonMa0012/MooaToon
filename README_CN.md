@@ -1,24 +1,21 @@
 # MooaToon
 中文 | [English](https://github.com/JasonMa0012/MooaToon)
 
-MooaToon是一个用于**影视**的完整支持UE5光照系统的卡通渲染管线。
+MooaToon是一个旨在彻底解决UE5三渲二痛点的插件, 结合了UE原生的光照特性和强大的材质系统, 释放美术的潜力.
 
 正在开发中，请**Watch**此仓库以获得最新消息。
 
 # 特性
 
 - 对于**Lumen**的完整支持
-  - GI
-  - Reflection
+  - 可自由控制GI强度和混合
+  - 可自由控制Reflection强度
 - 对于**Shadow**的完整支持
 
   - Virtual Shadow Map
   - Ray Tracing Shadow
-- **卡通阴影**
-- 光线追踪发/脸影
-  
-  - 支持忽略光线追踪自阴影
-
+    - 支持忽略任意部分自阴影
+    - 支持可控发影宽度
 - **Translucency**部分支持
   - Forward Shading（Lit Transparent）
   - Dither Opacity
@@ -34,20 +31,26 @@ MooaToon是一个用于**影视**的完整支持UE5光照系统的卡通渲染�
   - (TODO) 基于顶点法线、法线贴图、球面映射或任何其他方法的**脸影**
   - 通过材质编辑器自由创建、修改你需要的任何特性
 - (TODO) **背面法描边**、**几何描边**以及其他方法 
-- (TODO) 影视后期支持
+- 影视后期支持
 
   - 正确的**自动曝光、手动曝光**
   - 可全局控制的曝光补偿
   - 可全局控制的饱和度、对比度等调整
-  - **LookDev**支持
+  - **LookDev**工具支持
 
 视频：
+
+![image-20221118014720535](README_CN.assets/image-20221118014720535.png)
+
+模型：KAGAMI Ⅱ WORKs, VRM4U
+
+https://www.bilibili.com/video/BV1eG4y1x7Fr/
 
 ![image-20220723170300020](README_CN.assets/image-20220723170300020.png)
 
 https://www.bilibili.com/video/BV1xV4y17766/
 
-模型：KAGAMI Ⅱ WORKs
+
 
 ![image-20220613220050376](README_CN.assets/image-20220613220050376.png)
 
