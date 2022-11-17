@@ -1,21 +1,21 @@
 # MooaToon
 中文 | [English](https://github.com/JasonMa0012/MooaToon)
 
-MooaToon是一个旨在彻底解决UE5三渲二痛点的插件, 结合了UE原生的光照特性和强大的材质系统, 释放美术的潜力.
+**MooaToon**是一个旨在彻底解决**UE5三渲二**痛点的插件, 结合了UE原生的**光照特性**和强大的**材质系统**, 释放美术的潜力.
 
 正在开发中，请**Watch**此仓库以获得最新消息。
 
 # 特性
 
 - 对于**Lumen**的完整支持
-  - 可自由控制GI强度和混合
-  - 可自由控制Reflection强度
+  - 可自由控制**GI强度和混合**
+  - 可自由控制**Reflection强度**
 - 对于**Shadow**的完整支持
 
   - Virtual Shadow Map
   - Ray Tracing Shadow
-    - 支持忽略任意部分自阴影
-    - 支持可控发影宽度
+    - 支持忽略任意部分**自阴影**
+    - 支持可控**发影宽度**
 - **Translucency**部分支持
   - Forward Shading（Lit Transparent）
   - Dither Opacity

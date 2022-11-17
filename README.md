@@ -2,7 +2,7 @@
 
 [中文](https://github.com/JasonMa0012/MooaToon/blob/main/README_CN.md) | English
 
-Mooatoon is a Toon Rendering Pipeline that supports  UE5 lighting system for **Cinematics**.
+**MooaToon** is a plugin that aims to completely solve the shortcomings of UE5 **Toon Rendering**, combining UE5 built-in **Lighting Features** with a **Powerful Material System** to unlock the potential of artists.
 
 In development, please **Watch** this repo to get the latest news.
 
@@ -10,18 +10,15 @@ In development, please **Watch** this repo to get the latest news.
 
 - Full support for **Lumen**
 
-  - GI
+  - Free to control **GI Intensity and Blending**
 
-  - Reflection
+  - Free to control **Reflection Intensity**
 - Full support for **Shadow**
 
   - Virtual Shadow Map
   - Ray Tracing Shadow
-- **Toon Shadow**
-  - Ray Tracing Hair/Face Shadow
-
-  - Support to ignore Ray Tracing Self-Shadow
-
+    - Support for ignoring arbitrary partial **Self-Shadow**
+    - Support for controllable **Hair Shadow Width**
 - Partial support for **Translucency**
 
   - Forward Shading（Lit Transparent）
@@ -38,20 +35,26 @@ In development, please **Watch** this repo to get the latest news.
   - (TODO) **Face Shadow** based on Vertex Normal, Normal Map, Spherical Mapping, or any other method
   - Free to create and modify any features you need in the material editor
 - (TODO) **Back Face Outline**, **Geometry Outline**, and other methods
-- (TODO) Cinematic post effect support
+- Cinematic post effect support
 
-  - (TODO) Correct **automatic exposure and manual exposure**
+  - Correct **automatic exposure and manual exposure**
   - Globally controlled exposure compensation
   - Globally controlled Saturation, Contrast and other adjustments
-  - **LookDev** support
+  - **LookDev** tool support
 
 Videos：
+
+![image-20221118014720535](README.assets/image-20221118014720535.png)
+
+Model：KAGAMI Ⅱ WORKs, VRM4U
+
+https://www.bilibili.com/video/BV1eG4y1x7Fr/
 
 ![image-20220723170300020](README.assets/image-20220723170300020.png)
 
 https://www.youtube.com/watch?v=oBibO0WlakE
 
-Model：KAGAMI Ⅱ WORKs
+
 
 ![image-20220613220050376](README.assets/image-20220613220050376.png)
 
