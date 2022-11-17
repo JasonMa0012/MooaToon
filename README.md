@@ -46,7 +46,7 @@ Videos：
 
 ![image-20221118014720535](README.assets/image-20221118014720535.png)
 
-Model：KAGAMI Ⅱ WORKs, VRM4U
+Models: KAGAMI Ⅱ WORKs, VRM4U
 
 https://www.bilibili.com/video/BV1eG4y1x7Fr/
 

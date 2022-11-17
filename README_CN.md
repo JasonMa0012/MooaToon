@@ -42,7 +42,7 @@
 
 ![image-20221118014720535](README_CN.assets/image-20221118014720535.png)
 
-模型：KAGAMI Ⅱ WORKs, VRM4U
+模型: KAGAMI Ⅱ WORKs, VRM4U
 
 https://www.bilibili.com/video/BV1eG4y1x7Fr/
 
