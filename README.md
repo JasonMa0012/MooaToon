@@ -8,39 +8,40 @@ In development, please **Watch** this repo to get the latest news.
 
 # Features
 
-- Full support for **Lumen**
-
-  - Free to control **GI Intensity and Blending**
-
-  - Free to control **Reflection Intensity**
-- Full support for **Shadow**
-
+- **Lumen**
+- Free to control **GI Intensity and Blending**
+  
+- Free to control **Reflection Intensity**
+- **Shadow**
   - Virtual Shadow Map
   - Ray Tracing Shadow
     - Support for ignoring arbitrary partial **Self-Shadow**
     - Support for controllable **Hair Shadow Width**
-- Partial support for **Translucency**
-
-  - Forward Shading（Lit Transparent）
-  - Dither Opacity
-  - (TODO) Translucency Shadow
+- **Translucency**
+  - Forward Shading (Lit Transparent)
+  - Dithered Opacity
+  - Dithered **Translucency Shadow**
 - Great flexibility, with the Material Layer you can freely combine and create materials that contain the following features
 
-  - **Japanese animation style**, mainly pure color fast, clear light and shadow, often used to restore animation and hand-painted effect
-  - **American cartoon style**, usually with GI, with a softer shading
-  - Customizable base color, shadow color, highlight color
-  - Customizable **light and shadow ranges**, transitions, (TODO) support **Ramp**
-  - Customizable **highlight range, transition**, support **anisotropic highlights**
-  - (TODO) **Rimlight** based on NoV or Screen Space Depth
+  - **Japanese Animation style**, mainly pure color fast, clear light and shadow, often used to restore animation and hand-painted effect
+  - **American Cartoon style**, usually with GI, with a softer shading
+  - Customizable Base Color, Shadow Color, Specular Color
+  - Customizable **Light and Shadow Range**, (TODO) support **Ramp Map**
+  - Customizable **Highlight Range**, support **Anisotropic Highlight**
+  - **Per Light** Screen Space Depth Test **Rimlight**
   - (TODO) **Face Shadow** based on Vertex Normal, Normal Map, Spherical Mapping, or any other method
   - Free to create and modify any features you need in the material editor
-- (TODO) **Back Face Outline**, **Geometry Outline**, and other methods
+- **Outline** by single Overlay Material
+  - Traditional **Back Face Outline**
+  - Screen Space Depth Normal Convolution based **Front Face Outline**
+  - Output Velocity to use with TSR **Anti-Aliasing**
+
 - Cinematic post effect support
 
   - Correct **automatic exposure and manual exposure**
   - Globally controlled exposure compensation
   - Globally controlled Saturation, Contrast and other adjustments
-  - **LookDev** tool support
+  - **LookDev** tool
 
 Videos：
 
