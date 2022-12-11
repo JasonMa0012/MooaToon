@@ -133,7 +133,7 @@ https://github.com/JasonMa0012/MooaToon/wiki
 
 
 
-## Reference
+## References
 
 | Name      | Author    | Link                          |
 | --------- | --------- | ----------------------------- |
