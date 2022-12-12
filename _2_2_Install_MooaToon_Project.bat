@@ -13,7 +13,7 @@ git init
 
 :loop
 git fetch %repoURL% %branchName%
-if errorlevel 1 
+if %errorlevel% == 1 
 (
    echo Fetch failed, retrying in 5 seconds...
    timeout /t 5 /nobreak
