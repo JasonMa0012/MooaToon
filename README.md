@@ -10,7 +10,7 @@
 - [Wiki](#wiki)
 - [References](#references)
 
-![Mooa (5)](README.assets/Mooa (5).gif)
+![Mooa (5)](README.assets/Mooa_gif.gif)
 
 [中文](https://github.com/JasonMa0012/MooaToon/blob/main/README_CN.md) | English
 
