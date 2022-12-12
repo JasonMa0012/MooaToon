@@ -3,8 +3,10 @@
 cd InstallTools
 echo Installing Visual Studio 2022...
 
-vs_Community.exe --quiet --wait --norestart --nocache --addProductLang En-us --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.Universal 
 
+vs_Community.exe --wait --nocache --addProductLang En-us --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.Universal 
+
+rem --quiet --norestart
 rem --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 
 rem --add Microsoft.VisualStudio.Component.VC.140 
 rem --add Microsoft.VisualStudio.Component.VC.ATL 
