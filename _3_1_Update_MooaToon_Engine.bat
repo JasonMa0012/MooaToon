@@ -18,18 +18,11 @@ if not %errorlevel% == 0 (
    goto loop
 )
 
-git checkout FETCH_HEAD
-git remote add origin %repoURL%
+git reset --hard
 git pull origin %branchName%
 git checkout %branchName%
 git merge origin %branchName%
 if not %errorlevel% == 0 pause
 
-echo %repoName% successfully cloned.
-
-Setup.bat
-GenerateProjectFiles.bat
-if not %errorlevel% == 0 pause
-
-echo %repoName% successfully installed.
+echo %repoName% successfully update.
 timeout /t 5

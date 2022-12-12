@@ -12,7 +12,7 @@ git init
 
 :loop
 git fetch %repoURL% %branchName%
-if %errorlevel% == 1 (
+if not %errorlevel% == 0 (
    echo Fetch failed, retrying in 5 seconds...
    timeout /t 5 /nobreak
    goto loop
@@ -23,7 +23,7 @@ git remote add origin %repoURL%
 git pull origin %branchName%
 git checkout %branchName%
 git merge origin %branchName%
+if not %errorlevel% == 0 pause
 
 echo %repoName% successfully cloned.
-
-pause
+timeout /t 5
