@@ -20,7 +20,7 @@ git remote add origin %repoURL%
 git pull origin %branchName%
 git checkout %branchName%
 git merge origin %branchName%
-if not %errorlevel% == 0 pause
+
 
 echo successfully update.
 timeout /t 5

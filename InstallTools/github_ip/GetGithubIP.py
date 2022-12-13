@@ -110,4 +110,4 @@ os.remove(temp_hosts)
 os.system('ipconfig /flushdns')
 
 print("Github IP Refresh Successfully.")
-os.system('timeout /t 5')
+#os.system('timeout /t 5')

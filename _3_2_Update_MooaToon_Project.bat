@@ -22,7 +22,7 @@ git reset --hard
 git pull origin %branchName%
 git checkout %branchName%
 git merge origin %branchName%
-if not %errorlevel% == 0 pause
+
 
 echo %repoName% successfully update.
 timeout /t 5
