@@ -133,9 +133,9 @@ https://github.com/JasonMa0012/MooaToon/wiki
 
 ## References
 
-| Name      | Author    | Link                                                  |
-| --------- | --------- | ----------------------------------------------------- |
-| VRM4U     | ruyo      | https://github.com/ruyo/VRM4U                         |
-| UnityChan | © UTJ/UCL | https://unity-chan.com/                               |
-| github_ip | Boran Li  | https://github.com/12218/python/tree/master/github_ip |
+| Name          | Author      | Link                                                   |
+| ------------- | ----------- | ------------------------------------------------------ |
+| VRM4U         | ruyo        | https://github.com/ruyo/VRM4U                          |
+| UnityChan     | © UTJ/UCL   | https://unity-chan.com/                                |
+| get_github_ip | JackieZheng | https://blog.csdn.net/admans/article/details/122610559 |
 
