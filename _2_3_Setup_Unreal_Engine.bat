@@ -1,12 +1,12 @@
 @echo off
+setlocal
 
 set repoName=MooaToon-Engine
 
 cd %repoName%
 
 
-setlocal
-pushd "%~dp0"
+rem pushd "%~dp0"
 
 rem Figure out if we should append the -prompt argument
 set PROMPT_ARGUMENT=
