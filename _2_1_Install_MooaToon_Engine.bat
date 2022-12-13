@@ -27,9 +27,4 @@ if not %errorlevel% == 0 pause
 
 echo %repoName% successfully cloned.
 
-Setup.bat
-GenerateProjectFiles.bat
-if not %errorlevel% == 0 pause
-
-echo %repoName% successfully installed.
 timeout /t 5

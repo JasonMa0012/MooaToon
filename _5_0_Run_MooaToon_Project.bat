@@ -1,1 +1,4 @@
-G:\UE\MooaToon-Engine-dev\Engine\Binaries\Win64\UnrealEditor.exe D:\WorkSpace\_UE\MooaToon_Project\MooaToon_Project.uproject
+set engineName=MooaToon-Engine
+set projectName=MooaToon-Project
+
+%engineName%\Engine\Binaries\Win64\UnrealEditor.exe %projectName%\MooaToon_Project.uproject
