@@ -15,11 +15,9 @@ if not %errorlevel% == 0 (
 )
 
 git reset --hard
-git checkout FETCH_HEAD
-git remote add origin %repoURL%
-git pull origin %branchName%
-git checkout %branchName%
-git merge origin %branchName%
+git checkout -b %branchName%_temp FETCH_HEAD
+git branch -D %branchName%
+git branch -m %branchName%_temp %branchName%
 
 
 echo successfully update.
