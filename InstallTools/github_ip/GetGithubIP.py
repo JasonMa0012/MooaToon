@@ -14,10 +14,21 @@ import requests
 import ping3
 
 
-hosts_datas = []
-git_ip = []
+append_strs = []
 query_url = "https://www.ipaddress.com/site/"
 header = {'user-agent': 'Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1 Edg/108.0.0.0'}
+str_start = "# GITHUB_IP_START"
+str_end = "# GITHUB_IP_END"
+urls = [
+    'github.com',
+    'assets-cdn.github.com',
+    'github.global.ssl.fastly.net',
+    'raw.githubusercontent.com',
+    'gist.githubusercontent.com',
+    'cloud.githubusercontent.com',
+    'camo.githubusercontent.com',
+    'cdn.unrealengine.com'
+]
 
 def getip(website: str):
     """
@@ -38,20 +49,16 @@ def getip(website: str):
                 MinTime = PingTime
                 FastIp = ip_item
         print(FastIp + ' ' + website + ' ' + str(int(MinTime)) + 'ms')
-        git_ip.append(FastIp + ' ' + website)
+        append_strs.append(FastIp + ' ' + website)
 
 
-getip('github.com')
-getip('assets-cdn.github.com')
-getip('github.global.ssl.fastly.net')
-getip('raw.githubusercontent.com')
-getip('gist.githubusercontent.com')
-getip('cloud.githubusercontent.com')
-getip('camo.githubusercontent.com')
-getip('cdn.Unrealengine.com')
+append_strs.append(str_start)
+for url in urls:
+    getip(url)
+append_strs.append(str_end)
 
 
-if len(git_ip) == 0:
+if len(append_strs) == 2:
     print("Failed to query IPs from:" + query_url)
     os.system('timeout /t 5')
     exit()
@@ -70,12 +77,19 @@ with open(orign_hosts, 'r', encoding='utf-8') as orign_file:
 hosts_datas = datas.copy()
 
 # 删除原来github相关内容
+is_in_github_ip_range = False
 for data in datas:
-    if 'github' in data or data == '\n':
+    if str_start in data:
+        is_in_github_ip_range = True
+    if is_in_github_ip_range or data == '\n':
         hosts_datas.remove(data)
+    if str_end in data:
+        is_in_github_ip_range = False
+        break
+
 
 # 合并生成新hosts内容
-hosts_datas.extend(git_ip)
+hosts_datas.extend(append_strs)
 
 # 生成临时hosts文件
 with open(temp_hosts, 'w') as temp_file:
