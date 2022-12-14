@@ -13,8 +13,6 @@ import shutil
 import requests
 import ping3
 
-# to pack exe:
-# cmd: C:\Users\13121\AppData\Local\Programs\Python\Python311\python.exe -m PyInstaller -F GetGithubIP.py
 
 hosts_datas = []
 git_ip = []
@@ -50,7 +48,7 @@ getip('raw.githubusercontent.com')
 getip('gist.githubusercontent.com')
 getip('cloud.githubusercontent.com')
 getip('camo.githubusercontent.com')
-# TODO: add epic IP for Setup.bat
+getip('cdn.Unrealengine.com')
 
 
 if len(git_ip) == 0:
