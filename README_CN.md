@@ -73,6 +73,9 @@
   - 可全局控制的曝光补偿
   - 可全局控制的饱和度、对比度等调整
   - **LookDev**工具
+- 杂项
+  - Morph Targets Normal Intensity
+
 
 ## Works
 

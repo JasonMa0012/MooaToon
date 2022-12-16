@@ -74,6 +74,9 @@ Please **Watch** this repository or join social media for the latest news:
   - Globally controlled exposure compensation
   - Globally controlled Saturation, Contrast and other adjustments
   - **LookDev** tool
+- Misc
+  - Morph Targets Normal Intensity
+
 
 
 ## Works
