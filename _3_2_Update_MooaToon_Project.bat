@@ -1,3 +1,5 @@
+@echo off
+
 setlocal enabledelayedexpansion
 
 set repoURL=https://github.com/Jason-Ma-0012/MooaToon-Engine.git
@@ -16,6 +18,14 @@ if not %errorlevel% == 0 (
    echo Fetch failed, retrying in 5 seconds...
    timeout /t 5 /nobreak
    goto loop
+)
+
+echo ===================================================
+git status -s | find "M "
+echo ===================================================
+if %errorlevel% == 0 (
+   color 04
+   set /p input=You have modified files, discard and continue?  [Enter]
 )
 
 git reset --hard

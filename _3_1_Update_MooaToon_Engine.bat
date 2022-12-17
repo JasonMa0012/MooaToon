@@ -20,12 +20,12 @@ if not %errorlevel% == 0 (
    goto loop
 )
 
-git status | find "working tree clean"
-if not %errorlevel% == 0 (
-   git status
-   color 4 0
-   set /p input=You have modified files, discard and continue? (y/n)
-   if not "%input%" == "y" exit
+echo ===================================================
+git status -s | find "M "
+echo ===================================================
+if %errorlevel% == 0 (
+   color 04
+   set /p input=You have modified files, discard and continue?  [Enter]
 )
 
 git reset --hard
