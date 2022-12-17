@@ -9,9 +9,10 @@ cd %repoName%
 
 git checkout %branchName%
 git pull origin %branchName%
-git merge origin %branchName%
+git merge origin/%branchName%
 
 if not %errorlevel% == 0 (
+    color 04
     echo Merge failed, please run Force Update after backup files.
     pause
 )else (

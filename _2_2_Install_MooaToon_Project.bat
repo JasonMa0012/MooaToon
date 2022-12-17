@@ -24,7 +24,7 @@ git checkout FETCH_HEAD
 git remote add origin %repoURL%
 git pull origin %branchName%
 git checkout %branchName%
-git merge origin %branchName%
+git merge origin/%branchName%
 
 
 echo %repoName% successfully cloned.
