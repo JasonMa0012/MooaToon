@@ -132,7 +132,7 @@ In addition, you can participate in the development of MooaToon, please contact 
 
 ## Wiki
 
-https://www.yuque.com/jasonma0012/mooa-toon/getting-start
+https://www.yuque.com/jasonma0012/mooa-toon/getting-started
 
 
 
