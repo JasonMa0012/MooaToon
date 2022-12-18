@@ -130,7 +130,7 @@ MooaToon由以下部分组成:
 
 ## Wiki
 
-https://github.com/JasonMa0012/MooaToon/wiki
+https://www.yuque.com/jasonma233/yrobg6/be8cz0grwxurfs7n
 
 
 
