@@ -58,6 +58,7 @@ Please **Watch** this repository or join social media for the latest news:
   - Customizable Base Color, Shadow Color, Specular Color
   - Customizable **Light and Shadow Range**, (TODO) support **Ramp Map**
   - Customizable **Highlight Range**, support **Anisotropic Highlight**
+  - Kajiya-Kay based **Dynamic Stylized Hair Highlighter**
   - **Per Light** Screen Space Depth Test **Rimlight**
   - **Face Shadow** based on Spherical Mapped Vertex Normal, Normal Map, or other method
   - Free to create and modify any features you need in the material editor
