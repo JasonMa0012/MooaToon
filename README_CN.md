@@ -84,6 +84,8 @@
 
 | Title                                                        | Link                                         | Description                 |
 | ------------------------------------------------------------ | -------------------------------------------- | --------------------------- |
+| 【MooaToon Devlog】近期成果 UE5 三渲二 Lumen Kajiya-Kay 头发高光 Ramp | https://www.bilibili.com/video/BV13g411t7L8/ | 模型: © UTJ/UCL             |
+| ![image-20221229110024330](README_CN.assets/image-20221229110024330.png) |                                              |                             |
 | 【Mooa Toon Devlog UE5.1】三渲二？Lumen？我全都要！Time of Day动态演示 | https://www.bilibili.com/video/BV1eG4y1x7Fr/ | 模型: KAGAMI Ⅱ WORKs, VRM4U |
 | ![image-20221118014720535](README_CN.assets/image-20221118014720535.png) |                                              |                             |
 | 【Mooa Toon Devlog】UE5光线追踪卡通发影 多光源交互           | https://www.bilibili.com/video/BV1xV4y17766/ | 模型：KAGAMI Ⅱ WORKs        |

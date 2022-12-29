@@ -86,6 +86,8 @@ Please **Watch** this repository or join social media for the latest news:
 
 | Title                                                        | Link                                        | Description                   |
 | ------------------------------------------------------------ | ------------------------------------------- | ----------------------------- |
+| MooaToon Devlog: recent results, UE5, Toon Rendering, Lumen, Kajiya-Kay Hair Highlight, Ramp Map | https://youtu.be/Or9OXqIU328                | Models: © UTJ/UCL             |
+| ![image-20221229110042518](README.assets/image-20221229110042518.png) |                                             |                               |
 | 【Mooa Toon Devlog UE5.1】Toon Rendering with Lumen, Time of Day | https://www.youtube.com/watch?v=u0neEKu3zbQ | Models：KAGAMI Ⅱ WORKs, VRM4U |
 | ![image-20221118014720535](README_CN.assets/image-20221118014720535.png) |                                             |                               |
 | 【Mooa Toon Devlog】UE5 Ray Tracing Toon Hair Shadow \| Multi-light Interaction | https://www.youtube.com/watch?v=oBibO0WlakE | Model：KAGAMI Ⅱ WORKs         |
