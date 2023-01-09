@@ -22,6 +22,8 @@
 
 **重要提示**: MooaToon当前禁止获得许可之前的商业行为, 详情请阅读**License**.
 
+**入门**: https://www.yuque.com/jasonma0012/mooa-toon/getting-started
+
 请**Watch**此仓库或加入社交媒体以获得最新消息:
 
 - Discord: https://discord.gg/Bu2DUCwyXK

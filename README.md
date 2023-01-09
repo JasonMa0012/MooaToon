@@ -22,6 +22,8 @@
 
 **Important Note**: MooaToon is currently prohibits commercial activities prior to obtaining a License. For details, please read **License**.
 
+**Getting Started**: https://www.yuque.com/jasonma0012/mooa-toon/getting-started
+
 Please **Watch** this repository or join social media for the latest news:
 
 - Discord: https://discord.gg/Bu2DUCwyXK
