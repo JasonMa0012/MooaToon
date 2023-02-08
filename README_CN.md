@@ -26,7 +26,7 @@
 
 请**Watch**此仓库或加入社交媒体以获得最新消息:
 
-- Discord: https://discord.gg/Bu2DUCwyXK
+- Discord: https://discord.gg/DDU8CQZjCh
 - Twitter: https://twitter.com/JasonMa0012
 - Youtube: https://www.youtube.com/@jasonma0012
 - QQ 群: 707889886
