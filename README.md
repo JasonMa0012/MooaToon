@@ -26,7 +26,7 @@
 
 Please **Watch** this repository or join social media for the latest news:
 
-- Discord: https://discord.gg/Bu2DUCwyXK
+- Discord: https://discord.gg/DDU8CQZjCh
 - Twitter: https://twitter.com/JasonMa0012
 - Youtube: https://www.youtube.com/@jasonma0012
 - QQ 群: 707889886
