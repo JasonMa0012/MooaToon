@@ -2,6 +2,7 @@
 
 ![Mooa (5)](README.assets/Mooa_gif.gif)
 
+**MooaToon**是一个旨在彻底解决 UE5 三渲二 痛点的插件, 结合了UE原生的光照特性和强大的材质系统, 释放美术师的潜力.
 
 **MooaToon** is a plugin that aims to completely solve the shortcomings of **UE5 Toon Rendering**, combining UE5 built-in **Lighting Features** with a **Powerful Material System** to unlock the potential of artists.
 
