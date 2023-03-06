@@ -16,7 +16,7 @@ git init
 git fetch --depth=1 %repoURL% %branchName%
 if not %errorlevel% == 0 (
    echo Fetch failed, retrying in 5 seconds...
-   timeout /t 5 /nobreak
+   timeout /t 10 /nobreak
    goto loop
 )
 
@@ -28,4 +28,4 @@ git merge origin/%branchName%
 
 
 echo %repoName% successfully cloned.
-timeout /t 5
+timeout /t 10

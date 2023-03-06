@@ -1,0 +1,1194 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Italiano-A
+TRANSLATORS                             = Styb (styb.styb@gmail.com)
+
+
+[TEXT]
+TEXT_BUILDNO                            = Versione#
+TEXT_FILE                               = File
+TEXT_FOLDER                             = Cartelle
+TEXT_ARCHIVE_SIZE                       = Dimensione dell'archivio
+TEXT_ORIGINAL_SIZE                      = Dimensione originale
+TEXT_ARCHIVE_FORMAT                     = Formato dell'archivio
+TEXT_COMPRESSED_SIZE                    = Dimensione compressa
+TEXT_SOLID                              = Solido
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = File compresso (${str1})
+TEXT_PORTABLE                           = Portabile
+TEXT_NEW_FOLDER                         = Nuova cartella
+TEXT_FILESIZE_UNKNOWN                   = Sconosciuto
+TEXT_FILEDATE_UNKNOWN                   = Sconosciuto
+TEXT_HELP_LINK                          = [Aiuto]
+TEXT_APP_DESC                           = Bandizip è un archiviatore Zip multifunzione, veloce, leggero e gratuito. Può aprire i formati di compressione più diffusi, tra cui Zip, 7z, Rar e molti altri.
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = Annulla
+TEXT_MESSAGEBOX_ABORT                   = Interrompi
+TEXT_MESSAGEBOX_RETRY                   = Riprova
+TEXT_MESSAGEBOX_IGNORE                  = Ignora
+TEXT_MESSAGEBOX_YES                     = Sì
+TEXT_MESSAGEBOX_NO                      = No
+TEXT_MESSAGEBOX_CONTINUE                = Continua
+TEXT_MESSAGEBOX_HELP                    = Aiuto
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Non mostrare di nuovo
+
+TEXT_COLUMN_NAME                        = Nome
+TEXT_COLUMN_COMPSIZE                    = Compresso
+TEXT_COLUMN_ORIGSIZE                    = Originale
+TEXT_COLUMN_KIND                        = Tipo
+TEXT_COLUMN_DATE_MOD                    = Data di modifica
+TEXT_COLUMN_COMPMETHOD                  = Metodo di compressione
+TEXT_COLUMN_ENCRMETHOD                  = Metodo di cifratura
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Attributi
+TEXT_COLUMN_COMMENT                     = Commento
+TEXT_COLUMN_EXT                         = Informazioni aggiuntive
+TEXT_COLUMN_PATHNAME                    = Percorso
+
+TEXT_ICONPACK_NAME                      = Nome
+TEXT_ICONPACK_DESIGNER                  = Designer
+TEXT_ICONPACK_COPYRIGHT                 = Copyright
+
+TEXT_ARCHIVE_COLUMN_NAME                = Nome
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Dimensione
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Percorso cartella
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Dimensione totale
+
+TEXT_SELECT_ARCHIVE_FILE                = Seleziona file
+TEXT_SELECT_TEXT_FILE                   = Seleziona file
+TEXT_SELECT_DEST_FOLDER                 = Selezionare la cartella di destinazione
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = File archivio
+TEXT_REGISTRY_FILE                      = File di registrazione
+
+TEXT_OPENDLG_ARCHIVEFILES               = File archivio
+TEXT_OPENDLG_ARCHIVEFILE                = File archivio
+TEXT_OPENDLG_ALLFILES                   = Tutti i file
+TEXT_OPENDLG_EXEFILES                   = File EXE
+
+TEXT_ABOUTBOX_TAB1                      = Informazioni su Bandizip
+
+TEXT_ASSOC_GROUP0                       = File archivio
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Altri
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Per aprire questo file, scarica l'ultima versione di Bandizip.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Selezionare solo la prima parte del file suddiviso.
+TEXT_OPENERR_CANT_OPEN_FILE             = Non è possibile aprire il file (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Non è possibile aprire il file (${str1}) poiché è usato da un altro programma.
+TEXT_OPENERR_GENERAL                    = Non è possibile aprire il file (${str1}) (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Annullato
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Formato file sconosciuto (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" non è un file archivio."
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Formato file non supportato (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Metodo di cifratura non supportato (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Inserire la password
+TEXT_OPENERR_INVALID_PASSWORD           = La password non è corretta.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Non è possibile aprire questo file poiché l'intestazione è corrotta.
+
+TEXT_ERR_INIT_FAILED                    = Inizializzazione non riuscita.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = La password non è corretta o non vi sono file nell'archivio.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Le password non coincidono.
+TEXT_ERR_PASSWORD_NOT_SET               = È necessaria una password.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = La password contiene dei caratteri non validi. Inserire solo caratteri alfanumerici o speciali.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Dimensione errata del file suddiviso.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = La dimensione dei file auto-estraenti (SFX) è limitata a 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Errore interno
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Non è possibile modificare il file archivio.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Si è verificato un errore durante la modifica dell'archivio.
+TEXT_ERR_INVALID_FOLDER_PATH            = Percorso cartella non valido
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = È possibile modificare solo i file ZIP.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Non è possibile modificare il file suddiviso.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Non è possibile modificare il file auto-estraente (*.exe).
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Non è possibile modificare il file corrotto.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Non è possibile modificare questo formato di archivio.
+TEXT_ERR_CANT_CHANGE_FILENAME           = Non è possibile cambiare il nome di questo file.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Non è possibile usare un nome file con [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = File/cartella già esistente. Non è possibile modificare il nome del file (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Non è possibile creare una cartella.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Nessun file da archiviare.
+TEXT_ERR_INVALID_PARAM                  = Parametro non valido.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Non è possibile aggiungere file all'archivio. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Non è possibile aprire questo archivio [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Cartella già esistente.
+TEXT_ERR_FILENAME_EMPTY                 = Il nome del file non è corretto.
+TEXT_ERR_AT_DRAGANDDROP                 = ""Drag and Drop" non riuscito."
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = ""Drag and Drop" non riuscito. [br]Bandizip ha disabilitato la funzione "Fast Drag and Drop", prova di nuovo."
+TEXT_ERR_AT_CANT_OPEN_MMF               = Non è possibile aprire il file MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Nessun file selezionato
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Non è possibile creare una cartella per l'installazione del pacchetto di icone.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Non è possibile creare un file per l'installazione del pacchetto di icone.
+TEXT_ERR_AT_EXECUTE_DIRECT              = Non è possibile aprire questo file. Estrai il file e prova di nuovo.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Non è possibile creare un file più grande di 4GB.[br]Scegli un formato differente (ZIP o 7Z).
+TEXT_ERR_CANT_SAVE_AS                   = Non è possibile salvare questo file.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip ha incontrato un problema durante la modifica del file.(${str1})[br][br]Vuoi inviare una segnalazione di errore alla Bandisoft?[br][br]L'invio di questa segnalazione aiuta la Bandisoft a migliorare Bandizip.
+
+TEXT_MSG_TEST_OK                        = L'operazione di verifica non ha rilevato errori.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Estrazione non riuscita. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Estrazione completata con successo!
+TEXT_MSG_EXTRACT_CANCELED               = Estrazione annullata.
+TEXT_MSG_COMPRESS_SUCCESS               = Archiviazione completata con successo!
+TEXT_MSG_INTERNAL_ERROR                 = Errore interno.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Non è possibile aprire il seguente file nella cartella temporanea:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Non è possibile eliminare questo file archivio.
+TEXT_MSG_CRASH_REPORT                   = Bandizip ha riscontrato un problema e verrà chiuso.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip ha riscontrato un problema e verrà chiuso.[br]Vuoi inviare una segnalazione di arresto anomalo allo sviluppatore di Bandizip?
+TEXT_MSG_CRASH_REPORT3                  = La seguente libreria DLL è causa di un problema ed è necessario chiudere.[br]Vuoi inviare una segnalazione di arresto anomalo allo sviluppatore di Bandizip?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip non risponde.[br][br]Vuoi inviare una segnalazione di arresto anomalo allo sviluppatore di Bandizip e chiudere il programma?
+TEXT_MSG_SET_TEMP_PATH                  = Impostare una cartella temporanea
+TEXT_MSG_SET_PATH                       = Selezionare una cartella
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Pacchetto di icone installato con successo!
+TEXT_MSG_NOTICE_RESTART                 = Il programma verrà riavviato.
+TEXT_MSG_ARCHVIE_OPENING                = Apertura dell'archivio.
+TEXT_MSG_COMPLETING                     = Completamento: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Non è possibile creare una cartella.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Non è possibile comprimere una cartella in un archivio GZ/XZ.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Non è possibile comprimere più file in un archivio GZ/XZ. Si prega di controllare l'opzione "Comprimi ciascun file o cartella in base al nome".
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip è stato ridotto a icona nell'area di notifica. Clicca sull'icona nell'area di notifica per ripristinarlo.
+TEXT_MSG_TRAY_COMPLETED                 = L'operazione è stata completata.
+TEXT_MSG_BATCH_ARCHVING                 = Archiviazione: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Estrazione: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Verifica: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Eliminazione: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Impossibile eliminare: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Work in progress...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Se i caratteri non sono visualizzati correttamente, clicca su <font color=red><b>Codifica</b></font> e prova con <font color=red><b>Scelta automatica</b></font>.
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = Vuoi aprire i file ${ext} con Bandizip?
+
+TEXT_ASK_DELETE_ARCHIVE                 = Verrà eliminato l'intero archivio.[br]Lo vuoi eliminare?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Vuoi eliminare l'archivio corrente?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Vuoi eliminare definitivamente l'archivio corrente?
+TEXT_ASK_CHANGE_FILENAME                = File già esistente.[br][br]Vuoi cambiare il nome del file da ${str1} a ${str2}?
+TEXT_ASK_DELETE_FILE                    = Vuoi eliminare i file selezionati?
+TEXT_ASK_STOP_EXTRACT                   = Vuoi fermare l'estrazione?
+TEXT_ASK_OVERWRITE_ARCHIVE              = File già esistente.[br][br]Vuoi sovrascrivere il file?
+TEXT_ASK_INIT_SETTING                   = Vuoi reimpostare le opzioni? Bandizip verrà riavviato.
+TEXT_ASK_STOP_ARCHIVING                 = Vuoi fermare l'archiviazione?
+TEXT_ASK_STOP_MODIFYING                 = Vuoi fermare questa operazione?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Vuoi applicare le modifiche al file nell'archivio? [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Sei pronto ad installare e applicare il pacchetto di icone? (${str1})
+TEXT_ASK_MAKE_FOLDER                    = La cartella non esiste. Vuoi crearla?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = La cartella di destinazione non dispone delle autorizzazioni di scrittura.[br][br]- ${str1}[br][br]Vuoi continuare?
+TEXT_ASK_CONT_NOFREESPACE               = La cartella di destinazione non dispone di spazio sufficiente. Cambia la cartella di destinazione. [br][br]- ${str1}[br][br]Vuoi continuare?
+TEXT_ASK_ASK_UAC_ELEVATION              = Non disponi del permesso per modificare questi file. [br][br]Vuoi riavviare il programma come amministratore?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Non è possibile aprire questo file archivio. [br][br]Vuoi aprire la prima parte del file suddiviso? (${str1})
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Se si eliminano i file dopo l'archiviazione, si potrebbero perdere file importanti qualora i file fossero danneggiati.[br][br]Vuoi selezionare l'opzione di "Verifica archivio" ?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Spazio su disco insufficiente per l'estrazione. Si desidera procedere?[br][br]Cartella di destinazione: ${str1}[br]Spazio libero su disco: ${str2}[br]Dimensione del file da estrarre: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Questo file è corrotto
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Il file è corrotto oppure è necessario un altro file suddiviso
+
+TEXT_BTN_PAUSE                          = Pausa
+TEXT_BTN_RESUME                         = Riprendi
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Errore imprevisto
+TEXT_ERRDLG_USER_ABORT                  = Interrotto
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Non è possibile aprire questo file
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Non è possibile aprire questo file poiché è usato da un altro programma
+TEXT_ARKERR_PASSWORD_NOT_SET            = È necessaria una password
+TEXT_ARKERR_INVALID_PASSWD              = Password non valida
+TEXT_ARKERR_USER_ABORTED                = Interrotto
+TEXT_ARKERR_INVALID_FILE_CRC            = Errore CRC
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Non è possibile aprire il file di destinazione
+TEXT_ARKERR_CANT_READ_DATA              = Non è possibile leggere i dati dell'archivio
+TEXT_ARKERR_INFLATE_FAILED              = Errore nei dati - File corrotto
+TEXT_ARKERR_BZIP2_ERROR                 = Errore nei dati - File corrotto
+TEXT_ARKERR_DATA_CORRUPTED              = Il file è corrotto o è necessario un altro file suddiviso
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Non è possibile creare un file di destinazione.
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Non è possibile creare una cartella
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Metodo di compressione non supportato
+TEXT_ARKERR_WRITE_FAIL                  = Errore in scrittura
+TEXT_ARKERR_DISK_FULL                   = Disco pieno
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Creazione del file non riuscita. Il percorso del file e il nome del file non devono superare 260 caratteri.
+TEXT_ARKERR_CANT_CREATE_FILE            = Creazione del file non riuscita
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Creazione del file non riuscita. Esegui il programma come amministratore.
+TEXT_ARKERR_USER_SKIP                   = Saltato
+TEXT_ARKERR_FILE_TRUNCATED              = La fine di questo file è danneggiata o mancante
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = La password non è valida o il file è corrotto
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Questo file è corrotto
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Il file auto-estraente (*.exe) supera i 4GB. Non puoi eseguire i file di 4GB in Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Non è possibile aprire questo file archivio. È necessario il file suddiviso successivo (.z01, .z02...).
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Non è possibile aprire questo file Zip. È necessario il file suddiviso successivo (.z01, .z02...).
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Non è possibile aprire questo file archivio. È necessario un altro file suddiviso.
+TEXT_ARKERR_CORRUPTED_FILE              = Questo file è corrotto
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Non disponi del permesso per scrivere nella cartella di destinazione
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Non disponi del permesso per scrivere in questa cartella. Esegui il programma come amministratore.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Algoritmo di cifratura non supportato
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Memoria insufficiente
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Memoria insufficiente. Cambiare il livello di compressione.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Operazione non supportata
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = La dimensione del file estratto e le informazioni nell'intestazione dell'archivio sono differenti.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Non è possibile comprimere un file più grande di 4GB.
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Il nome troppo lungo del file è stato ridotto automaticamente.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Non è possibile aprire il file sorgente da copiare.
+TEXT_ARKERR_NOTIMPL                     = Non implementato.
+TEXT_ARKERR_CANT_READ_FILE              = Non è possibile leggere il file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Esegui Bandizip come amministratore per creare un collegamento simbolico.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Impossibile creare un collegamento simbolico.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Il file è scrivibile e utilizzato da un altro processo.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Non ci sono file da archiviare.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Nessuna suddivisione
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4,7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Personalizzato
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Nessuna compressione
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Compressione veloce
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Compressione normale
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Compressione massima
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Nuovo archivio
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Aggiungi file all'archivio
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Rinomina: ${str1}
+TEXT_TITLE_TEST_MODE                    = Verifica archivio
+TEXT_TITLE_TEMPFOLDER_MODE              = Estrazione nella cartella temporanea...
+TEXT_TITLE_MODIFYING                    = Elaborazione...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = File da estrarre
+TEXT_MSG_SELECTED_FILE                  = Selezione di ${num1} file
+TEXT_MSG_SELECTED_FOLDER                = ${num1} cartella/e selezionata/e
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} file, ${num2} cartella/e
+TEXT_MSG_SELECTED_FILESIZESUM           = Dimensione dei file selezionati: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Controllo versione fallito
+TEXT_UPDATE_VERSION_CHECKING            = Controllo versione...
+TEXT_UPDATE_DOWNLOAD_FAILED             = Download fallito
+TEXT_UPDATE_LATEST_VERSION              = Aggiornato
+TEXT_UPDATE_DO_DOWNLOAD                 = Nuovo aggiornamento
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Download completato
+
+TEXT_INSTALL_HONEYVIEW                  = Installa Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview non è installato sul tuo computer.
+TEXT_INSTALL_HONEYVIEW_2                = Prova a usare Honeyview sviluppato dalla Bandisoft.<br> Supporta la visualizzazione delle immagini nei file compressi ZIP, RAR o 7z senza estrazione.
+
+TEXT_REGISTRATION_FAILED                = Registrazione non riuscita.[br]Verificare l'indirizzo email e il codice prodotto.
+TEXT_REGISTRATION_SUCCEED               = Bandizip è stato registrato.
+TEXT_REGISTRATION_ASK                   = Sei sicuro di voler deregistrare Bandizip?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip non è registrato.[br]Si prega di acquistare e registrare Bandizip per utilizzarlo senza alcuna funzionalità limitata.
+TEXT_REGISTER_INFO                      = Bandizip è stato registrato dal seguente utente:[br]Indirizzo email: ${str1}[br]Codice prodotto: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = Scansione antimalware dell'archivio
+TEXT_SCAN_AMSI_PROVIDER                 = Inizializzazione di AMSI riuscita
+TEXT_SCAN_COMPLETED                     = La scansione malware è stata completata.
+TEXT_SCAN_MALWARE_DETECTED              = Malware rilevato.
+TEXT_SCAN_MALWARE_NOTDETECTED           = Nessun malware rilevato.
+TEXT_SCAN_MALWARE_TOOBIG                = Scansione non riuscita. Il file è troppo grande.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = Nell'archivio sono stati rilevati dei malware.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= Nell'archivio sono stati rilevati dei malware.[br]L'estrazione è stata annullata.
+TEXT_MSG_MALWARE_TEST_OK                = Nell'archivio non sono stati rilevati dei malware.
+TEXT_MSG_AMSI_INIT_FAILED               = L'inizializzazione di AMSI per la scansione non è riuscita. Visita https://go.bandisoft.com/amsi per i dettagli.
+TEXT_MSG_AMSI_WIN10_NOTICE              = La scansione antimalware è disponibile solo in Windows 10/11. Visita https://go.bandisoft.com/amsi per i dettagli.
+
+[MENU]
+MENUSTR_FILE                            = &File
+MENUSTR_EDIT                            = &Modifica
+MENUSTR_SETTING                         = &Opzioni
+MENUSTR_FIND                            = &Trova
+MENUSTR_VIEW                            = &Visualizza
+MENUSTR_TOOLS                           = &Strumenti
+MENUSTR_HELP                            = &Aiuto
+
+MENUSTR_OPEN                            = Apri archivi&o \tCtrl+O
+MENUSTR_RECENT                          = File recenti
+MENUSTR_CLOSE_FILE                      = &Chiudi archivio \tF4
+MENUSTR_CREATE_ARCHIVE                  = &Nuovo archivio \tCtrl+N
+MENUSTR_NEW_WINDOW                      = Nuova finestra \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Nuova finestra (Amministratore)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Salva con nome
+MENUSTR_DELETE_ARCHIVE                  = Elimina archivio \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Elimina definitivamente l'archivio \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Apri il percorso dell'archivio
+MENUSTR_TEST_ARCHIVE                    = &Verifica archivio \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = Scansione antimalware dell'archivio\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = &Estrai file \tCtrl+E
+MENUSTR_EXIT                            = E&sci \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Rinomina file \tF2
+MENUSTR_ADD_FILE                        = &Aggiungi file \tIns
+MENUSTR_DELETE_FILE                     = &Elimina file \tDel
+MENUSTR_EDIT_COMMENT                    = Commento dell'archivio
+MENUSTR_SETTING_SUB                     = &Impostazioni (F5)
+MENUSTR_REGISTER                        = Registra Bandizip...
+MENUSTR_UNREGISTER                      = Deregistra Bandizip...
+MENUSTR_PASSMAN                         = Gestione password...
+MENUSTR_FIND_ITEM                       = Trova f&ile\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Copia i file negli appunti\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Incolla i file dagli appunti\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = Copia i nomi completi negli appunti
+
+MENUSTR_VIEW_STARTSCREEN                = Schermata Start \tF6
+MENUSTR_VIEW_TREECONTROL                = Albero delle cartelle \tF7
+MENUSTR_VIEW_COMMENT                    = Commento dell'archivio\tF8
+MENUSTR_VIEW_PREVIEW                    = Anteprima immagine
+MENUSTR_VIEW_STATUS_BAR                 = Barra di stato
+MENUSTR_VIEW_TOOLBAR                    = Barra degli strumenti
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Grande
+MENUSTR_VIEW_TOOLBAR_MINI               = Piccola
+MENUSTR_VIEW_TOOLBAR_OLD                = Classica
+MENUSTR_VIEW_TOOLBAR_HIDE               = Nascondi
+MENUSTR_SET_TOOLBAR_ITEM                = Scelta dei pulsanti nella barra
+MENUSTR_VIEW_LISTVIEW                   = Lista file
+MENUSTR_VIEW_LISTVIEW_ICON              = Icone
+MENUSTR_VIEW_LISTVIEW_LIST              = Elenco
+MENUSTR_VIEW_LISTVIEW_REPORT            = Dettagli
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = Icone grandi
+MENUSTR_VIEW_COLUMN                     = Colonne
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Sempre in primo piano
+MENUSTR_VIEW_COLOR_SETTING              = Impostazioni colore...
+
+MENUSTR_TOOLS_REPAIR                    = Riparazione archivio...
+MENUSTR_TOOLS_RECOVERY                  = Recupero password...
+
+MENUSTR_ABOUT                           = &Informazioni su Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Guida on-line
+MENUSTR_OPEN_FOLDER                     = &Apri la cartella di Bandizip
+MENUSTR_FORUM                           = &Forum di Bandizip
+MENUSTR_HOMEPAGE                        = Vai al sito &web
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Dimensione compressa
+POPUPMENU_VIEWITEM_ORIGSIZE             = Dimensione originale
+POPUPMENU_VIEWITEM_KIND                 = Tipo di file
+POPUPMENU_VIEWITEM_DATE_MOD             = Data di modifica
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Metodo di compressione
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Metodo di cifratura
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Attributi
+POPUPMENU_VIEWITEM_COMMENT              = Commento del file
+POPUPMENU_VIEWITEM_EXT                  = Informazioni aggiuntive
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Estrai tutto... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Estrai i file selezionati...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Estrai tutto qui
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Apri\tInvio
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Apri con il programma associato
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Modifica con l'editor\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Apri con &Bandizip
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Nuova cartella
+POPUPMENU_LISTCONTROL_ADD_FILE          = Aggiungi file... \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Elimina file \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Rinomina file
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Seleziona tutto \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Vai alla cartella superiore\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Elimina archivio
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Apri la cartella dell'archivio
+
+POPUPMENU_EXTRACT_AUTODEST              = Estrai qui (Smart)\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Estrai nella cartella corrente\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Estrai in una cartella con il nome dell'archivio
+POPUPMENU_EXTRACT_DESKTOP               = Estrai sul Desktop
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Estrai sul Desktop (Smart)
+
+POPUPMENU_RECENT_CLEAR                  = Elimina cronologia
+POPUPMENU_RECENT_NOITEM                 = Nessun file recente
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Apri con Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Estrai qui (Smart)
+
+POPUPMENU_CODEPAGE_DEFAULT              = Default
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Cinese semplificato
+POPUPMENU_CODEPAGE_TRADCHINESE          = Cinese tradizionale
+POPUPMENU_CODEPAGE_JAPANESE             = Giapponese
+POPUPMENU_CODEPAGE_KOREAN               = Coreano
+POPUPMENU_CODEPAGE_WINDOWS1252          = Europa occidentale
+POPUPMENU_CODEPAGE_WINDOWS1250          = Europa centrale
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cirillico
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turco
+POPUPMENU_CODEPAGE_WINDOWS737           = Greco
+POPUPMENU_CODEPAGE_ARABIC               = Arabo
+POPUPMENU_CODEPAGE_HEBREW               = Ebraico
+POPUPMENU_CODEPAGE_BALTIC               = Lingue baltiche
+POPUPMENU_CODEPAGE_THAI                 = Thai
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = Scelta automatica
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Visualizza con Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Visualizza con il programma associato
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Riduci nell'area di notifica
+DLG_MENUSTR_LOW_PRIORITY                = Priorità bassa
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Elimina l'archivio dopo l'estrazione
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = OK
+IDCANCEL                                = Annulla
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Informazioni su Bandizip
+IDC_BTN_HOMEPAGE                        = Sito web
+IDC_BTN_UPDATE                          = Aggiornamento
+IDC_BTN_REGIST                          = Registra ora
+IDC_BTN_BUY                             = Acquista ora
+IDC_BTN_LEARNMORE                       = Per saperne di più...
+IDC_STATIC_LICENSE                      = Informazioni sulla registrazione di Bandizip
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Apri file
+IDC_STATIC_OPENING                      = Apertura
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Selezionare il percorso di estrazione
+IDC_STATIC_FOLDER                       = &Destinazione:
+IDC_STATIC_FILES2EXTRACT                = Estrai:
+IDC_RADIO_FILES2EXTRACT_0               = &Tutti i file
+IDC_RADIO_FILES2EXTRACT_1               = File &selezionati
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Estrai in una cartella con il nome dell'archivio dentro la cartella selezionata
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = &Elimina l'archivio dopo l'estrazione
+IDC_CHK_REMEMBER_SETTINGS               = &Ricorda le impostazioni
+IDC_BTN_NEWFOLDER                       = &Nuova cartella
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Estrazione
+IDC_BTN_STOP                            = Ferma
+IDC_BTN_CLOSE                           = Chiudi
+IDC_BTN_PAUSE                           = Pausa
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Nuovo archivio
+IDC_STATIC_FILE_LIST                    = Aggiungi file all'archivio
+IDC_STATIC_ARCHIVE_SETTING              = Impostazioni
+IDC_STATIC_ARCHIVE_NAME                 = Nome file
+IDC_STATIC_SET_DEST_FOLDER              = Cartella di destinazione
+IDC_STATIC_ARCHIVE_TYPE                 = Formato dell'archivio
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Dividi in volumi
+IDC_STATIC_COMPRESSION_METHOD           = Livello di compressione
+IDC_STATIC_HELP_SPLIT                   = [Aiuto]
+IDC_STATIC_HELP_7Z                      = [Formato 7Z]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Sfoglia...
+IDC_BTN_SET_PASSWORD                    = Imposta &password
+IDC_BTN_TEST_ARCHIVE                    = &Verifica archivio
+IDC_BTN_DELETE_SRC                      = Elimina i file dopo l'archiviazione
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Comprimi ciascun file o cartella in base al nome
+IDC_BTN_SET_DEST_FOLDER                 = Cambia la cartella di destinazione
+IDC_BTN_TOGGLE_ADVANCED                 = Più opzioni
+IDC_BTN_SET_SFX                         = Impostazioni SFX
+IDC_BTN_ADD                             = &Aggiungi...
+IDC_BTN_DEL                             = &Elimina
+IDC_BTN_START                           = Avvi&o
+IDC_BTN_COMP_ADVANCED                   = Avanzate
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = Impostazioni di compressione ZIP/ZIPX
+IDC_AA_ZIP_ALGO                         = Metodo di compressione
+IDC_AA_ZIP_ENC                          = Metodo di cifratura
+IDC_AA_ZIP_THREAD                       = Numero di thread della CPU
+COMBO_TEXT_THREAD_AUTO                  = Auto
+IDC_CHK_ZIP_STORESYMLINK                = Archivia i link simbolici
+IDC_CHK_ZIP_COMMENT                     = Includi il commento
+IDD_AA_7Z                               = Impostazioni di compressione 7Z
+IDC_AA_7Z_ALGO                          = Metodo di compressione
+IDC_AA_7Z_SOLID                         = Dimensione del blocco solido
+IDC_CHK_7Z_ENC_FILENAMES                = Cifratura dei nomi file
+IDD_AA_TAR                              = Impostazioni di archiviazione TAR
+IDC_CHK_TAR_SYMLINK                     = Includi i collegamenti simbolici (symbolic links)
+IDC_CHK_TAR_HARDLINK                    = Includi i collegamenti fisici (hard links)
+COMBO_TEXT_SOLID_NONE                   = Non solido
+COMBO_TEXT_SOLID_SOLID                  = Solido
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Inserire password
+IDC_STATIC_DESC_ARCHIVING               = Inserire una password per l'archivio. Si consiglia una password di almeno 8 caratteri per una migliore sicurezza.
+IDC_STATIC_DESC_MASTERPASS              = Inserire una password principale per la gestione delle password. Si consiglia una password di almeno 8 caratteri per una migliore sicurezza.
+IDC_STATIC_DESC_EXTRACT                 = Inserire la password per il file cifrato.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Password non valida. Reinserire la password.
+IDC_STATIC_PWD                          = Inserire password
+IDC_STATIC_PWD2                         = Reinserire password
+IDC_BTN_SHOW_PASSWORD                   = Mostra la password
+IDC_BTN_PASSMAN                         = Gestione password...
+IDC_CHECK_APPLY_ALL                     = &Applica a tutto
+IDC_STATIC_PASS_RECOVERY                = Hai scordato la password? Prova a usare il Recupero password di Bandizip.
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Gestione password
+TEXT_MSG_CORRUTP_DATA                   = I dati delle password memorizzate sono stati danneggiati.
+TEXT_PASSMAN_WARNING1                   = Se non viene impostata la password principale, le password memorizzate nella gestione password non vengono cifrate.
+TEXT_PASSMAN_WARNING2                   = È necessario prestare attenzione se si utilizza questa funzione su un computer pubblico o condiviso.
+LIST_PASS_HEADER1                       = Password
+LIST_PASS_HEADER2                       = Nome mostrato
+IDC_BTN_ADD                             = Aggiungi
+IDC_BTN_DEL                             = Elimina
+IDC_BTN_EDIT                            = Modifica
+IDC_BTN_SET_MASTERPASS                  = Imposta password principale
+IDC_BTN_DEL_MASTERPASS                  = Rimuovi password principale
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Inserire la password principale
+IDC_STATIC_MASTPASS_MSG                 = Inserire la password principale per accedere alla gestione password. La reimpostazione elimina tutte le informazioni sulle password memorizzate.
+IDC_BTN_INITPASSMAN                     = Reimposta
+TEXT_ASK_INIT_PASSMAN                   = Sei sicuro di voler eliminare tutte le informazioni sulle password?
+IDC_BTN_SHOW_PASSWORD                   = Mostra la password
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Informazioni sulla password
+IDC_STATIC_PASSWORD                     = Password
+IDC_STATIC_DISPNAME                     = Nome mostrato (facoltativo)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Seleziona
+IDC_BTN_OPEN                            = Apri
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Archiviazione
+TEXT_ARCHIVE_TESTING                    = Verifica
+IDC_BTN_STOP                            = Ferma
+IDC_BTN_CLOSE                           = Chiudi
+IDC_BTN_PAUSE                           = Pausa
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = File duplicati
+IDC_STATIC_DUPE_MESSAGE                 = File già esistente
+IDC_STATIC_DUPEFILE_OLD                 = File esistente
+IDC_STATIC_DUPEFILE_NEW                 = File da comprimere
+IDC_STATIC_DUPE_ASK                     = Scelta opzione:
+IDC_RADIO_DUPE_METHOD0                  = &Salta
+IDC_RADIO_DUPE_METHOD1                  = S&ovrascrivi
+IDC_RADIO_DUPE_METHOD2                  = &Rinomina
+IDC_CHECK_DUPE_APPLY_ALL                = &Applica a tutti i file
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Selezionare un'opzione per l'archivio
+IDC_STATIC_ASK_HANDLING                 = Scelta opzione:
+IDC_RADIO_HANDLE_METHOD0                = Apri archivi&o
+IDC_RADIO_HANDLE_METHOD1                = &Nuovo archivio
+IDC_RADIO_HANDLE_METHOD2                = &Aggiungi file all'archivio corrente
+IDC_CHK_PASS                            = Usa password
+IDC_STATIC_PASSWORD_AGAIN               = Reinserire la password
+IDC_CHK_SHOW_PASS                       = Mostra la password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Impostazioni
+IDC_BTN_INIT                            = Ripristina
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Impostazioni generali
+IDC_CHK_EXIT_WITH_ESC                   = Tasto ESC per chiudere il programma
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Verifica sempre gli archivi dopo l'aggiunta/eliminazione/rinomina dei file
+IDC_CHK_SNAP                            = Usa le funzionalità di ancoraggio delle finestre
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Mostra la cartella [..] nell'archivio
+IDC_CHK_SHOW_GRID_AT_LIST               = Mostra la griglia nella visualizzazione dei dettagli
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Selezione a riga intera
+IDC_CHK_ONE_CLICK_ACTIVATE              = Clic singolo per aprire un elemento nell'archivio
+IDC_STATIC_UPDATE                       = Opzioni di aggiornamento
+TEXT_UPDATE_0                           = Notifica e installa l'ultima versione
+TEXT_UPDATE_1                           = Notifica e installa solo le versioni stabili
+TEXT_UPDATE_2                           = Non notificare gli aggiornamenti
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Associazioni file
+IDC_BTN_SELECT_MANDATORY                = Seleziona essenziali
+IDC_BTN_SELECT_ALL                      = Seleziona tutto
+IDC_BTN_CLEAR_ALL                       = Deseleziona tutto
+IDC_BTN_APPLY_NOW                       = Applica
+IDC_STATIC_ICON_PACK                    = Scegli il pacchetto di icone:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Scarica il pacchetto di icone]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - Imposta programmi predefiniti
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Associazione delle estensioni
+;IDC_STATIC_ASSOC_DESC1                 = Nelle versioni di Windows 8, puoi associare i file nel seguente modo:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Clicca sul pulsante "Impostazioni associazioni" sottostante.
+;IDC_STATIC_ASSOC_DESC3                 = 2. Scegli "Seleziona tutto" nella finestra delle impostazioni associazioni del programma
+;IDC_STATIC_ASSOC_DESC4                 = 3. Clicca sul pulsante "Salva".
+;IDC_STATIC_ASSOC_DESC1_10              = Nelle versioni di Windows 10, puoi associare i file nel seguente modo:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Clicca sul pulsante "Impostazioni associazioni" sottostante.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Seleziona "Bandizip" nella finestra Imposta programmi predefiniti.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Clicca su "Imposta questo programma come predefinito".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Impostazioni associazioni
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Metodo classico
+LIST_COLUMN0                            = Estensione
+LIST_COLUMN1                            = App predefinita
+IDC_BTN_CHANGE                          = Cambia
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Azione da eseguire con il doppio clic
+IDC_RADIO_SHELL_OPEN_0                  = Apri con Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Estrai qui (Smart)
+IDC_RADIO_SHELL_OPEN_2                  = Mostra il menu contestuale
+IDC_RADIO_SHELL_OPEN_3                  = Estrai nella cartella indicata (Smart)
+IDC_BTN_SET_EXTRACT_FOLDER              = Sfoglia...
+IDC_RADIO_SHELL_OPEN_4                  = Estrai in una cartella con il nome dell'archivio
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Elimina l'archivio dopo l'estrazione con il doppio clic
+
+IDC_STATIC_SHELL_EXTRACT                = Menu di estrazione
+IDC_CHK_SHELL_EXTRACT_HERE              = Estrai qui
+IDC_CHK_SHELL_EXTRACT_AUTO              = Estrai qui (Smart)
+IDC_CHK_SHELL_EXTRACT_SUB               = Estrai in una cartella con il nome dell'archivio
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Estrai qui ed elimina
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Estrai qui (Smart) ed elimina
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Estrai in una cartella con il nome dell'archivio ed elimina
+IDC_CHK_SHELL_EXTRACT_DLG               = Estrai in un'altra cartella
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Estrai come amministratore
+IDC_CHK_SHELL_TEST_ARCHIVE              = Verifica archivio
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Apri con Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Anteprima archivio
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Numero di file in anteprima:
+IDC_CHK_SHELL_PREVIEW_TREE              = Anteprima archivio con struttura ad albero
+
+IDC_STATIC_SHELL_ARCHIVING              = Menu di compressione
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Comprimi in "NomeFile.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Comprimi in "NomeFile.zip" ed elimina
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Comprimi in "NomeFile.zip" e invia per email
+IDC_CHK_SHELL_ADD_TO_ZIP                = "Aggiungi a "NomeFile.zip""
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Comprimi in "NomeFile.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Comprimi in "NomeFile.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Comprimi in "NomeFile.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Comprimi in "NomeFile.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Comprimi in "NomeFile.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Comprimi in "NomeFile.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Comprimi in "NomeFile.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Comprimi in "NomeFile.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Comprimi in "NomeFile.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Comprimi in "NomeFile.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "Comprimi ciascuno in "NomeFile/Cartella.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Comprimi ciascuno in "NomeFile/Cartella.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Crea un archivio (Bandizip)...
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Comprimi come amministratore
+IDC_CHK_SHELL_ARCHIVING_RULE            = Comprimi in un file con nome personalizzato
+IDC_STATIC_FILENAME_RULE_HELP           = Regole: ${NAME}=Nome file, %Y=Anno, %m=Mese, %d=Giorno, %H=Ora, %M=Minuti, %S=Secondi
+
+IDC_STATIC_SHELL_BKGND                  = Elementi aggiuntivi del menu contestuale di Windows
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = "Aggiungi la funzione "Nuova cartella""
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = ""Avvia il prompt dei comandi" (cmd.exe) - Premere Shift per aprire cmd.exe come amministratore"
+
+IDC_STATIC_SHELL_ETC                    = Altro
+IDC_CHK_SHELL_DO_NOT_USE                = Disattiva il menu contestuale
+IDC_CHK_SHELL_AS_SUB_MENU               = Menu contestuale a cascata
+IDC_CHK_SHELL_HIDE_ICON                 = Nascondi l'icona di Bandizip
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Riconosci l'archivio controllandone il contenuto
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Mostra il menu di archiviazione anche per i file archivio
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Usa il nome del file/cartella selezionato dal cursore del mouse durante la selezione di più file/cartelle
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Aggiunta diretta di file mediante il loro trascinamento sull'archivio ZIP
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Impostazioni di estrazione
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Se nell'archivio è presente una sola cartella, mostra i file della cartella
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Apri la cartella dopo l'estrazione
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Non chiudere la finestra di avanzamento dopo l'estrazione
+IDC_CHK_FAST_DRAG_DROP                  = Usa la funzione 'Fast Drag and Drop' per l'estrazione dei file grandi
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Apri ed estrai i file TGZ e TBZ in un singolo passaggio
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Anche per i file TGZ e TBZ di grandi dimensioni
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = "Estrai in nuova cartella anche se c'è un solo file archiviato quando si utilizza 'Estrai qui (Smart)'"
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Rileva automaticamente la pagina di codice Macintosh
+IDC_CHK_UNIXZIP_AS_UTF8                 = Usa la pagina di codice UTF-8 durante l'apertura dei file zip di UNIX
+IDC_CHK_PARALLEL_EXT                    = Usa l'estrazione parallela quando possibile
+IDC_STATIC_CODEPAGE                     = Pagina di codice predefinita:
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Scompatta l'intero archivio per aprire con il doppio clic i seguenti tipi di file archiviati
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Impostazioni di compressione
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Non includere il nome della cartella quando viene compressa una sola cartella dal menu contestuale
+IDC_CHK_USE_UTF8_COMPRESS               = Usa la codifica Unicode per i nomi dei file negli archivi Zip (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Scrivi i nomi Unicode dei file nel campo d'intestazione extra degli archivi Zip (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Usa la codifica Unicode per i nomi dei file negli archivi tar/tgz (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Usa sempre il formato ZIP64 anche se la dimensione del file è minore di 2GB (non consigliato)
+IDC_CHK_EXCLUDE_THUMBSDB                = Escludi i file come Thumbs.db durante l'archiviazione
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Salva le informazioni dei tempi NTFS durante la creazione dei file Zip
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = "Usa la funzione 'High-Speed Archiving'"
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Non chiudere la finestra di avanzamento dopo l'archiviazione
+IDC_STATIC_COMPRESSION_METHOD           = Livello di compressione
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Verifica l'archivio dopo la compressione
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Per un nuovo archivio usa l'ultima cartella utilizzata
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Per un nuovo archivio usa la cartella predefinita
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Sfoglia...
+IDC_CHK_EXCLUDE_FILTER                  = Tipi di file da escludere durante l'archiviazione
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Visualizza
+IDC_CHK_SHOW_PREVIEW                    = Anteprima immagine senza estrazione
+IDC_CHK_SHOW_FOLDER_SIZE                = Mostra la dimensione compressa e originale delle cartelle
+IDC_CHK_SET_LISTCONTROL_FONT            = Imposta il carattere per l'elenco dei file
+IDC_BTN_SET_FONT                        = Imposta carattere...
+
+IDC_STATIC_SETTING_VIEWITEM             = Colonne
+IDC_CHK_VIEWITEM_COMPSIZE               = Dimensione compressa
+IDC_CHK_VIEWITEM_ORIGSIZE               = Dimensione originale
+IDC_CHK_VIEWITEM_KIND                   = Tipo di file
+IDC_CHK_VIEWITEM_DATE_MOD               = Data di modifica
+IDC_CHK_VIEWITEM_COMPMETHOD             = Metodo di compressione
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Metodo di cifratura
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Attributi
+IDC_CHK_VIEWITEM_COMMENT                = Commento del file
+IDC_CHK_VIEWITEM_EXT                    = Informazioni aggiuntive
+
+IDC_STATIC_IMAGE_VIEWER                 = Visualizzatore immagini
+IDC_RADIO_IMAGE_VIEWER_0                = Usa il visualizzatore immagini interno
+IDC_RADIO_IMAGE_VIEWER_1                = Usa il programma associato
+IDC_RADIO_IMAGE_VIEWER_2                = Usa Honeyview se installato
+
+IDC_STATIC_EDITOR                       = Editor di modifica
+IDC_BTN_SET_EDITOR_PATH                 = Sfoglia...
+
+IDC_STATIC_COLOR                        = Colore
+IDC_STATIC_COLOR_THEME                  = Colore del tema
+IDC_BTN_BKGND                           = Selezionato
+IDC_STATIC_COLOR_TEXT                   = Colore dei caratteri
+IDC_STATIC_COLOR_TEXT_AUTO              = Automatico
+IDC_STATIC_COLOR_TEXT_WHITE             = Bianco
+IDC_STATIC_COLOR_TEXT_BLACK             = Nero
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Impostazioni di sicurezza
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Durante l'estrazione copia le informazioni Zone.Identifier di un archivio scaricato da Internet
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Controllo malware prima dell'estrazione
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Esporta le impostazioni di Bandizip
+IDC_STATIC_ETC                          = Impostazioni avanzate
+IDC_CHK_SET_TEMP_FOLDER                 = Percorso della cartella temporanea
+IDC_BTN_SET_TEMP_FOLDER                 = Sfoglia...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Riconosci i seguenti tipi di file come file archivio
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Elimina i file temporanei al termine del processamento
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Sposta i file nel cestino dopo l'eliminazione
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Mostra l'elenco dei file aperti di recente
+IDC_CHK_USE_LONG_PATH_NAME              = Accetta i nomi dei percorsi più lunghi di 260 caratteri
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Permetti a Windows di eliminare i file archivio aperti
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Espandi automaticamente l'albero delle cartelle
+IDC_CHK_USE_MODAL_DIALOG                = Usa una finestra di dialogo modale durante l'archiviazione/estrazione
+IDC_CHK_USE_ELEGANT_UI                  = Usa interfaccia con design elegante
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Mostra la 'Schermata Start' all'avvio di Bandizip
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Visualizza il percorso completo nella barra del titolo
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Elimina i file estratti quando l'estrazione viene annullata
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Durante l'estrazione copia le informazioni Zone.Identifier di un archivio scaricato da Internet
+IDC_CHK_USE_SET_END_OF_FILE             = Pre-alloca lo spazio su disco per i file di destinazione
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Comprimi un file anche se è utilizzato da un altro processo
+IDC_CHK_DO_NOT_USE_RICHEDIT             = Non usare il controllo Rich Edit
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Opzioni lingua
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Vuoi partecipare alla traduzione di questo programma? Clicca qui...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = Impostazioni SFX (Archivio auto-estraente)
+IDC_STATIC_TARGET_PATH                  = Percorso di estrazione:
+IDC_STATIC_TITLE                        = Titolo del file SFX:
+IDC_STATIC_RUN                          = Dopo l'estrazione esegui:
+IDC_STATIC_MESSAGE                      = Messaggio del file SFX:
+IDC_CHK_AUTO_CLOSE                      = Chiudi la finestra SFX dopo l'estrazione
+IDC_BTN_SAVE_SFX_SETTING                = Salva impostazioni
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Trova file
+IDC_STATIC_FIND                         = Ricerca con:
+IDC_BTN_CLOSE                           = Chiudi
+IDC_BTN_DELETE                          = Elimina
+IDC_BTN_EXTRACT                         = Estrai
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Commento dell'archivio
+IDC_STATIC_COMMENT                      = Aggiungi/modifica il commento di questo archivio
+IDC_CHK_USE_UTF8                        = Salva il commento in Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Carica il commento dal file... (*.txt)
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = ATTENZIONE
+IDC_STATIC_WARN_EXECUTABLE              = Questo file è un file eseguibile. L'esecuzione di questo programma potrebbe danneggiare il computer. Vuoi continuare?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Non chiedere di nuovo
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Registra Bandizip
+IDC_STATIC_DESC1                        = Inserire l'indirizzo email e il codice prodotto ricevuto tramite email.
+IDC_STATIC_EMAIL                        = Indirizzo email
+IDC_STATIC_PRDUCT_KEY                   = Codice prodotto
+IDC_BTN_REGISTER                        = Registra ora
+IDC_STATIC_BUYNOW                       = Non hai ancora comprato Bandizip? [Compra ora]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Guida per la licenza di Bandizip
+TEXT_LIMIT_PASSMAN                      = Nella gestione password dell'edizione standard di Bandizip può essere memorizzata solo una password.
+TEXT_SHOW_AD                            = Le pubblicità compaiono nell'edizione standard di Bandizip.[br]È possibile acquistare l'edizione a pagamento per rimuovere gli annunci.
+TEXT_CANNOT_CHANGE                      = Questa funzione non può essere modificata nell'edizione standard di Bandizip.[br]È possibile acquistare l'edizione a pagamento per modificare la funzione.
+TEXT_CANNOT_USE                         = Questa funzione non è disponibile nell'edizione standard di Bandizip.[br]È possibile acquistare l'edizione a pagamento per usare la funzione.
+TEXT_PORTABLE_NOTICE                    = Questa funzione non è disponibile nell'edizione portabile di Bandizip.[br]È possibile acquistare l'edizione a pagamento per usare la funzione.
+IDC_STATIC_COMPARISON                   = Confronto tra le edizioni...
+IDC_STATIC_HOWTOREGISTER                = Hai già acquistato Bandizip? [Come registrarsi]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Riparazione archivio
+IDC_STATIC_SRC                          = File da riparare
+IDC_STATIC_DST                          = File riparato
+IDC_BTN_START                           = Avvia riparazione
+IDC_BTN_TEST                            = Test di riparazione
+IDC_BTN_STOP                            = Ferma
+TEXT_NOTICE                             = Sfoglia e seleziona il file da riparare, poi premi su "Avvia riparazione".
+TEXT_ERR_OCCURRED                       = Si è verificato un errore.
+TEXT_ERR_NOT_A_ZIP                      = Il file selezionato ha un formato non supportato. Attualmente è utilizzabile solo il formato ZIP.
+TEXT_ERR_NO_INFO                        = Il file selezionato non ha dati da riparare.
+TEXT_MSG_START                          = Riparazione iniziata.
+TEXT_MSG_FINISH                         = Riparazione completata.
+TEXT_MSG_ANALYZING                      = Analisi in corso...
+TEXT_MSG_CANCELED                       = Riparazione annullata.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Selezionare un file (.zip) prima di avviare la riparazione.
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = Più di un Bandizip è installato sul sistema. Si prega di eliminarne uno per prevenire problemi.
+CMD_UNINST_MSSTORE                      = Disinstalla Bandizip MSE
+CMD_UNINST_PROGFILES                    = Disinstalla Bandizip
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Apri
+$TOOLBAR_CLOSE_FILE                     = Chiudi
+$TOOLBAR_EXTRACT_FILE                   = Estrai
+$TOOLBAR_CREATE_ARCHIVE                 = Nuovo
+$TOOLBAR_DELETE_FILE                    = Elimina
+$TOOLBAR_ADD_FILE                       = Aggiungi
+$TOOLBAR_TEST_ARCHIVE                   = Verifica
+$TOOLBAR_CODEPAGE                       = Codifica
+$TOOLBAR_VIEWITEM                       = Colonne
+$TOOLBAR_SCAN                           = Scansione
+
+$TOOLBAR_OPEN2                          = Apri archivio
+$TOOLBAR_CREATE_ARCHIVE2                = Nuovo archivio
+
+$TEXT_DESKTOP                           = Desktop
+$TEXT_DOCUMENT                          = Documenti
+$TEXT_PICTURE                           = Immagini
+$TEXT_COMPUTER                          = Computer
+
+$TEXT_SETTINGTAB_GENERAL                = Generale
+$TEXT_SETTINGTAB_ASSOC                  = Associazioni
+$TEXT_SETTINGTAB_SHELL                  = Menu contestuale
+$TEXT_SETTINGTAB_EXTRACT                = Estrazione
+$TEXT_SETTINGTAB_ARCHIVE                = Compressione
+$TEXT_SETTINGTAB_VIEWER                 = Visualizzazione
+$TEXT_SETTINGTAB_SECURITY               = Sicurezza
+$TEXT_SETTINGTAB_ETC                    = Avanzate
+$TEXT_SETTINGTAB_LANG                   = Lingua
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Apri il percorso dei file
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Apri il percorso dell'archivio
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Apri il percorso dei file dopo l'estrazione
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Apri il percorso dell'archivio
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Apri la cartella di destinazione
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Non chiudere questa finestra dopo l'estrazione
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Non chiudere questa finestra dopo l'archiviazione
+$TOOLTIP_ADVANCED_MENU                  = Impostazioni varie
+$TOOLTIP_REGISTER                       = Registra Bandizip
+$TOOLTIP_UPDATE                         = Aggiorna
+$TOOLTIP_PREVIEW                        = Visualizza icone grandi
+$TOOLTIP_REPORT                         = Visualizza dettagli
+
+$TEXT_INSTALL_START                     = OK, lo proverò
+$TEXT_INSTALL_CLOSE                     = Chiudi
+$TEXT_INSTALL_HONEYVIEW_LINK            = Vedi altro...
+
+$TEXT_HELP_PAGE                         = Pagina di aiuto
+$TEXT_AD                                = Pubblicità
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Bandizip - Recupero password
+TEXT_MSG_OPENING                        = Apertura dell'archivio: ${str1}
+TEXT_MSG_CANCELED                       = L'apertura dell'archivio è stata annullata.
+TEXT_MSG_BROKEN                         = L'archivio è stato danneggiato.
+TEXT_MSG_NO_PASSWD                      = In questo archivio non è presente la password.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = L'intestazione del file archivio è cifrata; questo tipo di archivio non è al momento supportato.
+TEXT_MSG_OPEN_FIRST                     = Apri un archivio prima di iniziare il recupero.
+TEXT_MSG_CANT_OPEN                      = Impossibile aprire l'archivio. (Codice:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = Selezionare i tipi di caratteri per il recupero.
+TEXT_MSG_INIT_FAIL                      = Inizializzazione non riuscita.
+TEXT_MSG_NOT_FOUND                      = Recupero non riuscito. Con l'edizione standard di Bandizip la password da recuperare non può superare la lunghezza massima di 4 caratteri.
+TEXT_MSG_FILE2FINDPWD                   = I file elencati saranno processati per il recupero.
+TEXT_MSG_ERRORATFINDINDEX               = Impossibile trovare dei file da recuperare.
+TEXT_MSG_COPY2CLIPBOARD                 = La password recuperata è stata copiata negli appunti.
+TEXT_STATE_MSG_READY                    = Premere AVVIO per iniziare il recupero.
+TEXT_STATE_MSG_WORKING                  = Recupero della password in corso...
+TEXT_STATE_MSG_PAUSING                  = In pausa
+TEXT_STATE_MSG_STOPPING                 = Annullamento...
+TEXT_STATE_MSG_FOUND                    = La password di ${num1} caratteri è stata recuperata in ${str1} secondi. (${str2})
+TEXT_ASK_EXIT                           = Sei sicuro di voler uscire?
+TEXT_COMBO_THREAD_AUTO                  = Auto
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = Impostazioni
+IDC_STATIC_MULTI_CORE                   = Processamento multi-core
+IDC_STATIC_MULTI_CORE_DESC              = Specificare il numero di thread da usare per il recupero. Si raccomanda di selezionare "Auto" o un numero più piccolo del numero di core della CPU installata sul sistema.
+IDC_STATIC_PREP_POSTP                   = Prefisso
+IDC_STATIC_PREP                         = Prefisso
+IDC_STATIC_PREP_DESC                    = Aggiungi il prefisso all'inizio delle password prima di processarle, ad es. http://www.
+IDC_STATIC_SPECIFY                      = Caratteri da specificare
+IDC_STATIC_ETC                          = Varie
+IDC_CHK_USE_SIGNATURE_BY_EXT            = Usa l'estensione dei file per un recupero più veloce.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = Apri
+$STEP_2                                 = Verifica
+$STEP_3                                 = Imposta
+$STEP_4                                 = Recupera
+$STEP_5                                 = Fine
+$FILE_PATH_NAME                         = Posizione
+$BTN_NEXT_PAGE                          = Avanti >
+$BTN_PREV_PAGE                          = < Indietro
+$BTN_OK                                 = OK
+$BUTTON_BUY_NOW                         = Compra l'edizione professionale di Bandizip
+$STATIC_OPEN_DESC                       = Fare clic su "Apri" per sfogliare e selezionare un archivio cifrato.<br> Si può anche trascinare l'archivio direttamente su questa finestra di dialogo.
+$STATIC_PRICE_DESC1                     = Guida sulla licenza di Bandizip
+$STATIC_PRICE_DESC2                     = Il recupero della password è disponibile soltanto nell'edizione professionale di Bandizip.[br]La password da recuperare non può superare la lunghezza massima di 4 caratteri nell'edizione standard di Bandizip.
+$STATIC_FILELIST_DESC                   = In questo archivio sono contenuti i seguenti file. Verificali e premi su Avanti.
+$FILELIST_HEADER_NAME                   = Nome
+$FILELIST_HEADER_SIZE                   = Dimensione
+$FILELIST_HEADER_DATE                   = Data di modifica
+$FILELIST_HEADER_METHOD                 = Metodo di compressione
+$FILELIST_HEADER_PWMETHOD               = Metodo di cifratura
+$STATIC_SYMBOL_DESC                     = Specificare i tipi di caratteri usati nella password da cercare.<br>Con la selezione di più o tutti i tipi, il recupero può richiedere tempi più lunghi.
+$STATIC_CUR_PASSWORD                    = Elaborazione in corso
+$STATIC_CUR_PASSLEN                     = Lunghezza
+$STATIC_ELAPSED                         = Tempo trascorso
+$STATIC_SPEED                           = Velocità di elaborazione
+$STATIC_CLIPBOARD_DESC                  = Copia negli appunti la password recuperata.
+$BUTTON_STOP                            = Annulla
+$BUTTON_START                           = AVVIO
+$IDC_BTN_PAUSE                          = Pausa
+$IDC_BTN_UNPAUSE                        = Riavvia
+$IDC_BTN_OPEN                           = Apri
+$IDC_BTN_SETTING                        = Avanzate
+$IDC_BTN_COPY2CLIPBOARD                 = Copia
+$IDC_BTN_CANCEL_PAYMENT                 = Reinizia
+$BUTTON_HELP_PAGE                       = Aiuto sul tempo stimato
+$CHECK_SYMBOL_NUM                       = Numeri (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = Minuscole (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = Maiuscole (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = Caratteri speciali (!@#$...)
+$CHECK_SYMBOL_SPACE                     = Spazio
+$CHECK_SYMBOL_ALL                       = Tutti
+$CHECK_SYMBOL_SPECIFIED                 = Caratteri specificati
+$FOUNDED_PASSWORD                       = La password recuperata è...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Nuova cartella
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Nuova cartella
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Apri con Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Verifica archivio
+TEXT_MENU_LAUNCH_CMD                    = Avvia il &prompt dei comandi
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Avvia il prompt dei comandi (Ammin.)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = "Comprimi ciascuno in "NomeFil&e/Cartella.zip""
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Comprimi ciascuno in "NomeFile/Cartella.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Comprimi in "${str1}" ed elimina.
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Comprimi in "${str1}" e invia per ema&il...
+TEXT_MENU_ADD_TO_ZIP                    = "Aggiungi a "${str1}""
+TEXT_MENU_ARCHIVE_ZIPX                  = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Comprimi in "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Comprimi ciascuno in "NomeFile.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Comprimi ciascuno in "NomeFile.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Comprimi in "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Crea un archivio (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Comprimi come amministratore (&Y)
+
+TEXT_MENU_EXTRACT_HERE                  = &Estrai qui
+TEXT_MENU_EXTRACT_AUTO                  = Estrai qui (&Smart)
+TEXT_MENU_EXTRACT_AUTO_EACH             = Estrai ciascun archivio qui (&Smart)
+TEXT_MENU_EXTRACT_SUB                   = Estrai in cartelle separate
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Es&trai in ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Estrai in un'altra cartella...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Estrai come amministratore
+TEXT_MENU_EXTRACT_HERE_DEL              = Estrai qui ed elimina
+TEXT_MENU_EXTRACT_AUTO_DEL              = Estrai qui (Smart) ed elimina
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Estrai ciascun archivio qui (Smart) ed elimina
+TEXT_MENU_EXTRACT_SUB_DEL               = Estrai in cartelle separate ed elimina
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Estrai in ${str1}\ ed elimina
+
+TEXT_MENU_PREVIEW                       = Anteprima dell'archivio:
+TEXT_MENU_PREVIEW_BROKEN                = Questo file ha un formato [br]   sconosciuto o corrotto
+TEXT_MENU_PREVIEW_TIMEOUT               = La richiesta è scaduta.
+TEXT_MENU_PREVIEW_EMPTY                 = Archivio vuoto
+TEXT_MENU_PREVIEW_ENCRYPTED             = Il nome del file è cifrato
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Non è possibile usare la funzione di anteprima dell'archivio. [br][br]Riavviare Esplora file di Windows oppure [br]Riavviare il computer.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Non è possibile leggere la lista dei file
+
+TEXT_MENU_OPENING                       = Apertura...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Aggiornamenti di Bandizip
+TEXT_UPDATER_TEXT1                      = È disponibile un aggiornamento di Bandizip.
+TEXT_UPDATER_TEXT_DL                    = Vuoi eseguire l'aggiornamento adesso?
+TEXT_UPDATER_BTN_UPDATE                 = Aggiorna
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Annulla
+TEXT_UPDATER_DOWNLOAD_ERROR             = Download fallito
+TEXT_UPDATER_SETTING_UPDATE             = Impostazioni
+TEXT_UPDATER_SETTING_SKIPTHIS           = Ignora questa versione
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Percorso di destinazione:
+BTN_SELECT_FOLDER                       = Sfoglia...
+BTN_EXTRACT                             = Avvia
+BTN_CLOSE                               = Chiudi
+BTN_CANCEL                              = Annulla
+BTN_OPEN_FOLDER                         = Apri
+CHK_OVERWRITE                           = Sovrascrivi
+ERR_ERROR_OCCURRED                      = Errore imprevisto
+ERR_INVALID_PASSWORD                    = Password non valida
+ASK_OVERWRITE                           = File già esistente. Vuoi sovrascriverlo?
+MSG_COMPLETED                           = Estrazione completata con successo!
+IDD_PASSWORD                            = Inserire la password
+IDC_STATIC_PASSWORD_MSG                 = Questo file è cifrato.
+IDC_BTN_SHOW_PASSWORD                   = Mostra la password
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Non è possibile estrarre i file.
+TEXT_ERR_CRC                            = Errore CRC.
+TEXT_ERR_INVALID_PASSWD                 = Password non valida.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Installazione di ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = Disinstallazione di ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Clicca su Disinstalla per eseguire la disinstallazione
+
+$BTN_CLOSE                              = Chiudi
+$BTN_CANCEL                             = Annulla
+$BTN_INSTALL                            = Accetto e installa
+$BTN_UNINSTALL                          = Disinstalla
+$BTN_OPEN_LICENSE                       = [Visualizza l'accordo di licenza]
+$BTN_HELP_LINK                          = [Aiuto]
+
+$TEXT_PATH                              = Cartella di destinazione
+$TEXT_INSTALL_STATIC                    = Installazione...
+$TEXT_INST_COMPLETED                    = Installazione completata
+$TEXT_INST_FAILED                       = Installazione non riuscita
+$TEXT_UNINSTALLING                      = Disinstallazione...
+
+$CHK_AUTO_REPORT                        = Invia automaticamente le statistiche sull'utilizzo e le segnalazioni degli arresti anomali.
+$EMAIL                                  = Indirizzo email
+$PRODUCT_KEY                            = Codice prodotto
+
+ERR_CANT_CREATE_FOLDER                  = Impossibile creare la cartella: ${str1}
+ERR_CANT_OPEN_FILE                      = Impossibile aprire il file: ${str1}
+ERR_CANT_WRITE_FILE                     = Impossibile scrivere il file: ${str1}
+ERR_BROKEN_ARCHIVE                      = Questo file compresso è danneggiato: ${str1}
+ERR_CRC_ERROR                           = Errore CRC: ${str1}
+ERR_NOT_ENOUGH_MEM                      = Memoria insufficiente: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = Errore nell'apertura del file da scrivere:[br]"${str1}"[br]Clicca su Annulla per fermare l'installazione,[br]Riprova per provare di nuovo, oppure[br]Ignora per saltare questo file.
+MSG_SUCCESS                             = Installazione completata
+MSG_DLL_REGISTERING                     = Registrazione dell'estensione di Esplora file...
+MSG_DLL_UNREGISTERING                   = Deregistrazione dell'estensione di Esplora file...
+MSG_ERROR                               = Si è verificato un errore.
+MSG_ERROR_REGISTER                      = Registrazione non riuscita
+MSG_SELECT_FOLDER                       = Selezionare una cartella.
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} è ancora in esecuzione. Devi prima chiudere il programma.
+MSG_XP_IS_NOT_SUPPORTED                 = Questo programma non funziona su Windows XP.
+MSG_NEED_ADMIN_PRIVILEGE                = Questo programma può essere installato solo dagli utenti con privilegi di amministratore.[br][br]Gli utenti che non sono amministratori non possono installare correttamente il programma.[br][br]Vuoi fermare l'installazione?
+MSG_NEWVERSION_FOUND                    = È disponibile una nuova versione. Vuoi scaricarla adesso?
+SHORTCUT_LINK_DESCRIPTOIN               = Lancia ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = Questo file d'installazione non supporta il sistema operativo a 32-bit (x86). Si prega di scaricare un nuovo file d'installazione dal sito web.
+MSG_ERR_ARM_NOTSUPPORT                  = Questo file d'installazione non supporta la CPU ARM64. Si prega di scaricare un nuovo file d'installazione dal sito web.
+ERR_INST_FAILED                         = Installazione non riuscita. Si prega di riavviare il PC e riprovare.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = Verifica della versione non riuscita. Si prega di scaricare il file per l'installazione offline.
+TEXT_VERSION_CHECKING                   = Controllo versione...
+TEXT_DOWNLOAD_FAILED                    = Download non riuscito. Si prega di scaricare il file per l'installazione offline.
+TEXT_DOWNLOAD_COMPLETED                 = Download completato
+TEXT_HOMEPAGE                           = [Apri pagina web]
+TEXT_XP                                 = Il supporto per Windows XP è terminato.
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = Scelta dei pulsanti nella barra
+
+

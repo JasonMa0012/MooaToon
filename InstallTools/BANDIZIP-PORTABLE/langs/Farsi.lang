@@ -1,0 +1,1148 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = فارسی
+TRANSLATORS                             = حسام محمدی
+IS_RIGHT_TO_LEFT_TEXT                   = 1
+DLG_FONT_NAME                           = Tahoma
+DLG_FONT_SIZE                           = 8
+SKIN_FONT_NAME                          = Tahoma
+
+
+[TEXT]
+TEXT_BUILDNO                            = ساخت#
+TEXT_FILE                               = فایل
+TEXT_FOLDER                             = پوشه
+TEXT_ARCHIVE_SIZE                       = حجم مجموع
+TEXT_ORIGINAL_SIZE                      = حجم واقعی
+TEXT_ARCHIVE_FORMAT                     = نوع آرشیو
+TEXT_COMPRESSED_SIZE                    = حجم فشرده شده
+TEXT_SOLID                              = یکدست
+TEXT_BETA                               = بتا
+TEXT_ASSOC                              = فایل فشرده شده (${str1})
+TEXT_PORTABLE                           = پرتابل
+TEXT_NEW_FOLDER                         = پوشه جديد
+TEXT_FILESIZE_UNKNOWN                   = ناشناخته
+TEXT_FILEDATE_UNKNOWN                   = ناشناخته
+TEXT_HELP_LINK                          = [راهنما]
+TEXT_APP_DESC                           = باندی زیپ یک برنامه سبک،سریع و رایگان زیپ کننده آرشیو است. این برنامه اکثر فرمت های رایج فشرده سازی مانند رار زیپ سون زیپ و سایر فرمت ها را پشتیبانی میکند
+
+TEXT_MESSAGEBOX_OK                      = تأیید
+TEXT_MESSAGEBOX_CANCEL                  = لغو
+TEXT_MESSAGEBOX_ABORT                   = لغو
+TEXT_MESSAGEBOX_RETRY                   = سعی مجدد
+TEXT_MESSAGEBOX_IGNORE                  = چشمپوشی
+TEXT_MESSAGEBOX_YES                     = بله
+TEXT_MESSAGEBOX_NO                      = خير
+TEXT_MESSAGEBOX_CONTINUE                = ادامه
+TEXT_MESSAGEBOX_HELP                    = راهنما
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = دوباره این را نشان نده
+
+TEXT_COLUMN_NAME                        = نام
+TEXT_COLUMN_COMPSIZE                    = فشرده سازی شده
+TEXT_COLUMN_ORIGSIZE                    = اصلی
+TEXT_COLUMN_KIND                        = نوع
+TEXT_COLUMN_DATE_MOD                    = ویرایش شده
+TEXT_COLUMN_COMPMETHOD                  = روش فشرده سازی
+TEXT_COLUMN_ENCRMETHOD                  = روش کدگذاری
+TEXT_COLUMN_CRC                         = سی آر سی
+TEXT_COLUMN_ATTRIB                      = صفات
+TEXT_COLUMN_COMMENT                     = توضیح
+TEXT_COLUMN_EXT                         = اطلاعات اضافی
+TEXT_COLUMN_PATHNAME                    = مسير
+
+TEXT_ICONPACK_NAME                      = نام
+TEXT_ICONPACK_DESIGNER                  = طراح
+TEXT_ICONPACK_COPYRIGHT                 = حق مالکیت
+
+TEXT_ARCHIVE_COLUMN_NAME                = نام
+TEXT_ARCHIVE_COLUMN_FILESIZE            = حجم
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = مسیر پوشه
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = حجم مجموع
+
+TEXT_SELECT_ARCHIVE_FILE                = انتخاب فایل
+TEXT_SELECT_TEXT_FILE                   = انتخاب فایل
+TEXT_SELECT_DEST_FOLDER                 = پوشه مقصد را انتخاب کنید
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = فایل آرشیو
+TEXT_REGISTRY_FILE                      = فایل ریجیستری
+
+TEXT_OPENDLG_ARCHIVEFILES               = فایل های آرشیو
+TEXT_OPENDLG_ARCHIVEFILE                = فایل آرشیو
+TEXT_OPENDLG_ALLFILES                   = همه فایل ها
+TEXT_OPENDLG_EXEFILES                   = فایل اِگزه
+
+TEXT_ABOUTBOX_TAB1                      = درباره باندی زیپ
+
+TEXT_ASSOC_GROUP0                       = فایل های آرشیو
+TEXT_ASSOC_GROUP1                       = یونیکس
+TEXT_ASSOC_GROUP2                       = سایرین
+TEXT_ASSOC_GROUP3                       = سی دی/دی وی دی
+
+TEXT_OPENERR_INVALIDVERSION             = برای بازکردن این فایل جدیدترین نسخه باندی زیپ را دانلود کنید
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = فقط اولین بخش فایل تقسیمی را انتخاب کنید
+TEXT_OPENERR_CANT_OPEN_FILE             = نمیتوان بازکرد فایل (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = نمیتوان بازکرد فایل (${str1}) زیرا فایل توسط برنامه دیگر درحال استفاده است
+TEXT_OPENERR_GENERAL                    = نمیتوان بازکرد فایل (${str1}) (کد:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = لغو شده
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = فرمت فایل ناشناخته (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = فایل آرشیو نیست (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = فایل فرمت پشتیبانی نشده (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = روش کدگذاری پشتیبانی نشده است (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = رمزعبور را وارد کنید
+TEXT_OPENERR_INVALID_PASSWORD           = رمزعبور صحیح نیست
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = این فایل را نمیتوان بازکرد زیرا سرساز فایل شکسته است
+
+TEXT_ERR_INIT_FAILED                    = موفق به مقداردهی نشد
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = رمزعبور صحیح نیست یا فایلی در آرشیو نیست
+TEXT_ERR_PASSOWRD_NOT_MATCH             = رمزعبور همانند نیست
+TEXT_ERR_PASSWORD_NOT_SET               = رمزعبور را وارد کنید
+TEXT_ERR_INVALID_PASSWORD_CHAR          = کاراکتر نامعتبر استفاده شده است. کاراکترهای الفبا/عددی/نمادی قرار دهید
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = حجم تقسیم فایل اشتباه است
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = حجم فایل خوداستخراجگر به 4 گیگابایت محدود شده است
+TEXT_ERR_INTERNAL_ERROR                 = خطای داخلی
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = فایل آرشیو را نمیتوان ویرایش کرد
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = خطا حین ویرایش آرشیو رخ داد
+TEXT_ERR_INVALID_FOLDER_PATH            = مسیر پوشه اشتباه است
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = فقط فایل زیپ را میتوان ویرایش کرد
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = فایل تقسیم شده را نمیتوان ویرایش کرد
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = فایل خوداستخراجگر را نمیتوان ویرایش کرد (*.exe)
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = فایل شکسته شده را نمیتوان ویرایش کرد
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = نمیتوان پسوند این فایل را ویرایش کرد..
+TEXT_ERR_CANT_CHANGE_FILENAME           = این نام فایل را نمیتوان تغییر داد
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "درنام فایل نمیتوان از این کاراکترها استفاده کرد [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = همین فایل/پوشه موجود است. نمیتوان تغییر داد نام فایل (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = نمیتوان پوشه جدید ایجاد کرد
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = فایلی برای آرشیو کردن نیست
+TEXT_ERR_INVALID_PARAM                  = پارامتر اشتباه است
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = فایل را به آرشیو نمیتوان اضافه کرد. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = این آرشیو را نمیتوان بازکرد [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = همین فایل موجود است
+TEXT_ERR_FILENAME_EMPTY                 = نام فایل صحیح نیست
+TEXT_ERR_AT_DRAGANDDROP                 = موفق به کشیدن و رهاکردن نشد
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = موفق به کشیدن و رهاکردن نشد [br]باندی زیپ تابع 'کشیدن و رهاکردن سریع' را خاموش کرده است ،مجددا سعی نمایید
+TEXT_ERR_AT_CANT_OPEN_MMF               = نمیتوان بازکرد اِم اِم اِف (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = فایلی انتخاب نشده است
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = پوشه را برای نصب بسته آیکون نمیتوان ایجاد کرد
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = فایل را برای نصب بسته آیکون نمیتوان ایجاد کرد
+TEXT_ERR_AT_EXECUTE_DIRECT              = این فایل را نمیتوان بازکرد،فایل را استخراج و دوباره سعی کنید
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = فایل بزرگتر از 4 گیگابایت نمیتوان ایجاد کرد[br]لطفا فرمت فایل متفاوت انتخاب کنید (ZIP ، 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = این فایل را نمیتوان ذخیره کرد
+TEXT_ERR_ERROR_AT_EDIT                  = حین ویرایش فایل باندی زیپ بایک مشکل مواجه شده است.(${str1})[br][br]آیا میخواهید خطا را به باندی سافت گزارش دهید؟[br][br]ارسال این گزارش ها به بهبود باندی زیپ کمک می کند.
+
+TEXT_MSG_TEST_OK                        = خطایی در این آرشیو وجود ندارد
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = موفق به استخراج نشد: کد خطا [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = استخراج باموفقیت انجام شد
+TEXT_MSG_EXTRACT_CANCELED               = استخراج لغو شد
+TEXT_MSG_COMPRESS_SUCCESS               = آرشیوسازی کامل شد
+TEXT_MSG_INTERNAL_ERROR                 = خطای داخلی
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = فایل زیر را در پوشه موقتی نمی توان باز کرد:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = این فایل آرشیو را نمیتوان حذف کرد
+TEXT_MSG_CRASH_REPORT                   = برنامه کراش شد.خروج از برنامه
+TEXT_MSG_CRASH_REPORT2                  = باندی زیپ با مشکلی روبرو شده که نیاز به بسته شدن دارد.آیا میخواهید گزارش خطا را به برنامه نویس باندی زیپ ارسال کنید؟
+TEXT_MSG_HANGAPP_REPORT                 = باندی زیپ پاسخ نمی دهد.[br][br]آیا گزارش خطا را می خواهید به توسعه دهنده باندی زیپ گزارش داده و برنامه را ببندید؟
+TEXT_MSG_SET_TEMP_PATH                  = تنظیم مسیر موقتی
+TEXT_MSG_SET_PATH                       = تنظیم مسیر
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = بسته آیکون باموفقیت نصب شد
+TEXT_MSG_NOTICE_RESTART                 = این برنامه ریستارت میشود
+TEXT_MSG_ARCHVIE_OPENING                = بازکردن آرشیو
+TEXT_MSG_COMPLETING                     = کامل شدن: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = پوشه را نمیتوان ایجاد کرد [br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = نمیتوان فایل را در آرشیو .GZ/XZ فشرده سازی کرد
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = نمیتوان چندین فایل را در آرشیو .GZ/XZ فشرده سازی کرد. لطفا گزینه "فشرده سازی درهر نام فایل/پوشه" را انتخاب کنید
+TEXT_MSG_TRAY_MINIMIZED                 = برنامه در کنار ساعت کمینه شده است.برای بازگرداندن آن را آیکون کنار ساعت کلیک کنید
+TEXT_MSG_TRAY_COMPLETED                 = عملکرد کامل شد
+TEXT_MSG_BATCH_ARCHVING                 = در حال آرشیو سازی: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = در حال استخراج: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - در حال تست: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - در حال حذف: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - موفق به حذف نشد: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = کار در پیشرفت است...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = اگر کاراکترها بدرستی نشان داده نشد، روی <font color=red><b>کد صفحه</b></font> در بالا کلیک کنید و سپس منوی <font color=red><b>تشخیص خودکار</b></font>را امتحان کنید.
+
+TEXT_ASK_DELETE_ARCHIVE                 = فایل اصلی حذف خواهد شد[br]آیا میخاهید این فایل را حذف کنید؟
+TEXT_ASK_DELETE_CUR_ARCHIVE             = آیا میخواهید فایل فعلی را حذف کنید؟
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = آیا میخواهید آرشیو فعلی را دائمی حذف کنید؟
+TEXT_ASK_CHANGE_FILENAME                = همین فایل موجود است[br][br]آیا میخواهید نام فایل را از ${str1} به ${str2} تغییر دهید؟
+TEXT_ASK_DELETE_FILE                    = آیا میخواهید فایل انتخاب شده را حذف کنید؟
+TEXT_ASK_STOP_EXTRACT                   = آیا میخواهید استخراج را متوقف کنید؟
+TEXT_ASK_OVERWRITE_ARCHIVE              = همین فایل موجود است[br][br]آیا میخواهید جایگزین کنید؟
+TEXT_ASK_INIT_SETTING                   = آیا میخواهید به پیش فرض ریست کنید؟برنامه ریستارت میشود
+TEXT_ASK_STOP_ARCHIVING                 = آیا میخواهید آرشیو سازی را متوقف کنید؟
+TEXT_ASK_STOP_MODIFYING                 = آیا میخواهید این عملکرد را لغو کنید؟
+TEXT_ASK_APPLY_MODIFIED_FILE            = آیا میخواهید فایل های تغییر کرده را در آرشیو اِعمال کنید؟ [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = آیا شما درصدد نصب و تنظیم بسته آیکون(${str1}) هستید؟
+TEXT_ASK_MAKE_FOLDER                    = پوشه وجود ندارد.میخواهید آن را ایجاد کنید؟[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = پوشه مقصد اجازه نوشتن ندارد[br][br]- ${str1}[br][br]میخواهید ادامه دهید؟
+TEXT_ASK_CONT_NOFREESPACE               = پوشه مقصد فضای کافی ندارد. تغییر پوشه مقصد. [br][br]- ${str1}[br][br]آیا ادامه می دهید؟
+TEXT_ASK_ASK_UAC_ELEVATION              = شما اجازه تغییر در این فایل ها را ندارید [br][br]میخواهید برنامه بعنوان آدمین ریستارت شود؟
+TEXT_ASK_OPENERR_FIRST_VOLUME           = این فایل آرشیو را نمیتوان باز کرد [br][br]آیا میخواهید اولین بخش فایل تقسیم شده (${str1}) را باز کنید؟
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = اگر فایل ها را بعد از آرشیو سازی حذف کنید،شما ممکن است فایل های مهم را در صورت خرابی فایل از دست دهید.[br][br]آیا میخواهید گزینه "تست آرشیو" را بررسی کنید؟
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = فضای دیسک کافی برای استخراج وجود ندارد.آیا میخواهید ادامه دهید؟[br][br]پوشه مقصد: ${str1}[br]فضای آزاد دیسک: ${str2}[br]حجم فایل استخراجی: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = این فایل شکسته است
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = فایل شکسته هست یا بخشی دیگر از فایل نیاز است
+
+TEXT_BTN_PAUSE                          = وقفه
+TEXT_BTN_RESUME                         = ادامه
+
+TEXT_ERRDLG_ERROR_OCCURRED              = خطا رخ داده است
+TEXT_ERRDLG_USER_ABORT                  = لغو شد
+
+TEXT_ARKERR_CANT_OPEN_FILE              = ای فایل را نمیتوان بازکرد
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = این فایل را نمیتوان بازکرد زیرا در حال استفاده توسط برنامه دیگر است
+TEXT_ARKERR_PASSWORD_NOT_SET            = رمزعبور نیاز است
+TEXT_ARKERR_INVALID_PASSWD              = رمزعبور نامعتبر است
+TEXT_ARKERR_USER_ABORTED                = لغو شد
+TEXT_ARKERR_INVALID_FILE_CRC            = خطای سی آر سی
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = ای فایل را نمیتوان بازکرد
+TEXT_ARKERR_CANT_READ_DATA              = داده آرشیو را نمیتوان خواند
+TEXT_ARKERR_INFLATE_FAILED              = خطای داده - این فایل شکسته هست
+TEXT_ARKERR_BZIP2_ERROR                 = خطای داده - این فایل شکسته هست
+TEXT_ARKERR_DATA_CORRUPTED              = فایل شکسته هست یا بخشی دیگر از فایل نیاز است
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = ای فایل را نمیتوان بازکرد
+TEXT_ARKERR_CANT_CREATE_FOLDER          = نمیتوان پوشه جدید ایجاد کرد
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = روش فشرده سازی پشتیبانی نشده است
+TEXT_ARKERR_WRITE_FAIL                  = خطایی حین نوشتن وجود ندارد
+TEXT_ARKERR_DISK_FULL                   = دیسک پر است
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = مسیرفایل و نام فایل نمیتواند بیشتر از 260 کاراکتر باشد
+TEXT_ARKERR_CANT_CREATE_FILE            = موفق به ایجاد فایل نشد
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = موفق به ایجاد فایل نشدبرنامه را با سطح اختیارات کافی اجرا کنید
+TEXT_ARKERR_USER_SKIP                   = رد شده
+TEXT_ARKERR_FILE_TRUNCATED              = انهای این فایل شکسته یا گم شده است
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = رمزعبور نامعتبر است یا فایل شکسته است
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = این فایل شکسته است
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = فایل خوداستخراجگر (*.exe) بزرگتر از 4 گیگابایت است.شما نمیتوانید فایل بزرگتر از 4 گیگابایت را در ویندوز اجرا کنید
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = این فایل آرشیو را نمیتوان بازکرد. این فایل تقسیمی (.z01, .z02..) نیاز است
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = این فایل زیپ را نمیتوان بازکرد. این فایل تقسیمی (.z01, .z02..) نیاز است
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = این فایل آرشیو را نمیتوان بازکرد.بخش دیگرش را نیاز دارد
+TEXT_ARKERR_CORRUPTED_FILE              = این فایل شکسته است
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = اجازه نوشتن در این پوشه را ندارد
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = اجازه نوشتن در این پوشه را ندارد. برنامه را با سطح اختیارات کافی اجرا کنید
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = این الگوریتم رمزگذاری پشتیبانی نمیکند
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = کمبود حافظه
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = کمبودحافظه.سطح فشرده سازی را تغییر دهید
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = این عملکرد را پشتیبانی نمیکند
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = حجم فایل استخراج شده و اطلاعات سرساز آرشیو متفاوت است
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = فایل بزرگتر از 4 گیگابایت نمیتوان ایجاد کرد. فرمت فایل دیگری انتخاب کنید (ZIP ، 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = نام فایل بلند خودکار کوتاه خواهد شد
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = فایل منبع را برای کپی کردن نمیتوان باز کرد
+TEXT_ARKERR_NOTIMPL                     = آماده نشده است
+TEXT_ARKERR_CANT_READ_FILE              = فایل را نمیتوان خواند
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = برای ایجاد لینک نمادین برنامه را با سطح دسترسی آدمین اجرا کنید
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = لینک نمادین را نمیتوان ایجاد کرد
+
+TEXT_SPLITCOMBO_NOSPLIT                 = تقسیم نکن
+TEXT_SPLITCOMBO_3MB                     = مگابایت 3
+TEXT_SPLITCOMBO_4MB                     = مگابایت 4
+TEXT_SPLITCOMBO_5MB                     = مگابایت 5
+TEXT_SPLITCOMBO_10MB                    = مگابایت 10
+TEXT_SPLITCOMBO_20MB                    = مگابایت 20
+TEXT_SPLITCOMBO_GMAIL                   = جیمیل،25 مگابایت
+TEXT_SPLITCOMBO_100MB                   = مگابایت 100
+TEXT_SPLITCOMBO_300MB                   = 300بایت 100
+TEXT_SPLITCOMBO_CD650                   = مگابایت 650 (سی دی)
+TEXT_SPLITCOMBO_CD700                   = مگابایت 700 (سی دی)
+TEXT_SPLITCOMBO_FAT32                   = 4گیگابایت (فَت 32)
+TEXT_SPLITCOMBO_DVD                     = گیگابایت 4.7 (دی وی دی)
+TEXT_SPLITCOMBO_USERINPUT               = توسط کاربر
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-بدون فشرده سازی
+TEXT_COMPRESSIONMETHOD_FAST             = 1-فشرده سازی سریع
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-فشرده سازی عادی
+TEXT_COMPRESSIONMETHOD_MAX              = 3-حداکثر فشرده سازی
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = فشرده سازی جدید
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = افزودن فایل ها به آرشیو
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = تغییرنام: ${str1}
+TEXT_TITLE_TEST_MODE                    = تست آرشیو
+TEXT_TITLE_TEMPFOLDER_MODE              = استخراج در پوشه موقتی...
+TEXT_TITLE_MODIFYING                    = ویرایش...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = فایل برای استخراج
+TEXT_MSG_SELECTED_FILE                  = ${num1} فایل انتخاب شده
+TEXT_MSG_SELECTED_FOLDER                = ${num1} پوشه انتخاب شده
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} فایل, ${num2} پوشه
+TEXT_MSG_SELECTED_FILESIZESUM           = حجم فایل انتخاب شده: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = موفق به بررسی نسخه نشد
+TEXT_UPDATE_VERSION_CHECKING            = برسی نسخه
+TEXT_UPDATE_DOWNLOAD_FAILED             = موفق به دانلود نشد
+TEXT_UPDATE_LATEST_VERSION              = بروز است
+TEXT_UPDATE_DO_DOWNLOAD                 = بروزرسانی نیاز است
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = دانلود کامل شد
+
+TEXT_INSTALL_HONEYVIEW                  = نصب هانی ویو
+TEXT_INSTALL_HONEYVIEW_1                = هانی ویو در رایانه شما نصب نشده است
+TEXT_INSTALL_HONEYVIEW_2                = لطفا هانی ویو را که توسط باندی سافت توسعه داده شده را امتحان کنید<br> آن از نمایش تصاویر در فایل فشرده زیپ،رار،7زد بدون استخراج پشتیبانی می کند
+
+TEXT_REGISTRATION_FAILED                = موفق به ثبت نام نشد[br]کلید محصول و آدرس ایمیل را بررسی کنید
+TEXT_REGISTRATION_SUCCEED               = باندی زیپ شما ثبت نام شد
+TEXT_REGISTRATION_ASK                   = آیا واقعا میخواهید باندی زیپ را از ثبت خارج کنید؟
+TEXT_REGISTER_NOT_REGISTERED            = باندی زیپ ثبت نام نشده است[br]لطفا باندی زیپ را خرید کرده و آن را ثبت کنید تا بدون محدودیتی از آن استفاده کنید
+TEXT_REGISTER_INFO                      = این کاربر باندی زیپ ثبت نام شده دارد:[br]آدرس ایمیل: ${str1}[br]کلید محصول: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = اسکن ضد بد افزار در آرشیو
+TEXT_SCAN_AMSI_PROVIDER                 = مقدار دهی موفقیت آمیز رابط اسکن ضد بدافزار
+TEXT_SCAN_MALWARE_DETECTED              = بدافزار تشخیص داد
+TEXT_SCAN_MALWARE_NOTDETECTED           = بدافزار تشخیص نداد
+TEXT_SCAN_MALWARE_TOOBIG                = موفق به اسکن نشد. فایل حجیم است
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = بدافزار در آرشیو تشخیص داده شد
+TEXT_MSG_MALWARE_TEST_OK                = بدافزاری در آرشیو تشخیص داده نشد
+TEXT_MSG_AMSI_INIT_FAILED               = مقدار دهی  رابط اسکن ضد بدافزار برای اسکن موفقیت آمیز نبود. برای جزئیات بازدید کنید از https://go.bandisoft.com/amsi
+TEXT_MSG_AMSI_WIN10_NOTICE              = اسکن بدافزار فقط در ویندوز 10 موجود است.برای جزئیات بازدید کنید از https://go.bandisoft.com/amsi
+
+[MENU]
+MENUSTR_FILE                            = فایل
+MENUSTR_EDIT                            = ويرايش
+MENUSTR_SETTING                         = گزینه ها
+MENUSTR_FIND                            = یافتن
+MENUSTR_VIEW                            = &مشاهده
+MENUSTR_TOOLS                           = &ابزارها
+MENUSTR_HELP                            = راهنما
+
+MENUSTR_OPEN                            = بازکردن آرشیو\tCtrl+O
+MENUSTR_RECENT                          = فایل های اخیر
+MENUSTR_CLOSE_FILE                      = بستن آرشیو\tF4
+MENUSTR_CREATE_ARCHIVE                  = آرشیو جدید\tCtrl+N
+MENUSTR_NEW_WINDOW                      = پنجره جدید \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = پنجره جدید(آدمین)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = ذخیره بعنوان
+MENUSTR_DELETE_ARCHIVE                  = حذف آرشیو \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = حذف دائمی آرشیو \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = بازکردن مکان آرشیو
+MENUSTR_TEST_ARCHIVE                    = تست آرشیو \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = اسکن ضد بد افزار در آرشیو\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = استخراج فایل \tCtrl+E
+MENUSTR_EXIT                            = خروج \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = تغییرنام فایل \tF2
+MENUSTR_ADD_FILE                        = افزودن فایل \tIns
+MENUSTR_DELETE_FILE                     = حذف فایل \tDel
+MENUSTR_EDIT_COMMENT                    = توضیح آرشیو
+MENUSTR_SETTING_SUB                     = تنظیمات (F5)
+MENUSTR_REGISTER                        = ثبت نام باندی زیپ...
+MENUSTR_UNREGISTER                      = حذف ثبت نام باندی زیپ...
+MENUSTR_PASSMAN                         = مدیر رمزعبور...
+MENUSTR_FIND_ITEM                       = یافتن فایل ها\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = کپی فایل ها به کلیپ برد\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = چسباندن فایل ها از کلیپ برد\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = صفحه شروع \tF6
+MENUSTR_VIEW_TREECONTROL                = کنترل نمایش درختی \tF7
+MENUSTR_VIEW_COMMENT                    = توضیح آرشیو\tF8
+MENUSTR_VIEW_PREVIEW                    = پیشنمایش تصویر
+MENUSTR_VIEW_STATUS_BAR                 = نوار وضعیت
+MENUSTR_VIEW_TOOLBAR                    = نوار ابزار
+MENUSTR_VIEW_TOOLBAR_NORMAL             = بزرگ
+MENUSTR_VIEW_TOOLBAR_MINI               = کوچک
+MENUSTR_VIEW_TOOLBAR_OLD                = قدیم
+MENUSTR_VIEW_TOOLBAR_HIDE               = مخفی کردن
+MENUSTR_VIEW_LISTVIEW                   = لیست فایل
+MENUSTR_VIEW_LISTVIEW_ICON              = آیکون
+MENUSTR_VIEW_LISTVIEW_LIST              = لیست
+MENUSTR_VIEW_LISTVIEW_REPORT            = جزئیات
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = آیکون بزرگ
+MENUSTR_VIEW_COLUMN                     = ستون
+MENUSTR_VIEW_ALWAYS_ON_TOP              = همیشه در بالا
+MENUSTR_VIEW_COLOR_SETTING              = تنظیمات رنگ...
+
+MENUSTR_TOOLS_REPAIR                    = تعمیر آرشیو..
+MENUSTR_TOOLS_RECOVERY                  = بازیابی رمزعبور..
+
+MENUSTR_ABOUT                           = درباره باندی زیپ \tF1
+MENUSTR_HELPPAGE                        = بروبه صفحه راهنما
+MENUSTR_OPEN_FOLDER                     = بازکردن پوشه باندی زیپ
+MENUSTR_FORUM                           = بروبه انجمن باندی زیپ
+MENUSTR_HOMEPAGE                        = برو به صفحه خانگی
+
+POPUPMENU_VIEWITEM_COMPSIZE             = حجم فشرده شده
+POPUPMENU_VIEWITEM_ORIGSIZE             = حجم واقعی
+POPUPMENU_VIEWITEM_KIND                 = نوع فایل
+POPUPMENU_VIEWITEM_DATE_MOD             = تاریخ ویرایش شده
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = روش فشرده سازی
+POPUPMENU_VIEWITEM_ENCRMETHOD           = روش کدگذاری
+POPUPMENU_VIEWITEM_CRC                  = سی آر سی
+POPUPMENU_VIEWITEM_ATTRIB               = صفات فایل
+POPUPMENU_VIEWITEM_COMMENT              = توضیح فایل
+POPUPMENU_VIEWITEM_EXT                  = اطلاعات اضافی
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = استخراج همه \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = استخراج فایل انتخاب شده
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = استخراج در اینجا
+
+POPUPMENU_LISTCONTROL_EXECUTE           = بازکردن\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = بازکردن با برنامه بازسازی شده
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = ویرایش\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = باز کردن با باندی زیپ&
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = پوشه جديد
+POPUPMENU_LISTCONTROL_ADD_FILE          = افزودن فایل \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = حذف فایل \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = تغييرنام فایل
+POPUPMENU_LISTCONTROL_SELECT_ALL        = انتخاب همه \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = انتقال به پوشه بالایی\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = حذف آرشيو
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = بازکردن پوشه آرشیو
+
+POPUPMENU_EXTRACT_AUTODEST              = استخراج خودکار\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = استخراج در پوشه فعلی\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = استخراج در نام فایل و پوشه
+POPUPMENU_EXTRACT_DESKTOP               = استخراج در دسکتاپ
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = استخراج خودکار در دسکتاپ
+
+POPUPMENU_RECENT_CLEAR                  = حذف تاریخچه
+POPUPMENU_RECENT_NOITEM                 = فایل جدیدی ندارد
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = بازکردن با باندی زیپ
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = استخراج خودکار
+
+POPUPMENU_CODEPAGE_DEFAULT              = پیش فرض
+POPUPMENU_CODEPAGE_SIMPCHINESE          = چینی ساده
+POPUPMENU_CODEPAGE_TRADCHINESE          = چینی سنتی
+POPUPMENU_CODEPAGE_JAPANESE             = ژاپنی
+POPUPMENU_CODEPAGE_KOREAN               = کره ای
+POPUPMENU_CODEPAGE_WINDOWS1252          = اُروپای غربی
+POPUPMENU_CODEPAGE_WINDOWS1250          = اروپای مرکزی
+POPUPMENU_CODEPAGE_WINDOWS1251          = سیریلیک
+POPUPMENU_CODEPAGE_WINDOWS1254          = ترکی
+POPUPMENU_CODEPAGE_WINDOWS737           = یونانی
+POPUPMENU_CODEPAGE_ARABIC               = عربی
+POPUPMENU_CODEPAGE_HEBREW               = عبری
+POPUPMENU_CODEPAGE_BALTIC               = زبان های بالتیک
+POPUPMENU_CODEPAGE_THAI                 = تایلندی
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = تشخیص خودکار
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = مشاهده با هانی ویو
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = مشاهده با برنامه وابسته سازی شده
+
+DLG_MENUSTR_MINIMIZE2TRAY               = کمینه کنار ساعت
+DLG_MENUSTR_LOW_PRIORITY                = اولویت کم
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = حذف آرشیو بعد از استخراج
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = تأیید
+IDCANCEL                                = لغو
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = درباره باندی زیپ
+IDC_BTN_HOMEPAGE                        = صفحه خانگی
+IDC_BTN_UPDATE                          = بروزرساني
+IDC_BTN_REGIST                          = حالا ثبت نام
+IDC_BTN_BUY                             = حالا خرید
+IDC_STATIC_LICENSE                      = اطلاعات ثبت نام باندی زیپ
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = بازکردن فایل
+IDC_STATIC_OPENING                      = بازکردن
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = مسیر استخراج را انتخاب کنید
+IDC_STATIC_FOLDER                       = مسیر مقصد
+IDC_STATIC_FILES2EXTRACT                = استخراج:
+IDC_RADIO_FILES2EXTRACT_0               = همه فایل ها
+IDC_RADIO_FILES2EXTRACT_1               = فایل های انتخاب شده
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = استخراج در پوشه "هدف" زیر پوشه انتخاب شده
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = حذف فایل های اصلی بعداز استخراج
+IDC_CHK_REMEMBER_SETTINGS               = تنظیمات را بخاطر بسپار
+IDC_BTN_NEWFOLDER                       = پوشه جديد
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = استخراج
+IDC_BTN_STOP                            = توقف
+IDC_BTN_CLOSE                           = بستن
+IDC_BTN_PAUSE                           = وقفه
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = آرشیو جدید
+IDC_STATIC_FILE_LIST                    = افزودن فایل ها به آرشیو
+IDC_STATIC_ARCHIVE_SETTING              = تنظیمات آرشیو
+IDC_STATIC_ARCHIVE_NAME                 = نام فایل
+IDC_STATIC_SET_DEST_FOLDER              = پوشه هدف
+IDC_STATIC_ARCHIVE_TYPE                 = نوع ذخیره سازی
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = تقسیم فایل
+IDC_STATIC_COMPRESSION_METHOD           = سطح فشرده سازی
+IDC_STATIC_HELP_SPLIT                   = [راهنما]
+IDC_STATIC_HELP_7Z                      = [7Z فرمت]
+IDC_BTN_SELECT_ARCHIVE_NAME             = جستجو...
+IDC_BTN_SET_PASSWORD                    = تنظیم& رمزعبور...
+IDC_BTN_TEST_ARCHIVE                    = &تست آرشیو
+IDC_BTN_DELETE_SRC                      = حذف فایل ها بعد از آرشیو سازی
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = فشرده سازی درهر نام فایل/پوشه
+IDC_BTN_SET_DEST_FOLDER                 = تغییر پوشه دسکتاپ
+IDC_BTN_TOGGLE_ADVANCED                 = گزینه های بیشتر..
+IDC_BTN_SET_SFX                         = تنظیمات خوداستخراجگر..
+IDC_BTN_ADD                             = افزودن..
+IDC_BTN_DEL                             = حذف
+IDC_BTN_START                           = شروع
+IDC_BTN_COMP_ADVANCED                   = پیشرفته
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = تنظیمات فشرده سازی زیپ
+IDC_AA_ZIP_ALGO                         = روش فشرده سازی
+IDC_AA_ZIP_ENC                          = روش کدگذاری
+IDC_AA_ZIP_THREAD                       = تعداد رشته پردازنده
+COMBO_TEXT_THREAD_AUTO                  = خودکار
+IDD_AA_7Z                               = تنظیمات فشرده سازی 7Z
+IDC_AA_7Z_ALGO                          = روش فشرده سازی
+IDC_AA_7Z_SOLID                         = حجم بلوک یکدست
+COMBO_TEXT_SOLID_NONE                   = غیر-یکدست
+COMBO_TEXT_SOLID_SOLID                  = یکدست
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = رمزعبور را وارد کنید
+IDC_STATIC_DESC_ARCHIVING               = رمزعبور برای آرشیو خود را وارد کنید.برای امنیت بهتر یک رمزعبور 8 حرفی توصیه میشود
+IDC_STATIC_DESC_MASTERPASS              = یک رمزعبور هوشمند برای مدیر رمزعبور وارد کنید.برای امنیت بهتر یک رمزعبور 8 حرفی توصیه میشود.
+IDC_STATIC_DESC_EXTRACT                 = برای فایل کدگذاری شده رمزعبور را وارد کنید
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = رمزعبور نامعتبر وارد کرده اید.رمزعبور را دوباره وارد کنید
+IDC_STATIC_PWD                          = رمزعبور را وارد کنید
+IDC_STATIC_PWD2                         = رمزعبور را دوباره وارد کنید
+IDC_BTN_SHOW_PASSWORD                   = نمایش رمزعبور
+IDC_BTN_PASSMAN                         = مدیر رمزعبور...
+IDC_CHECK_APPLY_ALL                     = اِعمال همه
+IDC_STATIC_PASS_RECOVERY                = رمزعبور را فراموش کردید؟ بازیابی رمزعبور باندی زیپ را امتحان کنید
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = مدیر رمزعبور
+TEXT_MSG_CORRUTP_DATA                   = داده رمزعبور ذخیره شده خراب شده است.
+TEXT_PASSMAN_WARNING1                   = رمزعبورهای ذخیره شده در مدیر رمزگذاری کدگذاری نمیشود،مگر اینکه رمزعبور هوشمند تنظیم شود.
+TEXT_PASSMAN_WARNING2                   = اگر از این ویژگی در مکان عمومی یا رایانه اشتراکی استفاده می کنید نیاز است احتیاط کنید.
+LIST_PASS_HEADER1                       = رمزعبور
+LIST_PASS_HEADER2                       = نام نمایشی
+IDC_BTN_ADD                             = افزودن
+IDC_BTN_DEL                             = حذف
+IDC_BTN_EDIT                            = ویرایش
+IDC_BTN_SET_MASTERPASS                  = تنظیم رمزعبور هوشمند...
+IDC_BTN_DEL_MASTERPASS                  = حذف رمزعبور هوشمند
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = رمزعبور هوشمند را وارد کنید
+IDC_STATIC_MASTPASS_MSG                 = برای دسترسی به مدیر رمزعبور، رمزعبور هوشمند را وارد کنید.برای حذف همه اطلاعات رمزعبور ذخیره شده در سیستم بازنشانی کنید.
+IDC_BTN_INITPASSMAN                     = بازنشانی
+TEXT_ASK_INIT_PASSMAN                   = آیا واقعا میخواهید همه اطلاعات رمزعبور را حذف کنید؟
+IDC_BTN_SHOW_PASSWORD                   = نمایش رمزعبور
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = اطلاعات رمزعبور
+IDC_STATIC_PASSWORD                     = رمزعبور
+IDC_STATIC_DISPNAME                     = نام نمایشی (اختیاری)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = انتخاب
+IDC_BTN_OPEN                            = بازکردن
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = آرشیوسازی
+TEXT_ARCHIVE_TESTING                    = در حال تست
+IDC_BTN_STOP                            = توقف
+IDC_BTN_CLOSE                           = بستن
+IDC_BTN_PAUSE                           = وقفه
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = فایل های تکراری
+IDC_STATIC_DUPE_MESSAGE                 = همین فایل وجود دارد
+IDC_STATIC_DUPEFILE_OLD                 = فایل اصلی
+IDC_STATIC_DUPEFILE_NEW                 = فایل فعلی
+IDC_STATIC_DUPE_ASK                     = گزینه را از زیر انتخاب کنید:
+IDC_RADIO_DUPE_METHOD0                  = ردکردن
+IDC_RADIO_DUPE_METHOD1                  = جایگزینی
+IDC_RADIO_DUPE_METHOD2                  = تغييرنام
+IDC_CHECK_DUPE_APPLY_ALL                = اِعمال روی همه فایل ها
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = گزینه آرشیو
+IDC_STATIC_ASK_HANDLING                 = گزینه را از زیر انتخاب کنید:
+IDC_RADIO_HANDLE_METHOD0                = بازکردن آرشیو
+IDC_RADIO_HANDLE_METHOD1                = فشرده سازی جدید
+IDC_RADIO_HANDLE_METHOD2                = افزودن فایل ها به آرشیو فعلی
+IDC_CHK_PASS                            = استفاده از رمزعبور
+IDC_STATIC_PASSWORD_AGAIN               = دوباره وارد کنید
+IDC_CHK_SHOW_PASS                       = نمایش رمزعبور
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = تنظیمات
+IDC_BTN_INIT                            = ریست
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = تنظیمات عمومی
+IDC_CHK_EXIT_WITH_ESC                   = استفاده از کلید ESC برای خروج از پنجره
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = همیشه بررسی فایل ها حین افزودن شدن /حذف شدن/تغییرنام دادن فایل
+IDC_CHK_SNAP                            = استفاده از ربایش پنجره
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = نمایش [..] دایرکتوری در آرشیو
+IDC_CHK_SHOW_GRID_AT_LIST               = نمایش خطوط توری در مشاهده جزئیات
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = انتخاب سطر کامل در آرشیو
+IDC_CHK_ONE_CLICK_ACTIVATE              = یک کلیک برای بازکردن موارد
+IDC_STATIC_UPDATE                       = بروز رسانی تنظیمات
+TEXT_UPDATE_0                           = آگاهسازی و نصب جدیدترین نسخه
+TEXT_UPDATE_1                           = آگاهسازی و فقط نصب نسخه پایدار
+TEXT_UPDATE_2                           = از هیچ بروز رسانی آگاه نکن
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = وابسته سازی فایل
+IDC_BTN_SELECT_MANDATORY                = انتخاب ضروری ها
+IDC_BTN_SELECT_ALL                      = انتخاب همه
+IDC_BTN_CLEAR_ALL                       = لغو انتخاب همه
+IDC_BTN_APPLY_NOW                       = حالا اِعمال
+IDC_STATIC_ICON_PACK                    = بسته آیکون را انتخاب کنید:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [دانلود بسته آیکون]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = ویندوز - تنظیم برنامه های پیش فرض
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = وابسته سازی افزونه
+;IDC_STATIC_ASSOC_DESC1                 = برای ویندوز 8 به بالا،میتوانید فایل ها را به روش زیر وابسته سازی کنید:
+;IDC_STATIC_ASSOC_DESC2                 = 1. روی دکمه "تنظیمات وابسته سازی" کلیک کنید
+;IDC_STATIC_ASSOC_DESC3                 = 2. در پنجره برنامه تنظیمات وابسته سازی "انتخاب همه" را انتخاب نمایید
+;IDC_STATIC_ASSOC_DESC4                 = 3. روی دکمه "ذخیره" کلیک کنید
+;IDC_STATIC_ASSOC_DESC1_10              = برای ویندوز 10 به بالا،میتوانید فایل ها را به روش زیر وابسته سازی کنید:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. روی دکمه "تنظیمات وابسته سازی" کلیک کنید
+;IDC_STATIC_ASSOC_DESC3_10              = 2. گزینه "Bandizip" را در پنجره برنامه های پیش فرض تنظیم کنید
+;IDC_STATIC_ASSOC_DESC4_10              = 3. روی"تنظیم این برنامه بعنوان پیش فرض" کلیک کنید
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = تنظیمات وابسته سازی
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = روش قدیمی
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = اقدام دوبار-کلیک
+IDC_RADIO_SHELL_OPEN_0                  = بازکردن با باندی زیپ
+IDC_RADIO_SHELL_OPEN_1                  = استخراج خودکار
+IDC_RADIO_SHELL_OPEN_2                  = نمایش کلیک راست
+IDC_RADIO_SHELL_OPEN_3                  = استخراج خودکار در پوشه مشخص شده
+IDC_BTN_SET_EXTRACT_FOLDER              = جستجو...
+IDC_RADIO_SHELL_OPEN_4                  = استخراج در نام فایل و پوشه
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = حذف آرشیو بعد از استخراج با دو مرتبه کلیک
+
+IDC_STATIC_SHELL_EXTRACT                = منوی استخراج
+IDC_CHK_SHELL_EXTRACT_HERE              = استخراج در اینجا
+IDC_CHK_SHELL_EXTRACT_AUTO              = استخراج خودکار
+IDC_CHK_SHELL_EXTRACT_SUB               = در پوشه "نام-آرشیو" استخراج کن
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = استخراج در اینجا و حذف
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = استخراج در اینجا (هوشمند) و حذف
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = استخراج در پوشه "نام-آرشیو" و حذف
+IDC_CHK_SHELL_EXTRACT_DLG               = مسیر استخراج را انتخاب کنید
+IDC_CHK_SHELL_EXTRACT_ADMIN             = استخراج بعنوان مدیر
+IDC_CHK_SHELL_TEST_ARCHIVE              = تست آرشیو
+IDC_CHK_SHELL_OPEN_ARCHIVE              = بازکردن با باندی زیپ
+IDC_CHK_SHELL_PREVIEW                   = پیشنمایش آرشیو
+IDC_STATIC_SHELL_PREVIEW_SIZE           = محدودیت پیشنمایش فایل به:
+IDC_CHK_SHELL_PREVIEW_TREE              = یشنمایش آرشیو با ساختار درختی
+
+IDC_STATIC_SHELL_ARCHIVING              = منوی فشرده سازی
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "فشرده سازی به "FileName.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = فشرده سازی در "FileName.zip" و حذف
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = فشرده سازی به "FileName.zip" و ایمیل
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "فشرده سازی به "FileName.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "فشرده سازی به "FileName.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "فشرده سازی به "FileName.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "فشرده سازی به "FileName.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "فشرده سازی به "FileName.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "فشرده سازی به "FileName.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "فشرده سازی به "FileName.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "فشرده سازی در "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "فشرده سازی در "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "فشرده سازی در "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "فشرده سازی در نام هر "File/FolderName.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "فشرده سازی در هر "File/FolderName.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = افزودن به آرشیو (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = فشرده سازی بعنوان مدیر
+IDC_CHK_SHELL_ARCHIVING_RULE            = فشرده سازی در نام فایل دستی
+IDC_STATIC_FILENAME_RULE_HELP           = قاعده: ${NAME}=نام فایل، %Y=سال، %m=ماه، %d=روز، %H=ساعت، %M=دقیقه، %S=ثانیه
+
+IDC_STATIC_SHELL_BKGND                  = روی فضای سفید برای آوردن منوی پاپ آپ در ویندوز اکسپلورر کلیک راست کنید
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = از تابع "پوشه جدید" استفاده کن
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = بازکردن پنجره فرمان (cmd.exe) -برای بازکردن بعنوان آدمین کلید شیفت را فشار دهید
+
+IDC_STATIC_SHELL_ETC                    = غیره
+IDC_CHK_SHELL_DO_NOT_USE                = غیرفعالسازی کلیک راست
+IDC_CHK_SHELL_AS_SUB_MENU               = منوی کلیک راست آبشاری
+IDC_CHK_SHELL_HIDE_ICON                 = مخفی کردن آیکون باندی زیپ
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = تشخیص فایل آرشیو توسط محتوا
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = نمایش منوی آرشیو حتی برای فایل های آرشیو شده
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = استفاده از نام فایل/پوشه در مکان نمای ماوس حین انتخاب چدین فایل/پوشه
+IDC_CHK_SHELL_USE_DROP_HANDLER          = افزودن فایل ها مستقیما به فایل زیپ توسط کشیدن و رها کردن از اکسپلورر
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = تنظیمات استخراج
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = اگر در آرشیو فقط یک ریشه پوشه هست،فایل ها را در پوشه نشان بده
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = بازکردن پوشه بعداز استخراج
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = پنجره پیشرفت را بعداز استخراج نبند
+IDC_CHK_FAST_DRAG_DROP                  = استفاده از کشیدن و رهاکردن سریع اگر فایل استخراجی بزرگ است
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = استخراج فایل TGZ, TBZ در یک زمان
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = حتی برای فایل های حجم بزرگ TGZ, TBZ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = هنگام استفاده از 'استخراج خودکار'، یک پوشه ایجاد کن اگر در آنجا بیشتر از یک آیتم سطح بالاست
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = تشخیص خودکار کدصفحه مکینتاش
+IDC_CHK_UNIXZIP_AS_UTF8                 = استفاده از کدصفحه UTF-8 هنگامیکه شما یک فایل زیپ از یونیکس باز میکنید
+IDC_STATIC_CODEPAGE                     = کد صفحه پیش فرض
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = استخراج هر چیزی برای
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = تنظیمات فشرده سازی
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = ریشه پوشه را هنگامیکه شما فقط یک پوشه را فشرده سازی میکنید ایجاد نکن
+IDC_CHK_USE_UTF8_COMPRESS               = استفاده از نام فایل یونیکد در فایل زیپ (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = ذخیره نام های فایل یونیکُد در سرساز اضافی فیلد اضافی فایل های زیپ (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = از نام فایل یونیکد در فایل tar,tgz استفاده کن (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = همیشه استفاده از فرمت زیپ64 حتی اگر حجم فایل کمتراز 2 گیگابایت است،توصیه نمیشود
+IDC_CHK_EXCLUDE_THUMBSDB                = محرومسازی فایل thumbs.db هنگام فشرده سازی
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = ذخیره اطلاعات زمان اِن تی اِف اِس حین ایجاد فایل زیپ
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = استفاده از 'آرشیو سازی سرعت بالا
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = پنجره پیشرفت را بعداز استخراج نبند
+IDC_STATIC_COMPRESSION_METHOD           = سطح فشرده سازی:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = استفاده از آخرین پوشه برای آرشیو جدید
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = پوشه پیش فرض برای آرشیوها
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = جستجو...
+IDC_CHK_EXCLUDE_FILTER                  = انواع فایل برای محرومسازی حین آرشیوسازی
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = تنظیمات نمایش دهنده
+IDC_CHK_SHOW_PREVIEW                    = پیشنمایش عکس
+IDC_CHK_SHOW_FOLDER_SIZE                = نمایش حجم اصلی/فشرده شده پوشه ها
+
+IDC_STATIC_SETTING_VIEWITEM             = ستون ها
+IDC_CHK_VIEWITEM_COMPSIZE               = حجم فشرده شده
+IDC_CHK_VIEWITEM_ORIGSIZE               = حجم واقعی
+IDC_CHK_VIEWITEM_KIND                   = نوع فایل
+IDC_CHK_VIEWITEM_DATE_MOD               = تاریخ ویرایش شده
+IDC_CHK_VIEWITEM_COMPMETHOD             = روش فشرده سازی
+IDC_CHK_VIEWITEM_ENCRMETHOD             = روش کدگذاری
+IDC_CHK_VIEWITEM_CRC                    = سی آر سی
+IDC_CHK_VIEWITEM_ATTRIB                 = صفات فایل
+IDC_CHK_VIEWITEM_COMMENT                = توضیح فایل
+IDC_CHK_VIEWITEM_EXT                    = اطلاعات اضافی
+
+IDC_STATIC_IMAGE_VIEWER                 = نمایش دهنده عکس
+IDC_RADIO_IMAGE_VIEWER_0                = استفاده از نمایش دهنده عکس داخلی
+IDC_RADIO_IMAGE_VIEWER_1                = استفاده از برنامه وابسته سازی شده
+IDC_RADIO_IMAGE_VIEWER_2                = استفاده از هانی وییو اگر نصب شده
+
+IDC_STATIC_EDITOR                       = ویرایشگر
+IDC_BTN_SET_EDITOR_PATH                 = جستجو
+
+IDC_STATIC_COLOR                        = رنگ
+IDC_STATIC_COLOR_THEME                  = رنگ پوسته
+IDC_BTN_BKGND                           = انتخاب شده
+IDC_STATIC_COLOR_TEXT                   = رنگ فونت
+IDC_STATIC_COLOR_TEXT_AUTO              = خودکار
+IDC_STATIC_COLOR_TEXT_WHITE             = سفید
+IDC_STATIC_COLOR_TEXT_BLACK             = سیاه
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_CHK_COPY_ZONE_IDENTIFIER            = کپی اطلاعات Zone.Identifier یک آرشیو دانلود شده از اینترنت حین استخراج
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = خروجیگیری تنظیمات برنامه
+IDC_STATIC_ETC                          = تنظیمات پیشرفته
+IDC_CHK_SET_TEMP_FOLDER                 = تنظیم مکان پوشه موقتی
+IDC_BTN_SET_TEMP_FOLDER                 = جستجو
+IDC_CHK_SET_USER_ARCHIVE_EXT            = تشخیص فایل های زیر بعنوان فایل آرشیو
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = حذف فایل موقتی وقتی فرآیند فرزند بسته شد
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = انتقال فایل ها به سطل زباله حین حذف
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = نمایش جدیدترین تاریخچه آرشیو
+IDC_CHK_USE_LONG_PATH_NAME              = اجازه نام فایل بلند بیش از 260 کاراکتر
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = اجازه ویندوز اکسپلورر به حذف فایل های آرشیو باز شده
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = بازکردن خودکار پوشه درختی
+IDC_CHK_USE_MODAL_DIALOG                = استفاده از کادر پنجره اجباری حین آرشیو سازی/استخراج
+IDC_CHK_USE_ELEGANT_UI                  = استفاده از طراحی رابط زیبا
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = نمایش 'صفحه شروع' حین شروع باندی زیپ
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = نمایش مسیر کامل در نوار عنوان
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = حذف فایل های استخراج شده وقتی استخراج لغو می شود
+IDC_CHK_COPY_ZONE_IDENTIFIER            = کپی اطلاعات Zone.Identifier یک آرشیو دانلود شده از اینترنت حین استخراج
+IDC_CHK_USE_SET_END_OF_FILE             = پیش-تخصیص فضای دیسک برای فایل خروجی
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = فشرده سازی فایل حتی وقتی در حال استفاده در فرآیند دیگری است
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = تنظیمات زبان
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = میخواهید در ترجمه کمک کنید؟ اینجا کلیک کنید...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = تنظیمات خوداستخراجگر
+IDC_STATIC_TARGET_PATH                  = مسير برای استخراج:
+IDC_STATIC_TITLE                        = عنوان خوداستخراجگر:
+IDC_STATIC_RUN                          = اجرا بعداز استخراج:
+IDC_STATIC_MESSAGE                      = پیام خوداستخراجگر
+IDC_CHK_AUTO_CLOSE                      = بستن پنجره خوداستخراجگر بعد از استخراج
+IDC_BTN_SAVE_SFX_SETTING                = ذخیره تنظیمات
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = يافتن فایل ها
+IDC_STATIC_FIND                         = یافتن:
+IDC_BTN_CLOSE                           = بستن
+IDC_BTN_DELETE                          = حذف
+IDC_BTN_EXTRACT                         = استخراج
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = توضیح آرشیو
+IDC_STATIC_COMMENT                      = افزودن/ویرایش توضیح در این آرشیو
+IDC_CHK_USE_UTF8                        = ذخیره توضیح بعنوان یونیکد (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = بارگیری توضیح از فایل (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = هشدار
+IDC_STATIC_WARN_EXECUTABLE              = این یک فایل اجرایی است.اجرای این برنامه ممن است به رایانه شما صدمه بزند.آیا ادامه میدهید؟
+IDC_CHK_DO_NOT_ASK_AGAIN                = دوباره نپرس
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = ثبت نام باندی زیپ
+IDC_STATIC_DESC1                        = آدرس ایمیل و کلید محصولی را که در ایمیل دریافت کرده اید را وارد کنید
+IDC_STATIC_EMAIL                        = آدرس ایمیل
+IDC_STATIC_PRDUCT_KEY                   = کلید محصول
+IDC_BTN_REGISTER                        = حالا ثبت نام
+IDC_STATIC_BUYNOW                       = هنوز باندی زیپ را خرید نکرده اید؟ [حالا بخرید]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = راهنمای مجوز باندی زیپ
+TEXT_LIMIT_PASSMAN                      = در نسخه استاندارد باندی زیپ فقط یک رمزعبور میتواند در مدیر رمزعبور ذخیره شود.
+TEXT_SHOW_AD                            = در نسخه استاندارد باندی زیپ تبلیغات نمایش داده می شود.[br]برای حذف این تبلیغات باید نسخه پولی را خرید کنید.
+TEXT_CANNOT_CHANGE                      = در نسخه استاندارد باندی زیپ این ویژگی را نمیتوان تغییر داد.[br]برای تغییر این ویژگی باید نسخه پولی را خرید کنید.
+TEXT_CANNOT_USE                         = این ویژگی در نسخه استاندارد باندی زیپ موجود نیست. برای استفاده از این ویژگی میتوانید نسخه پولی را خرید کنید
+TEXT_PORTABLE_NOTICE                    = این ویژگی در نسخه پرتابل باندی زیپ موجود نیست. برای استفاده از این ویژگی میتوانید نسخه پولی را خرید کنید
+IDC_STATIC_COMPARISON                   = مقایسه بین نسخه ها...
+IDC_STATIC_HOWTOREGISTER                = از قبل باندی زیپ را خرید کرده اید؟ [چگونگی ثبت نام]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = تعمیر آرشیو
+IDC_STATIC_SRC                          = فایل برای تعمیر
+IDC_STATIC_DST                          = فایل تعمیر شده
+IDC_BTN_START                           = شروع تعمیر
+IDC_BTN_STOP                            = توقف
+TEXT_NOTICE                             = جستجو و انتخاب یک فایل برای تعمیر، سپس روی "شروع تعمیر" کلیک کنید
+TEXT_ERR_OCCURRED                       = یک خطا رخ داده است
+TEXT_ERR_NOT_A_ZIP                      = فایل منتخب فرمت پشتیبانی نشده است. اکنون فقط فرمت زیپ پشتیبانی میشود
+TEXT_ERR_NO_INFO                        = فایل منتخب داده ای برای تعمیر ندارد
+TEXT_MSG_START                          = شروع تعمیر
+TEXT_MSG_FINISH                         = تعمیر کامل شد
+TEXT_MSG_ANALYZING                      = در حال آنالیز...
+TEXT_MSG_CANCELED                       = تعمیر لغو شد
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = قبل از شروع تعمیر یک فایل (.zip) انتخاب کنید
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = بازکردن
+$TOOLBAR_CLOSE_FILE                     = بستن
+$TOOLBAR_EXTRACT_FILE                   = استخراج
+$TOOLBAR_CREATE_ARCHIVE                 = جديد
+$TOOLBAR_DELETE_FILE                    = حذف
+$TOOLBAR_ADD_FILE                       = افزودن
+$TOOLBAR_TEST_ARCHIVE                   = تست
+$TOOLBAR_CODEPAGE                       = کد صفحه
+$TOOLBAR_VIEWITEM                       = ستون ها
+$TOOLBAR_SCAN                           = اسکن
+
+$TOOLBAR_OPEN2                          = باز کردن آرشیو
+$TOOLBAR_CREATE_ARCHIVE2                = آرشیو جدید
+
+$TEXT_DESKTOP                           = دسکتاپ
+$TEXT_DOCUMENT                          = اسناد
+$TEXT_PICTURE                           = تصاویر
+$TEXT_COMPUTER                          = رایانه
+
+$TEXT_SETTINGTAB_GENERAL                = عمومي
+$TEXT_SETTINGTAB_ASSOC                  = وابسته سازی
+$TEXT_SETTINGTAB_SHELL                  = کلیک راست
+$TEXT_SETTINGTAB_EXTRACT                = استخراج
+$TEXT_SETTINGTAB_ARCHIVE                = فشرده سازی
+$TEXT_SETTINGTAB_VIEWER                 = نمایش دهنده
+$TEXT_SETTINGTAB_ETC                    = پیشرفته
+$TEXT_SETTINGTAB_LANG                   = زبان
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = بازکردن مکان فایل
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = بازکردن مکان آرشیو
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = بازکردن مکان فایل بعداز استخراج
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = بازکردن مکان آرشیو
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = بازکردن پوشه مقصد
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = بعداز استخراج این پنجره را نبند
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = بعداز آرشیوسازی این پنجره را نبند
+$TOOLTIP_ADVANCED_MENU                  = تنظیمات متفرقه
+$TOOLTIP_REGISTER                       = ثبت نام باندی زیپ
+$TOOLTIP_UPDATE                         = بروز رسانی
+$TOOLTIP_PREVIEW                        = نمای آیکون بزرگ
+$TOOLTIP_REPORT                         = نمای جزئیات
+
+$TEXT_INSTALL_START                     = باشه،امتحان می کنم
+$TEXT_INSTALL_CLOSE                     = نه،ممنونم
+$TEXT_INSTALL_HONEYVIEW_LINK            = مشاهده بیشتر...
+
+$TEXT_HELP_PAGE                         = صفحه راهنما
+$TEXT_AD                                = تبلیغ
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = بازیابی رمزعبور باندی زیپ
+TEXT_MSG_OPENING                        = بازکردن آرشیو: ${str1}
+TEXT_MSG_CANCELED                       = بازکردن آرشیو لغو شد
+TEXT_MSG_BROKEN                         = این آرشیو خراب است
+TEXT_MSG_NO_PASSWD                      = در این آرشیو رمزعبوری تنظیم نشده است
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = فایل سرساز این آرشو رمزگذاری شده است، اکنون این نوع آرشیوها پشتیبانی نمیشود
+TEXT_MSG_OPEN_FIRST                     = بازکردن آرشیو قبل از شروع بازیابی
+TEXT_MSG_CANT_OPEN                      = موفق به بازکردن آرشیو نشد. (کُد:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = انواع کاراکتر منتخب برای بازیابی
+TEXT_MSG_INIT_FAIL                      = مقداردهی موفق نشد
+TEXT_MSG_NOT_FOUND                      = بازیابی موفق نشد. در نسخه استاندارد باندی زیپ حداکثر طول رمزعبور نمیتواند بیش از 4 کاراکتر باشد
+TEXT_MSG_FILE2FINDPWD                   = فایل(های) بالا برای بازیابی پردازش می شود
+TEXT_MSG_ERRORATFINDINDEX               = موفق به یافت فایلی برای بازیابی نشد
+TEXT_MSG_COPY2CLIPBOARD                 = رمزعبور بازیابی شده به کلیپ برد کپی شد
+TEXT_STATE_MSG_READY                    = برای شروع بازیابی روع شروع کلیک کنید
+TEXT_STATE_MSG_WORKING                  = در حال بازیابی رمزعبور...
+TEXT_STATE_MSG_PAUSING                  = در وقفه
+TEXT_STATE_MSG_STOPPING                 = در حال لغو...
+TEXT_STATE_MSG_FOUND                    = رمزعبور ${num1} کاراکتری در ${str1} ثانیه بازیابی شد. (${str2})
+TEXT_ASK_EXIT                           = آیا واقعا میخواهید خارج شوید؟
+TEXT_COMBO_THREAD_AUTO                  = خودکار
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = تنظیمات
+IDC_STATIC_MULTI_CORE                   = پردازش چند-هسته ای
+IDC_STATIC_MULTI_CORE_DESC              = تعداد رشته مورد استفاده در بازیابی را وارد کنید[br]توصیه میشود "خودکار" را انتخاب یا تعداد کمتر از تعداد هسته های پردازنده روی سیستم انتخاب کنید
+IDC_STATIC_PREP_POSTP                   = پیشوند
+IDC_STATIC_PREP                         = پیشوند
+IDC_STATIC_PREP_DESC                    = افزودن پیشوند به ابتدای رمزعبورها قبل از پردازش آنها مانند http://www.
+IDC_STATIC_ETC                          = متفرقه
+IDC_CHK_USE_SIGNATURE_BY_EXT            = استفاده از پسوند فایل برای بازیابی سریعتر
+
+[RECOVERY_SKIN]
+$STEP_1                                 = بازکردن
+$STEP_2                                 = بررسی
+$STEP_3                                 = تنظیمات
+$STEP_4                                 = بازیابی
+$STEP_5                                 = کامل
+$FILE_PATH_NAME                         = مکان
+$BTN_NEXT_PAGE                          = بعدی >
+$BTN_PREV_PAGE                          = < قبلی
+$BTN_OK                                 = تایید
+$BUTTON_BUY_NOW                         = خرید نسخه حرفه ای باندی زیپ
+$STATIC_OPEN_DESC                       = روی "بازکردن آرشیو" برای جستجو و انتخاب آرشیو کد گذاری شده کلیک کنید.<br>همچنین میتوانید آرشیو را مستقیما در این کادر پنجره بکشید و رها کنید
+$STATIC_PRICE_DESC1                     = راهنمای مجوز باندی زیپ
+$STATIC_PRICE_DESC2                     = بازیابی رمزعبور فقط در نسخه حرفه ای موجود است. در نسخه استاندارد حداکثر طول رمزعبور بیش از 4 کاراکتر نمیتواند باشد
+$STATIC_FILELIST_DESC                   = فایل های زیر در این آرشیو موجود است.روی آنها کلیک کرده و روی بعدی کلیک کنید
+$FILELIST_HEADER_NAME                   = نام
+$FILELIST_HEADER_SIZE                   = حجم
+$FILELIST_HEADER_DATE                   = تاریخ ویرایش
+$FILELIST_HEADER_METHOD                 = روش فشرده سازی
+$FILELIST_HEADER_PWMETHOD               = روش کدگذاری
+$STATIC_SYMBOL_DESC                     = انواع کاراکترهای مورد انتظار در رمزعبور را تعیین کنید<br>اگر بیشتر یا همه را انتخاب کنید زمان بیشتری نیاز میشود
+$STATIC_CUR_PASSWORD                    = پردازش
+$STATIC_CUR_PASSLEN                     = طول
+$STATIC_ELAPSED                         = زمان سپردی شده
+$STATIC_SPEED                           = سرعت پردازش
+$STATIC_CLIPBOARD_DESC                  = کپی رمزعبور بازیابی شده به کلیپ برد و چسباندن آن
+$BUTTON_STOP                            = لغو
+$BUTTON_START                           = شروع
+$IDC_BTN_PAUSE                          = وقفه
+$IDC_BTN_UNPAUSE                        = ریستارت
+$IDC_BTN_OPEN                           = بازکردن
+$IDC_BTN_SETTING                        = پیشرفته
+$IDC_BTN_COPY2CLIPBOARD                 = کپی
+$IDC_BTN_CANCEL_PAYMENT                 = مقداردهی
+$BUTTON_HELP_PAGE                       = راهنما درباره زمان تخمینی
+$CHECK_SYMBOL_NUM                       = اعداد (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = حروف کوچک (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = حروف بزرگ (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = کاراکتر ویژه (!@#$...)
+$CHECK_SYMBOL_SPACE                     = فاصله
+$CHECK_SYMBOL_ALL                       = همه
+$FOUNDED_PASSWORD                       = رمزعبوز بازیابی شده هست...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = پوشه جديد
+
+TEXT_MENU_CREATE_NEW_FOLDER             = پوشه جدید
+TEXT_MENU_SUB_MENU                      = باندی زیپ
+TEXT_MENU_OPEN_ARCHIVE                  = بازکردن با باندی زیپ..
+TEXT_MENU_TEST_ARCHIVE                  = تست آرشیو
+TEXT_MENU_LAUNCH_CMD                    = اجرای پنجره فرمان
+TEXT_MENU_LAUNCH_CMD_ADMIN              = (اجرای پنجره فرمان (مدیر
+
+TEXT_MENU_ARCHIVE_EACHNAME              = "فشرده سازی در هر "File/FolderName.zip""
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "فشرده سازی در هر "File/FolderName.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "فشرده سازی به "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = فشرده سازی در "${str1}" و حذف
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = فشرده سازی به ${str1} و ایمیل..
+TEXT_MENU_ARCHIVE_ZIPX                  = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_EXE                   = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_TAR                   = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_TGZ                   = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_LZH                   = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_ISO                   = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_7ZFMT                 = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_GZ                    = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_XZ                    = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_ZPAQ                  = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "فشرده سازی در هر "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "فشرده سازی در هر "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = فشرده سازی به ${str1}
+TEXT_MENU_ARCHIVE_POPUP                 = افزودن به آرشیو (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = فشرده سازی بعنوان مدیر
+
+TEXT_MENU_EXTRACT_HERE                  = استخراج در اینجا
+TEXT_MENU_EXTRACT_AUTO                  = استخراج خودکار
+TEXT_MENU_EXTRACT_AUTO_EACH             = (استخراج خودکار (هریک
+TEXT_MENU_EXTRACT_SUB                   = استخراج هر آرشیو در پوشه جداگانه
+TEXT_MENU_EXTRACT_ARCHIVENAME           = استخراج در ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = مسیر استخراج را انتخاب کنید...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = استخراج بعنوان مدیر
+TEXT_MENU_EXTRACT_HERE_DEL              = استخراج در اینجا و حذف
+TEXT_MENU_EXTRACT_AUTO_DEL              = استخراج در اینجا (هوشمند) و حذف
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = استخراج هوشمند (هر) و حذف
+TEXT_MENU_EXTRACT_SUB_DEL               = استخراج در پوشه های جداگانه و حذف
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = استخراج &در ${str1}\ و حذف
+
+TEXT_MENU_PREVIEW                       = پیشنمایش آرشیو
+TEXT_MENU_PREVIEW_BROKEN                = این فایل یا در [br] فرمت ناشناخته هست یا خراب شده است
+TEXT_MENU_PREVIEW_TIMEOUT               = درخواست دچار تایم اوت شد
+TEXT_MENU_PREVIEW_EMPTY                 = فایل آرشیو خالی
+TEXT_MENU_PREVIEW_ENCRYPTED             = نام فایل کدگذاری شده است
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = نمیتوان از تابع پیشنمایش آرشیو استفاده کرد [br][br]ریستارت ویندوز اکسپلور یا [br]ریستارت رایانه
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = لیست فایل را نمیتوان خواند
+
+TEXT_MENU_OPENING                       = بازکردن...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = بروز رسانی باندی زیپ
+TEXT_UPDATER_TEXT1                      = بروزرسانی باندی زیپ آماده است
+TEXT_UPDATER_TEXT_DL                    = آیا حالا دانلود می کنید؟
+TEXT_UPDATER_BTN_UPDATE                 = بروزرساني
+TEXT_UPDATER_BTN_OK                     = تأیید
+TEXT_UPDATER_BTN_CANCEL                 = لغو
+TEXT_UPDATER_DOWNLOAD_ERROR             = موفق به دانلود نشد
+TEXT_UPDATER_SETTING_UPDATE             = تنظیمات
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = مسیر هدف:
+BTN_SELECT_FOLDER                       = جستجو...
+BTN_EXTRACT                             = شروع
+BTN_CLOSE                               = بستن
+BTN_CANCEL                              = لغو
+BTN_OPEN_FOLDER                         = بازکردن
+CHK_OVERWRITE                           = جایگزینی
+ERR_ERROR_OCCURRED                      = خطا رخ داده است
+ERR_INVALID_PASSWORD                    = رمز عبور نامعتبر است
+ASK_OVERWRITE                           = این فایل از قبل وجود دارد.آیا جایگزین میکنید؟
+MSG_COMPLETED                           = استخراج با موفقیت انجام شد
+IDD_PASSWORD                            = رمزعبور را وارد کنید
+IDC_STATIC_PASSWORD_MSG                 = فایل کُد گذاری شده است
+IDC_BTN_SHOW_PASSWORD                   = نمایش رمزعبور
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = فایل ها را نمیتوان استخراج کرد
+TEXT_ERR_CRC                            = خطای سی آر سی.
+TEXT_ERR_INVALID_PASSWD                 = رمزعبور نامعتبر است
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = نصب ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = حذف کامل ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = روی حذف برای شروع حذف کامل کلیک کنید
+
+$BTN_CLOSE                              = بستن
+$BTN_CANCEL                             = لغو
+$BTN_INSTALL                            = پذیرفتن و نصب
+$BTN_UNINSTALL                          = حذف
+$BTN_OPEN_LICENSE                       = [مشاهده توافقنامه مجوز]
+$BTN_HELP_LINK                          = [راهنما]
+
+$TEXT_PATH                              = پوشه مقصد
+$TEXT_INSTALL_STATIC                    = در حال نصب...
+
+$CHK_AUTO_REPORT                        = ارسال خودکار آمار مصرف و گزارش مشکلات
+$EMAIL                                  = آدرس ایمیل
+$PRODUCT_KEY                            = کلید محصول
+
+ERR_CANT_CREATE_FOLDER                  = موفق به ایجاد پوشه نشد: ${str1}
+ERR_CANT_OPEN_FILE                      = موفق به بازکردن فایل نشد: ${str1}
+ERR_CANT_WRITE_FILE                     = موفق به نوشتن فایل نشد: ${str1}
+ERR_BROKEN_ARCHIVE                      = این فایل فشرده شده آسیب دیده است: ${str1}
+ERR_CRC_ERROR                           = خطای سی آر سی: ${str1}
+ERR_NOT_ENOUGH_MEM                      = کمبود حافظه: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = خطای باز کردن فایل برای نوشتن:[br] "${str1}"[br]روی لغو برای توقف نصب کلیک کنید،[br]دوباره، برای سعی مجدد، یا[br]چشمپوشی برای رَدکردن این فایل
+MSG_SUCCESS                             = نصب کامل شد
+MSG_ERROR                               = یک خطا رخ داده است
+MSG_ERROR_REGISTER                      = موفق به ثبت نام نشد
+MSG_SELECT_FOLDER                       = یک پوشه انتخاب کنید
+MSG_STILLRUN_EXIT_PROGRAM               = باندی زیپ هنوز در اجرا هست.لطفا اول برنامه را ببندید
+MSG_XP_IS_NOT_SUPPORTED                 = این برنامه از ویندوز ویستا به بعد به درستی کار می کند
+MSG_NEED_ADMIN_PRIVILEGE                = این برنامه فقط توسط کاربری با سطح دسترسی آدمین قابل نصب است[br][br]کاربران غیر آدمین قادر به نصب صحیح برنامه نیستند[br][br]آیا میخواهید نصب را متوقف کنید؟
+MSG_NEWVERSION_FOUND                    = یک نسخه جدید موجود است.آیا میخواهید آن را حالا دانلود کنید؟
+SHORTCUT_LINK_DESCRIPTOIN               = اِجرای ${APPNAME}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

@@ -1,0 +1,926 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Hrvatski
+TRANSLATORS                             = I.L.-Jamar
+
+
+[TEXT]
+TEXT_BUILDNO                            = Verzija#
+TEXT_FILE                               = Datoteka
+TEXT_FOLDER                             = Mapa
+TEXT_ARCHIVE_SIZE                       = Ukupna veličina
+TEXT_ORIGINAL_SIZE                      = Originalna veličina
+TEXT_ARCHIVE_FORMAT                     = Tip arhive
+TEXT_COMPRESSED_SIZE                    = Sažeta veličina
+TEXT_SOLID                              = Solidno
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Sažeta datoteka (${str1})
+TEXT_PORTABLE                           = Prenosivo
+TEXT_NEW_FOLDER                         = Nova mapa
+TEXT_FILESIZE_UNKNOWN                   = Nepoznato
+TEXT_FILEDATE_UNKNOWN                   = Nepoznato
+TEXT_HELP_LINK                          = [Pomoć]
+TEXT_APP_DESC                           = Bandizip je lagan, brz i besplatan sve-u-jednom Zip arhiver. Podržava najpopularnije formate kompresije, uključujući ZIP, 7z, RAR, i tako dalje.
+
+TEXT_MESSAGEBOX_OK                      = U redu
+TEXT_MESSAGEBOX_CANCEL                  = Otkaži
+TEXT_MESSAGEBOX_ABORT                   = Prekini
+TEXT_MESSAGEBOX_RETRY                   = Ponovi
+TEXT_MESSAGEBOX_IGNORE                  = Zanemari
+TEXT_MESSAGEBOX_YES                     = Da
+TEXT_MESSAGEBOX_NO                      = Ne
+TEXT_MESSAGEBOX_CONTINUE                = Nastavi
+TEXT_MESSAGEBOX_HELP                    = Help
+
+TEXT_COLUMN_NAME                        = Ime
+TEXT_COLUMN_COMPSIZE                    = Sažeto
+TEXT_COLUMN_ORIGSIZE                    = Original
+TEXT_COLUMN_KIND                        = Tip
+TEXT_COLUMN_DATE_MOD                    = Izmjenjeno
+TEXT_COLUMN_COMPMETHOD                  = Način sažimanja
+TEXT_COLUMN_ENCRMETHOD                  = Način šifriranja
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Svojstva
+TEXT_COLUMN_COMMENT                     = Komentar
+TEXT_COLUMN_PATHNAME                    = Putanja
+
+TEXT_ICONPACK_NAME                      = Ime
+TEXT_ICONPACK_DESIGNER                  = Dizajner
+TEXT_ICONPACK_COPYRIGHT                 = Autorsko pravo
+
+TEXT_ARCHIVE_COLUMN_NAME                = Ime
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Veličina
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Putanja do mape
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Ukupna veličina
+
+TEXT_SELECT_ARCHIVE_FILE                = Izaberi datoteku
+TEXT_SELECT_TEXT_FILE                   = Izaberi datoteku
+TEXT_SELECT_DEST_FOLDER                 = Izaberi odredišnu mapu
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Arhiva
+TEXT_REGISTRY_FILE                      = Registry datoteka
+
+TEXT_OPENDLG_ARCHIVEFILES               = Arhiva
+TEXT_OPENDLG_ARCHIVEFILE                = Datoteka Arhive
+TEXT_OPENDLG_ALLFILES                   = Sve datoteke
+TEXT_OPENDLG_EXEFILES                   = Izvršne (.exe) datoteke
+
+TEXT_ABOUTBOX_TAB1                      = O programu Bandizip
+
+TEXT_ASSOC_GROUP0                       = Sažete datoteke
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Ostali
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Da biste otvorili ovu datoteku, preuzmite novu verziju programa Bandizip
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Izaberite samo prvi dio rascijepljene datoteke
+TEXT_OPENERR_CANT_OPEN_FILE             = Nemoguće otvoriti datoteku (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Nemoguće otvoriti datoteku (${str1}) zato što je koristi neki drugi program
+TEXT_OPENERR_GENERAL                    = Nemoguće otvoriti datoteku (${str1}) (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Otkazano
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Nepoznat format datoteke (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = Nije arhiva (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Nepodržan format datoteke (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Nije podržana metoda enkripcije (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Unesi zaporku
+TEXT_OPENERR_INVALID_PASSWORD           = Zaporka nije ispravna
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Nemoguće otvoriti datoteku, zaglavlje je neispravno
+
+TEXT_ERR_INIT_FAILED                    = Neuspješno pokretanje
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Zaporka nije ispravna ili ne postoji datoteka u arhivi.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Zaporke nisu jednake
+TEXT_ERR_PASSWORD_NOT_SET               = Unesi zaporku
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Neispravan znak je korišten. Koristite alfanumeričke znakove.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Neispravna veličina rascijepljene datoteke
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (samoraspakirajuća arhiva) veličina je limitirana na 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Greška unutar programa
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Nemoguće izmjeniti arhivu
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Greška pri izmjeni arhive
+TEXT_ERR_INVALID_FOLDER_PATH            = Neispravna putanja mape
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Samo ZIP datoteka se može uređivati
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Nemoguće uređivati rascijepljenu datoteku
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Nemoguće uređivati samoraspakirajuću datoteku (*.exe)
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Nemoguće uređivati neispravnu datoteku
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Nemoguće uređivati ovu datoteku/nastavke..
+TEXT_ERR_CANT_CHANGE_FILENAME           = Nemoguće promjeniti ime datoteke
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Nemoguće koristiti ime datoteke sa [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Ista datoteka/mapa već postoji. Nemoguće promjeniti ime datoteke (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Nemoguće stvoriti mapu
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Nema datoteka za sažimanje
+TEXT_ERR_INVALID_PARAM                  = Neispravan argument.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Nemoguće dodati datoteku u arhivu. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Nemoguće otvoriti arhivu [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Ista mapa već postoji
+TEXT_ERR_FILENAME_EMPTY                 = Naziv datoteke je neispravan
+TEXT_ERR_AT_DRAGANDDROP                 = Povuci i ispusti nije uspio
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Povuci i ispusti nije uspjelo. [br]Bandizip je upravo isključio 'Brzo povuci i ispusti' funkciju, pokušajte ponovo.
+TEXT_ERR_AT_CANT_OPEN_MMF               = Nemoguće otvoriti MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Nije odabrana datoteka
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Nemoguće stvoriti mapu za Icon Pack instalaciju
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Nemoguće stvoriti datoteku za Icon Pack instalaciju
+TEXT_ERR_AT_EXECUTE_DIRECT              = Nemoguće otvoriti datoteku. Raspakirajte datoteku i pokušajte ponovo
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Nemoguće stvoriti datoteku veću od 4GB.[br]Molimo izaberite drugi format (ZIP ili 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = Nemoguće spremiti ovu datoteku.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip has encountered a problem while editing the file.(${str1})[br][br]Would you like to send an error report to Bandisoft?[br][br]Submitting this report helps Bandisoft improve Bandizip.
+
+TEXT_MSG_TEST_OK                        = Nema grešaka u datoteci
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Raspakiranje nije uspjelo: kod pogreške [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Raspakiranje uspješno
+TEXT_MSG_EXTRACT_CANCELED               = Raspakiranje je otkazano
+TEXT_MSG_COMPRESS_SUCCESS               = Sažimanje uspješno
+TEXT_MSG_INTERNAL_ERROR                 = Unutarnja greška
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Cannot open the following file in the temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Nemoguće izbrisati arhivu
+TEXT_MSG_CRASH_REPORT                   = Program se srušio. Izađi iz programa
+TEXT_MSG_CRASH_REPORT2                  = Bandizip je naišao na problem i mora se zatvoriti. Želite li poslati izvješće o grešci autorima Bandizip-a?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip is not responding.[br][br]Do you want to send a crash report to the Bandizip developer and close the program?
+TEXT_MSG_SET_TEMP_PATH                  = Postavi privremenu putanju
+TEXT_MSG_SET_PATH                       = Postavi putanju
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Icon Pack je uspješno instaliran
+TEXT_MSG_NOTICE_RESTART                 = Program će se ponovo pokrenuti
+TEXT_MSG_ARCHVIE_OPENING                = Otvaram datoteku
+TEXT_MSG_COMPLETING                     = Završeno: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Nemoguće stvoriti mapu.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Nemoguće sažeti mapu u .GZ/XZ arhivu.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Nemoguće sažeti više datoteka u .GZ/XZ arhivu. Molim provjerite "Sažmi u zasebne datoteke/mape istih naziva" opciju.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip je minimiziran u sistemsku traku. Kliknite na ikonu u području obavijesti za ponovni prikaz.
+TEXT_MSG_TRAY_COMPLETED                 = Operacija završena.
+TEXT_MSG_BATCH_ARCHVING                 = Archiving: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Extracting: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testing: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Deleting: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Failed to delete: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Work in progress...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Ako znakovi nisu ispravno prikazani, stisnite <font color=red><b>Kodna stranica</b></font> iznad i pokušajte <font color=red><b>Odaberi automatski</b></font>menu.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Originalna datoteka će biti izbrisana.[br]Želite li izbrisati ovu datoteku
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Želite li izbrisati trenutnu datoteku?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Želite li trajno obrisati trnutnu arhivu?
+TEXT_ASK_CHANGE_FILENAME                = Ista datoteka već postoji.[br][br]Želite li promijeniti naziv iz ${str1} u ${str2}?
+TEXT_ASK_DELETE_FILE                    = Želite li izbrisati odabranu datoteku?
+TEXT_ASK_STOP_EXTRACT                   = Želite li zaustaviti raspakiranje
+TEXT_ASK_OVERWRITE_ARCHIVE              = Ista datoteka već postoji.[br][br]Želite li je zamijeniti?
+TEXT_ASK_INIT_SETTING                   = Želite li se vratiti na zadane postavke? Bandizip će se ponovo pokrenuti
+TEXT_ASK_STOP_ARCHIVING                 = Želite li zaustaviti sažimanje?
+TEXT_ASK_STOP_MODIFYING                 = Želite li zaustaviti ovu operaciju?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Želite li primijeniti promijenjenu datoteku [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Hoćete li instalirati i podesiti Icon Pack(${str1})?
+TEXT_ASK_MAKE_FOLDER                    = Mapa ne postoji. Želite li je kreirati?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Odredišna mapa nema dozvolu za pisanje.[br][br]- ${str1}[br][br]Želite li nastaviti?
+TEXT_ASK_CONT_NOFREESPACE               = Odredišna mapa nema dovoljno slobodnog prostora. Promjenite odredišnu mapu. [br][br]- ${str1}[br][br]Želite li nastaviti?
+TEXT_ASK_ASK_UAC_ELEVATION              = Nemate ovlasti za izmjenu ovih datoteka. [br][br]Ponovno pokrenuti program kao Administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Nemoguće otvoriti ovu arhivu. [br][br]Želite li otvoriti prvi dio rascijepljene datoteke (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = If you delete files after archiving, you could lose important files if the files are broken.[br][br]Do you want to check the "Test Archive" option?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Not enough disk space to extract. Do you want to proceed?[br][br]Destination Folder: ${str1}[br]Free disk space: ${str2}[br]Extracting file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Datoteka je neispravna
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Datoteka je neispravna ili nedostaje slijedeći dio
+
+TEXT_BTN_PAUSE                          = Stanka
+TEXT_BTN_RESUME                         = Nastavi
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Greška
+TEXT_ERRDLG_USER_ABORT                  = Prekinuto
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Nemoguće otvoriti datoteku
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Nemoguće otvoriti datoteku zato što je koristi neki drugi program
+TEXT_ARKERR_PASSWORD_NOT_SET            = Potrebna je zaporka
+TEXT_ARKERR_INVALID_PASSWD              = Neispravna zaporka
+TEXT_ARKERR_USER_ABORTED                = Prekinuto
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC greška
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Nemoguće otvoriti datoteku
+TEXT_ARKERR_CANT_READ_DATA              = Nemoguće pročitati datoteku
+TEXT_ARKERR_INFLATE_FAILED              = Greška - Datoteka je neispravna
+TEXT_ARKERR_BZIP2_ERROR                 = Greška - Datoteka je neispravna
+TEXT_ARKERR_DATA_CORRUPTED              = Datoteka je neispravna ili nedostaje slijedeći dio
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Nemoguće otvoriti datoteku
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Nemoguće stvoriti mapu
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Metoda kompresije nije podržana
+TEXT_ARKERR_WRITE_FAIL                  = Greška pri zapisivanju
+TEXT_ARKERR_DISK_FULL                   = Disk je pun
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Putanja i naziv datoteke moraju imati manje od 260 znakova
+TEXT_ARKERR_CANT_CREATE_FILE            = Nemoguće stvoriti datoteku
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Nemoguće stvoriti datoteku. Pokrenite program kao Administrator.
+TEXT_ARKERR_USER_SKIP                   = Preskočeno
+TEXT_ARKERR_FILE_TRUNCATED              = Završetak datoteke je neispravan ili nedostaje
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Zaporka ili datoteka su neispravni
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Datoteka je neispravna
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Samoraspakirajuća datoteka (*.exe) prelazi 4GB. Nemoguće je pokrenuti 4GB datoteke u Windows-ima.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Nemoguće otvoriti datoteku. Potrebni su ostali dijelovi (.z01, .z02..).
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Nemoguće otvoriti ZIP datoteku. Potrebni su ostali dijelovi (.z01, .z02..).
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Nemoguće otvoriti datoteku. Potreban sljedeći dio.
+TEXT_ARKERR_CORRUPTED_FILE              = Datoteka je neispravna
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Nemate dozvolu za pisanje u ovu mapu
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Nemate dozvolu za pisanje u ovu mapu. Pokrenite program kao Administrator.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Nepodržan naćin šifriranja
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Nedostatak memorije
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Nedostatak memorije. Promijenite stupanj sažimanja.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Nepodržana operacija
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Veličina raspakirane datoteke i informacija iz zaglavlja se razlikuju.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Nemoguće stvoriti datoteku veću od 4GB. Molimo izaberite drugi format (ZIP ili 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Predug naziv datoteke automatski je skraćen.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Nemoguće otvoriti izvornu datoteku za kopiranje.
+TEXT_ARKERR_NOTIMPL                     = Nije implementirano.
+TEXT_ARKERR_CANT_READ_FILE              = Nemoguće pročitati datoteku.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Pokrenite Bandizip kao administrator za stvaranje simboličke veze.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Nemoguće stvaranje simboličke veze.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Ne cijepaj
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Osobni unos
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Bez sažimanja
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Brzo sažimanje
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Normalno sažimanje
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Maksimalno sažimanje
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Novo sažimanje
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Dodaj u arhivu
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Preimenuj: ${str1}
+TEXT_TITLE_TEST_MODE                    = Testiraj datoteku
+TEXT_TITLE_TEMPFOLDER_MODE              = raspakiranje u privremenu mapu...
+TEXT_TITLE_MODIFYING                    = Mijenjam...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Datoteka za raspakiranje
+TEXT_MSG_SELECTED_FILE                  = ${num1} Datoteka odabrano
+TEXT_MSG_SELECTED_FOLDER                = ${num1} Mapa odabrano
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} Datoteka, ${num2} Mapa
+TEXT_MSG_SELECTED_FILESIZESUM           = Veličina odabranog: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Neuspjela provjera verzije
+TEXT_UPDATE_VERSION_CHECKING            = Provjera verzije
+TEXT_UPDATE_DOWNLOAD_FAILED             = Preuzimanje nije uspjelo
+TEXT_UPDATE_LATEST_VERSION              = Ažurirano
+TEXT_UPDATE_DO_DOWNLOAD                 = Ažuriranje potrebno
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Preuzimanje završeno
+
+TEXT_INSTALL_HONEYVIEW                  = Instaliraj Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview nije instaliran na vašem računalu.
+TEXT_INSTALL_HONEYVIEW_2                = Molimo probajte Honeyview tvrtke Bandisoft.<br> Podržava pregled slika u ZIP, RAR, ili 7z datotekama bez raspakiranja.
+
+
+
+[MENU]
+MENUSTR_FILE                            = &Datoteka
+MENUSTR_EDIT                            = &Uredi
+MENUSTR_SETTING                         = &Opcije
+MENUSTR_FIND                            = P&ronađi
+MENUSTR_VIEW                            = &Pogled
+MENUSTR_HELP                            = &Pomoć
+
+MENUSTR_OPEN                            = &Otvori datoteku\tCtrl+O
+MENUSTR_RECENT                          = Nedavne datoteke
+MENUSTR_CLOSE_FILE                      = &Zatvori datoteku\tF4
+MENUSTR_CREATE_ARCHIVE                  = &Nova arhiva\tCtrl+N
+MENUSTR_NEW_WINDOW                      = Novi prozor \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Novi prozor(Administrator)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Spremi kao
+MENUSTR_DELETE_ARCHIVE                  = Izbriši arhivu \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Izbriši arhivu Trajno \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Otvori mjesto arhive
+MENUSTR_TEST_ARCHIVE                    = &Test arhive \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &Raspakiraj \tCtrl+E
+MENUSTR_EXIT                            = I&zlaz \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Preimenuj datoteku \tF2
+MENUSTR_ADD_FILE                        = &Dodaj datoteku \tIns
+MENUSTR_DELETE_FILE                     = &Izbriši datoteku \tDel
+MENUSTR_EDIT_COMMENT                    = Komentar
+MENUSTR_SETTING_SUB                     = &Postavke (F5)
+MENUSTR_FIND_ITEM                       = P&ronađi datoteke\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Copy files to clipboard\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Paste files from clipboard\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Početni zaslon \tF6
+MENUSTR_VIEW_TREECONTROL                = Kontrola prikaza stabla \tF7
+MENUSTR_VIEW_COMMENT                    = Komentar Arhive\tF8
+MENUSTR_VIEW_PREVIEW                    = Pretpregled slike
+MENUSTR_VIEW_TOOLBAR                    = Alatna traka
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Veliko
+MENUSTR_VIEW_TOOLBAR_MINI               = Malo
+MENUSTR_VIEW_TOOLBAR_OLD                = Staro
+MENUSTR_VIEW_TOOLBAR_HIDE               = Sakrij
+MENUSTR_VIEW_LISTVIEW                   = Lista datoteka
+MENUSTR_VIEW_LISTVIEW_ICON              = Ikone
+MENUSTR_VIEW_LISTVIEW_LIST              = Lista
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detalji
+MENUSTR_VIEW_COLUMN                     = Stupci
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Uvijek na vrhu
+MENUSTR_VIEW_COLOR_SETTING              = Postavke boja...
+
+
+MENUSTR_ABOUT                           = &O Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Internet Pomoć
+MENUSTR_OPEN_FOLDER                     = &Otvori Bandizip mapu
+MENUSTR_FORUM                           = Idi na Bandizip &Forum
+MENUSTR_HOMEPAGE                        = Idi na &Homepage
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Sažeta veličina
+POPUPMENU_VIEWITEM_ORIGSIZE             = Originalna veličina
+POPUPMENU_VIEWITEM_KIND                 = Tip datoteke
+POPUPMENU_VIEWITEM_DATE_MOD             = Datum izmjene
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Način sažimanja
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Način šifriranja
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Svojstva datoteke
+POPUPMENU_VIEWITEM_COMMENT              = Komentar datoteke
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Raspakiraj sve \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Raspakiraj odabranu datoteku
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Raspakiraj ovdje
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Otvori\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Otvori s zadanim programom
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Uredi\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Nova mapa
+POPUPMENU_LISTCONTROL_ADD_FILE          = Dodaj datoteku \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Izbriši datoteku \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Preimenuj datoteku
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Odaberi sve \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Premjesti u korijensku mapu\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Izbriši arhivu
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Otvori mapu arhive
+
+POPUPMENU_EXTRACT_AUTODEST              = Raspakiraj automatski\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Raspakiraj u trenutnu mapu\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Raspakiraj u "NazivDatoteke" mapu
+POPUPMENU_EXTRACT_DESKTOP               = Raspakiraj na radnu površinu
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Raspakiraj automatski na radnu površinu
+
+POPUPMENU_RECENT_CLEAR                  = Izbriši povijest
+POPUPMENU_RECENT_NOITEM                 = Nema povijesti otvaranja
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Otvori sa Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Raspakiraj automatski
+
+POPUPMENU_CODEPAGE_DEFAULT              = Zadano
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Kineski-Pojednostavljen
+POPUPMENU_CODEPAGE_TRADCHINESE          = Kineski-Tradicionalni
+POPUPMENU_CODEPAGE_JAPANESE             = Japanski
+POPUPMENU_CODEPAGE_KOREAN               = Korejski
+POPUPMENU_CODEPAGE_WINDOWS1252          = ZapadnoEuropski
+POPUPMENU_CODEPAGE_WINDOWS1250          = SrednjoEuropski
+POPUPMENU_CODEPAGE_WINDOWS1251          = Ćirilica
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turski
+POPUPMENU_CODEPAGE_WINDOWS737           = Grčki
+POPUPMENU_CODEPAGE_ARABIC               = Arpski
+POPUPMENU_CODEPAGE_HEBREW               = Hebrejski
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Odaberi automatski
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Pregledaj sa Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Pregledaj zadanim programom
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Minimiziraj u sistemsku traku
+DLG_MENUSTR_LOW_PRIORITY                = Niski prioritet
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = U redu
+IDCANCEL                                = Otkaži
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = O Bandizip
+IDC_BTN_HOMEPAGE                        = Homepage
+IDC_BTN_UPDATE                          = Ažuriraj
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Otvori datoteku
+IDC_STATIC_OPENING                      = Otvaram
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Izaberi putanju raspakiranja
+IDC_STATIC_FOLDER                       = &Odredišna putanja
+IDC_STATIC_FILES2EXTRACT                = Raspakiraj:
+IDC_RADIO_FILES2EXTRACT_0               = &Sve datoteke
+IDC_RADIO_FILES2EXTRACT_1               = &Odabrane datoteke
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Raspakiraj u "odredišnu" mapu u odabranoj mapi
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Izbriši izvorne datoteke nakon raspakiranja
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = Nova mapa
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Raspakiraj
+IDC_BTN_STOP                            = Zaustavi
+IDC_BTN_CLOSE                           = Zatvori
+IDC_BTN_PAUSE                           = Stanka
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Nova arhiva
+IDC_STATIC_FILE_LIST                    = Dodaj u datoteku
+IDC_STATIC_ARCHIVE_SETTING              = Podešenja arhive
+IDC_STATIC_ARCHIVE_NAME                 = Naziv datoteke
+IDC_STATIC_SET_DEST_FOLDER              = Odredišna Mapa
+IDC_STATIC_ARCHIVE_TYPE                 = Spremi kao
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Rascijepi datoteku
+IDC_STATIC_COMPRESSION_METHOD           = Stupanj sažimanja
+IDC_STATIC_HELP_SPLIT                   = [Pomoć]
+IDC_STATIC_HELP_7Z                      = [7Z format]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Traži...
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = Izbriši datoteke nakon sažimanja
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Sažmi u zasebne datoteke/istih naziva
+IDC_BTN_SET_DEST_FOLDER                 = Promjeni odredišnu mapu
+IDC_BTN_TOGGLE_ADVANCED                 = Više opcija...
+IDC_BTN_SET_SFX                         = SFX Postavke...
+IDC_BTN_ADD                             = &Dodaj...
+IDC_BTN_DEL                             = &Izbriši
+IDC_BTN_START                           = &Start
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Neispravna zaporka. Ponovi zaporku.
+IDC_BTN_SHOW_PASSWORD                   = Pokaži zaporku
+IDC_CHECK_APPLY_ALL                     = &Primjeni sve
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = Pokaži zaporku
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Odaberi
+IDC_BTN_OPEN                            = Otvori
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Sažimam
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = Zaustavi
+IDC_BTN_CLOSE                           = Zatvori
+IDC_BTN_PAUSE                           = Stanka
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Dvostruke datoteke
+IDC_STATIC_DUPE_MESSAGE                 = Datoteka već postoji
+IDC_STATIC_DUPEFILE_OLD                 = Original datoteka
+IDC_STATIC_DUPEFILE_NEW                 = Trenutna datoteka
+IDC_STATIC_DUPE_ASK                     = Izaberi opciju ispod:
+IDC_RADIO_DUPE_METHOD0                  = &Preskoči
+IDC_RADIO_DUPE_METHOD1                  = &Prepiši
+IDC_RADIO_DUPE_METHOD2                  = &Preimenuj
+IDC_CHECK_DUPE_APPLY_ALL                = &Primjeni na sve datoteke
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Postavke datoteke
+IDC_STATIC_ASK_HANDLING                 = Izaberi opciju ispod:
+IDC_RADIO_HANDLE_METHOD0                = &Otvori datoteku
+IDC_RADIO_HANDLE_METHOD1                = &Novo sažimanje
+IDC_RADIO_HANDLE_METHOD2                = &Dodaj u trenutnu datoteku
+IDC_CHK_PASS                            = Koristi zaporku
+IDC_STATIC_PASSWORD_AGAIN               = Ponovi zaporku
+IDC_CHK_SHOW_PASS                       = Pokaži zaporku
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Postavke
+IDC_BTN_INIT                            = Reset
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Opće postavke
+IDC_CHK_EXIT_WITH_ESC                   = Stisni ESC tipku da zatvoriš prozor
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Uvijek provjeri datoteke kada se dodaju/brišu/preimenuju
+IDC_CHK_SNAP                            = Koristi Snap prozor
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Pokaži [..] mape u datoteci
+IDC_CHK_SHOW_GRID_AT_LIST               = Pokaži mrežu u detaljnom pogledu
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Odaberite cijeli red u arhivu
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Pridruživanja nastavaka
+IDC_BTN_SELECT_MANDATORY                = Odaberi osnovno
+IDC_BTN_SELECT_ALL                      = Odaberi sve
+IDC_BTN_CLEAR_ALL                       = Odznači sve
+IDC_BTN_APPLY_NOW                       = Primjeni odmah
+IDC_STATIC_ICON_PACK                    = Odaberi Icon Pack:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Icon Pack Preuzimanje]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Pridruživanje nastavaka
+;IDC_STATIC_ASSOC_DESC1                 = Na Windows 8 ili novijim verzijama, možete pridružiti datoteke na slijedeći način:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Kliknite na sljedeći "Pridruživanje nastavaka" gumb.
+;IDC_STATIC_ASSOC_DESC3                 = 2. Označite "Odaberi sve" u prozoru za postavke pridruživanja datoteka programu.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Kliknite gumb "Spremi".
+;IDC_STATIC_ASSOC_DESC1_10              = Na Windows 10 ili novijim verzijama, možete pridružiti datoteke na slijedeći način:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Kliknite na sljedeći "Pridruživanje nastavaka" gumb.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Select "Bandizip" in Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Postavke pridruživanja
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Klasični način
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Lijevi dvoklik -akcija:
+IDC_RADIO_SHELL_OPEN_0                  = Otvori sa Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Raspakiraj automatski
+IDC_RADIO_SHELL_OPEN_2                  = Pokaži kontekstni izbornik
+IDC_RADIO_SHELL_OPEN_3                  = Raspakiraj automatski u određenu mapu
+IDC_BTN_SET_EXTRACT_FOLDER              = Traži...
+IDC_RADIO_SHELL_OPEN_4                  = Raspakiraj u mapu nazvanu po datoteci
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = Izbornik raspakiranja
+IDC_CHK_SHELL_EXTRACT_HERE              = Raspakiraj ovdje
+IDC_CHK_SHELL_EXTRACT_AUTO              = Raspakiraj automatski
+IDC_CHK_SHELL_EXTRACT_SUB               = Raspakiraj u
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Here and Delete
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Here (Smart) and Delete
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = Izaberi putanju raspakiranja
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Raspakiraj kao Administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Testiraj arhivu
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Otvori sa Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Pretpregled arhive
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Pretpregled max. datoteka:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = Izbornik sažimanja
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Sažmi u "NazivDatoteke.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Sažmi u "NazivDatoteke.zip" i pošalji email
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Sažmi u "NazivDatoteke.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Sažmi u "NazivDatoteke.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Sažmi u "NazivDatoteke.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Sažmi u "NazivDatoteke.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Sažmi u "NazivDatoteke.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Sažmi u "NazivDatoteke.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Sažmi u "NazivDatoteke.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Sažmi u "NazivDatoteke.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Sažmi u "NazivDatoteke.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Sažmi u "NazivDatoteke.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = Sažmi u zasebne datoteke/istih naziva
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Sažmi u zasebne "datoteke/istih naziva.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Dodaj u arhivu (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Sažmi kao Administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Sažmi u prilagođeni naziv datoteke
+IDC_STATIC_FILENAME_RULE_HELP           = Pravilo: ${NAME}=Naziv, %Y=Godina, %m=Mjesec, %d=Dan, %H=Sat, %M=Minuta, %S=Sekunda
+
+IDC_STATIC_SHELL_BKGND                  = Dodatni izbornik
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Nova mapa
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Otvori komandnolinijski prozor (cmd.exe)
+
+IDC_STATIC_SHELL_ETC                    = Ostalo
+IDC_CHK_SHELL_DO_NOT_USE                = Onemoguči kontekstni izbornik
+IDC_CHK_SHELL_AS_SUB_MENU               = Kaskadni kontekstni izbornik
+IDC_CHK_SHELL_HIDE_ICON                 = Sakrij Bandizip ikonu
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Razlikuj arhive po sadržaju
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Prikaži izbornik sažimanja i za već sažete datoteke
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Koristite odabrani naziv datoteke/mape ispod pokazivača miša
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Opcije raspakiranja
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Kod samo jedne korijenske mape u arhivi, prikaži datoteke u mapi
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Otvori mapu nakon raspakiranja
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Ne zatvaraj prozor napretka nakon raspakiranja
+IDC_CHK_FAST_DRAG_DROP                  = Koristi Brzo Povuci i Ispusti ako je arhiva velika
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Raspakiraj TGZ, TBZ datoteke jednu po jednu
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = I za velike datoteke tipa TGZ, TBZ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Pri upotrebi 'Raspakiraj automatski', stvori mapu ukoliko ima više korijenskih datoteka
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Prepoznaj Macintosh kodnu stranicu automatski
+IDC_CHK_UNIXZIP_AS_UTF8                 = Koristi UTF-8 kodnu stranicu pri otvaranju zip datoteke UNIX-a
+IDC_STATIC_CODEPAGE                     = Zadana kodna stranica
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Otpakiraj sve za
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Opcije sažimanja
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Ne stvaraj korijensku mapu kod sažimanja jedne mape
+IDC_CHK_USE_UTF8_COMPRESS               = Koristi Unicode nazive u Zip datotekama (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Koristi Unicode nazive u tar,tgz datotekama (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Uvjek koristi ZIP64 format i kada je datoteka manja od 2GB (Ne preporučuje se)
+IDC_CHK_EXCLUDE_THUMBSDB                = Izostavi thumbs.db datoteke kod sažimanja
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Spremi NTFS info o vremenu kod stvaranja Zip datoteka
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = "Koristi 'Sažimanje velike brzine'"
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Ne zatvaraj prozor napretka nakon sažimanja
+IDC_STATIC_COMPRESSION_METHOD           = Stupanj sažimanja:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Koristi posljednju mapu za Nova arhiva
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Zadana mapa arhiva
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Traži...
+IDC_CHK_EXCLUDE_FILTER                  = Nastavci datoteka koji će se ignorirati pri sažimanju
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Opcije Preglednika
+IDC_CHK_SHOW_PREVIEW                    = Pretpregled slike
+
+IDC_STATIC_SETTING_VIEWITEM             = Stupci
+IDC_CHK_VIEWITEM_COMPSIZE               = Sažeta veličina
+IDC_CHK_VIEWITEM_ORIGSIZE               = Originalna veličina
+IDC_CHK_VIEWITEM_KIND                   = Vrsta datoteke
+IDC_CHK_VIEWITEM_DATE_MOD               = Datum izmjene
+IDC_CHK_VIEWITEM_COMPMETHOD             = Način sažimanja
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Način šifriranja
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Svojstva datoteke
+IDC_CHK_VIEWITEM_COMMENT                = Komentar
+
+IDC_STATIC_IMAGE_VIEWER                 = Preglednik slika
+IDC_RADIO_IMAGE_VIEWER_0                = Koristi interni Preglednik slika
+IDC_RADIO_IMAGE_VIEWER_1                = Koristi zadani program
+IDC_RADIO_IMAGE_VIEWER_2                = Koristi Honeyview ako je instaliran
+
+IDC_STATIC_EDITOR                       = Editor
+IDC_BTN_SET_EDITOR_PATH                 = Odaberi...
+
+IDC_STATIC_COLOR                        = Boja
+IDC_STATIC_COLOR_THEME                  = Boja teme
+IDC_BTN_BKGND                           = Odabrano
+IDC_STATIC_COLOR_TEXT                   = Boja fonta
+IDC_STATIC_COLOR_TEXT_AUTO              = Automatski
+IDC_STATIC_COLOR_TEXT_WHITE             = Bijelo
+IDC_STATIC_COLOR_TEXT_BLACK             = Crno
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Izvezi Bandizip postavke
+IDC_STATIC_ETC                          = Dodatne postavke
+IDC_CHK_SET_TEMP_FOLDER                 = Postavi putanju privremene mape
+IDC_BTN_SET_TEMP_FOLDER                 = Traži...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Smatraj sljedeće vrste datoteka kao arhive
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Izbriši privremene datoteke po završetku zavisne operacije
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Premjesti u koš za smeće kod brisanja
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Prikaži povijest nedavnih arhiva
+IDC_CHK_USE_LONG_PATH_NAME              = Upravljaj nazivima datoteka koje premašuju 260 znakova
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Dopustite Windows Exploreru brisanje otvorenih arhiva
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Proširi stablo mapa automatski
+IDC_CHK_USE_MODAL_DIALOG                = Koristi načinski diolog pri sažimanju/raspakiravanju
+IDC_CHK_USE_ELEGANT_UI                  = Koristi elegantno sučelje
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Prikaži 'Početni zaslon' pri pokretanju Bandizip
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Prikaži punu putanju u naslovnoj traci
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Delete extracted files when extraction is cancelled
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Postavke jezika
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (samoraspakirajuće arhive) Postavke
+IDC_STATIC_TARGET_PATH                  = Putanja za raspakiranje:
+IDC_STATIC_TITLE                        = SFX Naziv:
+IDC_STATIC_RUN                          = Pokreni nakon raspakiranja:
+IDC_STATIC_MESSAGE                      = SFX poruka:
+IDC_CHK_AUTO_CLOSE                      = Zatvori SFX prozor nakon raspakiranja
+IDC_BTN_SAVE_SFX_SETTING                = Spremi postavke
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Pronađi datoteke
+IDC_STATIC_FIND                         = Pronađi šta:
+IDC_BTN_CLOSE                           = Zatvori
+IDC_BTN_DELETE                          = Izbriši
+IDC_BTN_EXTRACT                         = Raspakiraj
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Komentar arhive
+IDC_STATIC_COMMENT                      = Dodaj/Uredi komentar u ovoj arhivi
+IDC_CHK_USE_UTF8                        = Spremi komentar kao Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Učitaj komentar iz datoteke (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = UPOZORENJE
+IDC_STATIC_WARN_EXECUTABLE              = Ova datoteka je izvršna datoteka. Pokretanje ove datoteke bi moglo naštetiti vašem računalu. Želite li nastaviti?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Ne pitaj me ponovno
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Otvori
+$TOOLBAR_CLOSE_FILE                     = Zatvori
+$TOOLBAR_EXTRACT_FILE                   = Raspakiraj
+$TOOLBAR_CREATE_ARCHIVE                 = Novo
+$TOOLBAR_DELETE_FILE                    = Izbriši
+$TOOLBAR_ADD_FILE                       = Dodaj
+$TOOLBAR_TEST_ARCHIVE                   = Testiraj
+$TOOLBAR_CODEPAGE                       = Kodna stranica
+$TOOLBAR_VIEWITEM                       = Stupci
+
+$TOOLBAR_OPEN2                          = Otvori Arhivu
+$TOOLBAR_CREATE_ARCHIVE2                = Nova Arhiva
+
+$TEXT_DESKTOP                           = Radna površina
+$TEXT_DOCUMENT                          = Dokumenti
+$TEXT_PICTURE                           = Slike
+$TEXT_COMPUTER                          = Računalo
+
+$TEXT_SETTINGTAB_GENERAL                = Opće
+$TEXT_SETTINGTAB_ASSOC                  = Pridruživanje
+$TEXT_SETTINGTAB_SHELL                  = Kaskadni izbornik
+$TEXT_SETTINGTAB_EXTRACT                = Raspakiranje
+$TEXT_SETTINGTAB_ARCHIVE                = Sažimanje
+$TEXT_SETTINGTAB_VIEWER                 = Preglednik
+$TEXT_SETTINGTAB_ETC                    = Dodatno
+$TEXT_SETTINGTAB_LANG                   = Jezik
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Otvori mjesto datoteke
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Otvori mjesto arhive
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Otvori mjesto datoteke nakon raspakiranja
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Otvori mjesto arhive
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Otvori odredišnu mapu
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Ne zatvaraj ovaj prozor nakon raspakiranja
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Ne zatvaraj ovaj prozor nakon sažimanja
+$TOOLTIP_ADVANCED_MENU                  = Ostale postavke
+
+$TEXT_INSTALL_START                     = U redu, probati ću
+$TEXT_INSTALL_CLOSE                     = Ne, hvala
+$TEXT_INSTALL_HONEYVIEW_LINK            = Vidi više...
+
+$TEXT_HELP_PAGE                         = Stranica za pomoć
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Nova mapa
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Nova mapa
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Otvori sa Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Testiraj arhivu
+TEXT_MENU_LAUNCH_CMD                    = &Pokreni cmd prozor
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Pokreni cmd prozor (Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Sažmi u &zasebne datoteke/istih naziva
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Sažmi u zasebne "datoteke/istih naziva.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "Sa&žmi u "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Sažmi u ${str1} i pošalji ema&il...
+TEXT_MENU_ARCHIVE_ZIPX                  = Sažmi u ${str1}
+TEXT_MENU_ARCHIVE_EXE                   = "Sažmi u "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = Sažmi u ${str1}
+TEXT_MENU_ARCHIVE_TGZ                   = Sažmi u ${str1}
+TEXT_MENU_ARCHIVE_LZH                   = "Sažmi u "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Sažmi u "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Sažmi u "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Sažmi u "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Sažmi u "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Sažmi u "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Sažmi u zasebne "Naziv datoteke.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Sažmi u zasebne "Naziv datoteke.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Sažmi u "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Dodaj u arhivu (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Sažmi kao Administrator
+
+TEXT_MENU_EXTRACT_HERE                  = &Raspakiraj ovdje
+TEXT_MENU_EXTRACT_AUTO                  = Raspakiraj &Automatski
+TEXT_MENU_EXTRACT_AUTO_EACH             = Raspakiraj &Automatski (Zasebno)
+TEXT_MENU_EXTRACT_SUB                   = Raspakiraj svaku arhivu u &zasebnu mapu
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Raspakiraj &u ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Odaberi putanju raspakiranja...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Raspakiraj kao Administrator
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = Pretpregled arhive
+TEXT_MENU_PREVIEW_BROKEN                = Datoteka je ili [br] nepoznatog formata ili neispravna
+TEXT_MENU_PREVIEW_TIMEOUT               = Zahtjev je istekao.
+TEXT_MENU_PREVIEW_EMPTY                 = Prazna arhiva
+TEXT_MENU_PREVIEW_ENCRYPTED             = Naziv datoteke je kriptiran
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Nemoguće korištenje pretpregleda arhive. [br][br]Restartajte Windows Explorer ili [br]Restartajte vaše računalo.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Nemoguće pročitati popis datoteka
+
+TEXT_MENU_OPENING                       = Otvaram...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip ažuriranja
+TEXT_UPDATER_TEXT1                      = Bandizip ažuriranja spremna
+TEXT_UPDATER_TEXT_DL                    = Želite li preuzeti sada?
+TEXT_UPDATER_BTN_UPDATE                 = Ažuriraj
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Odustani
+TEXT_UPDATER_DOWNLOAD_ERROR             = Preuzimanje nije uspjelo.
+TEXT_UPDATER_SETTING_UPDATE             = Postavke
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Putanja cilja:
+BTN_SELECT_FOLDER                       = Traži...
+BTN_EXTRACT                             = Start
+BTN_CLOSE                               = Zatvori
+BTN_CANCEL                              = Odustani
+BTN_OPEN_FOLDER                         = Otvori
+CHK_OVERWRITE                           = Prepiši
+ERR_ERROR_OCCURRED                      = Greška
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = Ista datoteka već postoji. Zamjeniti?
+MSG_COMPLETED                           = Raspakiranje Uspjelo!
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = Pokaži zaporku
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Nemoguće raspakirati datoteke.
+TEXT_ERR_CRC                            = CRC greška.
+TEXT_ERR_INVALID_PASSWD                 = Pogrešna zaporka.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [Pomoć]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip je otvoren. Prvo zatvorite program.
+MSG_XP_IS_NOT_SUPPORTED                 = Ovaj program će ispravno raditi samo u sustavu Windows Vista i kasnijim.
+MSG_NEED_ADMIN_PRIVILEGE                = This program can only be installed by a user with administrator privileges.[br][br]Non-administrative users may not install the program properly.[br][br]Do you want to stop installation?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

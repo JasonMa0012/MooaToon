@@ -8,14 +8,14 @@ set branchName=5.1
 cd %repoName%
 
 git checkout %branchName%
-git pull origin %branchName%
+git pull --depth=50 origin %branchName%
 git merge origin/%branchName%
 
 if not %errorlevel% == 0 (
     color 04
-    echo Merge failed, please run Force Update after backup files.
+    echo Merge failed, please run Clean after backup files.
     pause
 )else (
     echo %repoName% successfully update.
-    timeout /t 5
+    timeout /t 10
 )

@@ -1,0 +1,1187 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Català
+TRANSLATORS                             = Raül Vallès, Andreu Vives.
+
+
+[TEXT]
+TEXT_BUILDNO                            = Muntatge#
+TEXT_FILE                               = Fitxers
+TEXT_FOLDER                             = Carpetes
+TEXT_ARCHIVE_SIZE                       = Mida de l'arxiu
+TEXT_ORIGINAL_SIZE                      = Mida original
+TEXT_ARCHIVE_FORMAT                     = Format de l'arxiu
+TEXT_COMPRESSED_SIZE                    = Mida comprimit
+TEXT_SOLID                              = Sòlid
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Fitxer comprimit (${str1})
+TEXT_PORTABLE                           = Portable
+TEXT_NEW_FOLDER                         = Carpeta nova
+TEXT_FILESIZE_UNKNOWN                   = Desconeguda
+TEXT_FILEDATE_UNKNOWN                   = Desconeguda
+TEXT_HELP_LINK                          = [Ajuda]
+TEXT_APP_DESC                           = El Bandizip és un arxivador complet, lleuger, ràpid i gratuït. Admet els formats de compressió més populars, com ara zip, 7z i rar, entre d'altres.
+
+TEXT_MESSAGEBOX_OK                      = D'acord
+TEXT_MESSAGEBOX_CANCEL                  = Cancel·la
+TEXT_MESSAGEBOX_ABORT                   = Interromp
+TEXT_MESSAGEBOX_RETRY                   = Reintenta
+TEXT_MESSAGEBOX_IGNORE                  = Ignora
+TEXT_MESSAGEBOX_YES                     = Sí
+TEXT_MESSAGEBOX_NO                      = No
+TEXT_MESSAGEBOX_CONTINUE                = Continua
+TEXT_MESSAGEBOX_HELP                    = Ajuda
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = No ho tornis a mostrar
+
+TEXT_COLUMN_NAME                        = Nom
+TEXT_COLUMN_COMPSIZE                    = Comprimit
+TEXT_COLUMN_ORIGSIZE                    = Original
+TEXT_COLUMN_KIND                        = Tipus
+TEXT_COLUMN_DATE_MOD                    = Modificat
+TEXT_COLUMN_COMPMETHOD                  = Mètode de compressió
+TEXT_COLUMN_ENCRMETHOD                  = Mètode d'encriptació
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Atributs
+TEXT_COLUMN_COMMENT                     = Comentari
+TEXT_COLUMN_EXT                         = Informació addicional
+TEXT_COLUMN_PATHNAME                    = Camí
+
+TEXT_ICONPACK_NAME                      = Nom
+TEXT_ICONPACK_DESIGNER                  = Dissenyador
+TEXT_ICONPACK_COPYRIGHT                 = Copyright
+
+TEXT_ARCHIVE_COLUMN_NAME                = Nom
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Mida
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Camí de la carpeta
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Mida total
+
+TEXT_SELECT_ARCHIVE_FILE                = Seleccioneu el fitxer
+TEXT_SELECT_TEXT_FILE                   = Seleccioneu el fitxer
+TEXT_SELECT_DEST_FOLDER                 = Seleccioneu la carpeta de destinació
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Fitxer d'arxiu
+TEXT_REGISTRY_FILE                      = Fitxer de registre
+
+TEXT_OPENDLG_ARCHIVEFILES               = Fitxers d'arxiu
+TEXT_OPENDLG_ARCHIVEFILE                = Fitxer d'arxiu
+TEXT_OPENDLG_ALLFILES                   = Tots els fitxers
+TEXT_OPENDLG_EXEFILES                   = Fitxers exe
+
+TEXT_ABOUTBOX_TAB1                      = Quant al Bandizip
+
+TEXT_ASSOC_GROUP0                       = Fitxers d'arxiu
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Altres
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Per a obrir aquest fitxer, baixeu la darrera versió del Bandizip.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Seleccioneu només la primera part de l'arxiu dividit.
+TEXT_OPENERR_CANT_OPEN_FILE             = No es pot obrir el fitxer (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = No es pot obrir el fitxer (${str1}) perquè un altre programa l'està utilitzant.
+TEXT_OPENERR_GENERAL                    = No es pot obrir el fitxer (${str1}) (Codi:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Cancel·lat
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Format de fitxer desconegut (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" no és un arxiu."
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Format no admès (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Mètode d'encriptació no admès (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Introduïu la contrasenya
+TEXT_OPENERR_INVALID_PASSWORD           = La contrasenya no és correcta.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = No es pot obrir el fitxer perquè té la capçalera malmesa.
+
+TEXT_ERR_INIT_FAILED                    = No s'ha pogut inicialitzar.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = La contrasenya no és correcta, o bé no hi ha fitxers en l'arxiu.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Les contrasenyes no coincideixen
+TEXT_ERR_PASSWORD_NOT_SET               = Cal una contrasenya.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = La contrasenya conté caràcters no vàlids. Utilitzeu només caràcters alfanumèrics o especials.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = La mida de l'arxiu dividit no és vàlida.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = La mida dels fitxers SFX (arxius autoextraïbles) està limitada a 4 GB.
+TEXT_ERR_INTERNAL_ERROR                 = Error intern
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = No es pot modificar l'arxiu.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = S'ha produït un error mentre es modificava l'arxiu.
+TEXT_ERR_INVALID_FOLDER_PATH            = Camí de carpeta no vàlid
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Només es poden editar els arxius zip.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = No es pot editar l'arxiu dividit.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = No es pot editar l'arxiu autoextraïble (*.exe).
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = No es pot editar el fitxer malmès.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = No es pot editar aquest format d'arxiu.
+TEXT_ERR_CANT_CHANGE_FILENAME           = No es pot canviar el nom d'aquest fitxer.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "El nom del fitxer no pot contenir els caràcters: [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = El fitxer o la carpeta ja existeix. No es pot canviar el nom del fitxer (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = No es pot crear una carpeta.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = No hi ha fitxers a arxivar
+TEXT_ERR_INVALID_PARAM                  = El paràmetre no és vàlid.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = No es pot afegir el fitxer a l'arxiu. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = No es pot obrir l'arxiu [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = La carpeta ja existeix.
+TEXT_ERR_FILENAME_EMPTY                 = El nom del fitxer no és correcte.
+TEXT_ERR_AT_DRAGANDDROP                 = L'arrossegament ha fallat.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = L'arrossegament ha fallat.[br]El Bandizip ha desactivat la funció d'arrossegament, torneu-ho a provar.
+TEXT_ERR_AT_CANT_OPEN_MMF               = No es pot obrir el fitxer MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = No s'ha seleccionat cap fitxer.
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = No es pot crear una carpeta per a la instal·lació del paquet d'icones.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = No es pot crear un fitxer per a la instal·lació del paquet d'icones.
+TEXT_ERR_AT_EXECUTE_DIRECT              = No es pot obrir aquest fitxer. Extraieu-lo i torneu-ho a provar.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = No es pot crear un fitxer de més de 4 GB. [br]Trieu un altre format d'arxiu (zip o 7z).
+TEXT_ERR_CANT_SAVE_AS                   = No es pot desar aquest fitxer.
+TEXT_ERR_ERROR_AT_EDIT                  = El Bandizip ha detectat un problema mentre editava el fitxer.(${str1})[br][br]Voleu enviar un informe d'errors a Bandisoft?[br][br]Enviar aquest informe ajuda Bandisoft a millorar el Bandizip.
+
+TEXT_MSG_TEST_OK                        = No s'ha trobat cap error durant la comprovació.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = L'extracció ha fallat.[br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = L'extracció s'ha completat correctament.
+TEXT_MSG_EXTRACT_CANCELED               = L'extracció s'ha cancel·lat.
+TEXT_MSG_COMPRESS_SUCCESS               = L'arxivament s'ha completat correctament.
+TEXT_MSG_INTERNAL_ERROR                 = S'ha produït un error intern.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = No es pot obrir aquest fitxer de la carpeta temporal:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = No es pot suprimir aquest arxiu.
+TEXT_MSG_CRASH_REPORT                   = No es pot crear un fitxer de més de 4 GB. [br]Trieu un altre format d'arxiu (zip o 7z).
+TEXT_MSG_CRASH_REPORT2                  = El Bandizip ha detectat un problema i s'ha de tancar. Voleu enviar un informe d'errors al desenvolupador del Bandizip?
+TEXT_MSG_CRASH_REPORT3                  = La DLL següent està causant un problema i cal tancar-la.[br]Voleu enviar un informe de bloqueig al desenvolupador del Bandizip?
+TEXT_MSG_HANGAPP_REPORT                 = El Bandizip no respon.[br][br]Voleu enviar un informe d'errors al desenvolupador del Bandizip i tancar el programa?
+TEXT_MSG_SET_TEMP_PATH                  = Defineix el camí temporal
+TEXT_MSG_SET_PATH                       = Defineix el camí
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = El paquet d'icones s'ha instal·lat correctament.
+TEXT_MSG_NOTICE_RESTART                 = El programa es reiniciarà.
+TEXT_MSG_ARCHVIE_OPENING                = S'està obrint l'arxiu.
+TEXT_MSG_COMPLETING                     = S'està completant: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = No es pot crear una carpeta.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = No es pot comprimir una carpeta en un arxiu .GZ/XZ.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = No es pot comprimir més d'un fitxer en un arxiu .gz/xz. Activeu l'opció "Comprimeix individualment cada fitxer o carpeta".
+TEXT_MSG_TRAY_MINIMIZED                 = El Bandizip s'ha minimitzat a la safata del sistema. Feu clic a la icona de la safata per a restaurar-lo.
+TEXT_MSG_TRAY_COMPLETED                 = L'operació s'ha completat.
+TEXT_MSG_BATCH_ARCHVING                 = S'està arxivant: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = S'està extraient: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - S'està comprovant: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - S'està suprimint: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - No s'ha pogut suprimir: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Treball en curs...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Si els caràcters no es visualitzen correctament, feu clic a <font color=red><b>Codificació</b></font> i proveu l'opció < font color=red><b>Detecció automàtica</b></font>.
+
+TEXT_ASK_DELETE_ARCHIVE                 = L'arxiu se suprimirà.[br]Voleu suprimir-lo?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Voleu suprimir l'arxiu actual?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Voleu suprimir definitivament l'arxiu actual?
+TEXT_ASK_CHANGE_FILENAME                = El fitxer ja existeix. [br][br]Voleu canviar el nom de ${str1} a ${str2}?
+TEXT_ASK_DELETE_FILE                    = Voleu suprimir el fitxer seleccionat?
+TEXT_ASK_STOP_EXTRACT                   = Voleu aturar l'extracció?
+TEXT_ASK_OVERWRITE_ARCHIVE              = El fitxer ja existeix. [br][br]Voleu sobreescriure'l?
+TEXT_ASK_INIT_SETTING                   = Voleu reinicialitzar als valors per defecte? El Bandizip es reiniciarà.
+TEXT_ASK_STOP_ARCHIVING                 = Voleu aturar l'arxivament?
+TEXT_ASK_STOP_MODIFYING                 = Voleu aturar l'operació?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Voleu aplicar el fitxer modificat a l'arxiu [br](${str1})?
+TEXT_ASK_INSTALL_ICONPACK               = Voleu instal·lar i aplicar el paquet d'icones (${str1})?
+TEXT_ASK_MAKE_FOLDER                    = La carpeta no existeix. Voleu crear-la?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = La carpeta de destinació no té permís d'escriptura.[br][br]- ${str1}[br][br]Voleu continuar?
+TEXT_ASK_CONT_NOFREESPACE               = La carpeta de destinació no té prou espai. Canvieu la carpeta de destinació. [br][br]- ${str1}[br][br]Voleu continuar?
+TEXT_ASK_ASK_UAC_ELEVATION              = No teniu permís per a modificar els fitxers. [br][br]Voleu reiniciar el programa com a administrador?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = No es pot obrir aquest arxiu. [br][br]Voleu obrir la primera part de l'arxiu dividit (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Si suprimiu els fitxers després de l'arxivament, podríeu perdre fitxers importants en cas de malmetre's.[br][br]Voleu activar l'opció "Comprova l'arxiu"?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = No hi ha prou espai al disc per a l'extracció. Voleu continuar?[br][br]Carpeta de destinació: ${str1}[br]Espai lliure al disc: ${str2}[br]Mida del fitxer a extreure: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Aquest fitxer està malmès
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = El fitxer està malmès o falta alguna part de l'arxiu dividit.
+
+TEXT_BTN_PAUSE                          = Pausa
+TEXT_BTN_RESUME                         = Reprèn
+
+TEXT_ERRDLG_ERROR_OCCURRED              = S'ha produït un error
+TEXT_ERRDLG_USER_ABORT                  = Interromput
+
+TEXT_ARKERR_CANT_OPEN_FILE              = No es pot obrir el fitxer
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = No es pot obrir el fitxer perquè un altre programa l'està utilitzant
+TEXT_ARKERR_PASSWORD_NOT_SET            = Cal una contrasenya
+TEXT_ARKERR_INVALID_PASSWD              = La contrasenya no és vàlida
+TEXT_ARKERR_USER_ABORTED                = Interromput
+TEXT_ARKERR_INVALID_FILE_CRC            = Error CRC
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = No es pot obrir el fitxer de sortida
+TEXT_ARKERR_CANT_READ_DATA              = No es poden llegir les dades de l'arxiu
+TEXT_ARKERR_INFLATE_FAILED              = Error de dades - Aquest fitxer està malmès
+TEXT_ARKERR_BZIP2_ERROR                 = Error de dades - Aquest fitxer està malmès
+TEXT_ARKERR_DATA_CORRUPTED              = El fitxer està malmès o falta alguna part de l'arxiu dividit
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = No es pot obrir el fitxer
+TEXT_ARKERR_CANT_CREATE_FOLDER          = No es pot crear una carpeta
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Mètode de compressio no admès
+TEXT_ARKERR_WRITE_FAIL                  = S'ha produït un error mentre s'escrivia
+TEXT_ARKERR_DISK_FULL                   = El disc està ple
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = No s'ha pogut crear el fitxer. El camí i el nom del fitxer no poden superar els 260 caràcters.
+TEXT_ARKERR_CANT_CREATE_FILE            = No s'ha pogut crear un fitxer
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = No s'ha pogut crear un fitxer. Executeu el programa amb drets d'administrador
+TEXT_ARKERR_USER_SKIP                   = S'ha omès
+TEXT_ARKERR_FILE_TRUNCATED              = El final d'aquest fitxer falta o està malmès.
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = La contrasenya no és vàlida o el fitxer està malmès
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = El fitxer està malmès
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = L'arxiu autoextraïble (*.exe) supera els 4 GB. No es pot executar aquest fitxer en Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = No es pot obrir aquest arxiu. Falta la part següent (.z01, .z02, ...).
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = No es pot obrir aquest arxiu zip. Falta la part següent (.z01, .z02, ...).
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = No es pot obrir aquest arxiu. Falta alguna part de l'arxiu dividit.
+TEXT_ARKERR_CORRUPTED_FILE              = El fitxer està malmès
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = No teniu permís per a escriure a la carpeta
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = No teniu permís per a escriure a la carpeta. Executeu l'aplicació amb drets d'administrador.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = No s'admet aquest algorisme d'encriptació
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = No hi ha prou memòria
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = No hi ha prou memòria. Canvieu el nivell de compressió.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = No s'admet aquesta operació
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = No es pot obrir aquest arxiu. [br][br]Voleu obrir la primera part de l'arxiu dividit (${str1})?
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = No es pot crear un fitxer de més de 4 GB. Trieu un altre format d'arxiu (zip o 7z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = El nom del fitxer s'ha escurçat automàticament.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = No es pot obrir el fitxer d'origen a copiar.
+TEXT_ARKERR_NOTIMPL                     = No està implementat.
+TEXT_ARKERR_CANT_READ_FILE              = No es pot llegir el fitxer.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Executeu el Bandizip com a administrador per a crear un enllaç simbòlic.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = No es pot crear un enllaç simbòlic.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = El fitxer té permís d'escriptura i un altre procés l'està utilitzant.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = No hi ha cap fitxer a arxivar
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Sense divisió
+TEXT_SPLITCOMBO_3MB                     = 3 MB
+TEXT_SPLITCOMBO_4MB                     = 4 MB
+TEXT_SPLITCOMBO_5MB                     = 5 MB
+TEXT_SPLITCOMBO_10MB                    = 10 MB
+TEXT_SPLITCOMBO_20MB                    = 20 MB
+TEXT_SPLITCOMBO_GMAIL                   = 25 MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100 MB
+TEXT_SPLITCOMBO_300MB                   = 300 MB
+TEXT_SPLITCOMBO_CD650                   = 650 MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700 MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4 GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4,7 GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Mida personalitzada
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Sense compressió
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Compressió ràpida
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Compressió normal
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Compressió màxima
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Arxiu nou
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Afegiu fitxers a l'arxiu
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Canvia el nom: ${str1}
+TEXT_TITLE_TEST_MODE                    = Comprovació de l'arxiu
+TEXT_TITLE_TEMPFOLDER_MODE              = Extracció a la carpeta temporal...
+TEXT_TITLE_MODIFYING                    = Modificació...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Fitxer a extreure
+TEXT_MSG_SELECTED_FILE                  = ${num1} fitxers seleccionats
+TEXT_MSG_SELECTED_FOLDER                = ${num1} carpetes seleccionades
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} fitxers, ${num2} carpetes
+TEXT_MSG_SELECTED_FILESIZESUM           = Mida dels fitxers seleccionats: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = La comprovació de la versió ha fallat.
+TEXT_UPDATE_VERSION_CHECKING            = S'està comprovant la versió
+TEXT_UPDATE_DOWNLOAD_FAILED             = La baixada ha fallat.
+TEXT_UPDATE_LATEST_VERSION              = Actualitzat
+TEXT_UPDATE_DO_DOWNLOAD                 = Cal actualitzar
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Baixada completa
+
+TEXT_INSTALL_HONEYVIEW                  = Instal·leu el Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = El Honeyview no està instal·lat a l'ordinador.
+TEXT_INSTALL_HONEYVIEW_2                = Proveu el Honeyview, desenvolupat per Bandisoft.<br> Permet visualitzar les imatges dels arxius zip, rar o 7z, sense haver d'extreure'ls.
+
+TEXT_REGISTRATION_FAILED                = Ha fallat el registre.[br]Comproveu l'adreça electrònica i la clau del producte.
+TEXT_REGISTRATION_SUCCEED               = El Bandizip s'ha registrat.
+TEXT_REGISTRATION_ASK                   = Esteu segur que voleu cancel·lar el registre del Bandizip?
+TEXT_REGISTER_NOT_REGISTERED            = El Bandizip no està registrat.[br]Compreu i registreu el Bandizip per utilitzar-lo sense cap limitació funcional.
+TEXT_REGISTER_INFO                      = L'usuari següent ha registrat el Bandizip:[br]Adreça electrònica: ${str1}[br]Clau del producte: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = Exploració de programari maliciós en l'arxiu
+TEXT_SCAN_AMSI_PROVIDER                 = L'AMSI s'ha inicialitzat correctament
+TEXT_SCAN_COMPLETED                     = L'exploració de programari maliciós s'ha completat
+TEXT_SCAN_MALWARE_DETECTED              = S'ha detectat programari maliciós.
+TEXT_SCAN_MALWARE_NOTDETECTED           = No s'ha detectat programari maliciós.
+TEXT_SCAN_MALWARE_TOOBIG                = L'exploració ha fallat. El fitxer és massa gran.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = S'ha detectat programari maliciós en l'arxiu.
+TEXT_MSG_MALWARE_TEST_OK                = No s'ha detectat programari maliciós en l'arxiu.
+TEXT_MSG_AMSI_INIT_FAILED               = La inicialització de l'AMSI per a l'exploració ha fallat. Visiteu https://go.bandisoft.com/amsi per a més detalls.
+TEXT_MSG_AMSI_WIN10_NOTICE              = L'exploració antimalware només està disponible al Windows 10. Visiteu https://go.bandisoft.com/amsi per a més detalls.
+
+[MENU]
+MENUSTR_FILE                            = &Fitxer
+MENUSTR_EDIT                            = &Edita
+MENUSTR_SETTING                         = &Opcions
+MENUSTR_FIND                            = &Cerca
+MENUSTR_VIEW                            = &Visualitza
+MENUSTR_TOOLS                           = E&ines
+MENUSTR_HELP                            = &Ajuda
+
+MENUSTR_OPEN                            = &Obre un arxiu \tCtrl+O
+MENUSTR_RECENT                          = Fitxers recents
+MENUSTR_CLOSE_FILE                      = &Tanca l'arxiu \tF4
+MENUSTR_CREATE_ARCHIVE                  = Arxiu &nou \tCtrl+N
+MENUSTR_NEW_WINDOW                      = Finestra nova \tCtrl+Maj+N
+MENUSTR_NEW_WINDOW_ADMIN                = Finestra nova (administrador) \tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Anomena i desa
+MENUSTR_DELETE_ARCHIVE                  = Suprimeix l'arxiu \tCtrl+Supr
+MENUSTR_PERM_DELETE_ARCHIVE             = Suprimeix definitivament l'arxiu \tMaj+Ctrl+Supr
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Obre la ubicació de l'arxiu
+MENUSTR_TEST_ARCHIVE                    = &Comprova l'arxiu \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = Exploració de programari maliciós en l'arxiu
+MENUSTR_EXTRACT_FILE                    = &Extreu el fitxer \tCtrl+E
+MENUSTR_EXIT                            = &Surt \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Canvia el nom del fitxer \tF2
+MENUSTR_ADD_FILE                        = &Afegeix fitxers \tIns
+MENUSTR_DELETE_FILE                     = &Suprimeix el fitxer \tSupr
+MENUSTR_EDIT_COMMENT                    = Comentaris de l'arxiu
+MENUSTR_SETTING_SUB                     = &Configuració (F5)
+MENUSTR_REGISTER                        = Registra el Bandizip...
+MENUSTR_UNREGISTER                      = Cancel·la el registre del Bandizip...
+MENUSTR_PASSMAN                         = Gestor de contrasenyes...
+MENUSTR_FIND_ITEM                       = &Cerca fitxers \tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Copia els fitxers al porta-retalls \tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Enganxa els fitxers del porta-retalls \tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Pantalla inicial \tF6
+MENUSTR_VIEW_TREECONTROL                = Visualització d'arbre \tF7
+MENUSTR_VIEW_COMMENT                    = Comentaris de l'arxiu \tF8
+MENUSTR_VIEW_PREVIEW                    = Previsualitza les imatges
+MENUSTR_VIEW_STATUS_BAR                 = Barra d'estat
+MENUSTR_VIEW_TOOLBAR                    = Barra d'eines
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Gran
+MENUSTR_VIEW_TOOLBAR_MINI               = Petita
+MENUSTR_VIEW_TOOLBAR_OLD                = Antiga
+MENUSTR_VIEW_TOOLBAR_HIDE               = Oculta
+MENUSTR_SET_TOOLBAR_ITEM                = Selecció dels botons de la barra d'eines
+MENUSTR_VIEW_LISTVIEW                   = Llista de fitxers
+MENUSTR_VIEW_LISTVIEW_ICON              = Icones
+MENUSTR_VIEW_LISTVIEW_LIST              = Llista
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detalls
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = Icones grans
+MENUSTR_VIEW_COLUMN                     = Columnes
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Sempre visible
+MENUSTR_VIEW_COLOR_SETTING              = Configuració del color...
+
+MENUSTR_TOOLS_REPAIR                    = Reparació d'arxius...
+MENUSTR_TOOLS_RECOVERY                  = Recuperació de contrasenyes...
+
+MENUSTR_ABOUT                           = &Quant al Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Ves a la pàgina d'ajuda
+MENUSTR_OPEN_FOLDER                     = &Obre la carpeta del Bandizip
+MENUSTR_FORUM                           = Ves al &fòrum del Bandizip
+MENUSTR_HOMEPAGE                        = Ves al lloc &web
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Mida comprimida
+POPUPMENU_VIEWITEM_ORIGSIZE             = Mida original
+POPUPMENU_VIEWITEM_KIND                 = Tipus de fitxer
+POPUPMENU_VIEWITEM_DATE_MOD             = Data de modificació
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Mètode de compressió
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Mètode d'encriptació
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Atributs del fitxer
+POPUPMENU_VIEWITEM_COMMENT              = Comentaris del fitxer
+POPUPMENU_VIEWITEM_EXT                  = Informació addicional
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Extreu-ho tot... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Extreu els fitxer seleccionats...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Extreu-ho tot aquí
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Obre \tIntro
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Obre amb el programa associat
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Edita \tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Obre amb el &Bandizip
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Carpeta nova
+POPUPMENU_LISTCONTROL_ADD_FILE          = Afegeix un fitxer... \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Suprimeix el fitxer \tSupr
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Canvia el nom del fitxer
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Selecciona-ho tot \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Desplaça a la carpeta superior \tRetrocés
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Suprimeix l'arxiu
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Obre la carpeta de l'arxiu
+
+POPUPMENU_EXTRACT_AUTODEST              = Extreu aquí (intel·ligentment)\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Extreu a la carpeta actual\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Extreu en una carpeta anomenada com l'arxiu
+POPUPMENU_EXTRACT_DESKTOP               = Extreu a l'escriptori
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Extreu a l'escriptori (intel·ligentment)
+
+POPUPMENU_RECENT_CLEAR                  = Esborra l'historial
+POPUPMENU_RECENT_NOITEM                 = Cap fitxer recent
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Obre amb el Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Extreu aquí (intel·ligentment)
+
+POPUPMENU_CODEPAGE_DEFAULT              = Per defecte
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Xinès simplificat
+POPUPMENU_CODEPAGE_TRADCHINESE          = Xinès tradicional
+POPUPMENU_CODEPAGE_JAPANESE             = Japonès
+POPUPMENU_CODEPAGE_KOREAN               = Coreà
+POPUPMENU_CODEPAGE_WINDOWS1252          = Europeu occidental
+POPUPMENU_CODEPAGE_WINDOWS1250          = Europeu oriental
+POPUPMENU_CODEPAGE_WINDOWS1251          = Ciríl·lic
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turc
+POPUPMENU_CODEPAGE_WINDOWS737           = Grec
+POPUPMENU_CODEPAGE_ARABIC               = Àrab
+POPUPMENU_CODEPAGE_HEBREW               = Hebreu
+POPUPMENU_CODEPAGE_BALTIC               = Llengües bàltiques
+POPUPMENU_CODEPAGE_THAI                 = Thai
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = Detecció automàtica
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Visualitza amb el Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Visualitza amb el programa associat
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Minimitza a la safata
+DLG_MENUSTR_LOW_PRIORITY                = Prioritat baixa
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Suprimeix l'arxiu després de l'extracció
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = D'acord
+IDCANCEL                                = Cancel·la
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Quant al Bandizip
+IDC_BTN_HOMEPAGE                        = Lloc web
+IDC_BTN_UPDATE                          = Actualitza
+IDC_BTN_REGIST                          = Registra
+IDC_BTN_BUY                             = Compra
+IDC_BTN_LEARNMORE                       = Saber-ne més...
+IDC_STATIC_LICENSE                      = Informació de registre del Bandizip
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Obertura de fitxers
+IDC_STATIC_OPENING                      = S'està obrint
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Seleccioneu el camí d'extracció
+IDC_STATIC_FOLDER                       = &Camí de destinació
+IDC_STATIC_FILES2EXTRACT                = Extreu:
+IDC_RADIO_FILES2EXTRACT_0               = &Tots els fitxers
+IDC_RADIO_FILES2EXTRACT_1               = Els fitxers &seleccionats
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Extreu en una carpeta anomenada com l'arxiu dins de la carpeta seleccionada
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Suprimeix l'arxiu després de l'extracció
+IDC_CHK_REMEMBER_SETTINGS               = Recorda la configuració
+IDC_BTN_NEWFOLDER                       = Carpeta &nova
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Extracció
+IDC_BTN_STOP                            = Atura
+IDC_BTN_CLOSE                           = Tanca
+IDC_BTN_PAUSE                           = Pausa
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Arxiu nou
+IDC_STATIC_FILE_LIST                    = Afegiu fitxers a l'arxiu
+IDC_STATIC_ARCHIVE_SETTING              = Configuració de l'arxiu
+IDC_STATIC_ARCHIVE_NAME                 = Nom del fitxer
+IDC_STATIC_SET_DEST_FOLDER              = Carpeta de destinació
+IDC_STATIC_ARCHIVE_TYPE                 = Format d'arxiu
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Divisió en volums
+IDC_STATIC_COMPRESSION_METHOD           = Nivell de compressió
+IDC_STATIC_HELP_SPLIT                   = [Ajuda]
+IDC_STATIC_HELP_7Z                      = [Format 7z]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Navega...
+IDC_BTN_SET_PASSWORD                    = Defineix la &contrasenya...
+IDC_BTN_TEST_ARCHIVE                    = &Comprova l'arxiu
+IDC_BTN_DELETE_SRC                      = Suprimeix els fitxers després de l'arxivament
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Comprimeix individualment cada fitxer o carpeta
+IDC_BTN_SET_DEST_FOLDER                 = Canvia la carpeta de destinació
+IDC_BTN_TOGGLE_ADVANCED                 = Més opcions...
+IDC_BTN_SET_SFX                         = Configuració SFX...
+IDC_BTN_ADD                             = &Afegeix...
+IDC_BTN_DEL                             = &Suprimeix
+IDC_BTN_START                           = &Inicia
+IDC_BTN_COMP_ADVANCED                   = Avançat
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = Opcions de compressió ZIP/ZIPX
+IDC_AA_ZIP_ALGO                         = Mètode de compressió
+IDC_AA_ZIP_ENC                          = Mètode d'encriptació
+IDC_AA_ZIP_THREAD                       = Número de fils de CPU
+COMBO_TEXT_THREAD_AUTO                  = Automàtic
+IDC_CHK_ZIP_COMMENT                     = Inclou un comentari
+IDD_AA_7Z                               = Opcions de compressió 7z
+IDC_AA_7Z_ALGO                          = Mètode de compressió
+IDC_AA_7Z_SOLID                         = Mida del bloc sòlid
+IDC_CHK_7Z_ENC_FILENAMES                = Encripta els noms de fitxer
+IDD_AA_TAR                              = Opcions d'arxivament TAR
+IDC_CHK_TAR_SYMLINK                     = Inclou els enllaços simbòlics
+IDC_CHK_TAR_HARDLINK                    = Inclou els enllaços físics
+COMBO_TEXT_SOLID_NONE                   = No sòlid
+COMBO_TEXT_SOLID_SOLID                  = Sòlid
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Introducció de la contrasenya
+IDC_STATIC_DESC_ARCHIVING               = Introduïu una contrasenya per a l'arxiu. Per a més seguretat es recomana una contrasenya d'almenys 8 caràcters.
+IDC_STATIC_DESC_MASTERPASS              = Introduïu una contrasenya mestra per al gestor de contrasenyes. Per a més seguretat es recomana una contrasenya d'almenys 8 caràcters.
+IDC_STATIC_DESC_EXTRACT                 = Introduïu la contrasenya del fitxer encriptat.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = La contrasenya no és correcta. Torneu-la a introduir.
+IDC_STATIC_PWD                          = Introduïu la contrasenya
+IDC_STATIC_PWD2                         = Torneu a introduir la contrasenya
+IDC_BTN_SHOW_PASSWORD                   = Mostra la contrasenya
+IDC_BTN_PASSMAN                         = Gestor de contrasenyes...
+IDC_CHECK_APPLY_ALL                     = A&plica-ho tot
+IDC_STATIC_PASS_RECOVERY                = Heu oblidat la contrasenya? Proveu d'utilitzar la recuperació de contrasenyes del Bandizip
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Gestor de contrasenyes
+TEXT_MSG_CORRUTP_DATA                   = Les dades de contrasenyes emmagatzemades estan malmeses.
+TEXT_PASSMAN_WARNING1                   = Llevat que es defineixi una contrasenya mestra, les contrasenyes s'emmagatzemaran al gestor de contrasenyes sense encriptar.
+TEXT_PASSMAN_WARNING2                   = Cal actuar amb precaució si utilitzeu aquesta funció en un ordinador públic o compartit.
+LIST_PASS_HEADER1                       = Contrasenya
+LIST_PASS_HEADER2                       = Nom de visualització
+IDC_BTN_ADD                             = Afegeix
+IDC_BTN_DEL                             = Suprimeix
+IDC_BTN_EDIT                            = Edita
+IDC_BTN_SET_MASTERPASS                  = Defineix la contrasenya mestra...
+IDC_BTN_DEL_MASTERPASS                  = Suprimeix la contrasenya mestra
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Indroducció de la contrasenya mestra
+IDC_STATIC_MASTPASS_MSG                 = Introduïu la contrasenya mestra per a accedir al gestor de contrasenyes. La reinicialització suprimeix tota la informació de contrasenyes emmagatzemada al sistema.
+IDC_BTN_INITPASSMAN                     = Reinicialització
+TEXT_ASK_INIT_PASSMAN                   = Esteu segur que voleu suprimir tota la informació de contrasenyes?
+IDC_BTN_SHOW_PASSWORD                   = Mostra la contrasenya
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Informació de la contrasenya
+IDC_STATIC_PASSWORD                     = Contrasenya
+IDC_STATIC_DISPNAME                     = Nom de visualització (opcional)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Seleccioneu
+IDC_BTN_OPEN                            = Obre
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Arxivament
+TEXT_ARCHIVE_TESTING                    = S'està comprovant
+IDC_BTN_STOP                            = Atura
+IDC_BTN_CLOSE                           = Tanca
+IDC_BTN_PAUSE                           = Pausa
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Fitxers duplicats
+IDC_STATIC_DUPE_MESSAGE                 = El fitxer ja existeix.
+IDC_STATIC_DUPEFILE_OLD                 = Fitxer original
+IDC_STATIC_DUPEFILE_NEW                 = Fitxer actual
+IDC_STATIC_DUPE_ASK                     = Trieu una opció:
+IDC_RADIO_DUPE_METHOD0                  = &Omet
+IDC_RADIO_DUPE_METHOD1                  = &Sobreescriu
+IDC_RADIO_DUPE_METHOD2                  = &Canvia el nom
+IDC_CHECK_DUPE_APPLY_ALL                = &Aplica-ho a tots els fitxers
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Trieu una opció d'arxiu
+IDC_STATIC_ASK_HANDLING                 = Trieu una opció:
+IDC_RADIO_HANDLE_METHOD0                = &Obre l'arxiu
+IDC_RADIO_HANDLE_METHOD1                = Arxiu &nou
+IDC_RADIO_HANDLE_METHOD2                = &Afegeix fitxers a l'arxiu actual
+IDC_CHK_PASS                            = Contrasenya
+IDC_STATIC_PASSWORD_AGAIN               = Torneu a introduir la contrasenya
+IDC_CHK_SHOW_PASS                       = Mostra la contrasenya
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Configuració
+IDC_BTN_INIT                            = Reinicialitza
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Configuració general
+IDC_CHK_EXIT_WITH_ESC                   = Utiltza la tecla ESC per a sortir de la finestra
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Comprova sempre els arxius després d'afegir, suprimir o reanomenar algun fitxer
+IDC_CHK_SNAP                            = Activa l'acoblament de finestres
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Mostra la carpeta [..] a l'arxiu
+IDC_CHK_SHOW_GRID_AT_LIST               = Mostra línies de quadrícula en la visualització de detalls
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Permet la selecció en qualsevol part de la fila
+IDC_CHK_ONE_CLICK_ACTIVATE              = Un sol clic per obrir un element
+IDC_STATIC_UPDATE                       = Opcions d'actualització
+TEXT_UPDATE_0                           = Avisa'm i instal·la l'última versió
+TEXT_UPDATE_1                           = Avisa'm i instal·la únicament versions estables
+TEXT_UPDATE_2                           = No m'avises de cap actualització
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Associació de fitxers
+IDC_BTN_SELECT_MANDATORY                = Essencials
+IDC_BTN_SELECT_ALL                      = Tots
+IDC_BTN_CLEAR_ALL                       = Cap
+IDC_BTN_APPLY_NOW                       = Aplica-ho ara
+IDC_STATIC_ICON_PACK                    = Trieu el paquet d'icones:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Baixada de paquets d'icones]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - Defineix els programes per defecte
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Associació d'extensions
+;IDC_STATIC_ASSOC_DESC1                 = A les versions de Windows 8, podeu associar els fitxers d'aquesta manera:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Feu clic al botó "Definició d'associacions" que es mostra més avall.
+;IDC_STATIC_ASSOC_DESC3                 = 2. Activeu "Selecciona-ho tot" a la finestra de configuració de l'associació de programes.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Feu clic al botó "Desa".
+;IDC_STATIC_ASSOC_DESC1_10              = A les versions de Windows 10, podeu associar els fitxers d'aquesta manera:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Feu clic al botó "Definició d'associacions" que es mostra més avall.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Seleccioneu "Bandizip" en la finestra Definició dels programes per defecte.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Feu clic a "Defineix com a programa per defecte".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Definició d'associacions
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Mètode clàssic
+LIST_COLUMN0                            = Extensió
+LIST_COLUMN1                            = Aplicció per defecte
+IDC_BTN_CHANGE                          = Canvia
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Acció del doble clic
+IDC_RADIO_SHELL_OPEN_0                  = Obre amb el Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Extreu aquí (intel·ligentment)
+IDC_RADIO_SHELL_OPEN_2                  = Mostra el menú contextual
+IDC_RADIO_SHELL_OPEN_3                  = Extreu a la carpeta indicada (intel·ligentment)
+IDC_BTN_SET_EXTRACT_FOLDER              = Navega...
+IDC_RADIO_SHELL_OPEN_4                  = Extreu en una carpeta anomenada com l'arxiu
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Suprimeix l'arxiu després de l'extracció amb doble clic
+
+IDC_STATIC_SHELL_EXTRACT                = Menú d'extracció
+IDC_CHK_SHELL_EXTRACT_HERE              = Extreu aquí
+IDC_CHK_SHELL_EXTRACT_AUTO              = Extreu aquí (intel·ligentment)
+IDC_CHK_SHELL_EXTRACT_SUB               = Extreu en una carpeta anomenada com l'arxiu
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extreu aqui i suprimeix
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extreu aquí (intel·ligentment) i suprimeix
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extreu en una carpeta anomenada com l'arxiu i suprimeix
+IDC_CHK_SHELL_EXTRACT_DLG               = Extreu a una altra carpeta...
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extreu com a administrador
+IDC_CHK_SHELL_TEST_ARCHIVE              = Comprova l'arxiu
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Obre amb el Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Previsualització de l'arxiu
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Limita els fitxers previsualitzats a:
+IDC_CHK_SHELL_PREVIEW_TREE              = Previsualitza l'arxiu amb estructura d'arbre
+
+IDC_STATIC_SHELL_ARCHIVING              = Menú de compressió
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Comprimeix a "nom.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Comprimeix a "nom.zip" i suprimeix
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Comprimeix a "nom.zip" i envia per correu
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Comprimeix a "nom.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Comprimeix a "nom.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Comprimeix a "nom.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Comprimeix a "nom.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Comprimeix a "nom.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Comprimeix a "nom.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Comprimeix a "nom.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Comprimeix a "nom.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Comprimeix a "nom.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Comprimeix a "nom.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "Comprimeix individualment a "nom.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Comprimeix individualment a "nom.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Crea un arxiu (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Comprimeix com a administrador
+IDC_CHK_SHELL_ARCHIVING_RULE            = Comprimeix amb un nom personalitzat
+IDC_STATIC_FILENAME_RULE_HELP           = Regla: ${NAME}=Nom del fitxer, %Y=Any, %m=Mes, %d=Dia, %H=Hora, %M=Minut, %S=Segon
+
+IDC_STATIC_SHELL_BKGND                  = Menú de fons
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = "Habilita la funció "Carpeta nova""
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Inicia l'indicador d'ordres (cmd.exe) (manteniu premuda la tecla Maj per a obrir-lo com a administrador)
+
+IDC_STATIC_SHELL_ETC                    = Altres
+IDC_CHK_SHELL_DO_NOT_USE                = Inhabilita el menú contextual
+IDC_CHK_SHELL_AS_SUB_MENU               = Menú contextual en cascada
+IDC_CHK_SHELL_HIDE_ICON                 = Amaga la icona del Bandizip
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Distingeix els arxius pel contingut.
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Mostra el menú contextual de compressió també per als arxius
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = En cas de seleccionar diversos fitxers o carpetes, utilitza el nom de l'element assenyalat pel ratolí.
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Permet afegir fitxers directament a un arxiu  per arrossegament a l'explorador.
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Configuració de l'extracció
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Si l'única carpeta de l'arxiu és l'arrel, mostra'n els fitxers.
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Obre la carpeta després de l'extracció
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = No tanquis la finestra de progrés després de l'extracció
+IDC_CHK_FAST_DRAG_DROP                  = Utilitza la funció "Arrossega i deixa anar ràpidament" si el fitxer a extreure és gran
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Extreu els arxius TGZ i TBZ en un sol pas
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Fins i tot si són molt grans
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Quan s'utilitzi 'Extreu aquí (intel·ligentment)', extreu l'arxiu en una carpeta nova fins i tot si només té un fitxer.
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Detecta automàticament la codificació Macintosh
+IDC_CHK_UNIXZIP_AS_UTF8                 = Utilitza la codificació UTF-8 en obrir un arxiu zip de l'UNIX
+IDC_CHK_PARALLEL_EXT                    = Utilitza l'extracció en paral·lel si és possible
+IDC_STATIC_CODEPAGE                     = Codificació per defecte
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = En fer doble clic, desempaqueta-ho tot i després executa els tipus de fitxer següents
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Configuració de la compressió
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = No creïs una carpeta arrel si només es comprimeix una carpeta
+IDC_CHK_USE_UTF8_COMPRESS               = Utilitza noms de fitxer Unicode als arxius zip (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Emmagatzema els noms de fitxer Unicode en un camp de capçalera extra dels arxius zip (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Utilitza noms de fitxer Unicode als arxius tar i tgz (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Utilitza sempre el format ZIP64 encara que la mida del fitxer sigui inferior a 2 GB (no es recomana)
+IDC_CHK_EXCLUDE_THUMBSDB                = "Exclou de l'arxivament els fitxers 'thumbs.db'"
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Desa la informació de data i hora de l'NTFS durant la creació d'arxius zip
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Utilitza l'arxivament ràpid
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = No tanquis la finestra de progrés després de l'arxivament
+IDC_STATIC_COMPRESSION_METHOD           = Nivell de compressió:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Comprova l'arxiu després de la compressió
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Crea els arxius nous a la darrera carpeta utilitzada
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Carpeta per defecte per als arxius nous
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Navega...
+IDC_CHK_EXCLUDE_FILTER                  = Tipus de fitxers a excloure de l'arxivament
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Visualització
+IDC_CHK_SHOW_PREVIEW                    = Previsualitza les imatges sense extreure-les
+IDC_CHK_SHOW_FOLDER_SIZE                = Mostra la mida original i comprimida de les carpetes
+IDC_CHK_SET_LISTCONTROL_FONT            = Defineix el tipus de lletra de la llista de fitxers
+IDC_BTN_SET_FONT                        = Defineix el tipus de lletra...
+
+IDC_STATIC_SETTING_VIEWITEM             = Columnes
+IDC_CHK_VIEWITEM_COMPSIZE               = Mida comprimida
+IDC_CHK_VIEWITEM_ORIGSIZE               = Mida original
+IDC_CHK_VIEWITEM_KIND                   = Tipus de fitxer
+IDC_CHK_VIEWITEM_DATE_MOD               = Data de modificació
+IDC_CHK_VIEWITEM_COMPMETHOD             = Mètode de compressió
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Mètode d'encriptació
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Atributs del fitxer
+IDC_CHK_VIEWITEM_COMMENT                = Comentaris del fitxer
+IDC_CHK_VIEWITEM_EXT                    = Informació addicional
+
+IDC_STATIC_IMAGE_VIEWER                 = Visualitzador d'imatges
+IDC_RADIO_IMAGE_VIEWER_0                = Utilitza el visualitzador d'imatges intern
+IDC_RADIO_IMAGE_VIEWER_1                = Utilitza el programa associat
+IDC_RADIO_IMAGE_VIEWER_2                = Utilitza el Honeyview si està instal·lat
+
+IDC_STATIC_EDITOR                       = Editor
+IDC_BTN_SET_EDITOR_PATH                 = Navega...
+
+IDC_STATIC_COLOR                        = Color
+IDC_STATIC_COLOR_THEME                  = Color del tema
+IDC_BTN_BKGND                           = Seleccionat
+IDC_STATIC_COLOR_TEXT                   = Color de la lletra
+IDC_STATIC_COLOR_TEXT_AUTO              = Automàtic
+IDC_STATIC_COLOR_TEXT_WHITE             = Blanc
+IDC_STATIC_COLOR_TEXT_BLACK             = Negre
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Configuració de la seguretat
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Copia la informació Zone.Identifier d'un arxiu descarregat d'Internet durant l'extracció
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Comprova si conté programari maliciós abans de l'extracció
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Exporta la configuració del Bandizip
+IDC_STATIC_ETC                          = Configuració avançada
+IDC_CHK_SET_TEMP_FOLDER                 = Defineix la ubicació de la carpeta temporal
+IDC_BTN_SET_TEMP_FOLDER                 = Navega...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Reconeix com a arxius els tipus de fitxer següents
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Suprimeix el fitxer temporal a la sortida del procés secundari
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Desplaça a la paperera de reciclatge els fitxers suprimits
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Mostra la llista de fitxers oberts recentment
+IDC_CHK_USE_LONG_PATH_NAME              = Accepta noms de camí llargs que superin els 260 caràcters
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Permet a l'Explorador de fitxers de Windows suprimir arxius oberts
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Expandeix automàticament l'arbre de carpetes
+IDC_CHK_USE_MODAL_DIALOG                = Utilitza un quadre de diàleg modal durant l'arxivament/extracció.
+IDC_CHK_USE_ELEGANT_UI                  = Utilitza el disseny d'interfície d'usuari elegant
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Mostra la 'Pantalla inicial' a l'inici del Bandizip
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Visualitza el camí complet a la barra de títol
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Suprimeix els fitxers extrets si es cancel·la l'extracció
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Copia la informació Zone.Identifier d'un arxiu descarregat d'Internet durant l'extracció
+IDC_CHK_USE_SET_END_OF_FILE             = Preassigna l'espai del disc per al fitxer de sortida
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Comprimeix un fitxer fins i tot quan l'està utilitzant un altre procés
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Configuració de la llengua
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Voleu ajudar a traduir aquest programa? Feu clic aquí...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = Configuració SFX (arxiu autoextraïble)
+IDC_STATIC_TARGET_PATH                  = Camí d'extracció:
+IDC_STATIC_TITLE                        = Títol SFX:
+IDC_STATIC_RUN                          = Executa després de l'extracció:
+IDC_STATIC_MESSAGE                      = Missatge SFX:
+IDC_CHK_AUTO_CLOSE                      = Tanca la finestra SFX després de l'extracció
+IDC_BTN_SAVE_SFX_SETTING                = Desa la configuració
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Cerca de fitxers
+IDC_STATIC_FIND                         = Cerca:
+IDC_BTN_CLOSE                           = Tanca
+IDC_BTN_DELETE                          = Suprimeix
+IDC_BTN_EXTRACT                         = Extreu
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Comentaris de l'arxiu
+IDC_STATIC_COMMENT                      = Afegiu o editeu els comentaris d'aquest arxiu
+IDC_CHK_USE_UTF8                        = Desa els comentaris en Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Carrega els comentaris des d'un fitxer (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = ADVERTIMENT
+IDC_STATIC_WARN_EXECUTABLE              = Aquest fitxer és executable. Executar aquest programa podria malmetre l'ordinador. Voleu continuar?
+IDC_CHK_DO_NOT_ASK_AGAIN                = No em tornis a preguntar
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Registre del Bandizip
+IDC_STATIC_DESC1                        = Introduïu l'adreça electrònica i la clau del producte que heu rebut per correu electrònic.
+IDC_STATIC_EMAIL                        = Adreça electrònica
+IDC_STATIC_PRDUCT_KEY                   = Clau del producte
+IDC_BTN_REGISTER                        = Registra
+IDC_STATIC_BUYNOW                       = Encara no heu comprat el Bandizip? [Compreu-lo ara]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Guia sobre la llicència del Bandizip
+TEXT_LIMIT_PASSMAN                      = Al Bandizip Standard Edition només es pot emmagatzemar una contrasenya al gestor de contrasenyes.
+TEXT_SHOW_AD                            = El Bandizip Standard Edition mostra anuncis publicitaris.[br]Podeu eliminar-los comprant una edició de pagament.
+TEXT_CANNOT_CHANGE                      = Aquesta funció no es pot canviar al Bandizip Standard Edition.[br]Podeu canviar-la comprant una edició de pagament.
+TEXT_CANNOT_USE                         = Aquesta funció no està disponible al Bandizip Standard Edition.[br]Podeu utilitzar-la comprant una edició de pagament.
+TEXT_PORTABLE_NOTICE                    = Aquesta funció no està disponible al Bandizip Portable Edition.[br]Podeu utilitzar-la comprant una edició de pagament.
+IDC_STATIC_COMPARISON                   = Comparació entre les edicions...
+IDC_STATIC_HOWTOREGISTER                = Ja heu comprat el Bandizip? [Com es registra]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Reparació d'arxius
+IDC_STATIC_SRC                          = Fitxer a reparar
+IDC_STATIC_DST                          = Fitxer reparat
+IDC_BTN_START                           = Inicia la reparació
+IDC_BTN_TEST                            = Comprova la reparació
+IDC_BTN_STOP                            = Atura
+TEXT_NOTICE                             = Seleccioneu el fitxer a reparar i després feu clic a "Inicia la reparació".
+TEXT_ERR_OCCURRED                       = S'ha produït un error.
+TEXT_ERR_NOT_A_ZIP                      = El fitxer seleccionat té un format no compatible. Actualment només s'admet el format zip.
+TEXT_ERR_NO_INFO                        = El fitxer seleccionat no té dades a reparar.
+TEXT_MSG_START                          = S'està iniciant la reparació.
+TEXT_MSG_FINISH                         = La reparació s'ha completat.
+TEXT_MSG_ANALYZING                      = S'està analitzant...
+TEXT_MSG_CANCELED                       = La reparació s'ha cancel·lat.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Seleccioneu un fitxer (.zip) abans d'iniciar la reparació.
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = Hi ha més d'un Bandizip instal·lat al sistema. Elimineu-ne un per evitar problemes.
+CMD_UNINST_MSSTORE                      = Desinstal·la el Bandizip MSE
+CMD_UNINST_PROGFILES                    = Desinstal·la el Bandizip
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Obre
+$TOOLBAR_CLOSE_FILE                     = Tanca
+$TOOLBAR_EXTRACT_FILE                   = Extreu
+$TOOLBAR_CREATE_ARCHIVE                 = Nou
+$TOOLBAR_DELETE_FILE                    = Suprimeix
+$TOOLBAR_ADD_FILE                       = Afegeix
+$TOOLBAR_TEST_ARCHIVE                   = Comprova
+$TOOLBAR_CODEPAGE                       = Codificació
+$TOOLBAR_VIEWITEM                       = Columnes
+$TOOLBAR_SCAN                           = Explora
+
+$TOOLBAR_OPEN2                          = Obre un arxiu
+$TOOLBAR_CREATE_ARCHIVE2                = Arxiu nou
+
+$TEXT_DESKTOP                           = Escriptori
+$TEXT_DOCUMENT                          = Documents
+$TEXT_PICTURE                           = Imatges
+$TEXT_COMPUTER                          = Ordinador
+
+$TEXT_SETTINGTAB_GENERAL                = General
+$TEXT_SETTINGTAB_ASSOC                  = Associació
+$TEXT_SETTINGTAB_SHELL                  = Menú contextual
+$TEXT_SETTINGTAB_EXTRACT                = Extracció
+$TEXT_SETTINGTAB_ARCHIVE                = Compressió
+$TEXT_SETTINGTAB_VIEWER                 = Visualització
+$TEXT_SETTINGTAB_SECURITY               = Seguretat
+$TEXT_SETTINGTAB_ETC                    = Avançada
+$TEXT_SETTINGTAB_LANG                   = Llengua
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Obre la ubicació del fitxer
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Obre la ubicació de l'arxiu
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Obre la ubicació del fitxer després de l'extracció
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Obre la ubicació de l'arxiu
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Obre la carpeta de destinació
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = No tanquis la finestra després de l'extracció
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = No tanquis aquesta finestra després de l'arxivament
+$TOOLTIP_ADVANCED_MENU                  = Altres opcions
+$TOOLTIP_REGISTER                       = Registra el Bandizip
+$TOOLTIP_UPDATE                         = Actualitza
+$TOOLTIP_PREVIEW                        = Visualització d'icones grans
+$TOOLTIP_REPORT                         = Visualització de detalls
+
+$TEXT_INSTALL_START                     = D'acord, el provaré
+$TEXT_INSTALL_CLOSE                     = No, gràcies
+$TEXT_INSTALL_HONEYVIEW_LINK            = Més informació...
+
+$TEXT_HELP_PAGE                         = Pàgina d'ajuda
+$TEXT_AD                                = Publicitat
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Recuperació de contrasenyes del Bandizip
+TEXT_MSG_OPENING                        = S'està obrint l'arxiu: ${str1}
+TEXT_MSG_CANCELED                       = L'obertura de l'arxiu s'ha cancel·lat.
+TEXT_MSG_BROKEN                         = Aquest arxiu està malmès.
+TEXT_MSG_NO_PASSWD                      = Aquest arxiu no està protegit per contrasenya.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = Aquest arxiu té encriptada la capçalera de fitxer. Actualment no s'admeten arxius d'aquest tipus.
+TEXT_MSG_OPEN_FIRST                     = Obriu un arxiu abans d'iniciar la recuperació.
+TEXT_MSG_CANT_OPEN                      = No s'ha pogut obrir l'arxiu. (Codi:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = Seleccioneu els tipus de caràcters per a la recuperació.
+TEXT_MSG_INIT_FAIL                      = La inicialització ha fallat.
+TEXT_MSG_NOT_FOUND                      = La recuperació ha fallat. La contrasenya a recuperar no pot excedir la longitud màxima de 4 caràcters al Bandizip Standard Edition.
+TEXT_MSG_FILE2FINDPWD                   = Aquest fitxers seran processats per a la recuperació.
+TEXT_MSG_ERRORATFINDINDEX               = No s'ha pogut trobar cap fitxer per a la recuperació.
+TEXT_MSG_COPY2CLIPBOARD                 = La contrasenya recuperada s'ha copiat al porta-retalls.
+TEXT_STATE_MSG_READY                    = Feu clic a Inicia per començar la recuperació.
+TEXT_STATE_MSG_WORKING                  = S'està provant de recuperar la contrasenya...
+TEXT_STATE_MSG_PAUSING                  = En pausa
+TEXT_STATE_MSG_STOPPING                 = S'està cancel·lant...
+TEXT_STATE_MSG_FOUND                    = La contrasenya de ${num1} caràcters s'ha recuperat en ${str1} segons. (${str2})
+TEXT_ASK_EXIT                           = Esteu segur que voleu sortir?
+TEXT_COMBO_THREAD_AUTO                  = Automàtic
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = Configuració
+IDC_STATIC_MULTI_CORE                   = Processament multinucli
+IDC_STATIC_MULTI_CORE_DESC              = Especifiqueu el nombre de fils d'execució a utilitzar per a la recuperació.[br]Es recomana seleccionar "Automàtic" o un nombre inferior al de nuclis de la CPU del sistema.
+IDC_STATIC_PREP_POSTP                   = Prefix
+IDC_STATIC_PREP                         = Prefix
+IDC_STATIC_PREP_DESC                    = Afegeix el prefix al començament de les contrasenyes abans de processar-les.[br]P. ex. http://www.
+IDC_STATIC_SPECIFY                      = Especifiqueu els caràcters
+IDC_STATIC_ETC                          = Altres opcions
+IDC_CHK_USE_SIGNATURE_BY_EXT            = Utilitza l'extensió del fitxer per a una recuperació més ràpida.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = Obre
+$STEP_2                                 = Comprova
+$STEP_3                                 = Opcions
+$STEP_4                                 = Recuperació
+$STEP_5                                 = Final
+$FILE_PATH_NAME                         = Ubicació
+$BTN_NEXT_PAGE                          = Següent >
+$BTN_PREV_PAGE                          = < Anterior
+$BTN_OK                                 = D'acord
+$BUTTON_BUY_NOW                         = Compreu el Bandizip Professional Edition
+$STATIC_OPEN_DESC                       = Feu clic a "Obre" per a navegar i seleccionar un arxiu encriptat.<br>També podeu arrossegar l'arxiu i deixar-lo dins d'aquest quadre de diàleg.
+$STATIC_PRICE_DESC1                     = Guia de llicències del Bandizip
+$STATIC_PRICE_DESC2                     = La recuperació de contrasenyes només està disponible al Bandizip Professional Edition. Al Bandizip Standard Edition la contrasenya a recuperar no pot excedir de 4 caràcters.
+$STATIC_FILELIST_DESC                   = Aquests són els fitxers que conté l'arxiu. Comproveu-los i feu clic a Següent.
+$FILELIST_HEADER_NAME                   = Nom
+$FILELIST_HEADER_SIZE                   = Mida
+$FILELIST_HEADER_DATE                   = Data de modificació
+$FILELIST_HEADER_METHOD                 = Mètode de compressió
+$FILELIST_HEADER_PWMETHOD               = Mètode d'encriptació
+$STATIC_SYMBOL_DESC                     = Especifiqueu els tipus de caràcters utilitzats en la contrasenya a cercar.<br>Com més en seleccioneu, més temps requerirà la recuperació.
+$STATIC_CUR_PASSWORD                    = S'està processant
+$STATIC_CUR_PASSLEN                     = Longitud
+$STATIC_ELAPSED                         = Temps transcorregut
+$STATIC_SPEED                           = Velocitat de processament
+$STATIC_CLIPBOARD_DESC                  = Copia la contrasenya recuperada al porta-retalls.
+$BUTTON_STOP                            = Cancel·la
+$BUTTON_START                           = Inicia
+$IDC_BTN_PAUSE                          = Pausa
+$IDC_BTN_UNPAUSE                        = Reinicia
+$IDC_BTN_OPEN                           = Obre
+$IDC_BTN_SETTING                        = Avançat
+$IDC_BTN_COPY2CLIPBOARD                 = Copia
+$IDC_BTN_CANCEL_PAYMENT                 = Inicialitza
+$BUTTON_HELP_PAGE                       = Ajuda sobre el temps estimat
+$CHECK_SYMBOL_NUM                       = Dígits (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = Minúscules (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = Majúscules (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = Caràcters especials (!@#$...)
+$CHECK_SYMBOL_SPACE                     = Espai
+$CHECK_SYMBOL_ALL                       = Tots
+$CHECK_SYMBOL_SPECIFIED                 = Caràcters especificats
+$FOUNDED_PASSWORD                       = La contrasenya recuperada és...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Carpeta nova
+
+TEXT_MENU_CREATE_NEW_FOLDER             = Carpeta &nova
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Obre amb el Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Comprova l'arxiu
+TEXT_MENU_LAUNCH_CMD                    = &Inicia l'indicador d'ordres
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Inicia l'indicador d'ordres (administrador)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = "&Comprimeix individualment a "nom.zip""
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Comprimeix individualmente a "nom.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Comprimeix a "${str1}" i suprimeix
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Comprimeix a "${str1}" i &envia per correu...
+TEXT_MENU_ARCHIVE_ZIPX                  = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Comprimeix a "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Comprimeix individualment a "nom.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Comprimeix individualment a "nom.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Comprimeix a "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Crea un arxiu (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Comprimeix com a administrador
+
+TEXT_MENU_EXTRACT_HERE                  = &Extreu aquí
+TEXT_MENU_EXTRACT_AUTO                  = Extreu aquí (&intel·ligentment)
+TEXT_MENU_EXTRACT_AUTO_EACH             = Extreu cada arxiu aquí (&intel·ligentment)
+TEXT_MENU_EXTRACT_SUB                   = Extreu en carpetes separades
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Extreu &a ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Extreu en una altra carpeta...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Extreu com a administrador
+TEXT_MENU_EXTRACT_HERE_DEL              = Extreu aquí i suprimeix
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extreu aquí (intel·ligentment) i suprimeix
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extreu cada arxiu aquí (intel·ligentment) i suprimeix
+TEXT_MENU_EXTRACT_SUB_DEL               = Extreu en carpetes separades i suprimeix
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extreu a ${str1}\ i suprimeix
+
+TEXT_MENU_PREVIEW                       = Previsualització de l'arxiu
+TEXT_MENU_PREVIEW_BROKEN                = Aquest fitxer està malmès o té un format desconegut.
+TEXT_MENU_PREVIEW_TIMEOUT               = S'ha esgotat el temps d'espera de la sol·licitud.
+TEXT_MENU_PREVIEW_EMPTY                 = L'arxiu està buit.
+TEXT_MENU_PREVIEW_ENCRYPTED             = El nom del fitxer està encriptat.
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = No es pot utilitzar la funció Previsualització de l'arxiu. [br][br]Reinicieu l'Explorador de fitxers del Windows o l'ordinador.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = No es pot llegir la llista de fitxers
+
+TEXT_MENU_OPENING                       = S'està obrint...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Actualitzacions del Bandizip
+TEXT_UPDATER_TEXT1                      = Les actualitzacions del Bandizip estan a punt.
+TEXT_UPDATER_TEXT_DL                    = Voleu baixar-les ara?
+TEXT_UPDATER_BTN_UPDATE                 = Actualitza
+TEXT_UPDATER_BTN_OK                     = D'acord
+TEXT_UPDATER_BTN_CANCEL                 = Cancel·la
+TEXT_UPDATER_DOWNLOAD_ERROR             = La baixada ha fallat.
+TEXT_UPDATER_SETTING_UPDATE             = Configuració
+TEXT_UPDATER_SETTING_SKIPTHIS           = Omet aquesta versió
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Camí de destinació:
+BTN_SELECT_FOLDER                       = Navega...
+BTN_EXTRACT                             = Inicia
+BTN_CLOSE                               = Tanca
+BTN_CANCEL                              = Cancel·la
+BTN_OPEN_FOLDER                         = Obre
+CHK_OVERWRITE                           = Sobreescriu
+ERR_ERROR_OCCURRED                      = S'ha produït un error
+ERR_INVALID_PASSWORD                    = La contrasenya no és vàlida
+ASK_OVERWRITE                           = El fitxer ja existeix. Voleu sobreesciure'l?
+MSG_COMPLETED                           = L'extracció s'ha completat.
+IDD_PASSWORD                            = Introduïu la contrasenya
+IDC_STATIC_PASSWORD_MSG                 = El fitxer està encriptat.
+IDC_BTN_SHOW_PASSWORD                   = Mostra la contrasenya
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = No es poden extreure els fitxers.
+TEXT_ERR_CRC                            = Error CRC.
+TEXT_ERR_INVALID_PASSWD                 = La contrasenya no es vàlida.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Instal·lació del ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = Desinstal·lació del ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Feu clic a Desinstal·la per a iniciar la desinstal·lació.
+
+$BTN_CLOSE                              = Tanca
+$BTN_CANCEL                             = Cancel·la
+$BTN_INSTALL                            = Accepto i instal·la
+$BTN_UNINSTALL                          = Desinstal·la
+$BTN_OPEN_LICENSE                       = [Visualitza el contracte de llicència]
+$BTN_HELP_LINK                          = [Ajuda]
+
+$TEXT_PATH                              = Carpeta de destinació
+$TEXT_INSTALL_STATIC                    = S'està instal·lant...
+$TEXT_INST_COMPLETED                    = La instal·lació s'ha completat
+$TEXT_INST_FAILED                       = La instal·lació ha fallat
+$TEXT_UNINSTALLING                      = S'està desinstal·lant...
+
+$CHK_AUTO_REPORT                        = Envia automàticament estadístiques d'ús i informes d'errors.
+$EMAIL                                  = Adreça electrònica
+$PRODUCT_KEY                            = Clau del producte
+
+ERR_CANT_CREATE_FOLDER                  = No s'ha pogut crear la carpeta: ${str1}
+ERR_CANT_OPEN_FILE                      = No s'ha pogut obrir el fitxer: ${str1}
+ERR_CANT_WRITE_FILE                     = No s'ha pogut escriure al fitxer: ${str1}
+ERR_BROKEN_ARCHIVE                      = Aquest fitxer comprimit està malmès: ${str1}
+ERR_CRC_ERROR                           = Error CRC: ${str1}
+ERR_NOT_ENOUGH_MEM                      = No hi ha prou memòria: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = S'ha produït un error en obrir el fitxer per a escriptura:[br] "${str1}"[br]Feu clic a Interromp per a aturar la instal·lació,[br]a Reintenta per a tornar-ho a provar, o [br]a Ignora per a ometre aquest fitxer.
+MSG_SUCCESS                             = La instal·lació s'ha completat
+MSG_DLL_REGISTERING                     = S'està registrant l'extensió de l'Explorador de fitxers...
+MSG_DLL_UNREGISTERING                   = S'està suprimint el registre de l'extensió de l'Explorador de fitxers...
+MSG_ERROR                               = S'ha produït un error
+MSG_ERROR_REGISTER                      = El registre ha fallat
+MSG_SELECT_FOLDER                       = Seleccioneu una carpeta.
+MSG_STILLRUN_EXIT_PROGRAM               = El ${APPNAME} encara està en execució. Tanqueu primer el programa.
+MSG_XP_IS_NOT_SUPPORTED                 = Aquest programa no funciona al Windows XP.
+MSG_NEED_ADMIN_PRIVILEGE                = Aquest programa només pot ser instal·lat per usuaris amb privilegis d'administrador.[br][br]Els usuaris no administradors no poden instal·lar-lo correctament.[br][br]Voleu aturar la instal·lació?
+MSG_NEWVERSION_FOUND                    = Hi ha una versió nova disponible. Voleu baixar-la ara?
+SHORTCUT_LINK_DESCRIPTOIN               = Inicia el ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = Aquest fitxer d'instal·lació no és compatible amb la versió de 32 bits (x86) del sistema operatiu.[br]Baixeu un nou fitxer d'instal·lació del lloc web.
+MSG_ERR_ARM_NOTSUPPORT                  = Aquest fitxer d'instal·lació no és compatible amb processadors ARM64.[br]Baixeu un nou fitxer d'instal·lació del lloc web.
+ERR_INST_FAILED                         = La instal·lació ha fallat. Reinicieu l'ordinador i torneu a provar-ho
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = La comprovació de la versió ha fallat. Baixeu el fitxer d'instal·lació fora de línia.
+TEXT_VERSION_CHECKING                   = S'està comprovant la versió...
+TEXT_DOWNLOAD_FAILED                    = S'ha produït un error en la baixada. Baixeu el fitxer d'instal·lació fora de línia.
+TEXT_DOWNLOAD_COMPLETED                 = S'ha completat la baixada
+TEXT_HOMEPAGE                           = [Obre la pàgina web]
+TEXT_XP                                 = Ja no és compatible amb el Windows XP
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = Selecció dels botons de la barra d'eines
+
+

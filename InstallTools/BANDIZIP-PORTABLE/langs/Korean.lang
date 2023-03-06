@@ -1,0 +1,1196 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = 한국어
+TRANSLATORS                             = park
+DLG_FONT_NAME                           = ICONTITLELOGFONT
+DLG_FONT_SIZE                           = 9
+
+
+[TEXT]
+TEXT_BUILDNO                            = 빌드#
+TEXT_FILE                               = 파일
+TEXT_FOLDER                             = 폴더
+TEXT_ARCHIVE_SIZE                       = 압축 파일 크기
+TEXT_ORIGINAL_SIZE                      = 원본 파일 크기
+TEXT_ARCHIVE_FORMAT                     = 압축 파일 형식
+TEXT_COMPRESSED_SIZE                    = 압축된 크기
+TEXT_SOLID                              = 솔리드
+TEXT_BETA                               = 베타
+TEXT_ASSOC                              = 압축(${str1}) 파일
+TEXT_PORTABLE                           = 포터블
+TEXT_NEW_FOLDER                         = 새 폴더
+TEXT_FILESIZE_UNKNOWN                   = 알 수 없음
+TEXT_FILEDATE_UNKNOWN                   = 알 수 없음
+TEXT_HELP_LINK                          = [도움말]
+TEXT_APP_DESC                           = 반디집으로 압축 파일을 만들거나 압축을 풀 수 있습니다.
+
+TEXT_MESSAGEBOX_OK                      = 확인
+TEXT_MESSAGEBOX_CANCEL                  = 취소
+TEXT_MESSAGEBOX_ABORT                   = 중지
+TEXT_MESSAGEBOX_RETRY                   = 재시도
+TEXT_MESSAGEBOX_IGNORE                  = 무시
+TEXT_MESSAGEBOX_YES                     = 예
+TEXT_MESSAGEBOX_NO                      = 아니요
+TEXT_MESSAGEBOX_CONTINUE                = 계속
+TEXT_MESSAGEBOX_HELP                    = 도움말
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = 이 메시지를 다시 표시하지 않음
+
+TEXT_COLUMN_NAME                        = 이름
+TEXT_COLUMN_COMPSIZE                    = 압축 크기
+TEXT_COLUMN_ORIGSIZE                    = 원본 크기
+TEXT_COLUMN_KIND                        = 파일 종류
+TEXT_COLUMN_DATE_MOD                    = 수정한 날짜
+TEXT_COLUMN_COMPMETHOD                  = 압축 방식
+TEXT_COLUMN_ENCRMETHOD                  = 암호 방식
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = 속성
+TEXT_COLUMN_COMMENT                     = 파일 설명
+TEXT_COLUMN_EXT                         = 부가 정보
+TEXT_COLUMN_PATHNAME                    = 경로명
+
+TEXT_ICONPACK_NAME                      = 이름
+TEXT_ICONPACK_DESIGNER                  = 디자이너
+TEXT_ICONPACK_COPYRIGHT                 = 저작권
+
+TEXT_ARCHIVE_COLUMN_NAME                = 이름
+TEXT_ARCHIVE_COLUMN_FILESIZE            = 파일 크기
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = 경로
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = 압축할 파일 크기
+
+TEXT_SELECT_ARCHIVE_FILE                = 파일 선택
+TEXT_SELECT_TEXT_FILE                   = 텍스트 파일 선택
+TEXT_SELECT_DEST_FOLDER                 = 대상 폴더 선택
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = 압축 파일
+TEXT_REGISTRY_FILE                      = 레지스트리 파일
+
+TEXT_OPENDLG_ARCHIVEFILES               = 압축 파일
+TEXT_OPENDLG_ARCHIVEFILE                = 압축 파일
+TEXT_OPENDLG_ALLFILES                   = 모든 파일
+TEXT_OPENDLG_EXEFILES                   = 실행 파일
+
+TEXT_ABOUTBOX_TAB1                      = 반디집 정보
+
+TEXT_ASSOC_GROUP0                       = 압축 파일
+TEXT_ASSOC_GROUP1                       = UNIX 계열 압축 파일
+TEXT_ASSOC_GROUP2                       = 기타 압축 파일
+TEXT_ASSOC_GROUP3                       = CD/DVD 이미지
+
+TEXT_OPENERR_INVALIDVERSION             = 이 파일은 상위 버전의 프로그램으로만 열 수 있습니다. 최신 버전으로 업그레이드하세요.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = 이 파일은 분할 압축 파일이지만 첫 번째 파일이 아닙니다. 분할압축의 첫 번째 파일을 열어주세요.
+TEXT_OPENERR_CANT_OPEN_FILE             = 파일(${str1})을 열 수 없습니다.
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = 다른 프로그램이 이 파일(${str1})을 사용 중이므로 열 수 없습니다.
+TEXT_OPENERR_GENERAL                    = 파일(${str1})을 열 수 없습니다. (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = 취소하였습니다.
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = 이 파일(${str1})은 압축 파일이 아닌 것 같습니다.
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = 이 파일(${str1})은 압축 파일이 아닙니다.
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = 이 파일(${str1})은 지원하지 않는 포맷입니다.
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = 이 파일(${str1})은 지원하지 않는 암호 알고리즘을 사용합니다.
+TEXT_OPENERR_PASSWORD_NOT_SET           = 암호가 필요합니다.
+TEXT_OPENERR_INVALID_PASSWORD           = 암호가 틀렸습니다.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = 파일의 헤더가 손상되어서 파일을 열 수 없습니다.
+
+TEXT_ERR_INIT_FAILED                    = 프로그램 초기화에 실패하였습니다.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = 암호가 틀리거나 압축 풀 파일이 없습니다.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = 암호가 다릅니다.
+TEXT_ERR_PASSWORD_NOT_SET               = 암호를 입력하세요.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = 암호에 한글과 같은 사용할 수 없는 문자가 포함되어 있습니다.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = 분할압축 크기가 정확하지 않습니다.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = EXE 포맷으로 압축할 때 분할 압축 크기는 4GB 미만이어야 합니다.
+TEXT_ERR_INTERNAL_ERROR                 = 내부 오류가 발생하였습니다.
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = 압축 파일을 수정할 수 없습니다.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = 압축 파일을 수정하던 중 오류가 발생하였습니다.
+TEXT_ERR_INVALID_FOLDER_PATH            = 폴더 경로가 바르지 않습니다.
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = ZIP/ZIPX 파일만 수정할 수 있습니다.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = 분할 압축 파일이 아닌 경우에만 수정할 수 있습니다.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = SFX 파일 등은 수정할 수 없습니다.
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = 손상된 파일은 수정할 수 없습니다.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = 이 형식의 압축 파일은 수정할 수 없습니다.
+TEXT_ERR_CANT_CHANGE_FILENAME           = 파일명을 바꿀 수 없습니다.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "파일 이름에는 다음 문자를 사용할 수 없습니다.[br][br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = 같은 이름을 가지는 폴더나 파일이 이미 있으므로 이름(${str1})을 바꿀 수 없습니다.
+TEXT_ERR_CANT_CREATE_FOLDER             = 폴더를 만들 수 없습니다.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = 압축할 파일이 없습니다.
+TEXT_ERR_INVALID_PARAM                  = 잘못된 실행 파라미터입니다.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = 다음 파일을 목록에 추가할 수 없습니다. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = 파일을 열지 못하였습니다.[br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = 압축 파일과 같은 이름을 가진 폴더가 이미 있습니다.
+TEXT_ERR_FILENAME_EMPTY                 = 파일명이 바르지 않습니다.
+TEXT_ERR_AT_DRAGANDDROP                 = 드래그&드롭을 처리할 수 없습니다.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = 드래그&드롭을 처리할 수 없습니다. [br]'빠른 드래그&드롭'을 사용하지 않도록 설정하였으니 다시 시도해 보시기 바랍니다.
+TEXT_ERR_AT_CANT_OPEN_MMF               = MMF를 열 수 없습니다. (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = 선택된 파일이 없습니다.
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = 아이콘팩을 설치하기 위한 폴더를 생성할 수 없습니다.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = 아이콘팩을 설치하기 위한 파일을 생성할 수 없습니다.
+TEXT_ERR_AT_EXECUTE_DIRECT              = 이 파일을 열 수 없습니다. 압축을 해제 후 탐색기에서 열어 보세요.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 4GB가 넘는 파일이 포함된 경우 현재 포맷으로 압축할 수 없습니다.[br]압축 형식을 바꾸어 주세요.
+TEXT_ERR_CANT_SAVE_AS                   = 다른 이름으로 저장할 수 없습니다.
+TEXT_ERR_ERROR_AT_EDIT                  = 압축 파일을 변경하는 도중 문제가 발생하였습니다. (${str1})[br][br]오류 내용을 서버로 전송하시겠습니까?[br][br]오류 내용을 보내주시면 프로그램 개선에 도움이 됩니다.
+
+TEXT_MSG_TEST_OK                        = 압축 파일에 문제점이 없습니다.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = 압축 풀기에 실패하였습니다. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = 압축 풀기에 성공하였습니다.
+TEXT_MSG_EXTRACT_CANCELED               = 압축 풀기를 취소하였습니다.
+TEXT_MSG_COMPRESS_SUCCESS               = 압축작업을 완료하였습니다.
+TEXT_MSG_INTERNAL_ERROR                 = 내부 오류가 발생하였습니다.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = 임시 폴더의 다음 파일을 열 수 없습니다.[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = 압축 파일을 삭제할 수 없습니다.
+TEXT_MSG_CRASH_REPORT                   = 문제가 발생하였습니다. 프로그램을 종료합니다.
+TEXT_MSG_CRASH_REPORT2                  = 문제가 발생하여 프로그램을 종료합니다.[br]오류 내용을 서버로 전송하시겠습니까?[br]오류 내용을 보내주시면 프로그램 개선에 도움이 됩니다.
+TEXT_MSG_CRASH_REPORT3                  = 다음 DLL 파일에서 문제가 발생하여 프로그램을 종료합니다.[br]오류 내용을 서버로 전송하시겠습니까?[br]오류 내용을 보내주시면 프로그램 개선에 도움이 됩니다.
+TEXT_MSG_HANGAPP_REPORT                 = 프로그램이 응답하지 않습니다.[br][br]오류 내용을 서버로 전송하고 프로그램을 종료하시겠습니까?
+TEXT_MSG_SET_TEMP_PATH                  = 임시 폴더를 설정합니다.
+TEXT_MSG_SET_PATH                       = 폴더를 설정합니다.
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = 아이콘팩 설치가 완료되었습니다.
+TEXT_MSG_NOTICE_RESTART                 = 프로그램을 다시 시작합니다.
+TEXT_MSG_ARCHVIE_OPENING                = 파일을 여는 중입니다.
+TEXT_MSG_COMPLETING                     = 마무리 작업 중: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = 폴더를 생성할 수 없습니다.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = GZ/XZ 포맷은 폴더를 압축할 수 없습니다.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = GZ/XZ 포맷은 여러 개의 파일을 압축할 수 없습니다. "각각 파일명/폴더명으로 압축하기" 옵션을 켜세요.
+TEXT_MSG_TRAY_MINIMIZED                 = 프로그램이 트레이로 최소화되었습니다. 트레이 아이콘을 클릭하면 복원됩니다.
+TEXT_MSG_TRAY_COMPLETED                 = 작업이 완료되었습니다.
+TEXT_MSG_BATCH_ARCHVING                 = 압축: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = 압축 해제: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - 압축파일의 무결성 테스트: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - 삭제: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - 삭제 실패: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = 작업 중입니다.
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = 이 파일은 이 OS와 다른 코드페이지로 생성된 파일인 것 같습니다. 툴바의 <font color=blue><b> 코드페이지 </b></font>버튼을 클릭 후 언어를 바꿔 보세요.
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = ${ext} 파일의 기본 앱을 반디집으로 변경하시겠습니까?
+
+TEXT_ASK_DELETE_ARCHIVE                 = 원본 압축 파일이 삭제됩니다.[br]파일을 삭제하시겠습니까?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = 현재 압축 파일을 삭제하시겠습니까?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = 현재 압축 파일을 완전히 삭제하시겠습니까?
+TEXT_ASK_CHANGE_FILENAME                = 이미 같은 이름의 파일이 있습니다.[br][br]${str1}에서 ${str2}(으)로 이름을 [br]변경하시겠습니까?
+TEXT_ASK_DELETE_FILE                    = 선택한 파일을 삭제하시겠습니까?
+TEXT_ASK_STOP_EXTRACT                   = 압축 풀기를 중지하시겠습니까?
+TEXT_ASK_OVERWRITE_ARCHIVE              = 이미 같은 이름의 파일이 있습니다. 덮어 씌우겠습니까?
+TEXT_ASK_INIT_SETTING                   = 설정을 초기화하고 프로그램을 다시 시작하시겠습니까?
+TEXT_ASK_STOP_ARCHIVING                 = 압축을 중지하시겠습니까?
+TEXT_ASK_STOP_MODIFYING                 = 작업을 중지하시겠습니까?
+TEXT_ASK_APPLY_MODIFIED_FILE            = 변경된 파일을 압축 파일에 적용하시겠습니까? [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = 아이콘팩(${str1})을 설치하고 적용하시겠습니까?
+TEXT_ASK_MAKE_FOLDER                    = 다음 폴더가 존재하지 않습니다. 폴더를 생성하시겠습니까?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = 다음 대상 폴더에 쓰기 권한이 없습니다. [br][br]- ${str1}[br][br]작업을 진행하시겠습니까?
+TEXT_ASK_CONT_NOFREESPACE               = 다음 대상 폴더에 여유공간이 없습니다. 대상 폴더를 바꾸어 보시기 바랍니다.[br][br]- ${str1}[br][br]작업을 진행하시겠습니까?
+TEXT_ASK_ASK_UAC_ELEVATION              = 이 파일을 수정하기 위해서는 관리자 권한이 필요합니다.[br][br]관리자 권한으로 프로그램을 다시 실행시키시겠습니까?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = 이 파일은 분할 압축 파일이지만 첫 번째 파일이 아닙니다.[br][br]분할압축의 첫 번째 파일(${str1})을 여시겠습니까?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = 압축 후 원본 파일을 삭제할 경우, 압축된 파일이 손상되면 중요한 데이터를 잃을 수 있습니다.[br][br]지금 '압축 후 테스트' 설정을 켜시겠습니까?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = 압축 풀 폴더의 사용 가능한 공간이 부족합니다. 압축 해제 작업을 진행하시겠습니까?[br][br]대상 폴더: ${str1}[br]사용 가능한 공간: ${str2}[br]압축 풀 크기: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = 이 파일은 손상된 파일입니다.
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = 이 파일은 손상된 파일입니다. 아마도 분할된 압축 파일이 없거나 손상된듯합니다.
+
+TEXT_BTN_PAUSE                          = 일시 정지
+TEXT_BTN_RESUME                         = 다시 시작
+
+TEXT_ERRDLG_ERROR_OCCURRED              = 작업 중 오류가 발생하였습니다.
+TEXT_ERRDLG_USER_ABORT                  = 취소하였습니다.
+
+TEXT_ARKERR_CANT_OPEN_FILE              = 파일을 열 수 없습니다.
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = 다른 프로그램이 파일을 사용 중이므로 파일을 열 수 없습니다.
+TEXT_ARKERR_PASSWORD_NOT_SET            = 암호가 필요합니다.
+TEXT_ARKERR_INVALID_PASSWD              = 암호가 틀립니다.
+TEXT_ARKERR_USER_ABORTED                = 취소하였습니다.
+TEXT_ARKERR_INVALID_FILE_CRC            = 압축 파일이 손상되었습니다. (CRC 오류)
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = 출력 파일을 열 수 없습니다.
+TEXT_ARKERR_CANT_READ_DATA              = 압축데이터를 읽을 수 없습니다.
+TEXT_ARKERR_INFLATE_FAILED              = 압축데이터가 손상되었습니다.
+TEXT_ARKERR_BZIP2_ERROR                 = 압축데이터가 손상되었습니다.
+TEXT_ARKERR_DATA_CORRUPTED              = 압축데이터가 손상되었거나 분할 압축 파일이 없습니다.
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = 출력 파일을 생성할 수 없습니다.
+TEXT_ARKERR_CANT_CREATE_FOLDER          = 폴더를 만들 수 없습니다.
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = 지원하지 않는 압축 방식입니다.
+TEXT_ARKERR_WRITE_FAIL                  = 파일 쓰기 중 오류가 발생하였습니다.
+TEXT_ARKERR_DISK_FULL                   = 디스크가 꽉 찼습니다.
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = 파일 생성 실패. 전체 경로와 파일 이름 길이는 260자를 초과해서는 안 됩니다.
+TEXT_ARKERR_CANT_CREATE_FILE            = 파일을 만들지 못했습니다.
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = 파일을 만들지 못했습니다. 관리자 권한으로 다시 시도해 보시기 바랍니다.
+TEXT_ARKERR_USER_SKIP                   = 건너뛰었습니다.
+TEXT_ARKERR_FILE_TRUNCATED              = 파일의 뒷부분이 잘렸거나 분할 압축 파일의 뒷부분이 없습니다.
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = 암호가 잘못되었거나 압축 파일이 손상되었습니다.
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = 손상된 압축 파일입니다.
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = SFX 파일의 크기가 4GB를 넘었습니다. Windows는 4GB를 초과하는 실행파일을 실행할 수 없습니다.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = 이 파일은 분할 ZIP 파일이지만 다른 분할 파일(.z01, .z02..)이 없으므로 파일을 열 수 없습니다.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = 이 파일은 분할 ZIP 파일이지만 다른 분할 파일(.z01, .z02..)이 없습니다.
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = 이 파일은 분할 압축 파일이지만 일부 분할 파일이 없거나 손상되어서 파일을 열 수 없습니다.
+TEXT_ARKERR_CORRUPTED_FILE              = 손상된 압축 파일입니다.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = 대상 폴더에 쓰기 권한이 없습니다.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = 대상 폴더에 쓰기 권한이 없습니다. 관리자 권한으로 프로그램 실행 후 다시 시도해 보시기 바랍니다.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = 지원하지 않는 암호 알고리즘입니다.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = 메모리가 부족합니다.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = 메모리가 부족합니다. 압축률을 바꿔주세요.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = 지원하지 않는 작동입니다.
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = 압축을 푼 파일의 크기가 아카이브 헤더 정보에 적혀있는 정보와 다릅니다.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = 파일의 크기가 4GB를 초과하는 파일은 저장할 수 없습니다.
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = 파일명이 너무 길어서 뒷부분이 잘려서 저장되었습니다.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = 파일을 복사하기 위한 원본 파일을 열 수 없습니다.
+TEXT_ARKERR_NOTIMPL                     = 구현되지 않은 작동입니다.
+TEXT_ARKERR_CANT_READ_FILE              = 파일을 읽을 수 없습니다.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = 심볼릭 링크를 만들기 위해서는 반디집을 관리자 권한으로 실행시켜야 합니다.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = 심볼릭 링크를 생성할 수 없습니다.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = 쓰기 가능 상태로 다른 프로세스가 사용 중인 파일입니다.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = 압축할 파일이 없습니다.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = 분할하지 않음
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = 직접 입력
+
+TEXT_COMPRESSIONMETHOD_STORE            = 압축하지 않음
+TEXT_COMPRESSIONMETHOD_FAST             = 빠르게
+TEXT_COMPRESSIONMETHOD_NORMAL           = 보통
+TEXT_COMPRESSIONMETHOD_MAX              = 압축률 최대
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = 새 압축
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = 파일 추가
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = 이름 변경(&3): ${str1}
+TEXT_TITLE_TEST_MODE                    = 압축 파일 테스트
+TEXT_TITLE_TEMPFOLDER_MODE              = 임시 폴더에 압축 푸는 중...
+TEXT_TITLE_MODIFYING                    = 수정 중...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = 압축 풀 파일
+TEXT_MSG_SELECTED_FILE                  = ${num1} 파일 선택됨
+TEXT_MSG_SELECTED_FOLDER                = ${num1} 폴더 선택됨
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} 파일, ${num2} 폴더 선택됨
+TEXT_MSG_SELECTED_FILESIZESUM           = 선택된 파일 크기: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = 버전 체크 실패
+TEXT_UPDATE_VERSION_CHECKING            = 버전 체크 중
+TEXT_UPDATE_DOWNLOAD_FAILED             = 내려받기 실패
+TEXT_UPDATE_LATEST_VERSION              = 최신 버전입니다.
+TEXT_UPDATE_DO_DOWNLOAD                 = 업데이트가 필요합니다.
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = 내려받기 완료
+
+TEXT_INSTALL_HONEYVIEW                  = 꿀뷰 설치
+TEXT_INSTALL_HONEYVIEW_1                = 시스템에 꿀뷰가 설치되어 있지 않습니다.
+TEXT_INSTALL_HONEYVIEW_2                = 압축을 풀지 않고 이미지를 볼 수 있는 편리한 이미지 뷰어인 꿀뷰를 한번 설치해 보시겠습니까?
+
+TEXT_REGISTRATION_FAILED                = 제품 등록을 실패하였습니다. 이메일 주소와 제품 키를 확인해 보시기 바랍니다.
+TEXT_REGISTRATION_SUCCEED               = 제품을 등록하였습니다.
+TEXT_REGISTRATION_ASK                   = 제품의 등록 정보를 삭제하시겠습니까?
+TEXT_REGISTER_NOT_REGISTERED            = 제품이 등록되어 있지 않습니다.[br]프로그램을 기능 제한 없이 사용하려면, 제품을 구매한 후 반드시 제품 등록을 하시기 바랍니다.
+TEXT_REGISTER_INFO                      = 이 제품은 다음 사용자에게 등록되었습니다.[br]이메일 주소 : ${str1}[br]제품 키 : ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = 압축 파일 악성코드 검사
+TEXT_SCAN_AMSI_PROVIDER                 = AMSI 초기화 성공
+TEXT_SCAN_COMPLETED                     = 악성코드 검사가 완료되었습니다.
+TEXT_SCAN_MALWARE_DETECTED              = 악성코드가 검출되었습니다.
+TEXT_SCAN_MALWARE_NOTDETECTED           = 악성코드가 검출되지 않았습니다.
+TEXT_SCAN_MALWARE_TOOBIG                = 파일의 크기가 커서 검사하지 못했습니다.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = 압축파일에서 악성코드가 검출되었습니다.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= 압축파일에서 악성코드가 검출되었습니다. 압축 해제를 취소합니다.
+TEXT_MSG_MALWARE_TEST_OK                = 압축파일에서 악성코드가 검출되지 않았습니다.
+TEXT_MSG_AMSI_INIT_FAILED               = 악성코드 검사를 위한 AMSI 초기화를 실패하였습니다. 자세한 사항은 https://go.bandisoft.com/amsi 를 참고하세요.
+TEXT_MSG_AMSI_WIN10_NOTICE              = 악성코드 검사 기능은 Windows 10/11에서만 작동합니다. 자세한 사항은 https://go.bandisoft.com/amsi 를 참고하세요.
+
+[MENU]
+MENUSTR_FILE                            = 파일(&F)
+MENUSTR_EDIT                            = 편집(&E)
+MENUSTR_SETTING                         = 설정(&S)
+MENUSTR_FIND                            = 찾기(&I)
+MENUSTR_VIEW                            = 보기(&V)
+MENUSTR_TOOLS                           = 도구(&T)
+MENUSTR_HELP                            = 도움말(&A)
+
+MENUSTR_OPEN                            = 압축 파일 열기\tCtrl+O
+MENUSTR_RECENT                          = 최근 파일
+MENUSTR_CLOSE_FILE                      = 압축 파일 닫기\tF4
+MENUSTR_CREATE_ARCHIVE                  = 새로 압축\tCtrl+N
+MENUSTR_NEW_WINDOW                      = 새창 띄우기\tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = 새창 띄우기(관리자 권한)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = 다른 이름으로 저장
+MENUSTR_DELETE_ARCHIVE                  = 압축 파일 삭제\tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = 압축 파일 완전 삭제\tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = 압축 파일이 있는 폴더 열기
+MENUSTR_TEST_ARCHIVE                    = 압축 파일 테스트\tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = 압축 파일 악성코드 검사\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = 압축 풀기\tCtrl+E
+MENUSTR_EXIT                            = 종료\tCtrl+W
+
+MENUSTR_RENAME_FILE                     = 이름 바꾸기\tF2
+MENUSTR_ADD_FILE                        = 파일 추가\tIns
+MENUSTR_DELETE_FILE                     = 파일 삭제\tDel
+MENUSTR_EDIT_COMMENT                    = 압축 파일 설명 편집
+MENUSTR_SETTING_SUB                     = 환경 설정(F5)
+MENUSTR_REGISTER                        = 제품 등록...
+MENUSTR_UNREGISTER                      = 제품 등록 삭제...
+MENUSTR_PASSMAN                         = 암호 관리자...
+MENUSTR_FIND_ITEM                       = 파일 찾기\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = 클립보드로 파일 복사하기\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = 클립보드에서 파일 붙여 넣기\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = 파일의 경로명을 클립보드로 복사
+
+MENUSTR_VIEW_STARTSCREEN                = 시작 화면\tF6
+MENUSTR_VIEW_TREECONTROL                = 트리 컨트롤\tF7
+MENUSTR_VIEW_COMMENT                    = 압축 파일 설명\tF8
+MENUSTR_VIEW_PREVIEW                    = 이미지 파일 미리 보기 사용
+MENUSTR_VIEW_STATUS_BAR                 = 상태 표시줄
+MENUSTR_VIEW_TOOLBAR                    = 툴바
+MENUSTR_VIEW_TOOLBAR_NORMAL             = 크게
+MENUSTR_VIEW_TOOLBAR_MINI               = 작게
+MENUSTR_VIEW_TOOLBAR_OLD                = 구식
+MENUSTR_VIEW_TOOLBAR_HIDE               = 숨기기
+MENUSTR_SET_TOOLBAR_ITEM                = 툴바 버튼 설정
+MENUSTR_VIEW_LISTVIEW                   = 파일 목록
+MENUSTR_VIEW_LISTVIEW_ICON              = 아이콘
+MENUSTR_VIEW_LISTVIEW_LIST              = 간단히
+MENUSTR_VIEW_LISTVIEW_REPORT            = 자세히
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = 큰 아이콘
+MENUSTR_VIEW_COLUMN                     = 칼럼 설정
+MENUSTR_VIEW_ALWAYS_ON_TOP              = 항상 위에 표시
+MENUSTR_VIEW_COLOR_SETTING              = 색상 설정...
+
+MENUSTR_TOOLS_REPAIR                    = 손상된 압축 파일 복구...
+MENUSTR_TOOLS_RECOVERY                  = 압축 파일 암호 복구...
+
+MENUSTR_ABOUT                           = 정보\tF1
+MENUSTR_HELPPAGE                        = 도움말 페이지 열기
+MENUSTR_OPEN_FOLDER                     = 프로그램 설치 폴더 열기
+MENUSTR_FORUM                           = 토론 게시판 열기
+MENUSTR_HOMEPAGE                        = 홈페이지 열기
+
+POPUPMENU_VIEWITEM_COMPSIZE             = 압축 크기
+POPUPMENU_VIEWITEM_ORIGSIZE             = 원본 크기
+POPUPMENU_VIEWITEM_KIND                 = 파일 종류
+POPUPMENU_VIEWITEM_DATE_MOD             = 수정한 날짜
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = 압축 방식
+POPUPMENU_VIEWITEM_ENCRMETHOD           = 암호 방식
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = 속성
+POPUPMENU_VIEWITEM_COMMENT              = 파일 설명
+POPUPMENU_VIEWITEM_EXT                  = 부가 정보
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = 압축 풀기...\tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = 선택한 파일 압축 풀기...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = 현재 폴더에 전부 압축 풀기
+
+POPUPMENU_LISTCONTROL_EXECUTE           = 실행\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = 연결된 프로그램으로 보기
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = 편집\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = 반디집으로 열기(&B)
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = 새 폴더
+POPUPMENU_LISTCONTROL_ADD_FILE          = 파일 추가...\tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = 선택한 파일 삭제\tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = 이름 바꾸기
+POPUPMENU_LISTCONTROL_SELECT_ALL        = 전체 선택\tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = 상위 폴더로 이동\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = 압축 파일 삭제하기
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = 압축 파일이 있는 폴더 열기
+
+POPUPMENU_EXTRACT_AUTODEST              = 현재 폴더에 알아서 풀기\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = 현재 폴더에 풀기\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = 파일명 폴더에 풀기
+POPUPMENU_EXTRACT_DESKTOP               = 바탕화면에 풀기
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = 바탕화면에 알아서 풀기
+
+POPUPMENU_RECENT_CLEAR                  = 목록 지우기
+POPUPMENU_RECENT_NOITEM                 = 최근 파일 목록 없음
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = 반디집으로 열기(&O)
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = 현재 폴더에 알아서 풀기(&Z)
+
+POPUPMENU_CODEPAGE_DEFAULT              = 기본
+POPUPMENU_CODEPAGE_SIMPCHINESE          = 중국어(간체)
+POPUPMENU_CODEPAGE_TRADCHINESE          = 중국어(번체)
+POPUPMENU_CODEPAGE_JAPANESE             = 일본어
+POPUPMENU_CODEPAGE_KOREAN               = 한국어
+POPUPMENU_CODEPAGE_WINDOWS1252          = 서유럽어
+POPUPMENU_CODEPAGE_WINDOWS1250          = 중앙유럽
+POPUPMENU_CODEPAGE_WINDOWS1251          = 키릴 자모
+POPUPMENU_CODEPAGE_WINDOWS1254          = 터키어
+POPUPMENU_CODEPAGE_WINDOWS737           = 그리스어
+POPUPMENU_CODEPAGE_ARABIC               = 아랍어
+POPUPMENU_CODEPAGE_HEBREW               = 히브리어
+POPUPMENU_CODEPAGE_BALTIC               = 발트어파
+POPUPMENU_CODEPAGE_THAI                 = 태국어
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = 자동 인식
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = 꿀뷰로 보기
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = 연결된 프로그램으로 보기
+
+DLG_MENUSTR_MINIMIZE2TRAY               = 트레이로 최소화
+DLG_MENUSTR_LOW_PRIORITY                = 낮은 우선순위
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = 압축 풀기 성공 후 압축 파일 삭제
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = 확인
+IDCANCEL                                = 취소
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = 반디집 정보
+IDC_BTN_HOMEPAGE                        = 홈페이지
+IDC_BTN_UPDATE                          = 업데이트
+IDC_BTN_REGIST                          = 제품 등록
+IDC_BTN_BUY                             = 구매하기
+IDC_BTN_LEARNMORE                       = 더 알아보기...
+IDC_STATIC_LICENSE                      = 제품 등록 정보
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = 파일 열기
+IDC_STATIC_OPENING                      = 여는 중입니다.
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = 압축 풀 폴더 선택
+IDC_STATIC_FOLDER                       = 대상 폴더(&D)
+IDC_STATIC_FILES2EXTRACT                = 압축 풀 파일
+IDC_RADIO_FILES2EXTRACT_0               = 전체 파일(&1)
+IDC_RADIO_FILES2EXTRACT_1               = 선택된 파일(&2)
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = 대상 폴더의 하위에 '압축 파일명'으로 폴더 생성 후 압축 풀기(&E)
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = 압축 풀기 성공 후 압축 파일 삭제
+IDC_CHK_REMEMBER_SETTINGS               = 설정 기억
+IDC_BTN_NEWFOLDER                       = 새 폴더
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = 압축 풀기
+IDC_BTN_STOP                            = 중지
+IDC_BTN_CLOSE                           = 닫기
+IDC_BTN_PAUSE                           = 일시 정지
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = 새로 압축
+IDC_STATIC_FILE_LIST                    = 압축할 파일 목록
+IDC_STATIC_ARCHIVE_SETTING              = 압축 파일 설정
+IDC_STATIC_ARCHIVE_NAME                 = 파일 이름
+IDC_STATIC_SET_DEST_FOLDER              = 압축 파일 저장 폴더
+IDC_STATIC_ARCHIVE_TYPE                 = 압축 형식
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = 분할 압축
+IDC_STATIC_COMPRESSION_METHOD           = 압축 방법
+IDC_STATIC_HELP_SPLIT                   = [분할 압축 도움말]
+IDC_STATIC_HELP_7Z                      = [7Z 도움말]
+IDC_BTN_SELECT_ARCHIVE_NAME             = ...
+IDC_BTN_SET_PASSWORD                    = 암호 설정...
+IDC_BTN_TEST_ARCHIVE                    = 압축 후 테스트(&T)
+IDC_BTN_DELETE_SRC                      = 압축 후 원본 파일 삭제(&E)
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = 각각 파일명/폴더명으로 압축하기
+IDC_BTN_SET_DEST_FOLDER                 = 압축 파일을 저장할 대상 폴더 지정
+IDC_BTN_TOGGLE_ADVANCED                 = 상세 설정 보기
+IDC_BTN_SET_SFX                         = E&XE 설정...
+IDC_BTN_ADD                             = 추가(&A)
+IDC_BTN_DEL                             = 제거(&D)
+IDC_BTN_START                           = 압축 시작
+IDC_BTN_COMP_ADVANCED                   = 고급 압축 설정
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = ZIP/ZIPX 압축 설정
+IDC_AA_ZIP_ALGO                         = 압축 알고리즘
+IDC_AA_ZIP_ENC                          = 암호화 알고리즘
+IDC_AA_ZIP_THREAD                       = CPU 스레드 수
+COMBO_TEXT_THREAD_AUTO                  = 자동
+IDC_CHK_ZIP_STORESYMLINK                = 심볼릭 링크 정보 저장
+IDC_CHK_ZIP_COMMENT                     = 압축 파일 설명 저장
+IDD_AA_7Z                               = 7Z 압축 설정
+IDC_AA_7Z_ALGO                          = 압축 알고리즘
+IDC_AA_7Z_SOLID                         = 솔리드 블록 크기
+IDC_CHK_7Z_ENC_FILENAMES                = 파일명 암호화
+IDD_AA_TAR                              = TAR 포맷 설정
+IDC_CHK_TAR_SYMLINK                     = 심볼릭 링크 정보 저장
+IDC_CHK_TAR_HARDLINK                    = 하드 링크 정보 저장
+COMBO_TEXT_SOLID_NONE                   = 솔리드 사용 안 함
+COMBO_TEXT_SOLID_SOLID                  = 솔리드
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = 암호 설정
+IDC_STATIC_DESC_ARCHIVING               = 압축파일에 사용할 암호를 입력하세요. 충분한 보안을 위해서는 암호는 8자 이상을 사용해야 합니다.
+IDC_STATIC_DESC_MASTERPASS              = 암호 관리자에 사용할 마스터 암호를 입력하세요. 충분한 보안을 위해서는 암호는 8자 이상을 사용해야 합니다.
+IDC_STATIC_DESC_EXTRACT                 = 이 파일은 암호가 걸려 있습니다. 암호를 입력하세요.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = 암호가 틀렸습니다. 암호를 다시 입력하세요.
+IDC_STATIC_PWD                          = 암호 입력
+IDC_STATIC_PWD2                         = 암호 확인
+IDC_BTN_SHOW_PASSWORD                   = 암호 보이기
+IDC_BTN_PASSMAN                         = 암호 관리자...
+IDC_CHECK_APPLY_ALL                     = 모든 압축 파일에 사용(&A)
+IDC_STATIC_PASS_RECOVERY                = 암호를 잊어버리셨나요? 반디집의 암호 복구 기능을 사용해 보세요.
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = 암호 관리자
+TEXT_MSG_CORRUTP_DATA                   = 저장된 암호 데이터가 손상되었습니다.
+TEXT_PASSMAN_WARNING1                   = 마스터 암호를 사용하지 않으면 암호관리 기능의 암호는 평문으로 저장됩니다.
+TEXT_PASSMAN_WARNING2                   = 다른 사람이 접근 가능한 공용 PC에서는 이 기능을 사용하는데 주의하시기 바랍니다.
+LIST_PASS_HEADER1                       = 암호
+LIST_PASS_HEADER2                       = 표시 이름
+IDC_BTN_ADD                             = 추가
+IDC_BTN_DEL                             = 삭제
+IDC_BTN_EDIT                            = 편집
+IDC_BTN_SET_MASTERPASS                  = 마스터 암호 설정...
+IDC_BTN_DEL_MASTERPASS                  = 마스터 암호 삭제
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = 마스터 암호 입력
+IDC_STATIC_MASTPASS_MSG                 = 암호 관리자에 접근하기 위한 마스터 암호를 입력하세요. '초기화' 버튼을 누르면 시스템에 저장된 모든 암호 정보가 삭제됩니다.
+IDC_BTN_INITPASSMAN                     = 초기화
+TEXT_ASK_INIT_PASSMAN                   = 모든 암호 정보를 삭제하시겠습니까?
+IDC_BTN_SHOW_PASSWORD                   = 암호 보이기
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = 암호 정보
+IDC_STATIC_PASSWORD                     = 암호
+IDC_STATIC_DISPNAME                     = 표시 이름(선택 사항)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = 파일 선택
+IDC_BTN_OPEN                            = 열기
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = 압축하기
+TEXT_ARCHIVE_TESTING                    = 테스트
+IDC_BTN_STOP                            = 중지
+IDC_BTN_CLOSE                           = 닫기
+IDC_BTN_PAUSE                           = 일시 정지
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = 중복 확인
+IDC_STATIC_DUPE_MESSAGE                 = 이미 같은 이름의 파일이 존재합니다.
+IDC_STATIC_DUPEFILE_OLD                 = 기존 파일
+IDC_STATIC_DUPEFILE_NEW                 = 압축할 파일
+IDC_STATIC_DUPE_ASK                     = 어떤 작업을 하시겠습니까?
+IDC_RADIO_DUPE_METHOD0                  = 건너뛰기(&1)
+IDC_RADIO_DUPE_METHOD1                  = 덮어쓰기(&2)
+IDC_RADIO_DUPE_METHOD2                  = (&3)
+IDC_CHECK_DUPE_APPLY_ALL                = 모든 파일에 적용(&A)
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = 작업 선택
+IDC_STATIC_ASK_HANDLING                 = 원하는 작업을 선택하세요.
+IDC_RADIO_HANDLE_METHOD0                = 압축 파일 열기(&1)
+IDC_RADIO_HANDLE_METHOD1                = 새로 압축하기(&2)
+IDC_RADIO_HANDLE_METHOD2                = 현재 파일에 추가하기(&3)
+IDC_CHK_PASS                            = 암호 사용
+IDC_STATIC_PASSWORD_AGAIN               = 암호 확인
+IDC_CHK_SHOW_PASS                       = 암호 보이기
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = 환경 설정
+IDC_BTN_INIT                            = 초기화
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = 일반 설정
+IDC_CHK_EXIT_WITH_ESC                   = ESC 키로 프로그램 종료
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = 압축 파일 수정(추가/삭제/이름 변경)할 때 매번 파일 검사하기
+IDC_CHK_SNAP                            = 자석 기능 사용
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = 파일 목록에 .. 폴더 보이기
+IDC_CHK_SHOW_GRID_AT_LIST               = 파일 목록에 눈금선 보이기
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = 파일 목록 창에 전체 행 선택 기능 사용
+IDC_CHK_ONE_CLICK_ACTIVATE              = 한번 클릭해서 열기
+IDC_STATIC_UPDATE                       = 업데이트 설정
+TEXT_UPDATE_0                           = 최신 버전 업데이트 알림 및 설치
+TEXT_UPDATE_1                           = 안정 버전만 업데이트 알림 및 설치
+TEXT_UPDATE_2                           = 업데이트 확인 안 함
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = 파일 연결 확장자 목록
+IDC_BTN_SELECT_MANDATORY                = 필수 파일 선택
+IDC_BTN_SELECT_ALL                      = 전부 선택
+IDC_BTN_CLEAR_ALL                       = 선택 안 함
+IDC_BTN_APPLY_NOW                       = 지금 적용
+IDC_STATIC_ICON_PACK                    = 아이콘팩 선택:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [아이콘팩 내려받기]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows 기본 프로그램 설정
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = 확장자 연결하기
+;IDC_STATIC_ASSOC_DESC1                 = Windows 8은 다음과 같은 방법으로 파일을 연결하셔야 합니다.
+;IDC_STATIC_ASSOC_DESC2                 = 1. 아래의 "프로그램 연결 설정" 버튼 클릭
+;IDC_STATIC_ASSOC_DESC3                 = 2. 프로그램 연결 설정창에서 "모두 선택"을 체크
+;IDC_STATIC_ASSOC_DESC4                 = 3. "저장"버튼을 클릭하면 파일 연결이 완료됩니다.
+;IDC_STATIC_ASSOC_DESC1_10              = Windows10 이후의 OS에서는 다음과 같은 방법으로 파일을 연결하셔야 합니다.
+;IDC_STATIC_ASSOC_DESC2_10              = 1. 아래의 "프로그램 연결 설정" 버튼 클릭
+;IDC_STATIC_ASSOC_DESC3_10              = 2. 기본 프로그램 설정창에서 "반디집" 선택
+;IDC_STATIC_ASSOC_DESC4_10              = 3. "이 프로그램을 기본 프로그램으로 설정"을 클릭하면 설정이 완료됩니다.
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = 프로그램 연결 설정
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = 이전 방식 연결 설정
+LIST_COLUMN0                            = 확장자
+LIST_COLUMN1                            = 연결된 프로그램
+IDC_BTN_CHANGE                          = 변경
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = 압축 파일을 더블 클릭할 때 동작 설정
+IDC_RADIO_SHELL_OPEN_0                  = 반디집으로 열기
+IDC_RADIO_SHELL_OPEN_1                  = 압축 파일이 있는 폴더에 알아서 풀기
+IDC_RADIO_SHELL_OPEN_2                  = 팝업 메뉴로 선택
+IDC_RADIO_SHELL_OPEN_3                  = 지정된 폴더에 알아서 풀기
+IDC_BTN_SET_EXTRACT_FOLDER              = 폴더 지정
+IDC_RADIO_SHELL_OPEN_4                  = 압축 파일명 폴더에 풀기
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = 더블 클릭으로 압축 해제 성공 후 압축 파일 삭제
+
+IDC_STATIC_SHELL_EXTRACT                = 압축 파일 선택할 때
+IDC_CHK_SHELL_EXTRACT_HERE              = 여기에 풀기
+IDC_CHK_SHELL_EXTRACT_AUTO              = 알아서 풀기
+IDC_CHK_SHELL_EXTRACT_SUB               = 하위 폴더(파일명 폴더)에 풀기
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = 여기에 풀고 삭제하기
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = 알아서 풀고 삭제하기
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = 하위 폴더(파일명 폴더)에 풀고 삭제하기
+IDC_CHK_SHELL_EXTRACT_DLG               = 반디집으로 압축 풀기...
+IDC_CHK_SHELL_EXTRACT_ADMIN             = 관리자 권한으로 압축 풀기
+IDC_CHK_SHELL_TEST_ARCHIVE              = 압축 파일 테스트
+IDC_CHK_SHELL_OPEN_ARCHIVE              = 반디집으로 열기
+IDC_CHK_SHELL_PREVIEW                   = 압축 파일 내용 미리 보기
+IDC_STATIC_SHELL_PREVIEW_SIZE           = 미리 보기 파일 개수:
+IDC_CHK_SHELL_PREVIEW_TREE              = 트리 형태로 보여주기
+
+IDC_STATIC_SHELL_ARCHIVING              = 압축하기
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = ""파일명.zip"으로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = ""파일명.zip"으로 압축하고 원본 삭제"
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = ""파일명.zip"으로 압축해서 이메일로 보내기"
+IDC_CHK_SHELL_ADD_TO_ZIP                = ""파일명.zip"에 추가하기"
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = ""파일명.zipx"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_EXE             = ""파일명.exe"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_TAR             = ""파일명.tar"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_TGZ             = ""파일명.tgz"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_LZH             = ""파일명.lzh"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_ISO             = ""파일명.iso"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_7Z              = ""파일명.7z"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_GZ              = ""파일명.gz"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_XZ              = ""파일명.xz"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = ""파일명.zpaq"로 압축하기"
+IDC_CHK_SHELL_ARCHIVING_EACH            = 각각의 "파일명.zip" 혹은 "폴더명.zip"으로 압축하기
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = 각각의 "파일명.7z" 혹은 "폴더명.7z"으로 압축하기
+IDC_CHK_SHELL_ARCHIVING_POPUP           = 반디집으로 압축하기
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = 관리자 권한으로 압축하기
+IDC_CHK_SHELL_ARCHIVING_RULE            = 파일명에 규칙을 넣어 압축하기
+IDC_STATIC_FILENAME_RULE_HELP           = ${NAME}:파일명 %Y:Year, %m:Month, %d:Day, %H:Hour, %M:Minute, %S:Second
+
+IDC_STATIC_SHELL_BKGND                  = 폴더 바닥 선택할 때
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = 새 폴더 만들기
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = 명령 창(cmd) 열기 (Shift 키를 누르면 관리자 권한으로 실행 가능)
+
+IDC_STATIC_SHELL_ETC                    = 기타
+IDC_CHK_SHELL_DO_NOT_USE                = 탐색기 메뉴 사용 안 함
+IDC_CHK_SHELL_AS_SUB_MENU               = 탐색기 메뉴를 계단식으로 보여주기
+IDC_CHK_SHELL_HIDE_ICON                 = 메뉴의 아이콘 숨기기
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = 파일 확장자에 상관없이 파일 내용으로 압축 파일 여부 판단
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = 압축된 파일도 압축하기 메뉴 표시
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = 여러 개의 폴더/파일 압축할 때 "현재 폴더명.zip" 대신 "선택된 폴더/파일명.zip" 사용
+IDC_CHK_SHELL_USE_DROP_HANDLER          = 탐색기에서 파일을 드래그&&드롭으로 바로 ZIP 파일에 추가
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = 압축 풀기 설정
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = 파일을 열었을 때 루트 폴더가 하나만 있으면 폴더 안의 내용을 보여주기
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = 압축 풀기 완료 후 대상 폴더 열기
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = 압축 풀기 완료 후 창을 닫지 않기
+IDC_CHK_FAST_DRAG_DROP                  = 드래그&&드롭으로 압축 풀 파일의 크기가 크면 "빠른 드래그&&드롭" 기능 사용
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = TGZ, TBZ 파일을 한 번에 열고 풀기
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = TGZ, TBZ 파일의 용량이 클 때도 한 번에 처리
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = ""알아서 풀기"사용할 때 파일이 하나일 경우도 하위 폴더에 풀기"
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = 맥에서 압축한 파일일 경우 코드페이지 자동 인식
+IDC_CHK_UNIXZIP_AS_UTF8                 = 유닉스에서 압축한 ZIP 파일의 코드페이지를 UTF8으로 처리
+IDC_CHK_PARALLEL_EXT                    = 지원하는 포맷인 경우 병렬 압축 해제 사용
+IDC_STATIC_CODEPAGE                     = 프로그램 시작할 때 기본 코드페이지
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = 더블 클릭으로 실행할 때 다음 파일 종류는 모두 풀고 실행
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = 압축 설정
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = 탐색기에서 폴더 하나만 압축할 때 최상위 폴더 이름을 저장하지 않기
+IDC_CHK_USE_UTF8_COMPRESS               = ZIP으로 압축할 때 파일명을 유니코드(UTF-8)로 저장
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = ZIP으로 압축할 때 유니코드(UTF-8) 파일명을 확장 필드에 저장
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = TAR/TGZ로 압축할 때 파일명을 유니코드(UTF-8)로 저장
+IDC_CHK_FORCE_ZIP64                     = 압축할 때 파일이 2GB를 넘지 않아도 무조건 ZIP64 포맷 사용
+IDC_CHK_EXCLUDE_THUMBSDB                = Thumbs.db와 같은 파일은 압축할 때 제외하기
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = ZIP으로 압축할 때 NTFS 파일시간 정보 저장
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = 고속 아카이빙 기능 사용
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = 압축 작업 완료 후 창을 닫지 않기
+IDC_STATIC_COMPRESSION_METHOD           = 압축 방법
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = 압축 후 압축 파일 테스트
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = ""새로 압축"시 마지막으로 사용한 폴더 사용"
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = ""새로 압축"시 사용할 기본 폴더 지정"
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = 지정
+IDC_CHK_EXCLUDE_FILTER                  = 압축할 때 다음 파일은 제외
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = 보기 설정
+IDC_CHK_SHOW_PREVIEW                    = 이미지 파일 미리 보기 사용
+IDC_CHK_SHOW_FOLDER_SIZE                = 폴더의 압축/원본 크기 보여주기
+IDC_CHK_SET_LISTCONTROL_FONT            = 파일 목록의 글꼴 변경하기
+IDC_BTN_SET_FONT                        = 글꼴 설정...
+
+IDC_STATIC_SETTING_VIEWITEM             = 칼럼 설정
+IDC_CHK_VIEWITEM_COMPSIZE               = 압축 크기
+IDC_CHK_VIEWITEM_ORIGSIZE               = 원본 크기
+IDC_CHK_VIEWITEM_KIND                   = 파일 종류
+IDC_CHK_VIEWITEM_DATE_MOD               = 수정한 날짜
+IDC_CHK_VIEWITEM_COMPMETHOD             = 압축 방식
+IDC_CHK_VIEWITEM_ENCRMETHOD             = 암호 방식
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = 속성
+IDC_CHK_VIEWITEM_COMMENT                = 파일 설명
+IDC_CHK_VIEWITEM_EXT                    = 부가 정보
+
+IDC_STATIC_IMAGE_VIEWER                 = 이미지 파일 뷰어
+IDC_RADIO_IMAGE_VIEWER_0                = 내장 뷰어 사용
+IDC_RADIO_IMAGE_VIEWER_1                = 연결된 프로그램
+IDC_RADIO_IMAGE_VIEWER_2                = 꿀뷰가 설치된 경우 꿀뷰 사용
+
+IDC_STATIC_EDITOR                       = 편집기
+IDC_BTN_SET_EDITOR_PATH                 = 지정
+
+IDC_STATIC_COLOR                        = 색상
+IDC_STATIC_COLOR_THEME                  = 테마 색상
+IDC_BTN_BKGND                           = 선택
+IDC_STATIC_COLOR_TEXT                   = 글자 색상
+IDC_STATIC_COLOR_TEXT_AUTO              = 자동
+IDC_STATIC_COLOR_TEXT_WHITE             = 흰색
+IDC_STATIC_COLOR_TEXT_BLACK             = 검은색
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = 보안 설정
+IDC_CHK_COPY_ZONE_IDENTIFIER            = 인터넷에서 다운로드한 파일의 Zone.Identifier 정보를 압축 푼 파일에도 복사하기
+IDC_CHK_AMSI_BEFORE_EXTRACT             = 압축 해제 전 악성코드 검사하기
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = 환경 설정 내보내기
+IDC_STATIC_ETC                          = 고급 설정
+IDC_CHK_SET_TEMP_FOLDER                 = 임시 폴더 지정
+IDC_BTN_SET_TEMP_FOLDER                 = 지정
+IDC_CHK_SET_USER_ARCHIVE_EXT            = 다음 확장자를 압축 파일로 인식하기
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = 자식 프로세스 종료 시 임시 폴더에 푼 파일 삭제
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = 압축 파일 삭제 시 휴지통 사용하기
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = 최근 열어본 압축 파일 목록 보여주기
+IDC_CHK_USE_LONG_PATH_NAME              = 260자 이상의 긴 파일 경로명 사용하기
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = 압축 파일을 열 때 탐색기에서 삭제 가능한 상태로 열기
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = 트리 컨트롤 선택 시 하위 폴더 아이템을 자동으로 펼치기
+IDC_CHK_USE_MODAL_DIALOG                = 압축하거나 풀 때 모달 다이얼로그 박스 사용하기
+IDC_CHK_USE_ELEGANT_UI                  = 미려한 UI 사용하기
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = 프로그램 시작 시 시작 화면 보여주기
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = 제목 표시줄에 전체 경로 표시
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = 압축 해제 중 사용자가 취소하면 출력 파일 삭제하기
+IDC_CHK_COPY_ZONE_IDENTIFIER            = 인터넷에서 다운로드한 파일의 Zone.Identifier 정보를 압축 푼 파일에도 복사하기
+IDC_CHK_USE_SET_END_OF_FILE             = 압축을 풀기 전 출력 파일의 크기를 미리 확보하고 압축 풀기
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = 압축할 때 다른 프로세스가 사용 중인 파일도 압축하기
+IDC_CHK_DO_NOT_USE_RICHEDIT             = 리치에디트 컨트롤 사용 안하기
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = 언어 설정
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = 이 프로그램의 번역에 참여하고 싶으신가요? 여기를 클릭하세요...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX 설정
+IDC_STATIC_TARGET_PATH                  = 압축 풀 폴더:
+IDC_STATIC_TITLE                        = 제목:
+IDC_STATIC_RUN                          = 압축 풀기 후 실행:
+IDC_STATIC_MESSAGE                      = 메시지:
+IDC_CHK_AUTO_CLOSE                      = 압축 풀기 성공 후 창 닫기
+IDC_BTN_SAVE_SFX_SETTING                = 현재 설정을 기본 설정으로
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = 파일 찾기
+IDC_STATIC_FIND                         = 검색할 파일명(&F)
+IDC_BTN_CLOSE                           = 닫기
+IDC_BTN_DELETE                          = 삭제
+IDC_BTN_EXTRACT                         = 압축 풀기
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = 압축 파일 설명
+IDC_STATIC_COMMENT                      = 압축 파일에 저장될 설명 문구입니다.
+IDC_CHK_USE_UTF8                        = 유니코드(UTF-8) 포맷으로 저장
+IDC_BTN_LOAD_FROM_FILE                  = 문서 파일에서 설명 내용 불러오기
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = 경고
+IDC_STATIC_WARN_EXECUTABLE              = 이 파일은 실행파일이며, 실행할 경우 컴퓨터가 손상될 수 있습니다. 그래도 실행하시겠습니까?
+IDC_CHK_DO_NOT_ASK_AGAIN                = 다시 묻지 않음
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = 제품 등록
+IDC_STATIC_DESC1                        = 이메일 주소와 제품 구매 후 발송된 제품 키를 입력해 주세요.
+IDC_STATIC_EMAIL                        = 이메일 주소
+IDC_STATIC_PRDUCT_KEY                   = 제품 키
+IDC_BTN_REGISTER                        = 등록하기
+IDC_STATIC_BUYNOW                       = 제품을 아직 구매하지 않으셨나요? [구매하기]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = 라이선스 안내
+TEXT_LIMIT_PASSMAN                      = 반디집 무료 에디션은 암호 관리자에 1개의 암호만 저장할 수 있습니다.
+TEXT_SHOW_AD                            = 반디집 무료 에디션은 광고가 표시되며, 유료 에디션을 구매하시면 광고가 표시되지 않습니다.
+TEXT_CANNOT_CHANGE                      = 반디집 무료 에디션은 이 기능을 변경할 수 없으며, 유료 에디션을 구매하시면 변경이 가능합니다.
+TEXT_CANNOT_USE                         = 반디집 무료 에디션은 이 기능을 사용할 수 없으며, 유료 에디션을 구매하시면 사용이 가능합니다.
+TEXT_PORTABLE_NOTICE                    = 반디집 포터블 에디션은 이 기능을 사용할 수 없으며, 유료 에디션을 구매하시면 사용이 가능합니다.
+IDC_STATIC_COMPARISON                   = 반디집 무료 에디션과 유료 에디션의 차이점
+IDC_STATIC_HOWTOREGISTER                = 제품을 이미 구매하셨나요? [제품 등록 방법]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = 압축 파일 복구
+IDC_STATIC_SRC                          = 복구할 파일(.ZIP)
+IDC_STATIC_DST                          = 복구된 파일
+IDC_BTN_START                           = 복구 시작
+IDC_BTN_TEST                            = 복구 테스트
+IDC_BTN_STOP                            = 중지
+TEXT_NOTICE                             = 손상된 ZIP 파일을 선택 후 '복구 시작' 버튼을 클릭하세요.
+TEXT_ERR_OCCURRED                       = 오류가 발생하였습니다.
+TEXT_ERR_NOT_A_ZIP                      = 이 파일은 ZIP 포맷이 아닙니다. 현재 ZIP 포맷의 복구만 지원합니다.
+TEXT_ERR_NO_INFO                        = 이 파일에서 복구할 데이터를 찾지 못했습니다.
+TEXT_MSG_START                          = 작업을 시작합니다.
+TEXT_MSG_FINISH                         = 작업이 완료되었습니다.
+TEXT_MSG_ANALYZING                      = 분석 중...
+TEXT_MSG_CANCELED                       = 작업이 취소되었습니다.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = 압축 파일(ZIP)을 먼저 선택해 주세요.
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = 시스템에 반디집이 여러개 설치되었습니다. 제품의 충돌을 방지하고 원활한 사용을 위하여 설치된 반디집중 하나를 삭제해 주세요.
+CMD_UNINST_MSSTORE                      = 반디집 MSE 삭제
+CMD_UNINST_PROGFILES                    = 반디집 삭제
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = 열기
+$TOOLBAR_CLOSE_FILE                     = 닫기
+$TOOLBAR_EXTRACT_FILE                   = 풀기
+$TOOLBAR_CREATE_ARCHIVE                 = 새로 압축
+$TOOLBAR_DELETE_FILE                    = 파일 삭제
+$TOOLBAR_ADD_FILE                       = 파일 추가
+$TOOLBAR_TEST_ARCHIVE                   = 테스트
+$TOOLBAR_CODEPAGE                       = 코드페이지
+$TOOLBAR_VIEWITEM                       = 칼럼 설정
+$TOOLBAR_SCAN                           = 스캔
+
+$TOOLBAR_OPEN2                          = 압축 파일 열기
+$TOOLBAR_CREATE_ARCHIVE2                = 새로 압축하기
+
+$TEXT_DESKTOP                           = 바탕 화면
+$TEXT_DOCUMENT                          = 문서
+$TEXT_PICTURE                           = 사진
+$TEXT_COMPUTER                          = 컴퓨터
+
+$TEXT_SETTINGTAB_GENERAL                = 일반 설정
+$TEXT_SETTINGTAB_ASSOC                  = 파일 연결
+$TEXT_SETTINGTAB_SHELL                  = 탐색기 메뉴
+$TEXT_SETTINGTAB_EXTRACT                = 압축 풀기
+$TEXT_SETTINGTAB_ARCHIVE                = 압축하기
+$TEXT_SETTINGTAB_VIEWER                 = 보기/편집
+$TEXT_SETTINGTAB_SECURITY               = 보안 설정
+$TEXT_SETTINGTAB_ETC                    = 고급 설정
+$TEXT_SETTINGTAB_LANG                   = 언어 설정
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = 대상 폴더 열기
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = 압축 파일이 있는 폴더 열기
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = 완료 후 대상 폴더 열기
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = 압축 파일이 있는 폴더 열기
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = 압축 푼 폴더 열기
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = 압축 풀기 완료 후 창을 닫지 않기
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = 압축 작업 완료 후 창을 닫지 않기
+$TOOLTIP_ADVANCED_MENU                  = 고급 설정
+$TOOLTIP_REGISTER                       = 제품 등록
+$TOOLTIP_UPDATE                         = 업데이트
+$TOOLTIP_PREVIEW                        = 큰 미리보기를 사용합니다.
+$TOOLTIP_REPORT                         = 자세히 보기를 사용합니다.
+
+$TEXT_INSTALL_START                     = 설치
+$TEXT_INSTALL_CLOSE                     = 닫기
+$TEXT_INSTALL_HONEYVIEW_LINK            = [자세히]
+
+$TEXT_HELP_PAGE                         = 반디집 도움말 페이지
+$TEXT_AD                                = 광고
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = 반디집 압축 파일 암호 복구
+TEXT_MSG_OPENING                        = 파일 열기: ${str1}
+TEXT_MSG_CANCELED                       = 파일을 여는 도중에 취소했습니다.
+TEXT_MSG_BROKEN                         = 이 파일은 손상된 압축 파일입니다.
+TEXT_MSG_NO_PASSWD                      = 암호가 설정되어 있지 않은 압축 파일을 선택했습니다.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = 이 파일은 압축파일 헤더에 암호가 걸린 파일이며, 이러한 형태의 압축파일은 아직 지원하지 않습니다.
+TEXT_MSG_OPEN_FIRST                     = 압축 파일을 먼저 열어 주세요.
+TEXT_MSG_CANT_OPEN                      = 파일을 열 수 없습니다. (Code:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = 검색할 문자 유형을 선택해 주세요.
+TEXT_MSG_INIT_FAIL                      = 초기화에 실패했습니다.
+TEXT_MSG_NOT_FOUND                      = 암호를 찾지 못했습니다. 무료 버전은 4자리 암호까지만 복구가 가능합니다.
+TEXT_MSG_FILE2FINDPWD                   = 암호 찾기를 수행할 파일: ${str1}
+TEXT_MSG_ERRORATFINDINDEX               = 암호 찾기를 수행할 파일을 찾지 못했습니다.
+TEXT_MSG_COPY2CLIPBOARD                 = 클립보드로 복사하였습니다.
+TEXT_STATE_MSG_READY                    = 시작 버튼을 누르면 복구 작업이 시작됩니다.
+TEXT_STATE_MSG_WORKING                  = 암호를 찾고 있습니다.
+TEXT_STATE_MSG_PAUSING                  = 일시 정지했습니다.
+TEXT_STATE_MSG_STOPPING                 = 취소하는 중입니다.
+TEXT_STATE_MSG_FOUND                    = ${str1}초(${str2}) 만에 ${num1}글자로 구성된 압축 파일의 암호를 찾았습니다.
+TEXT_ASK_EXIT                           = 종료하시겠습니까?
+TEXT_COMBO_THREAD_AUTO                  = 자동
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = 환경 설정
+IDC_STATIC_MULTI_CORE                   = 멀티코어
+IDC_STATIC_MULTI_CORE_DESC              = 복구 작업에 몇 개의 스레드를 사용할지를 지정합니다.[br]가급적 '자동' 혹은 시스템에 설치된 CPU 코어의 개수보다 작은 값을 지정하시기 바랍니다.
+IDC_STATIC_PREP_POSTP                   = 암호 찾기 설정
+IDC_STATIC_PREP                         = 전치사
+IDC_STATIC_PREP_DESC                    = 앞에 항상 이 단어를 추가해서 검사합니다.[br]예) http://www.
+IDC_STATIC_SPECIFY                      = 글자 지정하기
+IDC_STATIC_ETC                          = 기타 설정
+IDC_CHK_USE_SIGNATURE_BY_EXT            = 파일의 확장자를 이용하여 보다 빠르게 검사합니다.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = 파일 열기
+$STEP_2                                 = 파일 확인
+$STEP_3                                 = 복구 설정
+$STEP_4                                 = 복구 시작
+$STEP_5                                 = 작업 완료
+$FILE_PATH_NAME                         = 복구 파일
+$BTN_NEXT_PAGE                          = 다음 >
+$BTN_PREV_PAGE                          = < 이전
+$BTN_OK                                 = 확인
+$BUTTON_BUY_NOW                         = 반디집 프로페셔널 구매하기
+$STATIC_OPEN_DESC                       = 암호가 설정되어 있는 압축파일을 프로그램 위로 끌어다 놓거나<br>압축 파일 열기 버튼을 눌러 파일을 열어주시기 바랍니다.
+$STATIC_PRICE_DESC1                     = 압축파일 암호복구 이용 안내
+$STATIC_PRICE_DESC2                     = 압축 파일 암호 복구 기능은 반디집 프로페셔널 에디션에서만 사용할 수 있는 기능이며, 반디집 무료 에디션은 4자리 암호에 대해서만 복구가 가능합니다.
+$STATIC_FILELIST_DESC                   = 이 압축파일에는 다음과 같은 파일이 포함되어 있습니다. 내용 확인 후 '다음' 버튼을 누르세요.
+$FILELIST_HEADER_NAME                   = 파일명
+$FILELIST_HEADER_SIZE                   = 파일 크기
+$FILELIST_HEADER_DATE                   = 날짜
+$FILELIST_HEADER_METHOD                 = 압축 방식
+$FILELIST_HEADER_PWMETHOD               = 암호 방식
+$STATIC_SYMBOL_DESC                     = 암호 검색에 사용하게 될 기호들을 선택하고 '다음' 버튼을 누르세요.<br>암호 검색에 사용하는 기호가 많아질수록 검색에 걸리는 시간이 늘어나게 됩니다.
+$STATIC_CUR_PASSWORD                    = 검색 중인 암호
+$STATIC_CUR_PASSLEN                     = 처리 중인 글자 수
+$STATIC_ELAPSED                         = 경과 시간
+$STATIC_SPEED                           = 처리 속도
+$STATIC_CLIPBOARD_DESC                  = 확인된 암호를 클립보드로 복사한 후 붙여 넣기 하세요.
+$BUTTON_STOP                            = 중지
+$BUTTON_START                           = 시작
+$IDC_BTN_PAUSE                          = 일시 정지
+$IDC_BTN_UNPAUSE                        = 다시 시작
+$IDC_BTN_OPEN                           = 압축 파일 열기
+$IDC_BTN_SETTING                        = 고급 설정
+$IDC_BTN_COPY2CLIPBOARD                 = 암호 복사
+$IDC_BTN_CANCEL_PAYMENT                 = 초기화
+$BUTTON_HELP_PAGE                       = 예상시간 도움말
+$CHECK_SYMBOL_NUM                       = 숫자(0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = 소문자(abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = 대문자(ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = 특수문자(!@#$...)
+$CHECK_SYMBOL_SPACE                     = 공백(Space)
+$CHECK_SYMBOL_ALL                       = 전부
+$CHECK_SYMBOL_SPECIFIED                 = 지정된 글자
+$FOUNDED_PASSWORD                       = 확인된 암호
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = 새 폴더
+
+TEXT_MENU_CREATE_NEW_FOLDER             = 새 폴더(&N)
+TEXT_MENU_SUB_MENU                      = 반디집(&G)
+TEXT_MENU_OPEN_ARCHIVE                  = 반디집으로 열기
+TEXT_MENU_TEST_ARCHIVE                  = 압축 파일 테스트(&T)
+TEXT_MENU_LAUNCH_CMD                    = 명령 창 열기(&C)
+TEXT_MENU_LAUNCH_CMD_ADMIN              = 명령 창 열기(Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = 각각 파일명/폴더명으로 압축하기(&U)
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = 각각 파일명.7z/폴더명.7z로 압축하기
+TEXT_MENU_ARCHIVE_ZIP                   = ${str1}으로 압축하기(&Q)
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = ${str1}으로 압축하고 원본 삭제
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = ${str1}으로 압축해서 이메일 보내기(&I)...
+TEXT_MENU_ADD_TO_ZIP                    = ${str1}에 추가하기
+TEXT_MENU_ARCHIVE_ZIPX                  = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_EXE                   = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_TAR                   = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_TGZ                   = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_LZH                   = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_ISO                   = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_7ZFMT                 = ${str1}로 압축하기(&7)
+TEXT_MENU_ARCHIVE_GZ                    = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_XZ                    = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_ZPAQ                  = ${str1}로 압축하기
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = 각각 파일명.gz로 압축하기
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = 각각 파일명.xz로 압축하기
+TEXT_MENU_ARCHIVE_RULE                  = ${str1}로 압축하기(&U)
+TEXT_MENU_ARCHIVE_POPUP                 = 반디집으로 압축하기(&L)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = 관리자 권한으로 압축하기(&Y)
+
+TEXT_MENU_EXTRACT_HERE                  = 여기에 풀기(&X)
+TEXT_MENU_EXTRACT_AUTO                  = 알아서 풀기(&Z)
+TEXT_MENU_EXTRACT_AUTO_EACH             = 각각 알아서 풀기(&Z)
+TEXT_MENU_EXTRACT_SUB                   = 각각 파일명 폴더에 풀기(&E)
+TEXT_MENU_EXTRACT_ARCHIVENAME           = ${str1}\ 에 풀기(&E)
+TEXT_MENU_EXTRACT_DLG                   = 반디집으로 압축 풀기(&B)...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = 관리자 권한으로 압축 풀기
+TEXT_MENU_EXTRACT_HERE_DEL              = 여기에 풀고 삭제하기
+TEXT_MENU_EXTRACT_AUTO_DEL              = 알아서 풀고 삭제하기(&E)
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = 각각 알아서 풀고 삭제하기
+TEXT_MENU_EXTRACT_SUB_DEL               = 각각 파일명 폴더에 풀고 삭제하기
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = ${str1}\ 에 풀고 삭제하기
+
+TEXT_MENU_PREVIEW                       = 압축 파일 미리 보기
+TEXT_MENU_PREVIEW_BROKEN                = 압축 파일이 아니거나[br]손상된 파일입니다.
+TEXT_MENU_PREVIEW_TIMEOUT               = 목록을 가져오던 중[br]시간이 초과하였습니다.
+TEXT_MENU_PREVIEW_EMPTY                 = 빈 압축 파일입니다.
+TEXT_MENU_PREVIEW_ENCRYPTED             = 파일명에 암호가 걸린 압축 파일입니다.
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = 프로그램이 업데이트되어서[br]미리 보기 기능을 사용할 수[br]없습니다.[br][br]탐색기를 다시 시작하거나[br]시스템 재부팅이 필요합니다.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = 파일 목록을 읽어올 수 없습니다.
+
+TEXT_MENU_OPENING                       = 파일 여는 중...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = 반디집 업데이트
+TEXT_UPDATER_TEXT1                      = 반디집을 최신 버전으로 업데이트할 수 있습니다.
+TEXT_UPDATER_TEXT_DL                    = 업데이트를 시작하시겠습니까?
+TEXT_UPDATER_BTN_UPDATE                 = 업데이트
+TEXT_UPDATER_BTN_OK                     = 확인
+TEXT_UPDATER_BTN_CANCEL                 = 취소
+TEXT_UPDATER_DOWNLOAD_ERROR             = 설치 파일을 내려받을 수 없습니다.
+TEXT_UPDATER_SETTING_UPDATE             = 업데이트 설정
+TEXT_UPDATER_SETTING_SKIPTHIS           = 이 버전은 업데이트 안 함
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = 압축 풀기 경로
+BTN_SELECT_FOLDER                       = 폴더 선택
+BTN_EXTRACT                             = 압축 풀기
+BTN_CLOSE                               = 닫기
+BTN_CANCEL                              = 취소
+BTN_OPEN_FOLDER                         = 열기
+CHK_OVERWRITE                           = 덮어쓰기
+ERR_ERROR_OCCURRED                      = 압축 풀기 중 오류가 발생하였습니다.
+ERR_INVALID_PASSWORD                    = 암호가 틀립니다.
+ASK_OVERWRITE                           = 같은 이름의 파일이 이미 있습니다. 덮어 씌우시겠습니까?
+MSG_COMPLETED                           = 압축 풀기를 완료하였습니다.
+IDD_PASSWORD                            = 암호 입력
+IDC_STATIC_PASSWORD_MSG                 = 이 파일은 암호가 걸려 있습니다.
+IDC_BTN_SHOW_PASSWORD                   = 암호 보이기
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = 압축을 풀 수 없습니다.
+TEXT_ERR_CRC                            = 파일이 손상되었습니다.
+TEXT_ERR_INVALID_PASSWD                 = 암호가 틀립니다.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = 반디집 ${APPVERSION} 설치
+$UNINSTALL_TITLE                        = ${APPNAME} ${APPVERSION} 제거
+$UNINSTALL_STATIC                       = ${APPNAME}을 제거하시겠습니까?
+
+$BTN_CLOSE                              = 닫기
+$BTN_CANCEL                             = 취소
+$BTN_INSTALL                            = 동의 및 설치
+$BTN_UNINSTALL                          = 제거
+$BTN_OPEN_LICENSE                       = [약관 전문]
+$BTN_HELP_LINK                          = [도움말]
+
+$TEXT_PATH                              = 설치 폴더
+$TEXT_INSTALL_STATIC                    = 설치 중...
+$TEXT_INST_COMPLETED                    = 설치 완료
+$TEXT_INST_FAILED                       = 설치 실패
+$TEXT_UNINSTALLING                      = 제거 중...
+
+$CHK_AUTO_REPORT                        = 사용 통계 및 오류 보고서를 자동으로 전송합니다.
+$EMAIL                                  = 이메일 주소
+$PRODUCT_KEY                            = 제품 키
+
+ERR_CANT_CREATE_FOLDER                  = 폴더 생성 실패: ${str1}
+ERR_CANT_OPEN_FILE                      = 파일 열기 실패: ${str1}
+ERR_CANT_WRITE_FILE                     = 파일 쓰기 실패: ${str1}
+ERR_BROKEN_ARCHIVE                      = 압축 파일이 손상되었습니다. : ${str1}
+ERR_CRC_ERROR                           = CRC 오류: ${str1}
+ERR_NOT_ENOUGH_MEM                      = 메모리 부족: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = 다음 파일을 열 수 없습니다.: [br] "${str1}"[br]'중단'을 눌러 설치를 종료하거나,[br]'다시 시도'를 눌러 다시 시도해 보거나,[br]'무시'를 눌러 이 파일을 건너뛰세요.
+MSG_SUCCESS                             = 설치를 완료하였습니다.
+MSG_DLL_REGISTERING                     = 탐색기 메뉴 등록 중...
+MSG_DLL_UNREGISTERING                   = 탐색기 메뉴 제거 중...
+MSG_ERROR                               = 오류가 발생하였습니다.
+MSG_ERROR_REGISTER                      = 제품 등록 실패
+MSG_SELECT_FOLDER                       = 폴더를 선택하세요...
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME}이 실행 중입니다. 프로그램을 먼저 종료해 주세요.
+MSG_XP_IS_NOT_SUPPORTED                 = 이 프로그램은 Windows XP를 지원하지 않습니다.
+MSG_NEED_ADMIN_PRIVILEGE                = 이 프로그램은 시스템의 관리자 권한(Administrator)을 가진 사용자만이 설치할 수 있습니다.[br][br]관리자 권한이 없으면 정상 설치되지 않습니다.[br][br]설치를 중단하시겠습니까?
+MSG_NEWVERSION_FOUND                    = 최신 버전의 설치 파일이 있습니다. 지금 홈페이지를 방문하시겠습니까?
+SHORTCUT_LINK_DESCRIPTOIN               = ${APPNAME}을 실행합니다.
+MSG_ERR_X86_NOTSUPPORT                  = 이 설치 파일은 32비트(x86) OS를 지원하지 않습니다. 홈페이지에서 설치 파일을 새로 받으시기 바랍니다.
+MSG_ERR_ARM_NOTSUPPORT                  = 이 설치 파일은 ARM64 CPU를 지원하지 않습니다. 홈페이지에서 설치 파일을 새로 받으시기 바랍니다.
+ERR_INST_FAILED                         = 프로그램 설치에 실패했습니다. 컴퓨터를 다시 시작하고 다시 시도해 보시기 바랍니다.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = 버전 체크 실패. 홈페이지에서 오프라인 설치 파일을 다운로드받으세요.
+TEXT_VERSION_CHECKING                   = 버전 체크...
+TEXT_DOWNLOAD_FAILED                    = 내려받기 실패. 홈페이지에서 오프라인 설치 파일을 다운로드받으세요.
+TEXT_DOWNLOAD_COMPLETED                 = 내려받기 완료
+TEXT_HOMEPAGE                           = [홈페이지]
+TEXT_XP                                 = Windows XP는 지원하지 않습니다.
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = 툴바 버튼 설정
+
+

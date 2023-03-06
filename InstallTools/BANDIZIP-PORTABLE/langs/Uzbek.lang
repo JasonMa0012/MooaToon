@@ -1,0 +1,427 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = O'zbek
+TRANSLATORS                             = Muminjon Abduraimov[br]mr.dasturchi@gmail.com
+
+
+[TEXT]
+TEXT_BUILDNO                            = Yaratilgan
+TEXT_FILE                               = Fayl
+TEXT_FOLDER                             = Papka
+TEXT_ARCHIVE_SIZE                       = Arxiv hajmi
+TEXT_ORIGINAL_SIZE                      = Asl hajmi
+TEXT_ARCHIVE_FORMAT                     = Arxiv formati
+TEXT_COMPRESSED_SIZE                    = Siqilgan hajmi
+TEXT_SOLID                              = Toza
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Siqilgan fayl
+TEXT_PORTABLE                           = Ko'chma
+TEXT_NEW_FOLDER                         = Yangi papka
+TEXT_FILESIZE_UNKNOWN                   = Noma'lum
+TEXT_FILEDATE_UNKNOWN                   = Noma'lum
+TEXT_HELP_LINK                          = [Yordam]
+TEXT_APP_DESC                           = Bandizip yengil, tez va barcha arxiv turlarini o'zida jamlovchi arxivator. U eng ko'p tarqalgan va mashxur siqish formatlarini ishlata oladi, misol uchun Zip, 7z, Rar, va boshqalar
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = Bekor qilish
+TEXT_MESSAGEBOX_ABORT                   = Abort qilish
+TEXT_MESSAGEBOX_RETRY                   = Qayta urinish
+TEXT_MESSAGEBOX_IGNORE                  = Bekor qilish
+TEXT_MESSAGEBOX_YES                     = Xa
+TEXT_MESSAGEBOX_NO                      = Yo'q
+TEXT_MESSAGEBOX_CONTINUE                = Davom qilish
+TEXT_MESSAGEBOX_HELP                    = Yordam
+
+TEXT_COLUMN_NAME                        = Ism
+TEXT_COLUMN_COMPSIZE                    = Siqilgan
+TEXT_COLUMN_ORIGSIZE                    = Asl
+TEXT_COLUMN_KIND                        = Toifa
+TEXT_COLUMN_DATE_MOD                    = Tahrirlangan
+TEXT_COLUMN_COMPMETHOD                  = Siqish usuli
+TEXT_COLUMN_ENCRMETHOD                  = Shifrlash usuli
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Xususiyatlar
+TEXT_COLUMN_COMMENT                     = Izoh
+TEXT_COLUMN_PATHNAME                    = Yo'l
+
+TEXT_ICONPACK_NAME                      = Ism
+TEXT_ICONPACK_DESIGNER                  = Dizayner
+TEXT_ICONPACK_COPYRIGHT                 = Mualliflik huquqi
+
+TEXT_ARCHIVE_COLUMN_NAME                = Ism
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Hajm
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Papkaga yo'l
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Umumiy hajm
+
+TEXT_SELECT_ARCHIVE_FILE                = Faylni tanlash
+TEXT_SELECT_TEXT_FILE                   = Faylni tanlash
+TEXT_SELECT_DEST_FOLDER                 = Fayl manzilini tanlang
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Arxiv fayl
+TEXT_REGISTRY_FILE                      = Ro'yxatga olish fayli
+
+TEXT_OPENDLG_ARCHIVEFILES               = Arxiv fayllar
+TEXT_OPENDLG_ARCHIVEFILE                = Arxiv fayl
+TEXT_OPENDLG_ALLFILES                   = Barcha fayllar
+TEXT_OPENDLG_EXEFILES                   = Exe fayllar
+
+TEXT_ABOUTBOX_TAB1                      = Bandizip haqida
+
+TEXT_ASSOC_GROUP0                       = Arxiv fayllar
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Boshqalar
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Bu faylni ochish uchun Bandizip dasturning so'ngi naqlini yuklab oling
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Bo'lingan faylning faqat birinchi qismini tanlang.
+TEXT_OPENERR_CANT_OPEN_FILE             = Faylni ochib bo'lmadi (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Faylni ochib bo'lmadi (${str1}) chunki boshqa fayl undan foydalanmoqda.
+TEXT_OPENERR_GENERAL                    = Faylni ochib bo'lmadi
+TEXT_OPENERR_USER_ABORT                 = Bekor qilindi
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Noma'lum fayl formati (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" arxiv fayl emas"
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Qo'llab-quvvatlanmaydigan fayl format (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Qo'llab-quvvatlanmaydigan shifrlash usuli (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Parolni kiriting
+TEXT_OPENERR_INVALID_PASSWORD           = Parol noto'g'ri
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Faylni ochib bo'lmadi chunki fayl buzilgan
+
+TEXT_ERR_INIT_FAILED                    = Initsializatsiya qilishda muvaffaqiyatsizlik
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Parol xato yoki arxivda fayl mavjud emas
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Parol mos kelmadi
+TEXT_ERR_PASSWORD_NOT_SET               = Parol kiritilishi zarur
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Parolingizda yaroqsiz belgilar mavjud. Faqat harf va belgilar yoki maxsus belgilarni qo'ying.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Yaroqsiz bo'lingan fayl hajmi
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX fayl hajmi 4GB gacha chegaralangan.
+TEXT_ERR_INTERNAL_ERROR                 = Ichki muammo
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Arxiv faylni tahrirlab bo'lmaydi
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Arxiv faylni tahrirlashda xatolik sodir bo'ldi
+TEXT_ERR_INVALID_FOLDER_PATH            = Yaroqsiz papka manzili
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Faqatgina ZIP fayl tahrirlanishi mumkin.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Bo'lingan faylni tahrirlab bo'lmaydi
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = O'z-o'zidan ochiladigan faylni tahrirlab bo'lmaydi
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Buzilgan faylni tahrirlab bo'lmaydi
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Bu arxiv formatni tahrirlab bo'lmadi
+TEXT_ERR_CANT_CHANGE_FILENAME           = Falyning nomini o'zgartirib bo'lmadi
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Quyidagi belgilarni faylni nomida qo'llash mumkin emas ?:\/*<>|""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Bunday fayl/papka mavjud. Fayl nomini o'zgartirib bo'lmaydi (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Papka ochib bo'lmadi
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Arxivlash uchun fayl yo'q
+TEXT_ERR_INVALID_PARAM                  = Yaroqsiz parametr
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Arxivga fayl qo'shib bo'lmaydi.[br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Bu arxivni ochib bo'lmaydi[br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Bunday papka mavjud
+TEXT_ERR_FILENAME_EMPTY                 = Fayl nomi xato
+TEXT_ERR_AT_DRAGANDDROP                 = Tortish va Tashlashda xatolik
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Tortish va Tashlashda xatolik.[br]Bandizip 'Tez Tortish va Tashlash' funksiyasini o'chirib qo'ydi, iltimos qaytadan harakat qiling.
+TEXT_ERR_AT_CANT_OPEN_MMF               = MMF fayli ochilmadi (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Fayl tanlanmadi
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Ikon paketi installyatsiyasi uchun yangi papka ochib bo'lmaydi
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Ikon paketi installyatsiyasi uchun yangi fayl hosil qilib bo'lmaydi
+TEXT_ERR_AT_EXECUTE_DIRECT              = Bu faylni ochib bo'lmaydi. Arxivdan chiqarib qayta urinib ko'ring
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 4GB xajmdan katta fayl hosil qilib bo'lmaydi. Iltimos, boshqa fayl formatini tanlang (ZIP yoki 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = Faylni saqlab bo'lmaydi.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip faylni tahrirlash jaroyinida muammoga duch keldi.(${str1}) [br][br]Bandisoftga muammoni jo'natishni istaysizmi?[br][br]Bu xatoliklarni jo'natish orqali Bandisoft, Bandizipni yaxshilashda qo'llaniladi.
+
+TEXT_MSG_TEST_OK                        = Test jaroyinida xech qanday xatolik topilmadi.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Arxivdan chiqarishda xatolik. (${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Arxivdan chiqarish muvaffaqiyatli amalga oshirildi.
+TEXT_MSG_EXTRACT_CANCELED               = Arxivdan chiqarish to'xtatildi.
+TEXT_MSG_COMPRESS_SUCCESS               = Arxivlash muvaffaqiyatli tugallandi.
+TEXT_MSG_INTERNAL_ERROR                 = Ichki xatolik.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[MENU]
+MENUSTR_FILE                            = &Fayl
+MENUSTR_EDIT                            = &Tahrirlash
+MENUSTR_SETTING                         = &Imkoniyatlar
+MENUSTR_FIND                            = I&zlash
+MENUSTR_VIEW                            = &Ko'rinish
+MENUSTR_HELP                            = &Yordam
+
+MENUSTR_NEW_WINDOW                      = Yangi oyna \Ctrl+Shift+N
+MENUSTR_DELETE_ARCHIVE                  = Arxivni o'chirish \tCtrl+Del
+
+
+
+
+
+
+POPUPMENU_VIEWITEM_ATTRIB               = Fayl Attributlari
+POPUPMENU_VIEWITEM_COMMENT              = Fayl Izohi
+
+
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Yangi papka
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Faylni qayta nomlash
+
+
+
+
+
+
+
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+;IDC_STATIC_ASSOC_DESC1
+;IDC_STATIC_ASSOC_DESC2
+;IDC_STATIC_ASSOC_DESC3
+;IDC_STATIC_ASSOC_DESC4                 = 3. "Saqlash" tugmasini bosing
+;IDC_STATIC_ASSOC_DESC1_10
+;IDC_STATIC_ASSOC_DESC2_10
+;IDC_STATIC_ASSOC_DESC3_10
+;IDC_STATIC_ASSOC_DESC4_10
+;IDC_BTN_LAUNCH_ASSOC_REG_UI
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+
+
+
+
+IDC_STATIC_SHELL_ETC                    = Boshqalar
+IDC_CHK_SHELL_DO_NOT_USE                = Kontekst menyuni o'chirish
+IDC_CHK_SHELL_HIDE_ICON                 = Bandizip ikonkasini ko'rsatmaslik
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+
+
+
+
+IDC_STATIC_COLOR                        = Rang
+IDC_STATIC_COLOR_THEME                  = Ko'rinish rangi
+IDC_BTN_BKGND                           = Tanlangan
+IDC_STATIC_COLOR_TEXT                   = Belgilar rangi
+IDC_STATIC_COLOR_TEXT_AUTO              = Avto
+IDC_STATIC_COLOR_TEXT_WHITE             = Oq
+IDC_STATIC_COLOR_TEXT_BLACK             = Qora
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Til sozlamalari
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDC_BTN_CLOSE                           = Yopish
+IDC_BTN_DELETE                          = O'chirish
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+
+$TOOLBAR_OPEN2                          = Arxivni ochish
+$TOOLBAR_CREATE_ARCHIVE2                = Yangi arxiv
+
+$TEXT_DOCUMENT                          = Xujjatlar
+$TEXT_PICTURE                           = Rasmlar
+$TEXT_COMPUTER                          = Kompyuter
+
+
+
+$TEXT_INSTALL_CLOSE                     = Yopish
+$TEXT_INSTALL_HONEYVIEW_LINK            = Qolganlarini ko'rish
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Yangi papka
+
+
+
+
+
+TEXT_MENU_OPENING                       = Ochilmoqda...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_BTN_UPDATE                 = Yangilash
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Tugatish
+TEXT_UPDATER_DOWNLOAD_ERROR             = Yuklash muvaffaqiyatsiz yakunlandi
+TEXT_UPDATER_SETTING_UPDATE             = Sozlamalar
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+BTN_SELECT_FOLDER                       = Ko'rib chiqish
+BTN_EXTRACT                             = Boshlash
+BTN_CLOSE                               = Yopish
+BTN_CANCEL                              = Bekor qilish
+BTN_OPEN_FOLDER                         = Ochish
+CHK_OVERWRITE                           = Ustiga yozish
+MSG_COMPLETED                           = Arxivdan chiqarish muvaffaqiyatli yakunlandi
+IDD_PASSWORD                            = Parolni kiritish
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_INVALID_PASSWD                 = Yaroqsiz parol
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = O'rnatish ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = O'chirish ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = O'chirishni boshlash uchun O'chirish tugmasini bosing
+
+$BTN_CLOSE                              = Yopish
+$BTN_CANCEL                             = Bekor qilish
+$BTN_INSTALL                            = Rozi bo'lish va o'rnatish
+$BTN_UNINSTALL                          = O'chirish
+$BTN_OPEN_LICENSE                       = [Litsenziya bitimini ko'rish]
+$BTN_HELP_LINK                          = [Yordam]
+
+
+
+
+MSG_SELECT_FOLDER                       = Papkani tanlang
+MSG_NEWVERSION_FOUND                    = Dasturning yangi naqli xozirda mavjud. Yuklash olishni xohlaysizmi?
+SHORTCUT_LINK_DESCRIPTOIN               = Ishga tushirish ${APPNAME}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

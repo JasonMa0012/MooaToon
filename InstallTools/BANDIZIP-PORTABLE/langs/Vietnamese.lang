@@ -1,0 +1,928 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Tiếng Việt
+TRANSLATORS                             = Siyoung / Keuneil.R[br]M.L. [br]Last modified by Quach Phat Thang (fb.me/pst502).
+
+
+[TEXT]
+TEXT_BUILDNO                            = Bản #
+TEXT_FILE                               = Tập tin
+TEXT_FOLDER                             = Thư mục
+TEXT_ARCHIVE_SIZE                       = Tổng dung lượng
+TEXT_ORIGINAL_SIZE                      = Dung lượng gốc
+TEXT_ARCHIVE_FORMAT                     = Kiểu nén
+TEXT_COMPRESSED_SIZE                    = Dung lượng nén
+TEXT_SOLID                              = Bản đầy đủ
+TEXT_BETA                               = Bản Thử nghiệm
+TEXT_ASSOC                              = Tập tin nén (${str1})
+TEXT_PORTABLE                           = Bản rút gọn (portable)
+TEXT_NEW_FOLDER                         = Thư mục mới
+TEXT_FILESIZE_UNKNOWN                   = Không xác định
+TEXT_FILEDATE_UNKNOWN                   = Không xác định
+TEXT_HELP_LINK                          = [Trợ giúp]
+TEXT_APP_DESC                           = Bandizip là một phần mềm nén tập tin Zip nhẹ, nahnh chóng và miễn phí tất-cả-trong-một. Nó xử lý được các định dạng tập tin nén phổ biến nhất như Zip, 7z, Rar, và tương tự.
+
+TEXT_MESSAGEBOX_OK                      = Xác nhận
+TEXT_MESSAGEBOX_CANCEL                  = Huỷ
+TEXT_MESSAGEBOX_ABORT                   = Dừng
+TEXT_MESSAGEBOX_RETRY                   = Thử lại
+TEXT_MESSAGEBOX_IGNORE                  = Bỏ qua
+TEXT_MESSAGEBOX_YES                     = Có
+TEXT_MESSAGEBOX_NO                      = Không
+TEXT_MESSAGEBOX_CONTINUE                = Tiếp tục
+TEXT_MESSAGEBOX_HELP                    = Trợ giúp
+
+TEXT_COLUMN_NAME                        = Tên
+TEXT_COLUMN_COMPSIZE                    = Dung lượng nén
+TEXT_COLUMN_ORIGSIZE                    = Dung lượng gốc
+TEXT_COLUMN_KIND                        = Loại tập tin
+TEXT_COLUMN_DATE_MOD                    = Ngày sửa đổi
+TEXT_COLUMN_COMPMETHOD                  = Cách nén
+TEXT_COLUMN_ENCRMETHOD                  = Cách mã hoá
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Thuộc tính
+TEXT_COLUMN_COMMENT                     = Ghi chú
+TEXT_COLUMN_PATHNAME                    = Đường dẫn
+
+TEXT_ICONPACK_NAME                      = Tên
+TEXT_ICONPACK_DESIGNER                  = Thiết kế
+TEXT_ICONPACK_COPYRIGHT                 = Bản quyền
+
+TEXT_ARCHIVE_COLUMN_NAME                = Tên
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Dung lượng
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Đường dẫn
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Tổng dung lượng
+
+TEXT_SELECT_ARCHIVE_FILE                = Chọn tập tin
+TEXT_SELECT_TEXT_FILE                   = Chọn tập tin
+TEXT_SELECT_DEST_FOLDER                 = Chọn thư mục lưu trữ
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Tập tin nén
+TEXT_REGISTRY_FILE                      = Tập tin registry
+
+TEXT_OPENDLG_ARCHIVEFILES               = Tập tin nén
+TEXT_OPENDLG_ARCHIVEFILE                = Tập tin nén
+TEXT_OPENDLG_ALLFILES                   = Tất cả tập tin
+TEXT_OPENDLG_EXEFILES                   = Tập tin .EXE
+
+TEXT_ABOUTBOX_TAB1                      = Giới thiệu Bandizip
+
+TEXT_ASSOC_GROUP0                       = Tập tin nén
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Khác
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Vui lòng cập nhật phiên bản mới nhất của Bandizip để mở tập tin này.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Vui lòng chọn phần đầu tiên của tập tin chia nhỏ.
+TEXT_OPENERR_CANT_OPEN_FILE             = Không thể mở tập tin (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Không thể mở tập tin (${str1}) do nó đang được sử dụng trong chương trình khác.
+TEXT_OPENERR_GENERAL                    = Không thể mở tập tin (${str1}). (Mã lỗi: ${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Đã huỷ.
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = (${str1}) không phải tập tin nén.
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = (${str1}) không phải tập tin nén.
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Định dạng tập tin (${str1}) không được hỗ trợ.
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Phương pháp mã hóa không được hỗ trợ (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Hãy nhập mật khẩu.
+TEXT_OPENERR_INVALID_PASSWORD           = Mật khẩu không chính xác.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Không thể mở tập tin do phần đầu tập tin bị lỗi.
+
+TEXT_ERR_INIT_FAILED                    = Khởi tạo hóa chương trình thất bại.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Mật khẩu không chính xác hoặc không có tập tin nào trong tập tin nén.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Mật khẩu không chính xác.
+TEXT_ERR_PASSWORD_NOT_SET               = Vui lòng nhập mật khẩu.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Định dạng mật khẩu không hợp lệ. Vui lòng nhập chữ cái, số hoặc ký tự đơn giản.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Cỡ tập tin chia nhỏ không hợp lệ.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = Khi nén tập tin thành tập tin exe dung lượng nén phải nhỏ hơn 4GiB.
+TEXT_ERR_INTERNAL_ERROR                 = Xảy ra lỗi nội bộ.
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Không thể sửa đổi tập tin nén.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Xảy ra lỗi trong khi sửa đổi tập tin nén.
+TEXT_ERR_INVALID_FOLDER_PATH            = Đường dẫn không hợp lệ.
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Chỉ có thể chỉnh sửa tập tin ZIP/ZIPX.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Không thể chỉnh sửa tập tin chia nhỏ.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Không thể chỉnh sửa tập tin SFX (*.exe).
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Không thể chỉnh sửa tập tin lỗi.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Không thể chỉnh sửa tập tin này.
+TEXT_ERR_CANT_CHANGE_FILENAME           = Không thể đổi tên tập tin này.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Không thể sử dụng tên tập tin với các kí tự [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Tên tập tin/thư mục đã tồn tại. Không thể thay đổi tên tập tin (${str1}).
+TEXT_ERR_CANT_CREATE_FOLDER             = Không thể tạo thư mục
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Không có tập tin nén
+TEXT_ERR_INVALID_PARAM                  = Thông số không hợp lệ.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Không thể thêm tập tin nén. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Không thể mở tập tin nén này.[br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Tên thư mục đã tồn tại.
+TEXT_ERR_FILENAME_EMPTY                 = Tên tập tin không chính xác.
+TEXT_ERR_AT_DRAGANDDROP                 = Kéo thả không thành công.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Kéo và thả lỗi. [br]Bandizip đã tắt 'Kéo và thả nhanh', xin vui lòng thử lại.
+TEXT_ERR_AT_CANT_OPEN_MMF               = Không thể mở MMF. (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Chưa có tập tin nào được chọn.
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Không thể tạo thư mục để cài đặt gói biểu tượng.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Không thể tạo tập tin để cài đặt gói biểu tượng.
+TEXT_ERR_AT_EXECUTE_DIRECT              = Không thể mở tập tin này. Hãy giải nén và thử lại.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Không thể tạo tập tin có dung lượng lớn hơn 4GBB. Hãy chọn định dạng tập tin khác ( Zip hoặc 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = Không thể lưu tập tin này.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip đã gặp một vấn đề khi chỉnh sửa tập tin.(${str1})[br][br]Bạn có muốn gửi báo cáo của lỗi đến Bandisoft?[br][br]Việc bạn gửi báo cáo này sẽ giúp Bandisoft cải thiện Bandizip.
+
+TEXT_MSG_TEST_OK                        = Không tìm thấy lỗi trong tập tin nén.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Giải nén tập tin thất bại. Mã lỗi [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Giải nén tập tin thành công.
+TEXT_MSG_EXTRACT_CANCELED               = Đã huỷ giải nén.
+TEXT_MSG_COMPRESS_SUCCESS               = Nén tập tin hoàn tất.
+TEXT_MSG_INTERNAL_ERROR                 = Xảy ra lỗi nội bộ.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Không thể mở tập tin tương ứng trong thư mục tạm:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Không thể xoá tập tin này.
+TEXT_MSG_CRASH_REPORT                   = Xảy ra lỗi. Chương trình sẽ bị tắt.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip đã gặp phải một vấn đề và phải đóng lại. Bạn có muốn gửi báo cáo về sự cố này cho các nhà phát triển Bandizip?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip không phản hồi.[br][br]Bạn có muốn gửi báo cáo sự cố cho nhà phát triển Bandizip và thoát khỏi chương trình?
+TEXT_MSG_SET_TEMP_PATH                  = Cài đặt thư mục tạm
+TEXT_MSG_SET_PATH                       = Cài đặt thư mục
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Cài đặt gói biểu tượng thành công.
+TEXT_MSG_NOTICE_RESTART                 = Khởi động lại chương trình.
+TEXT_MSG_ARCHVIE_OPENING                = Đang mở tập tin nén...
+TEXT_MSG_COMPLETING                     = Đang hoàn tất: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Không thể tạo một thư mục.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Không thể nén thư mục thành tập tin nén .GZ/XZ.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Không thể nén nhiều tập tin vào một tập tin nén.GZ/XZ. Vui lòng chọn "Nén đến từng tên tập tin/thư mục".
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip đã được thu nhỏ xuống khay hệ thống. Click vào biểu tượng trên khay để mở lại.
+TEXT_MSG_TRAY_COMPLETED                 = Hoàn thành tiến trình.
+TEXT_MSG_BATCH_ARCHVING                 = Đang nén: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Đang giải nén: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Đang kiểm tra: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Đang xóa: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Xóa thất bại: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Đang xử lý…
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Nếu các ký tự không hiện ra đúng click vào <font color=red><b>Code Page</b></font> ở trên sau đó thử lại <font color=red><b>Auto detect</b></font>menu.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Xoá tập tin gốc.[br]Bạn có muốn xoá tập tin này không?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Bạn có muốn xoá tập tin hiện tại không?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Bạn có muốn xóa vĩnh viễn tập tin nén hiện tại?
+TEXT_ASK_CHANGE_FILENAME                = Tên tập tin đã tồn tại.[br][br]Bạn có muốn đổi tên tập tin từ ${str1} sang ${str2}không?
+TEXT_ASK_DELETE_FILE                    = Bạn có muốn xoá tập tin đã chọn không?
+TEXT_ASK_STOP_EXTRACT                   = Bạn có muốn dừng giải nén?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Tên tập tin đã tồn tại. Bạn có muốn ghi đè lên không?
+TEXT_ASK_INIT_SETTING                   = Bạn có muốn khôi phục lại cài đặt trước? Bandizip sẽ được khởi động lại.
+TEXT_ASK_STOP_ARCHIVING                 = Bạn có muốn dừng nén?
+TEXT_ASK_STOP_MODIFYING                 = Bạn có muốn dừng thao tác?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Bạn có muốn áp dụng tập tin đã sửa đổi vào tập tin nén? [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Bạn có muốn cài đặt và sử dụng gói biểu tượng (${str1}) không?
+TEXT_ASK_MAKE_FOLDER                    = Thư mục không tồn tại. Bạn có muốn tạo mới nó?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Không đủ quyền sửa đổi Thư mục đích.[br][br]- ${str1}[br][br]Bạn vẫn muốn tiếp tục?
+TEXT_ASK_CONT_NOFREESPACE               = Thư mục đích không còn đủ dung lương. Xin hãy đổi sang thư mục đích khác.[br][br]- ${str1}[br][br]Bạn vẫn muốn tiếp tục?
+TEXT_ASK_ASK_UAC_ELEVATION              = Bạn không đủ quyền truy cập để thay đổi những tập tin này. [br][br]Bạn có muốn khởi động lại chương trình với quyền adminstrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Không thể mở tập tin nén. [br][br]Bạn có muốn mở phần đầu tiên của tập tin đã được chia nhỏ (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Nếu bạn xóa hết tập tin sau khi nén, bạn có thể mất những tập tin quan trọng khi tập tin nén bị hỏng.[br][br]Bạn có muốn chọn "Kiểm tra tập tin nén"?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Không đủ dung lượng để giải nén tập tin. Bạn vẫn muốn tiếp tục?[br][br]Thư mục đích: ${str1}[br]Dung lượng đĩa trống: ${str2}Kích cỡ tập tin đang giải nén: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Tập tin lỗi.
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Tập tin lỗi hoặc thiếu tập tin chia nhỏ.
+
+TEXT_BTN_PAUSE                          = Tạm dừng
+TEXT_BTN_RESUME                         = Tiếp tục
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Có lỗi xảy ra.
+TEXT_ERRDLG_USER_ABORT                  = Đã huỷ.
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Không thể mở tập tin.
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Không thể mở tập tin do nó đang được sử dụng trong chương trình khác.
+TEXT_ARKERR_PASSWORD_NOT_SET            = Hãy nhập mật khẩu.
+TEXT_ARKERR_INVALID_PASSWD              = Mật khẩu không chính xác.
+TEXT_ARKERR_USER_ABORTED                = Đã huỷ.
+TEXT_ARKERR_INVALID_FILE_CRC            = Tập tin nén lỗi. (Lỗi CRC)
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Không thể mở tập tin này.
+TEXT_ARKERR_CANT_READ_DATA              = Không thể đọc dữ liệu nén.
+TEXT_ARKERR_INFLATE_FAILED              = Lỗi dữ liệu - Tập tin lỗi.
+TEXT_ARKERR_BZIP2_ERROR                 = Lỗi dữ liệu - Tập tin lỗi.
+TEXT_ARKERR_DATA_CORRUPTED              = Tập tin lỗi hoặc thiếu tập tin chia nhỏ.
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Không thể mở tập tin này.
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Không thể tạo Thư mục.
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Phương pháp nén không được hỗ trợ
+TEXT_ARKERR_WRITE_FAIL                  = Có lỗi xảy ra.
+TEXT_ARKERR_DISK_FULL                   = Ổ cứng đầy.
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Tên đường dẫn và tên tập tin không thể vượt quá 260 kí tự.
+TEXT_ARKERR_CANT_CREATE_FILE            = Tạo tập tin thất bại.
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Tạo tập tin thất bại. Xin vui lòng chạy lại chương trình với quyền adminstrator.
+TEXT_ARKERR_USER_SKIP                   = Đã bỏ qua.
+TEXT_ARKERR_FILE_TRUNCATED              = Phần cuối tập tin lỗi hoặc thiếu.
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Mật khẩu không hợp lệ hoặc tập tin lỗi.
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Tập tin lỗi.
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Dung lượng tập tin SFX vượt quá 4GB. Bạn không thể chạy tập tin có dung lượng quá 4GB trên Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Không thể mở tập tin Zip do thiếu tập tin chia nhỏ (.z01, .z02..).
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Không thể mở tập tin Zip do thiếu tập tin chia nhỏ (.z01, .z02..).
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Không thể mở tập tin nén do thiếu tập tin chia nhỏ.
+TEXT_ARKERR_CORRUPTED_FILE              = Tập tin lỗi.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Bạn không có quyền viết vào Thư mục này.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Bạn không có quyền viết vào Thư mục này. Xin vui lòng chạy chương trình với quyền admin.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Định dạng mật khẩu không được hỗ trợ.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Thiếu bộ nhớ.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Thiếu bộ nhớ. Vui lòng thay đổi mức độ nén.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Thao tác không được hỗ trợ.
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Dung lượng thực tế của tập tin được giải nén khác với dung lượng ghi ở phần đầu (header) của tập tin.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Không thể tạo tập tin có dung lượng lớn hơn 4GB. Hãy chọn định dạng tập tin khác (ZIP hoặc 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Tên tập tin đã được rút gọn tự động.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Không thể mở tập tin nguồn đã sao chép.
+TEXT_ARKERR_NOTIMPL                     = Không thể thực hiện.
+TEXT_ARKERR_CANT_READ_FILE              = Không thể đọc tập tin.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Chạy Bandizip với quyền administrator để tạo liên kết biểu tượng.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Không thể tạo liên kết biểu tượng.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Không chia
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Khác
+
+TEXT_COMPRESSIONMETHOD_STORE            = Không nén
+TEXT_COMPRESSIONMETHOD_FAST             = Nén nhanh
+TEXT_COMPRESSIONMETHOD_NORMAL           = Nén bình thường
+TEXT_COMPRESSIONMETHOD_MAX              = Nén tối đa
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Mới
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Thêm tập tin
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = Đổi tên (&3): ${str1}
+TEXT_TITLE_TEST_MODE                    = Kiểm tra tập tin nén
+TEXT_TITLE_TEMPFOLDER_MODE              = Đang nén vào Thư mục tạm...
+TEXT_TITLE_MODIFYING                    = Đang sửa...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Tập tin giải nén
+TEXT_MSG_SELECTED_FILE                  = Đã chọn ${num1} tập tin
+TEXT_MSG_SELECTED_FOLDER                = Đã chọn ${num1} thư mục
+TEXT_MSG_SELECTED_FILEFOLDER            = Đã chọn ${num1} tập tin, ${num2} thư mục
+TEXT_MSG_SELECTED_FILESIZESUM           = Dung lượng tập tin đã chọn : ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Kiểm tra phiên bản thất bại.
+TEXT_UPDATE_VERSION_CHECKING            = Đang kiểm tra phiên bản...
+TEXT_UPDATE_DOWNLOAD_FAILED             = Tải xuống thất bại.
+TEXT_UPDATE_LATEST_VERSION              = Đã cập nhật phiên bản mới.
+TEXT_UPDATE_DO_DOWNLOAD                 = Cập nhật phiên bản mới ngay!
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Tải xuống hoàn tất
+
+TEXT_INSTALL_HONEYVIEW                  = Cài đặt Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview chưa được cài đặt trên máy tính của bạn.
+TEXT_INSTALL_HONEYVIEW_2                = Vui lòng thử Honeyview cũng được phát triển bởi Bandisoft. <br> Nó hỗ trợ xem hình ảnh trong tập tin nén ZIP, RAR, hoặc các tập tin 7z mà không cần giải nén.
+
+
+
+[MENU]
+MENUSTR_FILE                            = tập tin (&F)
+MENUSTR_EDIT                            = Chỉnh sửa (&E)
+MENUSTR_SETTING                         = Cài đặt (&S)
+MENUSTR_FIND                            = Tìm (&I)
+MENUSTR_VIEW                            = &View
+MENUSTR_HELP                            = Trợ giúp (&A)
+
+MENUSTR_OPEN                            = Mở tập tin nén \tCtrl+O
+MENUSTR_RECENT                          = Tập tin đã mở gần đây
+MENUSTR_CLOSE_FILE                      = Đóng tập tin nén \tF4
+MENUSTR_CREATE_ARCHIVE                  = Nén tập tin mới \tCtrl+N
+MENUSTR_NEW_WINDOW                      = Cửa sổ mới \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Cửa sổ mới (Administrator)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Lưu như
+MENUSTR_DELETE_ARCHIVE                  = Xoá tập tin nén \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Xóa tập tin nén vĩnh viễn \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Mở thư mục chứa tập tin nén
+MENUSTR_TEST_ARCHIVE                    = Kiểm tra tập tin nén \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = Giải nén \tCtrl+E
+MENUSTR_EXIT                            = Thoát \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = Đổi tên \tF2
+MENUSTR_ADD_FILE                        = Thêm tập tin \tIns
+MENUSTR_DELETE_FILE                     = Xoá tập tin \tDel
+MENUSTR_EDIT_COMMENT                    = Ghi chú
+MENUSTR_SETTING_SUB                     = Tuỳ chọn (F5)
+MENUSTR_FIND_ITEM                       = Tìm tập tin \tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Sao chép tập tin vào clipboard\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Dán tập tin từ clipboard\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Màn hình Khởi động \tF6
+MENUSTR_VIEW_TREECONTROL                = Điều khiển Xem dạng nhánh cây\tF7
+MENUSTR_VIEW_COMMENT                    = Bình luận của tập tin nén\tF8
+MENUSTR_VIEW_PREVIEW                    = Hình ảnh xem trước
+MENUSTR_VIEW_TOOLBAR                    = Thanh công cụ
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Lớn
+MENUSTR_VIEW_TOOLBAR_MINI               = Nhỏ
+MENUSTR_VIEW_TOOLBAR_OLD                = Kiểu cũ
+MENUSTR_VIEW_TOOLBAR_HIDE               = Ẩn
+MENUSTR_VIEW_LISTVIEW                   = Danh sách tập tin
+MENUSTR_VIEW_LISTVIEW_ICON              = Biểu tượng
+MENUSTR_VIEW_LISTVIEW_LIST              = Danh sách
+MENUSTR_VIEW_LISTVIEW_REPORT            = Chi tiết
+MENUSTR_VIEW_COLUMN                     = Cột
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Luôn ở trên đầu
+MENUSTR_VIEW_COLOR_SETTING              = Thiết lập Màu...
+
+
+MENUSTR_ABOUT                           = Giới thiệu \tF1
+MENUSTR_HELPPAGE                        = Đến trang trợ giúp
+MENUSTR_OPEN_FOLDER                     = Mở thư mục Bandizip
+MENUSTR_FORUM                           = Đến diễn đàn Bandizip
+MENUSTR_HOMEPAGE                        = Đến trang chủ
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Dung lượng nén
+POPUPMENU_VIEWITEM_ORIGSIZE             = Dung lượng gốc
+POPUPMENU_VIEWITEM_KIND                 = Kiểu tập tin
+POPUPMENU_VIEWITEM_DATE_MOD             = Ngày sửa đổi
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Cách nén
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Cách mã hoá
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Thuộc tính
+POPUPMENU_VIEWITEM_COMMENT              = Ghi chú
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Giải nén tất cả \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Giải nén tập tin đã chọn
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Giải nén tại đây
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Mở\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Mở bằng chương trình liên kết
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Sửa\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = thư mục mới
+POPUPMENU_LISTCONTROL_ADD_FILE          = Thêm tập tin \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Xoá tập tin \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Đổi tên
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Chọn tất cả \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Chuyển đến thư mục gốc \tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Xoá tập tin nén
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Mở thư mục có tập tin nén
+
+POPUPMENU_EXTRACT_AUTODEST              = Giải nén tự động vào thư mục hiện tại\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Giải nén vào thư mục hiện tại\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Giải nén vào thư mục tên tập tin
+POPUPMENU_EXTRACT_DESKTOP               = Giải nén vào desktop
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = tập tin nén tự động lưu ở Desktop
+
+POPUPMENU_RECENT_CLEAR                  = Xoá lịch sử
+POPUPMENU_RECENT_NOITEM                 = Không có tập tin mới
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Mở bằng Bandizip (&O)
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Giải nén tự động (&Z)
+
+POPUPMENU_CODEPAGE_DEFAULT              = Mặc định
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Tiếng Trung (Giản thể)
+POPUPMENU_CODEPAGE_TRADCHINESE          = Tiếng Trung (Biến thể)
+POPUPMENU_CODEPAGE_JAPANESE             = Tiếng Nhật
+POPUPMENU_CODEPAGE_KOREAN               = Tiếng Hàn
+POPUPMENU_CODEPAGE_WINDOWS1252          = Tiếng Tây Âu
+POPUPMENU_CODEPAGE_WINDOWS1250          = Tiếng Châu Âu chuẩn
+POPUPMENU_CODEPAGE_WINDOWS1251          = Tiếng Kirin
+POPUPMENU_CODEPAGE_WINDOWS1254          = Tiếng Thổ Nhĩ Kỳ
+POPUPMENU_CODEPAGE_WINDOWS737           = Tiếng Hy Lạp
+POPUPMENU_CODEPAGE_ARABIC               = Tiếng Ả rập
+POPUPMENU_CODEPAGE_HEBREW               = Tiếng Do thái
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Tự động phát hiện
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Xem với Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Xem với chương trình liên kết
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Thu nhỏ xuống khay hệ thống
+DLG_MENUSTR_LOW_PRIORITY                = Ưu tiên thấp
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Xóa tập tin nén sau khi giải nén
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = Xác nhận
+IDCANCEL                                = Huỷ
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Giới thiệu Bandizip
+IDC_BTN_HOMEPAGE                        = Trang chủ
+IDC_BTN_UPDATE                          = Cập nhật
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Mở tập tin
+IDC_STATIC_OPENING                      = Đang mở...
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Chọn thư mục giải nén
+IDC_STATIC_FOLDER                       = Thư mục đích (&D)
+IDC_STATIC_FILES2EXTRACT                = Giải nén:
+IDC_RADIO_FILES2EXTRACT_0               = Tất cả tập tin (&1)
+IDC_RADIO_FILES2EXTRACT_1               = tập tin đã chọn (&2)
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Giải nén vào thư mục đích trong thư mục ban đã lựa chọn.
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Xóa tập tin nén sau khi giải nén
+IDC_CHK_REMEMBER_SETTINGS               = Cài đặt ghi nhớ
+IDC_BTN_NEWFOLDER                       = Thư mục mới
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Giải nén
+IDC_BTN_STOP                            = Dừng
+IDC_BTN_CLOSE                           = Đóng
+IDC_BTN_PAUSE                           = Tạm dừng
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Nén tập tin mới
+IDC_STATIC_FILE_LIST                    = Danh sách tập tin nén
+IDC_STATIC_ARCHIVE_SETTING              = Cài đặt nén
+IDC_STATIC_ARCHIVE_NAME                 = Tên tập tin
+IDC_STATIC_SET_DEST_FOLDER              = Thư mục đích
+IDC_STATIC_ARCHIVE_TYPE                 = Định dạng tập tin nén
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Chia nhỏ dung lượng tập tin
+IDC_STATIC_COMPRESSION_METHOD           = Cách nén
+IDC_STATIC_HELP_SPLIT                   = [Trợ giúp]
+IDC_STATIC_HELP_7Z                      = [Định dạng 7Z]
+IDC_BTN_SELECT_ARCHIVE_NAME             = ...
+IDC_BTN_TEST_ARCHIVE                    = &Kiểm tra tập tin nén
+IDC_BTN_DELETE_SRC                      = Xoá tập tin sau khi nén (&E)
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Nén thành từng tập tin/thư mục
+IDC_BTN_SET_DEST_FOLDER                 = Đổi thư mục đích
+IDC_BTN_TOGGLE_ADVANCED                 = Cài đặt khác...
+IDC_BTN_SET_SFX                         = Cài đặt E&XE
+IDC_BTN_ADD                             = Thêm (&A)
+IDC_BTN_DEL                             = Xoá (&D)
+IDC_BTN_START                           = Bắt đầu
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Mật khẩu không chính xác. Xin vui lòng nhập lại.
+IDC_BTN_SHOW_PASSWORD                   = Hiện mật khẩu
+IDC_CHECK_APPLY_ALL                     = Áp dụng cho tất cả (&A)
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = Hiện mật khẩu
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Chọn tập tin
+IDC_BTN_OPEN                            = Mở
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Nén
+TEXT_ARCHIVE_TESTING                    = Đang kiểm tra
+IDC_BTN_STOP                            = Dừng
+IDC_BTN_CLOSE                           = Đóng
+IDC_BTN_PAUSE                           = Tạm dừng
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Kiểm tra tập tin trùng
+IDC_STATIC_DUPE_MESSAGE                 = Tên tập tin đã tồn tại.
+IDC_STATIC_DUPEFILE_OLD                 = tập tin gốc
+IDC_STATIC_DUPEFILE_NEW                 = tập tin đích
+IDC_STATIC_DUPE_ASK                     = Chọn các mục sau đây:
+IDC_RADIO_DUPE_METHOD0                  = Bỏ qua (&1)
+IDC_RADIO_DUPE_METHOD1                  = Ghi đè (&2)
+IDC_RADIO_DUPE_METHOD2                  = (&3)
+IDC_CHECK_DUPE_APPLY_ALL                = Áp dụng cho tất cả (&A)
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Tuỳ chọn nén
+IDC_STATIC_ASK_HANDLING                 = Chọn các mục sau đây:
+IDC_RADIO_HANDLE_METHOD0                = Mở tập tin nén (&1)
+IDC_RADIO_HANDLE_METHOD1                = Nén tập tin mới (&2)
+IDC_RADIO_HANDLE_METHOD2                = Thêm vào tập tin hiện tại (&3)
+IDC_CHK_PASS                            = Sử dụng mật khẩu
+IDC_STATIC_PASSWORD_AGAIN               = Nhập lại mật khẩu
+IDC_CHK_SHOW_PASS                       = Hiển thị mật khẩu
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Tuỳ chọn
+IDC_BTN_INIT                            = Khôi phục
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Cài đặt chung
+IDC_CHK_EXIT_WITH_ESC                   = Nhấn ESC để thoát chương trình
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Luôn kiểm tra tập tin khi thêm, xoá hoặc đổi tên tập tin.
+IDC_CHK_SNAP                            = Sử dụng chức năng Snap
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Hiện thư mục [...] trên danh sách tập tin
+IDC_CHK_SHOW_GRID_AT_LIST               = Hiển thị đường lưới trong kiểu xem chi tiết
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Chọn tất cả trong danh sách
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Mở rộng tập tin
+IDC_BTN_SELECT_MANDATORY                = Chọn tập tin cơ bản
+IDC_BTN_SELECT_ALL                      = Chọn tất cả
+IDC_BTN_CLEAR_ALL                       = Huỷ chọn
+IDC_BTN_APPLY_NOW                       = Áp dụng ngay
+IDC_STATIC_ICON_PACK                    = Chọn gói biểu tượng:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Tải gói biểu tượng]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Liên kết mở rộng
+;IDC_STATIC_ASSOC_DESC1                 = Đói với Windows 8 hoặc phiên bản mới hơn, bạn có thể liên kết các tập tin như sau:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Click vào nút "Cài đặt liên kết".
+;IDC_STATIC_ASSOC_DESC3                 = 2. Chọn "Chọn tất cả" trong cửa sổ Cài đặt liên kết chương trình.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Click nút "Lưu".
+;IDC_STATIC_ASSOC_DESC1_10              = Đói với Windows 10 hoặc phiên bản mới hơn, bạn có thể liên kết các tập tin như sau:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Click vào nút "Cài đặt liên kết".
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Chọn "Bandizip" trong cửa sổ Đặt chương trình mặc định.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Chọn "Đặt chương trình này làm mặc định".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Cài đặt liên kết
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Phương pháp cổ điển
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Giải nén bằng click kép
+IDC_RADIO_SHELL_OPEN_0                  = Mở bằng Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Giải nén tự động
+IDC_RADIO_SHELL_OPEN_2                  = Hiện trình đơn phụ
+IDC_RADIO_SHELL_OPEN_3                  = Tự động giải nén tại thư mục
+IDC_BTN_SET_EXTRACT_FOLDER              = Duyệt
+IDC_RADIO_SHELL_OPEN_4                  = Giải nén đến thư mục có tên giống tập tin nén
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Xóa tập tin nén sau khi giải nén với click đúp
+
+IDC_STATIC_SHELL_EXTRACT                = Phương thức giải nén.
+IDC_CHK_SHELL_EXTRACT_HERE              = Giải nén tại đây
+IDC_CHK_SHELL_EXTRACT_AUTO              = Giải nén tự động
+IDC_CHK_SHELL_EXTRACT_SUB               = Giải nén vào...
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Giải nén tập tin ở đây và xóa tập tin nén gốc
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Giải nén tập tin (thông minh) ở đây và xóa tập tin nén gốc
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Giải nén đến thư mục "Tên-Tệp nén lưu trữ" và xóa tập tin nén gốc
+IDC_CHK_SHELL_EXTRACT_DLG               = Giải nén đến thư mục khác.
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Giải nén với quyền administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Kiểm tra tập tin nén
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Mở bằng Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Xem trước tập tin nén
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Giới hạn tập tin xem trước:
+IDC_CHK_SHELL_PREVIEW_TREE              = Xem trước tập tin nén với cấu trúc dạng nhánh cây
+
+IDC_STATIC_SHELL_ARCHIVING              = Phương thức nén.
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Nén thành "Tên-Tậptin.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Nén thành "Tên-Tậptin.zip" và gửi mail.
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Nén thành "Tên-Tậptin.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Nén thành "Tên-Tậptin.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Nén thành "Tên-Tậptin.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Nén thành "Tên-Tậptin.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Nén thành  "Tên-Tậptin.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Nén thành  "Tên-Tậptin.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Nén thành  "Tên-Tậptin.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Nén thành "Tên-Tậptin.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Nén thành "Tên-Tậptin.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Nén thành "Tên-Tậptin.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "Nén thành "Tên-Tậptin.zip" hoặc "Tên_Thư_mục.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Nén thành "Tên_Tậptin_Thưmục.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Nén bằng Bandizip
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Nén với quyền administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Nén với tên tập tin tùy chỉnh
+IDC_STATIC_FILENAME_RULE_HELP           = Quy ước: ${NAME}=tên tập tin, %Y=Năm, %m=Tháng, %d=Ngày, %H=Giờ, %M=Phút, %S=Giây
+
+IDC_STATIC_SHELL_BKGND                  = Menu chuột phải
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Tạo thư mục mới
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Mở cửa sổ CMD (với Window Vista/7 hãy ấn nút Shift để thực hiện với quyền admin)
+
+IDC_STATIC_SHELL_ETC                    = Khác
+IDC_CHK_SHELL_DO_NOT_USE                = Ẩn menu phụ
+IDC_CHK_SHELL_AS_SUB_MENU               = Hiện menu phụ theo tầng
+IDC_CHK_SHELL_HIDE_ICON                 = Ẩn biểu tượng Bandizip
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Phân biệt tập tin nén thông qua nội dung
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Hiển thị phương thức nén cho các tập tin đã được nén
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Tạo tên khác cho tập tin/thư mục đã chọn khi nén nhiều tập tin/thư mục
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Cài đặt giải nén
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Nếu chỉ có một thư mục gốc trong tập tin nén, hiện tập tin trong thư mục.
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Mở thư mục sau khi giải nén
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Không đóng trang sau khi giải nén
+IDC_CHK_FAST_DRAG_DROP                  = Sử dụng "Kéo thả nhanh" nếu dung lượng tập tin nén lớn.
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Giải nén TGZ, TDZ đồng bộ.
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Giải nén đồng bộ TGZ, TBZ cả trong trường hợp tập tin lớn.
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Khi sử dụng "Giải nén tự động", tạo thư mục mới khi có nhiều hơn một tập tin
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Tự động tìm kiếm trang mã trong trường hợp tập tin được nén trên Mac
+IDC_CHK_UNIXZIP_AS_UTF8                 = Sử dụng trang mã UTF-8 khi mở tập tin nén từ UNIX
+IDC_STATIC_CODEPAGE                     = Trang mã mặc định
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Giải nén tất cả những loại tập tin sau (khi click kép chuột)
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Cài đặt nén
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Không tạo thư mục gốc nếu chỉ nén một thư mục.
+IDC_CHK_USE_UTF8_COMPRESS               = Sử dụng tên tập tin Unicode (UTF-8) trong tập tin Zip
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Lưu tên tập tin dạng Unicode trong mục phụ của Phần đầu (Header) với mỗi tập tin Zip (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Sử dụng tên tập tin Unicode (UTF-8) trong tập tin tar,tgz
+IDC_CHK_FORCE_ZIP64                     = Luôn sử dụng định dạng ZIP64 cho cả tập tin có dung lượng ít hơn 2 GB
+IDC_CHK_EXCLUDE_THUMBSDB                = Loại trừ các tập tin như thumbs.db khi nén
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Lưu thông tin thời gian NTFS khi tạo tập tin Zip
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = "Sử dụng "Nén tốc độ cao""
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Không đóng trang sau khi hoàn tất nén tập tin
+IDC_STATIC_COMPRESSION_METHOD           = Cấp độ nén:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = "Sử dụng thư mục mới nhất để lưu "tập tin nén mới""
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = "Thư mục mặc định cho "tập tin nén mới""
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Duyệt...
+IDC_CHK_EXCLUDE_FILTER                  = Loại trừ những tập tin dưới đây khi nén..
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Cài đặt hiển thị
+IDC_CHK_SHOW_PREVIEW                    = Xem trước ảnh
+
+IDC_STATIC_SETTING_VIEWITEM             = Xem danh sách
+IDC_CHK_VIEWITEM_COMPSIZE               = Dung lượng nén
+IDC_CHK_VIEWITEM_ORIGSIZE               = Dung lượng gốc
+IDC_CHK_VIEWITEM_KIND                   = Loại tập tin
+IDC_CHK_VIEWITEM_DATE_MOD               = Ngày sửa đổi
+IDC_CHK_VIEWITEM_COMPMETHOD             = Cách nén
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Cách mã hoá
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Thuộc tính tập tin
+IDC_CHK_VIEWITEM_COMMENT                = Ghi chú
+
+IDC_STATIC_IMAGE_VIEWER                 = Xem ảnh
+IDC_RADIO_IMAGE_VIEWER_0                = Sử dụng chức năng xem ảnh của Bandizip
+IDC_RADIO_IMAGE_VIEWER_1                = Sử dụng chương trình khác
+IDC_RADIO_IMAGE_VIEWER_2                = Sử dụng Honeyview nếu đã cài đặt
+
+IDC_STATIC_EDITOR                       = Sử dụng chương trình Sửa ảnh
+IDC_BTN_SET_EDITOR_PATH                 = Duyệt...
+
+IDC_STATIC_COLOR                        = Màu sắc
+IDC_STATIC_COLOR_THEME                  = Màu sắc giao diện
+IDC_BTN_BKGND                           = Đã chọn
+IDC_STATIC_COLOR_TEXT                   = Màu chữ
+IDC_STATIC_COLOR_TEXT_AUTO              = Tự động
+IDC_STATIC_COLOR_TEXT_WHITE             = Trắng
+IDC_STATIC_COLOR_TEXT_BLACK             = Đen
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Xuất cài đặt Bandizip
+IDC_STATIC_ETC                          = Cài đặt khác
+IDC_CHK_SET_TEMP_FOLDER                 = Chọn Thư mục tạm
+IDC_BTN_SET_TEMP_FOLDER                 = Chọn
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Nhận các loại tập tin sau đây là tập tin nén
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Xóa tập tin tạm khi thoát tiến trình con
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Chuyển tập tin đến thùng rác khi xoá
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Hiển thị lịch sử nén tập tin gần nhất.
+IDC_CHK_USE_LONG_PATH_NAME              = Xử lý tên đường dẫn dài quá 260 ký tự.
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Cho phép Windows có thể xóa các tập tin lưu trữ đang mở
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Tự động mở rộng cây thư mục
+IDC_CHK_USE_MODAL_DIALOG                = Sử dụng một hộp thoại modal khi nén/giải nén
+IDC_CHK_USE_ELEGANT_UI                  = Sử dụng thiết kế giao diện Elegant
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Hiển thị 'Màn hình khởi động' khi mở Bandizip
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Hiển thị đường dẫn đầy đủ ở thanh tiêu đề
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Xóa các tập tin được giải nén khi tiến trình giải nén bị hủy
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Cài đặt ngôn ngữ
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = Cài đặt Tệp Tự Giải nén SFX
+IDC_STATIC_TARGET_PATH                  = Thư mục giải nén :
+IDC_STATIC_TITLE                        = Tên :
+IDC_STATIC_RUN                          = Chạy sau khi giải nén :
+IDC_STATIC_MESSAGE                      = Tin nhắn :
+IDC_CHK_AUTO_CLOSE                      = Đóng trang sau khi giải nén
+IDC_BTN_SAVE_SFX_SETTING                = Lưu cài đặt
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Tìm tập tin
+IDC_STATIC_FIND                         = Tên tập tin (&F)
+IDC_BTN_CLOSE                           = Đóng
+IDC_BTN_DELETE                          = Xoá
+IDC_BTN_EXTRACT                         = Giải nén
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Ghi chú tập tin nén
+IDC_STATIC_COMMENT                      = Ghi chú trong tập tin nén này
+IDC_CHK_USE_UTF8                        = Lưu định dạng Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Tải ghi chú từ tập tin (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = CẢNH BÁO
+IDC_STATIC_WARN_EXECUTABLE              = Tập tin này là một tập tin thực thi. Chạy chương trình này có thể làm hại máy tính của bạn. Bạn có muốn tiếp tục?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Không hỏi lại
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Mở
+$TOOLBAR_CLOSE_FILE                     = Đóng
+$TOOLBAR_EXTRACT_FILE                   = Giải nén
+$TOOLBAR_CREATE_ARCHIVE                 = Nén tập tin mới
+$TOOLBAR_DELETE_FILE                    = Xoá
+$TOOLBAR_ADD_FILE                       = Thêm
+$TOOLBAR_TEST_ARCHIVE                   = Kiểm tra
+$TOOLBAR_CODEPAGE                       = Trang mã
+$TOOLBAR_VIEWITEM                       = Xem
+
+$TOOLBAR_OPEN2                          = Mở tập tin nén
+$TOOLBAR_CREATE_ARCHIVE2                = Tập tin nén mới
+
+$TEXT_DESKTOP                           = Màn hình desktop
+$TEXT_DOCUMENT                          = Văn bản
+$TEXT_PICTURE                           = Ảnh
+$TEXT_COMPUTER                          = Máy tính
+
+$TEXT_SETTINGTAB_GENERAL                = Cài đặt chung
+$TEXT_SETTINGTAB_ASSOC                  = Liên kết
+$TEXT_SETTINGTAB_SHELL                  = Menu phụ
+$TEXT_SETTINGTAB_EXTRACT                = Giải nén
+$TEXT_SETTINGTAB_ARCHIVE                = Nén
+$TEXT_SETTINGTAB_VIEWER                 = Xem
+$TEXT_SETTINGTAB_ETC                    = Khác
+$TEXT_SETTINGTAB_LANG                   = Ngôn ngữ
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Mở Thư mục đích
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Mở Thư mục có tập tin nén
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Mở Thư mục đích sau khi giải nén
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Mở Thư mục có tập tin nén
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Mở Thư mục giải nén
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Không đóng trang sau khi giải nén
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Không đóng trang sau khi nén
+$TOOLTIP_ADVANCED_MENU                  = Cài đặt khác
+
+$TEXT_INSTALL_START                     = Có, tôi sẽ thử nó
+$TEXT_INSTALL_CLOSE                     = Không, cảm ơn
+$TEXT_INSTALL_HONEYVIEW_LINK            = Xem thêm…
+
+$TEXT_HELP_PAGE                         = Trang trợ giúp
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Thư mục mới
+
+TEXT_MENU_CREATE_NEW_FOLDER             = Thư mục mới (&N)
+TEXT_MENU_SUB_MENU                      = Bandizip (&G)
+TEXT_MENU_OPEN_ARCHIVE                  = Mở bằng Bandizip
+TEXT_MENU_TEST_ARCHIVE                  = Kiểm tra tập tin nén (&T)
+TEXT_MENU_LAUNCH_CMD                    = Mở trang cmd (&C)
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Mở trang cmd (Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Nén thành từng tên tập tin/Thư mục (&U)
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Nén thành mỗi tập tin/Thư mục.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = Nén thành ${str1}(&Z)
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Nén thành ${str1} và gửi thư (&I)
+TEXT_MENU_ARCHIVE_ZIPX                  = Nén thành ${str1}
+TEXT_MENU_ARCHIVE_EXE                   = "Nén thành "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = Nén thành ${str1}
+TEXT_MENU_ARCHIVE_TGZ                   = Nén thành ${str1}
+TEXT_MENU_ARCHIVE_LZH                   = "Nén thành "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Nén thành "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Nén thành "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Nén thành "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Nén thành "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Nén thành "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Nén thành mỗi một "Tên_tậptin.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Nén thành mỗi một "Tên_tậptin.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Nén thành "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Nén bằng Bandizip (&L)
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Nén với quyền admin (&Y)
+
+TEXT_MENU_EXTRACT_HERE                  = Giải nén tại đây (&X)
+TEXT_MENU_EXTRACT_AUTO                  = Giải nén tự động (&Z)
+TEXT_MENU_EXTRACT_AUTO_EACH             = Giải nén tự động từng tập tin (&Z)
+TEXT_MENU_EXTRACT_SUB                   = Giải nén mỗi tập tin vào một Thư mục (&E)
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Giải nén vào ${str1}\(&E)
+TEXT_MENU_EXTRACT_DLG                   = Chọn thư mục giải nén (&A)...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Giải nén với quyền admin
+TEXT_MENU_EXTRACT_HERE_DEL              = Giải nén Ở đây và Xoá bỏ
+TEXT_MENU_EXTRACT_AUTO_DEL              = Giải nén Ở đây (Thông minh) và Xoá bỏ
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Giải nén Thông tin (Mỗi một) và Xoá bỏ
+TEXT_MENU_EXTRACT_SUB_DEL               = Giải nén vào thư mục riêng và Xoá bỏ
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Giải nén &vào ${str1}\ và Xoá bỏ
+
+TEXT_MENU_PREVIEW                       = Xem trước tập tin nén
+TEXT_MENU_PREVIEW_BROKEN                = Không phải tập tin nén[br] hoặc tập tin lỗi.
+TEXT_MENU_PREVIEW_TIMEOUT               = Yêu cầu đã hết thời gian.
+TEXT_MENU_PREVIEW_EMPTY                 = Tập tin rỗng.
+TEXT_MENU_PREVIEW_ENCRYPTED             = Tên_tậptin bị mã hoá bảo mật
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Không thể sử dụng chức năng xem trước tập tin nén. [br][br]Hãy khởi động lại trình duyệt hoặc [br]khởi động lại máy tính.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Không thể xem danh sách tập tin.
+
+TEXT_MENU_OPENING                       = Đang mở tập tin...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Cập nhật Bandizip
+TEXT_UPDATER_TEXT1                      = Chuẩn bị cập nhật phiên bản mới nhất hoàn tất.
+TEXT_UPDATER_TEXT_DL                    = Would you like to download it now?
+TEXT_UPDATER_BTN_UPDATE                 = Cập nhật
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Huỷ
+TEXT_UPDATER_DOWNLOAD_ERROR             = Tải tập tin bị lỗi
+TEXT_UPDATER_SETTING_UPDATE             = Cài đặt
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Đường dẫn:
+BTN_SELECT_FOLDER                       = Chọn thư mục
+BTN_EXTRACT                             = Giải nén
+BTN_CLOSE                               = Đóng
+BTN_CANCEL                              = Huỷ
+BTN_OPEN_FOLDER                         = Mở thư mục
+CHK_OVERWRITE                           = Ghi đè
+ERR_ERROR_OCCURRED                      = Xảy ra lỗi khi giải nén.
+ERR_INVALID_PASSWORD                    = Mật khẩu Không đúng
+ASK_OVERWRITE                           = Tên tập tin đã tồn tại. Bạn có muốn ghi đè lên không?
+MSG_COMPLETED                           = Giải nén thành công.
+IDD_PASSWORD                            = Nhập Mật khẩu
+IDC_STATIC_PASSWORD_MSG                 = Tập tin này bị mã hoá bảo vệ.
+IDC_BTN_SHOW_PASSWORD                   = Hiện mật khẩu
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Không thể giải nén tập tin.
+TEXT_ERR_CRC                            = Lỗi CRC .
+TEXT_ERR_INVALID_PASSWD                 = Sai mật khẩu
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [Trợ giúp]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip vẫn đang chạy. Hãy đóng chương trình.
+MSG_XP_IS_NOT_SUPPORTED                 = Phần mềm này sẽ hoạt động ổn định trên Windows Vista và các bản về sau.
+MSG_NEED_ADMIN_PRIVILEGE                = Phần mềm này chỉ có thể được cài đặt bởi 1 người dùng có quyền admin.[br][br]Người dùng Phi admin có thể không cài ổn định phần mềm.[br][br]Bạn có muốn dừng cài đặt?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

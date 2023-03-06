@@ -7,10 +7,10 @@ set branchName=main
 git init
 
 :loop
-git fetch --depth=1 %repoURL% %branchName%
+git fetch --depth=50 %repoURL% %branchName%
 if not %errorlevel% == 0 (
    echo Fetch failed, retrying in 5 seconds...
-   timeout /t 5 /nobreak
+   timeout /t 10 /nobreak
    goto loop
 )
 
@@ -21,4 +21,4 @@ git branch -m %branchName%_temp %branchName%
 
 
 echo successfully update.
-timeout /t 5
+timeout /t 10

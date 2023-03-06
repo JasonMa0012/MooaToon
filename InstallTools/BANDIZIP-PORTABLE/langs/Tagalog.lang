@@ -1,0 +1,1098 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Tagalog
+TRANSLATORS                             = GAMER-X-1ST(julianwaynemendoza@gmail.com)
+
+
+[TEXT]
+TEXT_BUILDNO                            = Build#
+TEXT_FILE                               = File
+TEXT_FOLDER                             = Folder
+TEXT_ARCHIVE_SIZE                       = Archive na Sukat
+TEXT_ORIGINAL_SIZE                      = Orihinal na Sukat
+TEXT_ARCHIVE_FORMAT                     = Format ng Archive
+TEXT_COMPRESSED_SIZE                    = Kompres na Sukat
+TEXT_SOLID                              = Solido
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Kompres na File (${str1})
+TEXT_PORTABLE                           = Portabol
+TEXT_NEW_FOLDER                         = Bagong Folder
+TEXT_FILESIZE_UNKNOWN                   = Di Alam
+TEXT_FILEDATE_UNKNOWN                   = Di Alam
+TEXT_HELP_LINK                          = [Tulong]
+TEXT_APP_DESC                           = Bandizip ay isang magaan, mabilis at libre sa lahat sa isang Zip Archiver. Hinahawakan ang pinaka-sikat na compression format, Kasama ang Zip, 7z, Rar, at Iba pa.
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = Ikansela
+TEXT_MESSAGEBOX_ABORT                   = I-abort
+TEXT_MESSAGEBOX_RETRY                   = Subukan muli
+TEXT_MESSAGEBOX_IGNORE                  = Huwag Pansinin
+TEXT_MESSAGEBOX_YES                     = Oo
+TEXT_MESSAGEBOX_NO                      = Hindi
+TEXT_MESSAGEBOX_CONTINUE                = Ituloy
+TEXT_MESSAGEBOX_HELP                    = Help
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Huwag Ipakita ito ulit
+
+TEXT_COLUMN_NAME                        = Pangalan
+TEXT_COLUMN_COMPSIZE                    = Compressed
+TEXT_COLUMN_ORIGSIZE                    = Orihinal
+TEXT_COLUMN_KIND                        = Uri
+TEXT_COLUMN_DATE_MOD                    = Araw ng inayos
+TEXT_COLUMN_COMPMETHOD                  = Method ng Compression
+TEXT_COLUMN_ENCRMETHOD                  = Method ng Encryption
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Attributes
+TEXT_COLUMN_COMMENT                     = Komento
+TEXT_COLUMN_EXT                         = Karagdagang Impormasyon
+TEXT_COLUMN_PATHNAME                    = Daanan ng Pangalan
+
+TEXT_ICONPACK_NAME                      = Pangalan
+TEXT_ICONPACK_DESIGNER                  = Nag-Disenyo
+TEXT_ICONPACK_COPYRIGHT                 = Copyright
+
+TEXT_ARCHIVE_COLUMN_NAME                = Pangalan
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Size
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Folder Path
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Total na Sukat
+
+TEXT_SELECT_ARCHIVE_FILE                = Piliin ang file
+TEXT_SELECT_TEXT_FILE                   = Piliin ang file
+TEXT_SELECT_DEST_FOLDER                 = Piliin ang destinasyon ng folder
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Archive file
+TEXT_REGISTRY_FILE                      = Registry file
+
+TEXT_OPENDLG_ARCHIVEFILES               = Archive Files
+TEXT_OPENDLG_ARCHIVEFILE                = Archive File
+TEXT_OPENDLG_ALLFILES                   = Lahat ng Files
+TEXT_OPENDLG_EXEFILES                   = Exe Files
+
+TEXT_ABOUTBOX_TAB1                      = Tungkol sa Bandizip
+
+TEXT_ASSOC_GROUP0                       = Mga file na Archive
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Others
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Para ma-buksan ang file na ito, i-download ang pinaka-bagong version ng Bandizip.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Piliin lang ang Unang parte ng Magkahiwalay na file.
+TEXT_OPENERR_CANT_OPEN_FILE             = Hindi kayang buksan ang file (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Hindi kayang buksan ang file (${str1}) dahil ginagamit ng ibang program.
+TEXT_OPENERR_GENERAL                    = Hindi kayang buksan ang file (${str1}) (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Kansela
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Di alam na file format (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" ay hindi archive file."
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Hindi suportado na file format (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Hindi suportado ang encryption method (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Ilagay ang Password
+TEXT_OPENERR_INVALID_PASSWORD           = Ang Password ay Mali.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Hindi ma-buksan ang file na ito Dahil ang file header ay sira.
+
+TEXT_ERR_INIT_FAILED                    = Bigo na ma-initialize.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Ang password ay mali o walang file sa archive.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Ang passwords ay hindi tumugma.
+TEXT_ERR_PASSWORD_NOT_SET               = Password ay kailangan.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Ang iyong password ay Naglalaman ng invalid na characters. Ilagay lang ay alphanumeric o spesyal na characters.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Invalid na hiwalay na file size.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Self Extracting Archives\Sariling nag e-extract na Archive) file size ay limitado hanggang 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Internal error
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Hindi ma-modify ang archive file.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = May error na nagyari habang mino-modify ang archive.
+TEXT_ERR_INVALID_FOLDER_PATH            = Invalid na folder path.
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = ZIP file lang ang pwedeng i-edit.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Hindi pwedeng ma-edit ang split file.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Hindi pwedeng ma-edit ang Self-Extracting file (*.exe).
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Hindi pwedeng ma-edit ang broken file.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Hindi pwedeng ma-edit itong archive format.
+TEXT_ERR_CANT_CHANGE_FILENAME           = Hindi pwedeng mabago ang file name.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Hindi pwedeng magamit ang file name na may kasamang[br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Parehong file/folder ay nagawa na. Hindi mabago ang pagalan ng file (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Hindi makagawa ng folder.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Walang mga file sa archive na ito
+TEXT_ERR_INVALID_PARAM                  = Invalid na parameter.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Hindi ma-dagdag ang file sa archive na ito. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Hindi ma-buksan itong archive [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = parehas na folder ay nagawa na.
+TEXT_ERR_FILENAME_EMPTY                 = pangalan ng file ay mali.
+TEXT_ERR_AT_DRAGANDDROP                 = Hilahin at ibaba ay Bigo.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Hilahin at ibaba ay Bigo. [br]tinu-turned off ng Bandizip ang 'Mabilis na pag-hila at Ibaba' na function, Subukan ulit.
+TEXT_ERR_AT_CANT_OPEN_MMF               = Hindi ma-buksan ang MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Walang file ang napili
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Hindi magawa ang folder para sa Icon Pack installation.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Hindi magawa ang file para sa Icon Pack installation.
+TEXT_ERR_AT_EXECUTE_DIRECT              = Hindi ma-buksan itong file. Extract ang file at subukan muli.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Hindi makagawa ng file na mas malaki sa 4GB.[br]Pumli ng ibang file format (ZIP o 7Z).
+TEXT_ERR_CANT_SAVE_AS                   = Hindi ma-save Itong file.
+TEXT_ERR_ERROR_AT_EDIT                  = Ang Bandizip ay nagka-problema habang ine-edit ang file.(${str1})[br][br]Gusto mo bang mag-padala ng report ng error sa Bandisoft?[br][br]Ang pagsa-submit ng report sa Bandisoft ay tinutulungan ang pag-papabuti ng Bandizip.
+
+TEXT_MSG_TEST_OK                        = Walang error sa archive na ito.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Extraction ay nabigo. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Extraction ay tagumpay.
+TEXT_MSG_EXTRACT_CANCELED               = Extraction ay nakansela.
+TEXT_MSG_COMPRESS_SUCCESS               = Natapos na ang pag-archive.
+TEXT_MSG_INTERNAL_ERROR                 = Error sa Loob/Internal.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Hindi mabuksan ang sumusunod na temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Hindi mabura itong archive file.
+TEXT_MSG_CRASH_REPORT                   = Ang Bandizip ay Nakararanas ng Problema at kailangang Isarado.
+TEXT_MSG_CRASH_REPORT2                  = Ang Bandizip ay may na Naranasang problema at kailangang isarado. Gusto mo bang magpadala ng crash report sa developer ng Bandizip?
+TEXT_MSG_CRASH_REPORT3                  = Ang (mga) sumusunod na DLL ay sanhi ng isang problema. Gusto mo ba magpadala ng crash report sa Bandizip Developer?
+TEXT_MSG_HANGAPP_REPORT                 = Ang Bandizip ay hindi nagre-respond. Gusto mo ba magpadala ng crash report sa Bandizip Developer?
+TEXT_MSG_SET_TEMP_PATH                  = Mag-lagay ng pansamantalang Path
+TEXT_MSG_SET_PATH                       = Mag-lagay ng Path
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Icon Pack ay na install ng Tagumpay.
+TEXT_MSG_NOTICE_RESTART                 = Itong program ay magre-restarted.
+TEXT_MSG_ARCHVIE_OPENING                = Binubuksan ang archive.
+TEXT_MSG_COMPLETING                     = Natapos na: ${int1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Hindi mabuksan ang folder.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Hindi ma-kompres ang folder sa .GZ/XZ na archive.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Hindi ma-kompres ang multiple files sa .GZ/XZ archive. I-check ang "Compress to each file/folder name" na option.
+TEXT_MSG_TRAY_MINIMIZED                 = Ang Bandizip ay na-minimize sa system tray. I-Click ang tray icon tpara ibalik.
+TEXT_MSG_TRAY_COMPLETED                 = Ang Operasyon ay natapos at nakumpleto na.
+TEXT_MSG_BATCH_ARCHVING                 = Nag-AArchive: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Nag-EExtract: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Sinusuri: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Binubura: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Nabigong burahin: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Nasa proseso pa...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Kung ang characters ay hindi naka-display ng tama, i-click ang <font color=red><b>Code Page</b></font> taas at tapos subukan ang <font color=red><b>Auto detect</b></font>menu.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Ang archive file ay mabubura.[br]Gusto mo bang burahin itong file?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Gusto mo bang ma-bura ngayong archive?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Do you want to delete the current archive permanently?
+TEXT_ASK_CHANGE_FILENAME                = Ang Kaparehong file ay nagawa na.[br][br]Gusto mo bang itong mabago ang pangalan ng file Mula sa ${str1} para sa ${str2}?
+TEXT_ASK_DELETE_FILE                    = Gusto mo bang mabura ang napiling file?
+TEXT_ASK_STOP_EXTRACT                   = Gusto mo bang Itigil ang extracting?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Ang kaparehong file nagawa na.[br][br]Gusto mo bang palitan ang ng file na ito file?
+TEXT_ASK_INIT_SETTING                   = Gusto mo bang i-reset para sa defaults? Ang Bandizip ay mare-restart.
+TEXT_ASK_STOP_ARCHIVING                 = Gusto mo bang Itigil ang pag-archive?
+TEXT_ASK_STOP_MODIFYING                 = Gusto mo bang Itigil itong operasyon?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Gusto mo bang ma-apply ang bagong file sa archive [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = I-install at i-apply ang Icon Pack(${str1})?
+TEXT_ASK_MAKE_FOLDER                    = Ang folder ay hindi exist. Gusto mo bang gumawa?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Ang destinasyon na folder ay walang karapatan para mag-sulat.[br][br]- ${str1}[br][br]Gusto mo bang tumuloy?
+TEXT_ASK_CONT_NOFREESPACE               = Ang destinasyon na folder ay walang karampatang space. Ibahin ang destinasyon na folder. [br][br]- ${str1}[br][br]Gusto mo bang tumuloy?
+TEXT_ASK_ASK_UAC_ELEVATION              = Wala kang karampatang ibahin ang mga file na ito. [br][br]Gusto mo bang i-restart ang program bilang administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Hindi Mabuksan ang Archive. [br][br]Gusto Mo bang buksan ang unang parte hng Magkahiwalay na file (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Kung buburahin mo ang file pagkatapos ng pag-aarchive, Pwede mong mawala ang mga importanteng mga file kapag ang file ay sira[br][br]Gusto mo bang I-check ang "Test Archive"?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Hindi sapat ang disk space para ma-extract. Gusto mo bang ituloy?[br][br]Destinasyon na Folder: ${str1}[br]Free disk space: ${str2}[br]Inextract na file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Itong file ay sira
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Ang file ay sira o ang ibang split file ay kailangan
+
+TEXT_BTN_PAUSE                          = I-pause
+TEXT_BTN_RESUME                         = Ipagpatuloy
+
+TEXT_ERRDLG_ERROR_OCCURRED              = may error na nagyari
+TEXT_ERRDLG_USER_ABORT                  = itinigil
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Hindi ma-buksan itong file
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Hindi ma-buksan itong file Dahil ang file ay ginagamit ng ibang program
+TEXT_ARKERR_PASSWORD_NOT_SET            = Password ay kailangan
+TEXT_ARKERR_INVALID_PASSWD              = Invalid na Password
+TEXT_ARKERR_USER_ABORTED                = itinigil
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC error
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Hindi ma-buksan ang output file
+TEXT_ARKERR_CANT_READ_DATA              = Hindi mabasa ang archive data
+TEXT_ARKERR_INFLATE_FAILED              = Data Error - Itong file ay sira
+TEXT_ARKERR_BZIP2_ERROR                 = Data Error - Itong file ay sira
+TEXT_ARKERR_DATA_CORRUPTED              = Ang file ay sira o ang ibang split file ay kailangan
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Hindi mabuksan itong file
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Hindi magawa ang folder
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Hindi suportadong mehtod ng compression
+TEXT_ARKERR_WRITE_FAIL                  = May error na naganap habang nagsusulat
+TEXT_ARKERR_DISK_FULL                   = Ang Disk ay puno
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Bigo gumawa ng file.Ang file path at pangalan ng file ay hindi lalagpas ng 260 na character. ${str1}
+TEXT_ARKERR_CANT_CREATE_FILE            = Bigo gumawa ng file
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Bigo gumawa ng file. buksan ang program kasama administrator rights.
+TEXT_ARKERR_USER_SKIP                   = linagpasan
+TEXT_ARKERR_FILE_TRUNCATED              = Ang dulo ng itong file ay sira o nawawala
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Ang password iay invalid o ang file ay sira
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Itong file ay sira
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Self-Extracting file (*.exe) ay lagpas ng 4GB. Hindi ma-execute ang 4GB file sa Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Hindi mabuksan itong archive file. Ang sumusunod na split file (.z01, .z02...) ay kailangan.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Hindi mabuksan itong Zip file. Ang sumusunod na split file (.z01, .z02...) ay kailangan.
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Hindi mabuksan itong archive file. Iba pang split file ay kailangan.
+TEXT_ARKERR_CORRUPTED_FILE              = Itong file ay sira
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Walang permisyo para sumulat sa folder na ito
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Walang permisyo para sumulat sa folder na ito. Buksan ang program kasama nang administrator rights.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Hindi suportado ang encryption ng algorithm na ito
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Kulang ang memory
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Kulang ang memory. Palitan ang Level ng Kompresyon.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Hindi suportado itong operasyon
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Ang extracted file size at ang archive header information ay magkaiba.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Hindi magawa ang file na mas malaki pa sa 4GB. Pumili ng ibang file format (ZIP o 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Ang mahabang pangalan ng file ay pinaliit na ng automatic.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Hindi mabuksan source file para ma-kopya.
+TEXT_ARKERR_NOTIMPL                     = Hindi implemented.
+TEXT_ARKERR_CANT_READ_FILE              = Hindi mabasa ang file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = I-Run ang Bandizip bilang administrator para makagawa ng symbolic link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Hindi makagawa ng symbolic link.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Ang File na ito ay nasusulatan at ginagamit ng isa pang proseso
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Walang file sa Archive
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Walang split
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Custom na size
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Walang Compression
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Mabilis na Compression
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Normal na Compression
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Pinaka-todong Compression
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Bagong Kompresyon
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Mag-dagdag ng Files sa Archive
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &palitan ng pangalan: ${str1}
+TEXT_TITLE_TEST_MODE                    = Archive Test
+TEXT_TITLE_TEMPFOLDER_MODE              = Extract ang files sa pansamantalang folder...
+TEXT_TITLE_MODIFYING                    = Inaayos...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = File na extract
+TEXT_MSG_SELECTED_FILE                  = ${int1} file(s) na Pinili
+TEXT_MSG_SELECTED_FOLDER                = ${int1} folder(s) na Pinili
+TEXT_MSG_SELECTED_FILEFOLDER            = ${int1} file(s), ${int2} folder(s)
+TEXT_MSG_SELECTED_FILESIZESUM           = Piniling file size: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Pagtingin ng bagong Bersyon ay nabigo
+TEXT_UPDATE_VERSION_CHECKING            = Tinitignan kung may bagong Bersyon
+TEXT_UPDATE_DOWNLOAD_FAILED             = Download ay nabigo
+TEXT_UPDATE_LATEST_VERSION              = Up to date
+TEXT_UPDATE_DO_DOWNLOAD                 = Mga Update ay kailangan
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Ang Download ay kumpleto
+
+TEXT_INSTALL_HONEYVIEW                  = I-Install ang Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Ang Honeyview ay hindi naka-install sa iyong Komputer.
+TEXT_INSTALL_HONEYVIEW_2                = Subukan ang Honeyview na developed ng Bandisoft.<br> Ito ay sumusuporta sa pag-tingin ng mga imahe sa mga compressed na ZIP, RAR, o 7z na file nang hindi ini-extract.
+
+TEXT_REGISTRATION_FAILED                = Ang Pag-Rehistro ay Nabigo. Tignan ang iyong Email Address at Product Key.
+TEXT_REGISTRATION_SUCCEED               = Ang Bandizip ay Nai-Rehistro na.
+TEXT_REGISTRATION_ASK                   = Sigurado ka bang gusto mong tanggaln ang rehistro ng Bandizip?
+TEXT_REGISTER_NOT_REGISTERED            = Ang Bandizip ay Hindi Rehistrado. Bumili at irehistro ang Bandizip para iyong magamit ng walang Limitadong mga Feature
+TEXT_REGISTER_INFO                      = Ang sumusunod na user ay Rehistradong Bandizip: [br]Email Address:${str1} [br]Product Key:${str2}
+
+TEXT_TITLE_SCAN_MODE                    = Anti-Malware Scan sa Archive
+TEXT_SCAN_AMSI_PROVIDER                 = Matagumpay na pag-initialize ng AMSI
+TEXT_SCAN_COMPLETED                     = Ang Malware scan ay Nakumpleto na.
+TEXT_SCAN_MALWARE_DETECTED              = May na-detect na Malware
+TEXT_SCAN_MALWARE_NOTDETECTED           = Walang na-detect na Malware
+TEXT_SCAN_MALWARE_TOOBIG                = Bigong ma-scan. Ang File ay masyadong Malaki/Mabigat
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = May Malware nadetect sa Archive
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= May Malware nadetect sa Archive. Ang pag-Extract kinansel
+TEXT_MSG_MALWARE_TEST_OK                = Walang Malware nadetect sa Archive
+TEXT_MSG_AMSI_INIT_FAILED               = Ang AMSI Initialization ay nabigo. Bisitahin ang httos://go:bandisoft.com/asmi para sa iba pang detalye
+TEXT_MSG_AMSI_WIN10_NOTICE              = Ang Antimalware scan ay availabe lamang sa Windows 10/11. Bisitahin ang https://go:badisoft.com/amsi para sa detalye
+
+[MENU]
+MENUSTR_FILE                            = &File
+MENUSTR_EDIT                            = &I-Edit
+MENUSTR_SETTING                         = &Mga Option
+MENUSTR_FIND                            = H&anapin
+MENUSTR_VIEW                            = &Tignan
+MENUSTR_TOOLS                           = &Mga Tool
+MENUSTR_HELP                            = &Tulong
+
+MENUSTR_OPEN                            = &Mag-Open ng Archive\tCtrl+O
+MENUSTR_RECENT                          = Recent Files
+MENUSTR_CLOSE_FILE                      = &Close Archive \tF4
+MENUSTR_CREATE_ARCHIVE                  = &New Archive \tCtrl+N
+MENUSTR_NEW_WINDOW                      = Bagong Window \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Bagong Window(Administrator)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = I-Save bilang
+MENUSTR_DELETE_ARCHIVE                  = Burahin ang Archive \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Burahin ang Archive ng Permanente \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Buksan ang Lokasyon ng Archive
+MENUSTR_TEST_ARCHIVE                    = &I-Test ang Archive \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = Antimalware scan sa Archive\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = &I-Extract ang File \tCtrl+E
+MENUSTR_EXIT                            = E&xit \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Palitan ng pangalan ang File \tF2
+MENUSTR_ADD_FILE                        = &mag-dagdag ng File \tIns
+MENUSTR_DELETE_FILE                     = &Delete File \tDel
+MENUSTR_EDIT_COMMENT                    = mga komento sa Archive
+MENUSTR_SETTING_SUB                     = &Settings (F5)
+MENUSTR_REGISTER                        = I-Rehistro ang Bandizip
+MENUSTR_UNREGISTER                      = Tangalin ang Rehistro ng Bandizip
+MENUSTR_PASSMAN                         = Manager ng Password
+MENUSTR_FIND_ITEM                       = H&anapin ang mga File\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Kopyahin ang mga file sa clipboard\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = mga komento sa Archive
+MENUSTR_COPY_FULL_PATHNAMES             = Kopyahin ang buong pangalan sa Clipboard
+
+MENUSTR_VIEW_STARTSCREEN                = Unang Screen \tF6
+MENUSTR_VIEW_TREECONTROL                = TreeView Control \tF7
+MENUSTR_VIEW_COMMENT                    = Komento sa Archive\tF8
+MENUSTR_VIEW_PREVIEW                    = Tignan ang Imahe
+MENUSTR_VIEW_STATUS_BAR                 = Status
+MENUSTR_VIEW_TOOLBAR                    = Toolbar
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Malaki
+MENUSTR_VIEW_TOOLBAR_MINI               = Maliit
+MENUSTR_VIEW_TOOLBAR_OLD                = Luma
+MENUSTR_VIEW_TOOLBAR_HIDE               = Itago
+MENUSTR_VIEW_LISTVIEW                   = Listahan ng File
+MENUSTR_VIEW_LISTVIEW_ICON              = Mga Icon
+MENUSTR_VIEW_LISTVIEW_LIST              = Listahan
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detalye
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = Malaki na mga Icon
+MENUSTR_VIEW_COLUMN                     = Kolumn
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Laging nasa taas
+MENUSTR_VIEW_COLOR_SETTING              = Settings ng kulay...
+
+MENUSTR_TOOLS_REPAIR                    = Kumpunihin ang Archive
+MENUSTR_TOOLS_RECOVERY                  = Recovery ng Password
+
+MENUSTR_ABOUT                           = &Tungkol sa Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Pumunta sa Help Page
+MENUSTR_OPEN_FOLDER                     = &Buksan ang Bandizip Folder
+MENUSTR_FORUM                           = Pumunta sa Bandizip &Forum
+MENUSTR_HOMEPAGE                        = Pumunta sa &Website
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Kompres na Size
+POPUPMENU_VIEWITEM_ORIGSIZE             = Orihinal na Size
+POPUPMENU_VIEWITEM_KIND                 = Uri ng File
+POPUPMENU_VIEWITEM_DATE_MOD             = Date ng pag-Modified
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Method ng Compression
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Method ng Encryption
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Attributes sa file
+POPUPMENU_VIEWITEM_COMMENT              = Kometo sa file
+POPUPMENU_VIEWITEM_EXT                  = Karagdagang Impormasyon
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Extract lahat... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Extract ang napiling file Files...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Extract lahat dito
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Buksan\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Buksan kasama ang associated na program
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Edit\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Buksan ang Bandizip kasama ang
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Bagong Folder
+POPUPMENU_LISTCONTROL_ADD_FILE          = Dagdagan ng File... \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Burahin ang File \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Pangalanan ang File
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Piliin ang lahat \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Ilipat sa Parent Folder\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Burahin Ang Archive
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Buksan Ang Archive Folder
+
+POPUPMENU_EXTRACT_AUTODEST              = I-Extract Automatic\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = I-Extract sa Current Folder\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = I-Extract sa "Archive-Name" Folder
+POPUPMENU_EXTRACT_DESKTOP               = I-Extract sa Desktop
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = I-Extract Automatic sa Desktop
+
+POPUPMENU_RECENT_CLEAR                  = I-Delete ang History
+POPUPMENU_RECENT_NOITEM                 = Walang latest file
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Buksan kasama ang Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = I-Extract Automatic
+
+POPUPMENU_CODEPAGE_DEFAULT              = Default
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Chinese Simplified
+POPUPMENU_CODEPAGE_TRADCHINESE          = Chinese Traditional
+POPUPMENU_CODEPAGE_JAPANESE             = Japanese
+POPUPMENU_CODEPAGE_KOREAN               = Korean
+POPUPMENU_CODEPAGE_WINDOWS1252          = Western European
+POPUPMENU_CODEPAGE_WINDOWS1250          = Central European
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cyrillic
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turkish
+POPUPMENU_CODEPAGE_WINDOWS737           = Greek
+POPUPMENU_CODEPAGE_ARABIC               = Arabic
+POPUPMENU_CODEPAGE_HEBREW               = Hebrew
+POPUPMENU_CODEPAGE_BALTIC               = Mga Lingwahe ng Baltic
+POPUPMENU_CODEPAGE_THAI                 = Thai
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = Auto detect
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Tignan gamit ang Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Tignan ang associated program
+
+DLG_MENUSTR_MINIMIZE2TRAY               = I-Minimize sa tray
+DLG_MENUSTR_LOW_PRIORITY                = Mababang Priority
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Burahin ang Archive pagkatapos ma-archive
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = OKAY
+IDCANCEL                                = Kancel
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Tungkol sa Bandizip
+IDC_BTN_HOMEPAGE                        = Website
+IDC_BTN_UPDATE                          = I-Update
+IDC_BTN_REGIST                          = I-rehistro na Ngayon
+IDC_BTN_BUY                             = Bilhin Ngayon
+IDC_BTN_LEARNMORE                       = Alamin pa....
+IDC_STATIC_LICENSE                      = Impormasyong Pang-Rehistro ng Bandizip
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Binubuksan ang File
+IDC_STATIC_OPENING                      = Binubuksan
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Piliin ang Extraction Path
+IDC_STATIC_FOLDER                       = &Destination path
+IDC_STATIC_FILES2EXTRACT                = Extract:
+IDC_RADIO_FILES2EXTRACT_0               = &Lahat ng Files
+IDC_RADIO_FILES2EXTRACT_1               = &Napiling Files
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Extract tsa "Archive-Name" folder sa ilalim ng napiling folder
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete ang orihinal na files pagkatapos ng extraction
+IDC_CHK_REMEMBER_SETTINGS               = Tandaan and mga setting
+IDC_BTN_NEWFOLDER                       = &Bagong Folder
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Extract
+IDC_BTN_STOP                            = Itigil
+IDC_BTN_CLOSE                           = Isarado
+IDC_BTN_PAUSE                           = Pause
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Bagong Archive
+IDC_STATIC_FILE_LIST                    = Mag-dagdag ng Files sa Archive
+IDC_STATIC_ARCHIVE_SETTING              = Mga setting ng Archive
+IDC_STATIC_ARCHIVE_NAME                 = Pangalan ng File
+IDC_STATIC_SET_DEST_FOLDER              = Target na Folder
+IDC_STATIC_ARCHIVE_TYPE                 = Fromat ng Archive
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Paghiwalayin sa volumes
+IDC_STATIC_COMPRESSION_METHOD           = Level ng Compression
+IDC_STATIC_HELP_SPLIT                   = [Tulong]
+IDC_STATIC_HELP_7Z                      = [7Z format]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Browse...
+IDC_BTN_SET_PASSWORD                    = I-set ang &Password
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = Burahin ang files pagkatapos ma-archive
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Kompres ang kada file/folder
+IDC_BTN_SET_DEST_FOLDER                 = Palitan ang destinasyon na folder
+IDC_BTN_TOGGLE_ADVANCED                 = Marami pang Options...
+IDC_BTN_SET_SFX                         = Mga Setting ng SFX...
+IDC_BTN_ADD                             = &Dagdag...
+IDC_BTN_DEL                             = &Del
+IDC_BTN_START                           = &Simulan
+IDC_BTN_COMP_ADVANCED                   = Advanced
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = Setting ng Kompresyong ZIP/ZIPX
+IDC_AA_ZIP_ALGO                         = Method ng Kompresyon
+IDC_AA_ZIP_ENC                          = Method ng Encryption
+IDC_AA_ZIP_THREAD                       = Numero ng mga Thread ng CPU
+COMBO_TEXT_THREAD_AUTO                  = Auto
+IDC_CHK_ZIP_STORESYMLINK                = I-Store ang mga Simbolo ng mga Link
+IDC_CHK_ZIP_COMMENT                     = I-Store ang Komento
+IDD_AA_7Z                               = Setting ng Kompresyong 7Z
+IDC_AA_7Z_ALGO                          = Method ng Kompresyon
+IDC_AA_7Z_SOLID                         = Solid na size ng Block
+IDC_CHK_7Z_ENC_FILENAMES                = I-Encrypt ang mga File
+IDD_AA_TAR                              = Seeting ng Pag-archive ng TAR
+IDC_CHK_TAR_SYMLINK                     = I-Store ang mga Simbolo ng mga Link
+IDC_CHK_TAR_HARDLINK                    = I-Store ang Komento
+COMBO_TEXT_SOLID_NONE                   = Hindi solid
+COMBO_TEXT_SOLID_SOLID                  = Solid
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Ilagay ang Password
+IDC_STATIC_DESC_ARCHIVING               = Ilagay ang Password para sa iyong Archive. Ang password na di baba sa 8 mga Karakter ay Rekomended para sa mas maayos na seguridad
+IDC_STATIC_DESC_MASTERPASS              = Mag-lagay ng Master Password para sa Manager ng Password. Ang password na di baba sa 8 mga Karakter ay Rekomended para sa mas maayos na seguridad
+IDC_STATIC_DESC_EXTRACT                 = Mag-lagay ng Password para sa Encrypted na File
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Invalid na password. Ilagay ulit ang password.
+IDC_STATIC_PWD                          = Ilagay ang Password
+IDC_STATIC_PWD2                         = Ilagay ulit ang Password
+IDC_BTN_SHOW_PASSWORD                   = Ipakita ang Password
+IDC_BTN_PASSMAN                         = Manager ng Password...
+IDC_CHECK_APPLY_ALL                     = &Apply sa Lahat
+IDC_STATIC_PASS_RECOVERY                = Nakalimutan ang Password? Subukan ang Bandizip Password Recovery
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Manager ng Password
+TEXT_MSG_CORRUTP_DATA                   = Ang Nakatagong Data ng Password  ay na-Korap
+TEXT_PASSMAN_WARNING1                   = Maliban kung ang Master Password ay na-set, Ang mga nakatagong password sa Manager ay Hindi Encrypted
+TEXT_PASSMAN_WARNING2                   = Ag iyong Pag-iingat ay kailangan kung iyong gagamitin ang feature na ito sa isang Public o Shared na Kompyuter
+LIST_PASS_HEADER1                       = Password
+LIST_PASS_HEADER2                       = Ipinapakitang Pangalan
+IDC_BTN_ADD                             = Mag-dagdag
+IDC_BTN_DEL                             = Burahin
+IDC_BTN_EDIT                            = I-edit
+IDC_BTN_SET_MASTERPASS                  = Mag Set ng Master Password
+IDC_BTN_DEL_MASTERPASS                  = Tanggalin ang Master Password
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Ilagay ang Master Password
+IDC_STATIC_MASTPASS_MSG                 = Ilagay ang Master Password para ma-access ang Password Manager. I-reset [ara mabura ang Impormasyon ng password na Nakatago sa sistema
+IDC_BTN_INITPASSMAN                     = Reset
+TEXT_ASK_INIT_PASSMAN                   = Sigurado ka bang gusto mong burahing ang lahat ng impormasyon ng pasword
+IDC_BTN_SHOW_PASSWORD                   = Ipakita ang Password
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Impormasyon ng Password
+IDC_STATIC_PASSWORD                     = Password
+IDC_STATIC_DISPNAME                     = Ipikita ng pangalan (optional)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Piliin
+IDC_BTN_OPEN                            = Buksan
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Nag-Aarchive
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = Itigil
+IDC_BTN_CLOSE                           = Isarado
+IDC_BTN_PAUSE                           = Pause
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Duplicated na ang mga File
+IDC_STATIC_DUPE_MESSAGE                 = Ang kaparehas na file ay exists.
+IDC_STATIC_DUPEFILE_OLD                 = Ang Exist na File
+IDC_STATIC_DUPEFILE_NEW                 = Ang File na I-Kompres
+IDC_STATIC_DUPE_ASK                     = Piliin ang option sa baba:
+IDC_RADIO_DUPE_METHOD0                  = &Skip
+IDC_RADIO_DUPE_METHOD1                  = &Overwrite
+IDC_RADIO_DUPE_METHOD2                  = &Pangalanan muli
+IDC_CHECK_DUPE_APPLY_ALL                = &Apply sa Lahat ng Files
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Pumili ang Archive Option
+IDC_STATIC_ASK_HANDLING                 = Pumili ang option sa baba:
+IDC_RADIO_HANDLE_METHOD0                = &Buksan ang Archive
+IDC_RADIO_HANDLE_METHOD1                = &Bagong Archive
+IDC_RADIO_HANDLE_METHOD2                = &Mag-dagdag ng File(s) sa Current Archive
+IDC_CHK_PASS                            = Gumamit ng Password
+IDC_STATIC_PASSWORD_AGAIN               = Ilagay muli ang Password
+IDC_CHK_SHOW_PASS                       = Ipakita ang Password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Mga Setting
+IDC_BTN_INIT                            = I-Reset
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = General Settings
+IDC_CHK_EXIT_WITH_ESC                   = ESC Key para lumabas sa window
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = laging i-check ang files kapag ang file ay nadagdagan/nabura/pinagalanan
+IDC_CHK_SNAP                            = Snap Window
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Ipakita ang [..] directory sa archive
+IDC_CHK_SHOW_GRID_AT_LIST               = Ipakita ang gridlines sa mga detail view
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Lahat ng row ay napili
+IDC_CHK_ONE_CLICK_ACTIVATE              = I-single Click para mabuksan ang item
+IDC_STATIC_UPDATE                       = Mga Setting ng Update
+TEXT_UPDATE_0                           = Magsabi at I-install ang Latest Version
+TEXT_UPDATE_1                           = Magsabi at I-install ang Stable version lamang
+TEXT_UPDATE_2                           = Wag magsabi kapag may mga update
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Asosasyon sa mga File
+IDC_BTN_SELECT_MANDATORY                = Piliin ang mga Essential
+IDC_BTN_SELECT_ALL                      = Piliin lahat
+IDC_BTN_CLEAR_ALL                       = Wag piliin lahat
+IDC_BTN_APPLY_NOW                       = Apply Ngayon
+IDC_STATIC_ICON_PACK                    = Pumili ng Icon Pack:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Icon Pack Download]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - I-set and default na programa
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Asosasyon sa mga Extension
+;IDC_STATIC_ASSOC_DESC1                 = Para sa Windows 8 o sa latest versions, makakapag associate ang files as follows:
+;IDC_STATIC_ASSOC_DESC2                 = 1. I-Click ang sumusunod "Association Settings" button.
+;IDC_STATIC_ASSOC_DESC3                 = 2. I-Check "Select All" Sa Program Association Settings window.
+;IDC_STATIC_ASSOC_DESC4                 = 3. I-Click ang "Save" button.
+;IDC_STATIC_ASSOC_DESC1_10              = Para sa Windows 10 o latest versions, makakapag associate ang files as follows:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. I-Click the sumusunod "Association Settings" button.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. I-Select "Bandizip" sa Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. I-Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Association Settings
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Classic method
+LIST_COLUMN0                            = Ekstensyon
+LIST_COLUMN1                            = Default na App
+IDC_BTN_CHANGE                          = Palitan
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Double-click Action
+IDC_RADIO_SHELL_OPEN_0                  = Buksan kasama ang Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Extract Automatically
+IDC_RADIO_SHELL_OPEN_2                  = Ipakita ang Context Menu
+IDC_RADIO_SHELL_OPEN_3                  = Extract Automatically sa designated folder
+IDC_BTN_SET_EXTRACT_FOLDER              = Browse...
+IDC_RADIO_SHELL_OPEN_4                  = Extract sa "Archive-Name" Folder
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = Extraction Menu
+IDC_CHK_SHELL_EXTRACT_HERE              = Extract Dito
+IDC_CHK_SHELL_EXTRACT_AUTO              = Extract Automatic
+IDC_CHK_SHELL_EXTRACT_SUB               = Extract sa "Archive-Pangalan" folder
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Dito at Burahin
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Dito (Smart) at Burahin
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = Extract sa another folder
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extract bilang administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Suriin ang Archive
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Buksan kasama ang Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Tignan ang Archive
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Limitahan ang preview ng files sa:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = Menu ng Kompresyon
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "I-Kompres sa "FileName.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = I-Kompres sa "FileName.zip" at Burahin
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = I-Kompres sa "FileName.zip" at email
+IDC_CHK_SHELL_ADD_TO_ZIP                = "I-dagdag sa "FileName,zip""
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "I-Kompres sa "FileName.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "I-Kompres sa "FileName.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "I-Kompres sa "FileName.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "I-Kompres sa "FileName.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "I-Kompres sa "FileName.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "I-Kompres sa "FileName.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "I-Kompres sa "FileName.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "I-Kompres sa "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "I-Kompres sa "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "I-Kompres sa "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "I-Kompres sa Kada "FileFolderName.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "I-Kompres sa Kada "FileFolderName.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = I-dagdag sa archive (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = I-Kompres bilang administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = I-Kompres sa custom na pangalan ng file
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${Pangalan}=Pangalan ng file, %Y=Taon, %m=Buwan, %d=Araw, %H=Oras, %M=Minuto, %S=Segundo
+
+IDC_STATIC_SHELL_BKGND                  = I-Right click ang white space para ma-bring up ang pop up menu sa Windows Explorer
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Gamitin ang "Bagong folder" function
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = I-Launch Command Window (cmd.exe) - Pindotin ang Shift para ma-open ang cmd.exe as administrator
+
+IDC_STATIC_SHELL_ETC                    = Iba pa
+IDC_CHK_SHELL_DO_NOT_USE                = I-Disable ang context menu
+IDC_CHK_SHELL_AS_SUB_MENU               = Cascaded context menu
+IDC_CHK_SHELL_HIDE_ICON                 = Itago ang Icon ng Bandizip
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Distinguish archive file through the content
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Ipakita ang archive context menu kahit para sa archive files
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Gamitin ang file/folder name napili ng mouse cursor kapag pumipili ng multiple files/folders
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Mag lagay ng mga file direkta sa ZIP sa paraang drag and drop sa explorer
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Extraction Settings
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Kung meron lamang itong Isang ugat na folder sa archive, Ipakita ang files sa folder
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Buksan ang folder pagkatapos ng extracting
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = wag isarado ang progress window pagkapos ng extracting
+IDC_CHK_FAST_DRAG_DROP                  = Gamitin ang Fast Drag and Drop kung ang extract file ay malaki
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = I-Extract ang TGZ, TBZ file ng paisa-isa
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = kahit para sa malaking file size ng TGZ, TBZ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Kapag gumamit ng 'Extract Automatically', extract file sa isang bagong folder kung isa lamang ang file sa archive
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = I-Detect ang Macintosh code page ng automatic
+IDC_CHK_UNIXZIP_AS_UTF8                 = Gamitin ang UTF-8 code page kapag binuksan mo ang zip file mula sa UNIX
+IDC_CHK_PARALLEL_EXT                    = Gumamit ng Mag-kahilera na pag-Extract kung posible
+IDC_STATIC_CODEPAGE                     = Default Code page
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = I-Execute and mga sumusunod na uri ng file pagkatapos ma unpack ang lahat pag na double-click
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Compression Settings
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = wag gumawa ng root folder kapag nag-compress ka lamang ng isang folder
+IDC_CHK_USE_UTF8_COMPRESS               = Gumamit ng Unicode file names sa Zip files (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Gumamit ng Unicode file names sa tar,tgz files (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Laging gumamit ng ZIP64 format kahit ang file size ay mas mababa sa 2GB (hindi inire-rekommenda)
+IDC_CHK_EXCLUDE_THUMBSDB                = Exclude ang thumbs.db file kapag nag a-archiving
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Save NTFS time information kapag gumagawa ng Zip files
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Gumamit ng High Speed Archiving
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = wag isarado ang progress window pagkatapos ng archiving
+IDC_STATIC_COMPRESSION_METHOD           = Compression Level:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Subukan ang Archive pagkatapos ng Kompresyon
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = gamitin ang latest folder para sa bagong Archive
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Default folder para sa bagong Archive
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Browse...
+IDC_CHK_EXCLUDE_FILTER                  = File types para exclude kapag nag a-archiving
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Viewer Settings
+IDC_CHK_SHOW_PREVIEW                    = I-Preview ang imahe
+IDC_CHK_SHOW_FOLDER_SIZE                = Ipakita ang Kompres/Orihinal na size ng folder
+IDC_CHK_SET_LISTCONTROL_FONT            = I-Set ang Font ng listahan ng file
+IDC_BTN_SET_FONT                        = I-Set ang Font....
+
+IDC_STATIC_SETTING_VIEWITEM             = Columns
+IDC_CHK_VIEWITEM_COMPSIZE               = Compressed Size
+IDC_CHK_VIEWITEM_ORIGSIZE               = Original Size
+IDC_CHK_VIEWITEM_KIND                   = File Type
+IDC_CHK_VIEWITEM_DATE_MOD               = Date Modified
+IDC_CHK_VIEWITEM_COMPMETHOD             = Compression Method
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Encryption Method
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = File Attributes
+IDC_CHK_VIEWITEM_COMMENT                = File Comment
+IDC_CHK_VIEWITEM_EXT                    = Karagdagang Impormasyon
+
+IDC_STATIC_IMAGE_VIEWER                 = Image viewer
+IDC_RADIO_IMAGE_VIEWER_0                = Gamitin ang internal image viewer
+IDC_RADIO_IMAGE_VIEWER_1                = Gamitin ang associated program
+IDC_RADIO_IMAGE_VIEWER_2                = Gamitin ang Honeyview kung naka-installed
+
+IDC_STATIC_EDITOR                       = Editor
+IDC_BTN_SET_EDITOR_PATH                 = Browse...
+
+IDC_STATIC_COLOR                        = Kulay
+IDC_STATIC_COLOR_THEME                  = Kulay ng Theme
+IDC_BTN_BKGND                           = Napili
+IDC_STATIC_COLOR_TEXT                   = Kulay ng Font
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = Puti
+IDC_STATIC_COLOR_TEXT_BLACK             = Itim
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Mga Setting ng Security
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Zone ng Copy. Taga-suri ng Impormasyong ng isang archive na nadownload mula sa internet habang nag-eextract
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Tignan/Check kung may Malware bago I-Extract
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = I-Export ang settings ng Bandizip
+IDC_STATIC_ETC                          = Miscellaneous Settings
+IDC_CHK_SET_TEMP_FOLDER                 = I-Set ang lokasyon ng pansamantalang folder
+IDC_BTN_SET_TEMP_FOLDER                 = Browse...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = I-Recognize ang mga sumusunod na uri ng file bilang mga archive file
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Burahin ang temporary file kapag lumabas ang child process
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Ilipat ang files sa Recycle Bin kapag nagbura
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = ipakita ang latest archive history
+IDC_CHK_USE_LONG_PATH_NAME              = I-Handle ang mahabang pangalan ng path na lalagpas ng 260 na karakter
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Payagan ang Windows Explorer na burahin ang bukas na archive files
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = I-Expand ang folder tree automatically
+IDC_CHK_USE_MODAL_DIALOG                = Gumamit ng modal dialog box kapag nag-archive/extract
+IDC_CHK_USE_ELEGANT_UI                  = Gumamit eleganteng UI design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Ipakita ang 'Unang Screen' kapag nag-bukas ang Bandizip
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Ipakita ang Buong path sa title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Burahin ang extracted na files kapag ang extraction ay kinansela
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Zone ng Copy. Taga-suri ng Impormasyong ng isang archive na nadownload mula sa internet habang nag-eextract
+IDC_CHK_USE_SET_END_OF_FILE             = Pre-Allocate na Disk Space para Output na file
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = I-Kompres ang File kahit ang file ay ginagamit ng ibang proseso
+IDC_CHK_DO_NOT_USE_RICHEDIT             = Huwag gamitin ang Rich Edit Control
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Settings ng Wika
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Gusto mo Tumulong ma-Translate itong Program? Pindutin ito...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (Self Extracting Archive) Settings
+IDC_STATIC_TARGET_PATH                  = Path para ma-extract:
+IDC_STATIC_TITLE                        = Titulo ng SFX:
+IDC_STATIC_RUN                          = I-Run Pagkatapos ng extraction:
+IDC_STATIC_MESSAGE                      = Mensahe ng SFX:
+IDC_CHK_AUTO_CLOSE                      = Isarado ang SFX window Pagkatapos ng extraction
+IDC_BTN_SAVE_SFX_SETTING                = I-Save ang Settings
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Hanapin ang Files
+IDC_STATIC_FIND                         = Hanapin ang Ano:
+IDC_BTN_CLOSE                           = Sarado
+IDC_BTN_DELETE                          = Burahin
+IDC_BTN_EXTRACT                         = Extract
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Koment sa Archive
+IDC_STATIC_COMMENT                      = Mag-Dagdag/I-Edit ang Komento sa archive na ito
+IDC_CHK_USE_UTF8                        = I-Save ang Komento Bilang Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = I-Load ang Komento Mula sa file (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = BABALA!
+IDC_STATIC_WARN_EXECUTABLE              = Itong file ay isang executable file. Pagpapatakbo Nitong program ay pwedeng Ikasama ng Iyong Kompyuter. Gusto Mo Bang Ituloy?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Wag ako tanunging ulit
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = I-Rehistro ang Bandizip
+IDC_STATIC_DESC1                        = Ilagay ang Email Address at ang Product key na iyong natanggap sa iyong Email
+IDC_STATIC_EMAIL                        = Email Address
+IDC_STATIC_PRDUCT_KEY                   = Product Key
+IDC_BTN_REGISTER                        = I-Rehistro ngayon
+IDC_STATIC_BUYNOW                       = Di mo Pa nabili ang Bandzip?[Bilhin Nhayon]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Gabay para Lisensya ng Bandizip
+TEXT_LIMIT_PASSMAN                      = Isang Password Lamang ang pwedeng itago sa Manager ng Standard Edition ng Bandizip
+TEXT_SHOW_AD                            = Ads ay pwedeng magpakita sa Standard Edition. Pwedeng Bilhin ang Paid Edition para ito ay matanggal
+TEXT_CANNOT_CHANGE                      = Itong Feature ay hidi pwedeng mabago sa Standard Edition. Pwedeng Bilhin ang Paid Edition para para Mabago itong Feature na ito
+TEXT_CANNOT_USE                         = Ang Feature na ito ay hindi available sa Standard Edition ng Bandizip. Pwede mong Bilhin ang Paid Edition para magamit ito
+TEXT_PORTABLE_NOTICE                    = Ang Feature na ito ay hindi available sa Portable Edition ng Bandizip. Pwede mong Bilhin ang Paid Edition para magamit ito
+IDC_STATIC_COMPARISON                   = Pinagkaiba ng mga Edition
+IDC_STATIC_HOWTOREGISTER                = Nabili mo na ang Bandizip? [Paano I-rehistro]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Kumpunihin ang Archive
+IDC_STATIC_SRC                          = File para ayusin
+IDC_STATIC_DST                          = Naayos na File
+IDC_BTN_START                           = Simulan ayusin
+IDC_BTN_TEST                            = Subukan ang Pag-ayos
+IDC_BTN_STOP                            = Ihinto
+TEXT_NOTICE                             = I-Browse at Piliin ang "File para Ayusin" at Pinduting ang Simulan ayusin
+TEXT_ERR_OCCURRED                       = May Error na nagyari
+TEXT_ERR_NOT_A_ZIP                      = Ang Napiling File ay Hindi Suportadong Format. ZIP Format lamang ang Maari sa ngayon
+TEXT_ERR_NO_INFO                        = Ang napiling file ay walang data para ayusin
+TEXT_MSG_START                          = Sinisimulan na ang pag-aayos
+TEXT_MSG_FINISH                         = Ang Pag-ayos ay Nakumpleto na
+TEXT_MSG_ANALYZING                      = Sinisuri
+TEXT_MSG_CANCELED                       = Ang pag-ayos ay nakansela
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Pumili ng file ( .zip) Bago umpisahan ang pag ayos
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = Maraming mga Bandizip anf naka-install sa iyong sistema. Burahin ang isa para maiwasan ang mga problema
+CMD_UNINST_MSSTORE                      = I-Uninstall Bandizip MSE
+CMD_UNINST_PROGFILES                    = I-Uninstall Bandizip
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Buksan
+$TOOLBAR_CLOSE_FILE                     = Sarado
+$TOOLBAR_EXTRACT_FILE                   = Extract
+$TOOLBAR_CREATE_ARCHIVE                 = Bago
+$TOOLBAR_DELETE_FILE                    = Delete
+$TOOLBAR_ADD_FILE                       = Mag-Dagdag ng File
+$TOOLBAR_TEST_ARCHIVE                   = Test
+$TOOLBAR_CODEPAGE                       = Code page
+$TOOLBAR_VIEWITEM                       = Kolumns
+$TOOLBAR_SCAN                           = I-Scan
+
+$TOOLBAR_OPEN2                          = Buksan ang Archive
+$TOOLBAR_CREATE_ARCHIVE2                = Bagong Archive
+
+$TEXT_DESKTOP                           = Desktop
+$TEXT_DOCUMENT                          = Documents
+$TEXT_PICTURE                           = Pictures
+$TEXT_COMPUTER                          = Computer
+
+$TEXT_SETTINGTAB_GENERAL                = General
+$TEXT_SETTINGTAB_ASSOC                  = Asosasyon
+$TEXT_SETTINGTAB_SHELL                  = Menu ng Context
+$TEXT_SETTINGTAB_EXTRACT                = Extraction
+$TEXT_SETTINGTAB_ARCHIVE                = Kompresyon
+$TEXT_SETTINGTAB_VIEWER                 = Viewer
+$TEXT_SETTINGTAB_SECURITY               = Sekyurity
+$TEXT_SETTINGTAB_ETC                    = Miscellaneous
+$TEXT_SETTINGTAB_LANG                   = Wika
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Buksan ang Lokasyon ng file
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Buksan ang Lokasyon ng arhive
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Buksan ang Lokasyon ng file pagkataos ng pag-extract
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Buksan ang Lokasyon ng arhive
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Buksan ang Destinasyon ng folder
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Wag ang isarado itong window pagkatapos ng extractsyon
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Wag ang isarado itong window pagkatapos ng archiving
+$TOOLTIP_ADVANCED_MENU                  = Miscellaneous Settings
+$TOOLTIP_REGISTER                       = I-Rehistro ang Bandizip
+$TOOLTIP_UPDATE                         = Update
+$TOOLTIP_PREVIEW                        = Tignan ng malaki ang mga Icon
+$TOOLTIP_REPORT                         = Tignan ang mga detalye
+
+$TEXT_INSTALL_START                     = OKAY, Susubukan ko
+$TEXT_INSTALL_CLOSE                     = Hindi, Salamat
+$TEXT_INSTALL_HONEYVIEW_LINK            = Tumingin pa ng iba...
+
+$TEXT_HELP_PAGE                         = Help Page [Tulong
+$TEXT_AD                                = AD
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Bagong Folder
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Bagong Folder
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Buksan kasama ang Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Test Archive
+TEXT_MENU_LAUNCH_CMD                    = &I-Launch ang Command Window
+TEXT_MENU_LAUNCH_CMD_ADMIN              = I-Launch ang Command Window (Bilang Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = I-Kompres sa &Kada pangalan ng file/folder
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "I-Kompres sa "Kada pangalan ng file/folder.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "I-Komp&res sa "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = I-Kompres sa "${str1}" at ema&il...
+TEXT_MENU_ARCHIVE_ZIPX                  = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "I-Kompres sa "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "I-Kompres sa Kada "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "I-Kompres sa Kada "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = I-Kompres sa"${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Idagdag sa archive (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = I-Kompres bilang Administrator
+
+TEXT_MENU_EXTRACT_HERE                  = &I-Extract Dito
+TEXT_MENU_EXTRACT_AUTO                  = I-Extract &Automatically
+TEXT_MENU_EXTRACT_AUTO_EACH             = I-Extract &Automatically (Kada Isa)
+TEXT_MENU_EXTRACT_SUB                   = I-Extract sa kada archive para &mahiwalay ang folder
+TEXT_MENU_EXTRACT_ARCHIVENAME           = I-Extract &sa ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = I-Extract sa Ibang folder...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = I-Extract bilang Administrator
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = Preview
+TEXT_MENU_PREVIEW_BROKEN                = Itong file aay kahit na [br] Di alam na format o sira
+TEXT_MENU_PREVIEW_TIMEOUT               = Ang request ay nag timed out.
+TEXT_MENU_PREVIEW_EMPTY                 = walang lamang archive file
+TEXT_MENU_PREVIEW_ENCRYPTED             = Pangalan ng File ay encrypted
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Hindi magamit ang Preview Archive function. [br][br]I-Restart ang Windows Explorer o [br]I-Restart ang Iyong Komputer.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Cannot read File List
+
+TEXT_MENU_OPENING                       = Binubuksan...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip Updates
+TEXT_UPDATER_TEXT1                      = Bandizip updates ay handa na.
+TEXT_UPDATER_TEXT_DL                    = Gusto mo na bang I-download ngayon?
+TEXT_UPDATER_BTN_UPDATE                 = Update
+TEXT_UPDATER_BTN_OK                     = OKAY
+TEXT_UPDATER_BTN_CANCEL                 = Kancel
+TEXT_UPDATER_DOWNLOAD_ERROR             = Ang Download ay Nabigo.
+TEXT_UPDATER_SETTING_UPDATE             = Settings
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Ang Target na Path:
+BTN_SELECT_FOLDER                       = Browse...
+BTN_EXTRACT                             = Simulan
+BTN_CLOSE                               = Sarado
+BTN_CANCEL                              = Kancel
+BTN_OPEN_FOLDER                         = Buksan
+CHK_OVERWRITE                           = Overwrite
+ERR_ERROR_OCCURRED                      = Isang error ang nangyari
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = Ang kaparehong file ay nagawa na. Gusto mo bang I-overwrite?
+MSG_COMPLETED                           = Extraction successful!
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = Ang file ay encrypted.
+IDC_BTN_SHOW_PASSWORD                   = Ipakita ang Password
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Hindi ma-extract ang files.
+TEXT_ERR_CRC                            = CRC error.
+TEXT_ERR_INVALID_PASSWD                 = Maling password.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = I-Install ang ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = I-unisntall ang ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Pindutin para simulan ang Uninstallation
+
+$BTN_CLOSE                              = I-Sarado
+$BTN_CANCEL                             = I-Kancel
+$BTN_INSTALL                            = I-Install at Sumang-ayon
+$BTN_UNINSTALL                          = I-Unistall
+$BTN_OPEN_LICENSE                       = [Buksan ang Lisensya]
+$BTN_HELP_LINK                          = [Tulong]
+
+$TEXT_PATH                              = Destinasyong Folder
+$TEXT_INSTALL_STATIC                    = Nag-Iinstall...
+
+$CHK_AUTO_REPORT                        = Automatic ipadala ang Usage Statistics at Crash Reports
+
+ERR_CANT_CREATE_FOLDER                  = Hindi makagawa ng Folder:${str1}
+ERR_CANT_OPEN_FILE                      = Hindi mabuksan ang File:${str1}
+ERR_CANT_WRITE_FILE                     = Hindi Makasulat ng File:${str1}
+ERR_BROKEN_ARCHIVE                      = Sirang Archive:${str1}
+ERR_CRC_ERROR                           = May Error ang CRC:${str1}
+ERR_NOT_ENOUGH_MEM                      = Hindi sapat na Espasyo sa Memory
+
+MSG_FILE_OPEN_ERROR                     = May Error sa pagbukas ng file para masulat:[br] "${str1}"[br]I-clickpara I-abort at mahinto ang Installlation,[br]Subukan ulit, o[br]I-skip o lagpasan nalang ang file na ito
+MSG_SUCCESS                             = Tapos na at Tagumpay ang Installation
+MSG_ERROR                               = May Error na nangyari
+MSG_SELECT_FOLDER                       = Mamili ng Folder
+MSG_STILLRUN_EXIT_PROGRAM               = Ang Bandizip ay Nakabukas pa. Isarado ang program muna.
+MSG_XP_IS_NOT_SUPPORTED                 = Itong software Ay gagana lamang ng maayos sa Windows Vista at iba pang mas mataas na OS.
+MSG_NEED_ADMIN_PRIVILEGE                = Itong program ma-install lamang sa pamamagitan ng isang user may administrator privileges.[br][br]Non-administrative users ay hindi maaring i-install ang program maayos.[br][br]Gusto mo bang Itigil ang installation?
+MSG_NEWVERSION_FOUND                    = Meron ng bagong Bersyon, Gusto mo bang I-download
+SHORTCUT_LINK_DESCRIPTOIN               = I-Launch ${APPNAME}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

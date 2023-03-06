@@ -1,0 +1,928 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Indonesia
+TRANSLATORS                             = Mail : melodiscreams@gmail.com ,Twitter = @intelpentium6
+
+
+[TEXT]
+TEXT_BUILDNO                            = Bentukan#
+TEXT_FILE                               = Berkas
+TEXT_FOLDER                             = Folder
+TEXT_ARCHIVE_SIZE                       = Ukuran Berkas
+TEXT_ORIGINAL_SIZE                      = Ukuran Asli
+TEXT_ARCHIVE_FORMAT                     = Jenis Arsip
+TEXT_COMPRESSED_SIZE                    = Ukuran Terkompresi
+TEXT_SOLID                              = Padat
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Ukuran Terkompresi (${str1})
+TEXT_PORTABLE                           = Portabel
+TEXT_NEW_FOLDER                         = Folder Baru
+TEXT_FILESIZE_UNKNOWN                   = Tak Dikenal
+TEXT_FILEDATE_UNKNOWN                   = Tak Dikenal
+TEXT_HELP_LINK                          = [Bantuan]
+TEXT_APP_DESC                           = Bandizip adalah Pengarsip yg ringan, cepat dan gratis. Bisa menangani format Kompresi terkemuka , seperti Zip, 7z, Rar, and lainnya.
+
+TEXT_MESSAGEBOX_OK                      = OKE
+TEXT_MESSAGEBOX_CANCEL                  = Batal
+TEXT_MESSAGEBOX_ABORT                   = Gagal
+TEXT_MESSAGEBOX_RETRY                   = Ulangi
+TEXT_MESSAGEBOX_IGNORE                  = Abaikan
+TEXT_MESSAGEBOX_YES                     = Ya
+TEXT_MESSAGEBOX_NO                      = Tidak
+TEXT_MESSAGEBOX_CONTINUE                = Lanjutkan
+TEXT_MESSAGEBOX_HELP                    = Bantuan
+
+TEXT_COLUMN_NAME                        = Nama
+TEXT_COLUMN_COMPSIZE                    = Kompresi
+TEXT_COLUMN_ORIGSIZE                    = Original
+TEXT_COLUMN_KIND                        = Tipe
+TEXT_COLUMN_DATE_MOD                    = Dimodifikasi
+TEXT_COLUMN_COMPMETHOD                  = Metode Kompresi
+TEXT_COLUMN_ENCRMETHOD                  = Metode Enkripsi
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Atribut
+TEXT_COLUMN_COMMENT                     = Komentar
+TEXT_COLUMN_PATHNAME                    = Lokasi
+
+TEXT_ICONPACK_NAME                      = Nama
+TEXT_ICONPACK_DESIGNER                  = Perancang
+TEXT_ICONPACK_COPYRIGHT                 = Hakcipta
+
+TEXT_ARCHIVE_COLUMN_NAME                = Nama
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Ukuran
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Lokasi Folder
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Ukuran Keseluruhan
+
+TEXT_SELECT_ARCHIVE_FILE                = Pilih Berkas
+TEXT_SELECT_TEXT_FILE                   = Pilih Berkas
+TEXT_SELECT_DEST_FOLDER                 = Pilih Folder Tujuan
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Arsip Berkas
+TEXT_REGISTRY_FILE                      = Berkas Registry
+
+TEXT_OPENDLG_ARCHIVEFILES               = Arsip Berkas Berkas
+TEXT_OPENDLG_ARCHIVEFILE                = Archive File
+TEXT_OPENDLG_ALLFILES                   = Semua Berkas
+TEXT_OPENDLG_EXEFILES                   = Berkas Exe
+
+TEXT_ABOUTBOX_TAB1                      = Tentang Bandizip
+
+TEXT_ASSOC_GROUP0                       = Arsip Berkas
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = LAINNYA
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Untuk membuka berkas ini, unduh versi terbaru dari Bandizip
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = PILIH hanya bagian pertama dari berkas yang terbagi
+TEXT_OPENERR_CANT_OPEN_FILE             = Tidak bisa membuka berkas (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Tidak bisa membuka berkas (${str1}) berkas sedang digunakan oleh program lain.
+TEXT_OPENERR_GENERAL                    = Tidak bisa membuka berkas(${str1}) (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Dibatalkan
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Format berkas tidak diketahui (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ${str1} bukan berkas arsip
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Format tidak didukung (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Enkripsi tidak didukung (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Masukkan kata sandi
+TEXT_OPENERR_INVALID_PASSWORD           = Kata sandi salah
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Tidak bisa membuka berkas ini karena header berkas rusak
+
+TEXT_ERR_INIT_FAILED                    = Gagal menginisialisasi
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Kata sandi salah / tidak ada berkas dalam arsip
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Kata sandi tidak cocok
+TEXT_ERR_PASSWORD_NOT_SET               = Diperlukan Kata sandi
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Kata sandi anda memuat karakter yg tidak valid. Hanya masukkan alphanumerik atau karakter khusus
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = ukuran berkas yg terbagi tidak benar
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = Ukuran  SFX (Self Extracting Archives) dibatasi sampai 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Kesalahan Internal
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Tidak bisa mengubah berkas.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Terjadi kesalahan ketika mengubah arsip
+TEXT_ERR_INVALID_FOLDER_PATH            = Lokasi folder salah
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Hanya berkas ZIP yang bisa di edit
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Tidak bisa merubah berkas yang terbelah
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Tidak bisa merubah berkas Self-Extracting (*.exe).
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Tidak bisa merubah berkas yang rusak.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Tidak bisa merubah Arsip ini
+TEXT_ERR_CANT_CHANGE_FILENAME           = Tidak bisa merubah nama berkas
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Tidak bisa menggunakan nama berkas dengan [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Ada berkas/folder yang sama. Tidak bisa mengganti nama berkas (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Tidak bisa membuat folder
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Tidak ada berkas untuk di arsipkan
+TEXT_ERR_INVALID_PARAM                  = Parameter salah
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Tidak bisa menambahkan berkas ke arsip. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Tidak bisa membuka arsip ini[br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Terdapat folder yang sama.
+TEXT_ERR_FILENAME_EMPTY                 = Nama berkas salah.
+TEXT_ERR_AT_DRAGANDDROP                 = Drag & Drop gagal.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = "Drag & Drop gagal. [br]Bandizip mematikan fungsi 'Fast Drag and Drop'"
+TEXT_ERR_AT_CANT_OPEN_MMF               = Gak bisa membuka MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Tak ada berkas terpilih
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Tidak dapat membuat folder untuk pemasangan paket ikon.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Tidak dapat membuat berkas untuk pemasangan paket ikon.
+TEXT_ERR_AT_EXECUTE_DIRECT              = Tidak bisa membuka berkas ini, extrak berkas dan coba lagi.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Tidak dapat membuat berkas lebih dari 4Gb.[br]Silahkan pilih format berkas yang lain (ZIP / 7Z).
+TEXT_ERR_CANT_SAVE_AS                   = Tidak dapat menyimpan berkas ini.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip mengalami masalah ketika mengedit berkas.(${str1})[br][br]Apa anda ingin mengirimkan laporan kesalahan ke Bandisoft?[br][br]mengirimkan laporan ini dapat membantu Bandisoft dalam meningkatkan Bandizip.
+
+TEXT_MSG_TEST_OK                        = Tidak terdapat kesalahan dalam arsip ini.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Proses ekstrak gagal. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Ekstrak berhasil.
+TEXT_MSG_EXTRACT_CANCELED               = Proses Ekstrak dibatalkan.
+TEXT_MSG_COMPRESS_SUCCESS               = Selesai mengarsipkan.
+TEXT_MSG_INTERNAL_ERROR                 = Kesalahan internal.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Tidak bisa membuka berkas di folder TEMP:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Tidak dapat menghapus berkas arsip ini.
+TEXT_MSG_CRASH_REPORT                   = Program Eror. Keluar dari Program.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip mengalami kendala & perlu di tutup. Apa anda ingin mengirim laporan kesalahan kepada Developer Bandizip ?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip tak merespon.[br][br]Apa anda ingin mengirim laporan kerusakan kepada Developer Bandizip developer & menutup program?
+TEXT_MSG_SET_TEMP_PATH                  = Atur lokasi sementara
+TEXT_MSG_SET_PATH                       = Atur Lokasi.
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Paket Ikon berhasil terpasang.
+TEXT_MSG_NOTICE_RESTART                 = Program ini akan di restart
+TEXT_MSG_ARCHVIE_OPENING                = Sedang membuka arsip.
+TEXT_MSG_COMPLETING                     = Menyelesaikan: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Tidak bisa membuat folder.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Tidak bisa mengkompres folder kedalam .GZ/XZ archive.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = "Tidak bisa mengkompres banyak berkas kedalam .GZ/XZ archive. Harap periksa lagi Pilihan "Kompres ke setiap nama berkas/folder""
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip di minimized ke sistem tray. Klik icon tray untuk menampilkan.
+TEXT_MSG_TRAY_COMPLETED                 = Tugas sudah selesai
+TEXT_MSG_BATCH_ARCHVING                 = Mengarsipkan: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Mengekstrak: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Menguji: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Menghapus: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Gagal menghapus: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Sedang memproses...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Jika karakter tidak tampil dengan benar, klik <font color=red><b>Pengkodean</b></font> diatas dan coba <font color=red><b>Auto detect</b></font>menu.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Arsip akan dihapus.[br]mau menghapus arsip ini?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Apa anda ingin menghapus arsip ini?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Apa anda ingin menghapus arsip ini secara permanen ?
+TEXT_ASK_CHANGE_FILENAME                = Ada arsip yang sama.[br][br]anda ingin mengganti nama berkas dari ${str1} menjadi ${str2}?
+TEXT_ASK_DELETE_FILE                    = Apa anda mau menghapus berkas yang terpilih?
+TEXT_ASK_STOP_EXTRACT                   = Apa anda mau menghentikan proses ekstrak?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Ada berkas yang sama.[br][br]timpa berkas?
+TEXT_ASK_INIT_SETTING                   = Apa anda ingin mengembalikan ke setelan awal? Bandizip akan restart
+TEXT_ASK_STOP_ARCHIVING                 = Apa anda ingin berhenti membuat arsip?
+TEXT_ASK_STOP_MODIFYING                 = Apa anda ingin menghentikan operasi ini?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Apa anda ingin menetapkan perubahan pada arsip [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Apa anda ingin memasang dan menerapkan paket ikon (${str1})?
+TEXT_ASK_MAKE_FOLDER                    = Tidak ada folder. Apa anda ingin membuat Folder?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Folder tujuan tidak mengijinkan untuk melakukan penulisan.[br][br]- ${str1}[br][br]apa anda ingin melanjutkan?
+TEXT_ASK_CONT_NOFREESPACE               = tidak cukup ruang simpan di Folder tujuan. Ganti folder tujuan. [br][br]- ${str1}[br][br]apa anda ingin melanjutkan?
+TEXT_ASK_ASK_UAC_ELEVATION              = Anda tidak punya izin untuk mengubah berkas ini. [br][br]Apa anda ingin menjalankan ulang program sebagai administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Tidak bisa membuka arsip berkas ini. [br][br]Apa anda ingin membuka bagian pertama dari berkas yg dibelah? (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Jika anda menghapus berkas setelah proses pengarsipan, anda bisa kehilangan data penting dari berkas tersebut jika berkasnya rusak.[br][br]Apa anda ingin mengeceknya menggunakan pilihan "Tes Berkas"?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Tidak cukup ruang untuk mengekstrak. Apa anda ingin melanjutkan?[br][br]Folder Tujuan: ${str1}[br]Ruang sisa: ${str2}[br]Ukuran berkas: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Berkas ini rusak
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Berkas ini rusak atau memerlukan berkas yang  lainnya
+
+TEXT_BTN_PAUSE                          = Jeda
+TEXT_BTN_RESUME                         = Lanjutkan
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Terjadi kesalahan
+TEXT_ERRDLG_USER_ABORT                  = Digagalkan
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Tidak bisa membuka berkas ini
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Tidak dapat membuka berkas ini karena sedang digunakan oleh program lain.
+TEXT_ARKERR_PASSWORD_NOT_SET            = Perlu kata sandi
+TEXT_ARKERR_INVALID_PASSWD              = Kata sandi salah
+TEXT_ARKERR_USER_ABORTED                = Digagalkan
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC eror
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Tidak bisa membuka berkas keluaran
+TEXT_ARKERR_CANT_READ_DATA              = Tidak dapat membaca data arsip
+TEXT_ARKERR_INFLATE_FAILED              = Data Eror - berkas ini rusak
+TEXT_ARKERR_BZIP2_ERROR                 = Data Eror - berkas ini rusak
+TEXT_ARKERR_DATA_CORRUPTED              = Berkas ini rusak atau memerlukan berkas yang  lainnya
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Tidak bisa membuka berkas ini
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Tidak bisa membuat folder
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Metode kompresi tidak didukung
+TEXT_ARKERR_WRITE_FAIL                  = Terjadi kesalahan ketika menulis
+TEXT_ARKERR_DISK_FULL                   = Penyimpanan Penuh
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Gagal membuat berkas. jalur berkas dan nama berkas tidak boleh melebihi 260 karakter.
+TEXT_ARKERR_CANT_CREATE_FILE            = Gagal membuat berkas
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Gagal membuar berkas. jalankan program dengan hak administrator.
+TEXT_ARKERR_USER_SKIP                   = Dilewati
+TEXT_ARKERR_FILE_TRUNCATED              = Bagian akhir berkas ini rusak / hilang.
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Kata sandi salah / berkas rusak.
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Berkas rusak
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Berkas Self-Extracting (*.exe) melebihi 4GB. anda tidak bisa mengesekusinya pada Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Tidak bisa membuka arsip ini. diperlukan berkas selanjutnya (.z01, .z02...).
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Tidak bisa membuka arsip ZIP ini diperlukan berkas selanjutnya(.z01, .z02...)
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Tidak bisa membuka arsip ini. diperlukan berkas selanjutnya
+TEXT_ARKERR_CORRUPTED_FILE              = Berkas ini rusak
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Tidak ada ijin menulis di folder ini
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Tidak ada ijin menulis di folder ini. jalankan program dengan hak administrato
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Tidak mendukung algoritma enkripsi
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Memory Tidak Cukup
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Memory Tidak Cukup. ganti tingkatan kompresi
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Tidak mendukung operasi ini
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Ukuran arsip terekstrak dan informasi arsip berbeda
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Tidak dapat membuat berkas lebih dari 4Gb. Silahkan pilih format berkas yang lain (ZIP / 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Nama berkas yang panjang otomatis diubah
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Tidak dapat membuka sumber berkas untuk di salin.
+TEXT_ARKERR_NOTIMPL                     = Tidak dapat dilaksanakan
+TEXT_ARKERR_CANT_READ_FILE              = Berkas tak terbaca.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Jalankan Bandizip sebagai administrator untuk membuat "symbolic link".
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Tidak bisa membuat "symbolic link".
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Tidak di bagi
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = isikan
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Tanpa Kompresi
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Kompresi Cepat
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Kompresi Normal
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Kompresi Maksimum
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Kompresi baru
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Tambahkan berkas ke arsip
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Namai ulang: ${str1}
+TEXT_TITLE_TEST_MODE                    = Tes arsip
+TEXT_TITLE_TEMPFOLDER_MODE              = Sedang mengekstrak ke folder sementara...
+TEXT_TITLE_MODIFYING                    = Merubah...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Berkas untuk di ekstrak
+TEXT_MSG_SELECTED_FILE                  = ${num1} Arsip terpilih
+TEXT_MSG_SELECTED_FOLDER                = ${num1} Folder terpilih
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} Arsip, ${num2} folder
+TEXT_MSG_SELECTED_FILESIZESUM           = Ukuran arsip terpilih: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Gagal memeriksa versi
+TEXT_UPDATE_VERSION_CHECKING            = Memeriksa versi
+TEXT_UPDATE_DOWNLOAD_FAILED             = Gagal mengunduh
+TEXT_UPDATE_LATEST_VERSION              = Terbaru
+TEXT_UPDATE_DO_DOWNLOAD                 = Perlu pembaruan
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Unduhan selesai
+
+TEXT_INSTALL_HONEYVIEW                  = Pasang Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview tak terpasang di komputer anda.
+TEXT_INSTALL_HONEYVIEW_2                = Cobalah Honeyview dikembangkan oleh Bandisoft.<br> mampu membuka gambar dalam berkas ZIP, RAR, 7z tanpa perlu mengekstark.
+
+
+
+[MENU]
+MENUSTR_FILE                            = &Berkas
+MENUSTR_EDIT                            = &Edit
+MENUSTR_SETTING                         = &Pengaturan
+MENUSTR_FIND                            = &Temukan
+MENUSTR_VIEW                            = &Tampilan
+MENUSTR_HELP                            = &Bantuan
+
+MENUSTR_OPEN                            = &Buka Arsip\tCtrl+O
+MENUSTR_RECENT                          = Recent Files
+MENUSTR_CLOSE_FILE                      = &Tutup Arsip\tF4
+MENUSTR_CREATE_ARCHIVE                  = &Arsip Baru\tCtrl+N
+MENUSTR_NEW_WINDOW                      = Jendela Baru \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Jendela Baru(Administrator)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Simpan sebagai
+MENUSTR_DELETE_ARCHIVE                  = Hapus Arsip \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Hapus Arsip secara PERMANEN \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Buka Lokasi Arsip
+MENUSTR_TEST_ARCHIVE                    = &Tes Arsip \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &Ekstrak berkas \tCtrl+E
+MENUSTR_EXIT                            = &Keluar \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Ubah nama berkas\tF2
+MENUSTR_ADD_FILE                        = &Tambah berkas \tIns
+MENUSTR_DELETE_FILE                     = &Hapus berkas \tDel
+MENUSTR_EDIT_COMMENT                    = Kometar arsip
+MENUSTR_SETTING_SUB                     = &Pengaturan (F5)
+MENUSTR_FIND_ITEM                       = T&emukan berkas \tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Salin berkas ke Clipboard\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Paste berkas dari Clipboard\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Start Screen \tF6
+MENUSTR_VIEW_TREECONTROL                = TreeView Control \tF7
+MENUSTR_VIEW_COMMENT                    = Komentar Arsip\tF8
+MENUSTR_VIEW_PREVIEW                    = Pratinjau Gambar
+MENUSTR_VIEW_TOOLBAR                    = Toolbar
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Besar
+MENUSTR_VIEW_TOOLBAR_MINI               = Kecil
+MENUSTR_VIEW_TOOLBAR_OLD                = Terdahulu
+MENUSTR_VIEW_TOOLBAR_HIDE               = Sembunyikan
+MENUSTR_VIEW_LISTVIEW                   = Daftar Berkas
+MENUSTR_VIEW_LISTVIEW_ICON              = Ikon
+MENUSTR_VIEW_LISTVIEW_LIST              = Daftar
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detail
+MENUSTR_VIEW_COLUMN                     = Kolom
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Selalu diatas
+MENUSTR_VIEW_COLOR_SETTING              = Pengaturan Warna...
+
+
+MENUSTR_ABOUT                           = &Tentang Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Menuju halaman bantuan
+MENUSTR_OPEN_FOLDER                     = &Buka Folder Bandizip
+MENUSTR_FORUM                           = Menuju ke &Forum Bandizip
+MENUSTR_HOMEPAGE                        = Menuju ke &Website
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Ukuran terkompres
+POPUPMENU_VIEWITEM_ORIGSIZE             = Ukuran asli
+POPUPMENU_VIEWITEM_KIND                 = Jenis berkas
+POPUPMENU_VIEWITEM_DATE_MOD             = Tanggal dimodifikasi
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Metode kompresi
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Metode enkripsi
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Atribut berkas
+POPUPMENU_VIEWITEM_COMMENT              = komentar berkas
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Ekstrak semua... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Ekstrak berkas-berkas terpilih...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = EKstrak semua disni
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Buka\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Buka dengan program terkait
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Edit\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Folder Baru
+POPUPMENU_LISTCONTROL_ADD_FILE          = Tambah berkas... \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Hapus berkas \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Ubah Nama berkas
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Pilih semua \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Pindahkan ke folder utama\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = HAPUS arsip
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Buka Folder Arsip
+
+POPUPMENU_EXTRACT_AUTODEST              = Ekstrak Otomatis
+POPUPMENU_EXTRACT_CURRENT               = Ekstrak ke folder ini
+POPUPMENU_EXTRACT_ARCHIVENAME           = Ekstrak ke "Nama-Arsip" Folder
+POPUPMENU_EXTRACT_DESKTOP               = Ekstrak ke Desktop
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Ekstrak otomatis ke Desktop
+
+POPUPMENU_RECENT_CLEAR                  = Hapus Riwayat
+POPUPMENU_RECENT_NOITEM                 = Tidak ada berkas terbaru
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Buka dengan Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Ekstrak otomatis
+
+POPUPMENU_CODEPAGE_DEFAULT              = Default
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Chinese Simplified
+POPUPMENU_CODEPAGE_TRADCHINESE          = Chinese Tradisional
+POPUPMENU_CODEPAGE_JAPANESE             = Jepang
+POPUPMENU_CODEPAGE_KOREAN               = Korea
+POPUPMENU_CODEPAGE_WINDOWS1252          = Eropa Barat
+POPUPMENU_CODEPAGE_WINDOWS1250          = Eropa Tengah
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cirillic
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turki
+POPUPMENU_CODEPAGE_WINDOWS737           = Yunani
+POPUPMENU_CODEPAGE_ARABIC               = Arab
+POPUPMENU_CODEPAGE_HEBREW               = Hebrew
+POPUPMENU_CODEPAGE_THAI                 = Thailan
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Deteksi Otomatis
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Tampilkan dengan Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Tampilkan dengan program lain
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Minimize ke tray
+DLG_MENUSTR_LOW_PRIORITY                = Prioritas Rendah
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Hapus Arsip setelah selesai Mengekstrak
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = OK
+IDCANCEL                                = BATAL
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Tentang Bandizip
+IDC_BTN_HOMEPAGE                        = Website
+IDC_BTN_UPDATE                          = Perbarui
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Buka arsip
+IDC_STATIC_OPENING                      = Sedang membuka
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Pilih Lokasi Ekstrak
+IDC_STATIC_FOLDER                       = &Lokasi tujuan
+IDC_STATIC_FILES2EXTRACT                = Ekstrak:
+IDC_RADIO_FILES2EXTRACT_0               = &Semua berkas
+IDC_RADIO_FILES2EXTRACT_1               = &Berkas terpilih
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Ekstrak ke "Nama-Arsip" dalam folder terpilih
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Hapus arsip asli setelah proses ekstrak
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = &Folder Baru
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Ekstrak
+IDC_BTN_STOP                            = Stop
+IDC_BTN_CLOSE                           = Tutup
+IDC_BTN_PAUSE                           = Jeda
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Arsip Baru
+IDC_STATIC_FILE_LIST                    = Tambahkan berkas ke arsip
+IDC_STATIC_ARCHIVE_SETTING              = Pengaturan Arsip
+IDC_STATIC_ARCHIVE_NAME                 = Nama Berkas
+IDC_STATIC_SET_DEST_FOLDER              = Target Folder
+IDC_STATIC_ARCHIVE_TYPE                 = Format Arsip
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Bagi menjadi volume
+IDC_STATIC_COMPRESSION_METHOD           = Level Kompresi
+IDC_STATIC_HELP_SPLIT                   = [Bantuan]
+IDC_STATIC_HELP_7Z                      = [format 7Z]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Jelajahi...
+IDC_BTN_TEST_ARCHIVE                    = &Uji arsip
+IDC_BTN_DELETE_SRC                      = Hapus berkas-berkas setelah mengarsipkan
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Kompres ke tiap nama berkas/folder
+IDC_BTN_SET_DEST_FOLDER                 = Ubah folder tujuan
+IDC_BTN_TOGGLE_ADVANCED                 = Pilihan Lainnya...
+IDC_BTN_SET_SFX                         = Pengaturan SFX...
+IDC_BTN_ADD                             = &Tambah...
+IDC_BTN_DEL                             = &Hapus
+IDC_BTN_START                           = &Mulai
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Kata sandi salah. masukkan ulang kata sandi.
+IDC_BTN_SHOW_PASSWORD                   = Perlihatkan kata sandi
+IDC_CHECK_APPLY_ALL                     = &Terapkan semua
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = Perlihatkan kata sandi
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Pilih
+IDC_BTN_OPEN                            = Buka
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Mengarsipkan
+TEXT_ARCHIVE_TESTING                    = Menguji
+IDC_BTN_STOP                            = Stop
+IDC_BTN_CLOSE                           = Tutup
+IDC_BTN_PAUSE                           = Jeda
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Berkas Duplikat
+IDC_STATIC_DUPE_MESSAGE                 = Terdapat Berkas yang sama
+IDC_STATIC_DUPEFILE_OLD                 = Berkas Original
+IDC_STATIC_DUPEFILE_NEW                 = Berkas ini
+IDC_STATIC_DUPE_ASK                     = Pilih opsi dibawah ini:
+IDC_RADIO_DUPE_METHOD0                  = &Lewati
+IDC_RADIO_DUPE_METHOD1                  = &Timpa
+IDC_RADIO_DUPE_METHOD2                  = &Ganti Nama
+IDC_CHECK_DUPE_APPLY_ALL                = &Terapkan pada semua berkas
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Pilih Opsi Arsip
+IDC_STATIC_ASK_HANDLING                 = Pilih Opsi dibawah ini:
+IDC_RADIO_HANDLE_METHOD0                = &Buka Arsip
+IDC_RADIO_HANDLE_METHOD1                = &Arsip baru
+IDC_RADIO_HANDLE_METHOD2                = &tambahkan berkas ke arsip ini
+IDC_CHK_PASS                            = Gunakan Kata Sandi
+IDC_STATIC_PASSWORD_AGAIN               = Masukkan ulang Kata Sandi
+IDC_CHK_SHOW_PASS                       = Perlihatkan Kata Sandi
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Pengaturan
+IDC_BTN_INIT                            = Atur Ulang
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Pengaturan Umum
+IDC_CHK_EXIT_WITH_ESC                   = Tombol ESC untuk keluar dari jendela
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Selalu periksa jika berkas ditambah/dihapus/dinamai ulang
+IDC_CHK_SNAP                            = Snap Window
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Perlihatkan direktori [..] dalam arsip
+IDC_CHK_SHOW_GRID_AT_LIST               = Tunjukkan Garis pada tampilan detail
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Memilih Garis Penuh
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Asosiasi Berkas
+IDC_BTN_SELECT_MANDATORY                = Pilih Esensial
+IDC_BTN_SELECT_ALL                      = Pilih Semua
+IDC_BTN_CLEAR_ALL                       = Jangan Pilih Semua
+IDC_BTN_APPLY_NOW                       = Terapkan
+IDC_STATIC_ICON_PACK                    = Pilih Paket Icon:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Unduh Paket Icon]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Asosiasi Extensi
+;IDC_STATIC_ASSOC_DESC1                 = Untuk Windows 8 dan terbaru, caranya:
+;IDC_STATIC_ASSOC_DESC2                 = "1. Klik tomboh "Pengaturan Asosiasi""
+;IDC_STATIC_ASSOC_DESC3                 = 2. Centangi "Select All" pada jendela Program Association Settings
+;IDC_STATIC_ASSOC_DESC4                 = "3. Klik tombol "Save""
+;IDC_STATIC_ASSOC_DESC1_10              = Untuk Windows 10 dan terbaru, caranya:
+;IDC_STATIC_ASSOC_DESC2_10              = "1. Klik tomboh "Pengaturan Asosiasi""
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Pilih "Bandizip" pada jendela Set Default Programs
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Klik "Set this program as default
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Pengaturan Asosiasi
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Metode klasik
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Aksi Klik ganda
+IDC_RADIO_SHELL_OPEN_0                  = Buka dengan Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Otomatis Ekstrak
+IDC_RADIO_SHELL_OPEN_2                  = Tampilkan konteks Menu
+IDC_RADIO_SHELL_OPEN_3                  = Otomatis Ekstrak ke folder yang ditunjuk
+IDC_BTN_SET_EXTRACT_FOLDER              = Jelajahi...
+IDC_RADIO_SHELL_OPEN_4                  = Ekstrak ke Folder "Nama-Arsip
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Hapus arsip setelah selesai mengekstrak dengan klik ganda
+
+IDC_STATIC_SHELL_EXTRACT                = Menu Pengekstrakan
+IDC_CHK_SHELL_EXTRACT_HERE              = Ekstrak disini
+IDC_CHK_SHELL_EXTRACT_AUTO              = Ekstrak secara otomatis
+IDC_CHK_SHELL_EXTRACT_SUB               = "Ekstrak ke folder "Nama-Arsip""
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Ekstrak disini dan HAPUS
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Ekstrak disini (Smart) dan HAPUS
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Ekstrak ke "Nama-Arsip" folder dan HAPUS
+IDC_CHK_SHELL_EXTRACT_DLG               = Ekstrak ke folder lain
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Ekstrak sebagai administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Tes Arsip
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Buka dengan Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Pratinjau Arsip
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Batasi berkas yang di Pratinjau menjadi:
+IDC_CHK_SHELL_PREVIEW_TREE              = Pratinjau arsip dengan struktur pohon
+
+IDC_STATIC_SHELL_ARCHIVING              = Menu Kompresi
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Kompres ke "NamaBerkas.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = "Kompres ke "NamaBerkas.zip" & email""
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Kompres ke "NamaBerkas.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Kompres ke "NamaBerkas.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Kompres ke "NamaBerkas.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Kompres ke "NamaBerkas.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Kompres ke "NamaBerkas.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Kompres ke "NamaBerkas.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Kompres ke "NamaBerkas.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Kompres ke "NamaBerkas.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Kompres ke "NamaBerkas.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Kompres ke "NamaBerkas.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "Kompres ke tiap "NamaFolderBerkas.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Kompres ke tiap "NamaFolderBerkas.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Tambahkan ke arsip (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Kompres sebagai administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Kompres ke nama berkas kustom
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${NAME}=Filename, %Y=Year, %m=Month, %d=Day, %H=Hour, %M=Minute, %S=Second
+
+IDC_STATIC_SHELL_BKGND                  = Klik kanan pada ruang putih untuk menampilkan menu pop up pada windows explorer.
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = "Gunakan fungsi "New Folder""
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Jalankan Command Window (cmd.exe) - Tahan Shift untuk membuka cmd.exe sebagai administrator
+
+IDC_STATIC_SHELL_ETC                    = Lainnya
+IDC_CHK_SHELL_DO_NOT_USE                = "Matikan "context menu""
+IDC_CHK_SHELL_AS_SUB_MENU               = Tampilkan ke bawah dalam context menu
+IDC_CHK_SHELL_HIDE_ICON                 = Sembunyikan ikon Bandizip
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Bedakan berkas arsip melalui isinya
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Tampilkan context menu arsip bahkan untuk berkas-berkas arsip
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Gunakan nama berkas/folder yg terpilih oleh kursor mouse ketika memilih banyak berkas/folder
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Pengaturan Ekstrak
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Jika hanya ada 1 folder dalam arsip, tampilkan berkas-berkas dalam folder
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Buka Folder setelah proses ekstrak
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Jangan tutup jendela proses setelah proses ekstrak
+IDC_CHK_FAST_DRAG_DROP                  = Gunakan "Fast Drag and Drop" Jika berkas ekstrak besar
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Ekstrak Berkas TGZ, TBZ secara Bersamaan
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Bahkan untuk berkas TGZ, TBZ yg berukuran besar
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Jika menggunakan'Ekstrak Otomatis',ekstrak berkas dalam folder baru jika hanya ada 1 berkas dalam arsip
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Deteksi "Pengkodean Macintosh" secara otomatis
+IDC_CHK_UNIXZIP_AS_UTF8                 = Gunakan Kode UTF-8 Jika membuka ZIP dari UNIX
+IDC_STATIC_CODEPAGE                     = Pengkodean Bawaan
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Ekstak Semuanya untuk..
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Pilihan Kompresi
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Jangan buat folder sumber jika hanya mengkompres 1 folder
+IDC_CHK_USE_UTF8_COMPRESS               = Gunakan nama Unicode dalam berkas Zip (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Gunakan nama Unicode dalam berkas tar, tgz (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Selalu gunakan format ZIP64 bahkan jika ukuran berkas kurang dari 2GB (tidak disarankan)
+IDC_CHK_EXCLUDE_THUMBSDB                = Jangan masukkan thumbs.db dalam proses pengkompresan
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Simpan "NTFS time information" ketika membuat arsip Zip
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Gunakan "High Speed Archiving" (Pengkompresan Berkecepatan Tinggi)
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Jangan tutup jendela proses ketika mengkompres arsip
+IDC_STATIC_COMPRESSION_METHOD           = Level Kompresi:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Use the latest folder for New Archive
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Default folder for New Archive
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Jelajahi...
+IDC_CHK_EXCLUDE_FILTER                  = Tipe File yang ditadakan ketika mengkompres arsip
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Pengaturan Penampil
+IDC_CHK_SHOW_PREVIEW                    = Tinjau Gambar
+
+IDC_STATIC_SETTING_VIEWITEM             = Kolom
+IDC_CHK_VIEWITEM_COMPSIZE               = Ukuran Terkompres
+IDC_CHK_VIEWITEM_ORIGSIZE               = Ukuran Asli
+IDC_CHK_VIEWITEM_KIND                   = Tiper Berkas
+IDC_CHK_VIEWITEM_DATE_MOD               = Tanggal Modifikasi
+IDC_CHK_VIEWITEM_COMPMETHOD             = Metode Kompresi
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Metode Enkripsi
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Atribut Berkas
+IDC_CHK_VIEWITEM_COMMENT                = Komentar Berkas
+
+IDC_STATIC_IMAGE_VIEWER                 = Penampil gambar
+IDC_RADIO_IMAGE_VIEWER_0                = Gunakan Penampil gambar bawaan
+IDC_RADIO_IMAGE_VIEWER_1                = Gunakan Program yg terasosiasi
+IDC_RADIO_IMAGE_VIEWER_2                = Gunakan Honeyview jika terpasang
+
+IDC_STATIC_EDITOR                       = Editor
+IDC_BTN_SET_EDITOR_PATH                 = Jelajahi...
+
+IDC_STATIC_COLOR                        = Warna
+IDC_STATIC_COLOR_THEME                  = Tema Warna
+IDC_BTN_BKGND                           = Yang Terpilih
+IDC_STATIC_COLOR_TEXT                   = Warna Huruf
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = Putih
+IDC_STATIC_COLOR_TEXT_BLACK             = Hitam
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Ekspor Pengaturan Bandizip
+IDC_STATIC_ETC                          = Pengaturan lainnya
+IDC_CHK_SET_TEMP_FOLDER                 = Atur lokasi untuk Folder Sementara(Temp)
+IDC_BTN_SET_TEMP_FOLDER                 = Jelajahi...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Tetapkan Jenis Berkas-berkas ini sebagai Arsip
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Hapus file Temp Secepatnya
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Pindahkan berkas ke Recycle Bin saat menghapus
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Tampilkan riwayat arsip terbaru
+IDC_CHK_USE_LONG_PATH_NAME              = Tangani nama lokasi yg melebihi 260 karakter
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Ijinkan Windows Explorer untuk menghapus berkas arsip yang sedang terbuka
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Bentangkan "folder tree" secara otomatis
+IDC_CHK_USE_MODAL_DIALOG                = Gunakan kotak dialog "modal" saat mengarsipkan/mengekstrak
+IDC_CHK_USE_ELEGANT_UI                  = Gunakan Desain UI yg Elegan
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Tampilkan 'Start Screen' ketika Bandizip dijalankan
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Tampilkan lokasi lengkap pada title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Hapus berkas yg terekstrak jika proses ekstrak dibatalkan
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Pilihan Bahasa
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = Pengaturan SFX (Self Extracting Archive)
+IDC_STATIC_TARGET_PATH                  = Lokasi ekstrak:
+IDC_STATIC_TITLE                        = Judul SFX:
+IDC_STATIC_RUN                          = Jalankan setelah Proses ekstrak:
+IDC_STATIC_MESSAGE                      = Pesan SFX:
+IDC_CHK_AUTO_CLOSE                      = Tutup Jendela SFX setelah Proses ekstrak
+IDC_BTN_SAVE_SFX_SETTING                = Simpan Pengaturan
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Temukan Berkas
+IDC_STATIC_FIND                         = Temukan:
+IDC_BTN_CLOSE                           = Tutup
+IDC_BTN_DELETE                          = Hapus
+IDC_BTN_EXTRACT                         = Ekstrak
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Komentar Arsip
+IDC_STATIC_COMMENT                      = Tambah/Edit Komentar di Arsip ini
+IDC_CHK_USE_UTF8                        = Simpan komentar sebagai Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Muat komentar dari (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = PERINGATAN
+IDC_STATIC_WARN_EXECUTABLE              = Berkas ini adalah berkas yang dapat dieksekusi. Menjalankan program ini mungkin bisa membahayakan komputer anda. Ingin melanjutkan?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Jangan tanyakan lagi
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Buka
+$TOOLBAR_CLOSE_FILE                     = Tutup
+$TOOLBAR_EXTRACT_FILE                   = Ekstrak
+$TOOLBAR_CREATE_ARCHIVE                 = Baru
+$TOOLBAR_DELETE_FILE                    = Hapus
+$TOOLBAR_ADD_FILE                       = Tambahkan
+$TOOLBAR_TEST_ARCHIVE                   = Tes
+$TOOLBAR_CODEPAGE                       = Pengkodean
+$TOOLBAR_VIEWITEM                       = Kolom
+
+$TOOLBAR_OPEN2                          = Buka Arsip
+$TOOLBAR_CREATE_ARCHIVE2                = Arsip Baru
+
+$TEXT_DESKTOP                           = Desktop
+$TEXT_DOCUMENT                          = Documents
+$TEXT_PICTURE                           = Pictures
+$TEXT_COMPUTER                          = Computer
+
+$TEXT_SETTINGTAB_GENERAL                = Umum
+$TEXT_SETTINGTAB_ASSOC                  = Asosiasi
+$TEXT_SETTINGTAB_SHELL                  = Menu Konteks
+$TEXT_SETTINGTAB_EXTRACT                = Ekstraksi
+$TEXT_SETTINGTAB_ARCHIVE                = Kompresi
+$TEXT_SETTINGTAB_VIEWER                 = Penampil
+$TEXT_SETTINGTAB_ETC                    = Lainnya
+$TEXT_SETTINGTAB_LANG                   = Bahasa
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Buka lokasi berkas
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Buka lokasi arsip
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Buka lokasi berkas setelah proses ekstrak
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Buka lokasi arsip
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Buka Folder Tujuan
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Jangan tutup jendela ini setelah proses ekstrak
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Jangan tutup jendela ini setelah proses kompres
+$TOOLTIP_ADVANCED_MENU                  = Pengaturan lainnya
+
+$TEXT_INSTALL_START                     = OK, Jalankan
+$TEXT_INSTALL_CLOSE                     = Tidak, terima kasih
+$TEXT_INSTALL_HONEYVIEW_LINK            = Lihat lagi...
+
+$TEXT_HELP_PAGE                         = Halaman Bantuan
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Folder Baru
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Folder Baru
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Buka Dengan Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Tes Arsip
+TEXT_MENU_LAUNCH_CMD                    = &Jalankan Jendela Command
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Jalankan Jendela Command (Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Kompres ke &tiap nama berkas/folder
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Kompres ke "tiap nama file/folder.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Kompres ke "${str1}" dan ema&il...
+TEXT_MENU_ARCHIVE_ZIPX                  = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Kompres ke "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Kompres ke Tiap "NamaBerkas.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Kompres ke Tiap "NamaBerkas.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Kompres ke "${str1}" (&R)
+TEXT_MENU_ARCHIVE_POPUP                 = Tambahkan ke arsip (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Kompres sebagai Administrator
+
+TEXT_MENU_EXTRACT_HERE                  = &Ekstrak disini
+TEXT_MENU_EXTRACT_AUTO                  = Ekstrak &otomatis
+TEXT_MENU_EXTRACT_AUTO_EACH             = Ekstrak &otomatis (tiap-tiap)
+TEXT_MENU_EXTRACT_SUB                   = Ekstrak setiap arsip ke folder &masing-masing
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Ekstrak &ke ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Ekstrak ke folder lain...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Ekstrak sebagai Administrator
+TEXT_MENU_EXTRACT_HERE_DEL              = Ekstrak disini dan HAPUS
+TEXT_MENU_EXTRACT_AUTO_DEL              = Ekstrak disini (Pintar) dan HAPUS
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Ekstrak Pintar (setiap berkas) dan HAPUS
+TEXT_MENU_EXTRACT_SUB_DEL               = Ekstrak ke Masing-masing folder dan HAPUS
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Ekstrak &ke ${str1}\ dan HAPUS
+
+TEXT_MENU_PREVIEW                       = Pratinjau Arsip
+TEXT_MENU_PREVIEW_BROKEN                = Berkas ini [br] format tidak diketahui atau RUSAK
+TEXT_MENU_PREVIEW_TIMEOUT               = Permintaan habis
+TEXT_MENU_PREVIEW_EMPTY                 = Berkas Kosong
+TEXT_MENU_PREVIEW_ENCRYPTED             = Nama berkas terenkripsi
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Tak bisa menggunakan fungsi "Tinjau Arsip". [br][br]Restart Windows Explorer / [br]Restart komputer.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Tidak bisa membaca daftar berkas
+
+TEXT_MENU_OPENING                       = Sedang Membuka...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Pembaruan Bandizip
+TEXT_UPDATER_TEXT1                      = Pembaruan Bandizip sudah siap.
+TEXT_UPDATER_TEXT_DL                    = ingin mengunduhnya?
+TEXT_UPDATER_BTN_UPDATE                 = Perbarui
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Batalkan
+TEXT_UPDATER_DOWNLOAD_ERROR             = Unduhan gagal.
+TEXT_UPDATER_SETTING_UPDATE             = Pengaturan
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Lokasi Target :
+BTN_SELECT_FOLDER                       = Jelajahi...
+BTN_EXTRACT                             = Mulai
+BTN_CLOSE                               = Tutup
+BTN_CANCEL                              = Batalkan
+BTN_OPEN_FOLDER                         = Buka
+CHK_OVERWRITE                           = Timpa
+ERR_ERROR_OCCURRED                      = Terjadi kesalahan
+ERR_INVALID_PASSWORD                    = Pasword SALAH
+ASK_OVERWRITE                           = Terdapat berkas yang sama. mau menimpa nya?
+MSG_COMPLETED                           = Ekstrak BERHASIL!
+IDD_PASSWORD                            = Masukkan Pasword
+IDC_STATIC_PASSWORD_MSG                 = File ini terenkripsi
+IDC_BTN_SHOW_PASSWORD                   = Perlihatkan kata sandi
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Tidak dapat mengekstrak berkas.
+TEXT_ERR_CRC                            = CRC error.
+TEXT_ERR_INVALID_PASSWD                 = Kata sandi salah.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [Bantuan]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip sedang berjalan. Tutup dulu programnya.
+MSG_XP_IS_NOT_SUPPORTED                 = Program ini untuk windows Vista atau terbaru.
+MSG_NEED_ADMIN_PRIVILEGE                = Program ini hanya bisa dipasang oleh user dengan hak administrator.[br][br]user Non-administrative tidak bisa memasang program ini dengan sempurna .[br][br]Apa anda ingin membatalkan pemasangan?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

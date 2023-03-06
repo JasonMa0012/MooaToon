@@ -1,0 +1,1158 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Lietuviškai
+TRANSLATORS                             = amenox (at gmail dot com)
+
+
+[TEXT]
+TEXT_BUILDNO                            = Build#
+TEXT_FILE                               = Failas
+TEXT_FOLDER                             = Katalogas
+TEXT_ARCHIVE_SIZE                       = Dydis viso
+TEXT_ORIGINAL_SIZE                      = Originalus dydis
+TEXT_ARCHIVE_FORMAT                     = Archyvo tipas
+TEXT_COMPRESSED_SIZE                    = Suspaudimo dydis
+TEXT_SOLID                              = Solid
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Suspaustas failas (${str1})
+TEXT_PORTABLE                           = Portable
+TEXT_NEW_FOLDER                         = Naujas katalogas
+TEXT_FILESIZE_UNKNOWN                   = Nežinomas
+TEXT_FILEDATE_UNKNOWN                   = Nežinomas
+TEXT_HELP_LINK                          = [Pagalba]
+TEXT_APP_DESC                           = Bandizip yra nedidelė, greita ir nemokama archyvavimo programa. Ji gali dirbti su visais populiariausiais archyvais, tokiais kaip Zip, 7z, Rar, ir daugiau.
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = Atsisakyti
+TEXT_MESSAGEBOX_ABORT                   = Nutraukti
+TEXT_MESSAGEBOX_RETRY                   = Kartoti
+TEXT_MESSAGEBOX_IGNORE                  = Ignoruoti
+TEXT_MESSAGEBOX_YES                     = Taip
+TEXT_MESSAGEBOX_NO                      = Ne
+TEXT_MESSAGEBOX_CONTINUE                = Tęsti
+TEXT_MESSAGEBOX_HELP                    = Pagalba
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Daugiau nerodyti
+
+TEXT_COLUMN_NAME                        = Pavadinimas
+TEXT_COLUMN_COMPSIZE                    = Suspaustas
+TEXT_COLUMN_ORIGSIZE                    = Originalus
+TEXT_COLUMN_KIND                        = Tipas
+TEXT_COLUMN_DATE_MOD                    = Pakeista
+TEXT_COLUMN_COMPMETHOD                  = Suspaudimo tipas
+TEXT_COLUMN_ENCRMETHOD                  = Kriptavimo tipas
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Atributai
+TEXT_COLUMN_COMMENT                     = Komentaras
+TEXT_COLUMN_EXT                         = Daugiau informacijos
+TEXT_COLUMN_PATHNAME                    = Kelias
+
+TEXT_ICONPACK_NAME                      = Pavadinimas
+TEXT_ICONPACK_DESIGNER                  = Autorius
+TEXT_ICONPACK_COPYRIGHT                 = Autorinės teisės
+
+TEXT_ARCHIVE_COLUMN_NAME                = Pavadinimas
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Dydis
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Katalogo kelias
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Dydis viso
+
+TEXT_SELECT_ARCHIVE_FILE                = Pasirinkite failą
+TEXT_SELECT_TEXT_FILE                   = Pasirinkite failą
+TEXT_SELECT_DEST_FOLDER                 = Pasirinkite tikslo katalogą
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Archyvo failas
+TEXT_REGISTRY_FILE                      = Registro failas
+
+TEXT_OPENDLG_ARCHIVEFILES               = Archyvo failai
+TEXT_OPENDLG_ARCHIVEFILE                = Archive File
+TEXT_OPENDLG_ALLFILES                   = Visi failai
+TEXT_OPENDLG_EXEFILES                   = Exe failai
+
+TEXT_ABOUTBOX_TAB1                      = Apie Bandizip
+
+TEXT_ASSOC_GROUP0                       = Archyvo failai
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Kiti
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Norėdami atidaryti šį failą, atisiųskite paskutinę Bandizip versiją
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Pasirinkite tik pirmą failo dalį
+TEXT_OPENERR_CANT_OPEN_FILE             = Nepavyksta atidaryti failo (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Nepavyksta atidaryti failo (${str1}) kadangi jis užimtas kitos programos
+TEXT_OPENERR_GENERAL                    = Nepavyksta atidaryti failo (${str1}) (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Atšauktas.
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Nežinomas failo formatas (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" ne archyvo failas."
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Nepalaikomas failo formatas (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Nepalaikomas kriptavimo būdas (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Įveskite slaptažodį
+TEXT_OPENERR_INVALID_PASSWORD           = Slaptažodis neteisingas
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Nepavyksta atidaryti failo kadangi jo antraštė sugadinta
+
+TEXT_ERR_INIT_FAILED                    = Nepavyksta startuoti
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Neteisingas slaptažodis arba nėra failų archyve.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Slaptažodžiai neatitinka
+TEXT_ERR_PASSWORD_NOT_SET               = Įveskite slaptažodį
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Slaptažodis turi blogus simbolius. Įveskite tik raides ar skaičius arba specialius simbolius.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Blogas failo dalies dydis
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Self Extracting Archives) failo dydis yra ribojamas iki 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Vidinė klaida
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Neįmanoma pakeisti archyvuoto failo
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Įvyko klaida keičiant archyvą
+TEXT_ERR_INVALID_FOLDER_PATH            = Blogas katalogo kelias
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Tik ZIP failai gali būti redaguojami
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Negalima redaguoti suskaidyto failo
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Negalima redaguoti išsipakuojančio (Self-Extracting) failo (*.exe)
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Negalima redaguoti sugadinto failo
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Negalima redaguoti šio failo/plėtinio
+TEXT_ERR_CANT_CHANGE_FILENAME           = Negalima pakeisti šio failo pavadinimo
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Negalima naudoti failo pavadinime šių simbolių [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Toks failas/katalogas jau yra. Negalima pakeisti failo pavadinimo (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Negalima sukurti katalogo
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Nėra failų archyvavimui
+TEXT_ERR_INVALID_PARAM                  = Blogas parametras.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Negalima pridėti failo į archyvą. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Negalima atidaryti šio archyvo [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Toks katalogas jau yra
+TEXT_ERR_FILENAME_EMPTY                 = Blogas failo pavadinimas
+TEXT_ERR_AT_DRAGANDDROP                 = Paimti ir numesti nepavyko
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Drag and Drop nepavyko. [br]Bandizip yra išjungta 'Greita Drag and Drop' funkcija, pabandykite dar kartą.
+TEXT_ERR_AT_CANT_OPEN_MMF               = Nepavyko atidaryti MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Nepasirinktas failas
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Nepavyko sukurti katalogo Ikonų paketo įdiegimui
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Nepavyko sukurti failo Ikonų paketo įdiegimui
+TEXT_ERR_AT_EXECUTE_DIRECT              = Nepavyko atidaryti šio failo. Išpakuokite failą ir pabandykite dar kartą.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Negalima sukurti failo didesnio nei 4GB.[br]Pasirinkite kitą failo formatą (ZIP arba 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = Nepavyko išsaugoti šio failo.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip has encountered a problem while editing the file.(${str1})[br][br]Would you like to send an error report to Bandisoft?[br][br]Submitting this report helps Bandisoft improve Bandizip.
+
+TEXT_MSG_TEST_OK                        = Nėra klaidų archyve
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Klaida išarchyvuojant: Klaidos kodas [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Išarchyvavimas pavyko
+TEXT_MSG_EXTRACT_CANCELED               = Išarchyvavimas nutrauktas
+TEXT_MSG_COMPRESS_SUCCESS               = Baigtas archyvavimas
+TEXT_MSG_INTERNAL_ERROR                 = Vidinė klaida
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Cannot open the following file in the temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Nepavyko ištrinti šio archyvo failo
+TEXT_MSG_CRASH_REPORT                   = Programa nugriuvo. Darbas baigiamas
+TEXT_MSG_CRASH_REPORT2                  = Bandizip pakibo ir ją reikia uždaryti. Ar norite nusiųsti Bandizip kūrėjams klaidos ataskaitą?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip programa neatsako.[br][br]Ar norite nusiųsti programos griuvimo duomenis Bandizip autoriams ir uždaryti programą?
+TEXT_MSG_SET_TEMP_PATH                  = Pasirinkite laikiną kelią
+TEXT_MSG_SET_PATH                       = Nustatykite kelią
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Ikonų paketas sėkmingai įdiegtas
+TEXT_MSG_NOTICE_RESTART                 = Programa turi būti perkrauta
+TEXT_MSG_ARCHVIE_OPENING                = Atidaromas archyvas
+TEXT_MSG_COMPLETING                     = Vykdoma: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Nepavyko sukurti katalogo.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Nepavyko supakuoti katalogo į .GZ/XZ archyvą.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Nepavyko supakuoti failų rinkinio į  .GZ/XZ archyvą. Pasirinkite "Spausti pagal kiekvieną failo/katalogo pavadinimą".
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip minimizuotas į sisteminę juostą. Nuspauskite jos ikoną norėdami atstatyti.
+TEXT_MSG_TRAY_COMPLETED                 = Operacija pavyko.
+TEXT_MSG_BATCH_ARCHVING                 = Archyvuojama: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Išpakuojama: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testuojama: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Trinama: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Nepavyko ištrinti: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Dirbama...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Jei simboliai rodomi nekorektiškai, nuspauskite <font color=red><b>kodų puslapį</b></font> aukšiau arba bandykite <font color=red><b>Automatinį aptikimą</b></font>.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Originalus failas bus ištrintas.[br]Ar tikrai norite ištrinti šį failą
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Ar tikrai norite ištrinti šį failą?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Ar tikrai norite galutinai ištrinti esamą archyvą?
+TEXT_ASK_CHANGE_FILENAME                = Toks failas jau yra.[br][br]Ar tikrai norite pakeisti failo pavadinimą iš ${str1} į ${str2}?
+TEXT_ASK_DELETE_FILE                    = Ar tikrai norite ištrinti pažymėtą failą?
+TEXT_ASK_STOP_EXTRACT                   = Ar tikrai norite sustabdyti išarchyvavimą?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Toks failas jau yra.[br][br]Ar norite jį perrašyti?
+TEXT_ASK_INIT_SETTING                   = Ar tikrai norite atstatyti pradinius nustatymus? Bandizip bus perkrautas
+TEXT_ASK_STOP_ARCHIVING                 = Ar norite sustabdyti archyvavimą?
+TEXT_ASK_STOP_MODIFYING                 = Ar norite sustabdyti šį veiksmą?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Ar tikrai norite patvirtinti failo pakeitimą archyve [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Ar norite įdiegti ir nustatyti ikonų paketą (${str1})?
+TEXT_ASK_MAKE_FOLDER                    = Tokio katalogo nėra. Norite jį sukurti?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Katalogas neturi įrašymo teisių.[br][br]- ${str1}[br][br]Norite tęsti?
+TEXT_ASK_CONT_NOFREESPACE               = Katalogas neturi pakankamai laisvos vietos. Pakeiskite į kitą katalogą. [br][br]- ${str1}[br][br]Norite tęsti?
+TEXT_ASK_ASK_UAC_ELEVATION              = Jūs neturite teisių pakeisti šiems failams. [br][br]Ar norite paleisti šią programą kaip administratorius?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Nepavyksta atidaryti šio archyvo failo. [br][br]Ar norite atidaryti pirmą padalinto failo dalį (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Jei ištrinsite failus po archyvavimo, galite prarasti svarbius duomenis, jei archyvas bus sugadintas.[br][br]Ar pažymėti "Testuoti archyvą" opciją?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Neužtenka laisvos vietos išpakuoti. Ar norite tęsti?[br][br]Tikslo katalogas: ${str1}[br]Laisvos vietos: ${str2}[br]Išpakuojamo failo dydis: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Šis failas sugadintas
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Failas sugadintas arba reikalinga kita jo dalis
+
+TEXT_BTN_PAUSE                          = Pauzė
+TEXT_BTN_RESUME                         = Tęsti
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Įvyko klaida
+TEXT_ERRDLG_USER_ABORT                  = Nutraukta
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Negalima atidaryti šio failo
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Negalima atidaryti šio failo kadangi jį naudoja kita programa
+TEXT_ARKERR_PASSWORD_NOT_SET            = Reikalingas slaptažodis
+TEXT_ARKERR_INVALID_PASSWD              = Blogas slaptažodis
+TEXT_ARKERR_USER_ABORTED                = Nutraukta
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC klaida
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Nepavyksta atidaryti šio failo
+TEXT_ARKERR_CANT_READ_DATA              = Nepavyksta nuskaityti archyvo
+TEXT_ARKERR_INFLATE_FAILED              = Duomenų klaida - šis failas sugadintas
+TEXT_ARKERR_BZIP2_ERROR                 = Duomenų klaida - šis failas sugadintas
+TEXT_ARKERR_DATA_CORRUPTED              = Failas sugadintas arba reikalinga kita jo dalis
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Nepavyksta atidaryti šio failo
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Nepavyksta sukurti katalogo
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Nepalaikomas suspaudimo būdas
+TEXT_ARKERR_WRITE_FAIL                  = Įvyko klaida įrašinėjant
+TEXT_ARKERR_DISK_FULL                   = Diskas pilnas
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Failo kelias ir pavadinimas negali viršyti 260 simbolių
+TEXT_ARKERR_CANT_CREATE_FILE            = Įvyko klaida sukuriant failą
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Įvyko klaida sukuriant failą. Paleiskite programą administratoriaus teisėmis.
+TEXT_ARKERR_USER_SKIP                   = Praleista
+TEXT_ARKERR_FILE_TRUNCATED              = Šio failo pabaiga yra sugadinta arba jos nėra
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Blogas slaptažodis arba failas sugadintas
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Šis failas sugadintas
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Self-Extracting failas (*.exe) yra didesnis nei 4GB. Jūs negalite paleisti šio failo iš Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Nepavyksta atidaryti šio archyvo. Reikalingos kitos dalys (.z01, .z02...) .
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Nepavyksta atidaryti šio Zip failo. Reikalingos kitos dalys (.z01, .z02...) .
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Nepavyksta atidaryti šio arhyvo. Reikalingos kitos dalys.
+TEXT_ARKERR_CORRUPTED_FILE              = Šis failas sugadintas
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Nėra reikalingų teisių rašant į šį katalogą
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Nėra reikalingų teisių rašant į šį katalogą. Paleiskite programą administratoriaus teisėmis.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Nepalaikomas šis kriptavimo algoritmas
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Neužtenka atminties
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Neužtenka atminties. Pakeiskite suspaudimo lygį.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Šis veiksmas nepalaikomas
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Išpakuoto failo dydis ir archyvo antraštės informacija skiriasi.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Negalima sukurti failo didesnio nei 4GB. Pasirinkite kitokį failo formatą (ZIP or 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Didelis failo pavadinimas sutrumpintas automatiškai.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Nepavyksta atidaryti failo kopijavimui.
+TEXT_ARKERR_NOTIMPL                     = Neįdiegta.
+TEXT_ARKERR_CANT_READ_FILE              = Nepavyksta nuskaityti failo.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Paleiskite Bandizip kaip administratorius norėdami sukurti simbolinę nuorodą.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Nepavyko syukurti simbolinės nuorodos.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Failas yra naudojamas kitoje programoje.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Neskaldyti
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Vartotojo įvestas
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Be suspaudimo
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Greitas suspaudimas
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Normalus suspaudimas
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Maksimalus suspaudimas
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Naujas Archyvas
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Pridėti failus į archyvą
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = Pe&rvadinti: ${str1}
+TEXT_TITLE_TEST_MODE                    = Archyvo patikrinimas
+TEXT_TITLE_TEMPFOLDER_MODE              = Išarchyvuoti į laikiną katalogą...
+TEXT_TITLE_MODIFYING                    = Keičiama...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Failas išpakavimui
+TEXT_MSG_SELECTED_FILE                  = ${num1} failas(ų) pažymėta
+TEXT_MSG_SELECTED_FOLDER                = ${num1} katalogas(ų) pažymėta
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} Failas, ${num2} Katalogas
+TEXT_MSG_SELECTED_FILESIZESUM           = Pažymėtų failų dydis: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Nepavyko patikrinti versijos
+TEXT_UPDATE_VERSION_CHECKING            = Tikrinama versija
+TEXT_UPDATE_DOWNLOAD_FAILED             = Atsisiųsti nepavyko
+TEXT_UPDATE_LATEST_VERSION              = Paskutinė versija
+TEXT_UPDATE_DO_DOWNLOAD                 = Reikalingas atnaujinimas
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Parsisiuntimas baigtas
+
+TEXT_INSTALL_HONEYVIEW                  = Įdiegti Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview neįdiegtas šiame kompiuteryje.
+TEXT_INSTALL_HONEYVIEW_2                = Išbandykite Honeyview sukurtą Bandisoft.<br> Ji palaiko paveiksliukų peržiūrą ZIP, RAR, ar 7z archyvuose tiesiogiai.
+
+TEXT_REGISTRATION_FAILED                = Registracija nepavyko.[br]Patikrinkite savo el. pašto adresą ir produkto raktą.
+TEXT_REGISTRATION_SUCCEED               = Jūsų Bandizip programa registruota.
+TEXT_REGISTRATION_ASK                   = Ar tikrai norite išregistruoti Bandizip?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip yra neregistruotas.[br]Prašome nusipirkti ir registruoti Bandizip kad naudoti jį be jokių apribojimų.
+TEXT_REGISTER_INFO                      = Bandizip registruotas. Vartotojas:[br]El. adresas: ${str1}[br]Produkto raktas: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = Kenkėjiškų programų skanavimas archyve
+TEXT_SCAN_AMSI_PROVIDER                 = AMSI initializacija sėkminga
+TEXT_SCAN_MALWARE_DETECTED              = Aptikta kenkėjiška programa.
+TEXT_SCAN_MALWARE_NOTDETECTED           = Kenkėjiškų programų nerasta.
+TEXT_SCAN_MALWARE_TOOBIG                = Skanavimas nepavyko. Failas per didelis.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = Archyve aptikta kenkėjiška programa.
+TEXT_MSG_MALWARE_TEST_OK                = Archyve kenkėjiškų programų nerasta.
+TEXT_MSG_AMSI_INIT_FAILED               = AMSI initializacija nesėkminga. Daugiau apie tai rasite čia https://go.bandisoft.com/amsi
+TEXT_MSG_AMSI_WIN10_NOTICE              = Kenkėjiškų programų skanavimas galimas tik Windows 10. Apsilankykite https://go.bandisoft.com/amsi norėdami sužinoti daugiau.
+
+[MENU]
+MENUSTR_FILE                            = &Failas
+MENUSTR_EDIT                            = R&edaguoti
+MENUSTR_SETTING                         = Nuostat&os
+MENUSTR_FIND                            = Surast&i
+MENUSTR_VIEW                            = Peržiūr&a
+MENUSTR_TOOLS                           = Į&rankiai
+MENUSTR_HELP                            = &Pagalba
+
+MENUSTR_OPEN                            = &Atidaryti archyvą\tCtrl+O
+MENUSTR_RECENT                          = Paskutiniai failai
+MENUSTR_CLOSE_FILE                      = &Uždaryti archyvą\tF4
+MENUSTR_CREATE_ARCHIVE                  = &Naujas archyvas\tCtrl+N
+MENUSTR_NEW_WINDOW                      = Naujas langas \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Naujas langas(Administrator)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Išsaugoti kaip
+MENUSTR_DELETE_ARCHIVE                  = Trinti archyvą \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Trinti archyvą galutinai \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Atidaryti archyvo vietą
+MENUSTR_TEST_ARCHIVE                    = &Testuoti archyvą \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = Kenkėjiškų programų paieška archyve\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = &Išarchyvuoti failą \tCtrl+E
+MENUSTR_EXIT                            = &Baigti \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = Pe&rvadinti failą \tF2
+MENUSTR_ADD_FILE                        = Pridėti f&ailą \tIns
+MENUSTR_DELETE_FILE                     = &Trinti failą \tDel
+MENUSTR_EDIT_COMMENT                    = Archyvo komentaras
+MENUSTR_SETTING_SUB                     = Nu&statymai (F5)
+MENUSTR_REGISTER                        = Registruoti Bandizip...
+MENUSTR_UNREGISTER                      = Išregistruoti Bandizip...
+MENUSTR_PASSMAN                         = Tvarkyti slaptažodžius...
+MENUSTR_FIND_ITEM                       = Surast&i failus\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Kopijuoti failus į atmintį\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Padėti failus iš atminties\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Pradinis langas \tF6
+MENUSTR_VIEW_TREECONTROL                = Medžio peržiūros valdymas \tF7
+MENUSTR_VIEW_COMMENT                    = Archyvo komentaras\tF8
+MENUSTR_VIEW_PREVIEW                    = Parodyti paveiksliuką
+MENUSTR_VIEW_TOOLBAR                    = Įrankių juosta
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Didelis
+MENUSTR_VIEW_TOOLBAR_MINI               = Mažas
+MENUSTR_VIEW_TOOLBAR_OLD                = Senas
+MENUSTR_VIEW_TOOLBAR_HIDE               = Slėpti
+MENUSTR_VIEW_LISTVIEW                   = Failų sąrašas
+MENUSTR_VIEW_LISTVIEW_ICON              = Ikonos
+MENUSTR_VIEW_LISTVIEW_LIST              = Sąrašas
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detaliau
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = Didelės ikonos
+MENUSTR_VIEW_COLUMN                     = Stulpelis
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Visada viršuje
+MENUSTR_VIEW_COLOR_SETTING              = Spalvų nustatymai...
+
+MENUSTR_TOOLS_REPAIR                    = Taisyti archyvą...
+MENUSTR_TOOLS_RECOVERY                  = Slaptažodžio atstatymas...
+
+MENUSTR_ABOUT                           = &Apie Bandizip \tF1
+MENUSTR_HELPPAGE                        = Eiti į pa&galbos puslapį
+MENUSTR_OPEN_FOLDER                     = Atidaryti Bandizip katal&ogą
+MENUSTR_FORUM                           = Eitį į Bandizip &Forumą
+MENUSTR_HOMEPAGE                        = Atidaryti &pagrindinį tinklapį
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Suspausto dydis
+POPUPMENU_VIEWITEM_ORIGSIZE             = Originalus dydis
+POPUPMENU_VIEWITEM_KIND                 = Failo tipas
+POPUPMENU_VIEWITEM_DATE_MOD             = Modifikuotas
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Suspaudimo būdas
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Kriptavimo metodas
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Failo savybės
+POPUPMENU_VIEWITEM_COMMENT              = Failo komentaras
+POPUPMENU_VIEWITEM_EXT                  = Daugiau informacijos
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Išarchyvuoti viską... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Išarchyvuoti pažymėtus failus...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Išarchyvuoti viską čia
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Atidaryti\tĮvesti
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Atidaryti su priskirta programa
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Redaguoti\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Atidaryti su Bandizip
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Naujas katalogas
+POPUPMENU_LISTCONTROL_ADD_FILE          = Pridėti failą \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Trinti failą \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Pervadinti failą
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Pažymėti viską \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Kelti į pagrindinį katalogą\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Trinti archyvą
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Atidaryti archyvo katalogą
+
+POPUPMENU_EXTRACT_AUTODEST              = Išarchyvuoti automatiškai\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Išarchyvuoti į esamą katalogą\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Išarchyvuoti į failo pavadinimo katalogą
+POPUPMENU_EXTRACT_DESKTOP               = Išarchyvuoti į darbastalį
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Išarchyvuoti automatiškai į darbastalį
+
+POPUPMENU_RECENT_CLEAR                  = Trinti istoriją
+POPUPMENU_RECENT_NOITEM                 = Nėra paskutinio failo
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Atidaryti su Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Išarchyvuoti automatiškai
+
+POPUPMENU_CODEPAGE_DEFAULT              = Pagal nutylėjimą
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Chinese Simplified
+POPUPMENU_CODEPAGE_TRADCHINESE          = Chinese Traditional
+POPUPMENU_CODEPAGE_JAPANESE             = Japanese
+POPUPMENU_CODEPAGE_KOREAN               = Korean
+POPUPMENU_CODEPAGE_WINDOWS1252          = Western European
+POPUPMENU_CODEPAGE_WINDOWS1250          = Central European
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cyrillic
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turkish
+POPUPMENU_CODEPAGE_WINDOWS737           = Greek
+POPUPMENU_CODEPAGE_ARABIC               = Arabic
+POPUPMENU_CODEPAGE_HEBREW               = Hebrew
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = Aptikti automatiškai
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Žiūrėti su Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Žiūrėti su priskirta programa
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Minimizuoti į sitemos juostą
+DLG_MENUSTR_LOW_PRIORITY                = Žemas prioritetas
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Trinti archyvą išarchyvavus
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = Gerai
+IDCANCEL                                = Baigti
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Apie Bandizip
+IDC_BTN_HOMEPAGE                        = Tinklapis
+IDC_BTN_UPDATE                          = Atnaujinti
+IDC_BTN_REGIST                          = Registruoti dabar
+IDC_BTN_BUY                             = Pirkti dabar
+IDC_STATIC_LICENSE                      = Bandizip registracijos informacija
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Atidaryti failą
+IDC_STATIC_OPENING                      = Atidaroma
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Pasirinkite išarchyvavimo vietą
+IDC_STATIC_FOLDER                       = Iša&rhyvavimo vieta
+IDC_STATIC_FILES2EXTRACT                = Išarhyvuoti:
+IDC_RADIO_FILES2EXTRACT_0               = Visus f&ailus
+IDC_RADIO_FILES2EXTRACT_1               = Pažymėtu&s failus
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Išarchyvuoti į "tikslo" katalogą pažymėtam&e kataloge
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Trinti origanius failus po išarchyvavimo
+IDC_CHK_REMEMBER_SETTINGS               = Atsiminti nustatymus
+IDC_BTN_NEWFOLDER                       = &Naujas katalogas
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Išarchyvuoti
+IDC_BTN_STOP                            = Stabdyti
+IDC_BTN_CLOSE                           = Uždaryti
+IDC_BTN_PAUSE                           = Pauzė
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Naujas archyvas
+IDC_STATIC_FILE_LIST                    = Pridėti failus į archyvą
+IDC_STATIC_ARCHIVE_SETTING              = Archyvo nustatymai
+IDC_STATIC_ARCHIVE_NAME                 = Failo pavadinimas
+IDC_STATIC_SET_DEST_FOLDER              = Tikslo katalogas
+IDC_STATIC_ARCHIVE_TYPE                 = Išsaugoti kaip
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Failo skaidymas
+IDC_STATIC_COMPRESSION_METHOD           = Suspaudimo lygis
+IDC_STATIC_HELP_SPLIT                   = [Pagalba]
+IDC_STATIC_HELP_7Z                      = [7Z formatas]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Naršyti...
+IDC_BTN_SET_PASSWORD                    = Slaptažodis...
+IDC_BTN_TEST_ARCHIVE                    = &Testuoti archyvą
+IDC_BTN_DELETE_SRC                      = Trinti failus po archyvavimo
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Spausti pagal kiekvieną failo/katalogo pavadinimą
+IDC_BTN_SET_DEST_FOLDER                 = Keisti tikslo katalogo kelią
+IDC_BTN_TOGGLE_ADVANCED                 = Daugiau nustatymų...
+IDC_BTN_SET_SFX                         = SFX nustatymai...
+IDC_BTN_ADD                             = &Pridėti...
+IDC_BTN_DEL                             = &Trinti
+IDC_BTN_START                           = &Start
+IDC_BTN_COMP_ADVANCED                   = Papildomai
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = ZIP/ZIPX suspaudimo nustatymai
+IDC_AA_ZIP_ALGO                         = Spaudimo būdas
+IDC_AA_ZIP_ENC                          = Šifravimo būdas
+IDC_AA_ZIP_THREAD                       = CPU branduolių panaudojimas
+COMBO_TEXT_THREAD_AUTO                  = Auto
+IDD_AA_7Z                               = 7Z suspaudimo nustatymai
+IDC_AA_7Z_ALGO                          = Spaudimo būdas
+IDC_AA_7Z_SOLID                         = Vientiso bloko dydis
+IDC_CHK_7Z_ENC_FILENAMES                = Šifruoti failų vardus
+IDD_AA_TAR                              = TAR archyvavimo nustatymai
+IDC_CHK_TAR_SYMLINK                     = Saugoti simbolines nuorodas
+IDC_CHK_TAR_HARDLINK                    = Saugoti tiesiogines nuorodas
+COMBO_TEXT_SOLID_NONE                   = Ne vientisas
+COMBO_TEXT_SOLID_SOLID                  = Vientisas
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Įveskite slaptažodį
+IDC_STATIC_DESC_ARCHIVING               = Įveskite savo archyvo slaptažodį. Patikimesniam saugumui slaptažodis rekomenduojamas ne trumpesnis nei 8 symbolių.
+IDC_STATIC_DESC_MASTERPASS              = Įveskite programos pagrindinį slaptažodį. Patikimesniam saugumui slaptažodis rekomenduojamas ne trumpesnis nei 8 symbolių.
+IDC_STATIC_DESC_EXTRACT                 = Įveskite slaptažodį failo šifravimui.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Blogas slaptažodis. Pakartokite.
+IDC_STATIC_PWD                          = Įveskite slaptažodį
+IDC_STATIC_PWD2                         = Pakartokite slaptažodį
+IDC_BTN_SHOW_PASSWORD                   = Rodyti slaptažodį
+IDC_BTN_PASSMAN                         = Tvarkyti slaptažodžius...
+IDC_CHECK_APPLY_ALL                     = &Patvirtinti visiems
+IDC_STATIC_PASS_RECOVERY                = Pamiršote slaptažodį? Pabandykite Bandizip slaptažodžių atstatymą.
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Tvarkyti slaptažodžius
+TEXT_MSG_CORRUTP_DATA                   = Slaptažodžio duomenys yra sugadinti.
+TEXT_PASSMAN_WARNING1                   = Kol nėra pagrindinio programos slaptažodžio, saugomi slaptažodžiai yra nešifruoti ir nesaugūs.
+TEXT_PASSMAN_WARNING2                   = Jei naudojate šią funkciją viešame ar bendrai naudojamame kompiuteryje, turite būti atsargūs.
+LIST_PASS_HEADER1                       = Slaptažodis
+LIST_PASS_HEADER2                       = Pavadinimas
+IDC_BTN_ADD                             = Pridėti
+IDC_BTN_DEL                             = Ištrinti
+IDC_BTN_EDIT                            = Keisti
+IDC_BTN_SET_MASTERPASS                  = Įvesti pagrindinį slaptažodį...
+IDC_BTN_DEL_MASTERPASS                  = Panaikinti pagrindinį slaptažodį
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Įveskite pagrindinį slaptažodį
+IDC_STATIC_MASTPASS_MSG                 = Įveskite pagrindinį slaptažodį reikalingą visų slaptažodžių tvarkymui. Anuliavimas ištrins visus slaptažodžius saugomus sistemoje.
+IDC_BTN_INITPASSMAN                     = Anuliuoti
+TEXT_ASK_INIT_PASSMAN                   = Ar tikrai norite ištrinti visus slaptažodžius prorgramoje?
+IDC_BTN_SHOW_PASSWORD                   = Rodyti slaptažodį
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Slaptažodžio informacija
+IDC_STATIC_PASSWORD                     = Slaptažodis
+IDC_STATIC_DISPNAME                     = Rodyti pavadinimą (nebūtina)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Pasirinkti
+IDC_BTN_OPEN                            = Atidaryti
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Archyvavimas
+TEXT_ARCHIVE_TESTING                    = Testuojama
+IDC_BTN_STOP                            = Stop
+IDC_BTN_CLOSE                           = Uždaryti
+IDC_BTN_PAUSE                           = Pauzė
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Dublikatai
+IDC_STATIC_DUPE_MESSAGE                 = Toks failas jau yra.
+IDC_STATIC_DUPEFILE_OLD                 = Originalus failas
+IDC_STATIC_DUPEFILE_NEW                 = Esamas failas
+IDC_STATIC_DUPE_ASK                     = Pasirinkite žemiau:
+IDC_RADIO_DUPE_METHOD0                  = Pralei&sti
+IDC_RADIO_DUPE_METHOD1                  = Perrašy&ti
+IDC_RADIO_DUPE_METHOD2                  = Pe&rvadinti
+IDC_CHECK_DUPE_APPLY_ALL                = Įvykdyti visiems f&ailams
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Archyvo nustatymai
+IDC_STATIC_ASK_HANDLING                 = Pasirinkite žemiau:
+IDC_RADIO_HANDLE_METHOD0                = &Atidaryti archyvą
+IDC_RADIO_HANDLE_METHOD1                = &Naujas archyvas
+IDC_RADIO_HANDLE_METHOD2                = Pridėti f&ailus į esamą archyvą
+IDC_CHK_PASS                            = Naudoti slaptažodį
+IDC_STATIC_PASSWORD_AGAIN               = Kartoti slaptažodį
+IDC_CHK_SHOW_PASS                       = Rodyti slaptažodį
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Nustatymai
+IDC_BTN_INIT                            = Anuliuoti
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Pagrindiniai nustatymai
+IDC_CHK_EXIT_WITH_ESC                   = ESC klavišas uždaryti langą
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Visada tikrinti failus kai failas pridedamas/trinamas/pervadinamas
+IDC_CHK_SNAP                            = Greitas langas
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Rodyti [..] katalogą archyve
+IDC_CHK_SHOW_GRID_AT_LIST               = Rodyti linijas detalioje peržiūroje
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Pilnas eilučių žymėjimas archyve
+IDC_CHK_ONE_CLICK_ACTIVATE              = Atidaryti vienu paspaudimu
+IDC_STATIC_UPDATE                       = Atnaujinimo nustatymai
+TEXT_UPDATE_0                           = Pranešti ir įdiegti paskutinę versiją
+TEXT_UPDATE_1                           = Pranešti ir įdiegti tik stabilią versiją
+TEXT_UPDATE_2                           = Nepranešinėti apie atnaujinimus
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Failų plėtiniai
+IDC_BTN_SELECT_MANDATORY                = Žymėti pagrindinius
+IDC_BTN_SELECT_ALL                      = Pažymėti visus
+IDC_BTN_CLEAR_ALL                       = Nuimti visas varneles
+IDC_BTN_APPLY_NOW                       = Įvykdyti dabar
+IDC_STATIC_ICON_PACK                    = Pasirinkite Ikonų paketą:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Parsisiųsti Ikonų paketus]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - Programos pagal nutylėjimą
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Praplėtimų susiejimas
+;IDC_STATIC_ASSOC_DESC1                 = Windows 8 ir vėlesnėse versijose Jūs galite susieti failų plėtinius šiuo būdu:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Paspauskite "Plėtinių nustatymai" mygtuką.
+;IDC_STATIC_ASSOC_DESC3                 = 2. Pažymėkite "Select All" programų susiejimo nustatymų lange.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Paspauskite "Save" mygtuką.
+;IDC_STATIC_ASSOC_DESC1_10              = Windows 10 ir vėlesnėse versijose Jūs galite susieti failų plėtinius šiuo būdu:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Nuspauskite "Plėtinių nustatymai" mygtuką.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Pažymėkite "Bandizip" Set Default Programs lange.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Nuspauskite "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Plėtinių nustatymai
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Įprastas būdas
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Dvigubo paspaudimo veiksmas
+IDC_RADIO_SHELL_OPEN_0                  = Atidaryti su Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Išarchyvuoti automatiškai
+IDC_RADIO_SHELL_OPEN_2                  = Rodyti kontekstinį meniu
+IDC_RADIO_SHELL_OPEN_3                  = Išarchyvuoti automatiškai į nurodytą katalogą
+IDC_BTN_SET_EXTRACT_FOLDER              = Naršyti...
+IDC_RADIO_SHELL_OPEN_4                  = Išarchyvuoti į failo pavadinimo katalogą
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Dvigubai paspaudus pele ištrinti archyvą po išpakavimo
+
+IDC_STATIC_SHELL_EXTRACT                = Išarchyvavimo meniu
+IDC_CHK_SHELL_EXTRACT_HERE              = Išarchyvuoti čia
+IDC_CHK_SHELL_EXTRACT_AUTO              = Išarchyvuoti automatiškai
+IDC_CHK_SHELL_EXTRACT_SUB               = Išarchyvuoti į
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Išpakuoti čia ir ištrinti
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Išpakuoti čia (Smart) ir ištrinti
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Išpakuoti į "Archyvo pavadinimas" katalogą ir ištrinti
+IDC_CHK_SHELL_EXTRACT_DLG               = Išarchyvuoti į kitą katalogą
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Išarchyvuoti kaip administratorius
+IDC_CHK_SHELL_TEST_ARCHIVE              = Patikrinti archyvą
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Atidaryti su Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Paržiūrėti archyvą
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Apriboti peržiūros failus iki:
+IDC_CHK_SHELL_PREVIEW_TREE              = Peržiūrėti archyvą su medžio struktūra
+
+IDC_STATIC_SHELL_ARCHIVING              = Suspaudimo meniu
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Spausti į "FileName.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Spausti į "FileName.zip" ir ištrinti
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Spausti į "FileName.zip" ir siųsti el. paštu
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Spausti į "FileName.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Spausti į "FileName.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Spausti į "FileName.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Spausti į "FileName.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Spausti į "FileName.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Spausti į "FileName.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Spausti į "FileName.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Spausti į "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Spausti į "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Spausti į "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "Spausti į kiekvieną "FileFolderName.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Spausti į kiekvieną "FileFolderName.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Pridėti į archyvą (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Spausti kaip administratorius
+IDC_CHK_SHELL_ARCHIVING_RULE            = Spausti į pasirinktą failo vardą
+IDC_STATIC_FILENAME_RULE_HELP           = Taisyklė: ${NAME}=Failo pavadinimas, %Y=Metai, %m=Mėnuo, %d=Diena, %H=Valanda, %M=Minutė, %S=Sekundė
+
+IDC_STATIC_SHELL_BKGND                  = Fono meniu
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Naujas katalogas
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Atidaryti komandinę eilutę (cmd.exe)
+
+IDC_STATIC_SHELL_ETC                    = Kiti
+IDC_CHK_SHELL_DO_NOT_USE                = Išjungti kontekstinį meniu
+IDC_CHK_SHELL_AS_SUB_MENU               = Kaskadinis kontekstinis meniu
+IDC_CHK_SHELL_HIDE_ICON                 = Slėpti Bandizip ikoną
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Atskirti archyvo failą pagal turinį
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Rodyti archyvo kontekstinį meniu net ne archyvo failams
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Naudoti ant pelės kursoariaus pažymėto failo/katalogo pavadinimą
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Pridėti failus į ZIP archyvą tiesiog nutempiant failų tvarkyklėje
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Išarchyvavimo nustatymai
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Jei yra tik vienas pagrindinis katalogas archyve, rodyti failus jame
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Atidaryti katalogą po išarchyvavimo
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Neuždaryti būsenos langą po išarchyvavimo
+IDC_CHK_FAST_DRAG_DROP                  = Naudoti greitą Drag and Drop jei išarchyvuojamas failas didelis
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Išarchyvuoti TGZ, TBZ failus vienu metu
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Net jei TGZ, TBZ failai dideli
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Kai naudojama 'Išarchyvuoti automatiškai', sukurti katalogą jei yra daugiau nei vienas aukščiausio lygio elementas
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Aptikti Macintosh kodų puslapį automatiškai
+IDC_CHK_UNIXZIP_AS_UTF8                 = Naudoti UTF-8 kodų puslapį jai atidaromas UNIX zip failas
+IDC_STATIC_CODEPAGE                     = Kodų puslapis pagal nutylėjimą
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Išpakuoti viską
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Suspaudimo nustatymai
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Nekurti pagrindinio katalogo jei spaudžiamas tik vienas katalogas
+IDC_CHK_USE_UTF8_COMPRESS               = Naudoti Unicode failo pavadinimus Zip failuose (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Saugoti Unicode failų pavadinimus papildomame ZIP failų antraštės lauke (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Naudoti Unicode failo pavadinimus tar,tgz failuose (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Visada naudoti ZIP64 formatą nepaisant to, kad failo dydis yra mažesnis nei 2 GB (Nerekomenduojama)
+IDC_CHK_EXCLUDE_THUMBSDB                = Išskirti thumbs.db failą kai archyvuojama
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Išsaugoti NTFS laiko informaciją kuriant Zip failus
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Naudoti didelio greičio archyvavimą
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Neuždaryti būsenos lango po archyvavimo
+IDC_STATIC_COMPRESSION_METHOD           = Suspaudimo lygis:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Naudoti paskutinį katalogą naujam archyvui
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Katalogas pagal nutylėjimą naujam archyvui
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Naršyti...
+IDC_CHK_EXCLUDE_FILTER                  = Išskirti failų tipus archyvuojant
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Peržiūros nustatymai
+IDC_CHK_SHOW_PREVIEW                    = Peržiūros paveiksliukas
+IDC_CHK_SHOW_FOLDER_SIZE                = Rodyti katalogo suspaustą/originalų dydžius
+IDC_CHK_SET_LISTCONTROL_FONT            = Nustatyti failų sąrašo šriftą
+IDC_BTN_SET_FONT                        = Pasirinkti šriftą...
+
+IDC_STATIC_SETTING_VIEWITEM             = Stulpeliai
+IDC_CHK_VIEWITEM_COMPSIZE               = Suspausto dydis
+IDC_CHK_VIEWITEM_ORIGSIZE               = Originalus dydis
+IDC_CHK_VIEWITEM_KIND                   = Failp tipas
+IDC_CHK_VIEWITEM_DATE_MOD               = Keitimo data
+IDC_CHK_VIEWITEM_COMPMETHOD             = Suspaudimo tipas
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Kriptavimo tipas
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Failo savybės
+IDC_CHK_VIEWITEM_COMMENT                = Failo komentaras
+IDC_CHK_VIEWITEM_EXT                    = Daugiau informacijos
+
+IDC_STATIC_IMAGE_VIEWER                 = Peržiūros programa
+IDC_RADIO_IMAGE_VIEWER_0                = Naudoti vidinę peržiūros programą
+IDC_RADIO_IMAGE_VIEWER_1                = Naudoti susietą programą
+IDC_RADIO_IMAGE_VIEWER_2                = Naudoti Honeyview jei įdiegta
+
+IDC_STATIC_EDITOR                       = Redaktorius
+IDC_BTN_SET_EDITOR_PATH                 = Naršyti...
+
+IDC_STATIC_COLOR                        = Spalva
+IDC_STATIC_COLOR_THEME                  = Temos spalva
+IDC_BTN_BKGND                           = Pažymėta
+IDC_STATIC_COLOR_TEXT                   = Teksto spalva
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = Balta
+IDC_STATIC_COLOR_TEXT_BLACK             = Juoda
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopijuoti atsiųsto Internetu Zone.Identifier archyvo informaciją išpakavimo metu
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Eksportuoti Bandizip nustatymus
+IDC_STATIC_ETC                          = Įvairūs kiti nustatymai
+IDC_CHK_SET_TEMP_FOLDER                 = Nustatykite laikino katalogo vietą
+IDC_BTN_SET_TEMP_FOLDER                 = Naršyti...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Nustatyti esamo failo tipus kaip archyvo failus
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Trinti laikiną failą kai pabaigiamas susijęs procesas
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Kelti failus į Šiukšladėžę kai ištrinta
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Rodyti paskutinę archyvo istoriją
+IDC_CHK_USE_LONG_PATH_NAME              = Tikrinti ar pavadinimas viršyja 260 simbolių
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Leisti Windows Explorer trinti atidaryto archyvo failus
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Išskleisti katalogo medį automatiškai
+IDC_CHK_USE_MODAL_DIALOG                = Naudoti modulinį dialogą archyvuojant/išpakuojant
+IDC_CHK_USE_ELEGANT_UI                  = Naudoti naują vartotojo sąsają
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Rodyti 'Starto langą' kaip paleidžiamas Bandizip
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Rodyti pilną kelią antraštėje
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Trinti išarchyvuotą failą jei buvo nutrauktas išarchyvavimo procesas
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopijuoti atsiųsto Internetu Zone.Identifier archyvo informaciją išpakavimo metu
+IDC_CHK_USE_SET_END_OF_FILE             = Rezervuoti disko vietą kuriamam failui
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Archyvuoti failą net jei jis naudojamas kito proceso.
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Kalbos nustatymai
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (Self Extracting Archive) nustatymai
+IDC_STATIC_TARGET_PATH                  = Išarchyvavimo kelias:
+IDC_STATIC_TITLE                        = SFX Antraštė:
+IDC_STATIC_RUN                          = Paleisti po išarchyvavimo:
+IDC_STATIC_MESSAGE                      = SFX Pranešimas:
+IDC_CHK_AUTO_CLOSE                      = Uždaryti SFX langą po išarchyvavimo
+IDC_BTN_SAVE_SFX_SETTING                = Įrašyti nustatymus
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Rasti failus
+IDC_STATIC_FIND                         = Ko ieškoti:
+IDC_BTN_CLOSE                           = Uždaryti
+IDC_BTN_DELETE                          = Trinti
+IDC_BTN_EXTRACT                         = Išarchyvuoti
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Archyvo komentaras
+IDC_STATIC_COMMENT                      = Pridėti/Redaguoti šiame archyve
+IDC_CHK_USE_UTF8                        = Įrašyti komentarą kaip Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Nuskaityti komentarą iš failo (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = DĖMESIO
+IDC_STATIC_WARN_EXECUTABLE              = Ši failas vykdomasis. Jo paleidimas gali sutrikdyti kompiuterio darbą. Ar norite tęsti?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Daugiau neklausti
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Bandizip registracija
+IDC_STATIC_DESC1                        = Įveskite savo el. pašto adresą ir produkto raktą kurį gavote savo el. pašto adresu.
+IDC_STATIC_EMAIL                        = El. paštas
+IDC_STATIC_PRDUCT_KEY                   = Produkto raktas
+IDC_BTN_REGISTER                        = Registruoti dabar
+IDC_STATIC_BUYNOW                       = Norite įsigyti Bandizip? [Pirkti dabar]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Bandizip licenzijos vadovas
+TEXT_LIMIT_PASSMAN                      = Tik vienas slaptažodis gali būti saugomas Bandizip Standard Edition versijoje.
+TEXT_SHOW_AD                            = Reklamos skelbimai bus matomi Bandizip Standard Edition versijoje. Įsigykite pilną versiją norėdami juos panaikinti.
+TEXT_CANNOT_CHANGE                      = Negalite tai pakeisti Bandizip Standard Edition versijoje. Įsigykite pilną versiją norėdami tai keisti.
+TEXT_CANNOT_USE                         = Šios funkcijos nėra Bandizip Standard Edition versijoje. Įsigykite pilną versiją norėdami tai naudoti.
+TEXT_PORTABLE_NOTICE                    = Šios funkcijos nėra Bandizip Portable Edition versijoje. Įsigykite pilną versiją norėdami tai naudoti.
+IDC_STATIC_COMPARISON                   = Versijų palyginimas...
+IDC_STATIC_HOWTOREGISTER                = Jau įsigyjote Bandizip? [Kaip registruoti]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Taisyti archyvą
+IDC_STATIC_SRC                          = Taisomas failas
+IDC_STATIC_DST                          = Pataisytas failas
+IDC_BTN_START                           = Pradėti taisymą
+IDC_BTN_STOP                            = Stop
+TEXT_NOTICE                             = "Pasirinkite ir pažymėkite norimą taisyti failą ir spauskite "Pradėti taisymą""
+TEXT_ERR_OCCURRED                       = Įvyko klaida
+TEXT_ERR_NOT_A_ZIP                      = Pasirinkto failo formatas nepalaikomas. Šiuo metu palikomas tik ZIP formatas.
+TEXT_ERR_NO_INFO                        = Pasirinktas failas neturi taisomų duomenų.
+TEXT_MSG_START                          = Pradėtas taisymas.
+TEXT_MSG_FINISH                         = Taisymas baigtas.
+TEXT_MSG_ANALYZING                      = Tikrinama...
+TEXT_MSG_CANCELED                       = Taisymas nutrauktas.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Pasirinkite failą (*.zip) prieš pradėdami tvarkyti.
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Atidaryti
+$TOOLBAR_CLOSE_FILE                     = Uždaryti
+$TOOLBAR_EXTRACT_FILE                   = Išarchyvuoti
+$TOOLBAR_CREATE_ARCHIVE                 = Naujas
+$TOOLBAR_DELETE_FILE                    = Trinti
+$TOOLBAR_ADD_FILE                       = Pridėti
+$TOOLBAR_TEST_ARCHIVE                   = Tikrinti
+$TOOLBAR_CODEPAGE                       = Kodų puslapis
+$TOOLBAR_VIEWITEM                       = Stulpeliai
+$TOOLBAR_SCAN                           = Skanuoti
+
+$TOOLBAR_OPEN2                          = Atidaryti Archyvą
+$TOOLBAR_CREATE_ARCHIVE2                = Naujas Archyvas
+
+$TEXT_DESKTOP                           = Darbastalis
+$TEXT_DOCUMENT                          = Dokumentai
+$TEXT_PICTURE                           = Paveiksliukai
+$TEXT_COMPUTER                          = Kompiuteris
+
+$TEXT_SETTINGTAB_GENERAL                = Pagrindinis
+$TEXT_SETTINGTAB_ASSOC                  = Plėtiniai
+$TEXT_SETTINGTAB_SHELL                  = Konteksto meniu
+$TEXT_SETTINGTAB_EXTRACT                = Išarchyvavimas
+$TEXT_SETTINGTAB_ARCHIVE                = Suspaudimas
+$TEXT_SETTINGTAB_VIEWER                 = Peržiūra
+$TEXT_SETTINGTAB_ETC                    = Įvairūs
+$TEXT_SETTINGTAB_LANG                   = Kalba
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Atidaryti failo katalogą
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Atidaryti archyvo katalogą
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Atidaryti failo katalogą po išarchyvavimo
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Atidaryti archyvo katalogą
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Atidaryti išarchyvavimo katalogą
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Neuždaryti šį langą po išarchyvavimo
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Neuždaryti šį langą po archyvavimo
+$TOOLTIP_ADVANCED_MENU                  = Papildomi nustatymai
+$TOOLTIP_REGISTER                       = Bandizip registracija
+$TOOLTIP_UPDATE                         = Atnaujinti
+$TOOLTIP_PREVIEW                        = Rodyti dideles ikonas
+$TOOLTIP_REPORT                         = Rodyti detales
+
+$TEXT_INSTALL_START                     = Gerai, aš pabandysiu
+$TEXT_INSTALL_CLOSE                     = Ne, ačiū
+$TEXT_INSTALL_HONEYVIEW_LINK            = Daugiau...
+
+$TEXT_HELP_PAGE                         = Pagalbos puslapis
+$TEXT_AD                                = Reklama
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Bandizip slaptažodžio atstatymas
+TEXT_MSG_OPENING                        = Atidaryti archyvą: ${str1}
+TEXT_MSG_CANCELED                       = Aarcyvo atidarymas nutrauktas.
+TEXT_MSG_BROKEN                         = Šis archyvas sugadintas.
+TEXT_MSG_NO_PASSWD                      = Šis archyvas be slaptažodžio.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = Šio archyvo failo antraštė užkoduota. Tokio tipo archyvas šiuo metu nepalaikomas.
+TEXT_MSG_OPEN_FIRST                     = Atidarykite archyvą prieš pradėdami atstatymą.
+TEXT_MSG_CANT_OPEN                      = Archyvo atverti nepavyko. (Klaidos kodas:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = Pasirinkite symbolių tipus atstatymui.
+TEXT_MSG_INIT_FAIL                      = Nepavyko inicijuoti.
+TEXT_MSG_NOT_FOUND                      = Atstatymas nutrauktas. Slaptažodžio ilgis negali būti ilgesnis nei 4 symboliai Bandizip Standard Edition versijoje.
+TEXT_MSG_FILE2FINDPWD                   = Aukščiau pateiktas (-i) failas (-ai) bus apdorotas (-i).
+TEXT_MSG_ERRORATFINDINDEX               = Neaptiktas joks failas atstatymui.
+TEXT_MSG_COPY2CLIPBOARD                 = Atkurtas slaptažodis nukopijuotas į mainų sritį.
+TEXT_STATE_MSG_READY                    = Spauskite START kad pradėti.
+TEXT_STATE_MSG_WORKING                  = Slaptažodžio atstatymas...
+TEXT_STATE_MSG_PAUSING                  = Sustabdyta
+TEXT_STATE_MSG_STOPPING                 = Atšaukiama...
+TEXT_STATE_MSG_FOUND                    = Slaptažodis iš ${num1} symbolių atkurtas per ${str1} sekundžių. (${str2})
+TEXT_ASK_EXIT                           = Ar tikrai norite išeiti?
+TEXT_COMBO_THREAD_AUTO                  = Auto
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = Nustatymai
+IDC_STATIC_MULTI_CORE                   = Apdorojimas su keliais CPU branduoliais
+IDC_STATIC_MULTI_CORE_DESC              = Nustatykite apdorojimo srautų kiekį atstatymui. Rekomenduojama pasirinkti "Auto" arba mažesnį kiekį nei procesoriaus branduolių kiekis jūsų sistemoje.
+IDC_STATIC_PREP_POSTP                   = Prefiksas
+IDC_STATIC_PREP                         = Prefiksas
+IDC_STATIC_PREP_DESC                    = Pridėkite slaptažodžio pradžios prefiksą prieš apdorojant., pvz. http://www.
+IDC_STATIC_ETC                          = Įvairūs
+IDC_CHK_USE_SIGNATURE_BY_EXT            = Naudokite failo plėtinį greitesniam atstatymui.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = Atidaryti
+$STEP_2                                 = Tikrinti
+$STEP_3                                 = Nustatymai
+$STEP_4                                 = Atstatymas
+$STEP_5                                 = Atlikta
+$FILE_PATH_NAME                         = Vieta
+$BTN_NEXT_PAGE                          = Sekantis>
+$BTN_PREV_PAGE                          = <Atgal
+$BTN_OK                                 = OK
+$BUTTON_BUY_NOW                         = Pirkti Bandizip Professional Edition
+$STATIC_OPEN_DESC                       = Spauskite "Atidaryti archyvą" norėdami pasirinkti užkoduotą archyvą.<br> Jūs galite nutempti reikiamus failus tiesiai ant dialogo lango.
+$STATIC_PRICE_DESC1                     = Bandizip licenzijos vadovas
+$STATIC_PRICE_DESC2                     = Slaptažodžio atstatymas galimas tik Bandizip Professional Edition versijoje. Slaptažodžio ilgis negali būti didesnis nei 4 symboliai Bandizip Standard Edition versijoje.
+$STATIC_FILELIST_DESC                   = Archyve yra sekantys failai. Patikrinkite juos ir spauskite Sekantis.
+$FILELIST_HEADER_NAME                   = Pavadinimas
+$FILELIST_HEADER_SIZE                   = Dydis
+$FILELIST_HEADER_DATE                   = Keitimo data
+$FILELIST_HEADER_METHOD                 = Spaudimo būdas
+$FILELIST_HEADER_PWMETHOD               = Kodavimo būdas
+$STATIC_SYMBOL_DESC                     = Nurodykite slaptažodyje naudojamus symbolius. <br> Kuo daugiau nurodysite tipų, tuo ilgiau užtruks atkūrimas.
+$STATIC_CUR_PASSWORD                    = Atkuriama.
+$STATIC_CUR_PASSLEN                     = Ilgis
+$STATIC_ELAPSED                         = Numatomas laikas
+$STATIC_SPEED                           = Atkūrimo greitis
+$STATIC_CLIPBOARD_DESC                  = Nukopijuokite atstatytą slaptažodį į mainų skiltį ir įklijuokite jį.
+$BUTTON_STOP                            = Nutraukti
+$BUTTON_START                           = START
+$IDC_BTN_PAUSE                          = Pauzė
+$IDC_BTN_UNPAUSE                        = Iš naujo
+$IDC_BTN_OPEN                           = Atidaryti
+$IDC_BTN_SETTING                        = Praplėstas
+$IDC_BTN_COPY2CLIPBOARD                 = Kopijuoti
+$IDC_BTN_CANCEL_PAYMENT                 = Inicializuojama
+$BUTTON_HELP_PAGE                       = Numatomo laiko pagalba
+$CHECK_SYMBOL_NUM                       = Skaičiai (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = Mažosios raidės (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = Didžiosios raidės (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = Specialūs symboliai (!@#$...)
+$CHECK_SYMBOL_SPACE                     = Tarpas
+$CHECK_SYMBOL_ALL                       = Visi
+$CHECK_SYMBOL_SPECIFIED                 = Nurodyti simboliai
+$FOUNDED_PASSWORD                       = Atkurtas slaptažodis yra...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Naujas katalogas
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Naujas katalogas
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Atidaryti su Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Tikrinti archyvą
+TEXT_MENU_LAUNCH_CMD                    = Pa&leisti komandinį langą
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Paleisti komandinį langą (Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Spausti į kiekvieną failą/katalogą
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Spausti į "kiekvieną failą/katalogą.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "Spaus&ti į "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Spaus&ti į "${str1}" ir ištrinti
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Spausti į "${str1}" ir ema&il...
+TEXT_MENU_ARCHIVE_ZIPX                  = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Spausti į "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Spausti į kiekvieną "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Spausti į kiekvieną "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Spausti į "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Pridėti į archyvą (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Spausti kaip Administrator
+
+TEXT_MENU_EXTRACT_HERE                  = &Išarchyvuoti čia
+TEXT_MENU_EXTRACT_AUTO                  = Išarchyvuoti &automatiškai
+TEXT_MENU_EXTRACT_AUTO_EACH             = Išarchyvuoti &automatiškai (kiekvieną)
+TEXT_MENU_EXTRACT_SUB                   = Išarchyvuoti kiekvieną archyvą į skirtingą katalogą
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Išarchyvuoti į ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Išarchyvuoti į kitą katalogą...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Išarchyvuoti kaip Administrator
+TEXT_MENU_EXTRACT_HERE_DEL              = Išpakuoti čia ir ištrinti
+TEXT_MENU_EXTRACT_AUTO_DEL              = Išpakuoti čia (Smart) ir ištrinti
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Išpakuoti Smart (kiekvieną) ir ištrinti
+TEXT_MENU_EXTRACT_SUB_DEL               = Išpakuoti į atskirus katalogus ir ištrinti
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Išpakuoti &į ${str1}\ ir ištrinti
+
+TEXT_MENU_PREVIEW                       = Peržiūrėti archyvą
+TEXT_MENU_PREVIEW_BROKEN                = Šis failas yra kitokio[br] formato arba sugadintas
+TEXT_MENU_PREVIEW_TIMEOUT               = Baigėsi skirtasis užklausos laikas.
+TEXT_MENU_PREVIEW_EMPTY                 = Tuščias archyvas
+TEXT_MENU_PREVIEW_ENCRYPTED             = Failas kriptuotas
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Nepavyksta pasinaudoti archyvo peržiūros funkcija. [br][br]Perkraukite Windows Explorer arba [br]kompiuterį.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Nepavyko nuskaityti failų sąrašo
+
+TEXT_MENU_OPENING                       = Atidaroma...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip atnaujinimai
+TEXT_UPDATER_TEXT1                      = Yra Bandizip atnaujinimų.
+TEXT_UPDATER_TEXT_DL                    = Ar norite juos atsisiųsti dabar?
+TEXT_UPDATER_BTN_UPDATE                 = Atnaujinti
+TEXT_UPDATER_BTN_OK                     = Gerai
+TEXT_UPDATER_BTN_CANCEL                 = Atsisakyti
+TEXT_UPDATER_DOWNLOAD_ERROR             = Siuntimas nepavyko.
+TEXT_UPDATER_SETTING_UPDATE             = Nustatymai
+TEXT_UPDATER_SETTING_SKIPTHIS           = Praleisti šią versiją
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Tikslo kelias:
+BTN_SELECT_FOLDER                       = Naršyti...
+BTN_EXTRACT                             = Startas
+BTN_CLOSE                               = Uždaryti
+BTN_CANCEL                              = Atsisakyti
+BTN_OPEN_FOLDER                         = Atidaryti
+CHK_OVERWRITE                           = Perrašyti
+ERR_ERROR_OCCURRED                      = Įvyko klaida
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = Toks failas jau yra. Ar norite jį perrašyti?
+MSG_COMPLETED                           = Išarchyvavimas pavyko!
+IDD_PASSWORD                            = Įvesti slaptažodį
+IDC_STATIC_PASSWORD_MSG                 = Šis failas kriptuotas.
+IDC_BTN_SHOW_PASSWORD                   = Rodyti slaptažodį
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Nepavyko išarchyvuoti failų.
+TEXT_ERR_CRC                            = CRC klaida.
+TEXT_ERR_INVALID_PASSWD                 = Blogas slaptažodis.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Įdiegti ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = Pašalinti ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Spauskite pašalinti norėdami pradėti.
+
+$BTN_CLOSE                              = Uždaryti
+$BTN_CANCEL                             = Nutraukti
+$BTN_INSTALL                            = Sutinku ir diegti
+$BTN_UNINSTALL                          = Pašalinti
+$BTN_OPEN_LICENSE                       = [Peržiūrėti naudojimo teises]
+$BTN_HELP_LINK                          = [Pagalba]
+
+$TEXT_PATH                              = Įdiegimo katalogas
+$TEXT_INSTALL_STATIC                    = Diegiama...
+
+$CHK_AUTO_REPORT                        = Automatiškai siųsti statistiką ir griuvimo duomenis.
+$EMAIL                                  = El. pašto adresas
+$PRODUCT_KEY                            = Produkto raktas
+
+ERR_CANT_CREATE_FOLDER                  = Nepavyko sukurti katalogo: ${str1}
+ERR_CANT_OPEN_FILE                      = Nepavyko atidaryti failo: ${str1}
+ERR_CANT_WRITE_FILE                     = Nepavyko įrašyti failo: ${str1}
+ERR_BROKEN_ARCHIVE                      = Šis suspaustas failas sugadintas: ${str1}
+ERR_CRC_ERROR                           = CRC klaida: ${str1}
+ERR_NOT_ENOUGH_MEM                      = Atminties klaida: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = Klaida atidarant ir rašant failą:[br] "${str1}"[br]Spauskite Abort norėdami baigti įdiegimą,[br]Retry pabandyti dar kartą, arba [br]Ignore praleisti šį failą.
+MSG_SUCCESS                             = Įdiegimas baigtas
+MSG_ERROR                               = Įvyko klaida
+MSG_ERROR_REGISTER                      = Registarcijos klaida
+MSG_SELECT_FOLDER                       = Pasirinkite katalogą.
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip šiuo metu veikia. Uždarykite programą norėdami tęsti.
+MSG_XP_IS_NOT_SUPPORTED                 = Ši programa gali dirbti tik Windows Vista ir vėlesnėse versijose.
+MSG_NEED_ADMIN_PRIVILEGE                = Ši programa gali būti įdiegta vartotojo su administratoriaus teisėmis.[br][br]Ne administratoriams įdiegimas gali būti nesėkmingas.[br][br]Stabdyti įdiegimą?
+MSG_NEWVERSION_FOUND                    = Yra naujesnė programos versija. Ar norite ją dabar atsisiųsti?
+SHORTCUT_LINK_DESCRIPTOIN               = Paleisti ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = Ši versija nepalaiko 32-bitų (x86) sistemų. Atsisiųskite naują įdiegimo versiją mūsų tinklapyje.
+MSG_ERR_ARM_NOTSUPPORT                  = Ši versija nepalaiko ARM64 procesorių. Atsisiųskite naują įdiegimo versiją mūsų tinklapyje.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = Versijos tikrinimo klaida. Atsisiųskite pilną įdiegimo versiją.
+TEXT_VERSION_CHECKING                   = Tikrinama versija...
+TEXT_DOWNLOAD_FAILED                    = Atsisiuntimas nepavyko. Atsisiųskite pilną įdiegimo versiją.
+TEXT_DOWNLOAD_COMPLETED                 = Atsisiuntimas baigtas.
+TEXT_HOMEPAGE                           = [Atidaryti tinklapį]
+TEXT_XP                                 = Windows XP jau nepalaikomas
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = Pasirinkite įrankių juostos mygtukus.
+
+

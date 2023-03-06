@@ -60,7 +60,7 @@ append_strs.append(str_end)
 
 if len(append_strs) == 2:
     print("Failed to query IPs from:" + query_url)
-    os.system('timeout /t 5')
+    os.system('timeout /t 10')
     exit()
 
 
@@ -122,4 +122,4 @@ os.remove(temp_hosts)
 os.system('ipconfig /flushdns')
 
 print("Github IP Refresh Successfully.")
-#os.system('timeout /t 5')
+#os.system('timeout /t 10')

@@ -1,0 +1,918 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = suomi
+TRANSLATORS                             = Henri Jalonen
+
+
+[TEXT]
+TEXT_BUILDNO                            = Build#
+TEXT_FILE                               = Tiedosto
+TEXT_FOLDER                             = Kansio
+TEXT_ARCHIVE_SIZE                       = Arkiston koko
+TEXT_ORIGINAL_SIZE                      = Alkuperäinen koko
+TEXT_ARCHIVE_FORMAT                     = Arkiston tyyppi
+TEXT_COMPRESSED_SIZE                    = Pakattu koko
+TEXT_SOLID                              = Yhtenäinen
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Pakattu tiedosto (${str1})
+TEXT_PORTABLE                           = Siirrettävä
+TEXT_NEW_FOLDER                         = Uusi kansio
+TEXT_FILESIZE_UNKNOWN                   = Tuntematon
+TEXT_FILEDATE_UNKNOWN                   = Tuntematon
+TEXT_HELP_LINK                          = [Ohje]
+TEXT_APP_DESC                           = Bandizip on kevyt, nopea ja ilmainen kokonaisvaltainen Zip-arkistoija. Se hallitsee suosituimmat pakkausmuodot, kuten Zip, 7z, Rar ynnä muut.
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = Peruuta
+TEXT_MESSAGEBOX_ABORT                   = Keskeytä
+TEXT_MESSAGEBOX_RETRY                   = Yritä uudelleen
+TEXT_MESSAGEBOX_IGNORE                  = Ohita
+TEXT_MESSAGEBOX_YES                     = Kyllä
+TEXT_MESSAGEBOX_NO                      = Ei
+TEXT_MESSAGEBOX_CONTINUE                = Jatka
+TEXT_MESSAGEBOX_HELP                    = Help
+
+TEXT_COLUMN_NAME                        = Nimi
+TEXT_COLUMN_COMPSIZE                    = Pakattu
+TEXT_COLUMN_ORIGSIZE                    = Alkuperäinen
+TEXT_COLUMN_KIND                        = Tyyppi
+TEXT_COLUMN_DATE_MOD                    = Muokattu
+TEXT_COLUMN_COMPMETHOD                  = Pakkausmenetelmä
+TEXT_COLUMN_ENCRMETHOD                  = Salausmenetelmä
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Attribuutit
+TEXT_COLUMN_COMMENT                     = Kommentti
+TEXT_COLUMN_PATHNAME                    = Polku
+
+TEXT_ICONPACK_NAME                      = Nimi
+TEXT_ICONPACK_DESIGNER                  = Suunnittelija
+TEXT_ICONPACK_COPYRIGHT                 = Copyright
+
+TEXT_ARCHIVE_COLUMN_NAME                = Nimi
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Koko
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Kansiopolku
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Koko yhteensä
+
+TEXT_SELECT_ARCHIVE_FILE                = Valitse tiedosto
+TEXT_SELECT_TEXT_FILE                   = Valitse tiedosto
+TEXT_SELECT_DEST_FOLDER                 = Valitse kohdekansio
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Arkisto
+TEXT_REGISTRY_FILE                      = Registry file
+
+TEXT_OPENDLG_ARCHIVEFILES               = Arkistot
+TEXT_OPENDLG_ARCHIVEFILE                = Archive File
+TEXT_OPENDLG_ALLFILES                   = Kaikki tiedostot
+TEXT_OPENDLG_EXEFILES                   = EXE-tiedostot
+
+TEXT_ABOUTBOX_TAB1                      = Tietoja Bandizipistä
+
+TEXT_ASSOC_GROUP0                       = Arkistot
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Muut
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Lataa Bandizipin uusin versio avataksesi tämän tiedoston.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Valitse vain ensimmäinen jaetun arkiston osa.
+TEXT_OPENERR_CANT_OPEN_FILE             = Tiedoston avaaminen epäonnistui (${str1}).
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Tiedosto (${str1}) on toisen ohjelman käytössä, joten sen avaaminen ei onnistu.
+TEXT_OPENERR_GENERAL                    = Tiedoston avaaminen epäonnistui (${str1}) (Koodi:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Peruutettu
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Tuntematon tiedostomuoto (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" ei ole arkisto."
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Tiedostotyyppi ei ole tuettu (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Salausmenetelmä ei ole tuettu (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Syötä salasana
+TEXT_OPENERR_INVALID_PASSWORD           = Salasana on virheellinen.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Tiedoston avaaminen ei onnistu, koska tiedoston otsikkokenttä on viallinen
+
+TEXT_ERR_INIT_FAILED                    = Alustaminen epäonnistui.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Salasana on virheellinen tai arkistossa ei ole tiedostoa.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Salasanat eivät täsmää.
+TEXT_ERR_PASSWORD_NOT_SET               = Salasana vaaditaan.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Salasanasi sisältää epäkelpoja merkkejä. Käytä vain alfanumeerisia merkkejä tai erikoismerkkejä.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Virheellinen jaettavan tiedoston koko.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX-tiedoston (itsepurkautuva arkisto) koko voi olla enintään 4 GiB
+TEXT_ERR_INTERNAL_ERROR                 = Sisäinen virhe
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Arkistoa ei voida muokata.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Arkistoa muokatessa tapahtui virhe.
+TEXT_ERR_INVALID_FOLDER_PATH            = Virheellinen kansiopolku
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Vain ZIP-tiedostoa voidaan muokata.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Jaettua arkistoa ei voida muokata.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Itsepurkautuvaa arkistoa (*.exe) ei voida muokata.
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Viallista tiedostoa ei voida muokata.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Tätä arkistotyyppiä ei voida muokata.
+TEXT_ERR_CANT_CHANGE_FILENAME           = Tiedostoa ei voida nimetä uudelleen.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Ei voi käyttää tiedostonimeä, jossa on [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Saman niminen tiedosto tai kansio on jo olemassa. Tiedoston nimeä ei voida vaihtaa (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Kansion luonti ei onnistu.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Ei arkistoitavia tiedostoja.
+TEXT_ERR_INVALID_PARAM                  = Virheellinen parametri.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Ei voida lisätä tiedostoa arkistoon. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Arkiston avaaminen ei onnistu. [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Saman niminen kansio on jo olemassa.
+TEXT_ERR_FILENAME_EMPTY                 = Tiedostonimi on virheellinen.
+TEXT_ERR_AT_DRAGANDDROP                 = Vedä ja pudota -toiminto epäonnistui.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Vedä ja pudota -toiminto epäonnistui.[br]Bandizip on juuri poistanut käytöstä "Nopea vedä ja pudota" -toiminnon, yritä uudelleen.
+TEXT_ERR_AT_CANT_OPEN_MMF               = MMF:n avaaminen ei onnistu (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Ei tiedostoa valittuna
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Kansion luonti kuvakepaketille ei onnistu.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Tiedoston luonti kuvakepaketille ei onnistu.
+TEXT_ERR_AT_EXECUTE_DIRECT              = Tiedoston avaaminen ei onnistu. Pura tiedosto ja yritä uudelleen.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Yli 4 GiB tiedoston luominen ei onnistu.[br]Vaihda tiedostotyypiksi ZIP tai 7Z.
+TEXT_ERR_CANT_SAVE_AS                   = Tiedoston tallentaminen epäonnistui.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip has encountered a problem while editing the file.(${str1})[br][br]Would you like to send an error report to Bandisoft?[br][br]Submitting this report helps Bandisoft improve Bandizip.
+
+TEXT_MSG_TEST_OK                        = Arkistossa ei ole virheitä.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Purkaminen epäonnistui. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Purkaminen onnistui.
+TEXT_MSG_EXTRACT_CANCELED               = Purkaminen peruutettiin.
+TEXT_MSG_COMPRESS_SUCCESS               = Arkistointi valmis.
+TEXT_MSG_INTERNAL_ERROR                 = Sisäinen virhe.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Cannot open the following file in the temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Arkistoa ei voida poistaa.
+TEXT_MSG_CRASH_REPORT                   = Ohjelma kaatui. Sulje ohjelma.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip has encountered a problem and needs to close. Do you want to send a crash report to the Bandizip developer?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip is not responding.[br][br]Do you want to send a crash report to the Bandizip developer and close the program?
+TEXT_MSG_SET_TEMP_PATH                  = Aseta väliaikaiskansion polku
+TEXT_MSG_SET_PATH                       = Aseta kansiopolku
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Kuvakepaketti asennettiin onnistuneesti.
+TEXT_MSG_NOTICE_RESTART                 = Ohjelma käynnistetään uudelleen.
+TEXT_MSG_ARCHVIE_OPENING                = Avataan arkistoa.
+TEXT_MSG_COMPLETING                     = Valmiina ${num1} %
+TEXT_MSG_CANT_CREATE_FOLDER             = Cannot create a folder.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Cannot compress a folder into a .GZ/XZ archive.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Cannot compress multiple files into a .GZ/XZ archive. Please check the "Compress to each file/folder name" option.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip has been minimized to the system tray. Click the tray icon to restore it.
+TEXT_MSG_TRAY_COMPLETED                 = The operation has been completed.
+TEXT_MSG_BATCH_ARCHVING                 = Archiving: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Extracting: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testing: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Deleting: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Failed to delete: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Work in progress...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Jos merkit eivät näy oikein, napsauta <font color=red><b>Merkistö</b></font> painiketta yllä ja yritä valintaa <font color=red><b>Tunnista automaattisesti</b></font> valikosta.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Arkisto poistetaan.[br]Haluatko poistaa tämän tiedoston?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Haluatko poistaa nykyisen arkiston?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Do you want to delete the current archive permanently?
+TEXT_ASK_CHANGE_FILENAME                = Saman niminen tiedosto on jo olemassa.[br][br]Haluatko vaihtaa nimen ${str1} nimeksi ${str2}?
+TEXT_ASK_DELETE_FILE                    = Haluatko poistaa valitun tiedoston?
+TEXT_ASK_STOP_EXTRACT                   = Haluatko pysäyttää purkamisen?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Tiedosto on jo olemassa.[br][br]Haluatko korvata nykyisen tiedoston?
+TEXT_ASK_INIT_SETTING                   = Haluatko palauttaa oletusasetukset? Bandizip käynnistetään uudelleen.
+TEXT_ASK_STOP_ARCHIVING                 = Haluatko pysäyttää arkistoinnin?
+TEXT_ASK_STOP_MODIFYING                 = Haluatko pysäyttää tämän toiminnon?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Haluatko lisätä muutetun tiedoston arkistoon [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Haluatko asentaa ja ottaa käyttöön kuvakepaketin (${str1})
+TEXT_ASK_MAKE_FOLDER                    = The folder doesn't exist. Do you want to create it?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = The destination folder doesn't have write permission.[br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_CONT_NOFREESPACE               = The destination folder doesn't have enough space. Change the destination folder. [br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_ASK_UAC_ELEVATION              = You do not have permission to change these files. [br][br]Do you want to restart this program as an administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Cannot open this archive file. [br][br]Do you want to open the first part of the split file (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = If you delete files after archiving, you could lose important files if the files are broken.[br][br]Do you want to check the "Test Archive" option?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Not enough disk space to extract. Do you want to proceed?[br][br]Destination Folder: ${str1}[br]Free disk space: ${str2}[br]Extracting file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Tiedosto on vioittunut
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Tiedosto on vioittunut tai tarvitaan toinen jaettu tiedosto
+
+TEXT_BTN_PAUSE                          = Tauko
+TEXT_BTN_RESUME                         = Jatka
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Tapahtui virhe
+TEXT_ERRDLG_USER_ABORT                  = Keskeytetty
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Tiedostoa ei voida avata
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Tiedoston avaaminen ei onnistu, koska toinen ohjelma käyttää sitä
+TEXT_ARKERR_PASSWORD_NOT_SET            = Salasana vaaditaan.
+TEXT_ARKERR_INVALID_PASSWD              = Virheellinen salasana
+TEXT_ARKERR_USER_ABORTED                = Keskeytetty
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC-virhe
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Tulostiedostoa ei voitu lukea.
+TEXT_ARKERR_CANT_READ_DATA              = Arkiston dataa ei voitu lukea.
+TEXT_ARKERR_INFLATE_FAILED              = Datavirhe - tiedosto on vioittunut
+TEXT_ARKERR_BZIP2_ERROR                 = Datavirhe - tiedosto on vioittunut
+TEXT_ARKERR_DATA_CORRUPTED              = Tiedosto on vioittunut tai tarvitaan toinen jaettu tiedosto
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Tiedostoa ei voida avata
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Kansion luonti ei onnistu.
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Pakkausmenetelmä ei ole tuettu
+TEXT_ARKERR_WRITE_FAIL                  = Kirjoitettaessa tapahtui virhe
+TEXT_ARKERR_DISK_FULL                   = Levy on täynnä
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Tiedoston luonti epäonnistui. Tiedostopolku ja tiedoston nimi eivät voi ylittää 260 merkkiä.
+TEXT_ARKERR_CANT_CREATE_FILE            = Tiedoston luonti epäonnistui
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Tiedoston luonti epäonnistui. Suorita ohjelma järjestelmänvalvojan oikeuksin.
+TEXT_ARKERR_USER_SKIP                   = Ohitettu
+TEXT_ARKERR_FILE_TRUNCATED              = Tiedoston loppu on vioittunut tai puuttuu
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Salasana on virheellinen tai tiedosto on vioittunut
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Tiedosto on vioittunut
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Itsepurkautuva tiedosto (*.exe) on yli 4 GiB. Et voi suorittaa yli 4 GiB tiedostoa Windowsissa.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Arkistoa ei voida avata. Tarvitaan seuraava jaettu osa. (.z01, .z02…)
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Arkistoa ei voida avata. Tarvitaan seuraava jaettu osa. (.z01, .z02…)
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Arkistoa ei voida avata. Tarvitaan toinen jaettu osa.
+TEXT_ARKERR_CORRUPTED_FILE              = Tiedosto on vioittunut
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Ei oikeuksia kirjoittaa tähän kansioon
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Ei oikeuksia kirjoittaa tähän kansioon. Suorita ohjelma ylläpitäjän oikeuksin.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Salausalgoritmia ei tueta
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Muisti vähissä
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Muisti vähissä. Vaihda pakkaustasoa.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Toimintoa ei tueta
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Purettu tiedoston koko ja otsakekentän tieto poikkeavat.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Yli 4 GiB tiedoston luominen ei onnistu. Vaihda tiedostotyypiksi ZIP tai 7Z.
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Pitkä tiedoston nimi on lyhennetty automaattisesti.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Lähdetiedoston avaaminen kopioitavaksi ei onnistu.
+TEXT_ARKERR_NOTIMPL                     = Ei toteutettu.
+TEXT_ARKERR_CANT_READ_FILE              = Cannot read file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Run Bandizip as administrator to create a symbolic link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Cannot create a symbolic link.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Ei jaettu
+TEXT_SPLITCOMBO_3MB                     = 3 MiB
+TEXT_SPLITCOMBO_4MB                     = 4 MiB
+TEXT_SPLITCOMBO_5MB                     = 5 MiB
+TEXT_SPLITCOMBO_10MB                    = 10 MiB
+TEXT_SPLITCOMBO_20MB                    = 20 MiB
+TEXT_SPLITCOMBO_GMAIL                   = 25 MiB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100 MiB
+TEXT_SPLITCOMBO_300MB                   = 300 MiB
+TEXT_SPLITCOMBO_CD650                   = 650 MiB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700 MiB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4 GiB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4,7 GiB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Käyttäjän valitsema
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0 - Ei pakkausta
+TEXT_COMPRESSIONMETHOD_FAST             = 1 - Nopea pakkaus
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2 - Normaali pakkaus
+TEXT_COMPRESSIONMETHOD_MAX              = 3 - Suurin pakkaus
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Uusi arkisto
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Lisää tiedostoja arkistoon
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Nimeä uudelleen: ${str1}
+TEXT_TITLE_TEST_MODE                    = Testaa arkisto
+TEXT_TITLE_TEMPFOLDER_MODE              = Puretaan väliaikaiskansioon…
+TEXT_TITLE_MODIFYING                    = Muokataan…
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Purettava tiedosto
+TEXT_MSG_SELECTED_FILE                  = ${num1} tiedosto(a) valittu
+TEXT_MSG_SELECTED_FOLDER                = ${num1} kansio(ta) valittu
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} tiedosto(a), ${num2} kansio(ta)
+TEXT_MSG_SELECTED_FILESIZESUM           = Valitun tiedoston koko: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Version tarkistus epäonnistui
+TEXT_UPDATE_VERSION_CHECKING            = Version tarkistus
+TEXT_UPDATE_DOWNLOAD_FAILED             = Lataaminen epäonnistui.
+TEXT_UPDATE_LATEST_VERSION              = Ajan tasalla
+TEXT_UPDATE_DO_DOWNLOAD                 = Päivitys tarvitaan
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Lataaminen valmis
+
+TEXT_INSTALL_HONEYVIEW                  = Install Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview isn't installed on your computer.
+TEXT_INSTALL_HONEYVIEW_2                = Please try Honeyview developed by Bandisoft.<br> It supports viewing the images in compressed ZIP, RAR, or 7z files without extraction.
+
+
+
+[MENU]
+MENUSTR_FILE                            = &Tiedosto
+MENUSTR_EDIT                            = &Muokkaa
+MENUSTR_SETTING                         = &Valinnat
+MENUSTR_FIND                            = &Etsi
+MENUSTR_VIEW                            = &View
+MENUSTR_HELP                            = &Ohje
+
+MENUSTR_OPEN                            = &Avaa kansio\tCtrl+O
+MENUSTR_RECENT                          = Recent Files
+MENUSTR_CLOSE_FILE                      = Sulje &kansio\tF4
+MENUSTR_CREATE_ARCHIVE                  = &Uusi arkisto\tCtrl+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Tallenna &nimellä
+MENUSTR_DELETE_ARCHIVE                  = Poista &arkisto\tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Delete Archive Permanently \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Open Archive Location
+MENUSTR_TEST_ARCHIVE                    = &Testaa arkisto\tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &Pura tiedosto\tCtrl+E
+MENUSTR_EXIT                            = &Sulje\tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Nimeä tiedosto uudelleen\tF2
+MENUSTR_ADD_FILE                        = &Lisää tiedosto\tIns
+MENUSTR_DELETE_FILE                     = &Poista tiedosto\tDel
+MENUSTR_EDIT_COMMENT                    = Arkiston kommentti
+MENUSTR_SETTING_SUB                     = &Asetukset\tF5
+MENUSTR_FIND_ITEM                       = &Etsi tiedostoja\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Copy files to clipboard\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Paste files from clipboard\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Start Screen \tF6
+MENUSTR_VIEW_TREECONTROL                = TreeView Control \tF7
+MENUSTR_VIEW_COMMENT                    = Archive Comment\tF8
+MENUSTR_VIEW_PREVIEW                    = Image Preview
+MENUSTR_VIEW_TOOLBAR                    = Toolbar
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Large
+MENUSTR_VIEW_TOOLBAR_MINI               = Small
+MENUSTR_VIEW_TOOLBAR_OLD                = Old
+MENUSTR_VIEW_TOOLBAR_HIDE               = Hide
+MENUSTR_VIEW_LISTVIEW                   = File List
+MENUSTR_VIEW_LISTVIEW_ICON              = Icons
+MENUSTR_VIEW_LISTVIEW_LIST              = List
+MENUSTR_VIEW_LISTVIEW_REPORT            = Details
+MENUSTR_VIEW_COLUMN                     = Column
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Always on top
+MENUSTR_VIEW_COLOR_SETTING              = Color Settings...
+
+
+MENUSTR_ABOUT                           = &Tietoja Bandizipistä\tF1
+MENUSTR_HELPPAGE                        = &Siirry ohjesivulle
+MENUSTR_OPEN_FOLDER                     = &Avaa Bandizipin kansio
+MENUSTR_FORUM                           = Siirry Bandizipin &foorumille
+MENUSTR_HOMEPAGE                        = Siirry &Verkkosivulle
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Pakattu koko
+POPUPMENU_VIEWITEM_ORIGSIZE             = Alkuperäinen koko
+POPUPMENU_VIEWITEM_KIND                 = Tiedostotyyppi
+POPUPMENU_VIEWITEM_DATE_MOD             = Muokattu
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Pakkausmenetelmä
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Salausmenetelmä
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Attribuutit
+POPUPMENU_VIEWITEM_COMMENT              = Tiedoston kommentti
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Pura kaikki…\tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Pura valitut tiedostot…
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Pura kaikki tänne
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Avaa\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Avaa liitetyllä ohjelmalla
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Muokkaa\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Uusi kansio
+POPUPMENU_LISTCONTROL_ADD_FILE          = Lisää tiedosto…\tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Poista tiedosto\tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Nimeä tiedosto uudelleen
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Valitse kaikki\tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Siirry yläkansioon\tAskelpalautin
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Poista arkisto
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Avaa arkiston kansio
+
+POPUPMENU_EXTRACT_AUTODEST              = Pura automaattisesti\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Pura nykyiseen kansioon\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = "Pura kansioon "Arkiston-nimi""
+POPUPMENU_EXTRACT_DESKTOP               = Pura työpöydälle
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Pura automaattisesti työpöydälle
+
+POPUPMENU_RECENT_CLEAR                  = Poista historia
+POPUPMENU_RECENT_NOITEM                 = Ei viimeisintä tiedostoa
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Avaa Bandizipillä
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Pura automaattisesti
+
+POPUPMENU_CODEPAGE_DEFAULT              = Oletus
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Kiinalainen, yksinkertaistettu
+POPUPMENU_CODEPAGE_TRADCHINESE          = Kiinalainen, perinteinen
+POPUPMENU_CODEPAGE_JAPANESE             = Japanilainen
+POPUPMENU_CODEPAGE_KOREAN               = Korealainen
+POPUPMENU_CODEPAGE_WINDOWS1252          = Länsimainen
+POPUPMENU_CODEPAGE_WINDOWS1250          = Keskieurooppalainen
+POPUPMENU_CODEPAGE_WINDOWS1251          = Kyrillinen
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turkkilainen
+POPUPMENU_CODEPAGE_WINDOWS737           = Kreikkalainen
+POPUPMENU_CODEPAGE_ARABIC               = Arabialainen
+POPUPMENU_CODEPAGE_HEBREW               = Heprealainen
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Tunnista automaattisesti
+
+
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = OK
+IDCANCEL                                = Peruuta
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Tietoja Bandizipistä
+IDC_BTN_HOMEPAGE                        = Verkkosivu
+IDC_BTN_UPDATE                          = Päivitys
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Avaa tiedosto
+IDC_STATIC_OPENING                      = Avataan
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Valitse purkamisen kohdekansio
+IDC_STATIC_FOLDER                       = K&ohdekansio
+IDC_STATIC_FILES2EXTRACT                = Pura
+IDC_RADIO_FILES2EXTRACT_0               = &Kaikki tiedostot
+IDC_RADIO_FILES2EXTRACT_1               = &Valitut tiedostot
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Pura kansioon "arkiston nimi" nykyisen kansion alle
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Poista alkuperäiset tiedostot purkamisen jälkeen
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = &Uusi kansio
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Pura
+IDC_BTN_STOP                            = Pysäytä
+IDC_BTN_CLOSE                           = Sulje
+IDC_BTN_PAUSE                           = Tauko
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Uusi arkisto
+IDC_STATIC_FILE_LIST                    = Lisää tiedostoja arkistoon
+IDC_STATIC_ARCHIVE_SETTING              = Arkiston asetukset
+IDC_STATIC_ARCHIVE_NAME                 = Tiedoston nimi
+IDC_STATIC_SET_DEST_FOLDER              = Kohdekansio
+IDC_STATIC_ARCHIVE_TYPE                 = Arkiston tyyppi
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Jaa osiin
+IDC_STATIC_COMPRESSION_METHOD           = Pakkaustaso
+IDC_STATIC_HELP_SPLIT                   = [Ohje]
+IDC_STATIC_HELP_7Z                      = [7Z-muoto]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Selaa…
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = Poista tiedostot arkistoinnin jälkeen
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Arkistoi jokainen tiedoston/kansion nimen mukaan
+IDC_BTN_SET_DEST_FOLDER                 = Vaihda kohdekansiota
+IDC_BTN_TOGGLE_ADVANCED                 = Lisäasetukset…
+IDC_BTN_SET_SFX                         = SFX-asetukset…
+IDC_BTN_ADD                             = &Lisää…
+IDC_BTN_DEL                             = &Poista
+IDC_BTN_START                           = &Aloita
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Virheellinen salasana. Anna salasana uudestaan.
+IDC_BTN_SHOW_PASSWORD                   = Näytä salasana
+IDC_CHECK_APPLY_ALL                     = &Lisää kaikki
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = Näytä salasana
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Valitse
+IDC_BTN_OPEN                            = Avaa
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Arkistoidaan
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = Pysäytä
+IDC_BTN_CLOSE                           = Sulje
+IDC_BTN_PAUSE                           = Tauko
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Tiedostoduplikaatti
+IDC_STATIC_DUPE_MESSAGE                 = Tiedosto on jo olemassa.
+IDC_STATIC_DUPEFILE_OLD                 = Alkuperäinen tiedosto
+IDC_STATIC_DUPEFILE_NEW                 = Nykyinen tiedosto
+IDC_STATIC_DUPE_ASK                     = Valitse toiminto alta:
+IDC_RADIO_DUPE_METHOD0                  = &Ohita
+IDC_RADIO_DUPE_METHOD1                  = &Korvaa
+IDC_RADIO_DUPE_METHOD2                  = &Nimeä uudelleen
+IDC_CHECK_DUPE_APPLY_ALL                = &Käytä kaikkiin tiedostoihin
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Valitse arkistointitoiminto
+IDC_STATIC_ASK_HANDLING                 = Valitse toiminto alta:
+IDC_RADIO_HANDLE_METHOD0                = &Avaa arkisto
+IDC_RADIO_HANDLE_METHOD1                = &Uusi arkisto
+IDC_RADIO_HANDLE_METHOD2                = &Lisää tiedosto(ja) nykyiseen arkistoon
+IDC_CHK_PASS                            = Käytä salasanaa
+IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
+IDC_CHK_SHOW_PASS                       = Show Password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Asetukset
+IDC_BTN_INIT                            = Oletukset
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = General Settings
+IDC_CHK_EXIT_WITH_ESC                   = Sulje ikkuna ESC-näppäimellä
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Tarkista tiedostot aina kun niitä lisätään, poistetaan nimetään uudelleen
+IDC_CHK_SNAP                            = Tarttuva ikkuna
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Näytä ylempi kansio arkistossa [..]
+IDC_CHK_SHOW_GRID_AT_LIST               = Show gridlines in details view
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Koko rivin valinta
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Tiedostosidokset
+IDC_BTN_SELECT_MANDATORY                = Valitse olennaiset
+IDC_BTN_SELECT_ALL                      = Valitse kaikki
+IDC_BTN_CLEAR_ALL                       = Poista kaikki valinnat
+IDC_BTN_APPLY_NOW                       = Ota käyttöön nyt
+IDC_STATIC_ICON_PACK                    = Valitse kuvakepaketti
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Kuvakepaketin lataaminen]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Ohjelmakytkennät
+;IDC_STATIC_ASSOC_DESC1                 = Windows 8:lle ja uudemmille voit määrittää ohjelmakytkennät seuraavasti:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Napsauta "Määritä ohjelmakytkennät" painiketta.
+;IDC_STATIC_ASSOC_DESC3                 = 2. Merkitse "Valitse kaikki" asetusikkunassa.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Napsauta "Tallenna"-painiketta.
+;IDC_STATIC_ASSOC_DESC1_10              = Windows 10:lle ja uudemmille voit määrittää ohjelmakytkennät seuraavasti:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Napsauta "Määritä ohjelmakytkennät" painiketta.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Select "Bandizip" in Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Määritä ohjelmakytkennät
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Perinteinen menetelmä
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Kaksoisnapsautuksen toiminto
+IDC_RADIO_SHELL_OPEN_0                  = Avaa Bandizipillä
+IDC_RADIO_SHELL_OPEN_1                  = Pura automaattisesti
+IDC_RADIO_SHELL_OPEN_2                  = Näytä kontekstivalikko
+IDC_RADIO_SHELL_OPEN_3                  = Pura automaattisesti tähän kansioon
+IDC_BTN_SET_EXTRACT_FOLDER              = Selaa…
+IDC_RADIO_SHELL_OPEN_4                  = "Pura kansioon "Arkiston-nimi""
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = Purkuvalikko
+IDC_CHK_SHELL_EXTRACT_HERE              = Pura tänne
+IDC_CHK_SHELL_EXTRACT_AUTO              = Pura automaattisesti
+IDC_CHK_SHELL_EXTRACT_SUB               = "Pura kansioon "Arkiston-nimi""
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Here and Delete
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Here (Smart) and Delete
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = Pura toiseen kansioon
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extract as administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Testaa arkisto
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Avaa Bandizipillä
+IDC_CHK_SHELL_PREVIEW                   = Esikatsele arkisto
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Tiedostojen määrä:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = Pakkausvalikko
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Arkistoi tiedostoon "Tiedoston-nimi.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Arkistoi tiedostoon "Tiedoston-nimi.zip" ja lähetä sähköpostina
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Arkistoi tiedostoon "Tiedoston-nimi.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Arkistoi tiedostoon "Tiedoston-nimi.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Arkistoi tiedostoon "Tiedoston-nimi.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Arkistoi tiedostoon "Tiedoston-nimi.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Arkistoi tiedostoon "Tiedoston-nimi.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Arkistoi tiedostoon "Tiedoston-nimi.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Arkistoi tiedostoon "Tiedoston-nimi.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Compress to "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Compress to "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Compress to "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "Arkistoi jokainen "Nimi.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Arkistoi jokainen "Nimi.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Lisää arkistoon (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Compress as administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Compress to custom file name
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${NAME}=Filename, %Y=Year, %m=Month, %d=Day, %H=Hour, %M=Minute, %S=Second
+
+IDC_STATIC_SHELL_BKGND                  = Napsauta hiiren oikeaa painiketta tyhjän tilan päällä avataksesi kontekstivalikon Resurssienhallinnassa
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Käytä "Uusi kansio" -toimintoa
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Käynnistä komentokehote. Paina Vaihto-näppäintä käynnistääksesi järjestelmänvalvojana
+
+IDC_STATIC_SHELL_ETC                    = Muut
+IDC_CHK_SHELL_DO_NOT_USE                = Älä näytä kontekstivalikkoa
+IDC_CHK_SHELL_AS_SUB_MENU               = Luo alivalikko
+IDC_CHK_SHELL_HIDE_ICON                 = Piilota Bandizip-kuvake
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Tunnista arkistot sisällön mukaan
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Näytä pakkausvalikko myös arkistoille
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Käytä hiiren osoittimen valitsemaa tiedoston/kansion nimeä valittaessa useita tiedostoja/kansioita
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Purkuasetukset
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Jos arkistossa on vain yksi juurikansio, näytä kansion tiedostot suoraan.
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Avaa kansio purkamisen jälkeen
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Älä sulje edistymisikkunaa purkamisen jälkeen
+IDC_CHK_FAST_DRAG_DROP                  = Käytä nopeaa vedä ja pudota -toimintoa, jos tiedosto on kookas
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Pura TGZ ja TBZ -tiedostot tiedosto kerrallaan
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Myös kookkailla TGZ ja TBZ -tiedostoilla
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Käytettäessä toimintoa "Pura automaattisesti", pura uuteen kansioon, jos arkistossa on vain yksi tiedosto
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Tunnista Macintosh-merkistö automaattisesti
+IDC_CHK_UNIXZIP_AS_UTF8                 = Käytä UTF-8-koodausta avattaessa arkistoa Unixista.
+IDC_STATIC_CODEPAGE                     = Oletusmerkistökoodaus
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Pura kaikki tiedostoilla
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Pakkausasetukset
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Älä luo juurikansiota arkistoitaessa vain yhtä kansiota
+IDC_CHK_USE_UTF8_COMPRESS               = Käytä ZIP-arkistojen nimissä Unicode-koodausta (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Käytä TAR- ja TGZ-arkistojen nimissä Unicode-koodausta (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Käytä aina ZIP64-muotoa, vaikka tiedoston koko olisi alle 2 GiB (Ei suositella)
+IDC_CHK_EXCLUDE_THUMBSDB                = Ohita "thumbs.db"-tiedosto arkistoitaessa
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Tallenna NTFS-aikatiedot luotaessa ZIP-arkistoja
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Käytä nopeaa arkistointia
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Älä sulje edistymisikkunaa arkistoinnin jälkeen
+IDC_STATIC_COMPRESSION_METHOD           = Pakkaustaso:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Käytä viimeisintä kansiota uudelle arkistolle
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Uuden arkiston oletuskansio
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Selaa…
+IDC_CHK_EXCLUDE_FILTER                  = Arkistoitaessa ohitettavat tiedostotyypit
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Katseluasetukset
+IDC_CHK_SHOW_PREVIEW                    = Kuvien esikatselu
+
+IDC_STATIC_SETTING_VIEWITEM             = Sarakkeet
+IDC_CHK_VIEWITEM_COMPSIZE               = Pakattu koko
+IDC_CHK_VIEWITEM_ORIGSIZE               = Alkuperäinen koko
+IDC_CHK_VIEWITEM_KIND                   = Tiedostotyyppi
+IDC_CHK_VIEWITEM_DATE_MOD               = Muokattu
+IDC_CHK_VIEWITEM_COMPMETHOD             = Pakkausmenetelmä
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Salausmenetelmä
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Attribuutit
+IDC_CHK_VIEWITEM_COMMENT                = Kommentti
+
+IDC_STATIC_IMAGE_VIEWER                 = Kuvankatselin
+IDC_RADIO_IMAGE_VIEWER_0                = Käytä sisäistä kuvankatselijaa
+IDC_RADIO_IMAGE_VIEWER_1                = Käytä liitettyä sovellusta
+IDC_RADIO_IMAGE_VIEWER_2                = Käytä Honeywelliä, jos asennettu
+
+IDC_STATIC_EDITOR                       = Editori
+IDC_BTN_SET_EDITOR_PATH                 = Selaa…
+
+IDC_STATIC_COLOR                        = Color
+IDC_STATIC_COLOR_THEME                  = Theme color
+IDC_BTN_BKGND                           = Selected
+IDC_STATIC_COLOR_TEXT                   = Font color
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = White
+IDC_STATIC_COLOR_TEXT_BLACK             = Black
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Export Bandizip Settings
+IDC_STATIC_ETC                          = Sekalaiset asetukset
+IDC_CHK_SET_TEMP_FOLDER                 = Aseta väliaikaiskansion sijainti
+IDC_BTN_SET_TEMP_FOLDER                 = Selaa…
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Recognize the following file types as archive files
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Delete temporary file when exit the child process
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Siirrä Roskakoriin poistettaessa
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Näytä viimeisimpien arkistojen historia
+IDC_CHK_USE_LONG_PATH_NAME              = Käsittele yli 260 merkkiä pitkät polkujen nimet
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Salli Resurssienhallinnan poistaa avoinna oleva arkisto
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Laajenna kansiopuu automaattisesti
+IDC_CHK_USE_MODAL_DIALOG                = Use a modal dialog box when archiving/extracting
+IDC_CHK_USE_ELEGANT_UI                  = Use elegant UI design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Show 'Start Screen' when Bandizip starts
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Display the full path in the title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Delete extracted files when extraction is cancelled
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Kieliasetukset
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (itsepurkautuva arkisto) -asetukset
+IDC_STATIC_TARGET_PATH                  = Polku, johon puretaan
+IDC_STATIC_TITLE                        = SFX-otsikko:
+IDC_STATIC_RUN                          = Suorita purkamisen jälkeen:
+IDC_STATIC_MESSAGE                      = SFX-viesti:
+IDC_CHK_AUTO_CLOSE                      = Sulje SFX-ikkuna purkamisen jälkeen
+IDC_BTN_SAVE_SFX_SETTING                = Tallenna asetukset
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Etsi tiedostoja
+IDC_STATIC_FIND                         = Etsi tekstiä:
+IDC_BTN_CLOSE                           = Sulje
+IDC_BTN_DELETE                          = Poista
+IDC_BTN_EXTRACT                         = Pura
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Arkiston kommentti
+IDC_STATIC_COMMENT                      = Lisää tai muokkaa arkiston kommenttia
+IDC_CHK_USE_UTF8                        = Tallenna kommentti Unicodena (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Lataa kommentti tekstitiedostosta (*.txt)…
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = VAROITUS
+IDC_STATIC_WARN_EXECUTABLE              = Tämä on ohjelmatiedosto. Sen suorittaminen voi vahingoittaa tietokonettasi. Haluatko jatkaa?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Älä kysy uudelleen
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Avaa
+$TOOLBAR_CLOSE_FILE                     = Sulje
+$TOOLBAR_EXTRACT_FILE                   = Pura
+$TOOLBAR_CREATE_ARCHIVE                 = Uusi
+$TOOLBAR_DELETE_FILE                    = Poista
+$TOOLBAR_ADD_FILE                       = Lisää
+$TOOLBAR_TEST_ARCHIVE                   = Testaa
+$TOOLBAR_CODEPAGE                       = Merkistö
+$TOOLBAR_VIEWITEM                       = Sarakkeet
+
+$TOOLBAR_OPEN2                          = Open Archive
+$TOOLBAR_CREATE_ARCHIVE2                = New Archive
+
+$TEXT_DESKTOP                           = Työpöytä
+$TEXT_DOCUMENT                          = Tiedostot
+$TEXT_PICTURE                           = Kuvat
+$TEXT_COMPUTER                          = Tietokone
+
+$TEXT_SETTINGTAB_GENERAL                = Yleinen
+$TEXT_SETTINGTAB_ASSOC                  = Tiedostosidokset
+$TEXT_SETTINGTAB_SHELL                  = Kontekstivalikko
+$TEXT_SETTINGTAB_EXTRACT                = Purkaminen
+$TEXT_SETTINGTAB_ARCHIVE                = Pakkaaminen
+$TEXT_SETTINGTAB_VIEWER                 = Katseluohjelma
+$TEXT_SETTINGTAB_ETC                    = Sekalainen
+$TEXT_SETTINGTAB_LANG                   = Kieli
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Avaa tiedoston sijainti
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Avaa arkiston sijainti
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Avaa tiedoston sijainti purkamisen jälkeen
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Avaa arkiston sijainti
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Avaa kohdekansio
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Älä sulje tätä ikkunaa purkamisen jälkeen
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Älä sulje tätä ikkunaa arkistoinnin jälkeen
+$TOOLTIP_ADVANCED_MENU                  = Miscellaneous Settings
+
+$TEXT_INSTALL_START                     = OK, I'll try it
+$TEXT_INSTALL_CLOSE                     = No, thanks
+$TEXT_INSTALL_HONEYVIEW_LINK            = See more...
+
+$TEXT_HELP_PAGE                         = Help Page
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Uusi kansio
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Uusi kansio
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Avaa Bandizipillä…
+TEXT_MENU_TEST_ARCHIVE                  = Testaa arkisto
+TEXT_MENU_LAUNCH_CMD                    = Avaa &Komentokehote
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Avaa Komentokehote järjestelmänvalvojana
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Arkistoi jokainen tiedoston/kansion &nimen mukaan
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Arkistoi jokainen "Nimi.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "A&rkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Arkistoi tiedostoon "${str1}" ja lähetä sähköpostitse…
+TEXT_MENU_ARCHIVE_ZIPX                  = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Arkistoi tiedostoon "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Compress to each "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Compress to each "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Compress to "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Lisää arkistoon (&Bandizip)…
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Pakkaa järjestelmänvalvojana
+
+TEXT_MENU_EXTRACT_HERE                  = Pura tänn&e
+TEXT_MENU_EXTRACT_AUTO                  = Pura &automaattisesti
+TEXT_MENU_EXTRACT_AUTO_EACH             = Pura automaattisesti (jokainen)
+TEXT_MENU_EXTRACT_SUB                   = Pura jokainen arki&sto erilliseen kansioon
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Pura kansioon ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Pura muuhun kansioon…
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Pura järjestelmänvalvojana
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = Esikatsele arkisto
+TEXT_MENU_PREVIEW_BROKEN                = Tiedosto on joko [br] tuntemattomassa muodossa tai vahingoittunut
+TEXT_MENU_PREVIEW_TIMEOUT               = Pyyntö aikakatkaistiin
+TEXT_MENU_PREVIEW_EMPTY                 = Tyhjä arkisto
+TEXT_MENU_PREVIEW_ENCRYPTED             = Tiedoston nimi on salattu
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Arkiston esikatselutoimintoa ei voida käyttää. [br][br]Käynnistä Windows Explorer tai tietokone uudelleen.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Tiedostoluetteloa ei voitu lukea.
+
+TEXT_MENU_OPENING                       = Avataan…
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizipin päivitykset
+TEXT_UPDATER_TEXT1                      = Bandizipin päivitykset ovat valmiita.
+TEXT_UPDATER_TEXT_DL                    = Haluaisitko ladata sen nyt?
+TEXT_UPDATER_BTN_UPDATE                 = Päivitä
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Peruuta
+TEXT_UPDATER_DOWNLOAD_ERROR             = Lataaminen epäonnistui.
+TEXT_UPDATER_SETTING_UPDATE             = Asetukset
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Kohdesijainti:
+BTN_SELECT_FOLDER                       = Selaa…
+BTN_EXTRACT                             = Aloita
+BTN_CLOSE                               = Sulje
+BTN_CANCEL                              = Peruuta
+BTN_OPEN_FOLDER                         = Avaa
+CHK_OVERWRITE                           = Korvaa
+ERR_ERROR_OCCURRED                      = Tapahtui virhe
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = Tiedosto on jo olemassa. Haluatko korvata sen?
+MSG_COMPLETED                           = Purkaminen onnistui.
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = Näytä salasana
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Tiedostojen purku ei onnistu.
+TEXT_ERR_CRC                            = CRC-virhe.
+TEXT_ERR_INVALID_PASSWD                 = Virheellinen salasana.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [Ohje]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip on yhä käynnissä. Sulje ohjelma ensin.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

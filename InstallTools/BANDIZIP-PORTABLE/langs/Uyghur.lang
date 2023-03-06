@@ -1,0 +1,901 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = ئۇيغۇرچە
+TRANSLATORS                             = نۇرمۇھەممەد ئىسمائىيىل(NurMuhemmed Ismaiyil) | uyghun@sina.com
+IS_RIGHT_TO_LEFT_TEXT                   = 1
+
+
+[TEXT]
+TEXT_BUILDNO                            = نەشرى#
+TEXT_FILE                               = ھۆججەت
+TEXT_FOLDER                             = ھۆججەت قىسقۇچ
+TEXT_ARCHIVE_SIZE                       = ئومۇمى چوڭلۇقى
+TEXT_ORIGINAL_SIZE                      = ئەسلى چوڭلۇقى
+TEXT_ARCHIVE_FORMAT                     = سىقىلما ھۆججەت تۈرى
+TEXT_COMPRESSED_SIZE                    = سىقىلما ھۆججەت چوڭلۇقى
+TEXT_SOLID                              = زىچ سىقىش
+TEXT_BETA                               = سىناق نەشرى
+TEXT_ASSOC                              = سىقىلغان ھۆججەت (${str1})
+TEXT_PORTABLE                           = كۆچمە نەشرى
+TEXT_NEW_FOLDER                         = يېڭى ھۆججەت قىسقۇچ
+TEXT_FILESIZE_UNKNOWN                   = ھۆججەتنىڭ چوڭلۇقى ئېنىق ئەمەس
+TEXT_FILEDATE_UNKNOWN                   = ھۆججەتنىڭ ۋاقتى ئېنىق ئەمەس
+TEXT_HELP_LINK                          = [ياردەم]
+TEXT_APP_DESC                           = Bandizip  يېنىك،تېز ھەم ھەقسىز سىقىلما ئارخىپچىسىدۇر. ئۇ ناھايتى ئومۇملاشقان Zip،7z،Rar قاتارلىق سىقىش پىچىملىرىنى ئكز ئىچىگە ئالىدۇ.
+
+TEXT_MESSAGEBOX_OK                      = جەزىملەش
+TEXT_MESSAGEBOX_CANCEL                  = ۋازكېچىش
+TEXT_MESSAGEBOX_ABORT                   = توختىتىش
+TEXT_MESSAGEBOX_RETRY                   = قايتا سېناپ بېقىش
+TEXT_MESSAGEBOX_IGNORE                  = ئۆتكۈزۈۋىتىش
+TEXT_MESSAGEBOX_YES                     = ھەئە
+TEXT_MESSAGEBOX_NO                      = ياق
+TEXT_MESSAGEBOX_CONTINUE                = داۋاملاشتۇرۇش
+TEXT_MESSAGEBOX_HELP                    = Help
+
+TEXT_COLUMN_NAME                        = نامى
+TEXT_COLUMN_COMPSIZE                    = سىقىلغان چوڭلۇقى
+TEXT_COLUMN_ORIGSIZE                    = ئەسلى چوڭلۇقى
+TEXT_COLUMN_KIND                        = تۈرى
+TEXT_COLUMN_DATE_MOD                    = ئۆزگەرتكەن ۋاقتى
+TEXT_COLUMN_COMPMETHOD                  = سىقىش ئۇسۇلى
+TEXT_COLUMN_ENCRMETHOD                  = شىفىرلەش ئۇسۇلى
+TEXT_COLUMN_CRC                         = CRC تەكشۈرۈشى
+TEXT_COLUMN_ATTRIB                      = خاسلىقى
+TEXT_COLUMN_COMMENT                     = ئەسكەرتىش
+TEXT_COLUMN_PATHNAME                    = ھۆججەت يولى
+
+TEXT_ICONPACK_NAME                      = نامى
+TEXT_ICONPACK_DESIGNER                  = لاھىيەلىگۈچى
+TEXT_ICONPACK_COPYRIGHT                 = نەشىر ھوقۇقى ئۇچۇرى
+
+TEXT_ARCHIVE_COLUMN_NAME                = نامى
+TEXT_ARCHIVE_COLUMN_FILESIZE            = چوڭلۇقى
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = ھۆججەت قىسقۇچ يولى
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = ئومۇمى چوڭلۇقى
+
+TEXT_SELECT_ARCHIVE_FILE                = ھۆججەت تاللاش
+TEXT_SELECT_TEXT_FILE                   = تېكست ھۆججىتى تاللاش
+TEXT_SELECT_DEST_FOLDER                 = نىشان ھۆججەت قىسقۇچنى تاللاش
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = سىقىلما ھۆججەت
+TEXT_REGISTRY_FILE                      = Registry file
+
+TEXT_OPENDLG_ARCHIVEFILES               = سىقىلما ھۆججەتلەر
+TEXT_OPENDLG_ARCHIVEFILE                = Archive File
+TEXT_OPENDLG_ALLFILES                   = بارلىق ھۆججەت
+TEXT_OPENDLG_EXEFILES                   = Exe ھۆججىتى
+
+TEXT_ABOUTBOX_TAB1                      = Bandizip ھەققىدە
+
+TEXT_ASSOC_GROUP0                       = سىقىلما ھۆججەتلەر
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = باشقىلار
+TEXT_ASSOC_GROUP3                       = CD/DVD تەسۋىرى
+
+TEXT_OPENERR_INVALIDVERSION             = بۇ ھۆججەتنى ئېچىش ئۈچۈن  نىڭ كېيىنكى نەشرىنى چۈشۈرىڭBandizip
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = بۆلۈنمە ھۆججەتنىڭ بىرىنچى پارچىسىنىلا تاللاڭ
+TEXT_OPENERR_CANT_OPEN_FILE             = ھۆججەت ئېچىلمىدى (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = ھۆججەت ئېچىلمىدى (${str1}) چۈنكى بۇ ھۆججەتنى باشقا پروگرامما ئىشلىتىۋىتىپتۇ
+TEXT_OPENERR_GENERAL                    = ھۆججەت ئېچىلمىدى (${str1}) (كودى:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = ئەمەلدىن قالدۇرۇلدى
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = بىلىنمىگەن ھۆججەت پىچىمى (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = سىقىلما ھۆججەت ئەمەس (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = قوللىمايدىغان ھۆججەت پېچىمى (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = قوللىمايدىغان شىاىرلەش ئۇسلۇبى (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = شىفىرنى كىگۈزىڭ
+TEXT_OPENERR_INVALID_PASSWORD           = شىفىر خاتا
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = ھۆججەت ئېچىلمىدى.سەۋەبى ھۆججەت بېشى بۇزۇلغان
+
+TEXT_ERR_INIT_FAILED                    = باشلىتىش مەغلۇپ بولدى
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = شىفىر ئىناۋەتسىز ياكى سىقىلما ئارخىپتا ھۆججەتتەت يوق.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = شىفىر ماسلاشمىدى
+TEXT_ERR_PASSWORD_NOT_SET               = شىفىرنى كىگۈزىڭ
+TEXT_ERR_INVALID_PASSWORD_CHAR          = شىفىرىڭىزدا ئىناۋەتسىز بەلگىلەر بار.ھەرپ،سان ياكى ئالاھىدە بەلگىلەرنىلا كىگۈزىڭ
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = ئىناۋەتسىز بۆلۈنمە ھۆججەت چوڭلۇقى
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (ئۆزلىكىدىن يېشىلىدىغان ھۆججەت) ھۆججەت چوڭلۇقى 4GB دا چەكلىنىدۇ.
+TEXT_ERR_INTERNAL_ERROR                 = ئىچكى خاتالىق
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = سىقىلما ھۆججەتنى ئۆزگەرتەلمىدى
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = سىقىلما ھۆججەتنى ئۆزگەرتىۋاتقاندا خاتالىق كۆرۈلدى
+TEXT_ERR_INVALID_FOLDER_PATH            = ئىناۋەتسىز ھۆججەت قىسقۇچ يولى
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = ZIP ھۆججىتىنىلا تۈزىتىشكە بولىدۇ
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = بۆلۈنمە ھۆججەتنى تۈزىتەلمەيسىز
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = (ئۆزى يېشىلىدىغان ھۆججەتنى تۈزىتەلمەيسىز (*.exe
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = بۇزۇق ھۆججەتنى تۈزىتەلمەيسىز
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = بۇ ھۆججەتنى ۋە ئۇنىڭ كېڭەيتىلگەن نامىنى تۈزىتەلمەيسىز
+TEXT_ERR_CANT_CHANGE_FILENAME           = ھۆججەت نامىنى ئۆزگەرتەلمەيسىز
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "ھۆججەت نامىدا بۇلارنى قوللىنالمايسىز [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = ئوخشاش ھۆججەت/ ھۆججەت قىسقۇچ بار. ھۆججەت نامىنى ئۆزگەرتەلمەيسىز (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = ھۆججەت قىسقۇچ قۇرالمايسىز
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = قىسىدىغان ھۆججەت يوق
+TEXT_ERR_INVALID_PARAM                  = ئىناۋەتسىز پارامېتېر
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = بۇ ھۆججەتنى سىقىلما ھۆججەتكە قوشالمايسىز [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = بۇ سىقىلما ھۆججەتنى ئاچالمايسىز [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = ئوخشاش ھۆججەت قىسقۇچ بار
+TEXT_ERR_FILENAME_EMPTY                 = ھۆججەت نامى خاتا
+TEXT_ERR_AT_DRAGANDDROP                 = سۈرۇش ۋە قويۇۋېتش مەغلۇپ بولدى
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = سۈرۇش ۋە قويۇۋېتش مەغلۇپ بولدى. \n"پروگرامما تېز سۈرۈش ۋە قويۇۋېتىش"ئىقتىدارىنى تاقىۋەتتى،  قايتا سىناپ بېقىڭ
+TEXT_ERR_AT_CANT_OPEN_MMF               = MMF ھۆججىتى ىئېچىلمىدى (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = تاللانغان ھۆججەت يوق
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = سىن بەلگە بوغچىسىنى قاچىلاشقا ھۆججەت قىسقۇچ قۇرالمىدى
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = سىن بەلگە بوغچىسىنى قاچىلاشقا ھۆججەت قۇرالمىدى
+TEXT_ERR_AT_EXECUTE_DIRECT              = بۇ ھۆججەت بىۋاستە ئېچىلمايدۇ. ھۆججەتنى يېشىپ قايتا سىناپ بېقىڭ
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 4GBدىن چوڭ ھۆججەت قۇرغىلى بولمايدۇ. [br] باشقا ھۆججەت  پىچىمىنى تاللاڭ (ZIP  ياكى 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = بۇ ھۆققەتنى ساقلىيالمايدۇ.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip has encountered a problem while editing the file.(${str1})[br][br]Would you like to send an error report to Bandisoft?[br][br]Submitting this report helps Bandisoft improve Bandizip.
+
+TEXT_MSG_TEST_OK                        = بۇ سىقىلما ھۆججەتتە خاتالىق يوق
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = يېشىش مەغلۇپ بولدى: خاتالىق كودى [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = يېشىش تاماملاندى
+TEXT_MSG_EXTRACT_CANCELED               = يېشىش ئەمەلدىن قالدۇرۇلدى
+TEXT_MSG_COMPRESS_SUCCESS               = سىقىش تاماملاندى
+TEXT_MSG_INTERNAL_ERROR                 = ئىچكى خاتالىق
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Cannot open the following file in the temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = بۇ سىقىلما ھۆججەتنى ئۆچۈرەلمىدى
+TEXT_MSG_CRASH_REPORT                   = پروگرامما توقىنىشىپ قالدى. پروگراممىدىن چېكىنىڭ
+TEXT_MSG_CRASH_REPORT2                  = Bandizip has encountered a problem and needs to close. Do you want to send a crash report to the Bandizip developer?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip is not responding.[br][br]Do you want to send a crash report to the Bandizip developer and close the program?
+TEXT_MSG_SET_TEMP_PATH                  = ۋاقىتلىق ھۆججەت يولىنى  بەلگىلەش
+TEXT_MSG_SET_PATH                       = يول بەلگىلەش
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = سىن بەلگە بوغچىسى ئوتۇقلۇق ئورنىتىلدى
+TEXT_MSG_NOTICE_RESTART                 = پروگرامما قايتا قوزغىلىدۇ
+TEXT_MSG_ARCHVIE_OPENING                = سىقىلما ھۆججەت ئېچىلىۋاتىدۇ
+TEXT_MSG_COMPLETING                     = تاماملىنىۋاتىدۇ: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Cannot create a folder.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Cannot compress a folder into a .GZ/XZ archive.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Cannot compress multiple files into a .GZ/XZ archive. Please check the "Compress to each file/folder name" option.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip has been minimized to the system tray. Click the tray icon to restore it.
+TEXT_MSG_TRAY_COMPLETED                 = The operation has been completed.
+TEXT_MSG_BATCH_ARCHVING                 = Archiving: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Extracting: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testing: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Deleting: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Failed to delete: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Work in progress...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = ھەرپ-بەلگىلەر توغرا كۆرۈنمىسە، يۇقۇرىدىكى <font color=red><b>كود بېتى</b></font> نى چېكىپ <font color=red><b>ئۆزى تاللاش</b></font> تىزىملىكىنى سىناپ بېقىڭ.
+
+TEXT_ASK_DELETE_ARCHIVE                 = ئەسلى ھۆججەت ئۆچۈرۋىتىلىدۇ. [br]بۇ ھۆججەتنى ئۆچۈرۋىتەمسىز؟
+TEXT_ASK_DELETE_CUR_ARCHIVE             = نۆۋەتتىكى ھۆججەتنى ئۆچۈرۋىتەمسىز؟
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Do you want to delete the current archive permanently?
+TEXT_ASK_CHANGE_FILENAME                = ئوخشاش ھۆججەت بار. [br][br]ھۆججەت نامىنى ${str1} دىن ${str2} غا ئۆزگەرتەمسىز؟
+TEXT_ASK_DELETE_FILE                    = تاللانغان ھۆججەتنى ئۆچۈرۋىتەمسىز؟
+TEXT_ASK_STOP_EXTRACT                   = يېشىشنى توختىتامسىز؟
+TEXT_ASK_OVERWRITE_ARCHIVE              = ئوخشاش ھۆججەت بار. [br][br]ئۇنى قاپلىۋىتەمسىز؟
+TEXT_ASK_INIT_SETTING                   = ئەسلىدىكى تەڭشەككە قايتۇرامسىز؟ Bandizip قايتا قوزغىلىدۇ.
+TEXT_ASK_STOP_ARCHIVING                 = سىقىشنى توختىتامسىز؟
+TEXT_ASK_STOP_MODIFYING                 = بۇ مەشغۇلاتنى توختىتامسىز؟
+TEXT_ASK_APPLY_MODIFIED_FILE            = سىقىلما ھۆججەتتىكى ئۆزگەرتىلگەن ھۆججەتنى تەبىقلامسىز؟  [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = سىنبەلگە بوغچىسىنى قاچىلىغاندىن كېيىن ئىشلىتەمسىز (${str1})؟
+TEXT_ASK_MAKE_FOLDER                    = The folder doesn't exist. Do you want to create it?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = The destination folder doesn't have write permission.[br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_CONT_NOFREESPACE               = The destination folder doesn't have enough space. Change the destination folder. [br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_ASK_UAC_ELEVATION              = You do not have permission to change these files. [br][br]Do you want to restart this program as an administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Cannot open this archive file. [br][br]Do you want to open the first part of the split file (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = If you delete files after archiving, you could lose important files if the files are broken.[br][br]Do you want to check the "Test Archive" option?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Not enough disk space to extract. Do you want to proceed?[br][br]Destination Folder: ${str1}[br]Free disk space: ${str2}[br]Extracting file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = بۇ ھۆججەت بۇزۇق
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = بۇ ھۆججەت بۇزۇق ياكى باشقا بىر بۆلۈنمە ھۆججەت كېرەك
+
+TEXT_BTN_PAUSE                          = ۋاقىتلىق توختىتىش
+TEXT_BTN_RESUME                         = داۋاملاشتۇرۇش
+
+TEXT_ERRDLG_ERROR_OCCURRED              = خاتالىق كۆرۈلدى
+TEXT_ERRDLG_USER_ABORT                  = ئەمەلدىن قالدۇرۇلدى
+
+TEXT_ARKERR_CANT_OPEN_FILE              = بۇ ھۆججەت ئېچىلمىدى
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = ھۆججەت ئېچىلمىدى .چۈنكى بۇ ھۆججەتنى باشقا پروگرامما ئىشلىتىۋىتىپتۇ
+TEXT_ARKERR_PASSWORD_NOT_SET            = شىفىر كېرەك
+TEXT_ARKERR_INVALID_PASSWD              = ئىناۋەتسىز شىفىر
+TEXT_ARKERR_USER_ABORTED                = توختىتىلدى
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC تەكشۈرۈش خاتالىقى
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = بۇ ھۆججەت ئېچىلمىدى
+TEXT_ARKERR_CANT_READ_DATA              = سىقىلما ھۆججەت سانلىق مەلۇماتىنى ئوقۇيالمىدى
+TEXT_ARKERR_INFLATE_FAILED              = سانلىق مەلۇمات خاتالىقى - بۇ ھۆججەت بۇزۇق
+TEXT_ARKERR_BZIP2_ERROR                 = سانلىق مەلۇمات خاتالىقى - بۇ ھۆججەت بۇزۇق
+TEXT_ARKERR_DATA_CORRUPTED              = بۇ ھۆججەت بۇزۇق ياكى باشقا بىر بۆلۈنمە ھۆججەت كېرەك
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = بۇ ھۆججەت ئېچىلمىدى
+TEXT_ARKERR_CANT_CREATE_FOLDER          = ھۆججەت قىسقۇچ قۇرالمىدى
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = قوللىمايدىغان سىقىش ئۇسلۇبى
+TEXT_ARKERR_WRITE_FAIL                  = يېزىۋاتقاندا خاتالىق كۆرۈلدى
+TEXT_ARKERR_DISK_FULL                   = دىسكا توشۇق
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = ھۆججەت يولى ۋە ھۆججەت نامى 260 ىەرپ-بەلگىدىن ئېشىپ كەتمەسلىكى كېرەك
+TEXT_ARKERR_CANT_CREATE_FILE            = ھۆججەت قۇرالمىدى
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = ھۆججەت قۇرالمىدى. پروگراممىنى باشقۇرغۇچىلىق ھوقۇقى بىلەن يۇرگۈزىڭ
+TEXT_ARKERR_USER_SKIP                   = ئاتلاپ كەتتى
+TEXT_ARKERR_FILE_TRUNCATED              = بۇ ھۆججەتنىڭ ئاخىرى بۇزۇق ياكى يوقاپ كەتكەن
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = ئىناۋەتسىز شىفىر ياكى بۇزۇق ھۆججەت
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = بۇ ھۆججەت بۇزۇق
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = ئۆزى يېشىلىدىغان (*.exe)   ھۆججىتى 4GB دىن ئېشىپ كەتتى.  Windows تا 4GB دىن يۇقۇرى ھۆججەتنى يۈرگۈزەلمەيسىز.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = بۇ ھۆججەت ئېچىلمىدى. تۆۋەندىكى بۆلۈنمە ھۆججەت كېرەك (.z01, .z02..)
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = بۇ Zip ھۆججىتى ئېچىلمىدى. تۆۋەندىكى بۆلۈنمە ھۆججەت كېرەك (.z01, .z02..)
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = بۇ ھۆججەت ئېچىلمىدى.باشقا بىر بۆلۈنمە ھۆججەت كېرەك
+TEXT_ARKERR_CORRUPTED_FILE              = بۇ ھۆججەت بۇزۇق
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = بۇ ھۆججەت قىسقۇچقا يېزىش ھوقۇقى يوق
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = بۇ ھۆججەت قىسقۇچقا يېزىش ھوقۇقى يوق.پروگراممىنى باشقۇرغۇچىلىق ھوقۇقى بىلەن يۇرگۈزىڭ.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = بۇ شىفىرلەش ئۇسۇلىنى قوللىمايدۇ
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = ئىچكى ساقلىغۇچ كەمچىل
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = ئىچكى ساقلىغۇچ كەمچىل. سىقىش دەرىجىسىنى تەڭشەڭ
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = بۇ مەشغۇلانتى قوللىمايدۇ
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = يېشىلگەن ھۆججەت چوڭلۇقى بىلەن سىقىلما ھۆججەت بېشى ئۇچۇرى ماس كەلمىدى
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = 4 GB دىن چوڭ ھۆججەت قۇرالمايدۇ. باشقا ھۆججەت  پىچىمىنى تاللاڭ(ZIP ياكىZ7)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = ئۇزۇن ھۆججەت نامى ئۆزلىكىدىن قىسقارتىلدى
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = كۆچۈرىدىغان ئەسلى ھۆججەتنى ئاچالمايدۇ
+TEXT_ARKERR_NOTIMPL                     = ئىجرا قىلالمىدى
+TEXT_ARKERR_CANT_READ_FILE              = Cannot read file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Run Bandizip as administrator to create a symbolic link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Cannot create a symbolic link.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = بۆلۈنمىسۇن
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = ئىشلەتكۈچى كىرگۈزسۇن
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-سىقمىسۇن
+TEXT_COMPRESSIONMETHOD_FAST             = 1-تېز سىقسۇن
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-ئادەتتىكىدەك سىقسۇن
+TEXT_COMPRESSIONMETHOD_MAX              = 3-ئەڭ يۇقۇرى دەرىجىدە سىقسۇن
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = يېڭى سىقىلما ھۆججەت
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = سىقىلما ھۆججەتكە ھۆججەت قوشۇش
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = قايتا ناملاش (&R): ${str1}
+TEXT_TITLE_TEST_MODE                    = سىقىلما ھۆججەتنى سىناش
+TEXT_TITLE_TEMPFOLDER_MODE              = ۋاقىتلىق ھۆججەت قىسقۇچقا يېشىش...
+TEXT_TITLE_MODIFYING                    = ئۆزگەرتىۋاتىدۇ...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = يېشىدىغان ھۆججەت
+TEXT_MSG_SELECTED_FILE                  = ${num1} دانە ھۆججەت تاللاندى
+TEXT_MSG_SELECTED_FOLDER                = ${num1} دانە ھۆججەت قىسقۇچ تاللاندى
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} دانە ھۆججەت، ${num2} دانە ھۆججەت قىسقۇچ
+TEXT_MSG_SELECTED_FILESIZESUM           = تاللانغان ھۆججەت چوڭلۇقى: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = نەشرىنى تەكشۈرۈش مەغلۇپ بولدى
+TEXT_UPDATE_VERSION_CHECKING            = نەشرىنى تەكشۈرىۋاتىدۇ
+TEXT_UPDATE_DOWNLOAD_FAILED             = چۈشۈرۈش مەغلۇپ بولدى
+TEXT_UPDATE_LATEST_VERSION              = يېڭىلانغان
+TEXT_UPDATE_DO_DOWNLOAD                 = يېڭىلاش زۆرۈر
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = چۈشۈرۈش تاماملاندى
+
+TEXT_INSTALL_HONEYVIEW                  = Install Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview isn't installed on your computer.
+TEXT_INSTALL_HONEYVIEW_2                = Please try Honeyview developed by Bandisoft.<br> It supports viewing the images in compressed ZIP, RAR, or 7z files without extraction.
+
+
+
+[MENU]
+MENUSTR_FILE                            = ھۆججەت (&F)
+MENUSTR_EDIT                            = تەھرىرلەش (&E)
+MENUSTR_SETTING                         = تاللاش (&O)
+MENUSTR_FIND                            = ئىزدەش (&I)
+MENUSTR_VIEW                            = &View
+MENUSTR_HELP                            = ياردەم (&H)
+
+MENUSTR_OPEN                            = سىقىلما ھۆججەتنى ئېچىش (&O)\tCtrl+O
+MENUSTR_RECENT                          = Recent Files
+MENUSTR_CLOSE_FILE                      = سىقىلما ھۆججەتنى تاقاش (&C)\tF4
+MENUSTR_CREATE_ARCHIVE                  = يېڭى سىقىلما ھۆججەت (&N)\tCtrl+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Save as
+MENUSTR_DELETE_ARCHIVE                  = سىقىلما ھۆججەتنى ئۆچۈرۈش \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Delete Archive Permanently \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Open Archive Location
+MENUSTR_TEST_ARCHIVE                    = سىقىلما ھۆججەتنى سېناش (&T)\tCtrl+T
+MENUSTR_EXTRACT_FILE                    = ھۆججەت يېشىش (&E)\tCtrl+E
+MENUSTR_EXIT                            = چېكىنىش (&X)\tCtrl+W
+
+MENUSTR_RENAME_FILE                     = ھۆججەتنى يېڭىدىن ناملاش (&R)\tF2
+MENUSTR_ADD_FILE                        = ھۆججەت قوشۇش (&A)\tIns
+MENUSTR_DELETE_FILE                     = ھۆججەت ئۆچۈرۈش (&D)\tDel
+MENUSTR_EDIT_COMMENT                    = سىقىلما ھۆججەت ئىزاھاتى
+MENUSTR_SETTING_SUB                     = تەڭشەش (&S)\tF5
+MENUSTR_FIND_ITEM                       = ھۆججەت ئىزدەش (&I)\tCtrl+F
+
+
+
+MENUSTR_ABOUT                           = Bandizip ھەققىدە (&A)\tF1
+MENUSTR_HELPPAGE                        = يادەم بېتىگە ئالمىشىش (&G)
+MENUSTR_OPEN_FOLDER                     = Bandizip ھۆججىتىنى ئېچىش (&O)
+MENUSTR_FORUM                           = Bandizip مۇنبىرىگە ئالمىشىش (&F)
+MENUSTR_HOMEPAGE                        = باش بەتكە ئامىشىش (&H)
+
+POPUPMENU_VIEWITEM_COMPSIZE             = سىقىلغاندىن كېيىنكى چوڭلۇقى
+POPUPMENU_VIEWITEM_ORIGSIZE             = ئەسلى چوڭلۇقى
+POPUPMENU_VIEWITEM_KIND                 = ھۆججەت تۈرى
+POPUPMENU_VIEWITEM_DATE_MOD             = ئۆزگەرتىلگەن ۋاقتى
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = سىقىش ئۇسۇلى
+POPUPMENU_VIEWITEM_ENCRMETHOD           = شىفىرلەش ئۇسۇلى
+POPUPMENU_VIEWITEM_CRC                  = CRC تەكشۈرۈشى
+POPUPMENU_VIEWITEM_ATTRIB               = ھۆججەت خاسلىقى
+POPUPMENU_VIEWITEM_COMMENT              = ھۆججەت ئىزاھاتى
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = ھەممىنى يېشىش... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = تاللىغان ھۆججەتنى يېشىش...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = مۇشۇ يەرگە يېشىش
+
+POPUPMENU_LISTCONTROL_EXECUTE           = ئېچىش \tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = مۇناسىۋەتلىك پروگراممىدا ئېچىش
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = تەھرىرلەش \tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = يېڭى ھۆججەت قىسقۇچ
+POPUPMENU_LISTCONTROL_ADD_FILE          = ھۆججەت قوشۇش \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = ھۆججەت ئۆچۈرۈش \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = ھۆججەتنى قايتا ناملاش
+POPUPMENU_LISTCONTROL_SELECT_ALL        = ھەممىنى تاللاش \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = ئانا ھۆججەت قىسقۇچقا يۆتكەش \tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = سىقىلما ھۆججەتنى ئۆچۈرۈش
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = سىقىلما ھۆججەتنىڭ قىسقۇچىنى ئېچىش
+
+POPUPMENU_EXTRACT_AUTODEST              = ئۆزلىكىدىن يېشىلىش\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = مۇشۇ يەرگە يېشىش\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = ""سىقىلما ھۆججەت نامى" دىكى ھۆججەت قىسقۇچقا يېشىش"
+POPUPMENU_EXTRACT_DESKTOP               = ئۈسەل يۈزىگە يېشىش
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = ئۆزلىكىدىن ئۈسەل يۈزىگە يېشىلىش
+
+POPUPMENU_RECENT_CLEAR                  = ئىشتىتىش خاتىرىسىنى ئۆچۈرۈش
+POPUPMENU_RECENT_NOITEM                 = ئەڭ يېڭى ھۆججەت يوق
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Bandizip تا ئېچىش
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = ئۆزلىكىدىن يېشىلىش
+
+POPUPMENU_CODEPAGE_DEFAULT              = ئەسلى تەڭشەك
+POPUPMENU_CODEPAGE_SIMPCHINESE          = ئاددى خەنزۇچە
+POPUPMENU_CODEPAGE_TRADCHINESE          = مۇرەككەپ خەنزۇچە
+POPUPMENU_CODEPAGE_JAPANESE             = ياپونچە
+POPUPMENU_CODEPAGE_KOREAN               = كورىيانچە
+POPUPMENU_CODEPAGE_WINDOWS1252          = غەرنى ياۋروپاچە
+POPUPMENU_CODEPAGE_WINDOWS1250          = ئوتتۇرا ياۋروپاچە
+POPUPMENU_CODEPAGE_WINDOWS1251          = كىرىلچە
+POPUPMENU_CODEPAGE_WINDOWS1254          = تۈركچە
+POPUPMENU_CODEPAGE_WINDOWS737           = گىرىكچە
+POPUPMENU_CODEPAGE_ARABIC               = ئەرەبچە
+POPUPMENU_CODEPAGE_HEBREW               = ئىبرايچە
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = ئۆزى تاللاش
+
+
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = جەزملەش
+IDCANCEL                                = ئەمەلدىن قالدۇرۇش
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Bandizip ھەققىدە
+IDC_BTN_HOMEPAGE                        = باشبەت
+IDC_BTN_UPDATE                          = يېڭىلاش
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = ھۆججەت ئېچىش
+IDC_STATIC_OPENING                      = ئېچىۋاتىدۇ
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = يېشىش يولىنى تاللاش
+IDC_STATIC_FOLDER                       = نىشان يول (&D)
+IDC_STATIC_FILES2EXTRACT                = غا يېشىش:
+IDC_RADIO_FILES2EXTRACT_0               = بارلىق ھۆججەتلەر (&A)
+IDC_RADIO_FILES2EXTRACT_1               = تاللانغان ھۆججەتلەر (&S)
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = تاللانغان ھۆججەت قىسقۇچتىكى "نىشان" ھۆججەت قىسقۇچقا يېشىش
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = يېشىپ بولغاندىن كېيىن ئەسلى ھۆججەتنى ئۆچۈرۋىتىش
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = يېڭى ھۆججەت قىسقۇچ
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = يېشىش
+IDC_BTN_STOP                            = توختىشىش
+IDC_BTN_CLOSE                           = تاقاش
+IDC_BTN_PAUSE                           = ۋاقىتلىق توختىتىش
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = يېڭى سىقىلما ھۆججەت چۇرۇش
+IDC_STATIC_FILE_LIST                    = يېڭى سىقىلما ھۆججەتكە ھۆججەت قوشۇش
+IDC_STATIC_ARCHIVE_SETTING              = سىقىلما ھۆججەت تەڭشىكى
+IDC_STATIC_ARCHIVE_NAME                 = ھۆججەت نامى
+IDC_STATIC_SET_DEST_FOLDER              = نىشان ھۆججەت قىسقۇچ
+IDC_STATIC_ARCHIVE_TYPE                 = ساقلاش تۈرى
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = ھۆججەت بۆلۈنمىسى
+IDC_STATIC_COMPRESSION_METHOD           = سىقىش دەرىجىسى
+IDC_STATIC_HELP_SPLIT                   = [ياردەم]
+IDC_STATIC_HELP_7Z                      = [7Z پىچىمى]
+IDC_BTN_SELECT_ARCHIVE_NAME             = ئارىلاش (&B)...
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = يېشىپ بولغاندىن كېيىن ئەسلى ھۆججەتنى ئۆچۈرۋىتىش
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = ھەربىر ھۆججەت/ھۆججەت قىسقۇچنى ئايرىم سىقىلما ھۆججەتكە قوشۇش
+IDC_BTN_SET_DEST_FOLDER                 = سىقىلما ھۆججەت يولىنى ئۆزگەرتىش
+IDC_BTN_TOGGLE_ADVANCED                 = تېخىمۇ جىق تاللاشلار...
+IDC_BTN_SET_SFX                         = ئۆزلىكىدىن يېشىلىشنى تەڭشەش (&S)
+IDC_BTN_ADD                             = قوشۇش (&A)
+IDC_BTN_DEL                             = ئۆچۈرۈش (&D)
+IDC_BTN_START                           = باشلاش
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = ئىناۋەتسىز شىفىر، قايتا كىرگۈزىڭ.
+IDC_BTN_SHOW_PASSWORD                   = شىفىرنى كۆرسىتىش
+IDC_CHECK_APPLY_ALL                     = ھەممىنى قوللىنىش (&A)
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = شىفىرنى كۆرسىتىش
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = تاللاش
+IDC_BTN_OPEN                            = ئېچىش
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = سىقىۋاتىدۇ
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = توختىتىش
+IDC_BTN_CLOSE                           = تاقاش
+IDC_BTN_PAUSE                           = ۋاقىتلىق توختىتىش
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = قايتىلانغان ھۆججەت
+IDC_STATIC_DUPE_MESSAGE                 = ئوخشاش ھۆججەت بار
+IDC_STATIC_DUPEFILE_OLD                 = ئەسلى ھۆججەت
+IDC_STATIC_DUPEFILE_NEW                 = نۆۋەتتىكى ھۆججەت
+IDC_STATIC_DUPE_ASK                     = تۆۋەندىكى تاللاشلارنى تاللاڭ:
+IDC_RADIO_DUPE_METHOD0                  = ئاتلاش (&S)
+IDC_RADIO_DUPE_METHOD1                  = قاپلىۋىتىش (&O)
+IDC_RADIO_DUPE_METHOD2                  = يېڭىدىن ناملاش (&R)
+IDC_CHECK_DUPE_APPLY_ALL                = بارلىق ھۆججەتلەرگە قوللىنىش (&A)
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = سىقىلما ھۆججەت تاللاشلىرى
+IDC_STATIC_ASK_HANDLING                 = تۆۋەندىكى تاللاشلارنى تاللاڭ:
+IDC_RADIO_HANDLE_METHOD0                = سىقىلما ھۆججەت ئېچىش (&O)
+IDC_RADIO_HANDLE_METHOD1                = يېڭى سىقىلما ھۆججەت (&N)
+IDC_RADIO_HANDLE_METHOD2                = ھۆججەتلەرنى نۆۋەتتىكى سىقىلما ھۆججەتكە قوشۇڭ (&A)
+IDC_CHK_PASS                            = شىفىر ئىشلىتىش
+IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
+IDC_CHK_SHOW_PASS                       = Show Password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = تەڭشەش
+IDC_BTN_INIT                            = ئەسلى تەڭشەك
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = General Settings
+IDC_CHK_EXIT_WITH_ESC                   = Esc نى ئىشلىتىپ چېكىنىش
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = ھۆججەت قوشۇلغان/ئۆچۈرۈلگەن/قايتا ناملانغاندا ھۆججەتنى تەكشۈرۈش
+IDC_CHK_SNAP                            = كۆزنەك باشقۇرۇش
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = سىقىلما ھۆججەتتە [..] مۇندەرىجىنى كۆرسىتىش
+IDC_CHK_SHOW_GRID_AT_LIST               = Show gridlines in details view
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = سىقىلما ھۆججەتتىكى قۇرلارنى تولۇق تاللاش
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = ھۆججەت باغلىنىشى
+IDC_BTN_SELECT_MANDATORY                = ئاساسى تاللاش
+IDC_BTN_SELECT_ALL                      = ھەممىنى تاللاش
+IDC_BTN_CLEAR_ALL                       = ھەممىنى تاللىماسلىق
+IDC_BTN_APPLY_NOW                       = دەرھال قوللىنىش
+IDC_STATIC_ICON_PACK                    = سىنبەلگە بوغچىسى تاللاش:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [سىنبەلگە بولىقى چۈشۈرۈش]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = كېڭەيتىلگەن باغلىنىش
+;IDC_STATIC_ASSOC_DESC1                 = Windows 8 ياكى ئۇنىڭدىن كېيىنكى نەشرىدە ھۆججەت باغلىنىشىنى تۆۋەندىكىدەك شەكىللەندۈرىلىدۇ:
+;IDC_STATIC_ASSOC_DESC2                 = 1. تۆۋەندىكى < باغلىنىشنى تەڭشەش> كونۇپكىسىنى چىكىش.
+;IDC_STATIC_ASSOC_DESC3                 = 2. پروگراممىنىڭ < باغلىنىشنى تەڭشەش> كۆزنىكىدە < ھەممىنى تاللاش > قا بەلگە سېلىش.
+;IDC_STATIC_ASSOC_DESC4                 = 3. < باغلىنىشنى تەڭشەش> كونۇپكىسىنى چىكىش.
+;IDC_STATIC_ASSOC_DESC1_10              = Windows 10 ياكى ئۇنىڭدىن كېيىنكى نەشرىدە ھۆججەت باغلىنىشىنى تۆۋەندىكىدەك شەكىللەندۈرىلىدۇ:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. تۆۋەندىكى < باغلىنىشنى تەڭشەش> كونۇپكىسىنى چىكىش.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Select "Bandizip" in Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = باغلىنىش تەڭشىكى
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = ئەنئەنىۋى ئۇسلۇب
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = قوش چېكىش ھەرىكىتى
+IDC_RADIO_SHELL_OPEN_0                  = Bandizip بىلەن ئېچىش
+IDC_RADIO_SHELL_OPEN_1                  = ئۆزلىكىدىن يېشىلىش
+IDC_RADIO_SHELL_OPEN_2                  = باغلانما تىزىملىكنى كۆرسىتىش
+IDC_RADIO_SHELL_OPEN_3                  = بەلگىلەنگەن ھۆججەت قىسقۇچقا ئۆزلىكىدىن يېشىلىش
+IDC_BTN_SET_EXTRACT_FOLDER              = ئارىلاش...
+IDC_RADIO_SHELL_OPEN_4                  = ھۆججەت نامىدىكى ھۆججەت قىسقۇچقا ئۆزلىكىدىن يېشىلىش
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = يېشىش تىزىملىكى
+IDC_CHK_SHELL_EXTRACT_HERE              = مۇشۇ يەرگە يېشىش
+IDC_CHK_SHELL_EXTRACT_AUTO              = ئۆزلىكىدىن يېشىلىش
+IDC_CHK_SHELL_EXTRACT_SUB               = ... غا يېشىش
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Here and Delete
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Here (Smart) and Delete
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = يېشىش يولىنى تاللاش
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extract as administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = سىقىلما ھۆججەتنى سىناش
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Bandizip بىلەن ئېچىش
+IDC_CHK_SHELL_PREVIEW                   = سىقىلما ھۆججەتنى ئالدىن كۆرۈش
+IDC_STATIC_SHELL_PREVIEW_SIZE           = ئالدىن كۆرۈش چېكى:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = سىقىش تىزىملىكى
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = ""zip.سىقىلما ھۆججەت نامى "  غا قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = ""zip.سىقىلما ھۆججەت نامى "  غا قوشۇش  ھەم ئېلخەت بىلەن يوللاش"
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = ""zipx.سىقىلما ھۆججەت نامى "  غا قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_EXE             = ""exe.سىقىلما ھۆججەت نامى "  غا قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_TAR             = ""tar.سىقىلما ھۆججەت نامى "  غا قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_TGZ             = ""tgz.سىقىلما ھۆججەت نامى "  غا قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_LZH             = ""lzh.سىقىلما ھۆججەت نامى "  غا قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_ISO             = ""iso.سىقىلما ھۆججەت نامى "  غا قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_7Z              = ""7z.سىقىلما ھۆججەت نامى "  غا قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Compress to "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Compress to "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Compress to "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = ھەربىر ھۆججەت/ھۆججەت قىسقۇچنى ئايرىم  سىقىلما ھۆججەتكە قوشۇش
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = ""7z.سىقىلما ھۆججەت  قىسقۇچ نامى" غا ئايرىم قوشۇش"
+IDC_CHK_SHELL_ARCHIVING_POPUP           = سىقىلما ھۆججەتكە قوشۇش (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Compress as administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Compress to custom file name
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${NAME}=Filename, %Y=Year, %m=Month, %d=Day, %H=Hour, %M=Minute, %S=Second
+
+IDC_STATIC_SHELL_BKGND                  = تەگلىك تىزىملىكى
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = يېڭى ھۆججەت قىسقۇچ
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = بۇيرۇق كۆزنىكىنى ئېچىش (cmd.exe)
+
+IDC_STATIC_SHELL_ETC                    = باشقىلار
+IDC_CHK_SHELL_DO_NOT_USE                = باغلانما تىزىملىكنى چەكلەش
+IDC_CHK_SHELL_AS_SUB_MENU               = باغلانما تىزىملىكنى قاتلاش
+IDC_CHK_SHELL_HIDE_ICON                 = Bandizip سىنبەلگىسىنى يوشۇرۇش
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = سىقىلما ھۆججەت مەزمۇنىنى پەرقلەندۈرۈش
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = جىق سىقىلما ھۆججەت بولسىمۇ يېشىش سىقىش تىزىملىكىنى كۆرسىتىش
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = چاشقىنەك بىلەن تاللانغان ھۆججەت/ھۆججەت قىسقۇچ نامىنى قوللىنىش
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = يېشىشنى تەڭشەش
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = سىقىلما ھۆججەتتە بىرلا باش ھۆججەت قىسقۇچ بار بولسا،  ھۆججەت قىسقۇچتىكى ھۆججەتلەرنى كۆرسىتىش
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = يەشكەندىن كېيىن ھۆججەت قىسقۇچنى ئېچىش
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = يېشىش ئاخىرلاشقاندا سۈرئەت كۆزنىكى تاقالمىسۇن
+IDC_CHK_FAST_DRAG_DROP                  = چوڭ ھۆججەتلەرنى يەشكەندە "تېز سۈرۈش ۋە قويۇۋىتىش"نى قوللىنىش
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = TGZ،TBZ ھۆججەتلىرىنى بىر قېتىمدا يېشىش
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = چوڭ ھەجىمدىكى TGZ، TBZ ھۆججىتى بولسىمۇ بولىۋىرىدۇ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = ""ئۆزلىكىدىن يېشىلىش" نى قوللانغاندا، يۇقىرىقى مۇندەرىجىدە ھۆججەت جىق بولسا، يېڭىدىن ھۆججەت قىسقۇچ قۇرۇش"
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Macintosh كود بېتىنى ئۆزلىكىدىن ئۆچۈرۋىتىش
+IDC_CHK_UNIXZIP_AS_UTF8                 = UNIX تىن Zip ھۆججىتى ئاچقاندا UTF-8 كود بېتىنى قوللىنىش
+IDC_STATIC_CODEPAGE                     = ئەسلى كود بېتى
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = تۆۋەندىكى تۈردىكى بارلىق ھۆججەتلەرنى يېشىش
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = سىقىشنى تەڭشەش
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = بىرلا ھۆججەتنى سىققاندا،باش ھۆججەت قىسقۇچ نامىنى قوللانمىسۇن
+IDC_CHK_USE_UTF8_COMPRESS               = Zip ھۆججىتىدە Unicode لۇق ھۆججەت نامىنى قوللىنىش (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = tar،  tgz ھۆججىتىدە Unicode لۇق ھۆججەت نامىنى قوللىنىش (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = دائىم ZIP64 پىچىمىنى قوللىنىش،ھۆججەت چوڭلىقى 2GBدىن كىچىك بولسىمۇ مەيلى(تەۋسىيە قىلىنمايدۇ)
+IDC_CHK_EXCLUDE_THUMBSDB                = سىققاندا thumbs.db ھۆججىتىنى  چىقىرۋېتىش
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = سىققاندا NTFS ۋاقىت ئۇچۇرىنى ساقلاش
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = ""يۇقىرى سۈرئەتتە سىقىش"  نى قوللىنىش"
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = سىقىش ئاخىرلاشقاندا، سۈرئەت كۆزىنىكى تاقالمىسۇن
+IDC_STATIC_COMPRESSION_METHOD           = سىقىش ئۇسۇلى:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = ئالدىنقى قېتىم سىققاندا ئىشلەتكەن ھۆججەت قىسقۇچنى قوللىنىش
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = ئارخىپقا تەۋە بولغان ئەسلى تەڭشەكتىكى ھۆججەت قىسقۇچنى  سىقىش
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = ئارىلاش...
+IDC_CHK_EXCLUDE_FILTER                  = سىققاندا چىقىرۋېتىدىغان ھۆججەت تۈرى
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = تەكشۈرگۈچنى تەڭشەش
+IDC_CHK_SHOW_PREVIEW                    = رەسىمنى ئالدىن كۆرۈش
+
+IDC_STATIC_SETTING_VIEWITEM             = كۆرۈنۈش تەڭشىكى
+IDC_CHK_VIEWITEM_COMPSIZE               = سىقىلغاندىكى چوڭلۇقى
+IDC_CHK_VIEWITEM_ORIGSIZE               = ئەسلى چوڭلۇقى
+IDC_CHK_VIEWITEM_KIND                   = ھۆججەت تۈرى
+IDC_CHK_VIEWITEM_DATE_MOD               = ئۆزگەرتكەن ۋاقىت
+IDC_CHK_VIEWITEM_COMPMETHOD             = سىقىلىش ئۇسۇلى
+IDC_CHK_VIEWITEM_ENCRMETHOD             = شىفىرلەش ئۇسۇلى
+IDC_CHK_VIEWITEM_CRC                    = CRC تەكشۈرۈشى
+IDC_CHK_VIEWITEM_ATTRIB                 = ھۆججەت خاسلىقى
+IDC_CHK_VIEWITEM_COMMENT                = ھۆججەت ئەسكەرتمىسى
+
+IDC_STATIC_IMAGE_VIEWER                 = رەسىم تەكشۈرگۈچ
+IDC_RADIO_IMAGE_VIEWER_0                = ئىچكى قىسىمدىكى رەسىم تەكشۈرگۈچنى قوللىنىش
+IDC_RADIO_IMAGE_VIEWER_1                = تاشقى باغلىنىشلىق پروگراممىنى قوللىنىش
+IDC_RADIO_IMAGE_VIEWER_2                = ئورنىتىلغان بولسا Honeyview نى چوللىنىڭ
+
+IDC_STATIC_EDITOR                       = تەھرىرلىگۈچ
+IDC_BTN_SET_EDITOR_PATH                 = ئارىلاش...
+
+IDC_STATIC_COLOR                        = Color
+IDC_STATIC_COLOR_THEME                  = Theme color
+IDC_BTN_BKGND                           = Selected
+IDC_STATIC_COLOR_TEXT                   = Font color
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = White
+IDC_STATIC_COLOR_TEXT_BLACK             = Black
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Export Bandizip Settings
+IDC_STATIC_ETC                          = باشقا تەڭشەكلەر
+IDC_CHK_SET_TEMP_FOLDER                 = ۋاقىتلىق ھۆججەت قىسقۇچ
+IDC_BTN_SET_TEMP_FOLDER                 = ئارىلاش...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Recognize the following file types as archive files
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Delete temporary file when exit the child process
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = ئۆچۈرگەندە ھۆججەتنى ئەخلەت سېۋىتىگە يۆتكەش
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = يېقىنقى ھۆججەتلەرنىڭ ئىشلىتىش خاتىرىسىنى كۆرسىتىش
+IDC_CHK_USE_LONG_PATH_NAME              = ئۇزۇنلۇقى 260 ھەرب بەلگىدىن ئاشىدىغان ھۆججەت يولى نامىنى بىر تەرەپ قىلىش
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = مەنبە ئارىلىغۇچتا ئېچىلغان سىقىلما ھۆججەتلەرنى ئۆچۈرۋېتىشكە يول قويۇش
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = ھۆججەت قىسقۇچ دەرىخنى ئۆزلىكىدىن ئېچىش
+IDC_CHK_USE_MODAL_DIALOG                = Use a modal dialog box when archiving/extracting
+IDC_CHK_USE_ELEGANT_UI                  = Use elegant UI design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Show 'Start Screen' when Bandizip starts
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Display the full path in the title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Delete extracted files when extraction is cancelled
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = تىل تەڭشەش
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = ئۆزلىكىدىن يېشىلىش ئۇچۇرى
+IDC_STATIC_TARGET_PATH                  = ئۆزلىكىدىن يېشىلىش يولى:
+IDC_STATIC_TITLE                        = ئۆزلىكىدىن يېشىلىدىغان ھۆججەت ماۋزۇسى
+IDC_STATIC_RUN                          = يەشكەندىن كېيىن يۈرگۈزىش:
+IDC_STATIC_MESSAGE                      = ئۆزلىكىدىن يېشىلىش ئۇچۇرى:
+IDC_CHK_AUTO_CLOSE                      = يېشىش ئاخىرلاشقاندا ئۆزلىكىدىن يېشىلىش كۆزنىكىنى ئۆزلىكىدىن تاقاش
+IDC_BTN_SAVE_SFX_SETTING                = ساقلاشنى تەڭشەش
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = ھۆججەت ئىزدەش
+IDC_STATIC_FIND                         = ئىزدەش
+IDC_BTN_CLOSE                           = تاقاش
+IDC_BTN_DELETE                          = ئۆچۈرۈش
+IDC_BTN_EXTRACT                         = يېشىش
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = سىقىلما ھۆججەت ئىزاھاتى
+IDC_STATIC_COMMENT                      = ھۆججەت ئىزاھاتىنى قوشۇش / تەھرىرلەش
+IDC_CHK_USE_UTF8                        = ئىزاھاتنى Unicode (UTF-8) تا ساقلاش
+IDC_BTN_LOAD_FROM_FILE                  = ھۆججەتتىن ئىزاھات قوشۇش (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = ئاگاھلاندۇرۇش
+IDC_STATIC_WARN_EXECUTABLE              = بۇ ئىجرا قىلغىلى بولىدىغان ھۆججەت. بۇ پروگراممىنى يۈرگۈزسىڭىز كومپيۇتېرىڭىزغا زىيىنى بولىشى مۈمكىن. داۋاملاشتۇرامسىز؟
+IDC_CHK_DO_NOT_ASK_AGAIN                = ئەمدى سورىماڭ
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = ئېچىش
+$TOOLBAR_CLOSE_FILE                     = تاقاش
+$TOOLBAR_EXTRACT_FILE                   = يېشىش
+$TOOLBAR_CREATE_ARCHIVE                 = يېڭى
+$TOOLBAR_DELETE_FILE                    = ئۆچۈرۈش
+$TOOLBAR_ADD_FILE                       = قوشۇش
+$TOOLBAR_TEST_ARCHIVE                   = سىناش
+$TOOLBAR_CODEPAGE                       = كود بېتى
+$TOOLBAR_VIEWITEM                       = كۆرۈنىشى
+
+$TOOLBAR_OPEN2                          = Open Archive
+$TOOLBAR_CREATE_ARCHIVE2                = New Archive
+
+$TEXT_DESKTOP                           = ئۈستەل يۈزى
+$TEXT_DOCUMENT                          = ئارخىپلىرىم
+$TEXT_PICTURE                           = رەسىملىرىم
+$TEXT_COMPUTER                          = كومپيۇتېرىم
+
+$TEXT_SETTINGTAB_GENERAL                = ئادەتتىكىدەك تەڭشەش
+$TEXT_SETTINGTAB_ASSOC                  = ھۆججەت باغلىنىشى
+$TEXT_SETTINGTAB_SHELL                  = باغلانما تىزىملىك
+$TEXT_SETTINGTAB_EXTRACT                = يېشىشنى تەڭشەش
+$TEXT_SETTINGTAB_ARCHIVE                = سىقىشنى تەڭشەش
+$TEXT_SETTINGTAB_VIEWER                 = تەكشۈرگۈچ
+$TEXT_SETTINGTAB_ETC                    = باشقا تەڭشەكلەر
+$TEXT_SETTINGTAB_LANG                   = تىل تەڭشەش
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = ھۆججەت جايلاشقان ئورۇننى ئېچش
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = سىقىلما ھۆججەت جايلاشقان ئورۇننى ئېچش
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = يەشكەندىن كېيىن ھۆججەت جايلاشقان ئورۇننى ئېچش
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = سىقىلما ھۆججەت جايلاشقان ئورۇننى ئېچش
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = نىشان ھۆججەتنى ئېچىش
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = يەشكەندىن كېيىن بۇ كۆزنەكنى تاقاش
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = سىققاندىن كېيىن بۇ كۆزنەكنى تاقاش
+$TOOLTIP_ADVANCED_MENU                  = Miscellaneous Settings
+
+$TEXT_INSTALL_START                     = OK, I'll try it
+$TEXT_INSTALL_CLOSE                     = No, thanks
+$TEXT_INSTALL_HONEYVIEW_LINK            = See more...
+
+$TEXT_HELP_PAGE                         = Help Page
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = يېڭى ھۆججەت قىسقۇچ
+
+TEXT_MENU_CREATE_NEW_FOLDER             = يېڭى ھۆججەت قىسقۇچ (&N)
+TEXT_MENU_SUB_MENU                      = Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = بىلەن ئېچىش Bandizip ...
+TEXT_MENU_TEST_ARCHIVE                  = سىقىلما ھۆججەتنى سىناش
+TEXT_MENU_LAUNCH_CMD                    = بۇيرۇق كۆزنىكىنى ئېچىش (&L)
+TEXT_MENU_LAUNCH_CMD_ADMIN              = بۇيرۇق كۆزنىكىنى باشقۇغۇچىلىق سالاھىيىتى بىلەن ئېچىش
+
+TEXT_MENU_ARCHIVE_EACHNAME              = ھەربىر ھۆججەت / ھۆججەت  قىسقۇچنى ئايرىم  سىقىلما ھۆججەتكە قوشۇش (&E)
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = ""7z.سىقىلما ھۆججەت/ھۆججەت  قىسقۇچ نامى"  غا ئايرىم قوشۇش"
+TEXT_MENU_ARCHIVE_ZIP                   = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = غا قوشۇش ھەم ئېلخەتكە يوللاش "${str1}" (&I)...
+TEXT_MENU_ARCHIVE_ZIPX                  = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "غا قوشۇش "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Compress to each "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Compress to each "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Compress to "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = سىقىلما ھۆججەتكە قوشۇش (Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = باشقۇرغۇچىلىق سالاھىيىتى بىلەن سىقىش
+
+TEXT_MENU_EXTRACT_HERE                  = مۇشۇ يەرگە يېشىش
+TEXT_MENU_EXTRACT_AUTO                  = ئۆزلىكىدىن يېشىلىش
+TEXT_MENU_EXTRACT_AUTO_EACH             = ئۆزلىكىدىن ئايرىم ھۆججەت قىسقۇچقا يېشىلىش
+TEXT_MENU_EXTRACT_SUB                   = ھەربىر سىقىلما ھۆججەتنى ئايرىم ھۆججەت قىسقۇچقا يېشىش
+TEXT_MENU_EXTRACT_ARCHIVENAME           = غا يېشىش ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = ... يېشىش يولىنى تاللاش
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = باشقۇرغۇچىلىق سالاھىيىتى بىلەن سىقىش
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = سىقىلما ھۆججەتنى ئالدىن كۆرۈش
+TEXT_MENU_PREVIEW_BROKEN                = بۇ ھۆججەت پىچىمى نامەلۇم ياكى بۇزۇق
+TEXT_MENU_PREVIEW_TIMEOUT               = ئىلتىماسنىڭ ۋاقتى ئۆتۈپ كەتتى
+TEXT_MENU_PREVIEW_EMPTY                 = قۇرۇق سىقىلمق ھۆججەت
+TEXT_MENU_PREVIEW_ENCRYPTED             = ھۆججەت نامى شىفىرلەنگەن
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = سىقىلما ھۆججەتنى ئالدىن كۆرۈش ئىقتىدارى ئىشلىمىدى. [br][br]مەنبە ئارىلىغۇچنى قايتا قوزغىتىڭ ياكى [br]كومپيۇتېرنى قايتا قوزغىتىڭ.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = ھۆججەت تىزىملىكىنى ئوقۇيالمىدى
+
+TEXT_MENU_OPENING                       = ئېچىلىۋاتىدۇ...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip يېڭىلىغۇچىسى
+TEXT_UPDATER_TEXT1                      = Bandizip يېڭىلانمىسى تەييار.
+TEXT_UPDATER_TEXT_DL                    = چۈشۈرەمسىز؟
+TEXT_UPDATER_BTN_UPDATE                 = يېڭىلاش
+TEXT_UPDATER_BTN_OK                     = جەزملەش
+TEXT_UPDATER_BTN_CANCEL                 = ئەمەلدىن قالدۇرۇش
+TEXT_UPDATER_DOWNLOAD_ERROR             = چۈشۈرۈش مەغلۇپ بولدى.
+TEXT_UPDATER_SETTING_UPDATE             = تەڭشەش
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = نىشان يول:
+BTN_SELECT_FOLDER                       = ئارىلاش...
+BTN_EXTRACT                             = باشلاش
+BTN_CLOSE                               = تاقاش
+BTN_CANCEL                              = ئەمەلدىن قالدۇرۇش
+BTN_OPEN_FOLDER                         = ئېچىش
+CHK_OVERWRITE                           = قاپلىۋىتىش
+ERR_ERROR_OCCURRED                      = خاتالىق كۆرۈلدى
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = ئوخشاش ھۆججەت بار.ئۇنى قاپلىۋىتەمسىز؟
+MSG_COMPLETED                           = يېشىش ئۇتۇقلۇق بولدى!
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = شىفىرنى كۆرسىتىش
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = ھۆججەتلەرنى يېشەلمىدى.
+TEXT_ERR_CRC                            = CRC تەكشۈرۈش خاتالىقى.
+TEXT_ERR_INVALID_PASSWD                 = ئىناۋەتسىز شىفىر.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [ياردەم]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip يەنىلا ئىشلەۋاتىدۇ. ئاۋال پروگراممىنى تاقاڭ
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

@@ -45,4 +45,4 @@ if not exist .\Engine\Binaries\Win64\UnrealVersionSelector-Win64-Shipping.exe go
 
 echo Setup successful
 
-timeout /t 5
+timeout /t 10

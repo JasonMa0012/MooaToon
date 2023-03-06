@@ -1,0 +1,1173 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Nederlands
+TRANSLATORS                             = Marc Holderbeke
+
+
+[TEXT]
+TEXT_BUILDNO                            = Versie#
+TEXT_FILE                               = Bestand
+TEXT_FOLDER                             = Map
+TEXT_ARCHIVE_SIZE                       = Totale grootte
+TEXT_ORIGINAL_SIZE                      = Originele grootte
+TEXT_ARCHIVE_FORMAT                     = Archieftype
+TEXT_COMPRESSED_SIZE                    = Gecomprimeerde grootte
+TEXT_SOLID                              = Stevig
+TEXT_BETA                               = Bèta
+TEXT_ASSOC                              = Gecomprimeerd bestand (${str1})
+TEXT_PORTABLE                           = Draagbaar
+TEXT_NEW_FOLDER                         = Nieuwe map
+TEXT_FILESIZE_UNKNOWN                   = Onbekend
+TEXT_FILEDATE_UNKNOWN                   = Onbekend
+TEXT_HELP_LINK                          = [Help]
+TEXT_APP_DESC                           = Bandizip is een lichtgewicht, snelle en gratis alles-in-één Zip-archiveerder. Het verwerkt de meest populaire compressieformaten, inbegrepen Zip, 7z, Rar, enz.
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = Annuleer
+TEXT_MESSAGEBOX_ABORT                   = Afbreken
+TEXT_MESSAGEBOX_RETRY                   = Opnieuw
+TEXT_MESSAGEBOX_IGNORE                  = Negeren
+TEXT_MESSAGEBOX_YES                     = Ja
+TEXT_MESSAGEBOX_NO                      = Nee
+TEXT_MESSAGEBOX_CONTINUE                = Vervolg
+TEXT_MESSAGEBOX_HELP                    = Help
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Toon dit niet opnieuw
+
+TEXT_COLUMN_NAME                        = Naam
+TEXT_COLUMN_COMPSIZE                    = Gecomprimeerd
+TEXT_COLUMN_ORIGSIZE                    = Origineel
+TEXT_COLUMN_KIND                        = Type
+TEXT_COLUMN_DATE_MOD                    = Gewijzigd
+TEXT_COLUMN_COMPMETHOD                  = Comprimeermethode
+TEXT_COLUMN_ENCRMETHOD                  = Encryptiemethode
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Eigenschappen
+TEXT_COLUMN_COMMENT                     = Commentaar
+TEXT_COLUMN_EXT                         = Bijkomende informatie
+TEXT_COLUMN_PATHNAME                    = Pad
+
+TEXT_ICONPACK_NAME                      = Naam
+TEXT_ICONPACK_DESIGNER                  = Ontwerper
+TEXT_ICONPACK_COPYRIGHT                 = Copyright
+
+TEXT_ARCHIVE_COLUMN_NAME                = Naam
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Grootte
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Mappad
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Totale grootte
+
+TEXT_SELECT_ARCHIVE_FILE                = Selecteer bestand
+TEXT_SELECT_TEXT_FILE                   = Bestand selecteren
+TEXT_SELECT_DEST_FOLDER                 = Selecteer de doelmap
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Archiefbestand
+TEXT_REGISTRY_FILE                      = Registerbestand
+
+TEXT_OPENDLG_ARCHIVEFILES               = Archiefbestanden
+TEXT_OPENDLG_ARCHIVEFILE                = Archiefbestand
+TEXT_OPENDLG_ALLFILES                   = Alle Bestanden
+TEXT_OPENDLG_EXEFILES                   = EXE Bestanden
+
+TEXT_ABOUTBOX_TAB1                      = Over Bandizip
+
+TEXT_ASSOC_GROUP0                       = Archiefbestanden
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Andere
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Om dit bestand te openen moet je de laatste versie van Bandizip downloaden.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Selecteer enkel het eerste deel van het gesplitst bestand
+TEXT_OPENERR_CANT_OPEN_FILE             = Kan bestand niet openen (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Kan bestand niet openen (${str1}) omdat een ander programma het gebruikt
+TEXT_OPENERR_GENERAL                    = Kan bestand niet openen (${str1}) (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Geannuleerd
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Onbekend bestandsformaat (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = Geen archiefbestand (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Niet-ondersteund bestandsformaat (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Niet-ondersteunde encryptiemethode (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Vul paswoord in
+TEXT_OPENERR_INVALID_PASSWORD           = Paswoord is verkeerd.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Kan dit bestand niet openen omdat de bestandskop stuk is.
+
+TEXT_ERR_INIT_FAILED                    = Kan niet worden geïnitialiseerd.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Het paswoord is verkeerd of er is geen bestand in het archief.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Paswoorden zijn niet gelijk.
+TEXT_ERR_PASSWORD_NOT_SET               = Vul paswoord in.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Ongeldig teken gebruikt. Gebruik een alfabet/numeriek/symbool teken
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Ongeldige grootte voor bestandssplitsing.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Self Extracting Archives) zelf uitvoerbare bestanden zijn beperkt tot 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Interne fout
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Kan archiefbestand niet wijzigen.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Fout tijdens het wijzigen van het archief.
+TEXT_ERR_INVALID_FOLDER_PATH            = Ongeldige map
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Alleen het ZIP-bestand kan bewerkt worden.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Kan het gesplitste bestand niet bewerken
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Kan het zelf uitpakkend bestand (*.exe) niet bewerken.
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Kan het gebroken bestand niet bewerken.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Kan dit bestand/extensie niet bewerken.
+TEXT_ERR_CANT_CHANGE_FILENAME           = Kan deze bestandsnaam niet wijzigen.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Kan geen bestandsnaam gebruiken met [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Deze map bestaat. Kan de bestandsnaam niet wijzigen (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Kan geen map aanmaken
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Geen bestanden naar archief
+TEXT_ERR_INVALID_PARAM                  = Ongeldige parameter.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Kan het bestand niet toevoegen aan archief. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Kan dit archief niet openen [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Dezelfde map bestaat.
+TEXT_ERR_FILENAME_EMPTY                 = Bestandsnaam is verkeerd.
+TEXT_ERR_AT_DRAGANDDROP                 = Verslepen mislukt.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Verslepen en plaatsen mislukt. [br]Bandizip heeft de 'Snelle versleepfunctie' uitgeschakeld, probeer opnieuw.
+TEXT_ERR_AT_CANT_OPEN_MMF               = Kan de MMF (mmf:${str1}) niet openen
+TEXT_ERR_NO_FILES_SELECTED              = Geen bestand geselecteerd
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Kan geen map aanmaken voor de installatie van de iconenset
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Kan geen bestand aanmaken voor de installatie van de iconenset
+TEXT_ERR_AT_EXECUTE_DIRECT              = Kan dit bestand niet openen. Pak het bestand uit en probeer opnieuw.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Kan geen bestand aanmaken dat groter is dan 4GB.[br]Kies een ander bestandsformaat (ZIP of 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = Kan dit bestand niet opslaan.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip had een probleem bij het openen van het bestand.(${str1})[br][br]Wil je een foutenrapport naar Bandisoft sturen?[br][br]Het voorleggen van dit bestand helpt Bandisoft om Bandizip te verbeteren.
+
+TEXT_MSG_TEST_OK                        = Er zijn geen fouten in dit archief
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Uitpakken is mislukt: foutcode [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Uitpakken is gelukt
+TEXT_MSG_EXTRACT_CANCELED               = Uitpakken is geannuleerd
+TEXT_MSG_COMPRESS_SUCCESS               = Archivering voltooid
+TEXT_MSG_INTERNAL_ERROR                 = Interne fout
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = kan het volgende bestand niet openen in de tijdelijke map:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Kan dit archiefbestand niet verwijderen.
+TEXT_MSG_CRASH_REPORT                   = Bandizip heeft een probleem. Sluit het programma.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip heeft een probleem en je moet het afsluiten. Wil je een crashrapport versturen naar de Bandizip ontwikkelaar?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip reageert niet.[br][br]Wil je een crashrapport naar de ontwikkelaar van Bandizip sturen en het programma sluiten?
+TEXT_MSG_SET_TEMP_PATH                  = Tijdelijk pad instellen
+TEXT_MSG_SET_PATH                       = Pad instellen
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Iconenset is succesvol geïnstalleerd.
+TEXT_MSG_NOTICE_RESTART                 = Dit programma wordt herstart.
+TEXT_MSG_ARCHVIE_OPENING                = Het archief openen
+TEXT_MSG_COMPLETING                     = Voltooien: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Kan geen map aanmaken.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Kan geen map comprimeren naar een .GZ/XZ-archief.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Kan geen meervoudige bestanden compimeren naar een .GZ/XZ-archief. Controleer de optie "Comprimeer naar elk bestandsnaam of foldernaam".
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip werd geminimaliseerd naar het systeemvak. Klik op het icoontje om te herstellen.
+TEXT_MSG_TRAY_COMPLETED                 = De handeling werd voltooid.
+TEXT_MSG_BATCH_ARCHVING                 = Archiveren: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Uitpakken: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testen: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Verwijderen: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Verwijderen mislukt: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Bezig met bewerken...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Als de tekens niet juist worden weergegeven, klik op de <font color=red><b>Codepagina</b></font> hierboven en probeer het <font color=red><b>Autodetectie</b></font>menu.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Het origineel bestand zal verwijderd worden.[br]Wil je dit bestand verwijderen?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Wil je het huidig bestand verwijderen?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Wil je het huidig archief definitief verwijderen?
+TEXT_ASK_CHANGE_FILENAME                = Hetzelfde bestand bestaat.[br][br]Wil je de bestandsnaam wijzigen ${str1} in ${str2}?
+TEXT_ASK_DELETE_FILE                    = Wil je het geselecteerd bestand verwijderen?
+TEXT_ASK_STOP_EXTRACT                   = Wil je stoppen met uitpakken?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Hetzelfde bestand bestaat.[br][br]Wil je dit overschrijven?
+TEXT_ASK_INIT_SETTING                   = Wil je de standaardinstellingen terugzetten? Bandizip zal herstart worden.
+TEXT_ASK_STOP_ARCHIVING                 = Wil je stoppen met archiveren?
+TEXT_ASK_STOP_MODIFYING                 = Wil je deze handeling stoppen?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Wil je het gewijzigde bestande gebruiken in het archief? [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Ga je de iconenset(${str1}) installeren en aanpassen?
+TEXT_ASK_MAKE_FOLDER                    = De map bestaat niet. Wil je die aanmaken?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = De doelmap heeft geen schrijfrechten.[br][br]- ${str1}[br][br]Wil je doorgaan?
+TEXT_ASK_CONT_NOFREESPACE               = De doelmap heeft geen ruimte genoeg. Verander de bestemmingsmap.[br][br] - $ {} str1 [br][br]Wil je doorgaan?
+TEXT_ASK_ASK_UAC_ELEVATION              = Je hebt geen toestemming om deze bestanden te wijzigen.[br][br]Wil je dit programma als beheerder herstarten?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Kan dit archiefbestand niet openen. [br][br]Wil je het eerste deel van het gesplitste bestand openen. (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Indien je bestanden verwijdert na archivering, kan je belangrijke bestanden verliezen als deze bestanden kapot zijn.[br][br]Wil je de optie "Test Archief" controleren?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Onvoldoende schuifruimte om uit te pakken. Wil je verdergaan?[br][br]Map bestemming: ${str1}[br]Vrije schuifruimte: ${str2}[br]Uit te pakken bestandsruimte: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Dit bestand is corrupt.
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Dit bestand is gesplitst of een ander gesplitst bestand is vereist.
+
+TEXT_BTN_PAUSE                          = Pauze
+TEXT_BTN_RESUME                         = Herbeginnen
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Fout opgetreden
+TEXT_ERRDLG_USER_ABORT                  = Afgebroken
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Kan dit bestand niet openen
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Kan dit bestand niet openen omdat het gebruikt wordt door een ander programma
+TEXT_ARKERR_PASSWORD_NOT_SET            = Paswoord vereist
+TEXT_ARKERR_INVALID_PASSWD              = Ongeldig paswoord
+TEXT_ARKERR_USER_ABORTED                = Afgebroken
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC-fout
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Kan dit bestand niet openen
+TEXT_ARKERR_CANT_READ_DATA              = Kan de archiefgegevens niet lezen
+TEXT_ARKERR_INFLATE_FAILED              = Gegevensfout - Dit bestand is corrupt
+TEXT_ARKERR_BZIP2_ERROR                 = Gegevensfout - Dit bestand is kapot
+TEXT_ARKERR_DATA_CORRUPTED              = Het bestand is kapot of een ander gesplitst bestand is nodig
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Kan dit bestand niet openen
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Kan geen map aanmaken
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Niet ondersteunde compressiemethode
+TEXT_ARKERR_WRITE_FAIL                  = Er is een fout bij het schrijven
+TEXT_ARKERR_DISK_FULL                   = Schijf is vol
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Bestandspad en bestandsnaam mogen niet meer dan 260 tekens tellen
+TEXT_ARKERR_CANT_CREATE_FILE            = Aanmaken van bestand mislukt
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Aanmaken van bestand mislukt. Gebruik een programma met administrator rechten.
+TEXT_ARKERR_USER_SKIP                   = Overgeslagen
+TEXT_ARKERR_FILE_TRUNCATED              = Het einde van dit bestand is kapot of ontbreekt
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Het paswoord is ongeldig of het bestand is uitgesplitst
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Dit bestand is uitgesplitst
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Self-Extracting bestand (*.exe) is meer dan 4GB. Je kunt geen 4GB bestand uitvoeren in Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Kan dit archiefbestand niet openen. Het volgende gesplitst bestand (.z01, .z02..) is nodig.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Kan dit Zip-bestand niet openen. Het volgende gesplitst bestand (.z01, .z02..) is nodig.
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Kan dit archiefbestand niet openen. Het ander gesplitst bestand is nodig.
+TEXT_ARKERR_CORRUPTED_FILE              = Dit bestand is kapot
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Geen toelating om in deze map te schrijven
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Geen toelating om in deze map te schrijven. Gebruik een programma met administrator rechten.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Ondersteunt dit encryptie-algoritme niet
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Gebrek aan geheugen
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Gebrek aan geheugen. Wijzig het comprimeerniveau.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Ondersteunt deze handeling niet
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = De uitgepakte bestandsgrootte en de informatie in de archiefkop zijn verschillend.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Kan geen bestand van meer dan 4GB aanmaken. Kies een ander bestandsformaat (ZIP or 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = De lange bestandsnaam is automatisch ingekort.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Kan het bronbestand niet openen om te kopiëren.
+TEXT_ARKERR_NOTIMPL                     = Niet geïmplementeerd.
+TEXT_ARKERR_CANT_READ_FILE              = Kan het bestand niet lezen.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Gebruik Bandizip als beheerder om een symbolische link te maken.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Kan geen symbolische link maken.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Het bestand is beschrijfbaar en wordt door een ander proces gebruikt.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Niet splitsen
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Keuze gebruiker
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Niet comprimeren
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Snel comprimeren
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Normaal comprimeren
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Maximaal comprimeren
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Nieuw archief
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Voeg bestanden toe aan archief
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Hernoem: ${str1}
+TEXT_TITLE_TEST_MODE                    = Archieftest
+TEXT_TITLE_TEMPFOLDER_MODE              = Uitpakken naar tijdelijke map...
+TEXT_TITLE_MODIFYING                    = Wijzigen...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Bestand voor uitpakken
+TEXT_MSG_SELECTED_FILE                  = ${num1} bestand(n) geselecteerd
+TEXT_MSG_SELECTED_FOLDER                = ${num1} map(pen) geselecteerd
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} Bestand, ${num2} Map
+TEXT_MSG_SELECTED_FILESIZESUM           = Geselecteerde bestandsgrootte: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Versiecontrole mislukt
+TEXT_UPDATE_VERSION_CHECKING            = Controleert versie
+TEXT_UPDATE_DOWNLOAD_FAILED             = Download mislukt
+TEXT_UPDATE_LATEST_VERSION              = Up to date
+TEXT_UPDATE_DO_DOWNLOAD                 = Bijwerken nodig
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Download volledig
+
+TEXT_INSTALL_HONEYVIEW                  = Installeer Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview is niet geïnstalleerd op jouw computer.
+TEXT_INSTALL_HONEYVIEW_2                = Probeer gerust Honeyview ontwikkeld door Bandisoft.<br> Het ondersteund het bekijken van afbeeldingen in gecomprimeerde ZIP, RAR, of 7z bestanden zonder uitpakken.
+
+TEXT_REGISTRATION_FAILED                = Registratie mislukt.[br]Controleer jouw e-mailadres en productsleutel.
+TEXT_REGISTRATION_SUCCEED               = Jouw Bandizip is geregistreerd.
+TEXT_REGISTRATION_ASK                   = Weet je zeker dat je Bandizip wilt afmelden?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip is niet geregistreerd.[br]Koop en registreer Bandizip om het zonder beperkingen te gebruiken.
+TEXT_REGISTER_INFO                      = De volgende gebruiker heeft Bandizip geregistreerd:[br]E-mailadres: ${str1}[br]Productsleutel: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = Antimalware scan bij archiveren
+TEXT_SCAN_AMSI_PROVIDER                 = AMSI-initialisatie geslaagd.
+TEXT_SCAN_COMPLETED                     = Malwarescan is voltooid.
+TEXT_SCAN_MALWARE_DETECTED              = Malware gevonden
+TEXT_SCAN_MALWARE_NOTDETECTED           = Geen malware gevonden
+TEXT_SCAN_MALWARE_TOOBIG                = Scan mislukt. Het bestand is te groot.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = Malware gevonden in het archief.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= Er is malware ontdekt in het archief. Het uitpakken is geannuleerd.
+TEXT_MSG_MALWARE_TEST_OK                = Geen malware gevonden in het archief.
+TEXT_MSG_AMSI_INIT_FAILED               = AMSI-initialisatie voor scannen is mislukt. Ga naar https://go.bandisoft.com/amsi voor meer informatie.
+TEXT_MSG_AMSI_WIN10_NOTICE              = Antimalware Scan is alleen beschikbaar op Windows 10. Ga naar https://go.bandisoft.com/amsi voor meer informatie.
+
+[MENU]
+MENUSTR_FILE                            = &Bestand
+MENUSTR_EDIT                            = B&ewerken
+MENUSTR_SETTING                         = &Opties
+MENUSTR_FIND                            = &Zoeken
+MENUSTR_VIEW                            = &View
+MENUSTR_TOOLS                           = Hulp&middelen
+MENUSTR_HELP                            = &Help
+
+MENUSTR_OPEN                            = &Open archief \tCtrl+O
+MENUSTR_RECENT                          = Recente bestanden
+MENUSTR_CLOSE_FILE                      = &Sluit archief \tF4
+MENUSTR_CREATE_ARCHIVE                  = &Nieuw archief \tCtrl+N
+MENUSTR_NEW_WINDOW                      = Nieuw venster\tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Nieuw Venster (Beheerder)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Opslaan als
+MENUSTR_DELETE_ARCHIVE                  = Archief verwijderen \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Verwijder archief definitief \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Open archieflocatie
+MENUSTR_TEST_ARCHIVE                    = &Test archief \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = Antimalware scan bij archiveren \ tCtrl + I
+MENUSTR_EXTRACT_FILE                    = &Bestand uitpakken \tCtrl+E
+MENUSTR_EXIT                            = A&fsluiten \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = Bestand &hernoemen \tF2
+MENUSTR_ADD_FILE                        = Bestand &toevoegen \tIns
+MENUSTR_DELETE_FILE                     = Bestand &verwijderen \tDel
+MENUSTR_EDIT_COMMENT                    = Archiefcommentaar
+MENUSTR_SETTING_SUB                     = &Instellingen (F5)
+MENUSTR_REGISTER                        = Registreer Bandizip ...
+MENUSTR_UNREGISTER                      = Bandizip afmelden ...
+MENUSTR_PASSMAN                         = Paswoordbeheer ...
+MENUSTR_FIND_ITEM                       = Z&oek bestanden \tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Kopieer bestanden naar klembord\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Plak bestanden van klembord\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Startscherm \tF6
+MENUSTR_VIEW_TREECONTROL                = Boomstructuur Controle \tF7
+MENUSTR_VIEW_COMMENT                    = Archiefcommentaar\tF8
+MENUSTR_VIEW_PREVIEW                    = Voorbeeldweergave
+MENUSTR_VIEW_STATUS_BAR                 = Statusbalk
+MENUSTR_VIEW_TOOLBAR                    = Werkbalk
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Groot
+MENUSTR_VIEW_TOOLBAR_MINI               = Klein
+MENUSTR_VIEW_TOOLBAR_OLD                = Oud
+MENUSTR_VIEW_TOOLBAR_HIDE               = Verberg
+MENUSTR_VIEW_LISTVIEW                   = Bestandslijst
+MENUSTR_VIEW_LISTVIEW_ICON              = Iconen
+MENUSTR_VIEW_LISTVIEW_LIST              = Lijst
+MENUSTR_VIEW_LISTVIEW_REPORT            = Details
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = Grote pictogrammen
+MENUSTR_VIEW_COLUMN                     = Kolom
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Altijd bovenaan
+MENUSTR_VIEW_COLOR_SETTING              = Kleurinstellingen...
+
+MENUSTR_TOOLS_REPAIR                    = Archief herstellen...
+MENUSTR_TOOLS_RECOVERY                  = Paswoord herstel...
+
+MENUSTR_ABOUT                           = &Over Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Ga naar helppagina
+MENUSTR_OPEN_FOLDER                     = &Open Bandizip Map
+MENUSTR_FORUM                           = Ga naar &Bandizip Forum
+MENUSTR_HOMEPAGE                        = Ga naar &Startpagina
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Gecomprimeerde grootte
+POPUPMENU_VIEWITEM_ORIGSIZE             = Originele grootte
+POPUPMENU_VIEWITEM_KIND                 = Bestandstype
+POPUPMENU_VIEWITEM_DATE_MOD             = Wijzigingsdatum
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Comprimeermethode
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Encryptiemethode
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Bestandseigenschappen
+POPUPMENU_VIEWITEM_COMMENT              = Bestandscommentaar
+POPUPMENU_VIEWITEM_EXT                  = Bijkomende informatie
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Alles uitpakken \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Geselecteerde bestanden uitpakken...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Alles hier uitpakken
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Openen\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Openen met beeldviewer
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Openen met gekoppeld programma\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Openen met Bandizip
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Nieuwe map
+POPUPMENU_LISTCONTROL_ADD_FILE          = Voeg bestand toe \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Verwijder bestand \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Hernoem bestand
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Selecteer alles \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Verplaats naar bovenliggende map \tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Verwijder archief
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Open archiefmap
+
+POPUPMENU_EXTRACT_AUTODEST              = Automatisch (slim) uitpakken\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Uitpakken in huidige map\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Uitpakken in map met deze bestandsnaam
+POPUPMENU_EXTRACT_DESKTOP               = Uitpakken naar bureaublad
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Automatisch (slim) uitpakken op bureaublad
+
+POPUPMENU_RECENT_CLEAR                  = Verwijder geschiedenis
+POPUPMENU_RECENT_NOITEM                 = Geen laatste bestand
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Open met Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Automatisch uitpakken
+
+POPUPMENU_CODEPAGE_DEFAULT              = Standaard
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Vereenvoudigd Chinees
+POPUPMENU_CODEPAGE_TRADCHINESE          = Traditioneel Chinees
+POPUPMENU_CODEPAGE_JAPANESE             = Japannees
+POPUPMENU_CODEPAGE_KOREAN               = Koreaans
+POPUPMENU_CODEPAGE_WINDOWS1252          = West-Europees
+POPUPMENU_CODEPAGE_WINDOWS1250          = Centraal Europees
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cyrillisch
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turks
+POPUPMENU_CODEPAGE_WINDOWS737           = Grieks
+POPUPMENU_CODEPAGE_ARABIC               = Arabisch
+POPUPMENU_CODEPAGE_HEBREW               = Hebreeuws
+POPUPMENU_CODEPAGE_BALTIC               = Baltische talen
+POPUPMENU_CODEPAGE_THAI                 = Thais
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Autodetectie
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Toon met Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Toon met gekoppeld programma
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Minimaliseer naar werkbalk
+DLG_MENUSTR_LOW_PRIORITY                = Lage prioriteit
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Verwijder het archief na het uitpakken
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = OK
+IDCANCEL                                = Annuleer
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Over Bandizip
+IDC_BTN_HOMEPAGE                        = Startpagina
+IDC_BTN_UPDATE                          = Bijwerken
+IDC_BTN_REGIST                          = Registreer nu
+IDC_BTN_BUY                             = Koop nu
+IDC_STATIC_LICENSE                      = Informatie over Bandizip registratie
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Bestand open
+IDC_STATIC_OPENING                      = Openen
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Selecteer het pad om uit te pakken
+IDC_STATIC_FOLDER                       = &Bestemmingspad
+IDC_STATIC_FILES2EXTRACT                = Uitpakken:
+IDC_RADIO_FILES2EXTRACT_0               = &Alle bestanden
+IDC_RADIO_FILES2EXTRACT_1               = Ge&selecteerde bestanden
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Uitpakken in "doelmap" onder de geselecteerde map
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Verwijder originele bestanden na archivering
+IDC_CHK_REMEMBER_SETTINGS               = Instellingen onthouden
+IDC_BTN_NEWFOLDER                       = Nieuwe map
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Uitpakken
+IDC_BTN_STOP                            = Stop
+IDC_BTN_CLOSE                           = Sluit
+IDC_BTN_PAUSE                           = Pauze
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Nieuw Archief
+IDC_STATIC_FILE_LIST                    = Voeg bestanden toe aan archief
+IDC_STATIC_ARCHIVE_SETTING              = Archiefinstellingen
+IDC_STATIC_ARCHIVE_NAME                 = Bestandsnaam
+IDC_STATIC_SET_DEST_FOLDER              = Doelmap
+IDC_STATIC_ARCHIVE_TYPE                 = Opslaan als
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Bestand splitsen
+IDC_STATIC_COMPRESSION_METHOD           = Comprimeerniveau
+IDC_STATIC_HELP_SPLIT                   = [Help]
+IDC_STATIC_HELP_7Z                      = [7Z format]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Bladeren...
+IDC_BTN_SET_PASSWORD                    = &Paswoord instellen...
+IDC_BTN_TEST_ARCHIVE                    = &Test archief
+IDC_BTN_DELETE_SRC                      = Verwijder bestanden na archivering
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Comprimeer naar elke bestands/mapnaam
+IDC_BTN_SET_DEST_FOLDER                 = Wijzig de doelmap
+IDC_BTN_TOGGLE_ADVANCED                 = Meer opties...
+IDC_BTN_SET_SFX                         = SFX-instellingen...
+IDC_BTN_ADD                             = &Toevoegen...
+IDC_BTN_DEL                             = &Verwijderen
+IDC_BTN_START                           = &Start
+IDC_BTN_COMP_ADVANCED                   = Gevorderd
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = ZIP/ZIPX Compressie-instellingen
+IDC_AA_ZIP_ALGO                         = Compressiemethode
+IDC_AA_ZIP_ENC                          = Encryptiemethode
+IDC_AA_ZIP_THREAD                       = Aantal CPU-threads
+COMBO_TEXT_THREAD_AUTO                  = Automatisch
+IDD_AA_7Z                               = 7Z Compressie-instellingen
+IDC_AA_7Z_ALGO                          = Compressiemethode
+IDC_AA_7Z_SOLID                         = Vaste blokgrootte
+IDC_CHK_7Z_ENC_FILENAMES                = Bestandsnamen coderen
+IDD_AA_TAR                              = TAR archiveringsinstellingen
+IDC_CHK_TAR_SYMLINK                     = Symbolische koppelingen opslaan
+IDC_CHK_TAR_HARDLINK                    = Harde koppelingen opslaan
+COMBO_TEXT_SOLID_NONE                   = Niet-vast
+COMBO_TEXT_SOLID_SOLID                  = Vast
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Vul paswoord in
+IDC_STATIC_DESC_ARCHIVING               = Voer een paswoord in voor jouw archief. Een paswoord van minstens 8 tekens wordt aanbevolen voor een betere beveiliging.
+IDC_STATIC_DESC_MASTERPASS              = Voer een hoofdpaswoord in voor de paswoordbeheerder. Een paswoord van minstens 8 tekens is aanbevolen voor een betere beveiliging.
+IDC_STATIC_DESC_EXTRACT                 = Vul paswoord in voor het gecodeerde bestand.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Ongeldig paswoord. Paswoord opnieuw invullen.
+IDC_STATIC_PWD                          = Vul paswoord in
+IDC_STATIC_PWD2                         = Vul het paswoord opnieuw in
+IDC_BTN_SHOW_PASSWORD                   = Toon paswoord
+IDC_BTN_PASSMAN                         = Paswoordbeheer ...
+IDC_CHECK_APPLY_ALL                     = &Alles toepassen
+IDC_STATIC_PASS_RECOVERY                = Paswoord vergeten? Probeer Bandizip Paswoord Herstel te gebruiken.
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Paswoordbeheer ...
+TEXT_MSG_CORRUTP_DATA                   = Bewaarde paswoordgegevens zijn beschadigd.
+TEXT_PASSMAN_WARNING1                   = Als het hoofdpaswoord is ingesteld, worden paswoorden die zijn opgeslagen in de paswoordbeheerder niet gecodeerd.
+TEXT_PASSMAN_WARNING2                   = Let op als je deze functie op een openbare of gedeelde computer gebruikt.
+LIST_PASS_HEADER1                       = Paswoord
+LIST_PASS_HEADER2                       = Naam weergeven
+IDC_BTN_ADD                             = Toevoegen
+IDC_BTN_DEL                             = Verwijderen
+IDC_BTN_EDIT                            = Bewerken
+IDC_BTN_SET_MASTERPASS                  = Hoofdpaswoord instellen ...
+IDC_BTN_DEL_MASTERPASS                  = Verwijder hoofdpaswoord
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Vul het hoofdpaswoord in
+IDC_STATIC_MASTPASS_MSG                 = Voer een hoofdpaswoord in om toegang te krijgen tot paswoordbeheer. Terugzetten om alle opgeslagen paswoordinformatie te verwijderen.
+IDC_BTN_INITPASSMAN                     = Terugzetten
+TEXT_ASK_INIT_PASSMAN                   = Weet je zeker dat je alle paswoordinformatie wil verwijderen?
+IDC_BTN_SHOW_PASSWORD                   = Toon paswoord
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Paswoordinformatie
+IDC_STATIC_PASSWORD                     = Paswoord
+IDC_STATIC_DISPNAME                     = Naam weergeven (optie)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Selecteer
+IDC_BTN_OPEN                            = Open
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Archiveren
+TEXT_ARCHIVE_TESTING                    = Testen
+IDC_BTN_STOP                            = Stop
+IDC_BTN_CLOSE                           = Sluit
+IDC_BTN_PAUSE                           = Pauze
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Dubbele bestanden
+IDC_STATIC_DUPE_MESSAGE                 = Hetzelfde bestand bestaat
+IDC_STATIC_DUPEFILE_OLD                 = Origineel bestand
+IDC_STATIC_DUPEFILE_NEW                 = Huidig bestand
+IDC_STATIC_DUPE_ASK                     = Kies uit de onderstaande keuzes:
+IDC_RADIO_DUPE_METHOD0                  = &Overslaan
+IDC_RADIO_DUPE_METHOD1                  = &Overschrijven
+IDC_RADIO_DUPE_METHOD2                  = &Hernoemen
+IDC_CHECK_DUPE_APPLY_ALL                = &Toepassen op alle bestanden
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Archiefoptie
+IDC_STATIC_ASK_HANDLING                 = Selecteer de optie hieronder:
+IDC_RADIO_HANDLE_METHOD0                = &Open Archief
+IDC_RADIO_HANDLE_METHOD1                = &Nieuwe Compressie
+IDC_RADIO_HANDLE_METHOD2                = Voeg bestanden toe &aan huidig archief
+IDC_CHK_PASS                            = Gebruik paswoord
+IDC_STATIC_PASSWORD_AGAIN               = Vul paswoord opnieuw in
+IDC_CHK_SHOW_PASS                       = Toon paswoord
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Instellingen
+IDC_BTN_INIT                            = Terugzetten
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Algemene instellingen
+IDC_CHK_EXIT_WITH_ESC                   = Gebruik ESC-toets om venster te sluiten
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Controleer altijd bestanden als bestand wordt toegevoegd/verwijderd/hernoemd
+IDC_CHK_SNAP                            = Gebruik knipvenster
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Toon [..] mappen in archief
+IDC_CHK_SHOW_GRID_AT_LIST               = Toon rasterlijnen in detailzicht
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Selecteer volledige rij in archief
+IDC_CHK_ONE_CLICK_ACTIVATE              = Klik één keer om een item te openen
+IDC_STATIC_UPDATE                       = Update-instellingen
+TEXT_UPDATE_0                           = Meldt en installeer de nieuwste versie
+TEXT_UPDATE_1                           = Meldt en installeer alleen de stabiele versie
+TEXT_UPDATE_2                           = Meldt geen updates
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Bestandskoppelingen
+IDC_BTN_SELECT_MANDATORY                = Selecteer essentiële
+IDC_BTN_SELECT_ALL                      = Alles selecteren
+IDC_BTN_CLEAR_ALL                       = Alles deselecteren
+IDC_BTN_APPLY_NOW                       = Nu toepassen
+IDC_STATIC_ICON_PACK                    = Kies iconenset:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Iconenset Downloaden]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - Standaardprogramma's instellen
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Uitbreiding koppelingen
+;IDC_STATIC_ASSOC_DESC1                 = Voor Windows 8 of hoger, kunt u de bestanden koppelen als volgt:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Klik op de volgende knop "Koppelingsinstellingen".
+;IDC_STATIC_ASSOC_DESC3                 = 2. Vink "Selecteer Alles" aan in het scherm Bestandskoppelingen.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Klik op de knop "Opslaan".
+;IDC_STATIC_ASSOC_DESC1_10              = Voor Windows 10 of hoger, kunt u de bestanden koppelen als volgt:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Klik op de volgende knop "Koppelingsinstellingen".
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Selecteer "Bandizip" in het venster om standaardprogramma's in te stellen.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Klik op "Stel dit programma als standaard".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Koppelingsinstellingen
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Klassieke methode
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Dubbelklik actie
+IDC_RADIO_SHELL_OPEN_0                  = Open met Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Automatisch uitpakken
+IDC_RADIO_SHELL_OPEN_2                  = Toon Contextmenu
+IDC_RADIO_SHELL_OPEN_3                  = Automatisch uitpakken naar toegewezen map
+IDC_BTN_SET_EXTRACT_FOLDER              = Bladeren...
+IDC_RADIO_SHELL_OPEN_4                  = Uitpakken naar map met de bestandsnaam
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Verwijder archief na uitpakken door dubbel te klikken
+
+IDC_STATIC_SHELL_EXTRACT                = Uitpakmenu
+IDC_CHK_SHELL_EXTRACT_HERE              = Hier uitpakken
+IDC_CHK_SHELL_EXTRACT_AUTO              = Automatisch (slim) uitpakken
+IDC_CHK_SHELL_EXTRACT_SUB               = "Uitpakken in map "Archiefnaam""
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Hier uitpakken en verwijderen
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Hier (slim) uitpakken en verwijderen
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Uitpakken naar de map met de "archiefnaam" en verwijderen
+IDC_CHK_SHELL_EXTRACT_DLG               = Selecteer pad voor uitpakken
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Uitpakken als beheerder
+IDC_CHK_SHELL_TEST_ARCHIVE              = Test archief
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Open met Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Voorbeeld archief
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Beperk voorbeelden tot:
+IDC_CHK_SHELL_PREVIEW_TREE              = Voorbeeld archief met boomstructuur
+
+IDC_STATIC_SHELL_ARCHIVING              = Comprimeermenu
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Comprimeer naar "Bestandnaam.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Comprimeer naar "Bestandsnaam.zip" en verwijder
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Comprimeer naar "Bestandnaam.zip" en e-mail
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Comprimeer naar "Bestandsnaam.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Comprimeer naar "Bestandsnaam.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Comprimeer naar "Bestandsnaam.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Comprimeer naar "Bestandsnaam.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Comprimeer naar "Bestandsnaam.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Comprimeer naar "Bestandsnaam.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Comprimeer naar "Bestandsnaam.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Comprimeer naar "Bestandsnaam.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Comprimeer naar "Bestandsnaam.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Comprimeer naar "Bestandsnaam.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = Comprimeer naar elke bestands/mapnaam
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Comprimeer naar "Bestands/mapnaam.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Toevoegen aan archief (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Comprimeer als beheerder
+IDC_CHK_SHELL_ARCHIVING_RULE            = Comprimeer naar gewone bestandsnaam
+IDC_STATIC_FILENAME_RULE_HELP           = Regel: ${NAME}=Bestandsnaam, %Y=Jaar, %m=Maand, %d=Dag, %H=Uur, %M=Minuut, %S=Seconde
+
+IDC_STATIC_SHELL_BKGND                  = Klik met de rechtermuisknop op de witruimte om het popupmenu in Windows Verkenner te openen.
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = "Gebruik de functie "Nieuwe map""
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Open het commandovenster (cmd.exe) - Gebruik de Shift-toets om cmd.exe als Administrator te openen
+
+IDC_STATIC_SHELL_ETC                    = Allerlei
+IDC_CHK_SHELL_DO_NOT_USE                = Contextmenu uitschakelen
+IDC_CHK_SHELL_AS_SUB_MENU               = Trapsgewijs contextmenu
+IDC_CHK_SHELL_HIDE_ICON                 = Verberg Bandizip icoon
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Onderscheid het archiefbestand met de inhoud
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Toon archiefmenu ook voor gearchiveerde bestanden
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Gebruik de geselecteerde bestands/mapnaam bij muisaanwijzer om meerdere bestanden/mappen te selecteren
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Bestanden rechtstreeks toevoegen aan ZIP-bestand door verslepen in Verkenner
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Instellingen uitpakken
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Als er slechts één hoofdmap in het archief is, toon de bestanden in de map
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Open map na uitpakken
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Sluit het voortgangsvenster niet na het uitpakken
+IDC_CHK_FAST_DRAG_DROP                  = Gebruik "Snel verslepen" bij een groot uit te pakken bestand
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = TGZ, TBZ bestanden in een keer uitpakken
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Zelfs voor de grote bestandsgrootten van TGZ, TBZ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Maak bij 'Automatisch uitpakken' een map aan indien er meer dan één topniveau item is
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Ontdek automatisch Macintoshpaginacode
+IDC_CHK_UNIXZIP_AS_UTF8                 = Gebruik UTF-8 paginacode bij het openen van een zipbestand uit UNIX
+IDC_CHK_PARALLEL_EXT                    = Gebruik parallelle extractie indien mogelijk
+IDC_STATIC_CODEPAGE                     = Standaard paginacode
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Als je dubbelklikt voer je bij alles uitpakken de volgende bestandstypes uit
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Comprimeerinstellingen
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Geen hoofdmap aanmaken als je maar één map comprimeert
+IDC_CHK_USE_UTF8_COMPRESS               = Gebruik Unicode bestandsnamen in Zip-bestanden (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Bewaar Unicode-bestandsnamen in het extra headerveld van Zip-bestanden (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Gebruik Unicode bestandsnamen TAR, TGZ-bestanden (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Gebruik altijd ZIP64 formaat zelfs als de bestandsgrootte minder dan 2GB is (niet aanbevolen)
+IDC_CHK_EXCLUDE_THUMBSDB                = Sluit thumbs.db bestand uit bij comprimeren
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Bewaar NTFS-tijdinformatie om Zip-bestanden te maken
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = "Gebruik 'High Speed Archiving'"
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Sluit het vooruitgangsscherm niet na archivering
+IDC_STATIC_COMPRESSION_METHOD           = Comprimeerniveau:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Test het archief na compressie
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Gebruik de laatste map voor nieuw archief
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Standaardmap voor archieven
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Bladeren...
+IDC_CHK_EXCLUDE_FILTER                  = Uitsluiten van bestandstypes bij het archiveren
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Viewer instellingen
+IDC_CHK_SHOW_PREVIEW                    = Voorbeeld weergeven
+IDC_CHK_SHOW_FOLDER_SIZE                = Toon bestandsgrootte van gecomprimeerde en oorspronkelijke mappen
+IDC_CHK_SET_LISTCONTROL_FONT            = Stel het lettertype van de bestandslijst in
+
+IDC_STATIC_SETTING_VIEWITEM             = Kolommen
+IDC_CHK_VIEWITEM_COMPSIZE               = Gecomprimeerde grootte
+IDC_CHK_VIEWITEM_ORIGSIZE               = Originele grootte
+IDC_CHK_VIEWITEM_KIND                   = Bestandstype
+IDC_CHK_VIEWITEM_DATE_MOD               = Wijzigingsdatum
+IDC_CHK_VIEWITEM_COMPMETHOD             = Comprimeermethode
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Encryptiemethode
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Bestandseigenschappen
+IDC_CHK_VIEWITEM_COMMENT                = Bestandscommentaar
+IDC_CHK_VIEWITEM_EXT                    = Bijkomende informatie
+
+IDC_STATIC_IMAGE_VIEWER                 = Beeldviewer
+IDC_RADIO_IMAGE_VIEWER_0                = Gebruik interne beeldviewer
+IDC_RADIO_IMAGE_VIEWER_1                = Gebruik gekoppelde beeldviewer
+IDC_RADIO_IMAGE_VIEWER_2                = Gebruik Honeyview indien geïnstalleerd
+
+IDC_STATIC_EDITOR                       = Openen met gekoppeld programma
+IDC_BTN_SET_EDITOR_PATH                 = Bladeren...
+
+IDC_STATIC_COLOR                        = Kleur
+IDC_STATIC_COLOR_THEME                  = Themakleur
+IDC_BTN_BKGND                           = Geselecteerd
+IDC_STATIC_COLOR_TEXT                   = Lettertypekleur
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = Wit
+IDC_STATIC_COLOR_TEXT_BLACK             = Zwart
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Beveiligingsinstellingen
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopieerzone. Identificatie-informatie van een archief dat  gedownload is van het Internet
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Controleer malware voor contact
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Exporteer Bandizip instellingen
+IDC_STATIC_ETC                          = Overige instellingen
+IDC_CHK_SET_TEMP_FOLDER                 = Locatie van de tijdelijke map bepalen
+IDC_BTN_SET_TEMP_FOLDER                 = Bladeren...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Herken de volgende bestandstypen als archiefbestanden
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Verwijder tijdelijk bestand bij het verlaten van het onderliggend proces
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Verplaats bestanden naar de Prullenbak bij verwijderen
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Toon de laatste archiefgeschiedenis
+IDC_CHK_USE_LONG_PATH_NAME              = Verwerk lange padnamen met meer dan 260 tekens
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Windows verkenner toelaten op geopende archiefbestanden te verwijderen
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Ontplooi de mapstructuur automatisch
+IDC_CHK_USE_MODAL_DIALOG                = Gebruik een gewoon dialoogvenster bij het archiveren/uitpakken
+IDC_CHK_USE_ELEGANT_UI                  = Gebruik een elegant UI-design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Toon 'Startscherm' bij het opstarten van Bandizip
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Geef het volledige pad in de titelbalk
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Verwijder uitgepakte bestand als de extractie wordt geannuleerd
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopieerzone. Identificatie-informatie van een archief dat  gedownload is van het Internet
+IDC_CHK_USE_SET_END_OF_FILE             = Wijs vooraf schijfruimte toe voor een uitvoerbestand
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Comprimeer een bestand, zelfs alshet bestand door een ander proces gebruikt wordt
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Taalinstelling
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Wil je het programma helpen vertalen? Klik hier...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (Self Extracting Archive) Instellingen
+IDC_STATIC_TARGET_PATH                  = Pad om uit te pakken:
+IDC_STATIC_TITLE                        = SFX titel:
+IDC_STATIC_RUN                          = Uitvoeren na uitpakken:
+IDC_STATIC_MESSAGE                      = SFX-Bericht:
+IDC_CHK_AUTO_CLOSE                      = Sluit SFX-venster na uitpakken
+IDC_BTN_SAVE_SFX_SETTING                = Instellingen bewaren
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Bestanden zoeken
+IDC_STATIC_FIND                         = Wat zoeken:
+IDC_BTN_CLOSE                           = Sluit
+IDC_BTN_DELETE                          = Verwijder
+IDC_BTN_EXTRACT                         = Uitpakken
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Archiefcommentaar
+IDC_STATIC_COMMENT                      = Toevoegen/bewerken van commentaar in dit archief
+IDC_CHK_USE_UTF8                        = Bewaar commentaar als Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Commentaar uit bestand opladen (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = WAARSCHUWING
+IDC_STATIC_WARN_EXECUTABLE              = Dit bestand is een uitvoerbaar bestand. Het uitvoeren van dit programma kan uw computer beschadigen. Wilt u verdergaan?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Niet meer vragen
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Registreer Bandizip
+IDC_STATIC_DESC1                        = Vul jouw e-mailadres en de productsleutel in die je per e-mail kreeg.
+IDC_STATIC_EMAIL                        = E-mailadres
+IDC_STATIC_PRDUCT_KEY                   = Productsleutel
+IDC_BTN_REGISTER                        = Registreer nu
+IDC_STATIC_BUYNOW                       = Bandizip nog niet gekocht? [Nu kopen]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Gids voor Bandizip-licentie
+TEXT_LIMIT_PASSMAN                      = Er kan slechts één paswoord bewaard worden in de paswoordbeheerder van Bandizip Standard Edition.
+TEXT_SHOW_AD                            = Advertenties verschijnen bij de Bandizip Standard Edition.[br]Je kan een betalende versie kopen om de advertenties te verwijderen.
+TEXT_CANNOT_CHANGE                      = Deze functie kan niet gewijzigd worden in de Bandizip Standard Edition.[br]Je kan een betalende versie kopen om deze functie te wijzigen.
+TEXT_CANNOT_USE                         = Deze functie is niet beschikbaar in de Bandizip Standard Editie.[br]Je kan de betalende versie aanschaffen om deze functie te gebruiken.
+TEXT_PORTABLE_NOTICE                    = Deze functie is niet beschikbaar op Bandizip Portable Edition.[br]Je kan de betalende versie aanschaffen om de functie te gebruiken.
+IDC_STATIC_COMPARISON                   = Vergelijking tussen de versies ...
+IDC_STATIC_HOWTOREGISTER                = Heb je Bandizip al gekocht? [Hoe te registreren]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Archief herstellen
+IDC_STATIC_SRC                          = Bestand om te herstellen
+IDC_STATIC_DST                          = Hersteld bestand
+IDC_BTN_START                           = Start herstellen
+IDC_BTN_TEST                            = Test Herstelbestand
+IDC_BTN_STOP                            = Stoppen
+TEXT_NOTICE                             = Blader en selecteer een bestand om te repareren en klik vervolgens op "Start herstellen".
+TEXT_ERR_OCCURRED                       = Er is een fout opgetreden.
+TEXT_ERR_NOT_A_ZIP                      = Het geselecteerde bestand heeft een niet-ondersteunde indeling. Momenteel is alleen het ZIP-formaat beschikbaar.
+TEXT_ERR_NO_INFO                        = Het geselecteerde bestand heeft geen gegevens om te repareren.
+TEXT_MSG_START                          = Herstel starten.
+TEXT_MSG_FINISH                         = Herstel voltooid.
+TEXT_MSG_ANALYZING                      = Analyseren...
+TEXT_MSG_CANCELED                       = Herstel geannuleerd.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Selecteer een bestand (.zip) vooraleer het herstellen begint.
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Open
+$TOOLBAR_CLOSE_FILE                     = Sluit
+$TOOLBAR_EXTRACT_FILE                   = Uitpakken
+$TOOLBAR_CREATE_ARCHIVE                 = Nieuw
+$TOOLBAR_DELETE_FILE                    = Verwijder
+$TOOLBAR_ADD_FILE                       = Toevoegen
+$TOOLBAR_TEST_ARCHIVE                   = Test
+$TOOLBAR_CODEPAGE                       = Codering
+$TOOLBAR_VIEWITEM                       = Kolommen
+$TOOLBAR_SCAN                           = Scan
+
+$TOOLBAR_OPEN2                          = Open Archief
+$TOOLBAR_CREATE_ARCHIVE2                = Nieuw Archief
+
+$TEXT_DESKTOP                           = Bureaublad
+$TEXT_DOCUMENT                          = Documenten
+$TEXT_PICTURE                           = Afbeeldingen
+$TEXT_COMPUTER                          = Computer
+
+$TEXT_SETTINGTAB_GENERAL                = Algemeen
+$TEXT_SETTINGTAB_ASSOC                  = Bestandskoppeling
+$TEXT_SETTINGTAB_SHELL                  = Contextmenu
+$TEXT_SETTINGTAB_EXTRACT                = Uitpakken
+$TEXT_SETTINGTAB_ARCHIVE                = Comprimeren
+$TEXT_SETTINGTAB_VIEWER                 = Viewer
+$TEXT_SETTINGTAB_SECURITY               = Beveiliging
+$TEXT_SETTINGTAB_ETC                    = Overig
+$TEXT_SETTINGTAB_LANG                   = Taal
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Open bestandslocatie
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Open archieflocatie
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Open bestandslocatie na het uitpakken
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Open archieflocatie
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Open doelmap
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Sluit dit venster niet na het uitpakken
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Sluit dit venster niet na het archiveren
+$TOOLTIP_ADVANCED_MENU                  = Diverse instellingen
+$TOOLTIP_REGISTER                       = Registreer Bandizip
+$TOOLTIP_UPDATE                         = Bijwerken
+$TOOLTIP_PREVIEW                        = Toon grote picotgrammen
+$TOOLTIP_REPORT                         = Toon details
+
+$TEXT_INSTALL_START                     = OK, ik probeer het
+$TEXT_INSTALL_CLOSE                     = Nee, bedankt
+$TEXT_INSTALL_HONEYVIEW_LINK            = Zie meer...
+
+$TEXT_HELP_PAGE                         = Helppagina
+$TEXT_AD                                = PUB
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Bandizip Paswoord Herstel
+TEXT_MSG_OPENING                        = Het archief openen: $ {str1}
+TEXT_MSG_CANCELED                       = Het archief openen is geannuleerd
+TEXT_MSG_BROKEN                         = Dit archief is beschadigd.
+TEXT_MSG_NO_PASSWD                      = Voor dit archief is geen paswoord ingesteld.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = Van dit archief is de bestandskop gecodeerd. Dit archieftype wordt momenteel niet ondersteund.
+TEXT_MSG_OPEN_FIRST                     = Open een archief voordat je het herstel start.
+TEXT_MSG_CANT_OPEN                      = Kan het archief niet openen. (Code: 0x% x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = Selecteer soorten tekens voor het herstel.
+TEXT_MSG_INIT_FAIL                      = Initialisatie mislukt.
+TEXT_MSG_NOT_FOUND                      = Herstel mislukt. Het te herstellen paswoord mag de maximale lengte van 4 tekens op Bandizip Standard Edition niet overschrijden.
+TEXT_MSG_FILE2FINDPWD                   = De bovenstaande bestanden worden verwerkt voor het herstel.
+TEXT_MSG_ERRORATFINDINDEX               = Kan geen enkel bestand voor herstel vinden.
+TEXT_MSG_COPY2CLIPBOARD                 = Het herstelde paswoord is naar het klembord gekopieerd.
+TEXT_STATE_MSG_READY                    = Klik op START om het herstel te starten.
+TEXT_STATE_MSG_WORKING                  = Het paswoord herstellen ...
+TEXT_STATE_MSG_PAUSING                  = Onderbroken
+TEXT_STATE_MSG_STOPPING                 = Annuleren ...
+TEXT_STATE_MSG_FOUND                    = Het paswoord van $ {num1} tekens is hersteld in $ {str1} seconden. ($ {Str2})
+TEXT_ASK_EXIT                           = Weet je zeker dat je wil stoppen?
+TEXT_COMBO_THREAD_AUTO                  = Automatisch
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = Instellingen
+IDC_STATIC_MULTI_CORE                   = Multi-core verwerking
+IDC_STATIC_MULTI_CORE_DESC              = Geef het aantal threads op dat moet worden gebruikt voor het herstel.[br]Het wordt aanbevolen om "Auto" of een kleiner aantal te selecteren dan het aantal CPU-cores dat op je systeem is geïnstalleerd.
+IDC_STATIC_PREP_POSTP                   = Voorvoegsel
+IDC_STATIC_PREP                         = Voorvoegsel
+IDC_STATIC_PREP_DESC                    = Voeg het voorvoegsel aan het begin van de wachtwoorden toe voordat je ze verwerkt. Bijv. http: // www.
+IDC_STATIC_ETC                          = Diversen
+IDC_CHK_USE_SIGNATURE_BY_EXT            = Gebruik de bestandsextensie voor sneller herstel.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = Open
+$STEP_2                                 = Controleer
+$STEP_3                                 = Instellingen
+$STEP_4                                 = Herstel
+$STEP_5                                 = Volledig
+$FILE_PATH_NAME                         = Plaats
+$BTN_NEXT_PAGE                          = Volgende >
+$BTN_PREV_PAGE                          = < Vorige
+$BTN_OK                                 = OK
+$BUTTON_BUY_NOW                         = Koop Bandizip Professional Edition
+$STATIC_OPEN_DESC                       = Klik op "Archief openen" om te bladeren en een gecodeerd archief te selecteren. <br> Je kan het archief ook rechtstreeks in dit dialoogvenster slepen en neerzetten.
+$STATIC_PRICE_DESC1                     = Gids voor Bandizip Licentie
+$STATIC_PRICE_DESC2                     = Het paswoordherstel is alleen beschikbaar op Bandizip Professional Edition.[br]Bij de Bandizip Standard Edition mag het te herstellen paswoord niet langer zijn dan 4 tekens.
+$STATIC_FILELIST_DESC                   = De volgende bestanden bevinden zich in dit archief. Controleer ze en klik op Volgende.
+$FILELIST_HEADER_NAME                   = Naam
+$FILELIST_HEADER_SIZE                   = Grootte
+$FILELIST_HEADER_DATE                   = Datum gewijzigd
+$FILELIST_HEADER_METHOD                 = Compimeermethode
+$FILELIST_HEADER_PWMETHOD               = Encryptiemethode
+$STATIC_SYMBOL_DESC                     = Geef het tekentype op dat in het verwachte paswoord wordt gebruikt. <br> Als je meerdere of alle types selecteert, duurt het herstel langer.
+$STATIC_CUR_PASSWORD                    = Verwerken
+$STATIC_CUR_PASSLEN                     = Lengte
+$STATIC_ELAPSED                         = Verstreken tijd
+$STATIC_SPEED                           = Verwerkingssnelheid
+$STATIC_CLIPBOARD_DESC                  = Kopieer het hersteld paswoord naar het klembord en plak het.
+$BUTTON_STOP                            = Annuleer
+$BUTTON_START                           = START
+$IDC_BTN_PAUSE                          = Pauze
+$IDC_BTN_UNPAUSE                        = Herstart
+$IDC_BTN_OPEN                           = Open
+$IDC_BTN_SETTING                        = Geavanceerd
+$IDC_BTN_COPY2CLIPBOARD                 = Kopieer
+$IDC_BTN_CANCEL_PAYMENT                 = Initialiseer
+$BUTTON_HELP_PAGE                       = Hulp over de geschatte tijd
+$CHECK_SYMBOL_NUM                       = Cijfer (0123 ... 9)
+$CHECK_SYMBOL_LOWERCASE                 = Kleine letters (abcd ... z)
+$CHECK_SYMBOL_UPPERCASE                 = Hoofdletters (ABCD ... Z)
+$CHECK_SYMBOL_SYMBOL                    = Speciaal teken (! @ # $ ...)
+$CHECK_SYMBOL_SPACE                     = Ruimte
+$CHECK_SYMBOL_ALL                       = Alles
+$CHECK_SYMBOL_SPECIFIED                 = Specifieke tekens
+$FOUNDED_PASSWORD                       = Het herstelde paswoord is...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Nieuwe map
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Nieuwe map
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Open met Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Test Archief
+TEXT_MENU_LAUNCH_CMD                    = &Lanceer commandovenster
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Lanceer commandovenster (Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Comprimeer naar &elk bestands/mapnaam
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Comprimeer naar "elk bestands/mapnaam.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "Comprimeer naar "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Comprimeer naar "${str1}" en verwijder
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Comprimeer naar ${str1} en e-ma&il...
+TEXT_MENU_ARCHIVE_ZIPX                  = Comprimeer naar ${str1}
+TEXT_MENU_ARCHIVE_EXE                   = "Comprimeer naar "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = Comprimeer naar ${str1}
+TEXT_MENU_ARCHIVE_TGZ                   = Comprimeer naar ${str1}
+TEXT_MENU_ARCHIVE_LZH                   = "Comprimeer naar "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Comprimeer naar "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Comprimeer naar "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Comprimeer naar "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Comprimeer naar "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Comprimeer naar "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Comprimeer naar elke "Bestandsnaam.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Comprimeer naar elke "Bestandsnaam.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Comprimeer naar "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Toevoegen aan archief (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Comprimeer als Beheerder
+
+TEXT_MENU_EXTRACT_HERE                  = Hier &Uitpakken
+TEXT_MENU_EXTRACT_AUTO                  = &Automatisch uitpakken
+TEXT_MENU_EXTRACT_AUTO_EACH             = &Automatisch uitpakken (alles)
+TEXT_MENU_EXTRACT_SUB                   = Pak elk archief uit in een &aparte map
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Uitpakken &naar ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Selecteer het pad voor uitpakken...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Uitpakken als beheerder
+TEXT_MENU_EXTRACT_HERE_DEL              = Hier uitpakken en verwijderen
+TEXT_MENU_EXTRACT_AUTO_DEL              = Hier (slim) uitpakken en verwijderen
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = (Alles) Slim uitpakken en verwijderen
+TEXT_MENU_EXTRACT_SUB_DEL               = Uitpakken in aparte mappen en verwijderen
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Uitpakken &naar ${str1}\ en verwijderen
+
+TEXT_MENU_PREVIEW                       = Voorbeeld van archief
+TEXT_MENU_PREVIEW_BROKEN                = Dit bestand heeft een onbekend formaat of is beschadigd
+TEXT_MENU_PREVIEW_TIMEOUT               = De opdracht is geblokkeerd.
+TEXT_MENU_PREVIEW_EMPTY                 = Leeg archiefbestand
+TEXT_MENU_PREVIEW_ENCRYPTED             = Bestandsnaam is versleuteld
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Kan de functie Voorbeeld Archief niet gebruiken. [br][br]Herstart de Windows Verkenner of [br]Herstart uw computer.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Kan bestandslijst niet lezen
+
+TEXT_MENU_OPENING                       = Openen...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip bijwerkingen
+TEXT_UPDATER_TEXT1                      = Bandizip bijwerkingen zijn klaar
+TEXT_UPDATER_TEXT_DL                    = Wilt u dit nu downloaden?
+TEXT_UPDATER_BTN_UPDATE                 = Bijwerken
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Annuleren
+TEXT_UPDATER_DOWNLOAD_ERROR             = Download mislukt.
+TEXT_UPDATER_SETTING_UPDATE             = Instellingen
+TEXT_UPDATER_SETTING_SKIPTHIS           = Deze versie overslaan
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Doelpad:
+BTN_SELECT_FOLDER                       = Bladeren...
+BTN_EXTRACT                             = Start
+BTN_CLOSE                               = Sluit
+BTN_CANCEL                              = Annuleer
+BTN_OPEN_FOLDER                         = Open
+CHK_OVERWRITE                           = Overschrijven
+ERR_ERROR_OCCURRED                      = Fout opgetreden
+ERR_INVALID_PASSWORD                    = Ongeldig Paswoord
+ASK_OVERWRITE                           = Hetzelfde bestand bestaat al. Wil je dit overschrijven?
+MSG_COMPLETED                           = Uitpakken gelukt!
+IDD_PASSWORD                            = Paswoord invullen
+IDC_STATIC_PASSWORD_MSG                 = Dit bestand is versleuteld.
+IDC_BTN_SHOW_PASSWORD                   = Toon paswoord
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Kan bestanden niet uitpakken.
+TEXT_ERR_CRC                            = CRC-fout.
+TEXT_ERR_INVALID_PASSWD                 = Ongeldig paswoord.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Installeer ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = Verwijder ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Klik op Verwijder om de dëinstallatie te beginnen.
+
+$BTN_CLOSE                              = Sluit
+$BTN_CANCEL                             = Annuleer
+$BTN_INSTALL                            = Aanvaarden en Installeren
+$BTN_UNINSTALL                          = Verwijder
+$BTN_OPEN_LICENSE                       = [Toon licentieovereenkomst]
+$BTN_HELP_LINK                          = [Help]
+
+$TEXT_PATH                              = Bestemmingsmap
+$TEXT_INSTALL_STATIC                    = Installeren...
+$TEXT_INST_COMPLETED                    = Installatie voltooid
+$TEXT_INST_FAILED                       = Installatie mislukt
+$TEXT_UNINSTALLING                      = Installatie ongedaan maken...
+
+$CHK_AUTO_REPORT                        = Automatisch gebruiksstatistieken en crashrapporten versturen.
+$EMAIL                                  = E-mailadres
+$PRODUCT_KEY                            = Productsleutel
+
+ERR_CANT_CREATE_FOLDER                  = Map aanmaken mislukt: ${str1}
+ERR_CANT_OPEN_FILE                      = Bestand openen mislukt: ${str1}
+ERR_CANT_WRITE_FILE                     = Bestand overschrijven mislukt: ${str1}
+ERR_BROKEN_ARCHIVE                      = Dit gecomprimeerd bestand is beschadigd: ${str1}
+ERR_CRC_ERROR                           = CRC-fout: ${str1}
+ERR_NOT_ENOUGH_MEM                      = Gebrek aan geheugen: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = Fout bij openen bestand om te schrijven:[br] "${str1}"[br]Klik Afbreken om de installatie te stoppen,[br]Opnieuw om opnieuw te proberen, of [br]Negeren om dit bestand over te slaan.
+MSG_SUCCESS                             = Installatie beëindigd
+MSG_ERROR                               = Er is een fout opgetreden
+MSG_ERROR_REGISTER                      = Registratie mislukt
+MSG_SELECT_FOLDER                       = Selecteer een map.
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} is nog bezig. Sluit het programma eerst af.
+MSG_XP_IS_NOT_SUPPORTED                 = Deze software zal enkel correct werken Windows Vista en later.
+MSG_NEED_ADMIN_PRIVILEGE                = Dit programma kan alleen geïnstalleerd worden door een gebruiker met beheerdersrechten.[br][br]Gewone gebruikers kunnen het programma niet correct installeren.[br][br]Wil je de installatie stoppen?
+MSG_NEWVERSION_FOUND                    = Een nieuwe versie in momenteel beschikbaar. Wil je die nu downloaden?
+SHORTCUT_LINK_DESCRIPTOIN               = Begin ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = Dit setup-bestand ondersteunt geen 32-bit (x86) OS. Download een nieuw installatiebestand op de website.
+MSG_ERR_ARM_NOTSUPPORT                  = Dit installatiebestand ondersteunt geen ARM64 CPU. Download een nieuw installatiebestand van de website.
+ERR_INST_FAILED                         = Installatie mislukt. Start uw PC opnieuw op en probeer het opnieuw.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = Versiecontrole mislukt. Download a.u.b. het offline installatiebestand.
+TEXT_VERSION_CHECKING                   = Versie controleren...
+TEXT_DOWNLOAD_FAILED                    = Downloaden mislukt Download a.u.b. het offline installatiebestand.
+TEXT_DOWNLOAD_COMPLETED                 = Downloaden voltooid
+TEXT_HOMEPAGE                           = [Open Webpagina]
+TEXT_XP                                 = Windows XP ondersteuning is beëindigd.
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = Selecteer knoppen op de werkbalk
+
+

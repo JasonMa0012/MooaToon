@@ -1,0 +1,918 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = हिंदी
+TRANSLATORS                             = कुमार रोहित (Kumarr)
+
+
+[TEXT]
+TEXT_BUILDNO                            = निर्माण#
+TEXT_FILE                               = फाइल
+TEXT_FOLDER                             = फॉल्डर
+TEXT_ARCHIVE_SIZE                       = कुल आकार
+TEXT_ORIGINAL_SIZE                      = वास्तविक आकार
+TEXT_ARCHIVE_FORMAT                     = संग्रह प्रकार
+TEXT_COMPRESSED_SIZE                    = संपीड़ित आकार
+TEXT_SOLID                              = ठोस
+TEXT_BETA                               = बीटा
+TEXT_ASSOC                              = संपीड़ित फाइल (${str1})
+TEXT_PORTABLE                           = वाह्य
+TEXT_NEW_FOLDER                         = नवा फॉल्डर
+TEXT_FILESIZE_UNKNOWN                   = अज्ञात
+TEXT_FILEDATE_UNKNOWN                   = अज्ञात
+TEXT_HELP_LINK                          = [मदद]
+TEXT_APP_DESC                           = Bandizip is a lightweight, fast and free all-in-one Zip archiver. It handles the most popular compression formats, including Zip, 7z, Rar, and so on.
+
+TEXT_MESSAGEBOX_OK                      = ठीक
+TEXT_MESSAGEBOX_CANCEL                  = रद्द
+TEXT_MESSAGEBOX_ABORT                   = निरस्त
+TEXT_MESSAGEBOX_RETRY                   = पुनर्प्रयास
+TEXT_MESSAGEBOX_IGNORE                  = दुर्लक्ष
+TEXT_MESSAGEBOX_YES                     = हाँ
+TEXT_MESSAGEBOX_NO                      = नही
+TEXT_MESSAGEBOX_CONTINUE                = जारी
+TEXT_MESSAGEBOX_HELP                    = Help
+
+TEXT_COLUMN_NAME                        = नाम
+TEXT_COLUMN_COMPSIZE                    = संपीड़ित
+TEXT_COLUMN_ORIGSIZE                    = वास्तविक
+TEXT_COLUMN_KIND                        = प्रकार
+TEXT_COLUMN_DATE_MOD                    = संशोधित
+TEXT_COLUMN_COMPMETHOD                  = संपीड़न पद्धति
+TEXT_COLUMN_ENCRMETHOD                  = कूटलेखन पद्धति
+TEXT_COLUMN_CRC                         = सीआरसी
+TEXT_COLUMN_ATTRIB                      = गुणधर्म
+TEXT_COLUMN_COMMENT                     = मंतव्य
+TEXT_COLUMN_PATHNAME                    = पथ
+
+TEXT_ICONPACK_NAME                      = नाम
+TEXT_ICONPACK_DESIGNER                  = शिल्पकार
+TEXT_ICONPACK_COPYRIGHT                 = प्रतिलिप्यधिकार
+
+TEXT_ARCHIVE_COLUMN_NAME                = नाम
+TEXT_ARCHIVE_COLUMN_FILESIZE            = आकार
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = फॉल्डर पथ
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = कुल आकार
+
+TEXT_SELECT_ARCHIVE_FILE                = फाइल चयन
+TEXT_SELECT_TEXT_FILE                   = फाइल चयन
+TEXT_SELECT_DEST_FOLDER                 = गंतव्य फॉल्डर चयन
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = संग्रह फाइल
+TEXT_REGISTRY_FILE                      = Registry file
+
+TEXT_OPENDLG_ARCHIVEFILES               = संग्रह फाइलें
+TEXT_OPENDLG_ARCHIVEFILE                = Archive File
+TEXT_OPENDLG_ALLFILES                   = सभी फाइलें
+TEXT_OPENDLG_EXEFILES                   = Exe फाइलें
+
+TEXT_ABOUTBOX_TAB1                      = Bandizip बारेमा
+
+TEXT_ASSOC_GROUP0                       = संग्रह फाइलें
+TEXT_ASSOC_GROUP1                       = यूनिक्स
+TEXT_ASSOC_GROUP2                       = अन्य
+TEXT_ASSOC_GROUP3                       = सीडी/डीवीडी
+
+TEXT_OPENERR_INVALIDVERSION             = इस फाइल को खोलने के लिए Bandizip का नवीन संस्करण डाउनलोड करें
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = विभाजित फाइल के प्रथम भाग चुनें
+TEXT_OPENERR_CANT_OPEN_FILE             = (${str1}) फाइल खोलने में अक्षम
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = (${str1}) फाइल खोलने में अक्षम क्योंकि फाइल किसी अन्य कार्यक्रम के उपयोग में है
+TEXT_OPENERR_GENERAL                    = (${str1}) फाइल खोलने में अक्षम (संहिता: ${xnum1})
+TEXT_OPENERR_USER_ABORT                 = रद्द
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = अज्ञात फाइल प्रारूप (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" संग्रह फाइल नहीं है"
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = असमर्थित फाइल प्रारूप (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Not supported encryption method (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = कूटशब्द प्रविष्टि
+TEXT_OPENERR_INVALID_PASSWORD           = गलत कूटशब्द
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = उक्त फाइल खोलने में अक्षम क्योंकि फाइल शीर्षलेख विघटित है
+
+TEXT_ERR_INIT_FAILED                    = प्रारंभ असफल
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = बिगड़ा फाइल या अमान्य कूटशब्द
+TEXT_ERR_PASSOWRD_NOT_MATCH             = असमान कूटशब्द
+TEXT_ERR_PASSWORD_NOT_SET               = कूटशब्द प्रविष्टि
+TEXT_ERR_INVALID_PASSWORD_CHAR          = आपके कूटशब्द में अमान्य पात्र शामिल हैं| सिर्फ संख्याक्षरों या विशेष पात्रों का प्रयोग करें|
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = अमान्य विभाजित फाइल आकार
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (स्वनिकासी संग्रह) फाइल आकार 4 जीबी तक सीमित है|
+TEXT_ERR_INTERNAL_ERROR                 = आंतरिक त्रुटि
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = संग्रह फाइल संशोधन में अक्षम
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = संग्रह संशोधन के दौरान त्रुटि
+TEXT_ERR_INVALID_FOLDER_PATH            = अमान्य फॉल्डर पथ
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = सिर्फ जिप फाइलों का संपादन संभव
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = विभाजित फाइल का संपादन अक्षम
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = स्वनिकासी फाइल (*.exe) का संपादन अक्षम
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = विघटित फाइल का संपादन अक्षम
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = उक्त फाइल/विस्तारण का संपादन अक्षम
+TEXT_ERR_CANT_CHANGE_FILENAME           = उक्त फाइलनाम बदलने में अक्षम
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "फाइलनाम में उपयोग ना करें \n? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = फाइल/फॉल्डर मौजूद| उक्त फाइलनाम (${str1}) बदलने में अक्षम
+TEXT_ERR_CANT_CREATE_FOLDER             = फॉल्डर बनाने में अक्षम
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = संग्रह के लिए फाइल अनुपलब्ध
+TEXT_ERR_INVALID_PARAM                  = अमान्य घटक
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = संग्रह में फाइल जोड़ने में अक्षम \n - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = उक्त संग्रह खोलने में अक्षम \n - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = फॉल्डर मौजूद
+TEXT_ERR_FILENAME_EMPTY                 = गलत फाइलनाम
+TEXT_ERR_AT_DRAGANDDROP                 = खींचें व छोड़ें असफल
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = खींचें व छोड़ें असफल। \n'तेज खींचें व छोड़ें' समारोह को बंद कर पुनर्प्रयास करें।
+TEXT_ERR_AT_CANT_OPEN_MMF               = एमएमएफ खोलने में अक्षम (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = किसी फाइल का चयन नहीं
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = आइकन पैक संस्थापन के लिए फॉल्डर बनाने में अक्षम
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = आइकन पैक संस्थापन के लिए फाइल बनाने में अक्षम
+TEXT_ERR_AT_EXECUTE_DIRECT              = उक्त फाइल खोलने में अक्षम। फाइल निकासी कर पुनर्प्रयास करें।
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 4 जीबी से बड़ा फाइल बनाने में अक्षम। \nकृपया भिन्न फाइल प्रारूप (ZIP या 7Z) चुनें
+TEXT_ERR_CANT_SAVE_AS                   = Cannot save this file.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip has encountered a problem while editing the file.(${str1})[br][br]Would you like to send an error report to Bandisoft?[br][br]Submitting this report helps Bandisoft improve Bandizip.
+
+TEXT_MSG_TEST_OK                        = संग्रह में कोई त्रुटि नहीं
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = निकासी असफल: त्रुटि संहिता \n(${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = निकासी सफल
+TEXT_MSG_EXTRACT_CANCELED               = निकासी रद्द
+TEXT_MSG_COMPRESS_SUCCESS               = संपूर्ण संग्रहण
+TEXT_MSG_INTERNAL_ERROR                 = आंतरिक त्रुटि
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Cannot open the following file in the temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = उक्त संग्रह फाइल मिटाने में अक्षम
+TEXT_MSG_CRASH_REPORT                   = कार्यक्रम दुर्घटनाग्रस्त। कार्यक्रम से प्रस्थान करें
+TEXT_MSG_CRASH_REPORT2                  = Bandizip has encountered a problem and needs to close. Do you want to send a crash report to the Bandizip developer?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip is not responding.[br][br]Do you want to send a crash report to the Bandizip developer and close the program?
+TEXT_MSG_SET_TEMP_PATH                  = अस्थायी पथ चुनें
+TEXT_MSG_SET_PATH                       = पथ चुनें
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = आइकन पैक सफलतापूर्वक संस्थापित
+TEXT_MSG_NOTICE_RESTART                 = उक्त कार्यक्रम पुनर्आरंभ
+TEXT_MSG_ARCHVIE_OPENING                = संग्रह खोल रहा है
+TEXT_MSG_COMPLETING                     = पूर्ण: ${int1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Cannot create a folder.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Cannot compress a folder into a .GZ/XZ archive.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Cannot compress multiple files into a .GZ/XZ archive. Please check the "Compress to each file/folder name" option.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip has been minimized to the system tray. Click the tray icon to restore it.
+TEXT_MSG_TRAY_COMPLETED                 = The operation has been completed.
+TEXT_MSG_BATCH_ARCHVING                 = Archiving: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Extracting: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testing: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Deleting: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Failed to delete: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Work in progress...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = अगर पात्र सही दिखाई नहीं दे रहे हैं, तब ऊपरी <font color=red><b>Code Page</b></font> स्पर्श करें एवं तभी <font color=red><b>Auto detect</b></font>menu प्रयत्न करें|
+
+TEXT_ASK_DELETE_ARCHIVE                 = वास्तविक फाइल मिटाया जाएगा| \nक्या आप उक्त फाइल को मिटाना चाहते हैं?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = क्या आप वर्तमान फाइल मिटाना चाहते हैं?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Do you want to delete the current archive permanently?
+TEXT_ASK_CHANGE_FILENAME                = फाइल मौजूद। \n\nक्या आप फाइलनाम ${str1} से ${str2} में बदलना चाहते हैं?
+TEXT_ASK_DELETE_FILE                    = क्या आप चयनित फाइल मिटाना चाहते हैं?
+TEXT_ASK_STOP_EXTRACT                   = क्या आप निकासी रोकना चाहते हैं?
+TEXT_ASK_OVERWRITE_ARCHIVE              = फाइल मौजूद। \n\nक्या आप उक्त फाइल अधिलेख करना चाहते हैं?
+TEXT_ASK_INIT_SETTING                   = क्या आप मूलभूत कायम करना चाहते हैं? Bandizip पुनर्आरंभ होगा।
+TEXT_ASK_STOP_ARCHIVING                 = क्या आप संग्रहण रोकना चाहते हैं?
+TEXT_ASK_STOP_MODIFYING                 = क्या आप उक्त प्रणाली रोकना चाहते हैं?
+TEXT_ASK_APPLY_MODIFIED_FILE            = क्या आप संग्रह के लिए बदले फाइल को लागू करना चाहते हैं? \n(${str1})
+TEXT_ASK_INSTALL_ICONPACK               = क्या आप आइकन पैक (${str1}) को संस्थापित व समन्वय कर रहे हैं?
+TEXT_ASK_MAKE_FOLDER                    = The folder doesn't exist. Do you want to create it?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = The destination folder doesn't have write permission.[br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_CONT_NOFREESPACE               = The destination folder doesn't have enough space. Change the destination folder. [br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_ASK_UAC_ELEVATION              = You do not have permission to change these files. [br][br]Do you want to restart this program as an administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Cannot open this archive file. [br][br]Do you want to open the first part of the split file (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = If you delete files after archiving, you could lose important files if the files are broken.[br][br]Do you want to check the "Test Archive" option?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Not enough disk space to extract. Do you want to proceed?[br][br]Destination Folder: ${str1}[br]Free disk space: ${str2}[br]Extracting file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = उक्त फाइल विघटित है
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = उक्त फाइल विघटित है या अन्य विभाजक फाइल की जरूरत है|
+
+TEXT_BTN_PAUSE                          = विराम
+TEXT_BTN_RESUME                         = पुनर्प्रारंभ
+
+TEXT_ERRDLG_ERROR_OCCURRED              = त्रुटि उत्पन्न
+TEXT_ERRDLG_USER_ABORT                  = निरस्त
+
+TEXT_ARKERR_CANT_OPEN_FILE              = उक्त फाइल खोलने में अक्षम
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = उक्त फाइल खोलने में अक्षम क्योंकि फाइल किसी अन्य कार्यक्रम के उपयोग में है|
+TEXT_ARKERR_PASSWORD_NOT_SET            = कूटशब्द की जरूरत है
+TEXT_ARKERR_INVALID_PASSWD              = अमान्य कूटशब्द
+TEXT_ARKERR_USER_ABORTED                = निरस्त
+TEXT_ARKERR_INVALID_FILE_CRC            = सीआरसी त्रुटि
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = उक्त फाइल खोलने में अक्षम
+TEXT_ARKERR_CANT_READ_DATA              = संग्रह डाटा पठन में अक्षम
+TEXT_ARKERR_INFLATE_FAILED              = डाटा त्रुटि- उक्त फाइल विघटित है
+TEXT_ARKERR_BZIP2_ERROR                 = डाटा त्रुटि- उक्त फाइल विघटित है
+TEXT_ARKERR_DATA_CORRUPTED              = उक्त फाइल विघटित है या अन्य विभाजक फाइल की जरूरत है|
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = उक्त फाइल खोलने में अक्षम
+TEXT_ARKERR_CANT_CREATE_FOLDER          = फॉल्डर बनाने में अक्षम
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = उक्त फाइल निकासी में अक्षम
+TEXT_ARKERR_WRITE_FAIL                  = लेखन के दौरान त्रुटि
+TEXT_ARKERR_DISK_FULL                   = डिस्क पूर्ण
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = फाइल पथ व फाइलनाम में पात्रों की संख्या 260 से अधिक नहीं हो सकती है
+TEXT_ARKERR_CANT_CREATE_FILE            = फाइल बनाने में असफल
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = फाइल बनाने में असफल| प्रशासकीय अधिकारों के साथ कार्यक्रम चलाएं|
+TEXT_ARKERR_USER_SKIP                   = छुटी
+TEXT_ARKERR_FILE_TRUNCATED              = उक्त फाइल का शेष विघटित या गुम है|
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = अमान्य कूटशब्द या उक्त फाइल विघटित है।
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = उक्त फाइल विघटित है
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = स्वनिकासी फाइल (*.exe) 4GB से बेशी है| आप विंडोज में 4 जीबी फाइल पर अमल नहीं कर सकते हैं|
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = उक्त संग्रह फाइल खोलने में अक्षम| निम्न विभाजित फाइल (.z01, .z02...) की जरूरत है|
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = उक्त जिप फाइल खोलने में अक्षम| निम्न विभाजित फाइल (.z01, .z02...) की जरूरत है|
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = उक्त संग्रह फाइल खोलने में अक्षम| अन्य विभाजित फाइल की जरूरत है|
+TEXT_ARKERR_CORRUPTED_FILE              = उक्त फाइल विघटित है
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = उक्त फॉल्डर में लेखन निषेध
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = उक्त फॉल्डर में लेखन निषेध| प्रशासकीय अधिकारों के साथ कार्यक्रम चलाएं|
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = उक्त कूटलेखनीय कलनविधि असमर्थित है|
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = स्मृति की कमी
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = स्मृति की कमी| संपीड़न स्तर बदलें|
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = उक्त प्रणाली असमर्थित है।
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = निकासी फाइल आकार व संग्रह शीर्षलेख सूचना भिन्न है।
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = 4 जीबी से बड़ा फाइल बनाने में अक्षम। \nकृपया भिन्न फाइल प्रारूप (ZIP या 7Z) चुनें
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = दीर्घ फाइलनाम स्वचालित रूप से लघु कर दिया गया है।
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Cannot open source file to copy.
+TEXT_ARKERR_NOTIMPL                     = Not implemented.
+TEXT_ARKERR_CANT_READ_FILE              = Cannot read file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Run Bandizip as administrator to create a symbolic link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Cannot create a symbolic link.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = अविभाजित
+TEXT_SPLITCOMBO_3MB                     = 3 मेगाबाईट
+TEXT_SPLITCOMBO_4MB                     = 4 मेगाबाईट
+TEXT_SPLITCOMBO_5MB                     = 5 मेगाबाईट
+TEXT_SPLITCOMBO_10MB                    = 10 मेगाबाईट
+TEXT_SPLITCOMBO_20MB                    = 20 मेगाबाईट
+TEXT_SPLITCOMBO_GMAIL                   = 25 मेगाबाईट (जीमेल)
+TEXT_SPLITCOMBO_100MB                   = 100 मेगाबाईट
+TEXT_SPLITCOMBO_300MB                   = 300 मेगाबाईट
+TEXT_SPLITCOMBO_CD650                   = 650 मेगाबाईट (सीडी)
+TEXT_SPLITCOMBO_CD700                   = 700 मेगाबाईट (सीडी)
+TEXT_SPLITCOMBO_FAT32                   = 4 गीगाबाईट (एफएटी32)
+TEXT_SPLITCOMBO_DVD                     = 4.7 गीगाबाईट (डीवीडी)
+TEXT_SPLITCOMBO_USERINPUT               = प्रयोक्ता निवेश
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-असंपीड़न
+TEXT_COMPRESSIONMETHOD_FAST             = 1-तेज संपीड़न
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-सामान्य संपीड़न
+TEXT_COMPRESSIONMETHOD_MAX              = 3-अधिकतम संपीड़न
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = नवा संपीड़न
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = संग्रह में फाइलें जोड़ें
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &नामांतर: ${str1}
+TEXT_TITLE_TEST_MODE                    = संग्रह परीक्षण
+TEXT_TITLE_TEMPFOLDER_MODE              = अस्थायी फॉल्डर में निकासी...
+TEXT_TITLE_MODIFYING                    = संशोधित...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = निकासी के लिए फाइल
+TEXT_MSG_SELECTED_FILE                  = ${int1} फाइल चयनित
+TEXT_MSG_SELECTED_FOLDER                = ${int1} फॉल्डर चयनित
+TEXT_MSG_SELECTED_FILEFOLDER            = ${int1} फाइल, ${int2} फॉल्डर
+TEXT_MSG_SELECTED_FILESIZESUM           = चयनित फाइल आकार: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = संस्करण जाँच असफल
+TEXT_UPDATE_VERSION_CHECKING            = संस्करण जाँच रहा है
+TEXT_UPDATE_DOWNLOAD_FAILED             = डाउनलोड असफल
+TEXT_UPDATE_LATEST_VERSION              = सामयिक
+TEXT_UPDATE_DO_DOWNLOAD                 = अद्यतन आवश्यक
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = डाउनलोड पूर्ण
+
+TEXT_INSTALL_HONEYVIEW                  = Install Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview isn't installed on your computer.
+TEXT_INSTALL_HONEYVIEW_2                = Please try Honeyview developed by Bandisoft.<br> It supports viewing the images in compressed ZIP, RAR, or 7z files without extraction.
+
+
+
+[MENU]
+MENUSTR_FILE                            = &फाइल
+MENUSTR_EDIT                            = &संपादन
+MENUSTR_SETTING                         = &विकल्प
+MENUSTR_FIND                            = &खोजें
+MENUSTR_VIEW                            = &View
+MENUSTR_HELP                            = &मदद
+
+MENUSTR_OPEN                            = &संग्रह खोलें\tCtrl+O
+MENUSTR_RECENT                          = Recent Files
+MENUSTR_CLOSE_FILE                      = &संग्रह बंद\tF4
+MENUSTR_CREATE_ARCHIVE                  = &नवा संग्रह\tCtrl+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Save as
+MENUSTR_DELETE_ARCHIVE                  = Delete Archive \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Delete Archive Permanently \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Open Archive Location
+MENUSTR_TEST_ARCHIVE                    = &संग्रह परीक्षण \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &फाइल निकासी \tCtrl+E
+MENUSTR_EXIT                            = &प्रस्थान \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &फाइल नामांतर \tF2
+MENUSTR_ADD_FILE                        = &फाइल जोड़ें \tIns
+MENUSTR_DELETE_FILE                     = &फाइल मिटाएं \tDel
+MENUSTR_EDIT_COMMENT                    = संग्रह मंतव्य
+MENUSTR_SETTING_SUB                     = &सैटिंग्स (F5)
+MENUSTR_FIND_ITEM                       = &फाइल खोजें\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Copy files to clipboard\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Paste files from clipboard\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Start Screen \tF6
+MENUSTR_VIEW_TREECONTROL                = TreeView Control \tF7
+MENUSTR_VIEW_COMMENT                    = Archive Comment\tF8
+MENUSTR_VIEW_PREVIEW                    = Image Preview
+MENUSTR_VIEW_TOOLBAR                    = Toolbar
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Large
+MENUSTR_VIEW_TOOLBAR_MINI               = Small
+MENUSTR_VIEW_TOOLBAR_OLD                = Old
+MENUSTR_VIEW_TOOLBAR_HIDE               = Hide
+MENUSTR_VIEW_LISTVIEW                   = File List
+MENUSTR_VIEW_LISTVIEW_ICON              = Icons
+MENUSTR_VIEW_LISTVIEW_LIST              = List
+MENUSTR_VIEW_LISTVIEW_REPORT            = Details
+MENUSTR_VIEW_COLUMN                     = Column
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Always on top
+MENUSTR_VIEW_COLOR_SETTING              = Color Settings...
+
+
+MENUSTR_ABOUT                           = &Bandizip बारेमा \tF1
+MENUSTR_HELPPAGE                        = &मदद पृष्ठ
+MENUSTR_OPEN_FOLDER                     = &Bandizip फॉल्डर खोलें
+MENUSTR_FORUM                           = Bandizip &गोष्ठी
+MENUSTR_HOMEPAGE                        = &मुखपृष्ठ
+
+POPUPMENU_VIEWITEM_COMPSIZE             = संपीड़ित आकार
+POPUPMENU_VIEWITEM_ORIGSIZE             = वास्तविक आकार
+POPUPMENU_VIEWITEM_KIND                 = फाइल प्रकार
+POPUPMENU_VIEWITEM_DATE_MOD             = संशोधित तारीख
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = संपीड़न पद्धति
+POPUPMENU_VIEWITEM_ENCRMETHOD           = कूटलेखन पद्धति
+POPUPMENU_VIEWITEM_CRC                  = सीआरसी
+POPUPMENU_VIEWITEM_ATTRIB               = फाइल गुणधर्म
+POPUPMENU_VIEWITEM_COMMENT              = फाइल मंतव्य
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = सभी निकासी... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = चयनित फाइल निकासी...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = सभी निकासी यहाँ
+
+POPUPMENU_LISTCONTROL_EXECUTE           = खोलें\tप्रविष्टि
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = संगत कार्यक्रम से खोलें
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = संपादन\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = नवा फॉल्डर
+POPUPMENU_LISTCONTROL_ADD_FILE          = फाइल जोड़ें\tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = फाइल मिटाएं\tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = फाइल नामांतर
+POPUPMENU_LISTCONTROL_SELECT_ALL        = सभी चयनित \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = मूल फॉल्डर में ले जाएं\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = संग्रह मिटाएं
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = संग्रह फॉल्डर खोलें
+
+POPUPMENU_EXTRACT_AUTODEST              = स्वचालित निकासी\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = वर्तमान फॉल्डर में निकासी\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = फाइलनाम फॉल्डर में निकासी
+POPUPMENU_EXTRACT_DESKTOP               = डेस्कटॉप में निकासी
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = डेस्कटॉप में स्वचालित निकासी
+
+POPUPMENU_RECENT_CLEAR                  = इतिहास मिटाएं
+POPUPMENU_RECENT_NOITEM                 = नवीन फाइल अनुपलब्ध
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Bandizip से खोलें
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = स्वचालित निकासी
+
+POPUPMENU_CODEPAGE_DEFAULT              = Default
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Chinese Simplified
+POPUPMENU_CODEPAGE_TRADCHINESE          = Chinese Traditional
+POPUPMENU_CODEPAGE_JAPANESE             = Japanese
+POPUPMENU_CODEPAGE_KOREAN               = Korean
+POPUPMENU_CODEPAGE_WINDOWS1252          = Western European
+POPUPMENU_CODEPAGE_WINDOWS1250          = Central European
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cyrillic
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turkish
+POPUPMENU_CODEPAGE_WINDOWS737           = Greek
+POPUPMENU_CODEPAGE_ARABIC               = Arabic
+POPUPMENU_CODEPAGE_HEBREW               = Hebrew
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = स्वशिनाख्तगी
+
+
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = ठीक
+IDCANCEL                                = रद्द
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Bandizip बारेमा
+IDC_BTN_HOMEPAGE                        = मुखपृष्ठ
+IDC_BTN_UPDATE                          = अद्यतन
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = फाइल खोलें
+IDC_STATIC_OPENING                      = खोल रहा है
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = निकास पथ चयन
+IDC_STATIC_FOLDER                       = &गंतव्य पथ
+IDC_STATIC_FILES2EXTRACT                = निकासी:
+IDC_RADIO_FILES2EXTRACT_0               = &सभी फाइलें
+IDC_RADIO_FILES2EXTRACT_1               = &चयनित फाइलें
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &चयनित फॉल्डर के "लक्षित" फॉल्डर में निकासी
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = निकासी के बाद वास्तविक फाइलें मिटाएं
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = &नवा फॉल्डर
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = निकासी
+IDC_BTN_STOP                            = रोक
+IDC_BTN_CLOSE                           = बंद
+IDC_BTN_PAUSE                           = विराम
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = नवा संग्रह
+IDC_STATIC_FILE_LIST                    = संग्रह में फाइलें जोड़ें
+IDC_STATIC_ARCHIVE_SETTING              = संग्रह सैटिंग्स
+IDC_STATIC_ARCHIVE_NAME                 = फाइलनाम
+IDC_STATIC_SET_DEST_FOLDER              = लक्षित फॉल्डर
+IDC_STATIC_ARCHIVE_TYPE                 = रूप में सहेजें
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = फाइल विभाजन
+IDC_STATIC_COMPRESSION_METHOD           = संपीड़न स्तर
+IDC_STATIC_HELP_SPLIT                   = [मदद]
+IDC_STATIC_HELP_7Z                      = [7Z प्रारूप]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &भ्रमण...
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = संग्रहण के बाद फाइलें मिटाएं
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = प्रत्येक फाइल/फॉल्डर नाम में संपीड़ित
+IDC_BTN_SET_DEST_FOLDER                 = गंतव्य फॉल्डर बदलें
+IDC_BTN_TOGGLE_ADVANCED                 = अतिरिक्त विकल्प... ...
+IDC_BTN_SET_SFX                         = एसएफएक्स (SFX) सैटिंग्स...
+IDC_BTN_ADD                             = &जोड़ें...
+IDC_BTN_DEL                             = &मिट
+IDC_BTN_START                           = &आरंभ
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = अमान्य कूटशब्द| कूटशब्द पुनर्प्रविष्टि।
+IDC_BTN_SHOW_PASSWORD                   = कूटशब्द दिखाएं
+IDC_CHECK_APPLY_ALL                     = &सभी लागू
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = कूटशब्द दिखाएं
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = चयन
+IDC_BTN_OPEN                            = खोलें
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = संग्रहण
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = रोक
+IDC_BTN_CLOSE                           = बंद
+IDC_BTN_PAUSE                           = विराम
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = सदृश फाइलें
+IDC_STATIC_DUPE_MESSAGE                 = फाइल मौजूद
+IDC_STATIC_DUPEFILE_OLD                 = वास्तविक फाइल
+IDC_STATIC_DUPEFILE_NEW                 = वर्तमान फाइल
+IDC_STATIC_DUPE_ASK                     = निम्न विकल्प चुनें:
+IDC_RADIO_DUPE_METHOD0                  = &छुट
+IDC_RADIO_DUPE_METHOD1                  = &अधिलेख
+IDC_RADIO_DUPE_METHOD2                  = &नामांतर
+IDC_CHECK_DUPE_APPLY_ALL                = &सभी फाइलों पर लागू
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = संग्रह विकल्प
+IDC_STATIC_ASK_HANDLING                 = निम्न विकल्प चुनें:
+IDC_RADIO_HANDLE_METHOD0                = &संग्रह खोलें
+IDC_RADIO_HANDLE_METHOD1                = &नवा संपीड़न
+IDC_RADIO_HANDLE_METHOD2                = &वर्तमान संग्रह में फाइलें जोड़ें
+IDC_CHK_PASS                            = कूटशब्द व्यवहृत
+IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
+IDC_CHK_SHOW_PASS                       = Show Password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = सैटिंग्स
+IDC_BTN_INIT                            = पुनर्स्थिति
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = General Settings
+IDC_CHK_EXIT_WITH_ESC                   = ESC Key to exit window
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Always check files when the file is added/deleted/renamed
+IDC_CHK_SNAP                            = Snap Window
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Show [..] directory in archive
+IDC_CHK_SHOW_GRID_AT_LIST               = Show gridlines in details view
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Full row select
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = File Associations
+IDC_BTN_SELECT_MANDATORY                = Select Essentials
+IDC_BTN_SELECT_ALL                      = Select All
+IDC_BTN_CLEAR_ALL                       = Deselect All
+IDC_BTN_APPLY_NOW                       = Apply Now
+IDC_STATIC_ICON_PACK                    = Choose Icon Pack:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Icon Pack Download]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Extension Association
+;IDC_STATIC_ASSOC_DESC1                 = For Windows 8 versions, you can associate the files as follows:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Click the following "Association Settings" button.
+;IDC_STATIC_ASSOC_DESC3                 = 2. Check "Select All" in Program Association Settings window.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Click "Save" button.
+;IDC_STATIC_ASSOC_DESC1_10              = For Windows 10 or later versions, you can associate the files as follows:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Click the following "Association Settings" button.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Select "Bandizip" in Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Association Settings
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Classic method
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = द्विस्पर्शी क्रिया
+IDC_RADIO_SHELL_OPEN_0                  = Bandizip से खोलें
+IDC_RADIO_SHELL_OPEN_1                  = स्वचालित निकासी
+IDC_RADIO_SHELL_OPEN_2                  = संदर्भ सूची दिखाएं
+IDC_RADIO_SHELL_OPEN_3                  = निर्दिष्ट फोल्डर में स्वचालित निकासी
+IDC_BTN_SET_EXTRACT_FOLDER              = भ्रमण...
+IDC_RADIO_SHELL_OPEN_4                  = फाइलनाम फॉल्डर में निकासी
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = निकास सूची
+IDC_CHK_SHELL_EXTRACT_HERE              = यहाँ निकासी
+IDC_CHK_SHELL_EXTRACT_AUTO              = स्वचालित निकासी
+IDC_CHK_SHELL_EXTRACT_SUB               = <फॉल्डर\> में निकासी
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Here and Delete
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Here (Smart) and Delete
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = Extract to another folder
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extract as administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = संग्रह परीक्षण
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Bandizip से खोलें
+IDC_CHK_SHELL_PREVIEW                   = संग्रह पूर्वावलोकन
+IDC_STATIC_SHELL_PREVIEW_SIZE           = फाइल पूर्वावलोकन की सीमा:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = संपीड़न सूची
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = ""फाइलनाम.zip" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = ""फाइलनाम.zip" में संपीड़ित व ईमेल"
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = ""फाइलनाम.zipx" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_EXE             = ""फाइलनाम.exe" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_TAR             = ""फाइलनाम.tar" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_TGZ             = ""फाइलनाम.tgz" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_LZH             = ""फाइलनाम.lzh" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_ISO             = ""फाइलनाम.iso" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_7Z              = ""फाइलनाम.7z" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_GZ              = ""फाइलनाम.gz" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_XZ              = ""फाइलनाम.xz" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = ""फाइलनाम.zpaq" में संपीड़ित"
+IDC_CHK_SHELL_ARCHIVING_EACH            = प्रत्येक "फाइलफॉल्डरनाम.zip" में संपीड़ित
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = प्रत्येक "फाइलफॉल्डरनाम.7z" में संपीड़ित
+IDC_CHK_SHELL_ARCHIVING_POPUP           = संग्रह में जोड़ें (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Compress as administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Compress to custom file name
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${NAME}=Filename, %Y=Year, %m=Month, %d=Day, %H=Hour, %M=Minute, %S=Second
+
+IDC_STATIC_SHELL_BKGND                  = पृष्ठभूमि सूची
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = नवा फॉल्डर
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = कमांड खिड़की (cmd.exe) खोलें
+
+IDC_STATIC_SHELL_ETC                    = अन्य
+IDC_CHK_SHELL_DO_NOT_USE                = निष्क्रिय संदर्भ सूची
+IDC_CHK_SHELL_AS_SUB_MENU               = कैसकैडेड संदर्भ सूची
+IDC_CHK_SHELL_HIDE_ICON                 = Bandizip आइकन छुपाएं
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = सामग्री के माध्यम से संग्रह फाइल भेद
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = संग्रह फाइलों के लिए भी संग्रह संदर्भ सूची दिखाएं
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = माउस कर्सर पर चयनित फाइल/फॉल्डर नाम व्यवहार करें
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = निकास सैटिंग्स
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = अगर संग्रह में सिर्फ एक जड़ फॉल्डर है, तभी उक्त फॉल्डर के फाइल दिखाएं|
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = निकासी के बाद फॉल्डर खोलें
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = निकासी के बाद प्रगति खिड़की बंद ना करें
+IDC_CHK_FAST_DRAG_DROP                  = अगर निकासी फाइल बड़ा है, तभी तेज खींचें व छोड़ें व्यवहार करें|
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = एक ही समय में TGZ, TBZ फाइल निकासी
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = TGZ, TBZ फाइल के बड़े आकारों के लिए भी
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = स्वचालित निकासी' के दौरान फॉल्डर तभी बनाएं, जब एक से अधिक उच्चस्तरीय वस्तुएं मौजूद हो|
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = मैकिनटॉश संहिता पृष्ठ की स्वचालित शिनाख्त
+IDC_CHK_UNIXZIP_AS_UTF8                 = यूनिक्स से जिप फाइल खोलते समय यूटीएफ-8 संहिता पृष्ठ व्यवहार करें।
+IDC_STATIC_CODEPAGE                     = मूलभूत संहिता पृष्ठ
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = सभी निकालें
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = संपीड़न सैटिंग्स
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = जड़ फॉल्डर न बनाएं, जब आप सिर्फ एक फॉल्डर संपीड़ित करते हैं|
+IDC_CHK_USE_UTF8_COMPRESS               = जिप फाइलों में यूनिकोड (यूटीएफ-8) फाइलनामों का व्यवहार करें|
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = tar,tgz फाइलों में यूनिकोड (यूटीएफ-8) फाइलनामों का व्यवहार करें|
+IDC_CHK_FORCE_ZIP64                     = हमेशा ZIP64 प्रारूप व्यवहार करें, भले ही फाइल आकार 2 जीबी से कम है (सिफारिश नहीं)
+IDC_CHK_EXCLUDE_THUMBSDB                = संग्रहण के दौरान thumbs.db फाइल निष्कासित रखें।
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = संग्रहण के दौरान एनटीएफएस (NTFS) समय सूचना सहेजें
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = उच्चगति संग्रहण व्यवहृत
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = संग्रहण के बाद प्रगति खिड़की बंद ना करें।
+IDC_STATIC_COMPRESSION_METHOD           = संपीड़न स्तर:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = नवा संग्रह के लिए नवीन फॉल्डर का व्यवहार करें
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = नवा संग्रह के लिए मूलभूत फॉल्डर
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = भ्रमण...
+IDC_CHK_EXCLUDE_FILTER                  = संग्रहण के दौरान निष्कासित फाइल प्रकार
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = दर्शक सैटिंग्स
+IDC_CHK_SHOW_PREVIEW                    = छवि पूर्वावलोकन
+
+IDC_STATIC_SETTING_VIEWITEM             = Columns
+IDC_CHK_VIEWITEM_COMPSIZE               = Compressed Size
+IDC_CHK_VIEWITEM_ORIGSIZE               = Original Size
+IDC_CHK_VIEWITEM_KIND                   = File Type
+IDC_CHK_VIEWITEM_DATE_MOD               = Date Modified
+IDC_CHK_VIEWITEM_COMPMETHOD             = Compression Method
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Encryption Method
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = File Attributes
+IDC_CHK_VIEWITEM_COMMENT                = File Comment
+
+IDC_STATIC_IMAGE_VIEWER                 = छवि दर्शक
+IDC_RADIO_IMAGE_VIEWER_0                = आंतरिक छवि दर्शक व्यवहृत
+IDC_RADIO_IMAGE_VIEWER_1                = संगत कार्यक्रम व्यवहार करें
+IDC_RADIO_IMAGE_VIEWER_2                = Use Honeyview if installed
+
+IDC_STATIC_EDITOR                       = संपादक
+IDC_BTN_SET_EDITOR_PATH                 = भ्रमण...
+
+IDC_STATIC_COLOR                        = Color
+IDC_STATIC_COLOR_THEME                  = Theme color
+IDC_BTN_BKGND                           = Selected
+IDC_STATIC_COLOR_TEXT                   = Font color
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = White
+IDC_STATIC_COLOR_TEXT_BLACK             = Black
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Export Bandizip Settings
+IDC_STATIC_ETC                          = विविध सैटिंग्स
+IDC_CHK_SET_TEMP_FOLDER                 = अस्थायी फॉल्डर का स्थान निर्धारित करें
+IDC_BTN_SET_TEMP_FOLDER                 = भ्रमण...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Recognize the following file types as archive files
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Delete temporary file when exit the child process
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = मिटाते समय फाइलें पुनरावृत्त भेजें
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = नवीन संग्रह इतिहास दिखाएं
+IDC_CHK_USE_LONG_PATH_NAME              = 260 पात्रों से अधिक दीर्घ पथनामों को संभालें
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = खुले संग्रह फाइलों को मिटाने के लिए खिड़की अन्वेषक को अनुमति
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = फॉल्डर वृक्ष का स्वचालित विस्तार
+IDC_CHK_USE_MODAL_DIALOG                = Use a modal dialog box when archiving/extracting
+IDC_CHK_USE_ELEGANT_UI                  = Use elegant UI design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Show 'Start Screen' when Bandizip starts
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Display the full path in the title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Delete extracted files when extraction is cancelled
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = भाषा सैटिंग्स
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (स्वनिकासी संग्रह) सैटिंग्स
+IDC_STATIC_TARGET_PATH                  = निकासी पथ:
+IDC_STATIC_TITLE                        = एसएफएक्स (SFX) शीर्षक:
+IDC_STATIC_RUN                          = निकासी के बाद चलाएं:
+IDC_STATIC_MESSAGE                      = एसएफएक्स (SFX) संदेश:
+IDC_CHK_AUTO_CLOSE                      = निकासी के बाद एसएफएक्स (SFX) खिड़की बंद करें
+IDC_BTN_SAVE_SFX_SETTING                = सैटिंग्स सहेजें
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = फाइल खोजें
+IDC_STATIC_FIND                         = क्या खोजें:
+IDC_BTN_CLOSE                           = बंद
+IDC_BTN_DELETE                          = मिटाएं
+IDC_BTN_EXTRACT                         = निकासी
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = संग्रह मंतव्य
+IDC_STATIC_COMMENT                      = उक्त संग्रह में मंतव्य जोड़ें/संपादित करें
+IDC_CHK_USE_UTF8                        = यूनिकोड (यूटीएफ-8) के रूप में मंतव्य सहेजें
+IDC_BTN_LOAD_FROM_FILE                  = फाइल (*.txt) से मंतव्य लादें...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = WARNING
+IDC_STATIC_WARN_EXECUTABLE              = This file is an executable file. Running this program might harm your computer. Do you want to proceed?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Do not ask me again
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = खोलें
+$TOOLBAR_CLOSE_FILE                     = बंद
+$TOOLBAR_EXTRACT_FILE                   = निकासी
+$TOOLBAR_CREATE_ARCHIVE                 = नवा
+$TOOLBAR_DELETE_FILE                    = मिटाएं
+$TOOLBAR_ADD_FILE                       = जोड़ें
+$TOOLBAR_TEST_ARCHIVE                   = परीक्षण
+$TOOLBAR_CODEPAGE                       = संहिता पृष्ठ
+$TOOLBAR_VIEWITEM                       = स्तंभ
+
+$TOOLBAR_OPEN2                          = Open Archive
+$TOOLBAR_CREATE_ARCHIVE2                = New Archive
+
+$TEXT_DESKTOP                           = डेस्कटॉप
+$TEXT_DOCUMENT                          = दस्तावेज
+$TEXT_PICTURE                           = चित्र
+$TEXT_COMPUTER                          = कंपूटर
+
+$TEXT_SETTINGTAB_GENERAL                = साधारण
+$TEXT_SETTINGTAB_ASSOC                  = संगति
+$TEXT_SETTINGTAB_SHELL                  = संदर्भ सूची
+$TEXT_SETTINGTAB_EXTRACT                = निकास
+$TEXT_SETTINGTAB_ARCHIVE                = संपीड़न
+$TEXT_SETTINGTAB_VIEWER                 = दर्शक
+$TEXT_SETTINGTAB_ETC                    = विविध
+$TEXT_SETTINGTAB_LANG                   = भाषा
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = फाइल स्थान खोलें
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = संग्रह स्थान खोलें
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = निकासी के बाद फाइल स्थान खोलें
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = संग्रह स्थान खोलें
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = गंतव्य फॉल्डर खोलें
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = निकासी के बाद उक्त खिड़की बंद ना करें
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = संग्रहण के बाद उक्त खिड़की बंद ना करें
+$TOOLTIP_ADVANCED_MENU                  = Miscellaneous Settings
+
+$TEXT_INSTALL_START                     = OK, I'll try it
+$TEXT_INSTALL_CLOSE                     = No, thanks
+$TEXT_INSTALL_HONEYVIEW_LINK            = See more...
+
+$TEXT_HELP_PAGE                         = Help Page
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = नवा फॉल्डर
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &नवा फॉल्डर
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Bandizip से खोलें...
+TEXT_MENU_TEST_ARCHIVE                  = संग्रह परीक्षण
+TEXT_MENU_LAUNCH_CMD                    = &कमांड खिड़की विमोचन
+TEXT_MENU_LAUNCH_CMD_ADMIN              = कमांड खिड़की विमोचन (प्रशासक)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = &प्रत्येक फाइल/फॉल्डर नाम में संपीड़ित
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = प्रत्येक "फाइलफॉल्डरनाम.7z" में संपीड़ित
+TEXT_MENU_ARCHIVE_ZIP                   = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = ${str1} में संपीड़ित व &ईमेल...
+TEXT_MENU_ARCHIVE_ZIPX                  = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_EXE                   = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_TAR                   = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_TGZ                   = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_LZH                   = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_ISO                   = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_7ZFMT                 = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_GZ                    = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_XZ                    = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_ZPAQ                  = ${str1} में संपीड़ित
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Compress to each "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Compress to each "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = ${str1} में संपीड़ित (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = संग्रह (&Bandizip) में जोड़ें ...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = प्रशासक के रूप में संपीड़ित
+
+TEXT_MENU_EXTRACT_HERE                  = &यहाँ निकासी
+TEXT_MENU_EXTRACT_AUTO                  = &स्वचालित निकासी
+TEXT_MENU_EXTRACT_AUTO_EACH             = &स्वचालित निकासी (प्रत्येक)
+TEXT_MENU_EXTRACT_SUB                   = &प्रत्येक संग्रह की पृथक फॉल्डर में निकासी
+TEXT_MENU_EXTRACT_ARCHIVENAME           = &${str1}\ में निकासी
+TEXT_MENU_EXTRACT_DLG                   = अन्य फॉल्डर में निकासी...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = प्रशासक के रूप में संपीड़ित
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = संग्रह पूर्वावलोकन
+TEXT_MENU_PREVIEW_BROKEN                = उक्त फाइल क्षतिग्रस्त या अज्ञात प्रारूप में है
+TEXT_MENU_PREVIEW_TIMEOUT               = अनुरोध समय समाप्त
+TEXT_MENU_PREVIEW_EMPTY                 = रिक्त संग्रह फाइल
+TEXT_MENU_PREVIEW_ENCRYPTED             = उक्त फाइल कूटलेखित है
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = संग्रह पूर्वावलोकन समारोह व्यवहार में अक्षम| \n\nखिड़की अन्वेषक पुनर्आरंभ करें या \nकंपूटर पुनर्आरंभ करें।
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = फाइल तालिका पठन में अक्षम
+
+TEXT_MENU_OPENING                       = खोल रहा है...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip अद्यतित
+TEXT_UPDATER_TEXT1                      = Bandizip अद्यतन तैयार है
+TEXT_UPDATER_TEXT_DL                    = Would you like to download it now?
+TEXT_UPDATER_BTN_UPDATE                 = अद्यतन
+TEXT_UPDATER_BTN_OK                     = ठीक
+TEXT_UPDATER_BTN_CANCEL                 = रद्द
+TEXT_UPDATER_DOWNLOAD_ERROR             = डाउनलोड असफल
+TEXT_UPDATER_SETTING_UPDATE             = सैटिंग्स
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = लक्षित पथ:
+BTN_SELECT_FOLDER                       = भ्रमण...
+BTN_EXTRACT                             = आरंभ
+BTN_CLOSE                               = बंद
+BTN_CANCEL                              = रद्द
+BTN_OPEN_FOLDER                         = खोलें
+CHK_OVERWRITE                           = अधिलेख
+ERR_ERROR_OCCURRED                      = त्रुटि उत्पन्न
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = फाइल मौजूद। क्या आप इसे अधिलेख करना चाहते हैं?
+MSG_COMPLETED                           = सफलतापूर्वक निकास!
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = कूटशब्द दिखाएं
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = फाइल निकासी में अक्षम
+TEXT_ERR_CRC                            = सीआरसी त्रुटि
+TEXT_ERR_INVALID_PASSWD                 = अमान्य कूटशब्द
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [मदद]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip अभी भी चलमान है। पहले कार्यक्रम बंद करें।
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+
