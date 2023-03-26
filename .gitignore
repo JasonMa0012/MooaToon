@@ -3,3 +3,4 @@
 InstallTools/github_ip/GetGithubIP.spec
 InstallTools/github_ip/build
 .idea/
+ReleaseTools/build/
