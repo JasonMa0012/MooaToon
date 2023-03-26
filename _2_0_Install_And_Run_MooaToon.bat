@@ -1,4 +1,3 @@
-call _2_4_Fetch_Fastest_Github_IPs.bat
 call _2_1_Install_MooaToon_Engine.bat
 call _2_2_Install_MooaToon_Project.bat
 call _2_3_Setup_Unreal_Engine.bat
