@@ -83,5 +83,4 @@ if '--UnzipProject' in argv:
     AsyncRun(args)
 
 
-print("Press any key to continue...")
-input()
+print("======Installation Completed======")
