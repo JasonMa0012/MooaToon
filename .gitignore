@@ -1,6 +1,11 @@
 /MooaToon-Engine
 /MooaToon-Project
+/MooaToon-Engine-Precompiled
+/MooaToon-Project-Precompiled
 InstallTools/github_ip/GetGithubIP.spec
 InstallTools/github_ip/build
 .idea/
 ReleaseTools/build/
+InstallTools/Install.spec
+InstallTools/build/
+ReleaseTools/Zip/
