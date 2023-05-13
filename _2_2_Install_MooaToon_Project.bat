@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 
 set repoURL=https://github.com/Jason-Ma-0012/MooaToon-Engine.git
 set repoName=MooaToon-Project
-set branchName=5.1_MooaToonProject
+set branchName=5.2_MooaToonProject
 
 
 if not exist %repoName% mkdir %repoName%

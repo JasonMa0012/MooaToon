@@ -1,7 +1,7 @@
 setlocal enabledelayedexpansion
 
 set repoURL=https://github.com/JasonMa0012/MooaToon.git
-set branchName=main
+set branchName=5.2
 
 
 git init

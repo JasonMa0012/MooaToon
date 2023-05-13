@@ -1,19 +1,21 @@
 import os
 import sys
 import subprocess
-import io
 import datetime
 import github_release as ghr
 
-ue_version = "5.1"
+ue_version = "5.2"
 repo_name = "JasonMa0012/MooaToon"
 mooatoon_root_path = r"X:\MooaToon"
 if len(sys.argv) > 1:
     mooatoon_root_path = sys.argv[1]
 
+# 无参数启动
 argv = [
     '--Reupload'
 ]
+
+# 获取参数
 if len(sys.argv) > 2:
     argv = sys.argv[2:]
 
@@ -69,6 +71,7 @@ if '--ZipProject' in argv:
 
 
 current_date = datetime.date.today().strftime("%Y.%m.%d")
+release_name = ue_version + "-" + current_date
 file_paths = []
 for file_name in os.listdir(zip_path):
     file_path = os.path.join(zip_path, file_name)
@@ -78,22 +81,22 @@ if '--Release' in argv:
     print("======Release======")
     ghr.gh_release_create(
         repo_name,
-        current_date,
+        release_name,
         publish=True,
-        name=current_date,
+        name=release_name,
         asset_pattern=file_paths,
     )
 
 if '--Reupload' in argv:
     print("======Reupload======")
-    release_info = ghr.get_release_info(repo_name, current_date)
+    release_info = ghr.get_release_info(repo_name, release_name)
 
     # 仅上传失败的文件
     for asset in release_info['assets']:
         if any(file.endswith(asset['name']) for file in file_paths):
             file_paths.remove(asset['name'])
 
-    ghr.gh_asset_upload(repo_name, current_date, file_paths)
+    ghr.gh_asset_upload(repo_name, release_name, file_paths)
 
 
 print("Press any key to continue...")

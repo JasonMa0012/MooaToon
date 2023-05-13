@@ -1,12 +1,8 @@
 import os
 import sys
 import subprocess
-import io
-import datetime
 import github_release as ghr
 
-print(sys.argv)
-ue_version = "5.1"
 repo_name = "JasonMa0012/MooaToon"
 mooatoon_root_path = r"X:\MooaToon"
 if len(sys.argv) > 1:
