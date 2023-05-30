@@ -90,15 +90,16 @@ if '--Release' in argv:
 
 if '--Reupload' in argv:
     print("======Reupload======")
-    release_info = ghr.get_release_info(repo_name, release_name)
+    latest_release_info = ghr.get_releases(repo_name)[0]
+    tag_name = latest_release_info['tag_name']
 
     # 仅上传失败的文件
-    for asset in release_info['assets']:
+    for asset in latest_release_info['assets']:
         for file_path in file_paths:
             if file_path.endswith(asset['name']):
                 file_paths.remove(file_path)
 
-    ghr.gh_asset_upload(repo_name, release_name, file_paths)
+    ghr.gh_asset_upload(repo_name, tag_name, file_paths)
 
 
 print("Press any key to continue...")
