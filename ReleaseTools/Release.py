@@ -93,8 +93,9 @@ if '--Reupload' in argv:
 
     # 仅上传失败的文件
     for asset in release_info['assets']:
-        if any(file.endswith(asset['name']) for file in file_paths):
-            file_paths.remove(asset['name'])
+        for file_path in file_paths:
+            if file_path.endswith(asset['name']):
+                file_paths.remove(file_path)
 
     ghr.gh_asset_upload(repo_name, release_name, file_paths)
 
