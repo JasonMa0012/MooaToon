@@ -65,6 +65,7 @@ if '--ZipProject' in argv:
     print("======Zip Project======")
     args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:60", project_target_path,
             project_path + r"\Art",
+            project_path + r"\Config",
             project_path + r"\Content",
             project_path + r"\MooaToon_Project.uproject",]
     AsyncRun(args)
