@@ -41,7 +41,7 @@ def download_file(url, output_path, file_size):
                 sys.stdout.flush()
         print()
     except requests.exceptions.RequestException as e:
-        print(f"Error downloading file: {e}")
+        print(f"\nError downloading file: {e}")
         sys.exit(1)
 
 
@@ -71,9 +71,9 @@ def download_releases(release_info, file_name_prefix, download_path):
             zip_path = output_path
 
         if os.path.exists(output_path) and os.path.getsize(output_path) == file_size:
-            print(f"Skipping {file_name}, file already exists with the same size.")
+            print(f"\nSkipping {file_name}, file already exists with the same size.")
         else:
-            print(f"Downloading {file_name} ({url}) ...")
+            print(f"\nDownloading {file_name} ({url}) ...")
             download_file(url, output_path, file_size)
 
     return zip_path
@@ -115,20 +115,21 @@ release_files = []
 for asset in latest_release_info['assets']:
     release_files.append(asset['name'])
 
+print("\n\n======Clear======")
 remove_unwanted_files(download_path, release_files)
 
-print("======Download Engine======")
+print("\n\n======Download Engine======")
 engine_zip_path = download_releases(latest_release_info, engine_zip_prefix, download_path)
 
-print("======Download Project======")
+print("\n\n======Download Project======")
 project_zip_path = download_releases(latest_release_info, project_zip_prefix, download_path)
 
-print("======Unzip Engine======")
+print("\n\n======Unzip Engine======")
 args = [bandizip_path, "x", "-aoa", "-y", "-o:" + engine_unzip_path, engine_zip_path]
 AsyncRun(args)
 
-print("======Unzip Project======")
+print("\n\n======Unzip Project======")
 args = [bandizip_path, "x", "-aoa", "-y", "-o:" + project_unzip_path, project_zip_path]
 AsyncRun(args)
 
-print("======Installation Completed======")
+print("\n\n======Installation Completed======")
