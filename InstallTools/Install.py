@@ -1,35 +1,12 @@
 import os
 import sys
 import subprocess
+import requests
 import github_release as ghr
-
-repo_name = "JasonMa0012/MooaToon"
-mooatoon_root_path = r"X:\MooaToon"
-if len(sys.argv) > 1:
-    mooatoon_root_path = sys.argv[1]
-
-argv = [
-    '--Clean',
-    '--DownloadEngine',
-    '--DownloadProject',
-    '--UnzipEngine',
-    '--UnzipProject',
-]
-if len(sys.argv) > 2:
-    argv = sys.argv[2:]
-
-bandizip_path = mooatoon_root_path + r"\InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
-download_path = mooatoon_root_path + r"\InstallTools\Download"
-engine_zip_name = "MooaToon-Engine-Precompiled"
-project_zip_name = "MooaToon-Project-Precompiled"
-engine_zip_path = download_path + "\\" + engine_zip_name + ".zip"
-project_zip_path = download_path + "\\" + project_zip_name + ".zip"
-engine_unzip_path = mooatoon_root_path + "\\" + engine_zip_name
-project_unzip_path = mooatoon_root_path + "\\" + project_zip_name
+import time
 
 
 def AsyncRun(args):
-    # 使用 subprocess.Popen() 函数异步执行 bat 文件，并获取 stdout 和 stderr 输出
     process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
     while True:
@@ -41,8 +18,80 @@ def AsyncRun(args):
     return process.poll()
 
 
-latest_release_info = ghr.get_releases(repo_name)[0]
-tag_name = latest_release_info['tag_name']
+def download_file(url, output_path, file_size):
+    try:
+        headers = {'Accept': 'application/octet-stream'}
+        response = requests.get(url, headers=headers, stream=True)
+
+        if os.path.exists(output_path):
+            os.remove(output_path)
+
+        block_size = 1024
+        downloaded = 0
+        start_time = time.time()
+        with open(output_path, 'wb') as f:
+            for chunk in response.iter_content(block_size):
+                f.write(chunk)
+                downloaded += len(chunk)
+                elapsed = max(1e-6, time.time() - start_time)
+                progress = int(50 * downloaded / file_size)
+                speed = downloaded / (1024 * 1024 * elapsed)
+                sys.stdout.write(
+                    f"\r[{'=' * progress}{' ' * (50 - progress)}] {progress * 2}% {speed:.2f}MB/s")
+                sys.stdout.flush()
+        print()
+    except requests.exceptions.RequestException as e:
+        print(f"Error downloading file: {e}")
+        sys.exit(1)
+
+
+def get_asset_info(releases, pattern):
+    assets = []
+    for asset in releases['assets']:
+        if pattern in asset['name']:
+            assets.append((asset['browser_download_url'], asset['size']))
+    return assets
+
+
+def remove_unwanted_files(download_path, release_files):
+    for file_name in os.listdir(download_path):
+        if file_name not in release_files:
+            file_path = os.path.join(download_path, file_name)
+            os.remove(file_path)
+            print(f"Deleted: {file_path}")
+
+
+def download_releases(release_info, file_name_prefix, download_path):
+    zip_path = ""
+    assets = get_asset_info(release_info, file_name_prefix)
+    for url, file_size in assets:
+        file_name = url.split('/')[-1]
+        output_path = os.path.join(download_path, file_name)
+        if output_path.endswith(".zip"):
+            zip_path = output_path
+
+        if os.path.exists(output_path) and os.path.getsize(output_path) == file_size:
+            print(f"Skipping {file_name}, file already exists with the same size.")
+        else:
+            print(f"Downloading {file_name} ({url}) ...")
+            download_file(url, output_path, file_size)
+
+    return zip_path
+
+
+repo_name = "JasonMa0012/MooaToon"
+mooatoon_root_path = r"X:\MooaToon"
+
+if len(sys.argv) > 1:
+    mooatoon_root_path = sys.argv[1]
+
+bandizip_path = mooatoon_root_path + r"\InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
+download_path = mooatoon_root_path + r"\InstallTools\Download"
+engine_zip_prefix = "MooaToon-Engine-Precompiled"
+project_zip_prefix = "MooaToon-Project-Precompiled"
+engine_unzip_path = mooatoon_root_path + "\\" + engine_zip_prefix
+project_unzip_path = mooatoon_root_path + "\\" + project_zip_prefix
+
 
 if not os.path.exists(download_path):
     os.makedirs(download_path)
@@ -51,32 +100,35 @@ if not os.path.exists(engine_unzip_path):
 if not os.path.exists(project_unzip_path):
     os.makedirs(project_unzip_path)
 
-if '--Clean' in argv:
-    print("======Clean======")
-    for file_name in os.listdir(download_path):
-        file_path = os.path.join(download_path, file_name)
-        os.remove(file_path)
-        print(file_path)
 
-if '--DownloadEngine' in argv:
-    print("======Download Engine======")
-    os.chdir(download_path)
-    ghr.gh_asset_download(repo_name, tag_name, engine_zip_name + ".*")
+latest_release_info = None
+for release in ghr.get_releases(repo_name):
+    if (not release['prerelease']) and (not release['draft']):
+        latest_release_info = release
+        break
 
-if '--DownloadProject' in argv:
-    print("======Download Project======")
-    os.chdir(download_path)
-    ghr.gh_asset_download(repo_name, tag_name, project_zip_name + ".*")
+print("\n=============================================\n")
+print(f"Latest Release: {latest_release_info['tag_name']} ({latest_release_info['html_url']})")
+print("\n=============================================\n")
 
-if '--UnzipEngine' in argv:
-    print("======Unzip Engine======")
-    args = [bandizip_path, "x", "-aoa", "-y", "-o:" + engine_unzip_path, engine_zip_path]
-    AsyncRun(args)
+release_files = []
+for asset in latest_release_info['assets']:
+    release_files.append(asset['name'])
 
-if '--UnzipProject' in argv:
-    print("======Unzip Project======")
-    args = [bandizip_path, "x", "-aoa", "-y", "-o:" + project_unzip_path, project_zip_path]
-    AsyncRun(args)
+remove_unwanted_files(download_path, release_files)
 
+print("======Download Engine======")
+engine_zip_path = download_releases(latest_release_info, engine_zip_prefix, download_path)
+
+print("======Download Project======")
+project_zip_path = download_releases(latest_release_info, project_zip_prefix, download_path)
+
+print("======Unzip Engine======")
+args = [bandizip_path, "x", "-aoa", "-y", "-o:" + engine_unzip_path, engine_zip_path]
+AsyncRun(args)
+
+print("======Unzip Project======")
+args = [bandizip_path, "x", "-aoa", "-y", "-o:" + project_unzip_path, project_zip_path]
+AsyncRun(args)
 
 print("======Installation Completed======")

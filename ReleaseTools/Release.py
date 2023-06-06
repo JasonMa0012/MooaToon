@@ -19,12 +19,15 @@ argv = [
 if len(sys.argv) > 2:
     argv = sys.argv[2:]
 
+current_date = datetime.date.today().strftime("%Y.%m.%d")
+release_name = ue_version + "-" + current_date
+
 bandizip_path = mooatoon_root_path + r"\InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
 zip_path = mooatoon_root_path + r"\ReleaseTools\Zip"
 engine_path = mooatoon_root_path + r"\MooaToon-Engine"
 project_path = mooatoon_root_path + r"\MooaToon-Project"
-engine_target_path = zip_path + r"\MooaToon-Engine-Precompiled"
-project_target_path = zip_path + r"\MooaToon-Project-Precompiled"
+engine_zip_path = zip_path + r"\MooaToon-Engine-Precompiled-" + release_name + ".zip"
+project_zip_path = zip_path + r"\MooaToon-Project-Precompiled-" + release_name + ".zip"
 
 
 def AsyncRun(args):
@@ -58,21 +61,19 @@ if '--CleanEngine' in argv:
 
 if '--ZipEngine' in argv:
     print("======Zip Engine======")
-    args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:60", engine_target_path, engine_path + r"\LocalBuilds\Engine",]
+    args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:60", engine_zip_path, engine_path + r"\LocalBuilds\Engine", ]
     AsyncRun(args)
 
 if '--ZipProject' in argv:
     print("======Zip Project======")
-    args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:60", project_target_path,
+    args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:60", project_zip_path,
             project_path + r"\Art",
             project_path + r"\Config",
             project_path + r"\Content",
-            project_path + r"\MooaToon_Project.uproject",]
+            project_path + r"\MooaToon_Project.uproject", ]
     AsyncRun(args)
 
 
-current_date = datetime.date.today().strftime("%Y.%m.%d")
-release_name = ue_version + "-" + current_date
 file_paths = []
 for file_name in os.listdir(zip_path):
     file_path = os.path.join(zip_path, file_name)
@@ -83,23 +84,25 @@ if '--Release' in argv:
     ghr.gh_release_create(
         repo_name,
         release_name,
-        publish=True,
+        publish=False,
         name=release_name,
         asset_pattern=file_paths,
     )
+    ghr.gh_release_publish(repo_name, release_name)
 
 if '--Reupload' in argv:
     print("======Reupload======")
-    latest_release_info = ghr.get_releases(repo_name)[0]
-    tag_name = latest_release_info['tag_name']
+    current_release_info = ghr.get_release(repo_name, release_name)
+    tag_name = current_release_info['tag_name']
 
     # 仅上传失败的文件
-    for asset in latest_release_info['assets']:
+    for asset in current_release_info['assets']:
         for file_path in file_paths:
             if file_path.endswith(asset['name']):
                 file_paths.remove(file_path)
 
     ghr.gh_asset_upload(repo_name, tag_name, file_paths)
+    ghr.gh_release_publish(repo_name, tag_name)
 
 
 print("Press any key to continue...")

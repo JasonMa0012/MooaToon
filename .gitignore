@@ -9,3 +9,4 @@ ReleaseTools/build/
 InstallTools/Install.spec
 InstallTools/build/
 ReleaseTools/Zip/
+InstallTools/Download/
