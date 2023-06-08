@@ -4,6 +4,7 @@
 set repoURL=https://github.com/Jason-Ma-0012/MooaToon-Engine.git
 set repoName=MooaToon-Engine
 set branchName=5.2
+set PROMPT_ARGUMENT=--prompt --threads=16
 
 cd %repoName%
 
