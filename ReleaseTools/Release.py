@@ -105,5 +105,4 @@ if '--Reupload' in argv:
     ghr.gh_release_publish(repo_name, tag_name)
 
 
-print("Press any key to continue...")
-input()
+input("\nPress Enter to continue...")

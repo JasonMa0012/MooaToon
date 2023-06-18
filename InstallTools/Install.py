@@ -133,3 +133,4 @@ args = [bandizip_path, "x", "-aoa", "-y", "-o:" + project_unzip_path, project_zi
 AsyncRun(args)
 
 print("\n\n======Installation Completed======")
+input("\nPress Enter to continue...")
