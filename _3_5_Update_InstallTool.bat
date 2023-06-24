@@ -1,7 +1,7 @@
 setlocal enabledelayedexpansion
 
 set repoURL=https://github.com/JasonMa0012/MooaToon.git
-set branchName=5.2
+set branchName=main
 set PROMPT_ARGUMENT=--prompt --threads=16
 
 
