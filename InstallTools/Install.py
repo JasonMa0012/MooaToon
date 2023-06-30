@@ -73,8 +73,9 @@ def download_releases(release_info, file_name_prefix, download_path):
         if os.path.exists(output_path) and os.path.getsize(output_path) == file_size:
             print(f"\nSkipping {file_name}, file already exists with the same size.")
         else:
-            print(f"\nDownloading {file_name} ({url}) ...")
-            download_file(url, output_path, file_size)
+            while (not os.path.exists(output_path)) or os.path.getsize(output_path) != file_size:
+                print(f"\nDownloading {file_name} ({url}) ...")
+                download_file(url, output_path, file_size)
 
     return zip_path
 
