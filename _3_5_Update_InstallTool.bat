@@ -6,12 +6,14 @@ echo ^============================================================
 echo ==               Updating Installation Tool               ==
 echo ============================================================^
 
+git init
+
+
 set repoURL=https://github.com/JasonMa0012/MooaToon.git
 set branchName=main
 set PROMPT_ARGUMENT=--prompt --threads=16
 
 
-git init
 
 :loop
 git fetch --depth=50 %repoURL% %branchName%
