@@ -1,6 +1,6 @@
 @echo off
 
-call _3_5_Update_InstallTool.bat
+rem call _3_5_Update_InstallTool.bat
 
 set MooaRootDir=%cd%
 
