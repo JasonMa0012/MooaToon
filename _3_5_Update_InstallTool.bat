@@ -12,7 +12,7 @@ set PROMPT_ARGUMENT=--prompt --threads=16
 git init
 
 :loop
-git fetch --depth=1 %repoURL% %branchName%
+git fetch --depth=50 %repoURL% %branchName%
 if not %errorlevel% == 0 (
    echo Fetch failed, retrying in 5 seconds...
    timeout /t 10 /nobreak
