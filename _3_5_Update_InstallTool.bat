@@ -1,7 +1,9 @@
+@echo off
+
 setlocal enabledelayedexpansion
 
 echo ^============================================================
-echo =                Updating Installation Tool                =
+echo ==               Updating Installation Tool               ==
 echo ============================================================^
 
 set repoURL=https://github.com/JasonMa0012/MooaToon.git

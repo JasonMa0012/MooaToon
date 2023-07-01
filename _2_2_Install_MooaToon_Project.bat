@@ -1,7 +1,7 @@
 @echo off
 
 echo ^============================================================
-echo =                Installing MooaToon Project               =
+echo ==               Installing MooaToon Project              ==
 echo ============================================================^
 
 setlocal enabledelayedexpansion

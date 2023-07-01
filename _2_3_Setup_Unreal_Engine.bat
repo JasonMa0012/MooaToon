@@ -2,7 +2,7 @@
 setlocal
 
 echo ^============================================================
-echo =                Setup Unreal Engine                       =
+echo ==               Setup Unreal Engine                      ==
 echo ============================================================^
 
 set repoName=MooaToon-Engine

@@ -1,7 +1,7 @@
 @echo off
 
 echo ^============================================================
-echo =                Installing MooaToon Engine                =
+echo ==               Installing MooaToon Engine               ==
 echo ============================================================^
 
 

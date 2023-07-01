@@ -1,9 +1,10 @@
 @echo off
 
 echo ^============================================================
-echo =                Building MooaToon Engine                  =
+echo ==               Building MooaToon Engine                 ==
 echo ============================================================^
 
+@echo on
 
 set repoName=MooaToon-Engine
 
