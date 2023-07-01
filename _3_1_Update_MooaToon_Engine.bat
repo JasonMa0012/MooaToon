@@ -1,5 +1,8 @@
 @echo off
 
+echo ^============================================================
+echo =                Updating MooaToon Engine                  =
+echo ============================================================^
 
 set repoURL=https://github.com/Jason-Ma-0012/MooaToon-Engine.git
 set repoName=MooaToon-Engine

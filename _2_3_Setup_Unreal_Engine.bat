@@ -1,6 +1,10 @@
 @echo off
 setlocal
 
+echo ^============================================================
+echo =                Setup Unreal Engine                       =
+echo ============================================================^
+
 set repoName=MooaToon-Engine
 
 cd %repoName%

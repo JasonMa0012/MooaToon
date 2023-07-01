@@ -1,3 +1,7 @@
+echo ^============================================================
+echo =                Running MooaToon Project                  =
+echo ============================================================^
+
 set engineName=MooaToon-Engine
 set projectName=MooaToon-Project
 

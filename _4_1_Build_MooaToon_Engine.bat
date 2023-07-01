@@ -1,5 +1,10 @@
 @echo off
 
+echo ^============================================================
+echo =                Building MooaToon Engine                  =
+echo ============================================================^
+
+
 set repoName=MooaToon-Engine
 
 call %repoName%\GenerateProjectFiles.bat

@@ -1,5 +1,9 @@
 setlocal enabledelayedexpansion
 
+echo ^============================================================
+echo =                Updating Installation Tool                =
+echo ============================================================^
+
 set repoURL=https://github.com/JasonMa0012/MooaToon.git
 set branchName=main
 set PROMPT_ARGUMENT=--prompt --threads=16

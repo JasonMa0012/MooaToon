@@ -1,5 +1,10 @@
 @echo off
 
+echo ^============================================================
+echo =                Installing MooaToon Engine                =
+echo ============================================================^
+
+
 setlocal enabledelayedexpansion
 
 set repoURL=https://github.com/Jason-Ma-0012/MooaToon-Engine.git
