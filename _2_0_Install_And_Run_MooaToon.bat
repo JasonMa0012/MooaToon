@@ -1,3 +1,4 @@
+call _3_5_Update_InstallTool.bat
 call _2_1_Install_MooaToon_Engine.bat
 call _2_2_Install_MooaToon_Project.bat
 call _2_3_Setup_Unreal_Engine.bat
