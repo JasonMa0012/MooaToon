@@ -1,11 +1,9 @@
 @echo off
 
 
-set repoURL=https://github.com/Jason-Ma-0012/MooaToon-Engine.git
-set repoName=MooaToon-Engine
-set branchName=5.2
+call _2_5_Settings.bat
 
-cd %repoName%
+cd %engineFolderName%
 
 echo ===================================================
 git status -s | find "."
@@ -18,5 +16,5 @@ if %errorlevel% == 0 (
 git reset --hard
 git clean -df
 
-echo %repoName% successfully clean.
+echo %engineFolderName% successfully clean.
 timeout /t 10

@@ -9,18 +9,14 @@ setlocal enabledelayedexpansion
 
 git init
 
-set repoURL=https://github.com/Jason-Ma-0012/MooaToon-Engine.git
-set repoName=MooaToon-Engine
-set branchName=5.2
-set PROMPT_ARGUMENT=--prompt --threads=16
+call _2_5_Settings.bat
 
-
-if not exist %repoName% mkdir %repoName%
-cd %repoName%
+if not exist %engineFolderName% mkdir %engineFolderName%
+cd %engineFolderName%
 
 
 :loop
-git fetch --depth=1 %repoURL% %branchName%
+git fetch --depth=1 %repoURL% %engineBranchName%
 if not %errorlevel% == 0 (
    echo Fetch failed, retrying in 5 seconds...
    timeout /t 10 /nobreak
@@ -29,10 +25,10 @@ if not %errorlevel% == 0 (
 
 git checkout FETCH_HEAD
 git remote add origin %repoURL%
-git pull origin %branchName%
-git checkout %branchName%
-git merge origin/%branchName%
+git pull origin %engineBranchName%
+git checkout %engineBranchName%
+git merge origin/%engineBranchName%
 
 
-echo %repoName% successfully cloned.
+echo %engineFolderName% successfully cloned.
 timeout /t 10

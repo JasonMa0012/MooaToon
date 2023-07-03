@@ -4,9 +4,9 @@ echo ^============================================================
 echo =                Running MooaToon Project                  =
 echo ============================================================^
 
+
 @echo on
 
-set engineName=MooaToon-Engine
-set projectName=MooaToon-Project
+call _2_5_Settings.bat
 
-%engineName%\Engine\Binaries\Win64\UnrealEditor.exe %cd%\%projectName%\MooaToon_Project.uproject
+%engineFolderName%\Engine\Binaries\Win64\UnrealEditor.exe %cd%\%projectFolderName%\MooaToon_Project.uproject

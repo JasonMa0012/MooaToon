@@ -5,9 +5,10 @@ echo ^============================================================
 echo ==               Setup Unreal Engine                      ==
 echo ============================================================^
 
-rem set repoName=MooaToon-Engine
 
-call MooaToon-Engine/Setup.bat
+call _2_5_Settings.bat
+
+call %engineFolderName%/Setup.bat
 
 echo Setup successful
 
