@@ -5,9 +5,9 @@ echo ==               Building MooaToon Engine                 ==
 echo ============================================================^
 
 
-@echo on
-
 call _2_5_Settings.bat
+
+@echo on
 
 call %engineFolderName%\GenerateProjectFiles.bat
 
