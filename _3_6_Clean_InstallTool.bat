@@ -28,7 +28,7 @@ git checkout FETCH_HEAD
 git remote add origin %repoURL%
 git pull origin %branchName%
 git checkout %branchName%
-rem git reset --hard origin/%branchName%
+git reset --hard origin/%branchName%
 
 echo successfully update.
 timeout /t 10
