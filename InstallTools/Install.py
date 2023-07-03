@@ -81,10 +81,13 @@ def download_releases(release_info, file_name_prefix, download_path):
 
 
 repo_name = "JasonMa0012/MooaToon"
+engine_version = "5.2"
 mooatoon_root_path = r"X:\MooaToon"
 
 if len(sys.argv) > 1:
     mooatoon_root_path = sys.argv[1]
+if len(sys.argv) > 2:
+    engine_version = sys.argv[2]
 
 bandizip_path = mooatoon_root_path + r"\InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
 download_path = mooatoon_root_path + r"\InstallTools\Download"
@@ -104,12 +107,16 @@ if not os.path.exists(project_unzip_path):
 
 latest_release_info = None
 for release in ghr.get_releases(repo_name):
-    if (not release['prerelease']) and (not release['draft']):
+    if (not release['prerelease']) and (not release['draft']) and (release["tag_name"].startswith(engine_version)):
         latest_release_info = release
         break
 
+if engine_version == None :
+    input(f"\nCant not find {engine_version} release! Press Enter to continue...")
+    exit(1)
+
 print("\n=============================================\n")
-print(f"Latest Release: {latest_release_info['tag_name']} ({latest_release_info['html_url']})")
+print(f"Latest {engine_version} Release: {latest_release_info['tag_name']} ({latest_release_info['html_url']})")
 print("\n=============================================\n")
 
 release_files = []
@@ -135,3 +142,4 @@ AsyncRun(args)
 
 print("\n\n======Installation Completed======")
 input("\nPress Enter to continue...")
+exit(0)
