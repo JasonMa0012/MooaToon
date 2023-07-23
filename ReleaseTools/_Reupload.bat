@@ -1,4 +1,4 @@
 cd..
 set MooaRootDir=%cd%
 
-ReleaseTools\Release.exe %MooaRootDir% --Reupload --Release
+ReleaseTools\Release.exe %MooaRootDir% --Reupload

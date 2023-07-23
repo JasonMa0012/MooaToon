@@ -6,7 +6,34 @@ import github_release as ghr
 import time
 
 
-def AsyncRun(args):
+# ================= Defines =================
+engine_version = "5.2"
+repo_name = "JasonMa0012/MooaToon"
+mooatoon_root_path = r"X:\MooaToon"
+
+if len(sys.argv) > 1:
+    mooatoon_root_path = sys.argv[1]
+if len(sys.argv) > 2:
+    engine_version = sys.argv[2]
+
+bandizip_path = mooatoon_root_path + r"\InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
+download_path = mooatoon_root_path + r"\InstallTools\Download"
+engine_zip_prefix = "MooaToon-Engine-Precompiled"
+project_zip_prefix = "MooaToon-Project-Precompiled"
+engine_unzip_path = mooatoon_root_path + "\\" + engine_zip_prefix
+project_unzip_path = mooatoon_root_path + "\\" + project_zip_prefix
+
+
+if not os.path.exists(download_path):
+    os.makedirs(download_path)
+if not os.path.exists(engine_unzip_path):
+    os.makedirs(engine_unzip_path)
+if not os.path.exists(project_unzip_path):
+    os.makedirs(project_unzip_path)
+
+
+# ============ Functions ==============
+def async_run(args):
     process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
     while True:
@@ -80,31 +107,7 @@ def download_releases(release_info, file_name_prefix, download_path):
     return zip_path
 
 
-repo_name = "JasonMa0012/MooaToon"
-engine_version = "5.2"
-mooatoon_root_path = r"X:\MooaToon"
-
-if len(sys.argv) > 1:
-    mooatoon_root_path = sys.argv[1]
-if len(sys.argv) > 2:
-    engine_version = sys.argv[2]
-
-bandizip_path = mooatoon_root_path + r"\InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
-download_path = mooatoon_root_path + r"\InstallTools\Download"
-engine_zip_prefix = "MooaToon-Engine-Precompiled"
-project_zip_prefix = "MooaToon-Project-Precompiled"
-engine_unzip_path = mooatoon_root_path + "\\" + engine_zip_prefix
-project_unzip_path = mooatoon_root_path + "\\" + project_zip_prefix
-
-
-if not os.path.exists(download_path):
-    os.makedirs(download_path)
-if not os.path.exists(engine_unzip_path):
-    os.makedirs(engine_unzip_path)
-if not os.path.exists(project_unzip_path):
-    os.makedirs(project_unzip_path)
-
-
+# ================= Main ==================
 latest_release_info = None
 for release in ghr.get_releases(repo_name):
     if (not release['prerelease']) and (not release['draft']) and (release["tag_name"].startswith(engine_version)):
@@ -134,11 +137,11 @@ project_zip_path = download_releases(latest_release_info, project_zip_prefix, do
 
 print("\n\n======Unzip Engine======")
 args = [bandizip_path, "x", "-aoa", "-y", "-o:" + engine_unzip_path, engine_zip_path]
-AsyncRun(args)
+async_run(args)
 
 print("\n\n======Unzip Project======")
 args = [bandizip_path, "x", "-aoa", "-y", "-o:" + project_unzip_path, project_zip_path]
-AsyncRun(args)
+async_run(args)
 
 print("\n\n======Installation Completed======")
 input("\nPress Enter to continue...")
