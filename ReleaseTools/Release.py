@@ -52,7 +52,7 @@ def get_release_comment(last_release_date = '2023-06-23'):
     repo : gh.github.repo.Repository = g.repository(engine_user, engine_repo)
     comment = ''
     for commit in repo.commits(since=last_release_date):
-        comment += f'[[{commit.sha[0:7]}]({commit.html_url})]\t'
+        comment += f'\n[[{commit.sha[0:7]}]({commit.html_url})]\n'
         comment += commit.message
         comment += '\n'
     return comment
