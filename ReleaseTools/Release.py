@@ -8,20 +8,25 @@ from dotenv import load_dotenv
 import winreg
 
 
+# Inputs: MooaRootDir engineBranchName [--Clean --BuildEngine --CleanEngine --ZipEngine --ZipProject --Release --Reupload]
+
 # ================= Defines =================
-engine_version = "5.2"
 repo_name = "JasonMa0012/MooaToon"
+
 mooatoon_root_path = r"X:\MooaToon"
 if len(sys.argv) > 1:
     mooatoon_root_path = sys.argv[1]
 
-# Debug
+engine_version = "5.3"
+if len(sys.argv) > 2:
+    engine_version = sys.argv[2]
+
+# Default Input
 argv = [
     '--Release'
 ]
-
-if len(sys.argv) > 2:
-    argv = sys.argv[2:]
+if len(sys.argv) > 3:
+    argv = sys.argv[3:]
 
 current_date = datetime.date.today().strftime("%Y.%m.%d")
 release_name = engine_version + "-" + current_date
@@ -117,8 +122,10 @@ for release in ghr.get_releases(repo_name):
 
 if '--Release' in argv:
     print("======Release======")
-    comment = get_release_comment(last_release_info['published_at'][0:10])
-    # print('\n' + comment + '\n')
+    if last_release_info is None:
+        comment = "Update Engine Version to " + engine_version
+    else:
+        comment = get_release_comment(last_release_info['published_at'][0:10])
     ghr.gh_release_create(
         repo_name,
         release_name,
