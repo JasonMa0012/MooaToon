@@ -7,7 +7,7 @@ import time
 
 
 # ================= Defines =================
-engine_version = "5.2"
+engine_version = "5.3"
 repo_name = "JasonMa0012/MooaToon"
 mooatoon_root_path = r"X:\MooaToon"
 
@@ -16,12 +16,15 @@ if len(sys.argv) > 1:
 if len(sys.argv) > 2:
     engine_version = sys.argv[2]
 
-bandizip_path = mooatoon_root_path + r"\InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
-download_path = mooatoon_root_path + r"\InstallTools\Download"
+bandizip_path = os.path.join(mooatoon_root_path, r"InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe")
+download_path = os.path.join(mooatoon_root_path, r"InstallTools\Download")
 engine_zip_prefix = "MooaToon-Engine-Precompiled"
 project_zip_prefix = "MooaToon-Project-Precompiled"
-engine_unzip_path = mooatoon_root_path + "\\" + engine_zip_prefix
-project_unzip_path = mooatoon_root_path + "\\" + project_zip_prefix
+engine_unzip_path = os.path.join(mooatoon_root_path, engine_zip_prefix)
+project_unzip_path = os.path.join(mooatoon_root_path, project_zip_prefix)
+clear_engine_whitelist = [
+    os.path.join(engine_unzip_path, r"Windows\Engine\Plugins\MooaToon\Content"),
+]
 
 
 if not os.path.exists(download_path):
@@ -88,6 +91,18 @@ def remove_unwanted_files(download_path, release_files):
             print(f"Deleted: {file_path}")
 
 
+def delete_files_in_directory(directory, whitelist):
+    for file_name in os.listdir(directory):
+        file_path = os.path.join(directory, file_name)
+        if file_path in whitelist:
+            continue
+        if os.path.isfile(file_path):
+            os.remove(file_path)
+        elif os.path.isdir(file_path):
+            delete_files_in_directory(file_path, whitelist)
+            os.rmdir(file_path)
+
+
 def download_releases(release_info, file_name_prefix, download_path):
     zip_path = ""
     assets = get_asset_info(release_info, file_name_prefix)
@@ -134,6 +149,9 @@ engine_zip_path = download_releases(latest_release_info, engine_zip_prefix, down
 
 print("\n\n======Download Project======")
 project_zip_path = download_releases(latest_release_info, project_zip_prefix, download_path)
+
+print("\n\n======Clear Engine======")
+delete_files_in_directory(engine_unzip_path, clear_engine_whitelist)
 
 print("\n\n======Unzip Engine======")
 args = [bandizip_path, "x", "-aoa", "-y", "-o:" + engine_unzip_path, engine_zip_path]
