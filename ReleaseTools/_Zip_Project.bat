@@ -1,4 +1,6 @@
 cd..
 set MooaRootDir=%cd%
 
-ReleaseTools\Release.exe %MooaRootDir% --ZipProject
+call _2_5_Settings.bat
+
+ReleaseTools\Release.exe %MooaRootDir% %engineBranchName% %projectBranchName% --ZipProject

@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import winreg
 
 
-# Inputs: MooaRootDir engineBranchName [--Clean --BuildEngine --CleanEngine --ZipEngine --ZipProject --Release --Reupload]
+# Inputs: MooaRootDir engineBranchName projectBranchName [--Clean --BuildEngine --CleanEngine --ZipEngine --ZipProject --Release --Reupload]
 
 # ================= Defines =================
 repo_name = "JasonMa0012/MooaToon"
@@ -21,12 +21,16 @@ engine_version = "5.3"
 if len(sys.argv) > 2:
     engine_version = sys.argv[2]
 
+project_branch_name = "5.3_MooaToonProject"
+if len(sys.argv) > 3:
+    engine_version = sys.argv[3]
+
 # Default Input
 argv = [
     '--Release'
 ]
-if len(sys.argv) > 3:
-    argv = sys.argv[3:]
+if len(sys.argv) > 4:
+    argv = sys.argv[4:]
 
 current_date = datetime.date.today().strftime("%Y.%m.%d")
 release_name = engine_version + "-" + current_date
@@ -52,11 +56,11 @@ def get_onedrive_env_path():
     return os.path.join(envPath, '_Data', 'envs', 'MooaToon.env')
 
 
-def get_release_comment(last_release_date = '2023-06-23'):
+def get_release_comment(last_release_date, branch_name):
     g = gh.login(token=os.getenv('MOOATOON_ENGINE_TOKEN'))
     repo : gh.github.repo.Repository = g.repository(engine_user, engine_repo)
     comment = ''
-    for commit in repo.commits(since=last_release_date):
+    for commit in repo.commits(sha=branch_name, since=last_release_date):
         comment += f'\n[[{commit.sha[0:7]}]({commit.html_url})]\n'
         comment += commit.message
         comment += '\n'
@@ -123,9 +127,10 @@ for release in ghr.get_releases(repo_name):
 if '--Release' in argv:
     print("======Release======")
     if last_release_info is None:
-        comment = "Update Engine Version to " + engine_version
+        comment = "No Messages."
     else:
-        comment = get_release_comment(last_release_info['published_at'][0:10])
+        comment = get_release_comment(engine_version, last_release_info['published_at'][0:10])
+        comment += get_release_comment(project_branch_name, last_release_info['published_at'][0:10])
     ghr.gh_release_create(
         repo_name,
         release_name,
