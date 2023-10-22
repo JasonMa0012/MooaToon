@@ -5,6 +5,7 @@
 InstallTools/github_ip/GetGithubIP.spec
 InstallTools/github_ip/build
 .idea/
+.vscode/
 ReleaseTools/build/
 InstallTools/Install.spec
 InstallTools/build/
