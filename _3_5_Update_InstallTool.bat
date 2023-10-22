@@ -24,7 +24,7 @@ if not %errorlevel% == 0 (
    goto loop
 )
 
-git checkout FETCH_HEAD
+git checkout FETCH_HEAD -f
 git remote add origin %repoURL%
 git pull origin %branchName%
 git checkout %branchName%
