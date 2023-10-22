@@ -1,0 +1,1183 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = עברית
+TRANSLATORS                             = Ronen Nisanov (ronen1n91@gmail.com)
+IS_RIGHT_TO_LEFT_TEXT                   = 1
+
+
+[TEXT]
+TEXT_BUILDNO                            = בנייה#
+TEXT_FILE                               = קובץ
+TEXT_FOLDER                             = תיקייה
+TEXT_ARCHIVE_SIZE                       = גודל כולל
+TEXT_ORIGINAL_SIZE                      = גודל מקורי
+TEXT_ARCHIVE_FORMAT                     = סוג הארכיון
+TEXT_COMPRESSED_SIZE                    = גודל דחוס
+TEXT_SOLID                              = יציב
+TEXT_BETA                               = בטא
+TEXT_ASSOC                              = קובץ דחוס (${str1})
+TEXT_PORTABLE                           = נייד
+TEXT_NEW_FOLDER                         = תיקיה חדשה
+TEXT_FILESIZE_UNKNOWN                   = לא ידוע
+TEXT_FILEDATE_UNKNOWN                   = לא ידוע
+TEXT_HELP_LINK                          = [עזרה]
+TEXT_APP_DESC                           = Bandizip היא תוכנה מהירה קלה וחינמית לארכיוני Zip. הוא מטפל בקבצים הכי פופולארים לדחיסה כולל Zip, 7z, Rar וכן הלאה.
+
+TEXT_MESSAGEBOX_OK                      = אישור
+TEXT_MESSAGEBOX_CANCEL                  = ביטול
+TEXT_MESSAGEBOX_ABORT                   = בטל
+TEXT_MESSAGEBOX_RETRY                   = נסה שוב
+TEXT_MESSAGEBOX_IGNORE                  = התעלם
+TEXT_MESSAGEBOX_YES                     = כן
+TEXT_MESSAGEBOX_NO                      = לא
+TEXT_MESSAGEBOX_CONTINUE                = המשך
+TEXT_MESSAGEBOX_HELP                    = עזרה
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = אל תציג זאת שוב
+
+TEXT_COLUMN_NAME                        = שם
+TEXT_COLUMN_COMPSIZE                    = דחוס
+TEXT_COLUMN_ORIGSIZE                    = מקורי
+TEXT_COLUMN_KIND                        = סוג
+TEXT_COLUMN_DATE_MOD                    = שונה
+TEXT_COLUMN_COMPMETHOD                  = שיטת דחיסה
+TEXT_COLUMN_ENCRMETHOD                  = שיטת הצפנה
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = תכונות
+TEXT_COLUMN_COMMENT                     = הערה
+TEXT_COLUMN_EXT                         = מידע נוסף
+TEXT_COLUMN_PATHNAME                    = נתיב
+
+TEXT_ICONPACK_NAME                      = שם
+TEXT_ICONPACK_DESIGNER                  = מעצב
+TEXT_ICONPACK_COPYRIGHT                 = זכות יוצרים
+
+TEXT_ARCHIVE_COLUMN_NAME                = שם
+TEXT_ARCHIVE_COLUMN_FILESIZE            = גודל
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = נתיב תיקיה
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = גודל כולל
+
+TEXT_SELECT_ARCHIVE_FILE                = בחר קובץ
+TEXT_SELECT_TEXT_FILE                   = בחר קובץ
+TEXT_SELECT_DEST_FOLDER                 = בחר את תיקיית היעד
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = קובץ ארכיון
+TEXT_REGISTRY_FILE                      = קובץ רגסטרי
+
+TEXT_OPENDLG_ARCHIVEFILES               = קבצי ארכיון
+TEXT_OPENDLG_ARCHIVEFILE                = קובץ ארכיון
+TEXT_OPENDLG_ALLFILES                   = כל הקבצים
+TEXT_OPENDLG_EXEFILES                   = קבצי EXE
+
+TEXT_ABOUTBOX_TAB1                      = אודות Bandizip
+
+TEXT_ASSOC_GROUP0                       = קבצי ארכיון
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = אחרים
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = כדי לפתוח קובץ זה, הורד את הגרסה העדכנית ביותר של Bandizip.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = בחר רק את החלק ראשון של הקובץ המפוצל.
+TEXT_OPENERR_CANT_OPEN_FILE             = לא יכול לפתוח את הקובץ (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = לא יכול לפתוח את הקובץ (${str1}) בגלל שהקובץ נמצא בשימוש על ידי תכנית אחרת.
+TEXT_OPENERR_GENERAL                    = לא יכול לפתוח את הקובץ (${str1}) (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = בוטל
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = פורמט קובץ לא ידוע (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" אינו קובץ ארכיון."
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = פורמט לא נתמך (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = שיטת הצפנה לא נתמכת (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = הכנס סיסמה
+TEXT_OPENERR_INVALID_PASSWORD           = הסיסמה שגויה
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = לא יכול לפתוח את הקובץ הזה כי כותרת הקובץ שבורה
+
+TEXT_ERR_INIT_FAILED                    = נכשל באתחול
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = הסיסמה שגויה או אין קובץ בארכיון.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = סיסמאות לא תואמות
+TEXT_ERR_PASSWORD_NOT_SET               = סיסמה נצרכת.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = הסיסמה שלך מכילה תווים לא חוקיים. שים רק תווים אלפאנומריים או סימנים מיוחדים.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = גודל קובץ מפוצל לא חוקי.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = sfx (לחילוץ עצמי בארכיון) גדלי קבצים מוגבלים ל 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = שגיאה פנימית
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = לא ניתן לשנות את קובץ הארכיון
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = אירעה שגיאה בעת שינוי ארכיון
+TEXT_ERR_INVALID_FOLDER_PATH            = נתיב תיקייה לא חוקי
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = ניתן לערוך רק קובץ ZIP
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = לא ניתן לערוך את הקובץ המפוצל
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = לא ניתן לערוך את הקובץ לחילוץ עצמי (*.exe)
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = לא ניתן לערוך את הקובץ השבור
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = לא ניתן לערוך קובץ/הרחבה זו
+TEXT_ERR_CANT_CHANGE_FILENAME           = לא יכול לשנות את שם הקובץ הזה
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "לא ניתן להשתמש בשם הקובץ עם [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = אותו קובץ/תיקייה קיימת. לא ניתן לשנות את שם הקובץ (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = לא ניתן ליצור תיקייה
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = אין קבצים לארכיון
+TEXT_ERR_INVALID_PARAM                  = פרמטר לא חוקי.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = לא ניתן להוסיף את הקובץ לארכיון. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = לא יכול לפתוח את הארכיון הזה [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = אותה תיקייה קיימת
+TEXT_ERR_FILENAME_EMPTY                 = שם קובץ אינו נכון
+TEXT_ERR_AT_DRAGANDDROP                 = פעולת גרירה ושחרור נכשלה
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = גרירה ושחרור נכשלה.[br]Bandizip עתה כיבה את פונקציית 'גרירה ושחרור מהיר', נא לנסות שוב.
+TEXT_ERR_AT_CANT_OPEN_MMF               = לא יכול לפתוח את MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = לא נבחר קובץ
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = לא יכול ליצור תיקייה להתקנת חבילת האייקונים
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = לא ניתן ליצור קובץ ההתקנה לחבילת האייקונים
+TEXT_ERR_AT_EXECUTE_DIRECT              = לא יכול לפתוח את הקובץ הזה. חלץ את הקובץ ונסה שוב
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = לא ניתן ליצור קובץ גדול יותר מ -4 ג'יגה.[br]בבקשה בחר קובץ בפורמט שונה (ZIP או 7z)
+TEXT_ERR_CANT_SAVE_AS                   = לא יכול לשמור את קובץ זה.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip נתקל בבעיה בעת עריכת הקובץ. (${str1})[br][br]האם אתה רוצה לשלוח דוח שגיאות ל- Bandisoft?[br][br]הגשת דוח זה עוזר ל-Bandisoft לשפר את Bandizip.
+
+TEXT_MSG_TEST_OK                        = לא נמצאה שגיאה במהלך תהליך הבדיקה
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = החילוץ נכשל.[br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = החילוץ הצליח
+TEXT_MSG_EXTRACT_CANCELED               = החילוץ בוטל
+TEXT_MSG_COMPRESS_SUCCESS               = הארכיון הושלם
+TEXT_MSG_INTERNAL_ERROR                 = שגיאה פנימית
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = אין אפשרות לפתוח את הקובץ הבא בתיקיה הזמנית:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = אין יכולת למחוק את קובץ הארכיון הזה
+TEXT_MSG_CRASH_REPORT                   = Bandizip נתקלה בבעיה וצריכה להיסגר
+TEXT_MSG_CRASH_REPORT2                  = Bandizip נתקל בבעיה ועליו להיסגר. האם אתה רוצה לשלוח דוח קריסה למפתח Bandizip?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip לא מגיב.[br][br]האם אתה רוצה לשלוח דוח קריסה למפתח Bandizip ולסגור את התוכנית?
+TEXT_MSG_SET_TEMP_PATH                  = הגדר נתיב זמני
+TEXT_MSG_SET_PATH                       = הגדר נתיב
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = חבילת האייקונים הותקנה בהצלחה
+TEXT_MSG_NOTICE_RESTART                 = התוכנה הזאת תופעל מחדש
+TEXT_MSG_ARCHVIE_OPENING                = פותח ארכיון
+TEXT_MSG_COMPLETING                     = משלים: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = לא יכול ליצור תיקיה[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = לא ניתן לדחוס תיקייה לתוך ארכיון .GZ ול-.XZ.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = לא ניתן לדחוס מספר קבצים לתוך ארכיון .GZ/XZ. אנא בדוק את האפשרות "דחיסה לכל שם קובץ/תיקייה".
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip מוזער למגש המערכת. ללחוץ על הסמל במגש לשחזרו.
+TEXT_MSG_TRAY_COMPLETED                 = התהליך הושלם.
+TEXT_MSG_BATCH_ARCHVING                 = דוחס: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = מחלץ: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - בודק: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - מוחק: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - נכשל במחיקה: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = העבודה מתבצעת...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = אם הדמויות אינן מוצגת בצורה נכונה, לחץ על <font color=red><b>קידוד</b></font> לעיל ולאחר מכן נסה את <font color=red><b>זיהוי אוטומטי</b></font>menu.
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = האם ברצונך לפתוח ${ext} קבצים עם באנדיזיפ?
+
+TEXT_ASK_DELETE_ARCHIVE                 = הקובץ המקורי יימחק.[br]האם ברצונך למחוק קובץ זה
+TEXT_ASK_DELETE_CUR_ARCHIVE             = האם ברצונך למחוק את הקובץ הנוכחי?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = האם אתה רוצה למחוק את הארכיון הנוכחי לצמיתות?
+TEXT_ASK_CHANGE_FILENAME                = אותו הקובץ קיים.[br][br]האם אתה רוצה לשנות את שם הקובץ מ ${str1} ל ${str2}?
+TEXT_ASK_DELETE_FILE                    = האם ברצונך למחוק את הקובץ שנבחר?
+TEXT_ASK_STOP_EXTRACT                   = האם אתה רוצה להפסיק את החילוץ?
+TEXT_ASK_OVERWRITE_ARCHIVE              = אותו הקובץ קיים.[br][br]האם ברצונך להחליף את הקובץ?
+TEXT_ASK_INIT_SETTING                   = האם ברצונך לאפס לברירת מחדל? Bandizip יופעל מחדש
+TEXT_ASK_STOP_ARCHIVING                 = האם ברצונך להפסיק את הכיווץ?
+TEXT_ASK_STOP_MODIFYING                 = האם אתה רוצה להפסיק את הפעולה הזאת?
+TEXT_ASK_APPLY_MODIFIED_FILE            = האם ברצונך להחיל את הקובץ שהשתנה לארכיון [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = האם אתה רוצה להתקין ולהתאים את חבילת האייקונים (${str1})?
+TEXT_ASK_MAKE_FOLDER                    = התיקייה לא קיימת. האם ברצונך ליצור אותה?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = אין לתיקיית היעד הרשאת כתיבה.[br][br]- ${str1}[br][br]האם אתה רוצה להמשיך?
+TEXT_ASK_CONT_NOFREESPACE               = לתיקיית היעד אין מספיק מקום.[br]שנה את תיקיית היעד.[br]- ${str1}[br][br]האם אתה רוצה להמשיך?
+TEXT_ASK_ASK_UAC_ELEVATION              = אין לך הרשאה לשנות את הקבצים הללו.[br][br]האם אתה רוצה להפעיל מחדש את תוכנית זו כמנהל מערכת?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = אין אפשרות לפתוח קובץ ארכיון זה.[br][br]האם אתה רוצה לפתוח את החלק הראשון של הקובץ המפוצל (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = אם תמחק קבצים לאחר יצירת ארכיון, אתה עלול לאבד קבצים חשובים אם הקבצים לא תקינים.[br][br]האם אתה רוצה לבדוק את האפשרות "בדיקת ארכיון"?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = אין מספיק מקום בדיסק כדי לחלץ. האם ברצונך להמשיך?[br][br]תיקיית יעד: ${str1}[br]שטח דיסק פנוי: ${str2}[br]גודל הקובץ לחילוץ: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = הקובץ הזה שבור
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = הקובץ שבור או שיש צורך בקובץ מפוצל אחר
+
+TEXT_BTN_PAUSE                          = השהה
+TEXT_BTN_RESUME                         = המשך
+
+TEXT_ERRDLG_ERROR_OCCURRED              = אירעה שגיאה
+TEXT_ERRDLG_USER_ABORT                  = בוטל
+
+TEXT_ARKERR_CANT_OPEN_FILE              = לא ניתן לפתוח את הקובץ הזה
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = לא ניתן לפתוח את הקובץ הזה, בגלל שהקובץ נמצא בשימוש על ידי תכנית אחרת
+TEXT_ARKERR_PASSWORD_NOT_SET            = יש צורך בסיסמה
+TEXT_ARKERR_INVALID_PASSWD              = סיסמא לא חוקית
+TEXT_ARKERR_USER_ABORTED                = בוטל
+TEXT_ARKERR_INVALID_FILE_CRC            = שגיאת CRC
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = לא ניתן לפתוח את הקובץ הזה
+TEXT_ARKERR_CANT_READ_DATA              = לא ניתן לקרוא את נתוני ארכיון
+TEXT_ARKERR_INFLATE_FAILED              = שגיאת נתונים - קובץ זה שבור
+TEXT_ARKERR_BZIP2_ERROR                 = שגיאת נתונים - קובץ זה שבור
+TEXT_ARKERR_DATA_CORRUPTED              = הקובץ שבור או שיש צורך בקובץ מפוצל אחר
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = לא ניתן לפתוח את הקובץ הזה
+TEXT_ARKERR_CANT_CREATE_FOLDER          = לא ניתן ליצור תיקייה
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = שיטת דחיסה לא נתמכת.
+TEXT_ARKERR_WRITE_FAIL                  = יש שגיאה בעת כתיבה
+TEXT_ARKERR_DISK_FULL                   = דיסק מלא
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = נתיב קובץ ושם קובץ אינם יכולים לעלות על 260 תווים
+TEXT_ARKERR_CANT_CREATE_FILE            = נכשל ביצירת קובץ
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = נכשל ביצירת קובץ. הפעל תכנית עם הרשאות מנהל.
+TEXT_ARKERR_USER_SKIP                   = דולג
+TEXT_ARKERR_FILE_TRUNCATED              = סופו של קובץ זה הוא שבור או חסר
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = הסיסמה אינה חוקית או שהקובץ שבור
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = הקובץ שבור
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = הקובץ לחילוץ עצמי (*.exe) הוא מעל 4GB. אתה לא יכול להריץ קובץ 4GB ב-Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = לא יכול לפתוח את קובץ הארכיון הזה. יש צורך בקובץ המפוצל הבא (. Z01,. Z02 ...).
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = לא יכול לפתוח את הקובץ zip הזה. יש צורך בקובץ המפוצל הבא (. Z01,. Z02 ...).
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = לא יכול לפתוח את קובץ הארכיון הזה. יש צורך בקובץ מפוצל אחר.
+TEXT_ARKERR_CORRUPTED_FILE              = הקובץ שבור
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = אין הרשאה לכתוב לתיקייה הזאת
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = אין הרשאה לכתוב לתיקייה הזאת. הפעלת תכנית עם הרשאות מנהל.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = אינו תומך באלגוריתם הצפנה זו
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = חוסר זיכרון
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = חוסר זיכרון. שנה את רמת הדחיסה.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = אינו תומך בפעולה הזו
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = גודל הקובץ שחולץ ופרטי כותרת הארכיון שונים.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = לא ניתן ליצור קובץ גדול יותר מ -4 ג'יגה. בחר פורמט קובץ אחר (ZIP או 7z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = השם הארוך של הקובץ קוצר באופן אוטומטי.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = אין אפשרות לפתוח את קובץ המקור כדי להעתיק.
+TEXT_ARKERR_NOTIMPL                     = לא מיושם.
+TEXT_ARKERR_CANT_READ_FILE              = לא מצליח לקרוא את הקובץ.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = הפעל Bandizip כמנהל כדי ליצור קישור סימבולי.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = לא ניתן ליצור קישור סימבולי.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = הקובץ אפשרי לשכתוב ונמצא בשימוש ע"י תהליך אחר
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = לא נמצא קובץ להכניס לארכיון
+
+TEXT_SPLITCOMBO_NOSPLIT                 = ללא פיצול
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = בחירה אישית
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-ללא דחיסה
+TEXT_COMPRESSIONMETHOD_FAST             = 1-דחיסה מהירה
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-דחיסה רגילה
+TEXT_COMPRESSIONMETHOD_MAX              = 3-דחיסה מקסימלית
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = דחיסה חדשה
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = הוסף קבצים לארכיון
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &שנה שם: ${str1}
+TEXT_TITLE_TEST_MODE                    = בדיקת ארכיון
+TEXT_TITLE_TEMPFOLDER_MODE              = מחלץ לתיקייה זמנית...
+TEXT_TITLE_MODIFYING                    = משנה...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = קובץ לחילוץ
+TEXT_MSG_SELECTED_FILE                  = ${num1} קובץ(ים) נבחרו
+TEXT_MSG_SELECTED_FOLDER                = ${num1} תיקייה(יות) נבחרו
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} קובץ, ${num2} תיקייה
+TEXT_MSG_SELECTED_FILESIZESUM           = גודל קובץ שנבחר: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = בדיקת גרסה נכשלה
+TEXT_UPDATE_VERSION_CHECKING            = בדיקת גרסה
+TEXT_UPDATE_DOWNLOAD_FAILED             = הורדה נכשלה
+TEXT_UPDATE_LATEST_VERSION              = מעודכן
+TEXT_UPDATE_DO_DOWNLOAD                 = עדכונים דרושים
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = הורדה הושלמה
+
+TEXT_INSTALL_HONEYVIEW                  = התקן Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview לא מותקן על המחשב שלך.
+TEXT_INSTALL_HONEYVIEW_2                = בבקשה נסה את Honeyview שפותחה על ידי Bandisoft.<br> הוא תומך הצגת התמונות ב- ZIP, RAR, או קבצי 7z ללא חילוץ.
+
+TEXT_REGISTRATION_FAILED                = הרישום נכשל[br]בדוק את כתובת האימייל והמספר סידורי שלך
+TEXT_REGISTRATION_SUCCEED               = Bandizip נרשם בהצלחה
+TEXT_REGISTRATION_ASK                   = אתה בטוח שברצונך לבטל את הרישום של Bandizip
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip אינו רשום.[br]אנא קנו והירשמו ל-Bandizip כדי להשתמש בו ללא כל הגבלות שימוש.
+TEXT_REGISTER_INFO                      = המשתמש הבא נרשם ל-Bandizip:[br]כתובת אימייל: ${str1}[br]מספר סידורי: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = אנטי תוכנות זדוניות בארכיונים
+TEXT_SCAN_AMSI_PROVIDER                 = הפעלת תכונת אנטי תז"ב הושלמה
+TEXT_SCAN_MALWARE_DETECTED              = תוכנה זדונית זוהתה
+TEXT_SCAN_MALWARE_NOTDETECTED           = לא זוהתה תוכנה זדונית
+TEXT_SCAN_MALWARE_TOOBIG                = סריקה נכשלה. הקובץ גדול מדי
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = תוכנה זדונית זוהתה בתוך הארכיון
+TEXT_MSG_MALWARE_TEST_OK                = לא זוהתה תוכנה זדונית בתוך הארכיון
+TEXT_MSG_AMSI_INIT_FAILED               = הפעלת סריקת תכונת אנטי תז"ב נכשלה. עבור פרטים בקר ב:[br]https://go.bandisoft.com/amsi
+TEXT_MSG_AMSI_WIN10_NOTICE              = סריקת תוכנת אנטי תוכנה זדונית זמינה ב-Windows בלבד.[br]לפרטים בקר ב: https://go.bandisoft.com/amsi
+
+[MENU]
+MENUSTR_FILE                            = &קובץ
+MENUSTR_EDIT                            = &עריכה
+MENUSTR_SETTING                         = &אפשרויות
+MENUSTR_FIND                            = מצא
+MENUSTR_VIEW                            = &תצוגה
+MENUSTR_TOOLS                           = &כלים
+MENUSTR_HELP                            = &עזרה
+
+MENUSTR_OPEN                            = &פתח ארכיון\tCtrl+O
+MENUSTR_RECENT                          = קבצים אחרונים
+MENUSTR_CLOSE_FILE                      = &סגור ארכיון\tF4
+MENUSTR_CREATE_ARCHIVE                  = &ארכיון חדש\tCtrl+N
+MENUSTR_NEW_WINDOW                      = חלון חדש \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = חלון חדש(מנהל)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = שמור כ
+MENUSTR_DELETE_ARCHIVE                  = מחק ארכיון \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = מחק ארכיון לצמיתות \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = פתח מיקום ארכיון
+MENUSTR_TEST_ARCHIVE                    = &בדוק ארכיון \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = סריקת תוכנות זדוניות בארכיון\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = &חלץ קובץ \tCtrl+E
+MENUSTR_EXIT                            = יציאה \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &שנה שם קובץ \tF2
+MENUSTR_ADD_FILE                        = &הוסף קובץ \tIns
+MENUSTR_DELETE_FILE                     = &מחק קובץ \tDel
+MENUSTR_EDIT_COMMENT                    = הערת ארכיון
+MENUSTR_SETTING_SUB                     = &הגדרות (F5)
+MENUSTR_REGISTER                        = הירשם ל-Bandizip...
+MENUSTR_UNREGISTER                      = ביטול רישום ל-Bandizip...
+MENUSTR_PASSMAN                         = מנהל הסיסמאות...
+MENUSTR_FIND_ITEM                       = מצא קבצים\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = העתקת קבצים ללוח\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = הדבק קבצים מהלוח\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = חלון התחלה \tF6
+MENUSTR_VIEW_TREECONTROL                = תצוגת עץ הקבצים \tF7
+MENUSTR_VIEW_COMMENT                    = תגובת ארכיון\tF8
+MENUSTR_VIEW_PREVIEW                    = תצוגת תמונה מקדימה
+MENUSTR_VIEW_STATUS_BAR                 = שורת מצב
+MENUSTR_VIEW_TOOLBAR                    = סרגל כלים
+MENUSTR_VIEW_TOOLBAR_NORMAL             = גדול
+MENUSTR_VIEW_TOOLBAR_MINI               = קטן
+MENUSTR_VIEW_TOOLBAR_OLD                = ישן
+MENUSTR_VIEW_TOOLBAR_HIDE               = הסתר
+MENUSTR_VIEW_LISTVIEW                   = רשימת קבצים
+MENUSTR_VIEW_LISTVIEW_ICON              = סמלים
+MENUSTR_VIEW_LISTVIEW_LIST              = רשימה
+MENUSTR_VIEW_LISTVIEW_REPORT            = פרטים
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = אייקונים גדולים
+MENUSTR_VIEW_COLUMN                     = עמודות
+MENUSTR_VIEW_ALWAYS_ON_TOP              = תמיד מעל
+MENUSTR_VIEW_COLOR_SETTING              = הגדרות צבע...
+
+MENUSTR_TOOLS_REPAIR                    = תקן ארכיון...
+MENUSTR_TOOLS_RECOVERY                  = שחזור סיסמא...
+
+MENUSTR_ABOUT                           = &אודות Bandizip \tF1
+MENUSTR_HELPPAGE                        = &עבור לדף עזרה
+MENUSTR_OPEN_FOLDER                     = &פתח תיקית Bandizip
+MENUSTR_FORUM                           = עבור לפורום Bandizip
+MENUSTR_HOMEPAGE                        = עבור לדף הבית
+
+POPUPMENU_VIEWITEM_COMPSIZE             = גודל דחוס
+POPUPMENU_VIEWITEM_ORIGSIZE             = גודל מקורי
+POPUPMENU_VIEWITEM_KIND                 = סוג קובץ
+POPUPMENU_VIEWITEM_DATE_MOD             = תאריך שינוי
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = שיטת דחיסה
+POPUPMENU_VIEWITEM_ENCRMETHOD           = שיטת הצפנה
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = תכונות קובץ
+POPUPMENU_VIEWITEM_COMMENT              = הערת קובץ
+POPUPMENU_VIEWITEM_EXT                  = מידע נוסף
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = חלץ הכל... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = חלץ קבצים נבחרים...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = חלץ הכל לכאן
+
+POPUPMENU_LISTCONTROL_EXECUTE           = פתח\tכנס
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = פתח עם תכנית קשורה
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = ערוך\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = תיקיה חדשה
+POPUPMENU_LISTCONTROL_ADD_FILE          = הוסף קובץ \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = מחק קובץ \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = שנה שם קובץ
+POPUPMENU_LISTCONTROL_SELECT_ALL        = בחר הכל \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = לעבור לתיקיית אב\tרווח
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = מחק ארכיון
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = פתח תיקיית ארכיון
+
+POPUPMENU_EXTRACT_AUTODEST              = חלץ אוטומטית\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = חלץ לתיקייה הנוכחית\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = חלץ לתיקייה כשם הקובץ
+POPUPMENU_EXTRACT_DESKTOP               = חלץ לשולחן העבודה
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = חלץ אוטומטית לשולחן העבודה
+
+POPUPMENU_RECENT_CLEAR                  = מחק היסטוריה
+POPUPMENU_RECENT_NOITEM                 = אין קובץ האחרון
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = פתח עם Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = חלץ אוטומטית
+
+POPUPMENU_CODEPAGE_DEFAULT              = ברירת מחדל
+POPUPMENU_CODEPAGE_SIMPCHINESE          = סינית פשוטה
+POPUPMENU_CODEPAGE_TRADCHINESE          = סינית מסורתית
+POPUPMENU_CODEPAGE_JAPANESE             = יפנית
+POPUPMENU_CODEPAGE_KOREAN               = קוריאנית
+POPUPMENU_CODEPAGE_WINDOWS1252          = מערב אירופה
+POPUPMENU_CODEPAGE_WINDOWS1250          = מרכז אירופה
+POPUPMENU_CODEPAGE_WINDOWS1251          = קירילית
+POPUPMENU_CODEPAGE_WINDOWS1254          = טורקית
+POPUPMENU_CODEPAGE_WINDOWS737           = יונית
+POPUPMENU_CODEPAGE_ARABIC               = ערבית
+POPUPMENU_CODEPAGE_HEBREW               = עברית
+POPUPMENU_CODEPAGE_BALTIC               = שפות בלטיות
+POPUPMENU_CODEPAGE_THAI                 = תאילנדי,
+POPUPMENU_CODEPAGE_UTF8                 = (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = זיהוי אוטומטי
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = הצג עם Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = הצג באמצעות התוכנה שהוגדרה
+
+DLG_MENUSTR_MINIMIZE2TRAY               = מזער לסרגל מערכת
+DLG_MENUSTR_LOW_PRIORITY                = עדיפות נמוכה
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = מחק את הארכיון אחרי חילוץ
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = אישור
+IDCANCEL                                = ביטול
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = אודות Bandizip
+IDC_BTN_HOMEPAGE                        = דף הבית
+IDC_BTN_UPDATE                          = עדכן
+IDC_BTN_REGIST                          = הירשם עכשיו
+IDC_BTN_BUY                             = קנה עכשיו
+IDC_BTN_LEARNMORE                       = למד עוד...
+IDC_STATIC_LICENSE                      = מידע הרישום של Bandizip
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = פתח קובץ
+IDC_STATIC_OPENING                      = פותח
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = בחר את נתיב החילוץ
+IDC_STATIC_FOLDER                       = &נתיב יעד
+IDC_STATIC_FILES2EXTRACT                = חלץ:
+IDC_RADIO_FILES2EXTRACT_0               = &כל הקבצים
+IDC_RADIO_FILES2EXTRACT_1               = &קבצים נבחרים
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &חלץ לתיקיית "היעד" תחת התיקייה שנבחרה
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = מחק את הקבצים המקוריים לאחר חילוץ
+IDC_CHK_REMEMBER_SETTINGS               = שמור הגדרות
+IDC_BTN_NEWFOLDER                       = &תיקיה חדשה
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = חלץ
+IDC_BTN_STOP                            = עצור
+IDC_BTN_CLOSE                           = סגור
+IDC_BTN_PAUSE                           = השהה
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = ארכיון חדש
+IDC_STATIC_FILE_LIST                    = הוסף קבצים לארכיון
+IDC_STATIC_ARCHIVE_SETTING              = הגדרות ארכיון
+IDC_STATIC_ARCHIVE_NAME                 = שם קובץ
+IDC_STATIC_SET_DEST_FOLDER              = תיקיית יעד
+IDC_STATIC_ARCHIVE_TYPE                 = שמור כסוג
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = פיצול קובץ
+IDC_STATIC_COMPRESSION_METHOD           = רמת דחיסה
+IDC_STATIC_HELP_SPLIT                   = [עזרה]
+IDC_STATIC_HELP_7Z                      = [פורמט 7Z]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &עיין...
+IDC_BTN_SET_PASSWORD                    = הזן &סיסמא...
+IDC_BTN_TEST_ARCHIVE                    = &בדוק ארכיון
+IDC_BTN_DELETE_SRC                      = מחיקת קבצים לאחר הוספה לארכיון
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = לדחוס לכל שם של קובץ/תיקייה
+IDC_BTN_SET_DEST_FOLDER                 = שנה את תיקיית היעד
+IDC_BTN_TOGGLE_ADVANCED                 = אפשרויות נוספות...
+IDC_BTN_SET_SFX                         = הגדרות SFX...
+IDC_BTN_ADD                             = &הוסף...
+IDC_BTN_DEL                             = &מחק
+IDC_BTN_START                           = &התחל
+IDC_BTN_COMP_ADVANCED                   = מתקדם
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = הגדרות דחיסת ZIP/ZIPX
+IDC_AA_ZIP_ALGO                         = שיטת דחיסה
+IDC_AA_ZIP_ENC                          = שיטת הצפנה
+IDC_AA_ZIP_THREAD                       = מס' של CPU threads
+COMBO_TEXT_THREAD_AUTO                  = אוטומטי
+IDC_CHK_ZIP_STORESYMLINK                = אחסן קישורים סמליים
+IDC_CHK_ZIP_COMMENT                     = אחסן היערות
+IDD_AA_7Z                               = הגדרות דחיסת 7Z
+IDC_AA_7Z_ALGO                          = שיטת דחיסה
+IDC_AA_7Z_SOLID                         = גודל חסימה מוצקת
+IDC_CHK_7Z_ENC_FILENAMES                = הצפן שמות קבצים
+IDD_AA_TAR                              = הגדרות ארכיון TAR
+IDC_CHK_TAR_SYMLINK                     = אחסן קישורים סמליים
+IDC_CHK_TAR_HARDLINK                    = אחסן קישורים קשים
+COMBO_TEXT_SOLID_NONE                   = לא מוצקת
+COMBO_TEXT_SOLID_SOLID                  = מוצקת
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = הזן סיסמא
+IDC_STATIC_DESC_ARCHIVING               = הזן סיסמא עבור הארכיון. סיסמא של לפחות [br]8 תווים מומלצת עבור בטיחות טובה יותר
+IDC_STATIC_DESC_MASTERPASS              = הזן סיסמת מאסטר עבור מנהל הסיסמאות.[br]סיסמא של לפחות 8 תווים מומלצת עבור[br]בטיחות טובה יותר.
+IDC_STATIC_DESC_EXTRACT                 = הזן סיסמא עבור הקובץ המוצפן
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = הזנת סיסמא לא חוקית. הזן סיסמא מחדש
+IDC_STATIC_PWD                          = הזן סיסמא
+IDC_STATIC_PWD2                         = הזן סיסמא שוב
+IDC_BTN_SHOW_PASSWORD                   = הראה סיסמה
+IDC_BTN_PASSMAN                         = מנהל סיסמאות ...
+IDC_CHECK_APPLY_ALL                     = &החל הכל
+IDC_STATIC_PASS_RECOVERY                = שכחת את סיסמתך? נסה את משחזר הרישיון [br]של Bandizip
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = מנהל הסיסמאות
+TEXT_MSG_CORRUTP_DATA                   = מידע סיסמאות מאוחסן נפגם
+TEXT_PASSMAN_WARNING1                   = כל עוד לא הוזן סיסמת מאסטר, אחסון הסיסמאות[br]במנהל הסיסמאות אינו מוצפן
+TEXT_PASSMAN_WARNING2                   = זהירות נדרשת אם אתה משתמש בתכונה זו[br]במקום ציבורי או במחשב משותף
+LIST_PASS_HEADER1                       = סיסמא
+LIST_PASS_HEADER2                       = הצג שם
+IDC_BTN_ADD                             = הוסף
+IDC_BTN_DEL                             = מחק
+IDC_BTN_EDIT                            = ערוך
+IDC_BTN_SET_MASTERPASS                  = הגדר סיסמת מאסטר
+IDC_BTN_DEL_MASTERPASS                  = הסר סיסמת מאסטר
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = הזן סיסמת מאסטר
+IDC_STATIC_MASTPASS_MSG                 = הז סיסמת מאסטר כדי לקבל גישה למנהל[br] הסיסמאות. אתחל כדי למחוק את כל מידע הסיסמאות המאוחסנות במערכת
+IDC_BTN_INITPASSMAN                     = אתחל
+TEXT_ASK_INIT_PASSMAN                   = האם אתה בטוח שברצונך למחוק את כל מידע הסיסמאות?
+IDC_BTN_SHOW_PASSWORD                   = הראה סיסמה
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = מידע סיסמא
+IDC_STATIC_PASSWORD                     = סיסמא
+IDC_STATIC_DISPNAME                     = הצד שם (אופציונלי)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = בחר
+IDC_BTN_OPEN                            = פתח
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = מכווץ
+TEXT_ARCHIVE_TESTING                    = בודק
+IDC_BTN_STOP                            = עצור
+IDC_BTN_CLOSE                           = סגור
+IDC_BTN_PAUSE                           = השהה
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = קבצים כפולים
+IDC_STATIC_DUPE_MESSAGE                 = אותו קובץ קיים.
+IDC_STATIC_DUPEFILE_OLD                 = קובץ מקורי
+IDC_STATIC_DUPEFILE_NEW                 = הקובץ הנוכחי
+IDC_STATIC_DUPE_ASK                     = בחר את האפשרות למעלה:
+IDC_RADIO_DUPE_METHOD0                  = &דלג
+IDC_RADIO_DUPE_METHOD1                  = &שכתב
+IDC_RADIO_DUPE_METHOD2                  = &שנה שם
+IDC_CHECK_DUPE_APPLY_ALL                = &החל לכל הקבצים
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = בחר אפשרויות כיווץ
+IDC_STATIC_ASK_HANDLING                 = בחר את האפשרות שלהלן:
+IDC_RADIO_HANDLE_METHOD0                = &פתח ארכיון
+IDC_RADIO_HANDLE_METHOD1                = &דחיסה חדשה
+IDC_RADIO_HANDLE_METHOD2                = &הוסף קבצים לארכיון נוכחי
+IDC_CHK_PASS                            = השתמש בסיסמא
+IDC_STATIC_PASSWORD_AGAIN               = הזן סיסמה שוב
+IDC_CHK_SHOW_PASS                       = הצג סיסמה
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = הגדרות
+IDC_BTN_INIT                            = איפוס
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = הגדרות כלליות
+IDC_CHK_EXIT_WITH_ESC                   = מקש ESC לסגור חלון
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = בדוק תמיד קבצים כאשר הקובץ הוסף/נמחק/הוחלף
+IDC_CHK_SNAP                            = הצמד חלון
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = הצג [..] תיקייה בארכיון
+IDC_CHK_SHOW_GRID_AT_LIST               = הצג קווי רשת בתצוגת הקבצים
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = בחר שורה מלאה בארכיון
+IDC_CHK_ONE_CLICK_ACTIVATE              = לחיצה אחת לפתיחת פריט
+IDC_STATIC_UPDATE                       = הגדרות עדכון
+TEXT_UPDATE_0                           = הודע והתקן את העדכון האחרון
+TEXT_UPDATE_1                           = הודע והתקן את העדכון היציב בלבד
+TEXT_UPDATE_2                           = אל תודיע על עדכונים כלל
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = שיוכי קבצים
+IDC_BTN_SELECT_MANDATORY                = בחר עיקריים
+IDC_BTN_SELECT_ALL                      = בחר הכל
+IDC_BTN_CLEAR_ALL                       = ביטול בחירה בכל
+IDC_BTN_APPLY_NOW                       = החל עכשיו
+IDC_STATIC_ICON_PACK                    = בחר חבילת אייקונים:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [הורדת חבילת אייקונים]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - הגדר תוכניות ברירת מחדל
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = הגדרות שיוך קבצים
+;IDC_STATIC_ASSOC_DESC1                 = עבור Windows 8 או בגירסאות מתקדמות יותר, אתה יכול לשייך את הקבצים באופן הבא:
+;IDC_STATIC_ASSOC_DESC2                 = 1. לחץ על כפתור "הגדרות שיוך".
+;IDC_STATIC_ASSOC_DESC3                 = 2. סמן "בחר הכל" בחלון "שיוכי קבצים".
+;IDC_STATIC_ASSOC_DESC4                 = 3. לחץ על כפתור "שמור".
+;IDC_STATIC_ASSOC_DESC1_10              = עבור Windows 10, אתה יכול לשייך את הקבצים באופן הבא:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. לחץ על כפתור "הגדרות שיוך".
+;IDC_STATIC_ASSOC_DESC3_10              = 2. בחר ב"Bandizip" ב"הגדר תוכניות ברירת מחדל".
+;IDC_STATIC_ASSOC_DESC4_10              = 3. לחץ על "קבע תוכנית זו כברירת מחדל".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = הגדרות שיוך
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = השיטה הקלאסית
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = פעולת לחיצה כפולה
+IDC_RADIO_SHELL_OPEN_0                  = פתח עם Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = חלץ אוטומטי
+IDC_RADIO_SHELL_OPEN_2                  = הראה תפריט הקשר
+IDC_RADIO_SHELL_OPEN_3                  = חלץ באופן אוטומטי לתיקייה הייעודית
+IDC_BTN_SET_EXTRACT_FOLDER              = עיין...
+IDC_RADIO_SHELL_OPEN_4                  = חלץ לתיקייה כשם הקובץ
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = מחק את הארכיון לאחר החילוץ על ידי לחיצה כפולה
+
+IDC_STATIC_SHELL_EXTRACT                = תפריט חילוץ
+IDC_CHK_SHELL_EXTRACT_HERE              = חלץ לכאן
+IDC_CHK_SHELL_EXTRACT_AUTO              = חלץ אוטומטי
+IDC_CHK_SHELL_EXTRACT_SUB               = חלץ ל <תיקייה\>
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = חלץ לכאן ומחק
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = חלץ לכאן (חכם) ומחק
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = חלץ אל תיקיית "שם-ארכיון" ומחק
+IDC_CHK_SHELL_EXTRACT_DLG               = חלץ לתיקייה אחרת
+IDC_CHK_SHELL_EXTRACT_ADMIN             = חלץ כמנהל
+IDC_CHK_SHELL_TEST_ARCHIVE              = בדוק ארכיון
+IDC_CHK_SHELL_OPEN_ARCHIVE              = פתח עם Bandizip
+IDC_CHK_SHELL_PREVIEW                   = תצוגה מקדימה של ארכיון
+IDC_STATIC_SHELL_PREVIEW_SIZE           = קבצי תצוגה מקדימה:
+IDC_CHK_SHELL_PREVIEW_TREE              = תצוגה מקדימה של ארכיון בתצוגת עץ
+
+IDC_STATIC_SHELL_ARCHIVING              = תפריט דחיסה
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "כווץ ל"שם הקובץ.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = כווץ ל- "שםקובץ.zip" ומחק
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = כווץ ל"שםהקובץ.zip" ודוא"ל
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "כווץ ל"שםהקובץ.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "כווץ ל"שםהקובץ.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "כווץ ל"שםהקובץ.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "כווץ ל"שםהקובץ.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "כווץ ל"שםהקובץ.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "כווץ ל"שםהקובץ.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "כווץ ל"שםהקובץ.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "כווץ ל"שםהקובץ.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "כווץ ל"שםהקובץ.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "כווץ ל"שםהקובץ.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "כווץ לכל "שםקובץ/תיקייה.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "כווץ לכל "שםקובץ/תיקייה.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = צור ארכיון (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = כווץ כמנהל
+IDC_CHK_SHELL_ARCHIVING_RULE            = כווץ לשם קובץ מותאם אישית
+IDC_STATIC_FILENAME_RULE_HELP           = כלל: ${NAME}=שם-קובץ, %Y=שנה, %m=חודש, %d=יום, %H=שעה, %M=דקה, %S=שנייה
+
+IDC_STATIC_SHELL_BKGND                  = לחץ לחצן ימני בעכבר על החלל הלבן [br]כדי להציג את התפריט הקופץ בסייר Windows
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = "השתמש בפונקציית "תיקייה חדשה""
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = הפעל חלון פקודה (cmd.exe) - לחץ [br]על Shift כדי לפתוח cmd.exe כמנהל מערכת
+
+IDC_STATIC_SHELL_ETC                    = אחרים
+IDC_CHK_SHELL_DO_NOT_USE                = בטל תפריט הקשר
+IDC_CHK_SHELL_AS_SUB_MENU               = תפריט הקשר מדורג
+IDC_CHK_SHELL_HIDE_ICON                 = הסתר סמל Bandizip
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = להבחין בקובץ ארכיון דרך תוכן
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = הצג תפריט הקשר ארכיון אפילו לקבצי ארכיון
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = השתמש בקובץ שנבחר/שם תיקייה בסמן העכבר
+IDC_CHK_SHELL_USE_DROP_HANDLER          = הוספת קבצים ישירות לקובץ ZIP על ידי גרירה ושחרור בסייר הקבצים
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = הגדרות חילוץ
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = אם יש תיקיית שורש אחד בלבד בארכיון, הצג קבצים בתיקייה
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = פתח את התיקייה לאחר החילוץ
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = אל תסגור את חלון ההתקדמות לאחר החילוץ
+IDC_CHK_FAST_DRAG_DROP                  = השתמש בגרירה ושחרור מהיר אם קובץ החילוץ גדול
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = בTGZ ובTBZ חלץ כל קובץ בנפרד
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = אפילו בקובץ גדול של TGZ וTBZ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = בעת שימוש "חלץ באופן אוטומטי", צור תיקייה אם יש יותר מפריט אחד ברמה עליונה
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = זיהוי קוד דף מקינטוש באופן אוטומטי
+IDC_CHK_UNIXZIP_AS_UTF8                 = השתמש בקידוד UTF-8 בעת פתיחת קובץ zip מ-UNIX
+IDC_CHK_PARALLEL_EXT                    = השתמש בחילוץ מקביל במידת האפשר
+IDC_STATIC_CODEPAGE                     = קוד דף ברירת מחדל
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = הפעל את סוגי הקבצים הבאים לאחר פריקת הכל בלחיצה כפולה
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = הגדרות דחיסה
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = אל תיצור תיקיית שורש כאשר אתה דוחס תיקייה אחת בלבד
+IDC_CHK_USE_UTF8_COMPRESS               = השתמש בשמות קבצים (UTF-8) Unicode בקבצי Zip
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = אחסן את שמות קבצי Unicode בשדה כותרת נוספת של קבצי Zip (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = השתמש בשמות קבצים (UTF-8) Unicode בקבצי tar,tgz
+IDC_CHK_FORCE_ZIP64                     = השתמש תמיד בפורמט ZIP64 אפילו שגודל הקובץ הוא פחות מ 2GB (לא מומלץ)
+IDC_CHK_EXCLUDE_THUMBSDB                = אל תכלול קובץ Thumbs.db בדחיסה
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = שמור מידע על זמן NTFS בעת יצירת קבצי Zip
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = השתמש בדחיסה במהירות גבוהה
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = אל תסגור את חלון ההתקדמות לאחר דחיסה
+IDC_STATIC_COMPRESSION_METHOD           = רמת דחיסה:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = בדוק את הארכיון לאחר דחיסה
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = השתמש בתיקייה האחרונה לדחיסה חדשה
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = תיקיית ברירת מחדל לדחיסה חדשה
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = עיין...
+IDC_CHK_EXCLUDE_FILTER                  = סוגי קבצים שלא לכלול בעת דחיסה
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = הגדרות מציג
+IDC_CHK_SHOW_PREVIEW                    = תצוגה מקדימה של תמונה
+IDC_CHK_SHOW_FOLDER_SIZE                = הצג גודל מקורי/מכווץ של תיקייה
+IDC_CHK_SET_LISTCONTROL_FONT            = הגדר את הגופן של רשימת הקבצים
+IDC_BTN_SET_FONT                        = הגדר גופן ...
+
+IDC_STATIC_SETTING_VIEWITEM             = עמודות
+IDC_CHK_VIEWITEM_COMPSIZE               = גודל דחוס
+IDC_CHK_VIEWITEM_ORIGSIZE               = גודל מקורי
+IDC_CHK_VIEWITEM_KIND                   = סוג קובץ
+IDC_CHK_VIEWITEM_DATE_MOD               = תאריך שינוי
+IDC_CHK_VIEWITEM_COMPMETHOD             = שיטת דחיסה
+IDC_CHK_VIEWITEM_ENCRMETHOD             = שיטת הצפנה
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = תכונות קובץ
+IDC_CHK_VIEWITEM_COMMENT                = הערת קובץ
+IDC_CHK_VIEWITEM_EXT                    = מידע נוסף
+
+IDC_STATIC_IMAGE_VIEWER                 = מציג התמונה
+IDC_RADIO_IMAGE_VIEWER_0                = השתמש במציג תמונה פנימי
+IDC_RADIO_IMAGE_VIEWER_1                = השתמש בתוכנה מקושרת
+IDC_RADIO_IMAGE_VIEWER_2                = השתמש ב-Honeyview אם מותקן
+
+IDC_STATIC_EDITOR                       = עורך
+IDC_BTN_SET_EDITOR_PATH                 = עיין...
+
+IDC_STATIC_COLOR                        = צבע
+IDC_STATIC_COLOR_THEME                  = צבע ערכת נושא
+IDC_BTN_BKGND                           = נבחר
+IDC_STATIC_COLOR_TEXT                   = צבע גופן
+IDC_STATIC_COLOR_TEXT_AUTO              = אוטומטי
+IDC_STATIC_COLOR_TEXT_WHITE             = לבן
+IDC_STATIC_COLOR_TEXT_BLACK             = שחור
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = הגדרות אבטחה
+IDC_CHK_COPY_ZONE_IDENTIFIER            = העתק אזור. מידע מזהה של ארכיון שהורד מהאינטרנט במהלך החילוץ
+IDC_CHK_AMSI_BEFORE_EXTRACT             = בדוק תוכנות זדוניות לפני החילוץ
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = ייצא הגדרות Bandizip
+IDC_STATIC_ETC                          = הגדרות שונות
+IDC_CHK_SET_TEMP_FOLDER                 = הגדר את מיקום התיקייה הזמנית
+IDC_BTN_SET_TEMP_FOLDER                 = עיין...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = זהה את סוגי הקבצים הבאים בתור קבצי ארכיון
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = מחק קבצים זמניים ביציאה מתהליך הילד
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = ההעברה של קבצים לסל מחזור בעת מחיקה
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = סופו של קובץ זה הוא שבור או חסר
+IDC_CHK_USE_LONG_PATH_NAME              = טפל בשמות נתיב ארוכים העולים על 260 תווים
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = אפשר לסייר הקבצים למחוק קבצי ארכיון פתוחים
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = הרחב עץ תיקיות באופן אוטומטי
+IDC_CHK_USE_MODAL_DIALOG                = השתמש בתיבת הדו-שיח מודאלית ביצירת ארכיון או חילוץ
+IDC_CHK_USE_ELEGANT_UI                  = השתמש בעיצוב ממשק משתמש אלגנטי
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = הצג 'מסך התחלה' בפתיחת Bandizip
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = הצג את הנתיב המלא בשורת הכותרת
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = מחיקת קבצים שחולצו כאשר החילוץ מתבטל
+IDC_CHK_COPY_ZONE_IDENTIFIER            = העתק אזור. מידע מזהה של ארכיון שהורד מהאינטרנט במהלך החילוץ
+IDC_CHK_USE_SET_END_OF_FILE             = הקצה מראש שטח דיסק לקובץ פלט
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = כווץ קובץ אפי' אם הקובץ בשימוש ע"י תהליך האחר
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = הגדרות שפה
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = רוצה לעזור לתרגם תוכנה זו? [br]לחץ כאן...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = הגדרות SFX (ארכיון חילוץ עצמי)
+IDC_STATIC_TARGET_PATH                  = נתיב לחילוץ:
+IDC_STATIC_TITLE                        = כותרת SFX:
+IDC_STATIC_RUN                          = הפעל אחרי חילוץ:
+IDC_STATIC_MESSAGE                      = הודעת SFX:
+IDC_CHK_AUTO_CLOSE                      = סגור חלון SFX לאחר חילוץ
+IDC_BTN_SAVE_SFX_SETTING                = שמור הגדרות
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = מצא קבצים
+IDC_STATIC_FIND                         = מצא את זה:
+IDC_BTN_CLOSE                           = סגור
+IDC_BTN_DELETE                          = מחק
+IDC_BTN_EXTRACT                         = חלץ
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = הערת ארכיון
+IDC_STATIC_COMMENT                      = הוספה/עריכת הערה בארכיון הזה
+IDC_CHK_USE_UTF8                        = שמור הערה כ (UTF-8) Unicode
+IDC_BTN_LOAD_FROM_FILE                  = טען הערה מקובץ (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = אזהרה
+IDC_STATIC_WARN_EXECUTABLE              = קובץ זה הוא קובץ הפעלה. הפעלת תוכנית זו עשויה להזיק למחשב שלך. האם ברצונך להמשיך?
+IDC_CHK_DO_NOT_ASK_AGAIN                = אל תשאל שוב
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = הירשם ל-Bandizip
+IDC_STATIC_DESC1                        = הזן את כתובת האימייל ואת המספר סדורי שלך שקיבלת באימייל
+IDC_STATIC_EMAIL                        = כתובת אימייל
+IDC_STATIC_PRDUCT_KEY                   = מספר סידורי
+IDC_BTN_REGISTER                        = הרשם עכשיו
+IDC_STATIC_BUYNOW                       = עדיין לא רכשת רישיון עבור Bandizip? [קנה עכשיו]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = הנחיות עבור רישיון Bandizip
+TEXT_LIMIT_PASSMAN                      = רק סיסמא אחד יכול להישמר במנהל הסיסמאות על המהדורה הסטנדרטית של Bandizip
+TEXT_SHOW_AD                            = פרסומות יופיעו במהדורה הסטנדרטית של Bandizip.[br]אתה יכול לרכוש את המהדורה בתשלום על מנת להסיר את הפרסומות
+TEXT_CANNOT_CHANGE                      = תכונה זו אינה יכולה להשתנות במהדורה הסטנדרטית של Bandizip[br]אתה יכול לרכוש את המהדורה בתשלום על מנת ללשנות את התכונה הזו
+TEXT_CANNOT_USE                         = תכונה זו אינה זמינה במהדורה הסטנדרטית של Bandizip[br]אתה יכול לרכוש את המהדורה בתשלום על מנת להשתמש בתכונה זו
+TEXT_PORTABLE_NOTICE                    = תכונה זו אינה זמינה עבור המהדורה הניידת של Bandizip[br]אתה יכול לרכוש את המהדורה בתשלום על מנת להשתמש בתכונה זו
+IDC_STATIC_COMPARISON                   = ההבדלים בין המהדורות השונות...
+IDC_STATIC_HOWTOREGISTER                = כבר רכשת את Bandizip? [כיצד להירשם]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = תקן ארכיון
+IDC_STATIC_SRC                          = קובץ לתיקון
+IDC_STATIC_DST                          = קובץ מתוקן
+IDC_BTN_START                           = התחל תיקון
+IDC_BTN_TEST                            = בדוק תיקון
+IDC_BTN_STOP                            = עצור
+TEXT_NOTICE                             = דפדף ובחר קובץ לתיקון, ולחץ על "התחל תיקון".
+TEXT_ERR_OCCURRED                       = שגיאה התרחשה
+TEXT_ERR_NOT_A_ZIP                      = הקובץ הנבחר הינו בפורמט שאינו נתמך. רק קבצי ZIP נתמכים כרגע.
+TEXT_ERR_NO_INFO                        = הקובץ הנבחר אינו כולל מידע לתיקון
+TEXT_MSG_START                          = מתחיל בתיקון
+TEXT_MSG_FINISH                         = התיקון הושלם
+TEXT_MSG_ANALYZING                      = מנתח...
+TEXT_MSG_CANCELED                       = התיקון בוטל
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = בחר קובץ (.zip) לפני שאתה מתחיל את התיקון.
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = מספר באנדזיפים מותקנים במערכת שלך. אנא מחק אחד מהם כדי למנוע בעיות.
+CMD_UNINST_MSSTORE                      = הסר את באנדיזיפ MSE
+CMD_UNINST_PROGFILES                    = הסר את באנדיזיפ
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = פתח
+$TOOLBAR_CLOSE_FILE                     = סגור
+$TOOLBAR_EXTRACT_FILE                   = חלץ
+$TOOLBAR_CREATE_ARCHIVE                 = חדש
+$TOOLBAR_DELETE_FILE                    = מחק
+$TOOLBAR_ADD_FILE                       = הוסף
+$TOOLBAR_TEST_ARCHIVE                   = בדוק
+$TOOLBAR_CODEPAGE                       = קידוד
+$TOOLBAR_VIEWITEM                       = עמודות
+$TOOLBAR_SCAN                           = סרוק
+
+$TOOLBAR_OPEN2                          = פתח ארכיון
+$TOOLBAR_CREATE_ARCHIVE2                = ארכיון חדש
+
+$TEXT_DESKTOP                           = שולחן עבודה
+$TEXT_DOCUMENT                          = מסמכים
+$TEXT_PICTURE                           = תמונות
+$TEXT_COMPUTER                          = מחשב
+
+$TEXT_SETTINGTAB_GENERAL                = כללי
+$TEXT_SETTINGTAB_ASSOC                  = שיוך
+$TEXT_SETTINGTAB_SHELL                  = תפריט הקשר
+$TEXT_SETTINGTAB_EXTRACT                = חילוץ
+$TEXT_SETTINGTAB_ARCHIVE                = דחיסה
+$TEXT_SETTINGTAB_VIEWER                 = מציג
+$TEXT_SETTINGTAB_SECURITY               = אבטחה
+$TEXT_SETTINGTAB_ETC                    = מתקדם
+$TEXT_SETTINGTAB_LANG                   = שפה
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = פתח מיקום קובץ
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = פתח מיקום ארכיון
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = פתח מיקום קובץ אחרי החילוץ
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = פתח מיקום ארכיון
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = פתח תיקיית יעד
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = אל תסגור את החלון הזה לאחר החילוץ
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = אל תסגור את החלון הזה לאחר הסיום
+$TOOLTIP_ADVANCED_MENU                  = הגדרות שונות
+$TOOLTIP_REGISTER                       = הירשם
+$TOOLTIP_UPDATE                         = עדכונים
+$TOOLTIP_PREVIEW                        = הצג אייקונים גדולים
+$TOOLTIP_REPORT                         = הצג פרטים
+
+$TEXT_INSTALL_START                     = בסדר, אני אנסה את זה
+$TEXT_INSTALL_CLOSE                     = לא, תודה
+$TEXT_INSTALL_HONEYVIEW_LINK            = ראה עוד...
+
+$TEXT_HELP_PAGE                         = דף עזרה
+$TEXT_AD                                = פרסומת
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = משחזר הרישיונות של Bandizip
+TEXT_MSG_OPENING                        = פותח את הארכיון: ${str1}
+TEXT_MSG_CANCELED                       = פתיחת הארכיון בוטלה
+TEXT_MSG_BROKEN                         = הארכיון נפגם
+TEXT_MSG_NO_PASSWD                      = הארכיון ללא סיסמא
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = בארכיון זה מוצפן כותרת הקבצים; ארכיון מסוג זה אינו נתמך כרגע
+TEXT_MSG_OPEN_FIRST                     = פתח ארכיון לפני תחילת שחזור
+TEXT_MSG_CANT_OPEN                      = נכשל בפתיחת ארכיון. (Code:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = בחר סוג תוים לשחזור
+TEXT_MSG_INIT_FAIL                      = אתחול נכשל
+TEXT_MSG_NOT_FOUND                      = השחזור נכשל. הסיסמא לשחזור אינה יכולה לעלות על 4 תוים במהדורה הסטנדרטית של Bandizip
+TEXT_MSG_FILE2FINDPWD                   = הקובץ(ים) שלמעלה יעובדו לצורך השחזור.
+TEXT_MSG_ERRORATFINDINDEX               = נכשל במציאת קבצים לשחזור.
+TEXT_MSG_COPY2CLIPBOARD                 = הסיסמא המשוחזרת הועתקה ללוח.
+TEXT_STATE_MSG_READY                    = לחץ על התחל כדי להתחיל את השחזור
+TEXT_STATE_MSG_WORKING                  = משחזר את הסיסמא
+TEXT_STATE_MSG_PAUSING                  = מושהה
+TEXT_STATE_MSG_STOPPING                 = מבטל...
+TEXT_STATE_MSG_FOUND                    = סיסמא של ${num1} תוים שוחזרה ב-${str1} שניות. (${str2})
+TEXT_ASK_EXIT                           = אתה בטוח שברצונך לצאת
+TEXT_COMBO_THREAD_AUTO                  = אוטומטי
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = הגדרות
+IDC_STATIC_MULTI_CORE                   = עיבוד רב - ליבה
+IDC_STATIC_MULTI_CORE_DESC              = ציין את מספר התהליכונים שישמשו לשחזור.[br]מומלץ לבחור "אוטומטי" או מספר קטן יותר ממספר ליבות המעבד המותקנות במערכת שלך.
+IDC_STATIC_PREP_POSTP                   = קידומת
+IDC_STATIC_PREP                         = קידומת
+IDC_STATIC_PREP_DESC                    = הוסף את הקידומת בראשית הסיסמאות לפני עיבודן.[br]למשל: .http://www
+IDC_STATIC_SPECIFY                      = ציין תווים
+IDC_STATIC_ETC                          = שונות
+IDC_CHK_USE_SIGNATURE_BY_EXT            = השתמש בתוסף הקובץ לשחזור מהיר יותר.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = פתח
+$STEP_2                                 = בדוק
+$STEP_3                                 = הגדרות
+$STEP_4                                 = שחזור
+$STEP_5                                 = סיום
+$FILE_PATH_NAME                         = מיקום
+$BTN_NEXT_PAGE                          = הבא>
+$BTN_PREV_PAGE                          = <הקודם
+$BTN_OK                                 = אישור
+$BUTTON_BUY_NOW                         = קנה את המהדורה המתקדמת של Bandizip
+$STATIC_OPEN_DESC                       = לחץ על "פתח ארכיון" כדי לדפדף ולבחור בארכיון מוצפן. <br> אתה יכול גם לגרור ולשחרר את הארכיון ישירות בתיבת דו-שיח זו.
+$STATIC_PRICE_DESC1                     = מדריך לרישיון Bandizip
+$STATIC_PRICE_DESC2                     = משחזר הסיסמה זמין רק במהדורה המתקדמת של Bandizip. הסיסמה לשחזור אינה יכולה לחרוג מהאורך המרבי של 4 תווים במהדורה הסטנדרטית של Bandizip
+$STATIC_FILELIST_DESC                   = הקבצים הבאים כלולים בארכיון זה. בדוק אותם ולחץ על הבא.
+$FILELIST_HEADER_NAME                   = שם
+$FILELIST_HEADER_SIZE                   = גודל
+$FILELIST_HEADER_DATE                   = תאריך ששונה
+$FILELIST_HEADER_METHOD                 = שיטת דחיסה
+$FILELIST_HEADER_PWMETHOD               = שיטת הצפנה
+$STATIC_SYMBOL_DESC                     = ציין סוגים של תווים המשמשים בסיסמא צפויה. <br> אם תבחר יותר או את כל הסוגים, הדבר יגרום לשחזור לקחת יותר זמן.
+$STATIC_CUR_PASSWORD                    = מעבד
+$STATIC_CUR_PASSLEN                     = אורך
+$STATIC_ELAPSED                         = הזמן שחלף
+$STATIC_SPEED                           = מהירות עיבוד
+$STATIC_CLIPBOARD_DESC                  = העתק את הסיסמא המשוחזרת ללוח והדבק אותה
+$BUTTON_STOP                            = ביטול
+$BUTTON_START                           = התחל
+$IDC_BTN_PAUSE                          = השהה
+$IDC_BTN_UNPAUSE                        = התחל מהתחלה
+$IDC_BTN_OPEN                           = פתח
+$IDC_BTN_SETTING                        = מתקדם
+$IDC_BTN_COPY2CLIPBOARD                 = העתק
+$IDC_BTN_CANCEL_PAYMENT                 = מאתחל
+$BUTTON_HELP_PAGE                       = עזרה לגבי הזמן המשוער
+$CHECK_SYMBOL_NUM                       = ספרה (9 ... 0123)
+$CHECK_SYMBOL_LOWERCASE                 = אותיות קטנות (abcd ... z)
+$CHECK_SYMBOL_UPPERCASE                 = אותיות גדולות (ABCD ... Z)
+$CHECK_SYMBOL_SYMBOL                    = דמות מיוחדת (! @ # $ ...)
+$CHECK_SYMBOL_SPACE                     = רווח
+$CHECK_SYMBOL_ALL                       = הכל
+$CHECK_SYMBOL_SPECIFIED                 = תווים שצוינו
+$FOUNDED_PASSWORD                       = הסיסמא המשוחזרת היא...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = תיקיה חדשה
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &תיקיה חדשה
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = פתח עם Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = בדוק ארכיון
+TEXT_MENU_LAUNCH_CMD                    = &הרץ את חלון הפקודה
+TEXT_MENU_LAUNCH_CMD_ADMIN              = הרץ את חלון הפקודה (מנהל)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = דחוס ל &כל שם קובץ/תיקייה
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "דחוס ל "כל קובץ/תיקייה שם.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = דחוס ל- "$ {str1}" ומחק
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = דחוס ל "${str1}" ודוא"ל...
+TEXT_MENU_ARCHIVE_ZIPX                  = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "דחוס ל-"${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "דחוס ל-"${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "דחוס ל-"${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "דחיסה לכל "שם-קובץ.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "דחיסה לכל "שם-קובץ.xz""
+TEXT_MENU_ARCHIVE_RULE                  = "דחוס ל "${str1}""
+TEXT_MENU_ARCHIVE_POPUP                 = הוסף לארכיון (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = דחס כמנהל
+
+TEXT_MENU_EXTRACT_HERE                  = &חלץ לכאן
+TEXT_MENU_EXTRACT_AUTO                  = חלץ& אוטומטית
+TEXT_MENU_EXTRACT_AUTO_EACH             = חילוץ &אוטומטי (Each)
+TEXT_MENU_EXTRACT_SUB                   = חלץ כל ארכיון לתיקייה נפרדת
+TEXT_MENU_EXTRACT_ARCHIVENAME           = חלץ &ל ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = חלץ לתיקיה אחרת...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = חלץ כמנהל
+TEXT_MENU_EXTRACT_HERE_DEL              = חלץ לכאן ומחק
+TEXT_MENU_EXTRACT_AUTO_DEL              = חלץ לכאן (חכם) ומחק
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = חילוץ חכם (כל אחד) ומחק
+TEXT_MENU_EXTRACT_SUB_DEL               = חלץ לתיקיות נפרדות ומחק
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = חלץ &ל ${str1}\ ומחק
+
+TEXT_MENU_PREVIEW                       = תצוגה מקדימה של ארכיון
+TEXT_MENU_PREVIEW_BROKEN                = קובץ זה הוא פורמט לא ידוע או פגום
+TEXT_MENU_PREVIEW_TIMEOUT               = הבקשה פגה.
+TEXT_MENU_PREVIEW_EMPTY                 = קובץ ארכיון ריק
+TEXT_MENU_PREVIEW_ENCRYPTED             = שם קובץ מוצפן
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = לא ניתן להשתמש בפונקצית תצוגה המקדימה של ארכיון. [br][br]הפעל מחדש את סייר הקבצים או [br]הפעל מחדש את המחשב.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = לא יכול לקרוא רשימת קבצים
+
+TEXT_MENU_OPENING                       = פותח...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = עדכוני Bandizip
+TEXT_UPDATER_TEXT1                      = עדכוני Bandizip מוכנים.
+TEXT_UPDATER_TEXT_DL                    = האם אתה מעוניין להוריד עכשיו?
+TEXT_UPDATER_BTN_UPDATE                 = עדכן
+TEXT_UPDATER_BTN_OK                     = אישור
+TEXT_UPDATER_BTN_CANCEL                 = ביטול
+TEXT_UPDATER_DOWNLOAD_ERROR             = הורדה נכשלה.
+TEXT_UPDATER_SETTING_UPDATE             = הגדרות
+TEXT_UPDATER_SETTING_SKIPTHIS           = דלג על גרסה זו
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = נתיב יעד:
+BTN_SELECT_FOLDER                       = עיין...
+BTN_EXTRACT                             = התחל
+BTN_CLOSE                               = סגור
+BTN_CANCEL                              = בטל
+BTN_OPEN_FOLDER                         = פתח
+CHK_OVERWRITE                           = דרוס
+ERR_ERROR_OCCURRED                      = אירעה שגיאה
+ERR_INVALID_PASSWORD                    = סיסמה לא תקינה
+ASK_OVERWRITE                           = אותו קובץ כבר קיים. האם אתה רוצה להחליף אותו?
+MSG_COMPLETED                           = חילוץ מוצלח!
+IDD_PASSWORD                            = הכנס סיסמה
+IDC_STATIC_PASSWORD_MSG                 = הקובץ מוצפן.
+IDC_BTN_SHOW_PASSWORD                   = הראה סיסמה
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = לא ניתן לחלץ קבצים.
+TEXT_ERR_CRC                            = שגיאת CRC.
+TEXT_ERR_INVALID_PASSWD                 = סיסמה לא חוקית.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = ${APPNAME} ${APPVERSION} התקן
+$UNINSTALL_TITLE                        = הסרת התקנה {APPNAME} ${APPVERSION}$
+$UNINSTALL_STATIC                       = לחץ על הסרה והתחל להסיר התקנה
+
+$BTN_CLOSE                              = סגור
+$BTN_CANCEL                             = ביטול
+$BTN_INSTALL                            = הסכם והתקן
+$BTN_UNINSTALL                          = הסרת התקנה
+$BTN_OPEN_LICENSE                       = [הצג הסכמת רישיון]
+$BTN_HELP_LINK                          = [עזרה]
+
+$TEXT_PATH                              = תיקיית יעד
+$TEXT_INSTALL_STATIC                    = מתקין...
+$TEXT_INST_COMPLETED                    = ההתקנה הסתיימה
+$TEXT_INST_FAILED                       = ההתקנה נכשלה
+$TEXT_UNINSTALLING                      = מסיר...
+
+$CHK_AUTO_REPORT                        = שלח אוטומטית סטטיסטיקות שימוש ודוחות קריסה
+$EMAIL                                  = כתובת אימייל
+$PRODUCT_KEY                            = מספר סידורי
+
+ERR_CANT_CREATE_FOLDER                  = נכשל ביצירת תיקייה: ${str1}
+ERR_CANT_OPEN_FILE                      = נכשל בפתיחת קובץ: ${str1}
+ERR_CANT_WRITE_FILE                     = נכשל בכתיבת קובץ: ${str1}
+ERR_BROKEN_ARCHIVE                      = קובץ מכווץ זה הוא פגום: ${str1}
+ERR_CRC_ERROR                           = שגיאת CRC: ${str1}
+ERR_NOT_ENOUGH_MEM                      = חסר בזיכרון: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = שגיאה בפתיחת קובץ לכתיבה:[br] "${str1}"[br]לחץ על הפסק כדי להפסיק את ההתקנה,[br]או נסה שוב כדי לנסות שוב, או[br]התעלם כדי לדלג על קובץ זה.
+MSG_SUCCESS                             = התקנה הושלמה
+MSG_DLL_REGISTERING                     = רשום סיומת מעטפת של אקספלורר...
+MSG_DLL_UNREGISTERING                   = בטל רישום של סיומת מעטפת של אקספלורר...
+MSG_ERROR                               = שגיאה התרחשה
+MSG_ERROR_REGISTER                      = רישום נכשל
+MSG_SELECT_FOLDER                       = בחר תיקייה
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} עדיין פועל. סגור תחילה את התכנית.
+MSG_XP_IS_NOT_SUPPORTED                 = תוכנית זו אינה פועלת ב- Windows XP.
+MSG_NEED_ADMIN_PRIVILEGE                = ניתן להתקין תוכנית זו רק על ידי משתמש עם הרשאות מנהל.[br][br]משתמשים שאינם מנהלים לא יכולו להתקין את התוכנית כמו שצריך.[br][br]האם אתה רוצה להפסיק התקנה?
+MSG_NEWVERSION_FOUND                    = גרסה חדשה זמינה כעת. האם תרצה להוריד אותו עכשיו?
+SHORTCUT_LINK_DESCRIPTOIN               = הרץ ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = קובץ התקנה זה אינו תומך במערכת הפעלה של 32 סיביות (x86). [br]אנא הורד קובץ התקנה חדש באתר.
+MSG_ERR_ARM_NOTSUPPORT                  = קובץ התקנה זה אינו תומך במעבד ARM64. אנא הורד קובץ התקנה חדש באתר.
+ERR_INST_FAILED                         = ההתקנה נכשלה. אנא הפעל מחדש את המחשב ונסה שוב.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = בדיקת גרסא נכשלה. בבקשה הורד את קובץ ההתקנה הלא מקוון
+TEXT_VERSION_CHECKING                   = בודק גרסא...
+TEXT_DOWNLOAD_FAILED                    = הורדה נכשלה. בבקשה הורד את קובץ ההתקנה הלא מקוון
+TEXT_DOWNLOAD_COMPLETED                 = ההורדה הושלמה
+TEXT_HOMEPAGE                           = [פתח את דף האינטרנט]
+TEXT_XP                                 = התמיכה ב-Windows XP הסתיימה
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = בחר לחצני סרגל כלים
+
+

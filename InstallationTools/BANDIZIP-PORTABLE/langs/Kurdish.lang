@@ -1,0 +1,937 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = کوردی
+TRANSLATORS                             = KuRa KuRd (گۆران غەریب)
+IS_RIGHT_TO_LEFT_TEXT                   = 1
+DLG_FONT_NAME                           = Segoe UI
+DLG_FONT_SIZE                           = 9
+SKIN_FONT_NAME                          = Segoe UI
+
+
+[TEXT]
+TEXT_BUILDNO                            = #ژمارە
+TEXT_FILE                               = فایل
+TEXT_FOLDER                             = فۆڵدەر
+TEXT_ARCHIVE_SIZE                       = قەبارەی سەرجەم
+TEXT_ORIGINAL_SIZE                      = قەبارەی ڕاستەقینە
+TEXT_ARCHIVE_FORMAT                     = جۆری ئەرشیف
+TEXT_COMPRESSED_SIZE                    = قەبارەی پەستێنراو
+TEXT_SOLID                              = بەهێز
+TEXT_BETA                               = تاقیکاری
+TEXT_ASSOC                              = (${str1}) فایلی پەستێنراو
+TEXT_PORTABLE                           = (دەستی (پۆرتەیبڵ
+TEXT_NEW_FOLDER                         = فۆڵدەری نوێ
+TEXT_FILESIZE_UNKNOWN                   = نەناسراو
+TEXT_FILEDATE_UNKNOWN                   = نەناسراو
+TEXT_HELP_LINK                          = [یارمەتی]
+TEXT_APP_DESC                           = باندی زیپ باشترین و خێراترین بەرنامەی کەم کێشە بۆ پەستاندن و دانانی کۆمەڵێ فایلی جیاواز لەناو یەک فایلی ئەرشیفدا کە پشتگیری زۆرتین جۆرە بەناوبانگەکان دەکات وەک 7z ، Zip ، Rar.. چەندانی تریش
+
+TEXT_MESSAGEBOX_OK                      = باشە
+TEXT_MESSAGEBOX_CANCEL                  = پاشگەزبونەوە
+TEXT_MESSAGEBOX_ABORT                   = کۆتایپێهێنان
+TEXT_MESSAGEBOX_RETRY                   = هەوڵدانەوە
+TEXT_MESSAGEBOX_IGNORE                  = فەرامۆشکردن
+TEXT_MESSAGEBOX_YES                     = بەڵێ
+TEXT_MESSAGEBOX_NO                      = نەخێر
+TEXT_MESSAGEBOX_CONTINUE                = بەردەوامبون
+TEXT_MESSAGEBOX_HELP                    = یارمەتی
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = دووبارە پیشانی مەدەرەوە
+
+TEXT_COLUMN_NAME                        = ناو
+TEXT_COLUMN_COMPSIZE                    = پەستێنراو
+TEXT_COLUMN_ORIGSIZE                    = ڕاستەقینە
+TEXT_COLUMN_KIND                        = جۆر
+TEXT_COLUMN_DATE_MOD                    = دەستکاریکراو
+TEXT_COLUMN_COMPMETHOD                  = شێوازی پەستاندن
+TEXT_COLUMN_ENCRMETHOD                  = شێوازی نهێنیکردن
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = تایبەتمەندیەکان
+TEXT_COLUMN_COMMENT                     = لێدوان
+TEXT_COLUMN_EXT                         = زانیاری زیاتر
+TEXT_COLUMN_PATHNAME                    = شوێن
+
+TEXT_ICONPACK_NAME                      = ناو
+TEXT_ICONPACK_DESIGNER                  = دیزاینەر
+TEXT_ICONPACK_COPYRIGHT                 = مافی لەبەرگرتنەوە
+
+TEXT_ARCHIVE_COLUMN_NAME                = ناو
+TEXT_ARCHIVE_COLUMN_FILESIZE            = قەبارە
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = شوێنی فۆڵدەر
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = قەبارەی سەرجەم
+
+TEXT_SELECT_ARCHIVE_FILE                = فایل دیاریبکە
+TEXT_SELECT_TEXT_FILE                   = فایل دیاریبکە
+TEXT_SELECT_DEST_FOLDER                 = فۆڵدەری مەبەست دیاریبکە
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = فایلی ئەرشیف
+TEXT_REGISTRY_FILE                      = فایلی تۆماربوون
+
+TEXT_OPENDLG_ARCHIVEFILES               = فایلەکانی ئەرشیف
+TEXT_OPENDLG_ARCHIVEFILE                = فایلی ئەرشیف
+TEXT_OPENDLG_ALLFILES                   = هەموو فایلەکان
+TEXT_OPENDLG_EXEFILES                   = فایلەکانی Exe
+
+TEXT_ABOUTBOX_TAB1                      = دەربارەی Bandizip
+
+TEXT_ASSOC_GROUP0                       = فایلەکانی ئەرشیف
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = جۆرەکانی تر
+TEXT_ASSOC_GROUP3                       = سیدی/دیڤیدی
+
+TEXT_OPENERR_INVALIDVERSION             = داگرە Bandizip بۆ کردنەوەی ئەم فایلە، دواین وەشانی
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = تەنها بەشی یەکەمی فایلی جیاکردنەوە دیاریبکە
+TEXT_OPENERR_CANT_OPEN_FILE             = ناتوانرێت فایل بکرێتەوە (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = بکرێتەوە چونکە لەوانەیە فایلەکە کرابێتەوە بەهۆی بەرنامەیەکی ترەوە (${str1}) ناتوانرێت فایلی
+TEXT_OPENERR_GENERAL                    = بکرێتەوە (${str1}) (Code:${xnum1}) ناتوانرێت فایلی
+TEXT_OPENERR_USER_ABORT                 = هەڵوەشێنرایەوە
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = جۆری فایل نەناسراوە (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = فایلی ئەرشیف نیە (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = جۆری فایل نەگونجاوە (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = شێوازی کۆدکردن گونجاو نیە (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = تێپەڕە ووشە بنوسە
+TEXT_OPENERR_INVALID_PASSWORD           = تێپەڕە ووشە دروست نیە
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = ناتوانرێت ئەم فایلە بکرێتەوە لەبەرئەوەی ناونیشانی پەڕە تێکچووە
+
+TEXT_ERR_INIT_FAILED                    = کردنەوە سەرکەتونەبوو
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = تێپەڕە ووشە هەڵەیە یان هیچ فایلێک لەناو ئەم ئەرشیفەدا نیە
+TEXT_ERR_PASSOWRD_NOT_MATCH             = تێپەڕە ووشە وەک یەک نیە
+TEXT_ERR_PASSWORD_NOT_SET               = تێپەڕە ووشە بنوسە
+TEXT_ERR_INVALID_PASSWORD_CHAR          = ڕێنووسی نوسراو هەڵەیە. تکایە پیت/ژمارە/هێما بەکاربهێنە
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = قەبارەی فایلی جیاکردنەوە نادروستە
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = دەرهێنانی ئەرشیفە تایبەتەکان) قەبارەی فایلەکان دیاریکراوە بۆ ٤گێگابایت) SFX
+TEXT_ERR_INTERNAL_ERROR                 = هەڵەی ناوەکی
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = ناتوانرێت دەستکاری فایلی ئەرشیف بکرێت
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = هەڵە ڕوویدا لەکاتی دەستکاریکردنی فایلی ئەرشیفدا
+TEXT_ERR_INVALID_FOLDER_PATH            = شوێنی فۆڵدەر نادروستە
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = ئەتوانرێت دەستکاریبکرێت ZIP تەنها فایلی
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = ناتوانرێت دەستکاری فایلی جیاکردنەوە بکرێت
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = ناتوانرێت دەستکاری فایلی دەرهێنانی تایبەت بکرێت (*.exe)
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = ناتوانرێت دەستکاری فایلی تێکچوو بکرێت
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = ناتوانرێت دەستکاری پاشکۆی/ئەم فایلە بکرێت..
+TEXT_ERR_CANT_CHANGE_FILENAME           = ناتوانرێت ناوی ئەم فایلە بگۆڕدرێت
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "ناتوانیت ناوی فایل بەکاربهێنی لەگەڵ [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = هەمان فایل/فۆڵدەر بوونیان هەیە ناتوانرێت ناوی فایل بگۆڕدرێت (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = ناتوانرێت فۆڵدەر دروستبکرێت
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = هیچ فایلێک نیە بۆ ئەرشیف
+TEXT_ERR_INVALID_PARAM                  = .دیاریکەر نادروستە
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = ناتوانرێت فایل زیادبکرێت بۆ ئەرشیف [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = ناتوانرێت ئەم ئەرشیفە بکرێتەوە [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = هەمان فۆڵدەر بوونی هەیە
+TEXT_ERR_FILENAME_EMPTY                 = ناوی فایلی نادروستە
+TEXT_ERR_AT_DRAGANDDROP                 = ڕاکێشان و دانان سەرکەوتونەبوو
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = ڕاکێشان و دانان سەرکەوتونەبوو، بەرنامەکە تایبەتمەندی خێرا دانان و ڕاکێشانی بۆ زیادکراوە، تکایە دووبارە هەوڵبدەرەوە
+TEXT_ERR_AT_CANT_OPEN_MMF               = بکرێتەوە (mmf:${str1}) MMF ناتوانرێت
+TEXT_ERR_NO_FILES_SELECTED              = هیچ فایلێک دیارینەکەکراوە
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = ناتوانرێت فۆڵدەر دروستبکرێت بۆ دابەزاندنی گورزی ئایکۆن
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = ناتوانرێت فایل دروستبکرێت بۆ دابەزاندنی گورزی ئایکۆن
+TEXT_ERR_AT_EXECUTE_DIRECT              = ناتوانرێت ئەم فایلە بکرێتەوە. فایلەکە دەربهێنەرەوە و دووبارە هەوڵبدەرەوە
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = تکایە جۆرێکی جیاوازی فایلی هەڵبژێرە (Zip یان 7Z)[br]ناتوانرێت فایل دروستبکرێت گەورەتربێت لە ٤گێگابیت
+TEXT_ERR_CANT_SAVE_AS                   = ناتوانرێ ئەم فایلە پاشەکەوت بکرێت
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip has encountered a problem while editing the file.(${str1})[br][br]Would you like to send an error report to Bandisoft?[br][br]Submitting this report helps Bandisoft improve Bandizip.
+
+TEXT_MSG_TEST_OK                        = هیج هەڵەیەک نیە لەم ئەرشیفەدا
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = دەرهێنان سەرکەتونەبوو: کۆدی هەڵە [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = دەرهێنان سەرکەتوبوو
+TEXT_MSG_EXTRACT_CANCELED               = دەرهێنان هەڵوەشێنرایەوە
+TEXT_MSG_COMPRESS_SUCCESS               = تەواوکردنی ئەرشیف
+TEXT_MSG_INTERNAL_ERROR                 = هەڵەی ناوەکی
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Cannot open the following file in the temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = ناتوانرێت ئەم فایلە ئەرشیفە بسڕدرێتەوە
+TEXT_MSG_CRASH_REPORT                   = بەرنامەکە تێکچوو. دەرچوون لە بەرنامە
+TEXT_MSG_CRASH_REPORT2                  = Bandizip has encountered a problem and needs to close. Do you want to send a crash report to the Bandizip developer?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip is not responding.[br][br]Do you want to send a crash report to the Bandizip developer and close the program?
+TEXT_MSG_SET_TEMP_PATH                  = دیاریکردنی شوێنی فایلی زیادە
+TEXT_MSG_SET_PATH                       = شوێن دیاریبکە
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = گورزی ئایکۆن بەسەرکەتوویی دابەزێنرا
+TEXT_MSG_NOTICE_RESTART                 = پێویستە ئەم بەرنامەیە دووبارە بکرێتەوە
+TEXT_MSG_ARCHVIE_OPENING                = کردنەوەی ئەرشیف
+TEXT_MSG_COMPLETING                     = تەواوکردنی ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Cannot create a folder.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Cannot compress a folder into a .GZ/XZ archive.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Cannot compress multiple files into a .GZ/XZ archive. Please check the "Compress to each file/folder name" option.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip has been minimized to the system tray. Click the tray icon to restore it.
+TEXT_MSG_TRAY_COMPLETED                 = The operation has been completed.
+TEXT_MSG_BATCH_ARCHVING                 = ئەرشیفکردنی: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = دەرهێنانی: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - تاقیکردنەوەی: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - سڕینەوەی: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - سڕینەوەی سەرکەوتو نەبوو: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = لە جێبەجێکردندایە...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = بەکاربهێنیت <font color=red><b>Auto detect</b></font> بکە و دواتر هەوڵبدە هەڵبژرادنی <font color=red><b>Code Page</b></font> ئەگەر ڕێنووسەکان بە درووستی دەرنەکەوتن، کلیک لە
+
+TEXT_ASK_DELETE_ARCHIVE                 = فایلی ڕاستەقینە ئەبێ بسڕدرێتەوە.[br]ئایا ئەتەوێ ئەم فایلە بسڕیتەوە
+TEXT_ASK_DELETE_CUR_ARCHIVE             = ئایا ئەتەوێ فایلی ئێستا بسڕیتەوە؟
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = ئەتەوێ فایلی ئەرشیفی ئێستا بەیەکجاری بسڕیتەوە؟
+TEXT_ASK_CHANGE_FILENAME                = هەمان فایل بوونی هەیە.[br][br]ئەتەوێ فایل بگۆڕیت لە ${str1} بۆ ${str2}?
+TEXT_ASK_DELETE_FILE                    = ئایا ئەتەوێ فایلی دیاریکراو بسڕیتەوە؟
+TEXT_ASK_STOP_EXTRACT                   = ئەتەوێ دەرهێنان بوەستێنیت؟
+TEXT_ASK_OVERWRITE_ARCHIVE              = ئایا ئەتەوێ جێگۆڕکێی پێبکەیت؟ [br][br] هەمان فایل بوونی هەیە
+TEXT_ASK_INIT_SETTING                   = ئایا ئەتەوێ ڕێکی بخەیتەوە بۆ سەرەکی؟Bandizip پێویستە دووبارە بکرێتەوە
+TEXT_ASK_STOP_ARCHIVING                 = ئایا ئەتەوێ ئەرشیف بوەستێنیت؟
+TEXT_ASK_STOP_MODIFYING                 = ئایا ئەتەوێ ئەم فرمانە بوەستێنیت؟
+TEXT_ASK_APPLY_MODIFIED_FILE            = (${str1}) ئایا ئەتەوێ فایلی گۆڕاو بچەسپێنیت بۆ ناو ئەرشیف
+TEXT_ASK_INSTALL_ICONPACK               = ئایا ئەتەوێ دەستبکەیت بە دابەزاندن و ڕێکخستنی گورزی ئایکۆنی (${str1})؟
+TEXT_ASK_MAKE_FOLDER                    = The folder doesn't exist. Do you want to create it?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = The destination folder doesn't have write permission.[br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_CONT_NOFREESPACE               = The destination folder doesn't have enough space. Change the destination folder. [br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_ASK_UAC_ELEVATION              = You do not have permission to change these files. [br][br]Do you want to restart this program as an administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Cannot open this archive file. [br][br]Do you want to open the first part of the split file (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = If you delete files after archiving, you could lose important files if the files are broken.[br][br]Do you want to check the "Test Archive" option?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Not enough disk space to extract. Do you want to proceed?[br][br]Destination Folder: ${str1}[br]Free disk space: ${str2}[br]Extracting file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = ئەم فایلە تێکچووە
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = ئەم فایلە تێکچووە یان فایلێکی تری جیاکردنەوەی پێویستە
+
+TEXT_BTN_PAUSE                          = ڕاگرتن
+TEXT_BTN_RESUME                         = بەردەوامبون
+
+TEXT_ERRDLG_ERROR_OCCURRED              = هەڵە ڕوویدا
+TEXT_ERRDLG_USER_ABORT                  = هەڵوەشێنرایەوە
+
+TEXT_ARKERR_CANT_OPEN_FILE              = ناتوانرێت ئەم فایلە بکرێتەوە
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = ناتوانرێت ئەم فایلە بکرێتەوە چونکە لەوانەیە کرابێتەوە بەهۆی بەرنامەیەکی ترەوە
+TEXT_ARKERR_PASSWORD_NOT_SET            = پێویستی بە تێپەڕە ووشەیە
+TEXT_ARKERR_INVALID_PASSWD              = تێپەڕە ووشە نادروستە
+TEXT_ARKERR_USER_ABORTED                = هەڵوەشێنرایەوە
+TEXT_ARKERR_INVALID_FILE_CRC            = هەڵەیە CRC
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = ناتوانرێت ئەم فایلە بکرێتەوە
+TEXT_ARKERR_CANT_READ_DATA              = ناتوانرێت داتاکانی ئەرشیف بخوێنرێتەوە
+TEXT_ARKERR_INFLATE_FAILED              = داتا هەڵەیە - ئەم فایلە خراپبووە
+TEXT_ARKERR_BZIP2_ERROR                 = داتا هەڵەیە - ئەم فایلە خراپبووە
+TEXT_ARKERR_DATA_CORRUPTED              = ئەم فایل تێکچووە یان پێویستی بە بەشێکی تری فایلە
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = ناتوانرێت ئەم فایلە بکرێتەوە
+TEXT_ARKERR_CANT_CREATE_FOLDER          = ناتوانرێت فۆڵدەر دروستبکرێت
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = شێوازی پەستاندن پاڵپشتی کراو نیە
+TEXT_ARKERR_WRITE_FAIL                  = هەڵەیەک ڕوویدا لەکاتی دەستکاریکردندا
+TEXT_ARKERR_DISK_FULL                   = دیسک پڕبووە
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = ناو و شوێنی فایل نابێ لە ٢٦٠ ڕێنووس تێپەڕ بکات
+TEXT_ARKERR_CANT_CREATE_FILE            = دروستکردنی فایلی سەرکەتونەبوو
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = دروستکردنی فایل سەرکەتونەبوو. بەرنامەکە بکەرەوە بەهۆی بەڕێوەبەرێکی ڕاستەوە
+TEXT_ARKERR_USER_SKIP                   = فەرامۆشکرا
+TEXT_ARKERR_FILE_TRUNCATED              = کۆتایی ئەم فایلە خراپبووە یان وونبوە
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = تێپەڕە ووشە نادروستە یان فایل خراپبووە
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = ئەم فایلە خراپبووە
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = فایلی دەرهێنانی تایبەت (*.exe) زۆترە لە ٤ گێگابیت. ناتوانیت فایلی ٤ گێگابایت دروستبکەیت لە ویندۆزدا
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = ناتوانرێت ئەم فایلە ئەرشیفە بکرێتەوە. چونکە ئەم بەشانەی پێویستە  (.z01, .z02..)
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = ناتوانرێت ئەم فایلە Zip بکرێتەوە. چونکە ئەم بەشانەی پێویستە  (.z01, .z02..)
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = ناتوانرێت فایلی ئەرشیف بکرێتەوە. چونکە بەشێکی تری فایلی پێویستە
+TEXT_ARKERR_CORRUPTED_FILE              = ئەم فایلە خراپبووە
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = دەستکاریکردنی ئەم فۆڵدەر رێگە پێدراونیە
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = دەستکاریکردنی ئەم فۆڵدەرە ڕێگەپێدراو نیە. تکایە بەشێوەی بەڕیوەبەر بەرنامەکە بکەرەوە
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = ئەم شێوازی نهێنیکردنە گونجاو نیە
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = دەرچووە لە قەبارەی یادگە
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = دەرچووە لە قەبارەی یادگە. ئاستی پەستاندن بگۆڕە
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = ئەم فرمانە گونجاو نیە
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = قەبارەی فایلی دەرهێنراو و زانیاری ناونیشانی ئەرشیف جیاوازن.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = تکایە جۆرێکی جیاوازی فایلی هەڵبژێرە (Zip یان 7Z)\ناتوانرێت فایل دروستبکرێت گەورەتربێت لە ٤گێگابیت
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = ناوی درێژی فایل بە خۆکاری کورتکرایەوە.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Cannot open source file to copy.
+TEXT_ARKERR_NOTIMPL                     = Not implemented.
+TEXT_ARKERR_CANT_READ_FILE              = Cannot read file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Run Bandizip as administrator to create a symbolic link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Cannot create a symbolic link.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = جیا نەکردنەوە
+TEXT_SPLITCOMBO_3MB                     = ٣مێگابایت
+TEXT_SPLITCOMBO_4MB                     = ٤مێگابایت
+TEXT_SPLITCOMBO_5MB                     = ٥مێگابایت
+TEXT_SPLITCOMBO_10MB                    = ١٠مێگابایت
+TEXT_SPLITCOMBO_20MB                    = ٢٠مێگابایت
+TEXT_SPLITCOMBO_GMAIL                   = ٢٥ مێگابایت (جی‌مەیل)
+TEXT_SPLITCOMBO_100MB                   = ١٠٠ مێگابایت
+TEXT_SPLITCOMBO_300MB                   = ٣٠٠ مێگابایت
+TEXT_SPLITCOMBO_CD650                   = (٦٥٠مێگابایت (سیدی
+TEXT_SPLITCOMBO_CD700                   = (٧٠٠مێگابایت (سیدی
+TEXT_SPLITCOMBO_FAT32                   = (FAT32) ٤گێگابیت
+TEXT_SPLITCOMBO_DVD                     = (٤.٧گێگابیت (دیڤیدی
+TEXT_SPLITCOMBO_USERINPUT               = تایبەت
+
+TEXT_COMPRESSIONMETHOD_STORE            = ٠- نەپەستاندن
+TEXT_COMPRESSIONMETHOD_FAST             = ١- پەستاندنی خێرا
+TEXT_COMPRESSIONMETHOD_NORMAL           = ٢- پەستاندنی ئاسایی
+TEXT_COMPRESSIONMETHOD_MAX              = ٣- گەورەترین پەستاندن
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = پەستاندنێکی نوێ
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = زیادکردنی فایل بۆناو ئەرشیف
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = :گۆڕینی ناوی& ${str1}
+TEXT_TITLE_TEST_MODE                    = تاقیکردنەوەی ئەرشیف
+TEXT_TITLE_TEMPFOLDER_MODE              = دەرهێنان بۆ فۆڵدەری کاتی...
+TEXT_TITLE_MODIFYING                    = دەستکاریکردن...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = فایل بۆ دەرهێنان
+TEXT_MSG_SELECTED_FILE                  = فایل دیاریکراوە ${num1}
+TEXT_MSG_SELECTED_FOLDER                = فۆڵدەر دیاریکراوە ${num1}
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} فایل، ${num2} فۆڵدەر
+TEXT_MSG_SELECTED_FILESIZESUM           = قەبارەی فایلی دیاریکراو: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = پشکنینی وەشان سەرکەتونەبوو
+TEXT_UPDATE_VERSION_CHECKING            = پشکنینی وەشان
+TEXT_UPDATE_DOWNLOAD_FAILED             = داگرتن سەرکەوتونەبوو
+TEXT_UPDATE_LATEST_VERSION              = نوێکراوەتەوە
+TEXT_UPDATE_DO_DOWNLOAD                 = پێویستی بە نوێکردنەوەیە
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = داگرتن تەواوبوو
+
+TEXT_INSTALL_HONEYVIEW                  = دابەزاندنی Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = لەسەر کۆمپیوتەرەکەت دابەزیوە Honeyview
+TEXT_INSTALL_HONEYVIEW_2                = Please try Honeyview developed by Bandisoft.<br> It supports viewing the images in compressed ZIP, RAR, or 7z files without extraction.
+
+TEXT_REGISTRATION_SUCCEED               = بەرنامەکە بەسەرکەوتوویی کڕدرا
+
+
+[MENU]
+MENUSTR_FILE                            = فایل&
+MENUSTR_EDIT                            = دەستکاریکردن&
+MENUSTR_SETTING                         = هەڵبژاردنەکان&
+MENUSTR_FIND                            = دۆ&زینەوە
+MENUSTR_VIEW                            = &بینین
+MENUSTR_TOOLS                           = &ئامراز
+MENUSTR_HELP                            = یارمەتی&
+
+MENUSTR_OPEN                            = کردنەوەی ئەرشیف&\tCtrl+O
+MENUSTR_RECENT                          = داویین فایلەکان
+MENUSTR_CLOSE_FILE                      = داخستنی ئەرشیف&\tF4
+MENUSTR_CREATE_ARCHIVE                  = ئەرشیفی نوێ&\tCtrl+N
+MENUSTR_SAVE_AS_ARCHIVE                 = پاراستن لە
+MENUSTR_DELETE_ARCHIVE                  = سڕینەوەی ئەرشیف \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Delete Archive Permanently \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = کردنەوەی شوێنی فایل
+MENUSTR_TEST_ARCHIVE                    = تاقیکردنەوەی ئەرشیف& \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = دەرهێنانی فایل& \tCtrl+E
+MENUSTR_EXIT                            = دەر&چوون \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = گۆڕینی ناو& \tF2
+MENUSTR_ADD_FILE                        = زیادکردنی فایل& \tIns
+MENUSTR_DELETE_FILE                     = سڕینەوەی فایل& \tDel
+MENUSTR_EDIT_COMMENT                    = لێدوانی ئەرشیف
+MENUSTR_SETTING_SUB                     = ڕێکخستنەکان& (F5)
+MENUSTR_REGISTER                        = کڕینی بەرنامەکە...
+MENUSTR_UNREGISTER                      = نەکڕینی بەرنامەکە...
+MENUSTR_PASSMAN                         = ڕێکخستنی تێپەڕە ووشە...
+MENUSTR_FIND_ITEM                       = دۆز&ینەوەی فایل\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Copy files to clipboard\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Paste files from clipboard\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Start Screen \tF6
+MENUSTR_VIEW_TREECONTROL                = TreeView Control \tF7
+MENUSTR_VIEW_COMMENT                    = Archive Comment\tF8
+MENUSTR_VIEW_PREVIEW                    = Image Preview
+MENUSTR_VIEW_TOOLBAR                    = Toolbar
+MENUSTR_VIEW_TOOLBAR_NORMAL             = گەورە
+MENUSTR_VIEW_TOOLBAR_MINI               = بچووک
+MENUSTR_VIEW_TOOLBAR_OLD                = کۆن
+MENUSTR_VIEW_TOOLBAR_HIDE               = شاردنەوە
+MENUSTR_VIEW_LISTVIEW                   = لیستی فایلەکان
+MENUSTR_VIEW_LISTVIEW_ICON              = Icons
+MENUSTR_VIEW_LISTVIEW_LIST              = List
+MENUSTR_VIEW_LISTVIEW_REPORT            = Details
+MENUSTR_VIEW_COLUMN                     = Column
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Always on top
+MENUSTR_VIEW_COLOR_SETTING              = Color Settings...
+
+
+MENUSTR_ABOUT                           = دەربارەی& Bandizip \tF1
+MENUSTR_HELPPAGE                        = چوون بۆ لاپەڕەی یارمەتیدان&
+MENUSTR_OPEN_FOLDER                     = کردنەوەی فۆڵدەری& Bandizip
+MENUSTR_FORUM                           = چوون بۆ &یانەی Bandizip
+MENUSTR_HOMEPAGE                        = چوون بۆ &ماڵپەڕ
+
+POPUPMENU_VIEWITEM_COMPSIZE             = قەبارەی پەسێنراو
+POPUPMENU_VIEWITEM_ORIGSIZE             = قەبارەی ڕاستەقینە
+POPUPMENU_VIEWITEM_KIND                 = جۆری فایل
+POPUPMENU_VIEWITEM_DATE_MOD             = بەرواری دەستکاریکردن
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = شێوازی پەستاندن
+POPUPMENU_VIEWITEM_ENCRMETHOD           = شێوازی نهێنیکردن
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = تایبەتمەندیەکانی فایل
+POPUPMENU_VIEWITEM_COMMENT              = لێدوانی فایل
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = دەرهێنانی هەمووی \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = دەرهێنانی فایلی دیاریکراو
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = دەرهێنان لێرەدا
+
+POPUPMENU_LISTCONTROL_EXECUTE           = کردنەوە\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Open with associated program
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Edit\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = فۆڵدەری نوێ
+POPUPMENU_LISTCONTROL_ADD_FILE          = زیادکردنی فایل \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = سڕینەوەی فایل \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = گۆڕینی ناوی فایل
+POPUPMENU_LISTCONTROL_SELECT_ALL        = دیاریکردنی هەمووی \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = گواستنەوە بۆ فۆڵدەری سەرەکی\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = سڕینەوەی ئەرشیف
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = کردنەوەی فۆڵدەری ئەرشیف
+
+POPUPMENU_EXTRACT_AUTODEST              = دەرهێنان خۆکاری\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = دەرهێنان بۆ فۆڵدەری ئێستا\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = دەرهێنان بۆ فۆڵدەر بەناوی فایلەوە
+POPUPMENU_EXTRACT_DESKTOP               = دەرهێنان بۆ سەرشاشە
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = دەرهێنان بە خۆکاری بۆ سەرشاشە
+
+POPUPMENU_RECENT_CLEAR                  = سڕینەوەی مێژوو
+POPUPMENU_RECENT_NOITEM                 = دواین فایل بوونی نیە
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = کردنەوە لەگەڵ Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = دەرهێنان خۆکاری
+
+POPUPMENU_CODEPAGE_DEFAULT              = سەرەکی
+POPUPMENU_CODEPAGE_SIMPCHINESE          = چینی سادە
+POPUPMENU_CODEPAGE_TRADCHINESE          = چینی سەردەم
+POPUPMENU_CODEPAGE_JAPANESE             = ژاپۆنی
+POPUPMENU_CODEPAGE_KOREAN               = کۆری
+POPUPMENU_CODEPAGE_WINDOWS1252          = خۆرئاوای ئەوروپا
+POPUPMENU_CODEPAGE_WINDOWS1250          = ئەوروپای ناوەند
+POPUPMENU_CODEPAGE_WINDOWS1251          = سیرلیک
+POPUPMENU_CODEPAGE_WINDOWS1254          = تورکی
+POPUPMENU_CODEPAGE_WINDOWS737           = یۆنانی
+POPUPMENU_CODEPAGE_ARABIC               = عەرەبی
+POPUPMENU_CODEPAGE_HEBREW               = عیبری
+POPUPMENU_CODEPAGE_UTF8                 = لینۆکس (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = دیاریکردنی خۆکاری
+
+
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = باشە
+IDCANCEL                                = پاشگەزبونەوە
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Bandizip دەربارەی
+IDC_BTN_HOMEPAGE                        = ماڵپەڕ
+IDC_BTN_UPDATE                          = نوێکردنەوە
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = کردنەوەی فایل
+IDC_STATIC_OPENING                      = کردنەوەی
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = شوێنی دەرهێنان دیاریبکە
+IDC_STATIC_FOLDER                       = شوێنی مەبەست&
+IDC_STATIC_FILES2EXTRACT                = دەرهێنان:
+IDC_RADIO_FILES2EXTRACT_0               = هەموو فایلەکان&
+IDC_RADIO_FILES2EXTRACT_1               = فایلە دیاریکراوەکان&
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = دەرهێنان بۆ فۆڵدەری "مەبەست" ی دیاریکراو
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = فۆڵدەری نوێ
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = دەرهێنان
+IDC_BTN_STOP                            = وەستاندن
+IDC_BTN_CLOSE                           = داخستن
+IDC_BTN_PAUSE                           = ڕاگرتن
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = ئەرشیفی نوێ
+IDC_STATIC_FILE_LIST                    = زیادکردنی فایل بۆ ناو ئەرشیف
+IDC_STATIC_ARCHIVE_SETTING              = ڕێکخستنەکانی ئەرشیف
+IDC_STATIC_ARCHIVE_NAME                 = ناوی فایل
+IDC_STATIC_SET_DEST_FOLDER              = Target Folder
+IDC_STATIC_ARCHIVE_TYPE                 = پاراستن وەکو جۆری
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = جیاکردنەوەی فایل
+IDC_STATIC_COMPRESSION_METHOD           = ئاستی پەستاندن
+IDC_STATIC_HELP_SPLIT                   = [یارمەتی]
+IDC_STATIC_HELP_7Z                      = [جۆری 7Z]
+IDC_BTN_SELECT_ARCHIVE_NAME             = هێنان...&
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = سڕینەوەی فایلەکان دوای کردن بە ئەرشیف
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = پەستاندن بۆ هەریەکە لە ناو/فۆڵدەری فایل
+IDC_BTN_SET_DEST_FOLDER                 = گۆڕینی فۆڵدەری مەبەست
+IDC_BTN_TOGGLE_ADVANCED                 = هەڵبژاردنی زیاتر...
+IDC_BTN_SET_SFX                         = SFX ڕێکخستنەکانی...
+IDC_BTN_ADD                             = زیادکردن...
+IDC_BTN_DEL                             = سڕینەوە&
+IDC_BTN_START                           = دەستپێکردن&
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = تێپەڕە ووشە نادروستە. دووبارە بینوسەرەوە
+IDC_BTN_SHOW_PASSWORD                   = پیشاندانی تێپەڕە ووشە
+IDC_CHECK_APPLY_ALL                     = جێبەجێکردنی هەمووی&
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = پیشاندانی تێپەڕە ووشە
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = دیاریکردن
+IDC_BTN_OPEN                            = کردنەوە
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = کردن بە ئەرشیف
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = وەستاندن
+IDC_BTN_CLOSE                           = داخستن
+IDC_BTN_PAUSE                           = ڕاگرتن
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = فایلە دووبارەبوەکان
+IDC_STATIC_DUPE_MESSAGE                 = هەمان فایلی بوونی هەیە
+IDC_STATIC_DUPEFILE_OLD                 = فایلی ڕاستەقینە
+IDC_STATIC_DUPEFILE_NEW                 = فایلی ئێستا
+IDC_STATIC_DUPE_ASK                     = فرمانێک دیاریبکە:
+IDC_RADIO_DUPE_METHOD0                  = فەرامۆشکردن&
+IDC_RADIO_DUPE_METHOD1                  = جێگۆڕکێکردن&
+IDC_RADIO_DUPE_METHOD2                  = گۆڕینی ناو&
+IDC_CHECK_DUPE_APPLY_ALL                = جێبەجێکردن بۆ هەموو فایلەکان&
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = هەڵبژاردنی ئەرشیف
+IDC_STATIC_ASK_HANDLING                 = فرمانێک دیاریبکە:
+IDC_RADIO_HANDLE_METHOD0                = کردنەوەی ئەرشیف&
+IDC_RADIO_HANDLE_METHOD1                = پەستاندنێکی نوێ&
+IDC_RADIO_HANDLE_METHOD2                = زیادکردنی فایل بۆ ئەرشیفی ئێستا&
+IDC_CHK_PASS                            = بەکارهێنانی تێپەڕە ووشە
+IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
+IDC_CHK_SHOW_PASS                       = Show Password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = ڕێکخستنەکان
+IDC_BTN_INIT                            = ڕێکخستنەوە
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = General Settings
+IDC_CHK_EXIT_WITH_ESC                   = دوگمەی ESC بەکاربهێنە بۆ دەرچوون
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = پشکنینی فایلەکان هەمیشە کاتێک زیادکرا/سرایەوە/ناوی گۆڕا
+IDC_CHK_SNAP                            = بەکارهێنانی پەنجەرەی خێراکردنەوە
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = پیشاندانی [..] لە فۆڵدەری ئەرشیفدا
+IDC_CHK_SHOW_GRID_AT_LIST               = Show gridlines in details view
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = دیاریکردنی هەموو ڕیزەکان لەناو ئەرشیفدا
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = پاشکۆی فایلەکان
+IDC_BTN_SELECT_MANDATORY                = ئەرشیفەکان
+IDC_BTN_SELECT_ALL                      = دیاریکردنی هەمووی
+IDC_BTN_CLEAR_ALL                       = دیارینەکردنی هیچیان
+IDC_BTN_APPLY_NOW                       = جێبەجێکردن ئێستا
+IDC_STATIC_ICON_PACK                    = ئایکۆن دیاریبکە:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [داگرتنی ئایکۆن]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = ڕێکخستنی پاشکۆکان
+;IDC_STATIC_ASSOC_DESC1                 = بۆ ویندۆز ٨ و وەشانەکانی تر، ئەتوانی بەم ڕێگایانە پاشکۆکان ڕێکبخەیت:
+;IDC_STATIC_ASSOC_DESC2                 = ١. کلیک لەسەر دوگمەی "ڕێخستنەکانی پاشکۆ" بکە.
+;IDC_STATIC_ASSOC_DESC3                 = ٢. کلیک لەسەر "دیاریکردنی هەمووی" بکە لە پەنجەرەی ڕێکخستنەکانی بەرنامەدا.
+;IDC_STATIC_ASSOC_DESC4                 = ٣. کلیک لەسەر "پاراستن" بکە.
+;IDC_STATIC_ASSOC_DESC1_10              = For Windows 10 or later versions, you can associate the files as follows:
+;IDC_STATIC_ASSOC_DESC2_10              = ١. کلیک لەسەر دوگمەی "ڕێخستنەکانی پاشکۆ" بکە.
+;IDC_STATIC_ASSOC_DESC3_10              = ٢. Select "Bandizip" in Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = ٣. Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = ڕێکخستنەکانی پاشکۆ
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = شێوازی سادە
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = فرمانی دوو کلیک
+IDC_RADIO_SHELL_OPEN_0                  = کردنەوە لەگەڵ Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = دەرهێنانی خۆکاری
+IDC_RADIO_SHELL_OPEN_2                  = پیشاندانی ناوەڕۆکی هەڵبژاردن
+IDC_RADIO_SHELL_OPEN_3                  = دەرهێنانی خۆکاری بۆ فۆڵدەری دیاریکراو
+IDC_BTN_SET_EXTRACT_FOLDER              = کردنەوە...
+IDC_RADIO_SHELL_OPEN_4                  = دەرهێنان بۆ فۆڵدەر بەناوی فایلەوە
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = هەڵبژاردنەکانی دەرهێنان
+IDC_CHK_SHELL_EXTRACT_HERE              = دەرهێنان لێرەدا
+IDC_CHK_SHELL_EXTRACT_AUTO              = دەرهێنانی خۆکاری
+IDC_CHK_SHELL_EXTRACT_SUB               = دەرهێنان بۆ
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Here and Delete
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Here (Smart) and Delete
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = شوێنی دەرهێنان دیاریبکە
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extract as administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = تاقیکردنەوەی ئەرشیف
+IDC_CHK_SHELL_OPEN_ARCHIVE              = کردنەوە لەگەڵ Bandizip
+IDC_CHK_SHELL_PREVIEW                   = بینینی ئەرشیف
+IDC_STATIC_SHELL_PREVIEW_SIZE           = دیاریکردنی فایل بۆ پیشاندان:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = هەڵبژاردنەکانی پەستاندن
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "پەستاندن بۆ "ناوی فایل.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = پەستاندن بۆ "ناوی فایل.zip" وە پۆستی ئەلکترۆنی
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "پەستاندن بۆ "ناوی فایل.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "پەستاندن بۆ "ناوی فایل.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "پەستاندن بۆ "ناوی فایل.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "پەستاندن بۆ "ناوی فایل.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "پەستاندن بۆ "ناوی فایل.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "پەستاندن بۆ "ناوی فایل.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "پەستاندن بۆ "ناوی فایل.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Compress to "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Compress to "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Compress to "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = پەستاندن بۆ هەریەک لە ناوی فایل/فۆڵدەر
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "پەستاندن بۆ هەریەکە لە ناو و فۆڵدەری فایل "ناوی فایل و فۆڵدەر.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = زیادکردن بۆ ئەرشیف (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Compress as administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Compress to custom file name
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${NAME}=Filename, %Y=Year, %m=Month, %d=Day, %H=Hour, %M=Minute, %S=Second
+
+IDC_STATIC_SHELL_BKGND                  = هەڵبژاردنەکان فرمانی پشت شاشە
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = فۆڵدەری نوێ
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = کردنەوەی پەنجەرەی فرمان (cmd.exe)
+
+IDC_STATIC_SHELL_ETC                    = فرمانەکانی تر
+IDC_CHK_SHELL_DO_NOT_USE                = ناچالاککردنی ناوەڕۆکی لیست
+IDC_CHK_SHELL_AS_SUB_MENU               = ڕێکخستنی لیست ناوەڕۆک بەدوای یەکدا
+IDC_CHK_SHELL_HIDE_ICON                 = شاردنەوەی ئایکۆنی Bandizip
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = دیاریکردنی فایلی ئەرشیف لەناو پێکهاتەکاندا
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = پیشاندانی هەڵبژرادنەکانی ئەرشیف بۆ هەموو فایلێکی ئەرشیف
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = بەکارهێنانی ناو/فۆڵدەری دیاریکراو لەکاتی ماوس خستنە سەردا
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = ڕێکخستنەکانی دەرهێنان
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = ئەگەر تەنها یەک فۆڵدەری کاتی هەبوو لە ئەرشیفدا، فایلەکان پیشانبدە لە فۆڵدەردا
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = کردنەوەی فۆڵدەر دوای دەرهێنان
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = دانەخستنی پەنجەرەی ئەم فرمانە دوای دەرهێنان
+IDC_CHK_FAST_DRAG_DROP                  = بەکارهینانی ڕاکێشان و دانانی خێرا  ئەگەر فایل گەورەبوو
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = دەرهێنانی فایلی TGZ, TBZ لەیەک کاتدا
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = هەروەها بۆ فایلی قەبارە گەورەی TGZ, TBZ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = لەکاتی 'دەرهێنانی خۆکاری' دا فۆڵدەر دروستبکە ئەگەر فایلەکان لە دانەیەک زیاتربوون
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = دیاریکردنی کۆدی پەڕەی ماکینتۆش بە خۆکاری
+IDC_CHK_UNIXZIP_AS_UTF8                 = بەکارهێنانی کۆدی پەڕەی UTF-8 کاتێک فایلی Zip کرایەوە لە بەهۆی UNIX
+IDC_STATIC_CODEPAGE                     = کۆدی سەرەکی پەڕە
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = دەرهێنانی هەموو شتێک
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = ڕێکخستنەکانی پەستاندن
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = دروستنەکردنی فۆڵدەری کاتی کاتێک تەنها یەک فۆڵدەر پەستێنرا
+IDC_CHK_USE_UTF8_COMPRESS               = بەکارهێنانی ناوی یونیکۆد بۆ فایلەکانی Zip (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = بەکارهێنانی ناوی یونیکۆد بۆ فایلەکانی tar,tgz (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = بەکارهێنانی جۆری فایلی ZIP64 هەمیشە ئەگەر (قەبارەی فایل بچووکتربوو لە ٢ گێگابایت (پێشنیار نەکراو
+IDC_CHK_EXCLUDE_THUMBSDB                = بەشکردنی فایلی thumbs.db لەکاتی پەستاندندا
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = پاراستنی زانیاری کات لەکاتی دروستکردنی فایلی زیپدا NTFS
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = "بەکارهێنانی 'ئەرشیفی خێرایی زۆر'"
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = دانەخستنی فرمانی ئەم پەنجەرەیە دوای دروستکردنی ئەرشیف
+IDC_STATIC_COMPRESSION_METHOD           = ئاستی پەستاندن:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = بەکارهێنانی دواین فۆڵدەر بۆ ئەرشیفە نوێیەکان
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = فۆڵدەری سەرەکی ئەرشیفەکان
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = کردنەوە...
+IDC_CHK_EXCLUDE_FILTER                  = جیاکردنەوەی جۆری فایلەکان لەکاتی دروستکردنی ئەرشیفدا
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = ڕێکخستنەکانی پیشاندەر
+IDC_CHK_SHOW_PREVIEW                    = پیشاندانی وێنە
+
+IDC_STATIC_SETTING_VIEWITEM             = پیشاندان
+IDC_CHK_VIEWITEM_COMPSIZE               = قەبارەی پەستێنراو
+IDC_CHK_VIEWITEM_ORIGSIZE               = قەبارەی بنەڕەتی
+IDC_CHK_VIEWITEM_KIND                   = جۆری فایل
+IDC_CHK_VIEWITEM_DATE_MOD               = بەرواری دەستکاریکردن
+IDC_CHK_VIEWITEM_COMPMETHOD             = شێوازی پەستاندن
+IDC_CHK_VIEWITEM_ENCRMETHOD             = شێوازی نهێنیکردن
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = تایبەتمەندیەکانی فایل
+IDC_CHK_VIEWITEM_COMMENT                = لێدوانی فایل
+
+IDC_STATIC_IMAGE_VIEWER                 = پیشاندەری وێنە
+IDC_RADIO_IMAGE_VIEWER_0                = بەکارهێنانی پیشاندەری وێنەی ناوخۆیی
+IDC_RADIO_IMAGE_VIEWER_1                = بەکارهێنانی بەرنامەی دیاریکراو
+IDC_RADIO_IMAGE_VIEWER_2                = بەکارهێنانی Honeyview ئەگەر دابەزێنرا بوو
+
+IDC_STATIC_EDITOR                       = دەستکاریکەر
+IDC_BTN_SET_EDITOR_PATH                 = کردنەوە...
+
+IDC_STATIC_COLOR                        = Color
+IDC_STATIC_COLOR_THEME                  = Theme color
+IDC_BTN_BKGND                           = Selected
+IDC_STATIC_COLOR_TEXT                   = Font color
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = White
+IDC_STATIC_COLOR_TEXT_BLACK             = Black
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = هەڵگرتنی ڕێکخستنەکانی بەرنامە
+IDC_STATIC_ETC                          = ڕێکخستنە هەمەجۆرەکان
+IDC_CHK_SET_TEMP_FOLDER                 = شوێنی فۆڵدەری کاتی دیاریبکە
+IDC_BTN_SET_TEMP_FOLDER                 = کردنەوە...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Recognize the following file types as archive files
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Delete temporary file when exit the child process
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = بردنی فایلەکان بۆ تەنەکەخۆڵ کاتێک سڕانەوە
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = پیشاندانی دواین مێژووی ئەرشیف
+IDC_CHK_USE_LONG_PATH_NAME              = درێژترین ناوی شوێنەکان زیاتر لە ٢٦٠ پیتە
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = ڕێگەدان بە ویندۆز ئێکسپۆلرەر بۆ سڕینەوەی فایلە ئەرشیفە کراوەکان
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = کردنەوەی فۆڵدەر بە خۆکاری
+IDC_CHK_USE_MODAL_DIALOG                = Use a modal dialog box when archiving/extracting
+IDC_CHK_USE_ELEGANT_UI                  = Use elegant UI design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Show 'Start Screen' when Bandizip starts
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Display the full path in the title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Delete extracted files when extraction is cancelled
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = ڕێکخستنەکانی زمان
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (ڕێکخستنەکانی (دەرهێنانی تایبەت
+IDC_STATIC_TARGET_PATH                  = شوێنی دەرهێنان:
+IDC_STATIC_TITLE                        = ناونیشانی SFX:
+IDC_STATIC_RUN                          = کردنەوە دوای دەرهێنان:
+IDC_STATIC_MESSAGE                      = پەیامی SFX:
+IDC_CHK_AUTO_CLOSE                      = داخستنی پەنجەرەی SFX دوای دەرهێنان
+IDC_BTN_SAVE_SFX_SETTING                = پاراستنی ڕێکخستنەکان
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = دۆزینەوەی فایل
+IDC_STATIC_FIND                         = دۆزینەوەی چی:
+IDC_BTN_CLOSE                           = داخستن
+IDC_BTN_DELETE                          = سڕینەوە
+IDC_BTN_EXTRACT                         = دەرهێنان
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = لێدوانی ئەرشیف
+IDC_STATIC_COMMENT                      = زیادکرد/دەستکاریکردنی لێدوانی ناو ئەم ئەرشیفە
+IDC_CHK_USE_UTF8                        = پاراستنی لێدوان وەکو یونیکۆد (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = هێنانی لێدوان لە فایلەوە (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = ئاگادارکردنەوە
+IDC_STATIC_WARN_EXECUTABLE              = ئەمە فایلێکی پێچراوە. بەکردنەوەی لەوانەیە زیان بە کۆمپیوتەرەکەت بگەیەنیت، ئایا دڵنیایت لە بەردەوامبون؟
+IDC_CHK_DO_NOT_ASK_AGAIN                = دووبارە پرسیار مەکەرەوە
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = تۆمارکردنی بەرنامەکە
+IDC_STATIC_DESC1                        = پۆستی ئەلکترۆنیت و ئەو کۆدە تایبەتە بنووسە کە پێت گەیشتوە
+IDC_STATIC_EMAIL                        = پۆستی ئەلکترۆنی
+IDC_STATIC_PRDUCT_KEY                   = کۆدی کڕین
+IDC_BTN_REGISTER                        = تۆمارکردن
+IDC_STATIC_BUYNOW                       = هێشتا بەرنامەکەت نەکڕیوە؟ [ئێستا بیکڕە]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = کردنەوە
+$TOOLBAR_CLOSE_FILE                     = داخستن
+$TOOLBAR_EXTRACT_FILE                   = دەرهێنان
+$TOOLBAR_CREATE_ARCHIVE                 = نوێ
+$TOOLBAR_DELETE_FILE                    = سڕینەوە
+$TOOLBAR_ADD_FILE                       = زیادکردن
+$TOOLBAR_TEST_ARCHIVE                   = تاقیکردنەوە
+$TOOLBAR_CODEPAGE                       = کۆدی پەڕە
+$TOOLBAR_VIEWITEM                       = پیشاندان
+
+$TOOLBAR_OPEN2                          = Open Archive
+$TOOLBAR_CREATE_ARCHIVE2                = New Archive
+
+$TEXT_DESKTOP                           = سەرشاشە
+$TEXT_DOCUMENT                          = دۆکیۆمێنیتەکان
+$TEXT_PICTURE                           = وێنەکان
+$TEXT_COMPUTER                          = کۆمپیوتەر
+
+$TEXT_SETTINGTAB_GENERAL                = گشتی
+$TEXT_SETTINGTAB_ASSOC                  = پاشکۆکان
+$TEXT_SETTINGTAB_SHELL                  = هەڵبژاردنی ناوەڕۆک
+$TEXT_SETTINGTAB_EXTRACT                = دەرهێنان
+$TEXT_SETTINGTAB_ARCHIVE                = پەستاندن
+$TEXT_SETTINGTAB_VIEWER                 = پیشاندەر
+$TEXT_SETTINGTAB_ETC                    = هەمەجۆر
+$TEXT_SETTINGTAB_LANG                   = زمان
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = کردنەوەی شوێنی فایل
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = کردنەوەی شوێنی فایل
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = کردنەوەی شوێنی فایل دوای دەرهێنان
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = کردنەوەی شوێنی ئەرشیف
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = کردنەوەی فۆڵدەری مەبەست
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = دانەخستنی ئەم پەنجەرەیە دوای دەرهێنانی ئەرشیف
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = دانەخستنی ئەم پەنجەرەیە دوای دروستکردنی ئەرشیف
+$TOOLTIP_ADVANCED_MENU                  = Miscellaneous Settings
+
+$TEXT_INSTALL_START                     = OK, I'll try it
+$TEXT_INSTALL_CLOSE                     = No, thanks
+$TEXT_INSTALL_HONEYVIEW_LINK            = See more...
+
+$TEXT_HELP_PAGE                         = Help Page
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = فۆڵدەری نوێ
+
+TEXT_MENU_CREATE_NEW_FOLDER             = فۆڵدەری نوێ&
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = کردنەوە لەگەڵ Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = تاقیکردنەوەی ئەرشیف
+TEXT_MENU_LAUNCH_CMD                    = کردنەوەی پەنجەرەی فرمانەکان&
+TEXT_MENU_LAUNCH_CMD_ADMIN              = کردنەوەی پەنجەرەی فرمانەکان (بەڕێوەبەر)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = پەستاندن بۆ &هەریەک لە ناوی فایل/فۆڵدەر
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Compress to "each file/folder name.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "پەستا&ندن بۆ "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = پەستاندن بۆ ${str1} وە پۆستی &ئەلکترۆنی...
+TEXT_MENU_ARCHIVE_ZIPX                  = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_EXE                   = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_TAR                   = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_TGZ                   = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_LZH                   = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_ISO                   = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_7ZFMT                 = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_GZ                    = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_XZ                    = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_ZPAQ                  = پەستاندن بۆ ${str1}
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Compress to each "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Compress to each "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Compress to "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = زیادکردن بۆناو ئەرشیف (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = پەستاندن وەک بەڕێوەبەر
+
+TEXT_MENU_EXTRACT_HERE                  = دەرهێنان لێرەدا&
+TEXT_MENU_EXTRACT_AUTO                  = دەرهێنان  بە &خۆکاری
+TEXT_MENU_EXTRACT_AUTO_EACH             = (دەرهێنان بە &خۆکاری (هەر فایلێک
+TEXT_MENU_EXTRACT_SUB                   = دەرهێنانی هەر ئەرشیفێک &بۆ فۆڵدەری جیا
+TEXT_MENU_EXTRACT_ARCHIVENAME           = دەرهێنان &بۆ ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = شوێنی دەرهێنان دیاریبکە...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = دەرهێنان وەک بەڕێوەبەر
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = بینینی ئەرشیف
+TEXT_MENU_PREVIEW_BROKEN                = ئەم فایلەی کە لە [br] پێکهاتوە خراپبووە یان نەگونجاوە
+TEXT_MENU_PREVIEW_TIMEOUT               = کاتی ویستراو کۆتایی هات.
+TEXT_MENU_PREVIEW_EMPTY                 = فایلی ئەرشیف بەتاڵە
+TEXT_MENU_PREVIEW_ENCRYPTED             = Filename is encrypted
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = ناتوانیت فرمانی بینینی ئەرشیف بەکاربهێنیت. [br][br]یان ویندۆز ئێکسپلۆرەر دووبارە بکەرەوە [br]یان کۆمپیوتەرەکەت دووبارە دابگیرسێنەرەوە
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = ناتوانرێت لیستی فایلەکان بخوێندرێتەوە
+
+TEXT_MENU_OPENING                       = کردنەوەی...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = نوێکردنەوەی Bandizip
+TEXT_UPDATER_TEXT1                      = نوێکردنەوەی Bandizip ئامادەیە
+TEXT_UPDATER_TEXT_DL                    = Would you like to download it now?
+TEXT_UPDATER_BTN_UPDATE                 = نوێکردنەوە
+TEXT_UPDATER_BTN_OK                     = باشە
+TEXT_UPDATER_BTN_CANCEL                 = پاشگەزبونەوە
+TEXT_UPDATER_DOWNLOAD_ERROR             = داگرتن سەرکەوتونەبوو.
+TEXT_UPDATER_SETTING_UPDATE             = Settings
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = شوێنی ئامانج:
+BTN_SELECT_FOLDER                       = کردنەوە...
+BTN_EXTRACT                             = دەستپێکردن
+BTN_CLOSE                               = داخستن
+BTN_CANCEL                              = پاشگەزبونەوە
+BTN_OPEN_FOLDER                         = کردنەوە
+CHK_OVERWRITE                           = جێگۆڕین
+ERR_ERROR_OCCURRED                      = هەڵە ڕوویدا
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = هەمان فایل بوونی هەیە. ئەتەوێ جێگۆڕکێی پێبکەیت؟
+MSG_COMPLETED                           = !دەرهێنان سەرکەوتوبوو
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = پیشاندانی تێپەڕە ووشە
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = ناتوانرێت فایلەکان دەربهێنرێت.
+TEXT_ERR_CRC                            = ی هەڵەیە CRC
+TEXT_ERR_INVALID_PASSWD                 = تێپەڕە ووشە نادروستە.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [یارمەتی]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = لە کاردایە. لەپێشدا بەرنامەکە دابخە Bandizip
+MSG_XP_IS_NOT_SUPPORTED                 = This software will work properly only in Windows Vista and later.
+MSG_NEED_ADMIN_PRIVILEGE                = This program can only be installed by a user with administrator privileges.[br][br]Non-administrative users may not install the program properly.[br][br]Do you want to stop installation?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

@@ -1,0 +1,819 @@
+﻿
+
+                             Open Source License
+                       -------------------------------
+
+                           Ark Library uses these open sources. Thanks to them.
+
+
+* zlib http://www.zlib.net/zlib_license.html
+
+	Copyright (C) 1995-2010 Jean-loup Gailly and Mark Adler
+
+	This software is provided 'as-is', without any express or implied
+	warranty.  In no event will the authors be held liable for any damages
+	arising from the use of this software.
+
+	Permission is granted to anyone to use this software for any purpose,
+	including commercial applications, and to alter it and redistribute it
+	freely, subject to the following restrictions:
+
+	1. The origin of this software must not be misrepresented; you must not
+	   claim that you wrote the original software. If you use this software
+	   in a product, an acknowledgment in the product documentation would be
+	   appreciated but is not required.
+	2. Altered source versions must be plainly marked as such, and must not be
+	   misrepresented as being the original software.
+	3. This notice may not be removed or altered from any source distribution.
+
+	Jean-loup Gailly
+	Mark Adler
+  
+
+* bzip2 http://www.bzip.org/downloads.html
+
+	This program, "bzip2", the associated library "libbzip2", and all
+	documentation, are copyright (C) 1996-2010 Julian R Seward.  All
+	rights reserved.
+
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions
+	are met:
+
+	1. Redistributions of source code must retain the above copyright
+	   notice, this list of conditions and the following disclaimer.
+
+	2. The origin of this software must not be misrepresented; you must 
+	   not claim that you wrote the original software.  If you use this 
+	   software in a product, an acknowledgment in the product 
+	   documentation would be appreciated but is not required.
+
+	3. Altered source versions must be plainly marked as such, and must
+	   not be misrepresented as being the original software.
+
+	4. The name of the author may not be used to endorse or promote 
+	   products derived from this software without specific prior written 
+	   permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
+	OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+	ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+	DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+	DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+	GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+	INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+	WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+	NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+	Julian Seward, jseward@bzip.org
+	bzip2/libbzip2 version 1.0.6 of 6 September 2010
+
+
+* ncompress  http://ncompress.sourceforge.net/
+	
+	PUBLIC DOMAIN
+	
+
+* unarj http://www.arjsoftware.com/
+
+	UNARJ LICENSE POLICY FOR ALL USERS:
+
+	The UNARJ program, source code, and the associated documentation
+	are copyright (c) 1990-2000 ARJ Software, Inc. all rights reserved.
+
+	If you distribute this software to others, you are required to
+	distribute the ENTIRE package consisting of the following files:
+
+	README.DOC
+	UNARJ.EXE
+	UNARJ.DOC
+	UNARJ.C
+	DECODE.C
+	ENVIRON.C
+	UNARJ.H
+	UNARJ.DEF
+	TCCUNARJ.MAK
+	BCCUNARJ.MAK
+	BCC32.MAK
+	QCLUNARJ.MAK
+	OS2UNARJ.MAK
+	TECHNOTE.DOC
+
+	We strongly prefer that the files be distributed in the format
+	originally released:  UNARJ243.EXE with the ARJ-SECURITY envelope as
+	created by the author.  If you must distribute the UNARJ archive in
+	another archive format, please archive the UNARJ243.EXE as one file
+	inside the other archive.  Re-archival of the software as separate
+	files means losing the ARJ security envelope.
+
+	You may freely use the UNARJ C source code.  If you wish to 
+	distribute a modified version of UNARJ.EXE, you MUST indicate that it 
+	is a modified version both in the program and source code.
+
+	We are holding the copyright on the source code, so please do not
+	delete our name from the program files or the documentation.
+
+	The UNARJ.EXE program is built from this source using Borland C++ 3.1.
+
+	You may freely use, copy, and distribute UNARJ.EXE, provided that no
+	fee is charged for such use, copying or distribution.
+
+	You may use UNARJ.EXE in a commercial software package provided that
+	no additional fee is charged for using UNARJ.EXE and provided that
+	the user fully understands that NO warranty or support is provided
+	for UNARJ.EXE by ARJ Software.  Moreover, the user must fully
+	understand that UNARJ does not have the long usage history that ARJ
+	does.
+
+	This source code is intended to promote the building of utilities to
+	support the use of ARJ and ARJ archives.
+
+
+* aes http://gladman.plushost.co.uk/oldsite/AES/index.php
+
+	Copyright (c) 1998-2008, Brian Gladman, Worcester, UK. All rights reserved.
+
+	LICENSE TERMS
+
+	The redistribution and use of this software (with or without changes)
+	is allowed without the payment of fees or royalties provided that:
+
+	 1. source code distributions include the above copyright notice, this
+	    list of conditions and the following disclaimer;
+
+	 2. binary distributions include the above copyright notice, this list
+	    of conditions and the following disclaimer in their documentation;
+
+	 3. the name of the copyright holder is not used to endorse products
+	    built using this software without specific written permission.
+
+	DISCLAIMER
+
+	This software is provided 'as is' with no explicit or implied warranties
+	in respect of its properties, including, but not limited to, correctness
+	and/or fitness for purpose.
+
+
+* libmspack 0.10.1alpha http://www.cabextract.org.uk/libmspack/
+
+	/* libmspack -- a library for working with Microsoft compression formats.
+	 * (C) 2003-2019 Stuart Caie <kyzer@cabextract.org.uk>
+	 *
+	 * libmspack is free software; you can redistribute it and/or modify it under
+	 * the terms of the GNU Lesser General Public License (LGPL) version 2.1
+	 *
+	 * This program is distributed in the hope that it will be useful,
+	 * but WITHOUT ANY WARRANTY; without even the implied warranty of
+	 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	 * GNU Lesser General Public License for more details.
+	 *
+	 * You should have received a copy of the GNU Lesser General Public License
+	 * along with this program; if not, write to the Free Software
+	 * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+	 */
+
+
+* unrar http://www.rarlab.com/rar_add.htm
+
+	 ******    *****   ******   UnRAR - free utility for RAR archives
+	 **   **  **   **  **   **  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 ******   *******  ******    License for use and distribution of
+	 **   **  **   **  **   **   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 **   **  **   **  **   **         FREE portable version
+					   ~~~~~~~~~~~~~~~~~~~~~
+
+	      The source code of UnRAR utility is freeware. This means:
+
+	   1. All copyrights to RAR and the utility UnRAR are exclusively
+	      owned by the author - Alexander Roshal.
+
+	   2. The UnRAR sources may be used in any software to handle RAR
+	      archives without limitations free of charge, but cannot be used
+	      to re-create the RAR compression algorithm, which is proprietary.
+	      Distribution of modified UnRAR sources in separate form or as a
+	      part of other software is permitted, provided that it is clearly
+	      stated in the documentation and source comments that the code may
+	      not be used to develop a RAR (WinRAR) compatible archiver.
+
+	   3. The UnRAR utility may be freely distributed. It is allowed
+	      to distribute UnRAR inside of other software packages.
+
+	   4. THE RAR ARCHIVER AND THE UnRAR UTILITY ARE DISTRIBUTED "AS IS".
+	      NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED.  YOU USE AT 
+	      YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, 
+	      DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING
+	      OR MISUSING THIS SOFTWARE.
+
+	   5. Installing and using the UnRAR utility signifies acceptance of
+	      these terms and conditions of the license.
+
+	   6. If you don't agree with terms of the license you must remove
+	      UnRAR files from your storage devices and cease to use the
+	      utility.
+
+	      Thank you for your interest in RAR and UnRAR.
+
+
+						    Alexander L. Roshal
+
+
+* lha http://sourceforge.jp/projects/lha/
+
+	/* ------------------------------------------------------------------------ */
+	/* LHa for UNIX                                                             */
+	/*              lharc.c -- append to archive                                */
+	/*                                                                          */
+	/*      Copyright (C) MCMLXXXIX Yooichi.Tagawa                              */
+	/*      Modified                Nobutaka Watazaki                           */
+	/*                          Thanks to H.Yoshizaki. (MS-DOS LHarc)           */
+	/*                                                                          */
+	/*  DOS-Version Original LHx V C2.01        (C) H.Yohizaki                  */
+	/* ------------------------------------------------------------------------ */
+
+	
+* pma git://git.sourceforge.jp/gitroot/lha/lha.git
+
+	/*
+	  Copyright (c) 1999 Maarten ter Huurne
+
+	  Permission is hereby granted, free of charge, to any person
+	  obtaining a copy of this software and associated documentation files
+	  (the "Software"), to deal in the Software without restriction,
+	  including without limitation the rights to use, copy, modify, merge,
+	  publish, distribute, sublicense, and/or sell copies of the Software,
+	  and to permit persons to whom the Software is furnished to do so,
+	  subject to the following conditions:
+
+	  The above copyright notice and this permission notice shall be
+	  included in all copies or substantial portions of the Software.
+
+	  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+	  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+	  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+	  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+	  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+	  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+	  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	  SOFTWARE.
+	*/
+	
+
+* lzma sdk http://www.7-zip.org/sdk.html
+
+	PUBLIC DOMAIN
+
+
+* 7z(Compressed WIM) http://www.7-zip.org/download.html
+
+	LGPL
+
+
+* NFD/NFC utf8 converter http://www.opensource.apple.com/source/xnu/xnu-1486.2.11/bsd/vfs/
+
+	/*
+	 * Copyright (c) 2000-2005 Apple Computer, Inc. All rights reserved.
+	 *
+	 * @APPLE_OSREFERENCE_LICENSE_HEADER_START@
+	 * 
+	 * This file contains Original Code and/or Modifications of Original Code
+	 * as defined in and that are subject to the Apple Public Source License
+	 * Version 2.0 (the 'License'). You may not use this file except in
+	 * compliance with the License. The rights granted to you under the License
+	 * may not be used to create, or enable the creation or redistribution of,
+	 * unlawful or unlicensed copies of an Apple operating system, or to
+	 * circumvent, violate, or enable the circumvention or violation of, any
+	 * terms of an Apple operating system software license agreement.
+	 * 
+	 * Please obtain a copy of the License at
+	 * http://www.opensource.apple.com/apsl/ and read it before using this file.
+	 * 
+	 * The Original Code and all software distributed under the License are
+	 * distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER
+	 * EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES,
+	 * INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY,
+	 * FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.
+	 * Please see the License for the specific language governing rights and
+	 * limitations under the License.
+	 * 
+	 * @APPLE_OSREFERENCE_LICENSE_HEADER_END@
+	 */
+
+
+* info-zip(implode, shrink) http://www.info-zip.org/
+
+	This is version 2009-Jan-02 of the Info-ZIP license.
+	The definitive version of this document should be available at
+	ftp://ftp.info-zip.org/pub/infozip/license.html indefinitely and
+	a copy at http://www.info-zip.org/pub/infozip/license.html.
+
+
+	Copyright (c) 1990-2009 Info-ZIP.  All rights reserved.
+
+	For the purposes of this copyright and license, "Info-ZIP" is defined as
+	the following set of individuals:
+
+	   Mark Adler, John Bush, Karl Davis, Harald Denker, Jean-Michel Dubois,
+	   Jean-loup Gailly, Hunter Goatley, Ed Gordon, Ian Gorman, Chris Herborth,
+	   Dirk Haase, Greg Hartwig, Robert Heath, Jonathan Hudson, Paul Kienitz,
+	   David Kirschbaum, Johnny Lee, Onno van der Linden, Igor Mandrichenko,
+	   Steve P. Miller, Sergio Monesi, Keith Owens, George Petrov, Greg Roelofs,
+	   Kai Uwe Rommel, Steve Salisbury, Dave Smith, Steven M. Schweda,
+	   Christian Spieler, Cosmin Truta, Antoine Verheijen, Paul von Behren,
+	   Rich Wales, Mike White.
+
+	This software is provided "as is," without warranty of any kind, express
+	or implied.  In no event shall Info-ZIP or its contributors be held liable
+	for any direct, indirect, incidental, special or consequential damages
+	arising out of the use of or inability to use this software.
+
+	Permission is granted to anyone to use this software for any purpose,
+	including commercial applications, and to alter it and redistribute it
+	freely, subject to the above disclaimer and the following restrictions:
+
+	    1. Redistributions of source code (in whole or in part) must retain
+	       the above copyright notice, definition, disclaimer, and this list
+	       of conditions.
+
+	    2. Redistributions in binary form (compiled executables and libraries)
+	       must reproduce the above copyright notice, definition, disclaimer,
+	       and this list of conditions in documentation and/or other materials
+	       provided with the distribution.  Additional documentation is not needed
+	       for executables where a command line license option provides these and
+	       a note regarding this option is in the executable's startup banner.  The
+	       sole exception to this condition is redistribution of a standard
+	       UnZipSFX binary (including SFXWiz) as part of a self-extracting archive;
+	       that is permitted without inclusion of this license, as long as the
+	       normal SFX banner has not been removed from the binary or disabled.
+
+	    3. Altered versions--including, but not limited to, ports to new operating
+	       systems, existing ports with new graphical interfaces, versions with
+	       modified or added functionality, and dynamic, shared, or static library
+	       versions not from Info-ZIP--must be plainly marked as such and must not
+	       be misrepresented as being the original source or, if binaries,
+	       compiled from the original source.  Such altered versions also must not
+	       be misrepresented as being Info-ZIP releases--including, but not
+	       limited to, labeling of the altered versions with the names "Info-ZIP"
+	       (or any variation thereof, including, but not limited to, different
+	       capitalizations), "Pocket UnZip," "WiZ" or "MacZip" without the
+	       explicit permission of Info-ZIP.  Such altered versions are further
+	       prohibited from misrepresentative use of the Zip-Bugs or Info-ZIP
+	       e-mail addresses or the Info-ZIP URL(s), such as to imply Info-ZIP
+	       will provide support for the altered versions.
+
+	    4. Info-ZIP retains the right to use the names "Info-ZIP," "Zip," "UnZip,"
+	       "UnZipSFX," "WiZ," "Pocket UnZip," "Pocket Zip," and "MacZip" for its
+	       own source and binary releases.
+
+
+* ppmd http://www.compression.ru/ds/
+
+	 Written and distributed to public domain by Dmitry Shkarin 
+
+
+* icu http://site.icu-project.org/
+
+	ICU License - ICU 1.8.1 and later
+	COPYRIGHT AND PERMISSION NOTICE
+
+	Copyright (c) 1995-2011 International Business Machines Corporation and others 
+
+	All rights reserved. 
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy 
+	of this software and associated documentation files (the "Software"), to deal 
+	in the Software without restriction, including without limitation the rights 
+	to use, copy, modify, merge, publish, distribute, and/or sell copies of the 
+	Software, and to permit persons to whom the Software is furnished to do so, 
+	provided that the above copyright notice(s) and this permission notice appear 
+	in all copies of the Software and that both the above copyright notice(s) and 
+	this permission notice appear in supporting documentation. 
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
+	FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT 
+	SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY 
+	CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER 
+	RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, 
+	NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE 
+	OR PERFORMANCE OF THIS SOFTWARE. 
+
+	Except as contained in this notice, the name of a copyright holder shall not be 
+	used in advertising or otherwise to promote the sale, use or other dealings in this 
+	Software without prior written authorization of the copyright holder. 
+
+
+* XADMaster(WinzipJpeg) http://wakaba.c3.cx/s/apps/unarchiver.html
+	
+	This program, "The Unarchiver", its accompanying libraries, "XADMaster"
+	and "UniversalDetector", and the various smaller utility programs, such
+	as "unar" and "lsar", are distributed under the GNU Lesser General
+	Public License as published by the Free Software Foundation; either
+	version 2.1 of the License, or (at your option) any later version.
+
+	"UniversalDetector" is also available under other licenses, such as the
+	Mozilla Public License. Please refer to the files in its subdirectory
+	for further information.
+
+	The GNU Lesser General Public License might be too restrictive for some
+	users of this code. Parts of the code are derived from earlier
+	LGPL-licensed code and will as such always be bound by the LGPL, but
+	some parts of the code are developed from scratch by the author of The
+	Unarchiver, Dag Ågren, and can thus be made available under a more
+	permissive license. For simplicity, everything is currently licensed
+	under the LGPL, but if you are interested in using any code from this
+	project under another license, please contact the author for further
+	information.
+
+	    - Dag Ågren, <paracelsus@gmail.com>
+
+
+* WavPack http://www.wavpack.com/
+
+					  Copyright (c) 1998 - 2017 David Bryant
+							  All rights reserved.
+
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions are met:
+
+		* Redistributions of source code must retain the above copyright notice,
+		  this list of conditions and the following disclaimer.
+		* Redistributions in binary form must reproduce the above copyright notice,
+		  this list of conditions and the following disclaimer in the
+		  documentation and/or other materials provided with the distribution.
+		* Neither the name of Conifer Software nor the names of its contributors
+		  may be used to endorse or promote products derived from this software
+		  without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+	AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+	IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+	ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR
+	ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+	DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+	SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+	CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+	OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+	OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+       
+
+* AES Crypt(without GPLed code) http://www.aescrypt.com/
+
+	/*
+	 * AES Crypt for Windows (Command-Line)
+	 * Copyright (C) 2007, 2008, 2009, 2013
+	 *
+	 * Contributors:
+	 *     Glenn Washburn <crass@berlios.de>
+	 *     Paul E. Jones <paulej@packetizer.com>
+	 *     Mauro Gilardi <galvao.m@gmail.com>
+	 *
+	 * This software is licensed as "freeware."  Permission to distribute
+	 * this software in source and binary forms is hereby granted without a
+	 * fee.  THIS SOFTWARE IS PROVIDED 'AS IS' AND WITHOUT ANY EXPRESSED OR
+	 * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+	 * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+	 * THE AUTHOR SHALL NOT BE HELD LIABLE FOR ANY DAMAGES RESULTING FROM
+	 * THE USE OF THIS SOFTWARE, EITHER DIRECTLY OR INDIRECTLY, INCLUDING,
+	 * BUT NOT LIMITED TO, LOSS OF DATA OR DATA BEING RENDERED INACCURATE.
+	 *
+	 */
+
+
+* expand (unreduce) http://sourceforge.net/p/infozip/patches/18/
+
+	PUBLIC DOMAIN
+
+
+* XacRett (arc) http://www.kmonos.net/lib/xacrett.en.html
+
+	PUBLIC DOMAIN
+
+
+* zopfli https://github.com/google/zopfli
+
+	Aapache License 2.0
+
+
+* ZPAQ http://mattmahoney.net/dc/zpaq.html
+
+	/* libzpaq.cpp - LIBZPAQ Version 7.15 implementation - Aug. 17, 2016.
+
+	  libdivsufsort.c for divsufsort 2.00, included within, is
+	  (C) 2003-2008 Yuta Mori, all rights reserved.
+	  It is released under the MIT license as described in the comments
+	  at the beginning of that section.
+
+	  Some of the code for AES is from libtomcrypt 1.17 by Tom St. Denis
+	  and is public domain.
+
+	  The Salsa20/8 code for Scrypt is by D. Bernstein and is public domain.
+
+	  All of the remaining software is provided as-is, with no warranty.
+	  I, Matt Mahoney, release this software into
+	  the public domain. This applies worldwide.
+	  In some countries this may not be legally possible; if so:
+	  I grant anyone the right to use this software for any purpose,
+	  without any conditions, unless such conditions are required by law.
+
+	LIBZPAQ is a C++ library for compression and decompression of data
+	conforming to the ZPAQ level 2 standard. See http://mattmahoney.net/zpaq/
+	See libzpaq.h for additional documentation.
+	*/
+
+
+* LEA https://seed.kisa.or.kr/iwt/ko/sup/EgovLeaInfo.do
+
+* miniutf https://github.com/dropbox/miniutf
+
+	Copyright (c) 2013 Dropbox, Inc.
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+
+
+* unace-2.5 
+
+	Public UnAce Licence
+	----------------------
+
+	The Public UnAce Package (v2.0 or later if not otherwise stated) is
+	distritbuted under the following licence:
+
+
+	"Package" refers to the collection of files distributed by the Copyright Holder, and derivatives 
+	of that collection of files created through textual modification. 
+
+	"Standard Version" refers to such a Package if it has not been modified, or has been modified
+	in accordance with the wishes of the Copyright Holder. 
+
+	"Distribution" as it is used here means making data available to a third party.
+	No matter in which way the data is made available.
+
+	"Copyright Holder" is ACE Compression Software. 
+	"Distribution Partner" is e-merge GmbH (authorised signatory).
+
+
+	1. The Standard Version of Public UnAce Package may be freely distributed.
+
+	2. The UnAce sources may be used in any software to handle ACE
+	archives without limitations free of charge, but must not be used
+	to reproduce the ACE compression algorithm.
+	This means that that the code must not be used to develop an
+	ACE compatible archiver (that is: software capable of compressing to 
+	Ace archives) in any way.
+
+	3. Distribution of modified Public UnAce sources (as part of other software 
+	or as stand-alone package) requires that it is clearly stated in the 
+	documentation and source code that it is distributed under the 
+	Public UnAce Licence. 
+	The Public UnAce Licence has to be included in this package.
+
+	4. The name of the Copyright Holder or the support of ACE archives may not be 
+	used to endorse or promote products derived from this package without specific
+	prior written permission from the Copyright Holder or its Distribution Partner.
+
+	5. This Software is distributed "AS IS".
+	NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED.  YOU USE AT 
+	YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, 
+	DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING
+	OR MISUSING THIS SOFTWARE.
+
+	6. Installing and using the Public UnAce Package signifies acceptance of
+	these terms and conditions of the license.
+
+
+	Marcel Lemke, ACE Compression Software
+
+
+* NSIS-3.04
+
+	COPYRIGHT
+	---------
+
+	Copyright (C) 1999-2018 Contributors
+
+	More detailed copyright information can be found in the individual source code files.
+
+	APPLICABLE LICENSES
+	-------------------
+
+	* All NSIS source code, plug-ins, documentation, examples, header files and graphics, 
+	  with the exception of the compression modules and where otherwise noted, 
+	  are licensed under the zlib/libpng license.
+
+	* The zlib compression module for NSIS is licensed under the zlib/libpng license.
+
+	* The bzip2 compression module for NSIS is licensed under the bzip2 license.
+
+	* The LZMA compression module for NSIS is licensed under the Common Public License version 1.0.
+
+
+* Zstandard 1.4.3 https://github.com/facebook/zstd
+
+	BSD License
+
+	For Zstandard software
+
+	Copyright (c) 2016-present, Facebook, Inc. All rights reserved.
+
+	Redistribution and use in source and binary forms, with or without modification,
+	are permitted provided that the following conditions are met:
+
+	 * Redistributions of source code must retain the above copyright notice, this
+	   list of conditions and the following disclaimer.
+
+	 * Redistributions in binary form must reproduce the above copyright notice,
+	   this list of conditions and the following disclaimer in the documentation
+	   and/or other materials provided with the distribution.
+
+	 * Neither the name Facebook nor the names of its contributors may be used to
+	   endorse or promote products derived from this software without specific
+	   prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+	ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+	DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+	ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+	(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+	LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+	ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+* lhasa-0.3.1 https://github.com/fragglet/lhasa
+
+	Copyright (c) 2011, 2012, Simon Howard
+
+	Permission to use, copy, modify, and/or distribute this software
+	for any purpose with or without fee is hereby granted, provided
+	that the above copyright notice and this permission notice appear
+	in all copies.
+
+	THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+	WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+	WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+	AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+	CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+	LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+	NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+	CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+* liblz4-1.9.3 https://github.com/lz4/lz4
+
+	This repository uses 2 different licenses :
+	- all files in the `lib` directory use a BSD 2-Clause license
+	- all other files use a GPLv2 license, unless explicitly stated otherwise
+
+	Relevant license is reminded at the top of each source file,
+	and with presence of COPYING or LICENSE file in associated directories.
+
+	This model is selected to emphasize that
+	files in the `lib` directory are designed to be included into 3rd party applications,
+	while all other files, in `programs`, `tests` or `examples`,
+	receive more limited attention and support for such scenario.
+
+
+* liblz4-1.5.0 https://github.com/inikep/lz5
+
+	LZ5 - Fast LZ compression algorithm
+	Header File
+	Copyright (C) 2011-2015, Yann Collet.
+
+	BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions are
+	met:
+
+		* Redistributions of source code must retain the above copyright
+	notice, this list of conditions and the following disclaimer.
+		* Redistributions in binary form must reproduce the above
+	copyright notice, this list of conditions and the following disclaimer
+	in the documentation and/or other materials provided with the
+	distribution.
+
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+	"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+	LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+	A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+	OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+	SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+	LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+	DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+	THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+	OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+	You can contact the author at :
+	- LZ5 source repository : https://github.com/inikep/lz5
+	- LZ5 public forum : https://groups.google.com/forum/#!forum/lz5c
+
+
+* lizard 1.0 https://github.com/inikep/lizard
+
+	This repository uses 2 different licenses :
+	- all files in the `lib` directory use a BSD 2-Clause license
+	- all other files use a GPLv2 license, unless explicitly stated otherwise
+
+	Relevant license is reminded at the top of each source file,
+	and with the presence of COPYING or LICENSE file.
+
+	This model emphasizes the fact that
+	only files in the `lib` directory are designed to be included into 3rd party projects.
+
+	Other files, such as those from `programs` or `examples` directory,
+	are not intended to be compiled outside of their context.
+	They can serve as source of inspiration,
+	but they should not be copy/pasted into 3rd party projects,
+	as this scenario is not supported.
+
+
+* packMP3 v1.0g https://github.com/packjpg/packMP3
+
+	packMP3 is a compression program specially designed for further 
+	compression of MPEG-1 Audio Layer III audio files without causing any 
+	further loss. Typically it reduces the file size of a MP3 file by 16% 
+	based on tests with 6000 randomly selected files. 
+
+
+	LGPL v3 license and special permissions
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	All programs in this package are free software; you can redistribute 
+	them and/or modify them under the terms of the GNU Lesser General Public 
+	License as published by the Free Software Foundation; either version 3 
+	of the License, or (at your option) any later version. 
+
+	The package is distributed in the hope that it will be useful, but 
+	WITHOUT ANY WARRANTY; without even the implied warranty of 
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser 
+	General Public License for more details at 
+	http://www.gnu.org/copyleft/lgpl.html. 
+
+	If the LGPL v3 license is not compatible with your software project you 
+	might contact me and ask for a special permission to use the packMP3 
+	library under different conditions. In any case, usage of the packMP3 
+	algorithm under the LGPL v3 or above is highly advised and special 
+	permissions will only be given where necessary on a case by case basis. 
+	This offer is aimed mainly at closed source freeware developers seeking 
+	to add PMP support to their software projects. 
+
+	Copyright 2010...2014 by Ratisbon University and Matthias Stirner. 	
+
+
+* PEA https://peazip.github.io/pea-file-format.html
+
+	PUBLIC DOMAIN
+
+
+# jsoncpp-1.9.5 https://github.com/open-source-parsers/jsoncpp
+
+	Copyright (c) 2007-2010 Baptiste Lepilleur and The JsonCpp Authors
+
+	Permission is hereby granted, free of charge, to any person
+	obtaining a copy of this software and associated documentation
+	files (the "Software"), to deal in the Software without
+	restriction, including without limitation the rights to use, copy,
+	modify, merge, publish, distribute, sublicense, and/or sell copies
+	of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be
+	included in all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+	MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+	NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+	BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+	ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.
+
+
+                           ---------------------------------
+
+
+# You can download the source code of ark.xxx.lgpl.dll (under LGPL) here.
+	https://code.bandisoft.com
+

@@ -1,1 +1,0 @@
-pyinstaller -F --distpath ./ Install.py

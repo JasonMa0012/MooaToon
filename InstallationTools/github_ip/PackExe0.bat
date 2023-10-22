@@ -1,0 +1,1 @@
+C:\Users\13121\AppData\Local\Programs\Python\Python311\python.exe -m PyInstaller -F GetGithubIP.py

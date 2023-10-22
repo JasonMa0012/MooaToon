@@ -1,0 +1,1029 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Türkçe
+TRANSLATORS                             = Devrim Ergin (www.onindir.com)[br] Salih Ameller[br] Kerem ÇALIK (www.dreamskyblog.tk/)[br] Bilal AFŞAR ( www.bilalafsar.com )
+
+
+[TEXT]
+TEXT_BUILDNO                            = Yapı#
+TEXT_FILE                               = Dosya
+TEXT_FOLDER                             = Klasör
+TEXT_ARCHIVE_SIZE                       = Arşiv Boyutu
+TEXT_ORIGINAL_SIZE                      = Hakîkî Boyut
+TEXT_ARCHIVE_FORMAT                     = Arşiv Türü
+TEXT_COMPRESSED_SIZE                    = Sıkıştırılmış Boyut
+TEXT_SOLID                              = Sıkıştırılma Oranı
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Sıkıştırılmış Dosya (${str1})
+TEXT_PORTABLE                           = Taşınabilir
+TEXT_NEW_FOLDER                         = Yeni Klasör
+TEXT_FILESIZE_UNKNOWN                   = Bilinmeyen Dosya Boyutu
+TEXT_FILEDATE_UNKNOWN                   = Bilinmeyen Dosya Tarihi
+TEXT_HELP_LINK                          = [Yardım]
+TEXT_APP_DESC                           = Bandizip hızlı, hafif ve ücretsiz bir programdır. Rar, Zip, 7z gibi birçok arşiv türünü işleyebilir.
+
+TEXT_MESSAGEBOX_OK                      = Tamam
+TEXT_MESSAGEBOX_CANCEL                  = İptâl
+TEXT_MESSAGEBOX_ABORT                   = Durdur
+TEXT_MESSAGEBOX_RETRY                   = Yeniden Dene
+TEXT_MESSAGEBOX_IGNORE                  = Atla
+TEXT_MESSAGEBOX_YES                     = Evet
+TEXT_MESSAGEBOX_NO                      = Hayır
+TEXT_MESSAGEBOX_CONTINUE                = Devam Et
+TEXT_MESSAGEBOX_HELP                    = Yardım
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Bunu tekrar gösterme
+
+TEXT_COLUMN_NAME                        = Ad
+TEXT_COLUMN_COMPSIZE                    = Sıkıştırılmış Boyut
+TEXT_COLUMN_ORIGSIZE                    = Hakîkî Boyut
+TEXT_COLUMN_KIND                        = Türü
+TEXT_COLUMN_DATE_MOD                    = Değiştirilme Tarihi
+TEXT_COLUMN_COMPMETHOD                  = Sıkıştırma Metodu
+TEXT_COLUMN_ENCRMETHOD                  = Şifreleme Metodu
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Öznitelikler
+TEXT_COLUMN_COMMENT                     = Açıklama
+TEXT_COLUMN_EXT                         = Ek bilgiler
+TEXT_COLUMN_PATHNAME                    = Yol
+
+TEXT_ICONPACK_NAME                      = Adı
+TEXT_ICONPACK_DESIGNER                  = Tasarımcısı
+TEXT_ICONPACK_COPYRIGHT                 = Telif Hakkı
+
+TEXT_ARCHIVE_COLUMN_NAME                = Ad
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Boyut
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Konum
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Toplam Boyut
+
+TEXT_SELECT_ARCHIVE_FILE                = Dosya Seç
+TEXT_SELECT_TEXT_FILE                   = Dosya Seç
+TEXT_SELECT_DEST_FOLDER                 = Hedef Klasörünü Seç
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Arşiv Dosyası
+TEXT_REGISTRY_FILE                      = Kayıt defteri dosyası
+
+TEXT_OPENDLG_ARCHIVEFILES               = Arşiv Dosyaları
+TEXT_OPENDLG_ARCHIVEFILE                = Arşiv Dosyası
+TEXT_OPENDLG_ALLFILES                   = Tüm Dosyalar
+TEXT_OPENDLG_EXEFILES                   = Exe Dosyaları
+
+TEXT_ABOUTBOX_TAB1                      = Bandizip Hakkında
+
+TEXT_ASSOC_GROUP0                       = Arşiv Dosyaları
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Diğerleri
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Bu dosyayı açabilmek için Bandizip'in son sürümünü indirin.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Bölünmüş dosyanın sadece ilk parçasını seçin.
+TEXT_OPENERR_CANT_OPEN_FILE             = Dosya açılamıyor (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = (${str1}) Dosyası, başka bir program tarafından kullanılmakta olduğu için açılamıyor.
+TEXT_OPENERR_GENERAL                    = (${str1}) Dosyası açılamıyor.  (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = İptâl edildi.
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = (${str1}) Dosya türü desteklenmiyor.
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = (${str1}) Arşiv dosyası değil.
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = (${str1}) Dosya türü desteklenmiyor.
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = (${str1}) Şifreleme metodu desteklenmiyor.
+TEXT_OPENERR_PASSWORD_NOT_SET           = Şifreyi girmediğiniz sürece arşivden yararlanamazsınız.
+TEXT_OPENERR_INVALID_PASSWORD           = Şifre yanlış.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Dosya açılamıyor çünkü dosyanın üst bilgisi bozulmuş.
+
+TEXT_ERR_INIT_FAILED                    = Başlatılamadı.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Şifre yanlış veya arşiv boş.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Şifreler eşleşmiyor.
+TEXT_ERR_PASSWORD_NOT_SET               = Şifre girmelisiniz.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Şifrenizde geçersiz karakterler var. Yalnızca harfler, rakamlar ve noktalama işaretleri kullanın.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Dosya bölme boyutu geçersiz.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Kendi Açılan Exe Arşivi) boyutu, en çok 4 GB olabilir.
+TEXT_ERR_INTERNAL_ERROR                 = Dahili hata.
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Arşiv dosyasında değişiklik yapılamıyor.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Arşiv dosyasında değişiklik yapılırken bir hata oluştu.
+TEXT_ERR_INVALID_FOLDER_PATH            = Geçersiz konum
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Sadece Zip dosyası düzenlenebilir.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Bölünmüş dosyayı düzenleyemezsiniz.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = SFX (Kendi Açılan Exe Arşivi) dosyalarını düzenleyemezsiniz.
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Bozuk dosyayı düzenleyemezsiniz.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Bu dosya türünü düzenleyemezsiniz.
+TEXT_ERR_CANT_CHANGE_FILENAME           = Bu dosyanın adını değiştiremezsiniz.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Dosya adında bunları kullanamazsınız: [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Aynı isimde dosya/klasör zaten var. Dosya adını (${str1}) şeklinde değiştiremezsiniz.
+TEXT_ERR_CANT_CREATE_FOLDER             = Klasör oluşturulamıyor.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Arşivleyebilmek için önce dosya eklemelisiniz.
+TEXT_ERR_INVALID_PARAM                  = Geçersiz parametre.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Bu dosya, arşive eklenemez. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Bu arşiv açılamıyor. [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Aynı klasör zaten var.
+TEXT_ERR_FILENAME_EMPTY                 = Dosya adı yanlış.
+TEXT_ERR_AT_DRAGANDDROP                 = Sürükle ve Bırak işlemi başarısız oldu.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = İşlem başarısız oldu. [br]Hızlı Sürükle ve Bırak fonksiyonu kapalı. Lütfen tekrar deneyin.
+TEXT_ERR_AT_CANT_OPEN_MMF               = MMF dosyası açılamıyor. (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Seçili dosya yok.
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Simge paketi kurulumu için bir klasör oluşturulamıyor.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Simge paketi kurulumu için bir dosya oluşturulamıyor.
+TEXT_ERR_AT_EXECUTE_DIRECT              = Bu dosya açılamıyor. Önce dosyayı çıkartın, sonra açmayı deneyin.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 4 GB'tan daha büyük bir dosya oluşturulamaz.[br]Zip veya 7Z gibi farklı bir arşiv türü seçiniz.
+TEXT_ERR_CANT_SAVE_AS                   = Bu dosya kaydedilemiyor.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip dosyayı düzenlerken bir problem ile karşılaştı.(${str1})[br][br]Bandisoft'a hata raporu göndermek ister misiniz?[br][br]Bu raporun gönderilmesi Bandizip'in düzeltilmesi için Bandisoft çalışanlarına  yardımcı olur.
+
+TEXT_MSG_TEST_OK                        = Bu arşivde herhangi bir hataya rastlanmadı.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Çıkartma işlemi başarısız oldu. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Çıkartma işlemi başarıyla tamamlandı.
+TEXT_MSG_EXTRACT_CANCELED               = Çıkartma işlemi iptâl edildi.
+TEXT_MSG_COMPRESS_SUCCESS               = Arşivleme işlemi başarıyla tamamlandı.
+TEXT_MSG_INTERNAL_ERROR                 = Dahili hata.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Şu dosya geçici klasör içinde açılamıyor:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Bu arşiv dosyası silinemiyor.
+TEXT_MSG_CRASH_REPORT                   = Program kilitlendi. Lütfen programı kapatın.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip bir problemle karşılaştı ve kapatılması gerek. Bandizip geliştiricilerine çökme raporu göndermek ister misiniz?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip cevap vermiyor.[br][br]Bandizip geliştiricilerine çökme raporu gönderip programı kapatmak ister misiniz?
+TEXT_MSG_SET_TEMP_PATH                  = Geçici yolu belirleyin
+TEXT_MSG_SET_PATH                       = Yolu belirleyin
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Simge paketi başarıyla yüklendi.
+TEXT_MSG_NOTICE_RESTART                 = Program yeniden başlatılacak.
+TEXT_MSG_ARCHVIE_OPENING                = Arşiv açılıyor.
+TEXT_MSG_COMPLETING                     = Tamamlanıyor: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Klasör oluşturulamıyor.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Bir klasör .GZ/XZ arşivi olarak sıkıştırılamıyor.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Çok miktarda dosya bir .GZ/XZ arşivi içine sıkıştırılamıyor. Lütfen her dosya/klasörü ayrı ayrı sıkıştırma tercihini seçin.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip sistem tepsisine küçültüldü. Geri getirmek için sistem tepsisi simgesine tıklayın.
+TEXT_MSG_TRAY_COMPLETED                 = İşlem tamamlandı.
+TEXT_MSG_BATCH_ARCHVING                 = Arşivleniyor: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Çıkartılıyor: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Test Ediliyor: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Siliniyor: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Silme işlemi başarısız: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = İşlem üzerinde çalışılıyor...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Karakterler düzgün görüntülenmiyor ise, yukarıdaki <font color=red><b>Kod Sayfası</b></font>'na tıklayın ve sonra <font color=red><b>Otomatik Algıla</b></font>seçeneğini deneyin.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Arşiv dosyası silinecek.[br]Bu dosyayı silmek istiyor musunuz?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Şu andaki arşivi silmek mi istiyorsunuz?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Şu andaki arşivi geri alınamaz şekilde mi silmek istiyorsunuz?
+TEXT_ASK_CHANGE_FILENAME                = Aynı isimde bir dosya zaten var.[br][br]Dosyanın adını ${str2} olarak değiştirmek ister misiniz?
+TEXT_ASK_DELETE_FILE                    = Seçili dosyayı silmek istiyor musunuz?
+TEXT_ASK_STOP_EXTRACT                   = İşlem sonlandırılsın mı?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Aynı isimde bir dosya zaten var. [br][br]Üzerine yazmak ister misiniz?
+TEXT_ASK_INIT_SETTING                   = Yaptığınız değişiklikleri silmek istiyor musunuz? Bandizip yeniden başlatılacaktır.
+TEXT_ASK_STOP_ARCHIVING                 = İşlem sonlandırılsın mı?
+TEXT_ASK_STOP_MODIFYING                 = İşlem sonlandırılsın mı?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Arşivdeki dosya değişikliğini uygulamak istiyor musunuz? [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = (${str1}) Simge paketini kurmak ve ayarlamak istiyor musunuz?
+TEXT_ASK_MAKE_FOLDER                    = Klasör mevcut değil. Oluşturmak ister misiniz?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Hedef klasörüne yazma müsaadesi yok.[br][br]- ${str1}[br][br]Devam etmek istiyor musunuz?
+TEXT_ASK_CONT_NOFREESPACE               = Hedef klasörde yeterli boşluk yok. Hedef klasörü değiştirin. [br][br]- ${str1}[br][br]Devam etmek istiyor musunuz?
+TEXT_ASK_ASK_UAC_ELEVATION              = Bu dosyaları değiştirme müsaadeniz yok.[br][br]Bu programı yönetici olarak baştan başlatmak ister misiniz?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Bu arşiv dosyası açılamıyor. [br][br]Parçalara ayrılmış olan bu arşivin (${str1}) ilk parçasını açmak ister misiniz?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Arşivleme işleminden sonra dosyaları silerseniz, sıkıştırılan dosyalarda bozukluk olduğu takdirde, mühim dosyalarınızı kaybedebilirsiniz.[br][br]"Arşivi Test Et" seçeneğini işaretlemek ister misiniz?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Çıkartma işlemi için yeterli yer yok. Devam etmek istiyor musunuz?[br][br]Hedef Klasör: ${str1}[br]Boş Disk Alanı: ${str2}[br]Çıkartılan dosya boyutu: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Bu dosya bozuk.
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Dosya bozuk veya başka bir bölünmüş dosya gerekiyor.
+
+TEXT_BTN_PAUSE                          = Beklet
+TEXT_BTN_RESUME                         = Devam Et
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Bir hata oluştu.
+TEXT_ERRDLG_USER_ABORT                  = İşlem tamamlanamadı.
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Bu dosya açılamıyor.
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Başka bir program tarafından kullanılmakta olduğu için dosya açılamıyor.
+TEXT_ARKERR_PASSWORD_NOT_SET            = Şifre girmelisiniz.
+TEXT_ARKERR_INVALID_PASSWD              = Geçersiz şifre.
+TEXT_ARKERR_USER_ABORTED                = İşlem tamamlanamadı.
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC hatası.
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Bu dosya açılamıyor.
+TEXT_ARKERR_CANT_READ_DATA              = Arşiv verileri okunamıyor.
+TEXT_ARKERR_INFLATE_FAILED              = Veri Hatası - Bu dosya bozuk.
+TEXT_ARKERR_BZIP2_ERROR                 = Veri Hatası - Bu dosya bozuk.
+TEXT_ARKERR_DATA_CORRUPTED              = Dosya bozuk veya başka bir bölünmüş dosya gerekiyor.
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Bu dosya açılamıyor.
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Klasör oluşturulamıyor.
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Desteklenmeyen sıkıştırma metodu.
+TEXT_ARKERR_WRITE_FAIL                  = Yazma işlemi sırasında bir hata oluştu.
+TEXT_ARKERR_DISK_FULL                   = Disk dolu.
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Dosya oluşturulamadı. Dosya yolu ve dosya adı 260 karakteri geçemez.
+TEXT_ARKERR_CANT_CREATE_FILE            = Dosya oluşturulamadı.
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Dosya oluşturulamadı. Programı yönetici haklarıyla çalıştırınız.
+TEXT_ARKERR_USER_SKIP                   = Atlandı.
+TEXT_ARKERR_FILE_TRUNCATED              = Dosyanın son bölümü bozuk veya eksik.
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Şifre geçersiz veya dosya bozuk.
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Bu dosya bozuk.
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = SFX (Kendi Açılan Exe Arşivi) dosyası 4 GB boyutunu aşıyor. Windows 4 GB'tan büyük dosyaları çalıştıramaz.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Bu arşiv çıkartılamıyor. (.z01, .z02..) gibi bölünmüş dosyanın tüm parçalarının olması gerekiyor.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Bu Zip dosyası çıkartılamıyor. (.z01, .z02..) gibi bölünmüş dosyanın tüm parçalarının olması gerekiyor.
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Bu arşiv dosyası açılamıyor. Başka bir bölünmüş dosya gerekiyor.
+TEXT_ARKERR_CORRUPTED_FILE              = Bu dosya bozuk.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Bu klasöre yazma izniniz yok.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Bu klasöre yazma izniniz yok. Programı yönetici haklarıyla çalıştırınız.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Bu şifreleme algoritması desteklenmiyor.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Bellek yetersiz.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Bellek yetersiz. Sıkıştırma Seviyesi'ni değiştirin.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Bu işlem desteklenmiyor.
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Çıkartılmış dosya boyutu ve arşiv üst bilgisi farklı.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = 4 GB'tan daha büyük bir dosya oluşturulamaz.[br]Zip veya 7Z gibi farklı bir arşiv türü seçiniz.
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Uzun dosya adı otomatik olarak kısaltılmıştır.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Kaynak dosya açılamıyor.
+TEXT_ARKERR_NOTIMPL                     = Yapılamadı.
+TEXT_ARKERR_CANT_READ_FILE              = Dosya okunamıyor.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Sembolik bağlantı oluşturmak için Bandizip'i Yönetici olarak çalıştırın.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Sembolik bağlantı oluşturulamıyor
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Bölünmesin
+TEXT_SPLITCOMBO_3MB                     = 3 MB
+TEXT_SPLITCOMBO_4MB                     = 4 MB
+TEXT_SPLITCOMBO_5MB                     = 5 MB
+TEXT_SPLITCOMBO_10MB                    = 10 MB
+TEXT_SPLITCOMBO_20MB                    = 20 MB
+TEXT_SPLITCOMBO_GMAIL                   = 25 MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100 MB
+TEXT_SPLITCOMBO_300MB                   = 300 MB
+TEXT_SPLITCOMBO_CD650                   = 650 MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700 MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4 GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7 GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Boyutu Buraya Yazın
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0 - Sıkıştırma Yok (En Hızlı)
+TEXT_COMPRESSIONMETHOD_FAST             = 1 - Asgarî Sıkıştır (Hızlı)
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2 - Normal Sıkıştır (Normal)
+TEXT_COMPRESSIONMETHOD_MAX              = 3 - Azamî Sıkıştır (Yavaş)
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Yeni Arşiv
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Arşive Dosya Ekle
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Yeniden Adlandır: ${str1}
+TEXT_TITLE_TEST_MODE                    = Arşiv Testi
+TEXT_TITLE_TEMPFOLDER_MODE              = Geçici Klasöre Çıkartılıyor...
+TEXT_TITLE_MODIFYING                    = Değiştiriliyor...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Çıkartılacak Dosya
+TEXT_MSG_SELECTED_FILE                  = ${num1} Dosya seçildi
+TEXT_MSG_SELECTED_FOLDER                = ${num1} Klasör seçildi
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num2} Klasör, ${num1} Dosya
+TEXT_MSG_SELECTED_FILESIZESUM           = Seçili Dosya Boyutu: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Sürüm denetimi başarısız oldu.
+TEXT_UPDATE_VERSION_CHECKING            = Sürüm denetleniyor.
+TEXT_UPDATE_DOWNLOAD_FAILED             = İndirilemedi.
+TEXT_UPDATE_LATEST_VERSION              = Sürüm güncel
+TEXT_UPDATE_DO_DOWNLOAD                 = Güncelleme gerekli.
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = İndirme tamamlandı.
+
+TEXT_INSTALL_HONEYVIEW                  = Honeyview programını kur
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview programı bilgisayarınızda kurulu değil
+TEXT_INSTALL_HONEYVIEW_2                = Lütfen Bandisoft tarafından geliştirilen Honeyview programını deneyin.<br> ZIP, RAR, ya da 7z dosyaları içindeki resimleri, arşivden çıkartmadan görüntülemeyi destekler.
+
+TEXT_REGISTRATION_FAILED                = Kaydetme işlemi başarısız oldu.[br]E-posta adresinizi ve ürün anahtarınızı kontrol edin.
+TEXT_REGISTRATION_SUCCEED               = Bandizip uygulamanız kaydedildi.
+TEXT_REGISTRATION_ASK                   = Bandizip uygulamasının kaydını kaldırmak istediğinize emin misiniz?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip kayıtlı değil.[br]Bandizip'i herhangi bir kısıtlama olmadan kullanmak için lütfen satın alın ve kaydedin.
+TEXT_REGISTER_INFO                      = Bandizip şu kullanıcı adına kaydedildi:[br]E-posta adresi: ${str1}[br]Ürün Anahtarı: ${str2}
+
+
+[MENU]
+MENUSTR_FILE                            = &Dosya
+MENUSTR_EDIT                            = &Düzen
+MENUSTR_SETTING                         = &Seçenekler
+MENUSTR_FIND                            = &Ara
+MENUSTR_VIEW                            = &Görünüm
+MENUSTR_HELP                            = &Yardım
+
+MENUSTR_OPEN                            = &Arşiv Dosyası Aç\tCtrl+O
+MENUSTR_RECENT                          = Son Kullanılan Dosyalar
+MENUSTR_CLOSE_FILE                      = &Arşivi Kapat\tF4
+MENUSTR_CREATE_ARCHIVE                  = &Yeni Arşiv\tCtrl+N
+MENUSTR_NEW_WINDOW                      = Yeni Pencere \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Yeni Pencere (Yönetici)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Farklı Kaydet
+MENUSTR_DELETE_ARCHIVE                  = Arşivi Sil \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Arşivi Geri Alınamaz Şekilde Sil \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Arşivin Bulunduğu Adresi Aç
+MENUSTR_TEST_ARCHIVE                    = &Arşivi Test Et \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &Dosyayı Çıkart \tCtrl+E
+MENUSTR_EXIT                            = &Çıkış \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Dosyayı Yeniden Adlandır \tF2
+MENUSTR_ADD_FILE                        = &Dosya Ekle \tIns
+MENUSTR_DELETE_FILE                     = &Dosya Sil \tDel
+MENUSTR_EDIT_COMMENT                    = Arşiv Açıklaması
+MENUSTR_SETTING_SUB                     = &Ayarlar (F5)
+MENUSTR_REGISTER                        = Bandizip'i Kaydedin...
+MENUSTR_UNREGISTER                      = Bandizip Kaydını İptâl Edin...
+MENUSTR_PASSMAN                         = Şifre Yöneticisi...
+MENUSTR_FIND_ITEM                       = &Dosyaları Ara\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Dosyaları panoya kopyala\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Dosyaları panodan yapıştır\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Başlangıç Ekranı \tF6
+MENUSTR_VIEW_TREECONTROL                = Ağaç Görünümü Bölümü \tF7
+MENUSTR_VIEW_COMMENT                    = Arşiv Açıklaması\tF8
+MENUSTR_VIEW_PREVIEW                    = Resim Önizlemesi
+MENUSTR_VIEW_STATUS_BAR                 = Durum Çubuğu
+MENUSTR_VIEW_TOOLBAR                    = Araç Çubuğu
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Geniş
+MENUSTR_VIEW_TOOLBAR_MINI               = Küçük
+MENUSTR_VIEW_TOOLBAR_OLD                = Eski
+MENUSTR_VIEW_TOOLBAR_HIDE               = Gizle
+MENUSTR_VIEW_LISTVIEW                   = Dosya Listesi
+MENUSTR_VIEW_LISTVIEW_ICON              = Simgeler
+MENUSTR_VIEW_LISTVIEW_LIST              = Liste
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detaylar
+MENUSTR_VIEW_COLUMN                     = Sütun
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Her zaman üstte
+MENUSTR_VIEW_COLOR_SETTING              = Renk Ayarları...
+
+
+MENUSTR_ABOUT                           = &Bandizip Hakkında\tF1
+MENUSTR_HELPPAGE                        = &Yardım Sayfası'na Git
+MENUSTR_OPEN_FOLDER                     = &Bandizip Klasörü'nü Aç
+MENUSTR_FORUM                           = Bandizip &Forum'a Git
+MENUSTR_HOMEPAGE                        = &Anasayfa'ya Git
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Sıkıştırılmış Boyut
+POPUPMENU_VIEWITEM_ORIGSIZE             = Hakîkî Boyut
+POPUPMENU_VIEWITEM_KIND                 = Türü
+POPUPMENU_VIEWITEM_DATE_MOD             = Değiştirilme Tarihi
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Sıkıştırma Metodu
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Şifreleme Metodu
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Dosya Öznitelikleri
+POPUPMENU_VIEWITEM_COMMENT              = Dosya Açıklaması
+POPUPMENU_VIEWITEM_EXT                  = Ek Bilgiler
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Tümünü Çıkart \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Seçili Dosyayı Çıkart
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Tümünü Buraya Çıkart
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Aç\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = İlişkilendirilmiş Programla Aç
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Düzenle\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = &Bandizip İle Aç
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Yeni Klasör
+POPUPMENU_LISTCONTROL_ADD_FILE          = Dosya Ekle \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Dosya Sil \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Dosyayı Yeniden Adlandır
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Tümünü Seç \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Ana Klasöre Taşı\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Arşivi Sil
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Arşivin Olduğu Klasöre Git
+
+POPUPMENU_EXTRACT_AUTODEST              = Otomatik Çıkart\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Geçerli Klasöre Çıkart\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Dosya İsminde Klasör Açıp Çıkart
+POPUPMENU_EXTRACT_DESKTOP               = Masaüstüne Çıkart
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Masaüstüne Otomatik Çıkart
+
+POPUPMENU_RECENT_CLEAR                  = Geçmişi Sil
+POPUPMENU_RECENT_NOITEM                 = Geçmiş Kaydı Yok
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Bandizip İle Aç
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Otomatik Çıkart
+
+POPUPMENU_CODEPAGE_DEFAULT              = Varsayılan
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Basit Çince
+POPUPMENU_CODEPAGE_TRADCHINESE          = Geleneksel Çince
+POPUPMENU_CODEPAGE_JAPANESE             = Japonca
+POPUPMENU_CODEPAGE_KOREAN               = Korece
+POPUPMENU_CODEPAGE_WINDOWS1252          = Batı Avrupa
+POPUPMENU_CODEPAGE_WINDOWS1250          = Orta Avrupa
+POPUPMENU_CODEPAGE_WINDOWS1251          = Kiril
+POPUPMENU_CODEPAGE_WINDOWS1254          = Türkçe
+POPUPMENU_CODEPAGE_WINDOWS737           = Yunanca
+POPUPMENU_CODEPAGE_ARABIC               = Arapça
+POPUPMENU_CODEPAGE_HEBREW               = İbranice
+POPUPMENU_CODEPAGE_BALTIC               = Baltık dilleri
+POPUPMENU_CODEPAGE_THAI                 = Tay(land)ca
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = Otomatik Algıla
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Honeyview ile görüntüle
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = İlişkilendirilmiş program ile görüntüle
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Sistem tepsisine küçült
+DLG_MENUSTR_LOW_PRIORITY                = Düşük Öncelik
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Çıkartma işleminden sonra arşivi sil
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = Tamam
+IDCANCEL                                = İptâl
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Bandizip Hakkında
+IDC_BTN_HOMEPAGE                        = Anasayfa
+IDC_BTN_UPDATE                          = Güncelle
+IDC_BTN_REGIST                          = Şimdi Kaydettir
+IDC_BTN_BUY                             = Şimdi Satın Al
+IDC_STATIC_LICENSE                      = Bandizip Kayıt Bilgisi
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Dosya Aç
+IDC_STATIC_OPENING                      = Açılıyor
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Çıkartma Yolunu Seçin
+IDC_STATIC_FOLDER                       = &Hedef Yol
+IDC_STATIC_FILES2EXTRACT                = Çıkart:
+IDC_RADIO_FILES2EXTRACT_0               = &Tüm Dosyalar
+IDC_RADIO_FILES2EXTRACT_1               = &Seçili Dosyalar
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Seçili klasörün içinde, dosya isminde klasör açıp çıkart.
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Çıkartma bitince orijinal dosyaları sil.
+IDC_CHK_REMEMBER_SETTINGS               = Ayarları hatırla
+IDC_BTN_NEWFOLDER                       = Ye&ni Klasör
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Çıkart
+IDC_BTN_STOP                            = Vazgeç
+IDC_BTN_CLOSE                           = Kapat
+IDC_BTN_PAUSE                           = Beklet
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Yeni Arşiv
+IDC_STATIC_FILE_LIST                    = Arşivlemek istediğiniz dosyaları, "Ekle" düğmesini kullanarak ya da "Sürükle-Bırak" usûlüyle listeye ekleyebilirsiniz.
+IDC_STATIC_ARCHIVE_SETTING              = Arşiv Ayarları
+IDC_STATIC_ARCHIVE_NAME                 = Arşiv Adı ve Konumu
+IDC_STATIC_SET_DEST_FOLDER              = Hedef Klasör
+IDC_STATIC_ARCHIVE_TYPE                 = Arşiv Türü
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Arşivi Parçalara Böl
+IDC_STATIC_COMPRESSION_METHOD           = Sıkıştırma Seviyesi
+IDC_STATIC_HELP_SPLIT                   = [Yardım]
+IDC_STATIC_HELP_7Z                      = [7Z Hakkında]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Gözat...
+IDC_BTN_SET_PASSWORD                    = Şifreyi &ayarla...
+IDC_BTN_TEST_ARCHIVE                    = Arşivi &Test Et
+IDC_BTN_DELETE_SRC                      = Arşivleme bitince dosyaları sil.
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Hepsini ayrı ayrı sıkıştır.
+IDC_BTN_SET_DEST_FOLDER                 = Hedef Klasörü Değiştir.
+IDC_BTN_TOGGLE_ADVANCED                 = Daha Fazla Seçenek
+IDC_BTN_SET_SFX                         = SFX Ayarları
+IDC_BTN_ADD                             = &Ekle
+IDC_BTN_DEL                             = &Sil
+IDC_BTN_START                           = &İşlemi Başlat
+IDC_BTN_COMP_ADVANCED                   = Gelişmiş
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = ZIP/ZIPX Sıkıştırması Ayarları
+IDC_AA_ZIP_ALGO                         = Sıkıştırma methodu
+IDC_AA_ZIP_ENC                          = Şifreleme methodu
+IDC_AA_ZIP_THREAD                       = Kullanılacak işlemci kanal sayısı
+COMBO_TEXT_THREAD_AUTO                  = Otomatik
+IDD_AA_7Z                               = 7Z Sıkıştırması Ayarları
+IDC_AA_7Z_ALGO                          = Sıkıştırma methodu
+IDC_AA_7Z_SOLID                         = Tek parça blok boyutu
+COMBO_TEXT_SOLID_NONE                   = Katı olmayan arşiv
+COMBO_TEXT_SOLID_SOLID                  = Katı arşiv
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Şifreyi Girin
+IDC_STATIC_DESC_ARCHIVING               = Arşivinizi için bir şifre girin. Daha iyi bir güvenlik için en az 8 karakter olması tavsiye edilir.
+IDC_STATIC_DESC_MASTERPASS              = Şifre yöneticisi için ana parolayı girin. Daha iyi bir güvenlik için en az 8 karakter olması tavsiye edilir.
+IDC_STATIC_DESC_EXTRACT                 = Şifrelenmiş dosyanızı açmak için gerekli şifreyi girin.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Geçersiz şifre. Yeniden deneyin.
+IDC_STATIC_PWD                          = Şifreyi girin
+IDC_STATIC_PWD2                         = Şifreyi yeniden girin
+IDC_BTN_SHOW_PASSWORD                   = Şifreyi Göster
+IDC_BTN_PASSMAN                         = Şifre Yöneticisi...
+IDC_CHECK_APPLY_ALL                     = &Hepsine Uygula
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Şifre Yöneticisi...
+TEXT_MSG_CORRUTP_DATA                   = Depolanan şifre verileri bozulmuş.
+TEXT_PASSMAN_WARNING1                   = Ana şifre ayarlanmazsa, şifre yöneticisi içindeki şifreler kriptolanmayacaktır.
+TEXT_PASSMAN_WARNING2                   = Bu özelliği herkese açık veya paylaşılan bir bilgisayarda kullanıyorsanız dikkatli olmanız gerekir.
+LIST_PASS_HEADER1                       = Şifre
+LIST_PASS_HEADER2                       = Görünen ad
+IDC_BTN_ADD                             = Ekle
+IDC_BTN_DEL                             = Sil
+IDC_BTN_EDIT                            = Düzenle
+IDC_BTN_SET_MASTERPASS                  = Ana şifreyi ayarla...
+IDC_BTN_DEL_MASTERPASS                  = Ana şifreyi kaldır
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Ana Şifreyi Girin
+IDC_STATIC_MASTPASS_MSG                 = Şifre yöneticisine erişmek için ana şifreyi girin. Sistem içindeki kayıtlı bütün şifre bilgilerini sıfırlamak için yeniden ayarlayın.
+IDC_BTN_INITPASSMAN                     = Sıfırla
+TEXT_ASK_INIT_PASSMAN                   = Bütün şifre bilgilerini silmek istediğinize emin misiniz?
+IDC_BTN_SHOW_PASSWORD                   = Şifreyi Göster
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Şifre bilgileri
+IDC_STATIC_PASSWORD                     = Şifre
+IDC_STATIC_DISPNAME                     = Görünen ad (tercihe bağlı)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Arşivlemek İstediğiniz Dosyaları/Klasörleri Seçin
+IDC_BTN_OPEN                            = Aç
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Arşivlendi
+TEXT_ARCHIVE_TESTING                    = Test Ediliyor
+IDC_BTN_STOP                            = Vazgeç
+IDC_BTN_CLOSE                           = Kapat
+IDC_BTN_PAUSE                           = Beklet
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Yinelenen Dosyalar
+IDC_STATIC_DUPE_MESSAGE                 = Aynı isimde bir dosya zaten var.
+IDC_STATIC_DUPEFILE_OLD                 = Orijinal Dosya
+IDC_STATIC_DUPEFILE_NEW                 = Şimdiki Dosya
+IDC_STATIC_DUPE_ASK                     = Seçiminizi Yapın:
+IDC_RADIO_DUPE_METHOD0                  = &Atla
+IDC_RADIO_DUPE_METHOD1                  = &Üzerine Yaz
+IDC_RADIO_DUPE_METHOD2                  = &Yeniden Adlandır
+IDC_CHECK_DUPE_APPLY_ALL                = &Bunu, sonraki yinelemelerde de uygula.
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Bandizip'i Yönlendirin
+IDC_STATIC_ASK_HANDLING                 = Seçiminizi Yapın:
+IDC_RADIO_HANDLE_METHOD0                = &Arşivi Aç
+IDC_RADIO_HANDLE_METHOD1                = &Yeni Arşiv Oluştur
+IDC_RADIO_HANDLE_METHOD2                = &Dosyaları Şimdiki Arşive Ekle
+IDC_CHK_PASS                            = Şifre Kullan
+IDC_STATIC_PASSWORD_AGAIN               = Şifreyi Tekrar Girin
+IDC_CHK_SHOW_PASS                       = Şifreyi Göster
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Ayarlar
+IDC_BTN_INIT                            = Ayarları Sıfırla
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Genel Ayarlar
+IDC_CHK_EXIT_WITH_ESC                   = ESC tuşu ile çıkış yapılabilsin.
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Arşivdeki değişiklikleri her zaman kontrol et.
+IDC_CHK_SNAP                            = Pencereye uydur.
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Arşiv içinde [..] (Üst klasör) satırını göster
+IDC_CHK_SHOW_GRID_AT_LIST               = Detaylar kısmında satır-sütun çizgilerini göster
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Tüm satırı seç.
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Bandizip'i İlişkilendirin
+IDC_BTN_SELECT_MANDATORY                = Önemli Olanları Seç
+IDC_BTN_SELECT_ALL                      = Tümünü Seç
+IDC_BTN_CLEAR_ALL                       = Hiçbirini Seçme
+IDC_BTN_APPLY_NOW                       = Uygula
+IDC_STATIC_ICON_PACK                    = Simge Paketini Seç:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Simge Paketi İndir]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - Varsayılan Uygulamaları Ayarla
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Bandizip'i İlişkilendirin
+;IDC_STATIC_ASSOC_DESC1                 = Bandizip'le açılmasını istediğiniz dosyaları, Windows 8 ve sonraki sürümler için şu şekilde ilişkilendirebilirsiniz:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Aşağıda bulunan "Bütünleşme Ayarları" na tıklayın.
+;IDC_STATIC_ASSOC_DESC3                 = 2. 'Program İlişkilendirmelerini Ayarla' penceresinde "Tümünü Seç" i işaretleyin.
+;IDC_STATIC_ASSOC_DESC4                 = 3. "Kaydet" e tıklayın.
+;IDC_STATIC_ASSOC_DESC1_10              = Bandizip'le açılmasını istediğiniz dosyaları, Windows 10 ve sonraki sürümler için şu şekilde ilişkilendirebilirsiniz:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Aşağıda bulunan "Bütünleşme Ayarları" na tıklayın.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Varsayılan Programlar penceresinden "Bandizip" i seçin.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. "Bu programı varsayılan olarak ayarla" düğmesine tıklayın.
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Bütünleşme Ayarları
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Klasik Yöntem
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Arşive Çift Tıklandığında
+IDC_RADIO_SHELL_OPEN_0                  = Bandizip ile aç.
+IDC_RADIO_SHELL_OPEN_1                  = Otomatik çıkart.
+IDC_RADIO_SHELL_OPEN_2                  = Sağ tık menüsünü göster.
+IDC_RADIO_SHELL_OPEN_3                  = Şu klasöre 'Otomatik Çıkart' :
+IDC_BTN_SET_EXTRACT_FOLDER              = Gözat...
+IDC_RADIO_SHELL_OPEN_4                  = Arşivle aynı isimde bir klasör açıp çıkart.
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Çift tıklayarak çıkarttıktan sonra arşivi sil
+
+IDC_STATIC_SHELL_EXTRACT                = Çıkartma Menüsü
+IDC_CHK_SHELL_EXTRACT_HERE              = Buraya Çıkart
+IDC_CHK_SHELL_EXTRACT_AUTO              = Buraya (Otomatik) Çıkart
+IDC_CHK_SHELL_EXTRACT_SUB               = "Klasöre Çıkart "Arşiv-Adı""
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Buraya Çıkart ve Sil
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Buraya (Otomatik) Çıkart ve Sil
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = ""Arşiv-Adı" klasörüne çıkart ve Sil"
+IDC_CHK_SHELL_EXTRACT_DLG               = Başka Bir Klasöre Çıkart...
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Yönetici olarak çıkart
+IDC_CHK_SHELL_TEST_ARCHIVE              = Arşivi Test Et
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Bandizip İle Aç
+IDC_CHK_SHELL_PREVIEW                   = Arşiv Önizlemesi
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Önizlenecek dosya sınırı:
+IDC_CHK_SHELL_PREVIEW_TREE              = Ağaç yapısı ile arşivin önizlemesini görüntüle
+
+IDC_STATIC_SHELL_ARCHIVING              = Sıkıştırma Menüsü
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Zip Şeklinde Sıkıştır "Dosya Adı.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = "Zip Şeklinde Sıkıştır ve Postala "Dosya Adı.zip""
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "ZipX Şeklinde Sıkıştır "Dosya Adı.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Exe (SFX) Şeklinde Sıkıştır "Dosya Adı.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Tar Şeklinde Sıkıştır "Dosya Adı.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Tgz Şeklinde Sıkıştır "Dosya Adı.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Lzh Şeklinde Sıkıştır "Dosya Adı.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "İso Şeklinde Sıkıştır "Dosya Adı.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "7z Şeklinde Sıkıştır "Dosya Adı.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Gz Şeklinde Sıkıştır "Dosya Adı.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Xz Şeklinde Sıkıştır "Dosya Adı.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Xz Şeklinde Sıkıştır "Dosya Adı.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "Zip Şeklinde "Hepsini Ayrı Ayrı Sıkıştır""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "7z Şeklinde "Hepsini Ayrı Ayrı Sıkıştır""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Arşive Ekle (Zip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Yönetici olarak sıkıştır
+IDC_CHK_SHELL_ARCHIVING_RULE            = Hususî dosya adı ile sıkıştır
+IDC_STATIC_FILENAME_RULE_HELP           = Kâide: ${NAME}=DosyaAdı, %Y=Yıl, %m=Ay, %d=Gün, %H=Saat, %M=Dakika, %S=Saniye
+
+IDC_STATIC_SHELL_BKGND                  = Sağ Tık Menüsüne Ekle
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = ""Yeni Klasör" fonksiyonunu kullan"
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Komut İstemi Penceresi (cmd.exe)
+
+IDC_STATIC_SHELL_ETC                    = Diğer Sağ Tık Menüsü Ayarları
+IDC_CHK_SHELL_DO_NOT_USE                = Bandizip'i sağ tık menüsünden kaldır.
+IDC_CHK_SHELL_AS_SUB_MENU               = Uzayan sağ tık menüsü
+IDC_CHK_SHELL_HIDE_ICON                 = Bandizip simgesini gizle.
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Arşiv dosyası ile içeriği ayır.
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Sıkıştırılmış dosyalar için bile sıkıştırma menüsünü göster.
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Birden çok dosya veya klasör seçildiğinde, üzerine tıklanan dosya veya klasörün adını kullan.
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Dosya penceresi içinden sürükle-bırak yaparak dosyaları doğrudan bir ZIP dosyası içine ekleme
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Çıkartma Ayarları
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = (Arşivi açarken) Eğer arşivde yalnızca bir klasör varsa, klasörün içini göster.
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Çıkarttıktan sonra klasörü aç.
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Çıkartma işlemi bitince ilerleme penceresi kapanmasın.
+IDC_CHK_FAST_DRAG_DROP                  = Büyük boyutlu dosyaları çıkartmak için 'Hızlı Sürükle ve Bırak' fonksiyonunu kullan.
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = TGZ, TBZ Dosyalarını bir kerede çıkart.
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = TGZ, TBZ Dosyalarının boyutu büyük bile olsa.
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Otomatik Çıkart seçeneği, arşivde sadece bir dosya bile olsa, klasöre çıkartsın.
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Macintosh Kod Sayfası'nı otomatik algıla.
+IDC_CHK_UNIXZIP_AS_UTF8                 = UNIX'e ait bir Zip dosyasını açarken UTF-8 Kod Sayfası'nı kullan.
+IDC_STATIC_CODEPAGE                     = Kod Sayfası Önayarı
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Bu dosya türleri için tüm dosyaları çıkart:
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Sıkıştırma Ayarları
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Sıkıştırılacak klasör sayısı bir tane olduğunda, klasörle birlikte değil, sadece içindekileri sıkıştır.
+IDC_CHK_USE_UTF8_COMPRESS               = (UTF-8) Zip dosyalarında, Unicode dosya isimleri kullan.
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Unicode dosya isimlerini Zip dosyalarının fazladan bir üst başlık bölümü içinde depola (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = (UTF-8) Tar, Tgz dosyalarında, Unicode dosya isimleri kullan.
+IDC_CHK_FORCE_ZIP64                     = Dosya boyutu 2GB'dan daha az bile olsa, her zaman Zip64 biçimini kullan. (Önerilmez)
+IDC_CHK_EXCLUDE_THUMBSDB                = Thumbs.db dosyasını hariç tut, arşivin içine alma.
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Zip dosyaları oluştururken, NTFS zaman bilgisini kaydet.
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Yüksek hızda arşivlemeyi kullan.
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Arşivleme bitince ilerleme penceresi kapanmasın.
+IDC_STATIC_COMPRESSION_METHOD           = Sıkıştırma Seviyesi:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Arşivleri, kaynak klasörünün (son klasör) içinde oluştur.
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Arşivler için varsayılan klasör:
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Gözat...
+IDC_CHK_EXCLUDE_FILTER                  = Arşivlerken şu dosya türlerini hariç tut, arşivin içine alma:
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Önizleme
+IDC_CHK_SHOW_PREVIEW                    = Resim dosyalarında önizleme yap
+IDC_CHK_SHOW_FOLDER_SIZE                = Klasörlerin sıkıştırılmış ve hakîkî boyutlarını göster
+
+IDC_STATIC_SETTING_VIEWITEM             = Sütunlar
+IDC_CHK_VIEWITEM_COMPSIZE               = Sıkıştırılmış Boyut
+IDC_CHK_VIEWITEM_ORIGSIZE               = Hakîkî Boyut
+IDC_CHK_VIEWITEM_KIND                   = Türü
+IDC_CHK_VIEWITEM_DATE_MOD               = Değiştirilme Tarihi
+IDC_CHK_VIEWITEM_COMPMETHOD             = Sıkıştırma Methodu
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Şifreleme Methodu
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Dosya Öznitelikleri
+IDC_CHK_VIEWITEM_COMMENT                = Dosya Açıklaması
+IDC_CHK_VIEWITEM_EXT                    = Ek Bilgiler
+
+IDC_STATIC_IMAGE_VIEWER                 = Arşivlerdeki resim dosyalarını açmak için
+IDC_RADIO_IMAGE_VIEWER_0                = Bandizip dahili resim görüntüleyicisini kullan.
+IDC_RADIO_IMAGE_VIEWER_1                = Her bir resim formatı ile hangi program ilişkilendirilmişse onu kullan.
+IDC_RADIO_IMAGE_VIEWER_2                = Yüklüyse Honeyview görüntüleyicisini kullan
+
+IDC_STATIC_EDITOR                       = Metin dosyalarını açmak ve düzenlemek için
+IDC_BTN_SET_EDITOR_PATH                 = Gözat...
+
+IDC_STATIC_COLOR                        = Renk
+IDC_STATIC_COLOR_THEME                  = Tema rengi
+IDC_BTN_BKGND                           = Seçili
+IDC_STATIC_COLOR_TEXT                   = Yazıtipi rengi
+IDC_STATIC_COLOR_TEXT_AUTO              = Otomatik
+IDC_STATIC_COLOR_TEXT_WHITE             = Beyaz
+IDC_STATIC_COLOR_TEXT_BLACK             = Siyah
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_CHK_COPY_ZONE_IDENTIFIER            = İnternetten indirilen arşiv dosyalarından çıkartma işlemi esnasında Zone.Identifier bilgisini kopyala
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Bandizip Ayarlarını Dışarı Ver
+IDC_STATIC_ETC                          = Diğer Ayarlar
+IDC_CHK_SET_TEMP_FOLDER                 = Geçici klasörün konumunu ayarla:
+IDC_BTN_SET_TEMP_FOLDER                 = Gözat...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Şu dosya tiplerini arşiv dosyası olarak kabul et
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Alt işlemden çıkıldığında geçici dosyaları sil
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Silinen dosyaları Geri Dönüşüm Kutusu'na taşı.
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Arşivler için, geçmiş kaydı tut.
+IDC_CHK_USE_LONG_PATH_NAME              = 260 Karakteri aşan uzun yol adlarına izin ver.
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Arşiv dosyalarının, o anda Bandizip'te açık olsa bile, Windows Gezgini ile silinebilmesine izin ver.
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Klasör ağacını, otomatik olarak genişlet.
+IDC_CHK_USE_MODAL_DIALOG                = Arşivlerken/Çıkartırken modal dialog penceresi kullan
+IDC_CHK_USE_ELEGANT_UI                  = Zarif kullanıcı arayüzü tasarımını kullan
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Bandizip başladığında 'Başlangıç Ekranı' penceresini göster
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Başlık çubuğunda tam dosya adresini göster
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Çıkartma işlemi iptâl edildiğinde çıkartılan dosyaları sil
+IDC_CHK_COPY_ZONE_IDENTIFIER            = İnternetten indirilen arşiv dosyalarından çıkartma işlemi esnasında Zone.Identifier bilgisini kopyala
+IDC_CHK_USE_SET_END_OF_FILE             = Çıktı dosyası için gerekli disk boşluğunu peşinen ayır
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Dil Ayarları
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Bu programın tercümesine yardım etmek ister misiniz? Buraya tıklayın...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (Kendi Açılan Exe Arşivi) Ayarları
+IDC_STATIC_TARGET_PATH                  = Çıkartılacak Yol:
+IDC_STATIC_TITLE                        = SFX Penceresinin Başlığı:
+IDC_STATIC_RUN                          = Çıkarttıktan Sonra Çalıştır:
+IDC_STATIC_MESSAGE                      = SFX Metni:
+IDC_CHK_AUTO_CLOSE                      = Çıkartma bitince SFX penceresini kapat.
+IDC_BTN_SAVE_SFX_SETTING                = Ayarları Kaydet
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Dosyaları Ara
+IDC_STATIC_FIND                         = &Aranan:
+IDC_BTN_CLOSE                           = Kapat
+IDC_BTN_DELETE                          = Sil
+IDC_BTN_EXTRACT                         = Çıkart
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Arşiv Açıklaması
+IDC_STATIC_COMMENT                      = Arşive Açıklama Ekle / Düzenle
+IDC_CHK_USE_UTF8                        = Açıklamayı Unicode (UTF-8) olarak kaydet.
+IDC_BTN_LOAD_FROM_FILE                  = Açıklamayı metin dosyasından yükle (*.txt)
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = UYARI
+IDC_STATIC_WARN_EXECUTABLE              = Bu, çalıştırılabilir bir dosyadır. Bu dosya güvenli bir kaynaktan gelmiyorsa, bilgisayarınıza zarar verebilir.  Yine de çalıştırmak istiyorsanız "Tamam" a tıklayın.
+IDC_CHK_DO_NOT_ASK_AGAIN                = Bu soruyu bir daha sorma.
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Bandizip'i Kaydet
+IDC_STATIC_DESC1                        = E-posta adresinizi ve e-posta yolu ile size ulaştırılan ürün anahtarınızı girin.
+IDC_STATIC_EMAIL                        = E-posta adresi
+IDC_STATIC_PRDUCT_KEY                   = Ürün anahtarı
+IDC_BTN_REGISTER                        = Şimdi Kaydet
+IDC_STATIC_BUYNOW                       = Bandizip'i henüz satın almadınız mı? [Şimdi al]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Bandizip Lisansı için Rehber
+TEXT_LIMIT_PASSMAN                      = Bandizip Standard Edition içindeki şifre yöneticisinde sadece bir şifre depolanabilir.
+TEXT_SHOW_AD                            = Bandizip Standard Edition içinde reklamlar görünmektedir.[br]Reklamları kaldırmak için ücretli sürümü satın alabilirsiniz.
+TEXT_CANNOT_CHANGE                      = Bu özellik Bandizip Standard Edition içinde değiştirilemez.[br]Özelliği değiştirmek için ücretli sürümü satın alabilirsiniz.
+TEXT_CANNOT_USE                         = Bu özellik Bandizip Standard Edition içinde kullanılamaz.[br]Özelliği kullanmak için ücretli sürümü satın alabilirsiniz.
+IDC_STATIC_COMPARISON                   = Sürümler arası karşılaştırma...
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Aç
+$TOOLBAR_CLOSE_FILE                     = Kapat
+$TOOLBAR_EXTRACT_FILE                   = Çıkart
+$TOOLBAR_CREATE_ARCHIVE                 = Yeni
+$TOOLBAR_DELETE_FILE                    = Sil
+$TOOLBAR_ADD_FILE                       = Ekle
+$TOOLBAR_TEST_ARCHIVE                   = Test Et
+$TOOLBAR_CODEPAGE                       = Kod Sayfası
+$TOOLBAR_VIEWITEM                       = Sütunlar
+
+$TOOLBAR_OPEN2                          = Arşiv Aç
+$TOOLBAR_CREATE_ARCHIVE2                = Yeni Arşiv
+
+$TEXT_DESKTOP                           = Masaüstü
+$TEXT_DOCUMENT                          = Belgeler
+$TEXT_PICTURE                           = Resimler
+$TEXT_COMPUTER                          = Bilgisayar
+
+$TEXT_SETTINGTAB_GENERAL                = Bandizip
+$TEXT_SETTINGTAB_ASSOC                  = Bütünleşme
+$TEXT_SETTINGTAB_SHELL                  = Sağ Tık Menüsü
+$TEXT_SETTINGTAB_EXTRACT                = Çıkartma
+$TEXT_SETTINGTAB_ARCHIVE                = Sıkıştırma
+$TEXT_SETTINGTAB_VIEWER                 = Görüntüleyici
+$TEXT_SETTINGTAB_ETC                    = Diğer Ayarlar
+$TEXT_SETTINGTAB_LANG                   = Dil
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Dosyaların çıkartıldığı klasörü aç
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Arşivin olduğu klasörü aç
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = İşlem bitince dosyaların çıkartıldığı klasörü aç
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Arşivin olduğu klasörü aç
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Hedef klasörü aç
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Çıkartma işlemi bitince bu pencereyi kapatma
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Arşivleme işlemi bitince bu pencereyi kapatma
+$TOOLTIP_ADVANCED_MENU                  = Çeşitli Ayarlar
+$TOOLTIP_REGISTER                       = Bandizip'i Kaydet
+$TOOLTIP_UPDATE                         = Güncelle
+
+$TEXT_INSTALL_START                     = Tamam, deneyeceğim
+$TEXT_INSTALL_CLOSE                     = Hayır, teşekkürler
+$TEXT_INSTALL_HONEYVIEW_LINK            = Daha fazlasını gör...
+
+$TEXT_HELP_PAGE                         = Yardım Sayfası
+$TEXT_AD                                = Reklam
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Yeni Klasör
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Yeni Klasör
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Bandizip İle Aç...
+TEXT_MENU_TEST_ARCHIVE                  = Arşivi Test Et
+TEXT_MENU_LAUNCH_CMD                    = &Komut İstemi Penceresi
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Komut İstemi Penceresi (Yönetici)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Her &birini "Klasör/DosyaAdı.zip" olarak sıkıştır
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = Her birini "Klasör/DosyaAdı.7z" olarak sıkıştır
+TEXT_MENU_ARCHIVE_ZIP                   = "Zip Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = "Zip Şeklinde Sıkıştır ve Postala "${str1}""
+TEXT_MENU_ARCHIVE_ZIPX                  = "ZipX Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Exe Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Tar Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Tgz Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Lzh Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "İso Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "7z Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Gz Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Xz Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Zpaq Şeklinde Sıkıştır "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = Her birini "DosyaAdı.gz" olarak sıkıştır
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = Her birini "DosyaAdı.xz" olarak sıkıştır
+TEXT_MENU_ARCHIVE_RULE                  = ""${str1}" olarak sıkıştır (&U)"
+TEXT_MENU_ARCHIVE_POPUP                 = Arşiv Oluştur (&Bandizip)
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Yönetici Olarak Sıkıştır
+
+TEXT_MENU_EXTRACT_HERE                  = &Buraya Çıkart
+TEXT_MENU_EXTRACT_AUTO                  = O&tomatik Çıkart
+TEXT_MENU_EXTRACT_AUTO_EACH             = &Otomatik Çıkart
+TEXT_MENU_EXTRACT_SUB                   = &Her Arşivi Ayrı Klasöre Çıkart
+TEXT_MENU_EXTRACT_ARCHIVENAME           = "Klasöre &Çıkart "${str1}""
+TEXT_MENU_EXTRACT_DLG                   = Başka Klasöre Çıkart
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Yönetici Olarak Çıkart
+TEXT_MENU_EXTRACT_HERE_DEL              = Buraya Çıkart ve Sil
+TEXT_MENU_EXTRACT_AUTO_DEL              = Buraya (Otomatik) Çıkart ve Sil
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Her Arşivi Buraya (Otomatik) Çıkart ve Sil
+TEXT_MENU_EXTRACT_SUB_DEL               = Ayrı Klasörlere Çıkart ve Sil
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = ${str1}\ İçi&ne Çıkart ve Sil
+
+TEXT_MENU_PREVIEW                       = Arşiv Önizlemesi
+TEXT_MENU_PREVIEW_BROKEN                = Bu dosyanın biçimi bilinmiyor[br] ya da dosya bozuk
+TEXT_MENU_PREVIEW_TIMEOUT               = İstek, zaman aşımına uğradı.
+TEXT_MENU_PREVIEW_EMPTY                 = Boş arşiv dosyası
+TEXT_MENU_PREVIEW_ENCRYPTED             = Dosya adı şifrelenmiş
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Arşiv önizleme fonksiyonu kullanılamıyor. [br][br]Windows Gezginini veya [br]bilgisayarınızı yeniden başlatın.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Dosya listesi okunamıyor.
+
+TEXT_MENU_OPENING                       = Açılıyor...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip Güncellemeleri
+TEXT_UPDATER_TEXT1                      = Bandizip güncellemeleri var.
+TEXT_UPDATER_TEXT_DL                    = Şimdi indirmek ister misiniz?
+TEXT_UPDATER_BTN_UPDATE                 = Güncelle
+TEXT_UPDATER_BTN_OK                     = Tamam
+TEXT_UPDATER_BTN_CANCEL                 = İptâl
+TEXT_UPDATER_DOWNLOAD_ERROR             = İndirme işlemi başarısız oldu.
+TEXT_UPDATER_SETTING_UPDATE             = Ayarlar
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Hedef Yol:
+BTN_SELECT_FOLDER                       = Gözat...
+BTN_EXTRACT                             = Başlat
+BTN_CLOSE                               = Kapat
+BTN_CANCEL                              = İptâl
+BTN_OPEN_FOLDER                         = Aç
+CHK_OVERWRITE                           = Üzerine Yaz
+ERR_ERROR_OCCURRED                      = Bir hata oluştu.
+ERR_INVALID_PASSWORD                    = Geçersiz Şifre
+ASK_OVERWRITE                           = Dosya zaten var. Üzerine yazmak istiyor musunuz?
+MSG_COMPLETED                           = Çıkartma işlemi tamamlandı.
+IDD_PASSWORD                            = Şifreyi Gir
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = Şifreyi Göster
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Dosyalar çıkartılamıyor.
+TEXT_ERR_CRC                            = CRC hatası.
+TEXT_ERR_INVALID_PASSWD                 = Geçersiz şifre
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Kur: ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = Kaldır: ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Kaldırma işlemini başlatmak için Kaldır düğmesine tıklayın.
+
+$BTN_CLOSE                              = Kapat
+$BTN_CANCEL                             = İptâl
+$BTN_INSTALL                            = Kabul Et ve Kur
+$BTN_UNINSTALL                          = Kaldır
+$BTN_OPEN_LICENSE                       = [Lisans Anlaşmasına İncele]
+$BTN_HELP_LINK                          = [Yardım]
+
+$TEXT_PATH                              = Hedef Klasör
+$TEXT_INSTALL_STATIC                    = Kuruluyor...
+
+$CHK_AUTO_REPORT                        = Otomatik olarak kullanım istatistikleri ve çökme raporlarını gönder.
+
+ERR_CANT_CREATE_FOLDER                  = ${str1} klasörünü oluşturma işlemi başarısız
+ERR_CANT_OPEN_FILE                      = ${str1} dosyasını açma işlemi başarısız
+ERR_CANT_WRITE_FILE                     = ${str1} dosyasına yazma işlemi başarısız
+ERR_BROKEN_ARCHIVE                      = Bu sıkıştırılmış dosya hasarlı: ${str1}
+ERR_CRC_ERROR                           = CRC hatası: ${str1}
+ERR_NOT_ENOUGH_MEM                      = Yetersiz hafıza: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = Dosya açma hatası:[br] "${str1}"[br]Kurulumu iptâl etmek için Abort,[br]tekrar denemek için Retry ya da bu dosyayı atlamak için Ignore düğmesine tıklayın.
+MSG_SUCCESS                             = Kurulum Tamamlandı
+MSG_ERROR                               = Bir hata meydana geldi
+MSG_SELECT_FOLDER                       = Bir klasör seç.
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} hala çalışıyor. Önce programı kapatın.
+MSG_XP_IS_NOT_SUPPORTED                 = Bu program Windows XP üzerinde çalışmaz.
+MSG_NEED_ADMIN_PRIVILEGE                = Bu program sadece yönetici haklarına sahip bir kullanıcı tarafından kurulabilir.[br][br]Yönetici olmayan kullanıcılar programı doğru şekilde kuramayabilir.[br][br]Kurulumu durdurmak istiyor musunuz?
+MSG_NEWVERSION_FOUND                    = Yeni bir sürüm kullanıbilir durumda. Şimdi indirmek ister misiniz?
+SHORTCUT_LINK_DESCRIPTOIN               = Başlat: ${APPNAME}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

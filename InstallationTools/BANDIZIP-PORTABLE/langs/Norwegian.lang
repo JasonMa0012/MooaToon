@@ -1,0 +1,917 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Norsk Bokmål
+TRANSLATORS                             = Stein-Ove Bøthun
+
+
+[TEXT]
+TEXT_BUILDNO                            = Bygg versjon#
+TEXT_FILE                               = Fil
+TEXT_FOLDER                             = Mappe
+TEXT_ARCHIVE_SIZE                       = Arkiv størrelse
+TEXT_ORIGINAL_SIZE                      = Original størrelse
+TEXT_ARCHIVE_FORMAT                     = Arkiv format
+TEXT_COMPRESSED_SIZE                    = Komprimert størrelse
+TEXT_SOLID                              = Solid
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Komprimert fil (${str1})
+TEXT_PORTABLE                           = Portabel
+TEXT_NEW_FOLDER                         = Ny mappe
+TEXT_FILESIZE_UNKNOWN                   = Ukjent
+TEXT_FILEDATE_UNKNOWN                   = Ukjent
+TEXT_HELP_LINK                          = [Hjelp]
+TEXT_APP_DESC                           = Bandizip er en lett, rask og gratis alt-i-ett komprimeringsprogram. Den håndterer de mest populære komprimeringsformatene, inkludert Zip, 7z, Rar, og så videre.
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = Avbryt
+TEXT_MESSAGEBOX_ABORT                   = Avbryte
+TEXT_MESSAGEBOX_RETRY                   = Prøv på nytt
+TEXT_MESSAGEBOX_IGNORE                  = Ignorer
+TEXT_MESSAGEBOX_YES                     = Ja
+TEXT_MESSAGEBOX_NO                      = Nei
+TEXT_MESSAGEBOX_CONTINUE                = Forsett
+TEXT_MESSAGEBOX_HELP                    = Hjelp
+
+TEXT_COLUMN_NAME                        = Navn
+TEXT_COLUMN_COMPSIZE                    = Komprimert
+TEXT_COLUMN_ORIGSIZE                    = Original
+TEXT_COLUMN_KIND                        = Type
+TEXT_COLUMN_DATE_MOD                    = Endret
+TEXT_COLUMN_COMPMETHOD                  = Komprimeringsmetode
+TEXT_COLUMN_ENCRMETHOD                  = Krypteringsmetode
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Attributter
+TEXT_COLUMN_COMMENT                     = Kommentar
+TEXT_COLUMN_PATHNAME                    = Filbane
+
+TEXT_ICONPACK_NAME                      = Navn
+TEXT_ICONPACK_DESIGNER                  = Utvikler
+TEXT_ICONPACK_COPYRIGHT                 = Opphavsrett
+
+TEXT_ARCHIVE_COLUMN_NAME                = Navn
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Størrelse
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Mappesti
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Total størrelse
+
+TEXT_SELECT_ARCHIVE_FILE                = Velg fil
+TEXT_SELECT_TEXT_FILE                   = Velg fil
+TEXT_SELECT_DEST_FOLDER                 = Velg destinasjonsmappe
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Arkivfil
+TEXT_REGISTRY_FILE                      = Registerfil
+
+TEXT_OPENDLG_ARCHIVEFILES               = Arkivfiler
+TEXT_OPENDLG_ARCHIVEFILE                = Arkivfil
+TEXT_OPENDLG_ALLFILES                   = Alle filer
+TEXT_OPENDLG_EXEFILES                   = EXE filer
+
+TEXT_ABOUTBOX_TAB1                      = Om Bandizip
+
+TEXT_ASSOC_GROUP0                       = Arkivfiler
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Andre
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = For å åpne denne filen, last ned nyeste versjon av Bandizip.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Velg bare den første delen av den delte filen.
+TEXT_OPENERR_CANT_OPEN_FILE             = Kan ikke åpne filen (${str1}).
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Kan ikke åpne filen (${str1}) fordi et annet program bruker filen.
+TEXT_OPENERR_GENERAL                    = Kan ikke åpne filen (${str1}) (kode:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Avbrutt
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Ukjent filformat (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" er ikke en arkivfil."
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Filformatet er ikke støttet (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Krypteringsmetoden støttes ikke (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Tast inn passord
+TEXT_OPENERR_INVALID_PASSWORD           = Passordet er feil.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Kan ikke åpne denne filen fordi filens hode er ødelagt.
+
+TEXT_ERR_INIT_FAILED                    = Kunne ikke initialisere.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Passordet er feil, eller så er det ingen filer i arkivet.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Passordet stemmer ikke.
+TEXT_ERR_PASSWORD_NOT_SET               = Et passord er nødvendig.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Ditt passord inneholder ugyldige tegn. Bruk bare alfanumeriske eller spesialtegn.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Ugyldig delt filstørrelse.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Selvutpakkende fil) filstørrelse har en begrensning på 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Intern feil
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Kan ikke modifisere arkivfilen
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = En feil oppstod under endring av arkivet.
+TEXT_ERR_INVALID_FOLDER_PATH            = Ugyldig mappesti
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Bare ZIP filer kan redigeres.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Kan ikke redigere delt fil.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Kan ikke redigere selvutpakkende filer (*.exe).
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Kan ikke redigere den ødelagte filen.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Kan ikke redigere dette arkivformatet.
+TEXT_ERR_CANT_CHANGE_FILENAME           = Kan ikke endre dette filnavnet.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Kan ikke bruke filnavn som inneholder [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Samme fil/mappe finnes. Kan ikke endre filnavn (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Kan ikke opprette en mappe.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Ingen filer å arkivere
+TEXT_ERR_INVALID_PARAM                  = Ugyldig parameter.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Kan ikke legge til filen i arkivet. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Kan ikke åpne dette arkivet [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Samme mappe finnes
+TEXT_ERR_FILENAME_EMPTY                 = Filnavnet er feil.
+TEXT_ERR_AT_DRAGANDDROP                 = Dra og slipp mislyktes.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Dra og slipp mislyktes.[br]Bandizip har akkurat slått av 'Dra og slipp' funksjonen, vennligst prøv igjen.
+TEXT_ERR_AT_CANT_OPEN_MMF               = Kan ikke åpne MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Ingen fil valgt
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Kan ikke opprette en mappe for ikonfil installasjon
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Kan ikke opprette en fil for ikonfil installasjon
+TEXT_ERR_AT_EXECUTE_DIRECT              = Kan ikke åpne denne filen. Pakk ut filen og prøv igjen.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Kan ikke opprette en fil større enn 4GB.[br]Vennligst velg et annet filformat (ZIP eller 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = Kan ikke lagre denne filen.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip har møtt på et problem under redigering av filen.(${str1})[br][br]Ønsker du å sende en feilrapport til Bandisoft?[br][br]Ved å sende denne rapporten hjelper Bandisoft til å forbedre Bandizip.
+
+TEXT_MSG_TEST_OK                        = Ingen feil funnet under testoperasjonen.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Utpakking har feilet.[br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Utpakking fullført uten feil.
+TEXT_MSG_EXTRACT_CANCELED               = Utpakking er blitt kanselert.
+TEXT_MSG_COMPRESS_SUCCESS               = Arkivering fullført uten feil.
+TEXT_MSG_INTERNAL_ERROR                 = Intern feil.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Kan ikke åpne følgende fil i temp mappen:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Kan ikke slette denne arkivfilen.
+TEXT_MSG_CRASH_REPORT                   = Bandizip har oppdaget et problem og må lukkes.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip har oppdaget et problem og må lukkes.[br]Ønsker du å sende en feilrapport til utviklerne av Bandizip?
+TEXT_MSG_CRASH_REPORT3                  = Følgende DLL forårsaker et problem og må likkes.[br]Ønsker du å sende en feilrapport til utviklerne av Bandizip?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip Svarer ikke.[br][br]Ønsker du å sende en feilrapport til utviklerne av Bandizip og lukke programmet?
+TEXT_MSG_SET_TEMP_PATH                  = Sett midlertidig bane
+TEXT_MSG_SET_PATH                       = Sett bane
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Ikonpakken er blitt installert uten feil.
+TEXT_MSG_NOTICE_RESTART                 = Dette programmet vil bli startet på nytt.
+TEXT_MSG_ARCHVIE_OPENING                = Åpne arkivet.
+TEXT_MSG_COMPLETING                     = Fullfører: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Kan ikke opprette mappe.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Kan ikke komprimere en mappe til et .GZ/XZ arkiv.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Cannot compress multiple files into a .GZ/XZ archive. Please check the "Compress to each file/folder name" option.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip has been minimized to the system tray. Click the tray icon to restore it.
+TEXT_MSG_TRAY_COMPLETED                 = The operation has been completed.
+TEXT_MSG_BATCH_ARCHVING                 = Archiving: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Extracting: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testing: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Deleting: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Failed to delete: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Work in progress...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = If the characters are not displayed correctly, click the <font color=red><b>Code Page</b></font> above and then try the <font color=red><b>Auto detect</b></font>menu.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Den orginale filen vil bli slettet.[br]Ønsker du å slette denne filen?.
+TEXT_ASK_DELETE_CUR_ARCHIVE             = ønsker du å slette den nåværende filen?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Do you want to delete the current archive permanently?
+TEXT_ASK_CHANGE_FILENAME                = Samme fil finnes allerede.[br][br]Ønsker du å endre filnavn fra ${str1} til ${str2}?
+TEXT_ASK_DELETE_FILE                    = Ønsker du å slette valgt fil?
+TEXT_ASK_STOP_EXTRACT                   = Ønsker du å avbryte ekstrakteringen.
+TEXT_ASK_OVERWRITE_ARCHIVE              = Samme fil finnes.[br][br]Ønsker du å overskrive?
+TEXT_ASK_INIT_SETTING                   = Ønsker du å tilbakestille til standard innstillinger? Bandizip vil restarte.
+TEXT_ASK_STOP_ARCHIVING                 = Ønsker du å stoppe komprimeringen?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Ønsker du å bruke den endrede filen i arkivet? [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Skal du installere og justere ikonpakken (${str1})?
+TEXT_ASK_MAKE_FOLDER                    = The folder doesn't exist. Do you want to create it?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = The destination folder doesn't have write permission.[br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_CONT_NOFREESPACE               = The destination folder doesn't have enough space. Change the destination folder. [br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_ASK_UAC_ELEVATION              = You do not have permission to change these files. [br][br]Do you want to restart this program as an administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Cannot open this archive file. [br][br]Do you want to open the first part of the split file (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = If you delete files after archiving, you could lose important files if the files are broken.[br][br]Do you want to check the "Test Archive" option?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Not enough disk space to extract. Do you want to proceed?[br][br]Destination Folder: ${str1}[br]Free disk space: ${str2}[br]Extracting file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Denne filen er ødelagt.
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = The file is broken or another split file is needed
+
+TEXT_BTN_PAUSE                          = Pause
+TEXT_BTN_RESUME                         = Forsett
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Feil oppstod
+TEXT_ERRDLG_USER_ABORT                  = Avbrutt
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Kan ikke åpne denne filen.
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Cannot open this file because the file is being used by another program
+TEXT_ARKERR_PASSWORD_NOT_SET            = Passord er påkrevet.
+TEXT_ARKERR_INVALID_PASSWD              = Feil Passord.
+TEXT_ARKERR_USER_ABORTED                = Avbrutt.
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC feil
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Kan ikke åpne denne filen.
+TEXT_ARKERR_CANT_READ_DATA              = Kan ikke lese arkiv data.
+TEXT_ARKERR_INFLATE_FAILED              = Datafeil - Denne filen er ødelagt
+TEXT_ARKERR_BZIP2_ERROR                 = Datafeil - Denne filen er ødelagt
+TEXT_ARKERR_DATA_CORRUPTED              = Denne filen er ødelagt, eller en delfil mangler.
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Kan ikke åpne denne filen.
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Kan ikke lage mappe.
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Not supported compression method
+TEXT_ARKERR_WRITE_FAIL                  = Feil oppstod under skriving.
+TEXT_ARKERR_DISK_FULL                   = Disken er full.
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Filbane og filnavn kan ikke overskride 260 tegn.
+TEXT_ARKERR_CANT_CREATE_FILE            = Kunne ikke lage fil.
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Kunne ikke lage fil. Kjør programmet med Administrator rettigheter.
+TEXT_ARKERR_USER_SKIP                   = Hopp over.
+TEXT_ARKERR_FILE_TRUNCATED              = Slutten av denne filen er ødelagt eller mangler.
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Passordet er feil eller ødelagt fil.
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Denne filen er ødelagt.
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Selvutpakkende fil (*.exe) er over 4GB. Du kan ikke kjøre 4GB filer i Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Kan ikke åpne denne  arkiverte filen. Følgende delfil (.z01, .z02..) mangler.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Cannot open this Zip file. The following split file (.z01, .z02..) is needed.
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Kan ikke åpne denne  arkiverte filen. Følgende delfil mangler.
+TEXT_ARKERR_CORRUPTED_FILE              = Denne filen er ødelagt.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Du har ikke tillatelse til å skive til denne mappen.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Du har ikke tillatelse til å skive til denne mappen. Kjør programmet med Administrator rettigheter.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Ingen støtte for denne krypterings algorism.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Lack of memory
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Lack of memory. Change the Compression Level.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Do not support this operation
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = The extracted file size and the archive header information are different.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Cannot create a file larger than 4GB. Choose a different file format (ZIP or 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = The long filename has been shortened automatically.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Cannot open source file to copy.
+TEXT_ARKERR_NOTIMPL                     = Not implemented.
+TEXT_ARKERR_CANT_READ_FILE              = Cannot read file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Run Bandizip as administrator to create a symbolic link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Cannot create a symbolic link.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Ingen delarkiv
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Velg selv
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Ingen Komprimering
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Rask Komprimering
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Normal Komprimering
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Maksimum Komprimering
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Ny komprimering
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Legg til filer i arkivet
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Gi nytt navn: ${str1}
+TEXT_TITLE_TEST_MODE                    = Arkiv Test
+TEXT_TITLE_TEMPFOLDER_MODE              = Extracting to temporary folder...
+TEXT_TITLE_MODIFYING                    = Modifiserer...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Filer å pakke ut
+TEXT_MSG_SELECTED_FILE                  = ${num1} Fil valgt
+TEXT_MSG_SELECTED_FOLDER                = ${num1} Mappe valgt
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} Fil, ${num2} Mappe
+TEXT_MSG_SELECTED_FILESIZESUM           = Selected file size: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Kunne ikke kontrollere programversjonen
+TEXT_UPDATE_VERSION_CHECKING            = Kontrollerer programversjon
+TEXT_UPDATE_DOWNLOAD_FAILED             = Nedlasting feilet
+TEXT_UPDATE_LATEST_VERSION              = Du har den nyeste versjonen
+TEXT_UPDATE_DO_DOWNLOAD                 = Oppdatering er nødvendig
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Nedlasting ferdig
+
+TEXT_INSTALL_HONEYVIEW                  = Install Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview isn't installed on your computer.
+TEXT_INSTALL_HONEYVIEW_2                = Please try Honeyview developed by Bandisoft.<br> It supports viewing the images in compressed ZIP, RAR, or 7z files without extraction.
+
+
+
+[MENU]
+MENUSTR_FILE                            = &Fil
+MENUSTR_EDIT                            = &Rediger
+MENUSTR_SETTING                         = &Valg
+MENUSTR_FIND                            = F&ind
+MENUSTR_VIEW                            = &View
+MENUSTR_HELP                            = &Hjelp
+
+MENUSTR_OPEN                            = &Åpne Arkiv\tCtrl+O
+MENUSTR_RECENT                          = Recent Files
+MENUSTR_CLOSE_FILE                      = &Steng Arkiv\tF4
+MENUSTR_CREATE_ARCHIVE                  = &Nytt Arkiv\tCtrl+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Save as
+MENUSTR_DELETE_ARCHIVE                  = Delete Archive \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Delete Archive Permanently \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Open Archive Location
+MENUSTR_TEST_ARCHIVE                    = &Test Arkiv \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &Pakk ut fil \tCtrl+E
+MENUSTR_EXIT                            = E&xit \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Gi nytt navn \tF2
+MENUSTR_ADD_FILE                        = &Legg til fil \tIns
+MENUSTR_DELETE_FILE                     = &Slett Filen \tDel
+MENUSTR_EDIT_COMMENT                    = Archive Comment
+MENUSTR_SETTING_SUB                     = &Innstillinger (F5)
+MENUSTR_FIND_ITEM                       = F&ind Files\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Copy files to clipboard\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Paste files from clipboard\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Start Screen \tF6
+MENUSTR_VIEW_TREECONTROL                = TreeView Control \tF7
+MENUSTR_VIEW_COMMENT                    = Archive Comment\tF8
+MENUSTR_VIEW_PREVIEW                    = Image Preview
+MENUSTR_VIEW_TOOLBAR                    = Toolbar
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Large
+MENUSTR_VIEW_TOOLBAR_MINI               = Small
+MENUSTR_VIEW_TOOLBAR_OLD                = Old
+MENUSTR_VIEW_TOOLBAR_HIDE               = Hide
+MENUSTR_VIEW_LISTVIEW                   = File List
+MENUSTR_VIEW_LISTVIEW_ICON              = Icons
+MENUSTR_VIEW_LISTVIEW_LIST              = List
+MENUSTR_VIEW_LISTVIEW_REPORT            = Details
+MENUSTR_VIEW_COLUMN                     = Column
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Always on top
+MENUSTR_VIEW_COLOR_SETTING              = Color Settings...
+
+
+MENUSTR_ABOUT                           = &Avbryt Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Gå til hjelpesiden
+MENUSTR_OPEN_FOLDER                     = &Åpne Bandizip Mappe
+MENUSTR_FORUM                           = Gå til Bandizip &Forum
+MENUSTR_HOMEPAGE                        = Gå til &Hjemmesiden
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Komprimert Størrelse
+POPUPMENU_VIEWITEM_ORIGSIZE             = Orginal Størrelse
+POPUPMENU_VIEWITEM_KIND                 = Fil Type
+POPUPMENU_VIEWITEM_DATE_MOD             = Modifisert Dato
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Komprimerings Nivå
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Krypterings Metode
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Fil Attributt
+POPUPMENU_VIEWITEM_COMMENT              = Fil Kommentar
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Pakk ut alle \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Pakk ut valgt Fil
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Pakk ut her
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Open\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Open with associated program
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Edit\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Ny Mappe
+POPUPMENU_LISTCONTROL_ADD_FILE          = Legg til Fil \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Slett Fil \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Gi nytt navn
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Velg alt \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Flytt til overordnet Mappe\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Slett Arkiv
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Åpne Arkivmappe
+
+POPUPMENU_EXTRACT_AUTODEST              = Extract Automatically\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Extract to Current Folder\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Extract to File Name Folder
+POPUPMENU_EXTRACT_DESKTOP               = Extract to Desktop
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Extract Automatically to Desktop
+
+POPUPMENU_RECENT_CLEAR                  = Delete History
+POPUPMENU_RECENT_NOITEM                 = No latest file
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Open with Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Extract Automatically
+
+POPUPMENU_CODEPAGE_DEFAULT              = Standard
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Chinese Forenklet
+POPUPMENU_CODEPAGE_TRADCHINESE          = Chinese Tradisjonell
+POPUPMENU_CODEPAGE_JAPANESE             = Japansk
+POPUPMENU_CODEPAGE_KOREAN               = Koreansk
+POPUPMENU_CODEPAGE_WINDOWS1252          = Vest Europeisk
+POPUPMENU_CODEPAGE_WINDOWS1250          = Central European
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cyrillic
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turkish
+POPUPMENU_CODEPAGE_WINDOWS737           = Greek
+POPUPMENU_CODEPAGE_ARABIC               = Arabic
+POPUPMENU_CODEPAGE_HEBREW               = Hebrew
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Auto detect
+
+
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = OK
+IDCANCEL                                = Avbryt
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Om Bandizip
+IDC_BTN_HOMEPAGE                        = Hjemmeside
+IDC_BTN_UPDATE                          = Oppdater
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Åpne Fil
+IDC_STATIC_OPENING                      = Åpner
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Velg banen du vil pakke ut til
+IDC_STATIC_FOLDER                       = &Pakk ut til bane
+IDC_STATIC_FILES2EXTRACT                = Pakk ut:
+IDC_RADIO_FILES2EXTRACT_0               = &Alle Filer
+IDC_RADIO_FILES2EXTRACT_1               = &Velg Filer
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Extract to "target" folder under the selected folder
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = Ny Mappe
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Pakk Ut
+IDC_BTN_STOP                            = Stopp
+IDC_BTN_CLOSE                           = Lukk
+IDC_BTN_PAUSE                           = Pause
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Nytt Arkiv
+IDC_STATIC_FILE_LIST                    = Legg filer til Arkivet
+IDC_STATIC_ARCHIVE_SETTING              = Innstillinger for Arkivet
+IDC_STATIC_ARCHIVE_NAME                 = Filnavn
+IDC_STATIC_SET_DEST_FOLDER              = Target Folder
+IDC_STATIC_ARCHIVE_TYPE                 = Save as Type
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Del Fil
+IDC_STATIC_COMPRESSION_METHOD           = Kompriomerings Nivå
+IDC_STATIC_HELP_SPLIT                   = [Hjelp]
+IDC_STATIC_HELP_7Z                      = [7Z format]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Browse...
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = Delete files after archiving
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Compress to each file/folder name
+IDC_BTN_SET_DEST_FOLDER                 = Change the destination folder
+IDC_BTN_TOGGLE_ADVANCED                 = More Options...
+IDC_BTN_SET_SFX                         = &SFX Innstillinger
+IDC_BTN_ADD                             = &Legg til
+IDC_BTN_DEL                             = &Slett
+IDC_BTN_START                           = Start
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Feil Passord. Tast inn Passord på nytt.
+IDC_BTN_SHOW_PASSWORD                   = Vis Passord
+IDC_CHECK_APPLY_ALL                     = &Bruk Alle
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = Vis Passord
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Velg
+IDC_BTN_OPEN                            = Åpne
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Arkivering
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = Stopp
+IDC_BTN_CLOSE                           = Close
+IDC_BTN_PAUSE                           = Pause
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Duplikat Filer
+IDC_STATIC_DUPE_MESSAGE                 = Samme Fil eksisterer
+IDC_STATIC_DUPEFILE_OLD                 = Orginal Fil
+IDC_STATIC_DUPEFILE_NEW                 = Gjeldende Fil
+IDC_STATIC_DUPE_ASK                     = Velg ditt alternativ nedenfor:
+IDC_RADIO_DUPE_METHOD0                  = &Hopp over
+IDC_RADIO_DUPE_METHOD1                  = &Overskriv
+IDC_RADIO_DUPE_METHOD2                  = &Gi nytt navn
+IDC_CHECK_DUPE_APPLY_ALL                = &Bruk på alle Filer
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Arkiv Innstillinger
+IDC_STATIC_ASK_HANDLING                 = Velg ditt alternativ nedenfor:
+IDC_RADIO_HANDLE_METHOD0                = &Åpne Arkiv
+IDC_RADIO_HANDLE_METHOD1                = &Ny Komprimering
+IDC_RADIO_HANDLE_METHOD2                = &Legg filer til gjeldende Arkiv
+IDC_CHK_PASS                            = Bruk Passord
+IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
+IDC_CHK_SHOW_PASS                       = Show Password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Innstillinger
+IDC_BTN_INIT                            = Start på nytt
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = General Settings
+IDC_CHK_EXIT_WITH_ESC                   = Bru ESC tasten for å avslutte
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Alltid kontroller når Filen blir Lagt til/Slettet/Gis nytt navn
+IDC_CHK_SNAP                            = Bruk Snap Window
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Show [..] directory in Archive
+IDC_CHK_SHOW_GRID_AT_LIST               = Show gridlines in details view
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Full row select in archive
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Fil Tilknyttninger
+IDC_BTN_SELECT_MANDATORY                = Velg Essentials
+IDC_BTN_SELECT_ALL                      = Velg Alt
+IDC_BTN_CLEAR_ALL                       = Opphev Alle
+IDC_BTN_APPLY_NOW                       = Utfør Nå
+IDC_STATIC_ICON_PACK                    = Velg Ikon Pakke:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Last ned Ikon Pakke]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Extension Association
+;IDC_STATIC_ASSOC_DESC1                 = For Windows 8 or later versions, you can associate the files as follows:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Click the following "Association Settings" button.
+;IDC_STATIC_ASSOC_DESC3                 = 2. Check "Select All" in Program Association Settings window.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Click "Save" button.
+;IDC_STATIC_ASSOC_DESC1_10              = For Windows 10 or later versions, you can associate the files as follows:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Click the following "Association Settings" button.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Select "Bandizip" in Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Association Settings
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Classic method
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Double-click Action
+IDC_RADIO_SHELL_OPEN_0                  = Open with Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Extract Automatically
+IDC_RADIO_SHELL_OPEN_2                  = Show Context Menu
+IDC_RADIO_SHELL_OPEN_3                  = Extract Automatically to the designated folder
+IDC_BTN_SET_EXTRACT_FOLDER              = Browse...
+IDC_RADIO_SHELL_OPEN_4                  = Extract to File Name Folder
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = Velg Ekstrakterings Meny
+IDC_CHK_SHELL_EXTRACT_HERE              = Pakk ut her
+IDC_CHK_SHELL_EXTRACT_AUTO              = Pakk ut Automatisk
+IDC_CHK_SHELL_EXTRACT_SUB               = Pakk ut til
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Here and Delete
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Here (Smart) and Delete
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = Velg hvor du vil pakke ut til
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extract as administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Test Archive
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Åpne med Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Forhåndsvis Arkiv
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Limit preview files to:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = Velg Komprimerings Meny
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Komprimer til "FilNavn.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Compress to "FileName.zip" and email
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Compress to "FileName.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Compress to "FileName.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Compress to "FileName.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Compress to "FileName.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Compress to "FileName.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Compress to "FileName.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Compress to "FileName.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Compress to "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Compress to "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Compress to "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = Komprimer til Fil/Mappe Navn
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Compress to each "FileFolderName.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Legg til Arkiv (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Compress as administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Compress to custom file name
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${NAME}=Filename, %Y=Year, %m=Month, %d=Day, %H=Hour, %M=Minute, %S=Second
+
+IDC_STATIC_SHELL_BKGND                  = Velg Bakgrunn Meny
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Ny Mappe
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Åpne Kommandolinjen (cmd.exe)
+
+IDC_STATIC_SHELL_ETC                    = Etc.
+IDC_CHK_SHELL_DO_NOT_USE                = Deaktiver kontekstmenyen
+IDC_CHK_SHELL_AS_SUB_MENU               = Cascaded kontekstmenyen
+IDC_CHK_SHELL_HIDE_ICON                 = Skjul Bandizip ikon
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Skill arkivfil gjennom innholdet
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Show archive context menu even for archive files
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Use selected file/folder name on the mouse cursor
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Ekstrakterings Innstillinger
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Vis Filer om det bare er en Mappe
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Åpne Mappe etter Ekstrakteringen er utført
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Do not close the progress window after extracting
+IDC_CHK_FAST_DRAG_DROP                  = Bruk rask dra og slipp hvis Arkiv filen er stor
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Extract TGZ, TBZ file at a time
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Even for the big file size of TGZ, TBZ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = When using 'Extract Automatically', create a folder if there is more than one top-level item
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Detect Macintosh code page automatically
+IDC_CHK_UNIXZIP_AS_UTF8                 = Use UTF-8 code page when you open a zip file from UNIX
+IDC_STATIC_CODEPAGE                     = Default Code page
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Unpack everything for
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Ekstrakterings Innstillinger
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Ikke bruk rotmappe når du bare komprimerer  en mappe
+IDC_CHK_USE_UTF8_COMPRESS               = Bruk Unicode Filnavn i Zip filer (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Unicode filenames in tar,tgz files (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Alltid bruk ZIP64 format selv om Filstørrelsen er under 2GB (Ikke anbefalt)
+IDC_CHK_EXCLUDE_THUMBSDB                = Utelukke thumbs.db filer under komprimering
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Save NTFS time information when creating Zip files
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = "Bruk 'Rask Arkivering'"
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Do not close the progress window after archiving
+IDC_STATIC_COMPRESSION_METHOD           = Komprimerings Nivå:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Use the latest folder for New Archive
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Default folder for archives
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Browse...
+IDC_CHK_EXCLUDE_FILTER                  = File types to exclude when archiving
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Viewer Settings
+IDC_CHK_SHOW_PREVIEW                    = Preview image
+
+IDC_STATIC_SETTING_VIEWITEM             = Kolonner
+IDC_CHK_VIEWITEM_COMPSIZE               = Komprimert Størrelse
+IDC_CHK_VIEWITEM_ORIGSIZE               = Orginal Størrelse
+IDC_CHK_VIEWITEM_KIND                   = Fil Type
+IDC_CHK_VIEWITEM_DATE_MOD               = Modifisert Dato
+IDC_CHK_VIEWITEM_COMPMETHOD             = Komprimerings Nivå
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Krypterings Metode
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Fil Attributt
+IDC_CHK_VIEWITEM_COMMENT                = Fil Kommentar
+
+IDC_STATIC_IMAGE_VIEWER                 = Image viewer
+IDC_RADIO_IMAGE_VIEWER_0                = Use internal image viewer
+IDC_RADIO_IMAGE_VIEWER_1                = Use associated program
+IDC_RADIO_IMAGE_VIEWER_2                = Use Honeyview if installed
+
+IDC_STATIC_EDITOR                       = Editor
+IDC_BTN_SET_EDITOR_PATH                 = Browse...
+
+IDC_STATIC_COLOR                        = Color
+IDC_STATIC_COLOR_THEME                  = Theme color
+IDC_BTN_BKGND                           = Selected
+IDC_STATIC_COLOR_TEXT                   = Font color
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = White
+IDC_STATIC_COLOR_TEXT_BLACK             = Black
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Export Bandizip Settings
+IDC_STATIC_ETC                          = Diverse Innstillinger
+IDC_CHK_SET_TEMP_FOLDER                 = Midlertidig Mappe
+IDC_BTN_SET_TEMP_FOLDER                 = Bla...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Recognize the following file types as archive files
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Delete temporary file when exit the child process
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Move files to Recycle Bin when deleting
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Show the latest archive history
+IDC_CHK_USE_LONG_PATH_NAME              = Handle long path names exceeding 260 characters
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Allow Windows Explorer to delete opened archive files
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Expand folder tree automatically
+IDC_CHK_USE_MODAL_DIALOG                = Use a modal dialog box when archiving/extracting
+IDC_CHK_USE_ELEGANT_UI                  = Use elegant UI design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Show 'Start Screen' when Bandizip starts
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Display the full path in the title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Delete extracted files when extraction is cancelled
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Language Settings
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (Self Extracting Archive) Innstillinger
+IDC_STATIC_TARGET_PATH                  = Velg bane:
+IDC_STATIC_TITLE                        = SFX Tittel:
+IDC_STATIC_RUN                          = Kommando etter Ekstraktering:
+IDC_STATIC_MESSAGE                      = SFX Message:
+IDC_CHK_AUTO_CLOSE                      = Close SFX window after extracting
+IDC_BTN_SAVE_SFX_SETTING                = Lagre innstillinger
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Find Files
+IDC_STATIC_FIND                         = Find what:
+IDC_BTN_CLOSE                           = Close
+IDC_BTN_DELETE                          = Delete
+IDC_BTN_EXTRACT                         = Extract
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Archive Comment
+IDC_STATIC_COMMENT                      = Add/Edit comment in this archive
+IDC_CHK_USE_UTF8                        = Save comment as Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Load comment from file (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = WARNING
+IDC_STATIC_WARN_EXECUTABLE              = This file is an executable file. Running this program might harm your computer. Do you want to proceed?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Do not ask me again
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Åpne
+$TOOLBAR_CLOSE_FILE                     = Lukk
+$TOOLBAR_EXTRACT_FILE                   = Pakk ut
+$TOOLBAR_CREATE_ARCHIVE                 = Nytt Arkiv
+$TOOLBAR_DELETE_FILE                    = Slett
+$TOOLBAR_ADD_FILE                       = Legg til
+$TOOLBAR_TEST_ARCHIVE                   = Test
+$TOOLBAR_CODEPAGE                       = Code page
+$TOOLBAR_VIEWITEM                       = Vis
+
+$TOOLBAR_OPEN2                          = Open Archive
+$TOOLBAR_CREATE_ARCHIVE2                = New Archive
+
+$TEXT_DESKTOP                           = Skrivebord
+$TEXT_DOCUMENT                          = Dokumenter
+$TEXT_PICTURE                           = Bilder
+$TEXT_COMPUTER                          = Datamaskin
+
+$TEXT_SETTINGTAB_GENERAL                = Generelt
+$TEXT_SETTINGTAB_ASSOC                  = Tilknuttninger
+$TEXT_SETTINGTAB_SHELL                  = Kontekst Meny
+$TEXT_SETTINGTAB_EXTRACT                = Pakker ut
+$TEXT_SETTINGTAB_ARCHIVE                = Komprimering
+$TEXT_SETTINGTAB_VIEWER                 = Viewer
+$TEXT_SETTINGTAB_ETC                    = Diverse
+$TEXT_SETTINGTAB_LANG                   = Language
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Open file location
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Open archive location
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Open file location after extracting
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Open archive location
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Open destination folder
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Do not close this window after extracting
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Do not close this window after archiving
+$TOOLTIP_ADVANCED_MENU                  = Miscellaneous Settings
+
+$TEXT_INSTALL_START                     = OK, I'll try it
+$TEXT_INSTALL_CLOSE                     = No, thanks
+$TEXT_INSTALL_HONEYVIEW_LINK            = See more...
+
+$TEXT_HELP_PAGE                         = Help Page
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Ny Mappe
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Ny Mappe
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Åpne med Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Test Archive
+TEXT_MENU_LAUNCH_CMD                    = &Start Kommandolinjen
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Start Kommandolinjen (Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Komprimer til &Hvert Fil/Mappe navn
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Compress to "each file/folder name.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Komprimer til "${str1}" and ema&il...
+TEXT_MENU_ARCHIVE_ZIPX                  = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Komprimer til "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Compress to each "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Compress to each "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Compress to "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Legg til Arkiv (Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Komprimer som Administrator
+
+TEXT_MENU_EXTRACT_HERE                  = Pakk ut her
+TEXT_MENU_EXTRACT_AUTO                  = Pakk ut Automatisk
+TEXT_MENU_EXTRACT_AUTO_EACH             = Pakk ut Automatisk (Hver fil)
+TEXT_MENU_EXTRACT_SUB                   = Pakk ut til hver sin sepperate Mappe
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Pakk ut til ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Velg banen du vil pakke ut til...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Pakk ut som Administrator
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = Forhåndsvis Arkiv
+TEXT_MENU_PREVIEW_BROKEN                = Denne filen er enten [br] ukjentformat eller skadet
+TEXT_MENU_PREVIEW_TIMEOUT               = The request has timed out.
+TEXT_MENU_PREVIEW_EMPTY                 = Empty archive file
+TEXT_MENU_PREVIEW_ENCRYPTED             = Filename is encrypted
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Kan ikke forhåndsvise Arkivet. [br][br]Restart Windows Explorer eller [br]Restart din Datamaskin.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Kan ikke lese Filliste
+
+TEXT_MENU_OPENING                       = Åpner...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip Oppdateringer
+TEXT_UPDATER_TEXT1                      = Bandizip Oppdateringer er klare.
+TEXT_UPDATER_TEXT_DL                    = Would you like to download it now?
+TEXT_UPDATER_BTN_UPDATE                 = Oppdater
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Avbryt
+TEXT_UPDATER_DOWNLOAD_ERROR             = Download failed.
+TEXT_UPDATER_SETTING_UPDATE             = Settings
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Target Path:
+BTN_SELECT_FOLDER                       = Browse...
+BTN_EXTRACT                             = Start
+BTN_CLOSE                               = Close
+BTN_CANCEL                              = Cancel
+BTN_OPEN_FOLDER                         = Open
+CHK_OVERWRITE                           = Overwrite
+ERR_ERROR_OCCURRED                      = Error occurred
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = The same file already exists. Do you want to overwrite it?
+MSG_COMPLETED                           = Extraction successful!
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = Vis Passord
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Cannot extract files.
+TEXT_ERR_CRC                            = CRC error.
+TEXT_ERR_INVALID_PASSWD                 = Invalid password.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [Hjelp]
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

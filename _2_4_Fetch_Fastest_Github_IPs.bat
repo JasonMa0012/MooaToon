@@ -12,7 +12,7 @@ exit /B
 cd /d "%~dp0"
 
 
-InstallTools\github_ip\dist\GetGithubIP.exe
+InstallationTools\github_ip\dist\GetGithubIP.exe
 
 echo Successfully fetch github IPs
 timeout /t 10

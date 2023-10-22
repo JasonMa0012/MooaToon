@@ -1,0 +1,1179 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Čeština
+TRANSLATORS                             = Buchtič a OUBRECHT.com
+
+
+[TEXT]
+TEXT_BUILDNO                            = Build#
+TEXT_FILE                               = Souborů
+TEXT_FOLDER                             = Složek
+TEXT_ARCHIVE_SIZE                       = Celková velikost
+TEXT_ORIGINAL_SIZE                      = Původní velikost
+TEXT_ARCHIVE_FORMAT                     = Typ archivu
+TEXT_COMPRESSED_SIZE                    = Komprimovaná velikost
+TEXT_SOLID                              = Pevný
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Komprimovaný soubor (${str1})
+TEXT_PORTABLE                           = Portable
+TEXT_NEW_FOLDER                         = Nová služba
+TEXT_FILESIZE_UNKNOWN                   = Neznámý
+TEXT_FILEDATE_UNKNOWN                   = Neznámý
+TEXT_HELP_LINK                          = [Nápověda]
+TEXT_APP_DESC                           = Bandizip je jednoduchý, rychlý a bezplatný program pro práci s archivy. Podporuje nejpopulárnější kompresní formáty včetně Zip, 7z, Rar a mnoho dalších.
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = Zrušit
+TEXT_MESSAGEBOX_ABORT                   = Přerušit
+TEXT_MESSAGEBOX_RETRY                   = Opakovat
+TEXT_MESSAGEBOX_IGNORE                  = Ignorovat
+TEXT_MESSAGEBOX_YES                     = Ano
+TEXT_MESSAGEBOX_NO                      = Ne
+TEXT_MESSAGEBOX_CONTINUE                = Pokračovat
+TEXT_MESSAGEBOX_HELP                    = Nápověda
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Toto již nezobrazovat
+
+TEXT_COLUMN_NAME                        = Název
+TEXT_COLUMN_COMPSIZE                    = Komprimovaná velikost
+TEXT_COLUMN_ORIGSIZE                    = Originální velikost
+TEXT_COLUMN_KIND                        = Typ
+TEXT_COLUMN_DATE_MOD                    = Upraveno
+TEXT_COLUMN_COMPMETHOD                  = Režim komprese
+TEXT_COLUMN_ENCRMETHOD                  = Režim šifrování
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Atributy
+TEXT_COLUMN_COMMENT                     = Komentář
+TEXT_COLUMN_EXT                         = Další informace
+TEXT_COLUMN_PATHNAME                    = Cesta
+
+TEXT_ICONPACK_NAME                      = Název
+TEXT_ICONPACK_DESIGNER                  = Designer
+TEXT_ICONPACK_COPYRIGHT                 = Autorská práva
+
+TEXT_ARCHIVE_COLUMN_NAME                = Název
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Velikost
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Cesta ke složce
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Celková velikost
+
+TEXT_SELECT_ARCHIVE_FILE                = Vybrat soubor
+TEXT_SELECT_TEXT_FILE                   = Vybrat soubor
+TEXT_SELECT_DEST_FOLDER                 = Vybrat cílovou složku
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Archiv
+TEXT_REGISTRY_FILE                      = Soubor registru
+
+TEXT_OPENDLG_ARCHIVEFILES               = Archivy
+TEXT_OPENDLG_ARCHIVEFILE                = Archiv
+TEXT_OPENDLG_ALLFILES                   = Všechny soubory
+TEXT_OPENDLG_EXEFILES                   = Spustitelné soubory
+
+TEXT_ABOUTBOX_TAB1                      = O programu Bandizip
+
+TEXT_ASSOC_GROUP0                       = Archivy
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Ostatní
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Pro otevření tohoto souboru si stáhněte nejnovější verzi Bandizip.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Vyberte pouze první část rozděleného souboru.
+TEXT_OPENERR_CANT_OPEN_FILE             = Nelze otevřít soubor (${str1}).
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Nelze otevřít soubor (${str1}) protože je používán jiným programem.
+TEXT_OPENERR_GENERAL                    = Nelze otevřít soubor (${str1}). (Kód:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Zrušeno
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Neznámý formát souboru (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = Není archiv (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Nepodporovaný formát souboru (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Nepodporovaný režim šifrování (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Zadejte heslo
+TEXT_OPENERR_INVALID_PASSWORD           = Nesprávné heslo
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Nelze otevřít tento soubor, protože je hlavička souboru poškozena
+
+TEXT_ERR_INIT_FAILED                    = Neúspěšná inicializace
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Neplatné heslo nebo se v archivu nenachází žádný soubor.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Hesla si neodpovídají
+TEXT_ERR_PASSWORD_NOT_SET               = Zadejte heslo
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Neplatný znak. Zadejte písmena bez diakritiky/čísel/symbolů.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Neplatná velikost souboru pro rozdělení
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = Maximální velikost SFX (samo-rozbalovacích archivů) je omezena na 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Vnitřní chyba
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Nelze upravit archiv
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Nastala chyba při úpravě archivu
+TEXT_ERR_INVALID_FOLDER_PATH            = Neplatná cesta ke složce
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Upravit lze pouze ZIP soubor
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Nelze upravit rozdělený soubor
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Nelze upravit samorozbalovací archiv (*.exe)
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Nelze upravit poškozený soubor
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Nelze upravit tento soubor/příponu
+TEXT_ERR_CANT_CHANGE_FILENAME           = Nelze změnit název souboru
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "V názvu souboru nelze použít následující znaky [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Soubor/složka s tímto názvem již existuje. Nelze změnit název (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Nelze vytvořit složku
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Žádné soubory k archivování
+TEXT_ERR_INVALID_PARAM                  = Neplatný parametr
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Nelze přidat soubory do archivu. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Nelze otevřít tento archiv [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Složka s tímto názvem již existuje
+TEXT_ERR_FILENAME_EMPTY                 = Neplatný název souboru.
+TEXT_ERR_AT_DRAGANDDROP                 = Drag and Drop selhalo.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Drag and Drop selhalo. [br]Bandizip právě vypnul funkci 'Rychlého přetažení', prosím, zkuste to znovu.
+TEXT_ERR_AT_CANT_OPEN_MMF               = Nelze otevřít MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Není vybrán žádný soubor
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Nelze vytvořit složku pro instalaci balíku ikon
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Nelze vytvořit soubor pro instalaci balíku ikon
+TEXT_ERR_AT_EXECUTE_DIRECT              = Nelze otevřít tento soubor. Rozbalte archiv a zkuste to znovu
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Nelze vytvořit archiv větší než 4GB.[br]Prosím, vyberte jiný formát archivu (ZIP nebo 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = Nelze uložit tento soubor.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip zaznamenal problém při upravování souboru.(${str1})[br][br]Chcete diagnostické informace o chybě odeslat vývojářům aplikace?[br][br]Odesláním těchto informací pomůžete nám vylepšit Bandizip.
+
+TEXT_MSG_TEST_OK                        = Žádné chyby v archivu.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Neúspěšné rozbalení: Kód chyby [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Rozbalení bylo úspěšné
+TEXT_MSG_EXTRACT_CANCELED               = Rozbalení bylo zrušeno
+TEXT_MSG_COMPRESS_SUCCESS               = Archiv vytvořen
+TEXT_MSG_INTERNAL_ERROR                 = Vnitřní chyba
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = V dočasné složce nelze otevřít soubor: (${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Nelze vymazat tento archiv.
+TEXT_MSG_CRASH_REPORT                   = Bandizip zaznamenal problém a musí být ukončen.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip zaznamenal problém a musí být ukončen. Chcete zaslat diagnostické informace o pádu vývojářům aplikace?
+TEXT_MSG_CRASH_REPORT3                  = Následující knihovna DLL způsobuje problém a musí být uzavřena.[br]Chcete odeslat hlášení o pádu vývojáři Bandizipu?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip neodpovídá.[br][br]Chcete vývojářům Bandizip odeslat zprávu o pádu aplikace a ukončit ji?
+TEXT_MSG_SET_TEMP_PATH                  = Nastavit dočasnou složku
+TEXT_MSG_SET_PATH                       = Nastavit cestu
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Balík ikon byl úspěšně nainstalován.
+TEXT_MSG_NOTICE_RESTART                 = Program bude restartován.
+TEXT_MSG_ARCHVIE_OPENING                = Otevírání archivu
+TEXT_MSG_COMPLETING                     = Průběh: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Nelze vytvořit složku.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Nelze komprimovat složku do .GZ/XZ archivu.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Nelze komprimovat víec souborů do .GZ/XZ archivu. Prosím, zkontroluje nastavení možnosti "Komprimovat pod stejným názvem souboru/složky".
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip se minimalizoval do oznamovací oblasti. Pro jeho obnovení klikněte na ikonu v systray.
+TEXT_MSG_TRAY_COMPLETED                 = Operace byla dokončena.
+TEXT_MSG_BATCH_ARCHVING                 = Archivování: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Rozbalování: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testování: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Odstraňování: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Nepodařilo se odstranit: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Pracuji...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Pokud se znaky nezobrazí správně, klikněte na menu <font color=red><b>Kódování</b></font> a vyberte možnost <font color=red><b>Automaticky detekovat</b></font>.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Původní soubor byl vymazán.[br]Chcete vymazat soubor?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Chcete vymazat aktuální soubor?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Opravdu chcete trvale odstranit tento archiv?
+TEXT_ASK_CHANGE_FILENAME                = Soubor s tímto názvem již existuje.[br][br]Chcete změnit název souboru z ${str1} na ${str2}?
+TEXT_ASK_DELETE_FILE                    = Chcete vymazat vybrané soubory?
+TEXT_ASK_STOP_EXTRACT                   = Chcete zastavit rozbalování.
+TEXT_ASK_OVERWRITE_ARCHIVE              = Soubor již existuje.[br][br]Chcete jej přepsat?
+TEXT_ASK_INIT_SETTING                   = Chcete obnovit výchozí nastavení? Bandizip bude restartován.
+TEXT_ASK_STOP_ARCHIVING                 = Chcete zastavit komprimování?
+TEXT_ASK_STOP_MODIFYING                 = Chcete zastavit tuto operaci?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Chcete přidat změněný soubor do archivu [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Instalovat a přizpůsobit balík ikon (${str1})?
+TEXT_ASK_MAKE_FOLDER                    = Složka neexistuje. Chcete ji vytvořit?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Do cílové složky nemáte oprávnění pro zápis.[br][br]- ${str1}[br][br]Chcete pokračovat?
+TEXT_ASK_CONT_NOFREESPACE               = V cílové složce není dostatek volného místa. Změňte cílovou složku.[br][br]- ${str1}[br][br]Chcete pokračovat?
+TEXT_ASK_ASK_UAC_ELEVATION              = Nemáte oprávnění pro změnu těchto souborů.[br][br]Chcete aplikaci spustit jako administrátor?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Nelze otevřít tento archiv.[br][br]Chcete otevřít první část rozděleného souboru (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Mějte na paměti, že pokud smažete soubory po vytvoření archivu, můžete přijít o důležité soubory, pokud jsou soubory poškozené.[br][br]Chcete aktivovat možnost "Otestovat archiv"?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Na disku není dostatek místa pro rozbalení archivu. Opravdu chcete pokračovat?[br][br]Cílová složka: ${str1}[br]Dostupné volné místo: ${str2}[br]Velikost souborů v archivu: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Soubor je poškozen.
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Soubor je poškozen nebo je vyžadována další rozdělená část
+
+TEXT_BTN_PAUSE                          = Pauza
+TEXT_BTN_RESUME                         = Pokračovat
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Nastala chyba
+TEXT_ERRDLG_USER_ABORT                  = Přerušeno
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Nelze otevřít tento soubor.
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Nelze otevřít souboru, protože je používán jiným programem
+TEXT_ARKERR_PASSWORD_NOT_SET            = Vyžadováno heslo.
+TEXT_ARKERR_INVALID_PASSWD              = Neplatné heslo.
+TEXT_ARKERR_USER_ABORTED                = Přerušeno.
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC chyba
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Nelze otevřít soubor.
+TEXT_ARKERR_CANT_READ_DATA              = Nelze přečíst data z archivu.
+TEXT_ARKERR_INFLATE_FAILED              = Chyba dat - Soubor je poškozen
+TEXT_ARKERR_BZIP2_ERROR                 = Chyba dat - Soubor je poškozen
+TEXT_ARKERR_DATA_CORRUPTED              = Soubor je poškozen nebo je vyžadována další část archivu.
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Nelze otevřít soubor.
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Nelze vytvořit složku.
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Nepodporovaný režim komprese
+TEXT_ARKERR_WRITE_FAIL                  = Během zápisu nastala chyba
+TEXT_ARKERR_DISK_FULL                   = Disk je plný.
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Cesta k souboru a název souboru nemůže překročit 260 znaků.
+TEXT_ARKERR_CANT_CREATE_FILE            = Neúspěšné vytvoření souboru.
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Neúspěšné vytvoření souboru. Spusťte program s administrátorským oprávněním.
+TEXT_ARKERR_USER_SKIP                   = Přeskočeno.
+TEXT_ARKERR_FILE_TRUNCATED              = Konec souboru je poškozen nebo chybí.
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Neplatné heslo nebo je soubor poškozen.
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Soubor je poškozen.
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Samorozbalovací archiv (*.exe) je větší jak 4GB. Ve Windows nelze spustit soubor s velikostí 4GB.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Nelze otevřít tento archiv. Jsou vyžadovány další rozdělené části (.z01, .z02..).
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Nelze otevřít zip archiv. Jsou vyžadovány další rozdělené části (.z01, .z02..).
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Nelze otevřít archiv. Vyžadován rozdělený soubor.
+TEXT_ARKERR_CORRUPTED_FILE              = Soubor je poškozen.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Nemáte oprávnění pro zápis do této složky.
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Nemáte oprávnění pro zápis do této složky. Spusťte program s administrátorským oprávněním.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Nepodporovaný šifrovací algoritmus.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Nedostatek paměti
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Nedostatek paměti. Změňte úroveň komprese.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Tato operace není podporovaná
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Velikost rozbaleného souboru je odlišná od hlavičky archivu.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Nelze vytvořit archivy větší než 4GB. Vyberte jiný formát archivu (ZIP nebo 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Délka názvu souboru bude zkrácena automaticky.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Nelze otevřít zdrojový soubor ke kopírování.
+TEXT_ARKERR_NOTIMPL                     = Neimplementováno.
+TEXT_ARKERR_CANT_READ_FILE              = Soubor nelze přečíst.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Pro vytvoření symbolického odkazu spusťte Bandizip jako administrátor.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Nepodařilo se vytvořit symbolický odkaz.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Soubor je zapisovatelný a je používán jiným procesem.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Neexistuje žádný soubor k archivaci.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Nerozdělovat
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Vlastní velikost
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Bez komprese
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Rychlá komprese
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Normální komprese
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Maximální komprese
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Nová komprese
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Přidat soubory do archivu
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Přejmenovat: ${str1}
+TEXT_TITLE_TEST_MODE                    = Test archivu
+TEXT_TITLE_TEMPFOLDER_MODE              = Rozbalit do dočasné složky...
+TEXT_TITLE_MODIFYING                    = Upravování...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Soubor k rozbalení
+TEXT_MSG_SELECTED_FILE                  = Vybráno ${num1} souborů
+TEXT_MSG_SELECTED_FOLDER                = Vybráno ${num1} složek
+TEXT_MSG_SELECTED_FILEFOLDER            = Souborů: ${num1}, Složek: ${num2}
+TEXT_MSG_SELECTED_FILESIZESUM           = Velikost vybraného souboru: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Nepodařilo se zkontrolovat dostupnost nové verze programu
+TEXT_UPDATE_VERSION_CHECKING            = Ověřuji dostupnost nové verze
+TEXT_UPDATE_DOWNLOAD_FAILED             = Neúspěšné stažení
+TEXT_UPDATE_LATEST_VERSION              = Používáte aktuální verzi
+TEXT_UPDATE_DO_DOWNLOAD                 = Vyžadována aktualizace
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Stahování dokončeno
+
+TEXT_INSTALL_HONEYVIEW                  = Nainstalovat Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview nemáte ve svém počítači nainstalován.
+TEXT_INSTALL_HONEYVIEW_2                = Vyzkoušejte Honeyview od Bandisoftu.<br> Dokáže bez rozbalení zobrazit obrázky uložené v ZIP, RAR nebo 7z archivech.
+
+TEXT_REGISTRATION_FAILED                = Registrace se nezdařila.[br]Zkontrolujte svou e-mailovou adresu a produktový klíč.
+TEXT_REGISTRATION_SUCCEED               = Váš Bandizip je zaregistrován.
+TEXT_REGISTRATION_ASK                   = Opravdu chcete zrušit registraci Bandizip?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip není registrován.[br]Chcete-li Bandizip používat bez omezení funkcí, kupte si jej a zaregistrujte.
+TEXT_REGISTER_INFO                      = Následující uživatel zaregistroval Bandizip:[br]E-mailová adresa: ${str1}[br]Produktový klíč: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = Antimalwarová kontrola v archivu
+TEXT_SCAN_AMSI_PROVIDER                 = Inicializace AMSI proběhla úspěšně
+TEXT_SCAN_COMPLETED                     = Kontrola malwaru byla dokončena.
+TEXT_SCAN_MALWARE_DETECTED              = Zjištěn škodlivý malware.
+TEXT_SCAN_MALWARE_NOTDETECTED           = Nebyl zjištěn žádný malware.
+TEXT_SCAN_MALWARE_TOOBIG                = Kontrola se nezdařila. Soubor je příliš velký.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = V archivu byl zjištěn žádný malware.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= V archivu byl zjištěn škodlivý malware. Extrakce byla zrušena.
+TEXT_MSG_MALWARE_TEST_OK                = V archivu nebyl zjištěn žádný malware.
+TEXT_MSG_AMSI_INIT_FAILED               = Inicializace AMSI pro skenování se nezdařila. Podrobnosti naleznete na adrese https://go.bandisoft.com/amsi.
+TEXT_MSG_AMSI_WIN10_NOTICE              = Funkce Antimalware Scan je k dispozici pouze v systému Windows 10/11. Podrobnosti naleznete na adrese https://go.bandisoft.com/amsi.
+
+[MENU]
+MENUSTR_FILE                            = &Soubor
+MENUSTR_EDIT                            = Ú&pravy
+MENUSTR_SETTING                         = &Možnosti
+MENUSTR_FIND                            = Na&jít
+MENUSTR_VIEW                            = &Zobrazit
+MENUSTR_TOOLS                           = Nás&troje
+MENUSTR_HELP                            = &Nápověda
+
+MENUSTR_OPEN                            = &Otevřít archiv\tCtrl+O
+MENUSTR_RECENT                          = Poslední soubory
+MENUSTR_CLOSE_FILE                      = &Zavřít archiv\tF4
+MENUSTR_CREATE_ARCHIVE                  = &Nový archiv\tCtrl+N
+MENUSTR_NEW_WINDOW                      = Nové okno \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Nové okno (Administrator)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Uložit jako
+MENUSTR_DELETE_ARCHIVE                  = Vymazat archiv \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Trvale odstranit archiv \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Otevřít umístění archivu
+MENUSTR_TEST_ARCHIVE                    = O&testovat archiv \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &Rozbalit soubor \tCtrl+E
+MENUSTR_EXIT                            = &Konec \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Přejmenovat soubor \tF2
+MENUSTR_ADD_FILE                        = &Přidat soubor \tIns
+MENUSTR_DELETE_FILE                     = &Vymazat soubor \tDel
+MENUSTR_EDIT_COMMENT                    = Komentář archivu
+MENUSTR_SETTING_SUB                     = Na&stavení (F5)
+MENUSTR_REGISTER                        = Registrace Bandizip...
+MENUSTR_UNREGISTER                      = Zrušení registrace Bandizip...
+MENUSTR_PASSMAN                         = Správce hesel...
+MENUSTR_FIND_ITEM                       = Na&jít soubory\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Zkopírovat soubory do schránky\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Vložit soubory ze schránky\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Úvodní obrazovka \tF6
+MENUSTR_VIEW_TREECONTROL                = Zobrazení stromu \tF7
+MENUSTR_VIEW_COMMENT                    = Komentář k archivu\tF8
+MENUSTR_VIEW_PREVIEW                    = Náhled obrázku
+MENUSTR_VIEW_STATUS_BAR                 = Stavový řádek
+MENUSTR_VIEW_TOOLBAR                    = Panel nástrojů
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Velký
+MENUSTR_VIEW_TOOLBAR_MINI               = Malý
+MENUSTR_VIEW_TOOLBAR_OLD                = Klasický
+MENUSTR_VIEW_TOOLBAR_HIDE               = Skrýt
+MENUSTR_SET_TOOLBAR_ITEM                = Výběr tlačítek na panel nástrojů
+MENUSTR_VIEW_LISTVIEW                   = Seznam souborů
+MENUSTR_VIEW_LISTVIEW_ICON              = Ikony
+MENUSTR_VIEW_LISTVIEW_LIST              = Seznam
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detaily
+MENUSTR_VIEW_COLUMN                     = Sloupec
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Vždy Na vrchu
+MENUSTR_VIEW_COLOR_SETTING              = Nastavení barev...
+
+
+MENUSTR_ABOUT                           = &O programu Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Přejít na nápovědu
+MENUSTR_OPEN_FOLDER                     = &Otevřít složku Bandizip
+MENUSTR_FORUM                           = Přejít na Bandizip &forum
+MENUSTR_HOMEPAGE                        = Přejít na &homepage
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Komprimovaná velikost
+POPUPMENU_VIEWITEM_ORIGSIZE             = Originální velikost
+POPUPMENU_VIEWITEM_KIND                 = Typ souboru
+POPUPMENU_VIEWITEM_DATE_MOD             = Datum úpravy
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Úroveň komprese
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Metoda šifrování
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Atributy souboru
+POPUPMENU_VIEWITEM_COMMENT              = Komentář souboru
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Rozbalit vše \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Rozbalit vybraný soubor
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Rozbalit sem
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Otevřít\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Otevřít v asociovaném programu
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Upravit\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Otevřít s &Bandizip
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Nová složka
+POPUPMENU_LISTCONTROL_ADD_FILE          = Přidat soubor \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Vymazat soubor \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Přejmenovat soubor
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Vybrat vše \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Přejít do nadřazené složky\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Vymazat archiv
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Otevřít složku s archivem
+
+POPUPMENU_EXTRACT_AUTODEST              = Rozbalit sem (chytře)\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Rozbalit do této složky\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Rozbalit do nové složky dle názvu souboru
+POPUPMENU_EXTRACT_DESKTOP               = Rozbalit na Plochu
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Rozbalit na Plochu (chytře)
+
+POPUPMENU_RECENT_CLEAR                  = Vymazat historii
+POPUPMENU_RECENT_NOITEM                 = Žádný poslední soubor
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Otevřít v Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Rozbalit sem (chytře)
+
+POPUPMENU_CODEPAGE_DEFAULT              = Výchozí
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Zjednodušená čínština
+POPUPMENU_CODEPAGE_TRADCHINESE          = Tradiční čínština
+POPUPMENU_CODEPAGE_JAPANESE             = Japonština
+POPUPMENU_CODEPAGE_KOREAN               = Korejština
+POPUPMENU_CODEPAGE_WINDOWS1252          = Západní Evropa
+POPUPMENU_CODEPAGE_WINDOWS1250          = Střední Evropa
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cyrilice
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turečtina
+POPUPMENU_CODEPAGE_WINDOWS737           = Řečtina
+POPUPMENU_CODEPAGE_ARABIC               = Arabština
+POPUPMENU_CODEPAGE_HEBREW               = Hebrejština
+POPUPMENU_CODEPAGE_BALTIC               = Baltské jazyky
+POPUPMENU_CODEPAGE_THAI                 = Thajštiína
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = Automaticky detekovat
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Zobrazit v Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Zobrazit v přiřazené aplikaci
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Minimalizovat do systray
+DLG_MENUSTR_LOW_PRIORITY                = Nízká priorita
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Po rozbalení odstranit archiv
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = OK
+IDCANCEL                                = Zrušit
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = O programu
+IDC_BTN_HOMEPAGE                        = Domovská stránka
+IDC_BTN_UPDATE                          = Aktualizovat
+IDC_BTN_REGIST                          = Registrovat nyní
+IDC_BTN_BUY                             = Koupit nyní
+IDC_STATIC_LICENSE                      = Informace o registraci Bandizip
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Otevřít soubor
+IDC_STATIC_OPENING                      = Otevírání
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Vybrat cestu pro rozbalení
+IDC_STATIC_FOLDER                       = &Cílová cesta
+IDC_STATIC_FILES2EXTRACT                = Rozbalit:
+IDC_RADIO_FILES2EXTRACT_0               = &Všechny soubory
+IDC_RADIO_FILES2EXTRACT_1               = &Vybrané soubory
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Rozbalit do nové složky v cílovém umístění
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Po rozbalení odstranit archiv
+IDC_CHK_REMEMBER_SETTINGS               = Zapamatovat nastavení
+IDC_BTN_NEWFOLDER                       = Nová složka
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Rozbalit
+IDC_BTN_STOP                            = Zastavit
+IDC_BTN_CLOSE                           = Zavřít
+IDC_BTN_PAUSE                           = Pauza
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Nový archiv
+IDC_STATIC_FILE_LIST                    = Přidat soubory do archivu
+IDC_STATIC_ARCHIVE_SETTING              = Nastavení archivu
+IDC_STATIC_ARCHIVE_NAME                 = Název souboru
+IDC_STATIC_SET_DEST_FOLDER              = Cílová složka
+IDC_STATIC_ARCHIVE_TYPE                 = Uložit jako typ
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Rozdělit soubor
+IDC_STATIC_COMPRESSION_METHOD           = Úroveň komprese
+IDC_STATIC_HELP_SPLIT                   = [Nápověda]
+IDC_STATIC_HELP_7Z                      = [7Z formát]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Procházet...
+IDC_BTN_SET_PASSWORD                    = Nastavit &heslo...
+IDC_BTN_TEST_ARCHIVE                    = &Otestovat archiv
+IDC_BTN_DELETE_SRC                      = Po archivování vymazat soubory
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Komprimovat pod stejným názvem souboru/složky
+IDC_BTN_SET_DEST_FOLDER                 = Změnit cílovou složku
+IDC_BTN_TOGGLE_ADVANCED                 = Další možnosti...
+IDC_BTN_SET_SFX                         = Nastavení SFX
+IDC_BTN_ADD                             = &Přidat
+IDC_BTN_DEL                             = &Vymazat
+IDC_BTN_START                           = &Spustit
+IDC_BTN_COMP_ADVANCED                   = Pokročilé
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = Nastavení komprese ZIP/ZIPX
+IDC_AA_ZIP_ALGO                         = Metoda komprese
+IDC_AA_ZIP_ENC                          = Metoda šifrování
+IDC_AA_ZIP_THREAD                       = Počet vláken CPU
+COMBO_TEXT_THREAD_AUTO                  = Automaticky
+IDC_CHK_ZIP_STORESYMLINK                = Ukládání symbolických odkazů
+IDC_CHK_ZIP_COMMENT                     = Uložit komentář
+IDD_AA_7Z                               = Nastavení komprese 7Z
+IDC_AA_7Z_ALGO                          = Metoda komprese
+IDC_AA_7Z_SOLID                         = Pevná velikost bloku
+IDC_CHK_7Z_ENC_FILENAMES                = Šifrování názvů souborů
+IDD_AA_TAR                              = Nastavení archivace TAR
+IDC_CHK_TAR_SYMLINK                     = Ukládání symbolických odkazů
+IDC_CHK_TAR_HARDLINK                    = Ukládat pevné odkazy
+COMBO_TEXT_SOLID_NONE                   = Volný
+COMBO_TEXT_SOLID_SOLID                  = Pevný
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Zadejte heslo
+IDC_STATIC_DESC_ARCHIVING               = Zadejte heslo pro svůj archiv. Pro lepší zabezpečení se doporučuje heslo o délce alespoň 8 znaků.
+IDC_STATIC_DESC_MASTERPASS              = Zadejte hlavní heslo pro správce hesel. Pro lepší zabezpečení se doporučuje zadat heslo o délce alespoň 8 znaků.
+IDC_STATIC_DESC_EXTRACT                 = Zadejte heslo pro šifrovaný soubor.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Neplatné heslo. Zadejte jej znovu.
+IDC_STATIC_PWD                          = Zadejte heslo
+IDC_STATIC_PWD2                         = Heslo znovu
+IDC_BTN_SHOW_PASSWORD                   = Zobrazit heslo
+IDC_BTN_PASSMAN                         = Správce hesel...
+IDC_CHECK_APPLY_ALL                     = &Použít vše
+IDC_STATIC_PASS_RECOVERY                = Zapomněli jste heslo? Zkuste použít Bandizip Obnova hesla.
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Správce hesel
+TEXT_MSG_CORRUTP_DATA                   = Uložená data hesel byla poškozena.
+TEXT_PASSMAN_WARNING1                   = Pokud není nastaveno hlavní heslo, nejsou hesla uložená ve správci hesel šifrována.
+TEXT_PASSMAN_WARNING2                   = Pokud tuto funkci používáte na veřejném nebo sdíleném počítači, je nutná vaše opatrnost.
+LIST_PASS_HEADER1                       = Heslo
+LIST_PASS_HEADER2                       = Zobrazované jméno
+IDC_BTN_ADD                             = Přidat
+IDC_BTN_DEL                             = Odstranit
+IDC_BTN_EDIT                            = Upravit
+IDC_BTN_SET_MASTERPASS                  = Nastavení hlavního hesla...
+IDC_BTN_DEL_MASTERPASS                  = Odstranění hlavního hesla
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Zadejte hlavní heslo
+IDC_STATIC_MASTPASS_MSG                 = Zadejte hlavní heslo pro přístup ke správci hesel. Obnovit pro vymazání všech informací o heslech uložených v systému.
+IDC_BTN_INITPASSMAN                     = Resetovat
+TEXT_ASK_INIT_PASSMAN                   = Jste si jisti, že chcete vymazat všechny informace o heslech?
+IDC_BTN_SHOW_PASSWORD                   = Zobrazit heslo
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Informace o hesle
+IDC_STATIC_PASSWORD                     = Heslo
+IDC_STATIC_DISPNAME                     = Zobrazované jméno (volitelné)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Vybrat
+IDC_BTN_OPEN                            = Otevřít
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Archivování
+TEXT_ARCHIVE_TESTING                    = Testování
+IDC_BTN_STOP                            = Zastavit
+IDC_BTN_CLOSE                           = Zavřít
+IDC_BTN_PAUSE                           = Pauza
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Duplicitní soubory
+IDC_STATIC_DUPE_MESSAGE                 = Stejné soubory
+IDC_STATIC_DUPEFILE_OLD                 = Původní soubor
+IDC_STATIC_DUPEFILE_NEW                 = Aktuální soubor
+IDC_STATIC_DUPE_ASK                     = Vyberte možnost:
+IDC_RADIO_DUPE_METHOD0                  = &Přeskočit
+IDC_RADIO_DUPE_METHOD1                  = Přep&sat
+IDC_RADIO_DUPE_METHOD2                  = Přej&menovat
+IDC_CHECK_DUPE_APPLY_ALL                = Použít pro &všechny soubory
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Možnosti archivu
+IDC_STATIC_ASK_HANDLING                 = Vyberte si z možností níže:
+IDC_RADIO_HANDLE_METHOD0                = &Otevřít archiv
+IDC_RADIO_HANDLE_METHOD1                = &Nová komprese
+IDC_RADIO_HANDLE_METHOD2                = &Přidat soubory do aktuálního archivu
+IDC_CHK_PASS                            = Použít heslo
+IDC_STATIC_PASSWORD_AGAIN               = Znovu zadejte heslo
+IDC_CHK_SHOW_PASS                       = Zobrazit heslo
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Nastavení
+IDC_BTN_INIT                            = Reset
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Obecné nastavní
+IDC_CHK_EXIT_WITH_ESC                   = Použít ESC pro zavření okna
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Vždy kontrolovat soubory po přidání/vymazání/přejmenování
+IDC_CHK_SNAP                            = Použít Aero Snap
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Zobrazit [..] adresář v archivu
+IDC_CHK_SHOW_GRID_AT_LIST               = Zobrazit mřížku v detailním zobrazení
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Vybrat všechny soubory archivu
+IDC_CHK_ONE_CLICK_ACTIVATE              = Otevření položky jedním kliknutím
+IDC_STATIC_UPDATE                       = Aktualizovat nastavení
+TEXT_UPDATE_0                           = Oznámení a instalace nejnovější verze
+TEXT_UPDATE_1                           = Upozornit a nainstalovat pouze stabilní verzi
+TEXT_UPDATE_2                           = Neoznamovat žádné aktualizace
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Asociace souborů
+IDC_BTN_SELECT_MANDATORY                = Vybrat základní
+IDC_BTN_SELECT_ALL                      = Vybrat vše
+IDC_BTN_CLEAR_ALL                       = Zrušit vše
+IDC_BTN_APPLY_NOW                       = Použít nyní
+IDC_STATIC_ICON_PACK                    = Vybrat balík ikon:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Stáhnout balík ikon]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Asociace přípon
+;IDC_STATIC_ASSOC_DESC1                 = Ve Windows 8 a novějších můžete soubory asociovat následujícím způsobem:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Klikněte na tlačítko "Nastavení asociace".
+;IDC_STATIC_ASSOC_DESC3                 = 2. V dialogovém okně zaškrtněte možnost "Vybrat vše".
+;IDC_STATIC_ASSOC_DESC4                 = 3. Klikněte na tlačítko "Uložit".
+;IDC_STATIC_ASSOC_DESC1_10              = Ve Windows 10 a novějších můžete soubory asociovat následujícím způsobem:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Klikněte na tlačítko "Nastavení asociace".
+;IDC_STATIC_ASSOC_DESC3_10              = 2. V dialogovém okně vyberte "Bandizip".
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Klikněte na tlačítko "Nastavit tento program jako výchozí".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Nastavení asociace
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Klasický způsob
+LIST_COLUMN0                            = Rozšíření
+LIST_COLUMN1                            = Výchozí aplikace
+IDC_BTN_CHANGE                          = Změna
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Akce při dvojkliku
+IDC_RADIO_SHELL_OPEN_0                  = Otevřít v Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Rozbalit sem (chytře)
+IDC_RADIO_SHELL_OPEN_2                  = Zobrazit kontextové menu
+IDC_RADIO_SHELL_OPEN_3                  = Rozbalit do vybrané složky (chytře)
+IDC_BTN_SET_EXTRACT_FOLDER              = Procházet...
+IDC_RADIO_SHELL_OPEN_4                  = Rozbalit do složky s názvem souboru
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Po rozbalení dvojklikem odstranit archiv
+
+IDC_STATIC_SHELL_EXTRACT                = Menu Rozbalit
+IDC_CHK_SHELL_EXTRACT_HERE              = Rozbalit sem
+IDC_CHK_SHELL_EXTRACT_AUTO              = Rozbalit sem (chytře)
+IDC_CHK_SHELL_EXTRACT_SUB               = Rozbalit do složky podle názvu archivu
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Rozbalit sem a odstranit
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Rozbalit sem (chytře) a odstranit
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Rozbalit do složky podle názvu archivu a odstranit
+IDC_CHK_SHELL_EXTRACT_DLG               = Vybrat cestu k rozbalení
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Rozbalit jako addministrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Otestovat archiv
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Otevřít v Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Náhled archivu
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Velikost náhledu souborů:
+IDC_CHK_SHELL_PREVIEW_TREE              = Náhled archivu včetně stromové struktury
+
+IDC_STATIC_SHELL_ARCHIVING              = Menu Komprimovat
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Komprimovat do "FileName.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Komprimovat do "FileName.zip" a smazat
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Komprimovat do "NazevSouboru.zip" a odeslat e-mailem
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Komprimovat do "NazevSouboru.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Komprimovat do "NazevSouboru.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Komprimovat do "NazevSouboru.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Komprimovat do "NazevSouboru.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Komprimovat do "NazevSouboru.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Komprimovat do "NazevSouboru.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Komprimovat do "NazevSouboru.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Komprimovat do "NazevSouboru.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Komprimovat do "NazevSouboru.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Komprimovat do "NazevSouboru.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = Komprimovat každý soubor/složku
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Komprimovat jako "NazevSouboru/Slozky.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Přidat do archivu (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Komprimovat jako administrátor
+IDC_CHK_SHELL_ARCHIVING_RULE            = Komprimovat do souboru s vlastním názvem
+IDC_STATIC_FILENAME_RULE_HELP           = Šablona: ${NAME}=název souboru, %Y=rok, %m=měsíc, %d=den, %H=hodina, %M=minuta, %S=sekunda
+
+IDC_STATIC_SHELL_BKGND                  = Pro zobrazení kontextového menu klikněte pravým tlačítkem myši do volného prostoru v Průzkumníkovi Windows.
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = "Použít funkci "Nová složka""
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Otevřít Příkazový řádek (cmd.exe) – pro spuštění cmd.exe jako administrátor stiskněte klávesu Shift
+
+IDC_STATIC_SHELL_ETC                    = Další
+IDC_CHK_SHELL_DO_NOT_USE                = Vypnout kontextové menu
+IDC_CHK_SHELL_AS_SUB_MENU               = Kaskádové kontextové menu
+IDC_CHK_SHELL_HIDE_ICON                 = Skrýt ikonu Bandizip
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Rozlišovat archiv podle obsahu
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Zobrazit menu pro každý soubor archivu
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Použít kurzorem myši vybraný název složky/souboru
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Nastavení rozbalení
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Zobrazit soubory, pokud jsou pouze v jedné složce
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Otevřít složku po rozbalení
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Nezavírat okno průběhu po dokončení
+IDC_CHK_FAST_DRAG_DROP                  = Použít Rychlý Drag and Drop, pokud je rozbalovaný soubor velký
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Rozbalit najednou TGZ, TBZ archivy
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Pro všechny velké TGZ, TBZ archivy
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Při použití 'Rozbalit sem (chytře)' vytvořit složku také v případě, kdy archiv obsahuje pouze jeden soubor
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Automaticky detekovat Macintosh kódování
+IDC_CHK_UNIXZIP_AS_UTF8                 = Použít UTF-8 kódování při otevírání zip archivů z UNIXu
+IDC_CHK_PARALLEL_EXT                    = Použít paralelní extrakci pokud je to možné
+IDC_STATIC_CODEPAGE                     = Výchozí kódování
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Po rozbalení dvojklikem spustit automaticky toto typy souborů
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Nastavení komprese
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Nepoužívat název kořenové složky, pokud se komprimuje pouze jedna složka
+IDC_CHK_USE_UTF8_COMPRESS               = Použít Unicode názvy souborů v zip archivech (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Ukládat Unicode názvy souborů v dodatečném poli v hlavičce Zip archivu (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Použít Unicode názvy souborů v tar/tgz archivech (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Vždy použít ZIP64 formát i přesto, že je velikost souboru menší než 2GB (Nedoporučeno)
+IDC_CHK_EXCLUDE_THUMBSDB                = Vyjmout thumbs.db soubor z archivu
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Uložit NTFS časové razítko při vytváření Zip archivů
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = "Použít 'Rychlé archivování'"
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Nezavírat okno průběhu po dokončení
+IDC_STATIC_COMPRESSION_METHOD           = Úroveň komprese:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Otestovat archiv po dokončení komprese
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Použít poslední složku pro nový archiv
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Výchozí složka pro nový archiv
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Procházet...
+IDC_CHK_EXCLUDE_FILTER                  = Typy souborů, které chcete vyloučit z archivování
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Prohlížeč
+IDC_CHK_SHOW_PREVIEW                    = Náhled obrázku bez rozbalení archivu
+IDC_CHK_SET_LISTCONTROL_FONT            = Nastavení písma seznamu souborů
+IDC_BTN_SET_FONT                        = Nastavit písmo...
+
+IDC_STATIC_SETTING_VIEWITEM             = Sloupce
+IDC_CHK_VIEWITEM_COMPSIZE               = Komprimovaná velikost
+IDC_CHK_VIEWITEM_ORIGSIZE               = Původní velikost
+IDC_CHK_VIEWITEM_KIND                   = Typ souboru
+IDC_CHK_VIEWITEM_DATE_MOD               = Datum úpravy
+IDC_CHK_VIEWITEM_COMPMETHOD             = Úroveň komprese
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Metoda šifrování
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Atributy souboru
+IDC_CHK_VIEWITEM_COMMENT                = Komentář souboru
+IDC_CHK_VIEWITEM_EXT                    = Další informace
+
+IDC_STATIC_IMAGE_VIEWER                 = Prohlížeč obrázků
+IDC_RADIO_IMAGE_VIEWER_0                = Použít vestavěný prohlížeč obrázků
+IDC_RADIO_IMAGE_VIEWER_1                = Použít asociovaný program
+IDC_RADIO_IMAGE_VIEWER_2                = Použít Honeyview, pokud je nainstalovaný
+
+IDC_STATIC_EDITOR                       = Editor
+IDC_BTN_SET_EDITOR_PATH                 = Procházet...
+
+IDC_STATIC_COLOR                        = Barva
+IDC_STATIC_COLOR_THEME                  = Barva vzhledu
+IDC_BTN_BKGND                           = Vybraná
+IDC_STATIC_COLOR_TEXT                   = Barva písma
+IDC_STATIC_COLOR_TEXT_AUTO              = Automatická
+IDC_STATIC_COLOR_TEXT_WHITE             = Bílá
+IDC_STATIC_COLOR_TEXT_BLACK             = Černá
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Nastavení zabezpečení
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopírování zóny.Identifikační informace archivu staženého z internetu během extrakce
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Kontrola malwaru před extrakcí
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Možnosti exportu
+IDC_STATIC_ETC                          = Různé
+IDC_CHK_SET_TEMP_FOLDER                 = Umístění pro odkládání dočasných souborů
+IDC_BTN_SET_TEMP_FOLDER                 = Procházet...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Rozpoznat následující typy souborů jako archivy
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Při ukončení procesu potomka odstranit dočasný soubor
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Při odstranění přesunout soubory do Koše
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Zobrazit seznam naposledy otevřených souborů
+IDC_CHK_USE_LONG_PATH_NAME              = Povolit cestu k souboru překračující 260 znaků
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Povolit Průzkumníku Windows vymazat otevřené archivy
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Rozbalit strom složky automaticky
+IDC_CHK_USE_MODAL_DIALOG                = Při vytváření/rozbalování archivu použít modální dialog
+IDC_CHK_USE_ELEGANT_UI                  = Použít elegantní vzhled grafického rozhraní
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Při startu zobrazit uvítací obrazovku
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = V záhlaví okna zobrazit celou cestu
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Odstranit rozbalené soubory při přerušení akce
+IDC_CHK_USE_SET_END_OF_FILE             = Předběžné přidělení místa na disku pro výstupní soubor
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Komprimovat soubor, i když je používán jiným procesem.
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Nastavení jazyka
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Chcete pomoci s překladem tohoto programu? Klikněte zde...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = Nastavení SFX (Samorozbalovací archiv)
+IDC_STATIC_TARGET_PATH                  = Cesta pro rozbalení:
+IDC_STATIC_TITLE                        = Název SFX:
+IDC_STATIC_RUN                          = Spustit po rozbalení:
+IDC_STATIC_MESSAGE                      = SFX zpráva:
+IDC_CHK_AUTO_CLOSE                      = Zavřít okno SFX po dokončení
+IDC_BTN_SAVE_SFX_SETTING                = Uložit nastavení
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Najít soubory
+IDC_STATIC_FIND                         = Hledat:
+IDC_BTN_CLOSE                           = Zavřít
+IDC_BTN_DELETE                          = Vymazat
+IDC_BTN_EXTRACT                         = Rozbalit
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Komentář archivu
+IDC_STATIC_COMMENT                      = Přidat/Upravit komentář tohoto archivu
+IDC_CHK_USE_UTF8                        = Uložit komentář v Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Načíst komentář ze souboru (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = VAROVÁNÍ
+IDC_STATIC_WARN_EXECUTABLE              = Tento soubor je spustitelný. Spuštění tohoto souboru může poškodit váš počítač. Chcete pokračovat?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Příště nezobrazovat
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Registrace Bandizip
+IDC_STATIC_DESC1                        = Zadejte svou e-mailovou adresu a produktový klíč, který jste obdrželi e-mailem.
+IDC_STATIC_EMAIL                        = E-mailová adresa
+IDC_STATIC_PRDUCT_KEY                   = Produktový klíč
+IDC_BTN_REGISTER                        = Registrovat nyní
+IDC_STATIC_BUYNOW                       = Ještě jste si nekoupili Bandizip? [Koupit nyní]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Průvodce pro licenci Bandizip
+TEXT_LIMIT_PASSMAN                      = Ve správci hesel Bandizip Standard Edition lze uložit pouze jedno heslo.
+TEXT_SHOW_AD                            = V aplikaci Bandizip Standard Edition se zobrazují reklamy.[br]Pro odstranění reklam si můžete zakoupit placenou edici.
+TEXT_CANNOT_CHANGE                      = Tuto funkci nelze na Bandizip Standard Edition změnit.[br]Chcete-li tuto funkci změnit, můžete si zakoupit placenou edici.
+TEXT_CANNOT_USE                         = Tato funkce není v Bandizip Standard Edition dostupná.[br]Chcete-li tuto funkci používat, můžete si zakoupit placenou edici.
+TEXT_PORTABLE_NOTICE                    = Tato funkce není dostupná v Bandizip Portable Edition.[br]Chcete-li tuto funkci používat, můžete si zakoupit placenou edici.
+IDC_STATIC_COMPARISON                   = Porovnání edic...
+IDC_STATIC_HOWTOREGISTER                = Už jste si koupili Bandizip? [Jak se zaregistrovat]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Opravit archiv
+IDC_STATIC_SRC                          = Soubor k opravě
+IDC_STATIC_DST                          = Opravený soubor
+IDC_BTN_START                           = Spustit opravu
+IDC_BTN_TEST                            = Otestovat opravu
+IDC_BTN_STOP                            = Zastavit
+TEXT_NOTICE                             = Procházet a vybrat soubor pro opravu. Potom klikněte na tlačítko "Spustit opravu".
+TEXT_ERR_OCCURRED                       = Došlo k chybě.
+TEXT_ERR_NOT_A_ZIP                      = Vybraný soubor je v nepodporovaném formátu. V současné době je k dispozici pouze formát ZIP.
+TEXT_ERR_NO_INFO                        = Vybraný soubor neobsahuje žádná data k opravě.
+TEXT_MSG_START                          = Zahájení opravy.
+TEXT_MSG_FINISH                         = Oprava byla dokončena.
+TEXT_MSG_ANALYZING                      = Analyzuje se...
+TEXT_MSG_CANCELED                       = Oprava zrušena.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Před zahájením opravy vyberte soubor (.zip).
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = V systému je nainstalováno více Bandizipů. Abyste předešli problémům, odstraňte jeden z nich.
+CMD_UNINST_MSSTORE                      = Odinstalujte Bandizip MSE
+CMD_UNINST_PROGFILES                    = Odinstalujte Bandizip
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Otevřít
+$TOOLBAR_CLOSE_FILE                     = Zavřít
+$TOOLBAR_EXTRACT_FILE                   = Rozbalit
+$TOOLBAR_CREATE_ARCHIVE                 = Nový
+$TOOLBAR_DELETE_FILE                    = Vymazat
+$TOOLBAR_ADD_FILE                       = Přidat
+$TOOLBAR_TEST_ARCHIVE                   = Otestovat
+$TOOLBAR_CODEPAGE                       = Kódování
+$TOOLBAR_VIEWITEM                       = Zobrazit
+$TOOLBAR_SCAN                           = Skenovat
+
+$TOOLBAR_OPEN2                          = Otevřít archiv
+$TOOLBAR_CREATE_ARCHIVE2                = Nový archiv
+
+$TEXT_DESKTOP                           = Plocha
+$TEXT_DOCUMENT                          = Dokumenty
+$TEXT_PICTURE                           = Obrázky
+$TEXT_COMPUTER                          = Počítač
+
+$TEXT_SETTINGTAB_GENERAL                = Hlavní
+$TEXT_SETTINGTAB_ASSOC                  = Asociace
+$TEXT_SETTINGTAB_SHELL                  = Kontextové menu
+$TEXT_SETTINGTAB_EXTRACT                = Rozbalení
+$TEXT_SETTINGTAB_ARCHIVE                = Komprimace
+$TEXT_SETTINGTAB_VIEWER                 = Prohlížeč
+$TEXT_SETTINGTAB_SECURITY               = Zabezpečení
+$TEXT_SETTINGTAB_ETC                    = Různé
+$TEXT_SETTINGTAB_LANG                   = Jazyk
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Přejít na umístění souboru
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Přejít na umístění archivu
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Přejít na umístění souboru po rozbalení
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Přejít na umístění archivu
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Otevřít cílovou složku
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Nezavírat okno po dokončení
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Nezavírat okno po dokončení
+$TOOLTIP_ADVANCED_MENU                  = Různé nastavení
+$TOOLTIP_REGISTER                       = Registrace Bandizip
+$TOOLTIP_UPDATE                         = Aktualizace
+$TOOLTIP_PREVIEW                        = Zobrazit velké ikony
+$TOOLTIP_REPORT                         = Zobrazit podrobnosti
+
+$TEXT_INSTALL_START                     = OK, zkusím to
+$TEXT_INSTALL_CLOSE                     = Ne, děkuji
+$TEXT_INSTALL_HONEYVIEW_LINK            = Zjistit více...
+
+$TEXT_HELP_PAGE                         = Nápověda
+$TEXT_AD                                = Reklama
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Obnova hesla Bandizip
+TEXT_MSG_OPENING                        = Otevření archivu: ${str1}
+TEXT_MSG_CANCELED                       = Otevření archivu bylo zrušeno.
+TEXT_MSG_BROKEN                         = Tento archiv byl poškozen.
+TEXT_MSG_NO_PASSWD                      = Tento archiv nemá nastavené heslo.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = Tento archiv má zašifrovanou hlavičku souboru; Tento typ archivu není v současné době podporován.
+TEXT_MSG_OPEN_FIRST                     = Otevřete archiv před zahájením obnovy.
+TEXT_MSG_CANT_OPEN                      = Archiv se nepodařilo otevřít. (Kód:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = Vyberte typy znaků pro obnovu.
+TEXT_MSG_INIT_FAIL                      = Inicializace se nezdařila.
+TEXT_MSG_NOT_FOUND                      = Obnova se nezdařila. Heslo, které má být obnoveno, nesmí u verze Bandizip Standard Edition překročit maximální délku 4 znaky.
+TEXT_MSG_FILE2FINDPWD                   = Výše uvedené soubory budou zpracovány pro obnovu.
+TEXT_MSG_ERRORATFINDINDEX               = Nepodařilo se najít žádný soubor pro obnovení.
+TEXT_MSG_COPY2CLIPBOARD                 = Obnovené heslo bylo zkopírováno do schránky.
+TEXT_STATE_MSG_READY                    = Klepnutím na tlačítko START zahájíte obnovu.
+TEXT_STATE_MSG_WORKING                  = Obnovení hesla...
+TEXT_STATE_MSG_PAUSING                  = Pozastaveno
+TEXT_STATE_MSG_STOPPING                 = Zrušení...
+TEXT_STATE_MSG_FOUND                    = Heslo o délce ${num1} znaků bylo obnoveno za ${str1} sekund. (${str2})
+TEXT_ASK_EXIT                           = Určitě chcete ukončit?
+TEXT_COMBO_THREAD_AUTO                  = Automaticky
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = Nastavení
+IDC_STATIC_MULTI_CORE                   = Použít více vláken CPU
+IDC_STATIC_MULTI_CORE_DESC              = Zadejte počet vláken, která se mají použít pro obnovu.[br]Doporučujeme vybrat možnost "Auto" nebo menší číslo, než je počet jader procesoru instalovaných v systému.
+IDC_STATIC_PREP_POSTP                   = Předpona
+IDC_STATIC_PREP                         = Předpona
+IDC_STATIC_PREP_DESC                    = Přidejte předponu na začátky hesel před jejich zpracováním.[br]Např. http://www.
+IDC_STATIC_SPECIFY                      = Zadat znaky
+IDC_STATIC_ETC                          = Různé
+IDC_CHK_USE_SIGNATURE_BY_EXT            = Použijte příponu souboru pro rychlejší obnovu.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = Otevřít
+$STEP_2                                 = Kontrola
+$STEP_3                                 = Nastavení
+$STEP_4                                 = Obnova
+$STEP_5                                 = Kompletní
+$FILE_PATH_NAME                         = Umístění
+$BTN_NEXT_PAGE                          = Další >
+$BTN_PREV_PAGE                          = < Předchozí
+$BTN_OK                                 = OK
+$BUTTON_BUY_NOW                         = Koupit Bandizip Professional Edition
+$STATIC_OPEN_DESC                       = Kliknutím na tlačítko "Otevřít archiv" můžete procházet a vybrat šifrovaný archiv.<br>Archiv můžete také přetáhnout přímo do tohoto dialogového okna.
+$STATIC_PRICE_DESC1                     = Průvodce pro licenci Bandizip
+$STATIC_PRICE_DESC2                     = Obnovení hesla je k dispozici pouze v edici Bandizip Professional. Heslo, které má být obnoveno, nesmí u verze Bandizip Standard Edition přesáhnout maximální délku 4 znaků.
+$STATIC_FILELIST_DESC                   = V tomto archivu jsou obsaženy následující soubory. Zkontrolujte je a klikněte na tlačítko Další.
+$FILELIST_HEADER_NAME                   = Název
+$FILELIST_HEADER_SIZE                   = Velikost
+$FILELIST_HEADER_DATE                   = Datum změny
+$FILELIST_HEADER_METHOD                 = Metoda komprese
+$FILELIST_HEADER_PWMETHOD               = Metoda šifrování
+$STATIC_SYMBOL_DESC                     = Zadejte typy znaků použitých v očekávaném hesle.<br>Pokud vyberete více nebo všechny typy, bude obnova vyžadovat delší dobu.
+$STATIC_CUR_PASSWORD                    = Zpracování
+$STATIC_CUR_PASSLEN                     = Délka
+$STATIC_ELAPSED                         = Uplynulá doba
+$STATIC_SPEED                           = Rychlost zpracování
+$STATIC_CLIPBOARD_DESC                  = Zkopírujte obnovené heslo do schránky a vložte jej.
+$BUTTON_STOP                            = Zrušit
+$BUTTON_START                           = START
+$IDC_BTN_PAUSE                          = Pozastavení
+$IDC_BTN_UNPAUSE                        = Restart
+$IDC_BTN_OPEN                           = Otevřít
+$IDC_BTN_SETTING                        = Pokročilé
+$IDC_BTN_COPY2CLIPBOARD                 = Kopírovat
+$IDC_BTN_CANCEL_PAYMENT                 = Inicializovat
+$BUTTON_HELP_PAGE                       = Nápověda k odhadovanému času
+$CHECK_SYMBOL_NUM                       = Číslice (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = Malá písmena (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = Velká písmena (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = Speciální znaky (!@#$...)
+$CHECK_SYMBOL_SPACE                     = Mezera
+$CHECK_SYMBOL_ALL                       = Všechny
+$CHECK_SYMBOL_SPECIFIED                 = Zadané znaky
+$FOUNDED_PASSWORD                       = Obnovené heslo je...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Nová složka
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Nová složka
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Otevřít v Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Otestovat archiv
+TEXT_MENU_LAUNCH_CMD                    = &Spustit Příkazový řádek
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Spustit Příkazový řádek (Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Komprimovat &každý soubor/složku
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Komprimovat do "název souboru/složky.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "Kom&primovat do "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Komprimovat do "${str1}" a smazat
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Komprimovat do ${str1} a odeslat ema&ilem...
+TEXT_MENU_ARCHIVE_ZIPX                  = Komprimovat do ${str1}
+TEXT_MENU_ARCHIVE_EXE                   = "Komprimovat do "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = Komprimovat do ${str1}
+TEXT_MENU_ARCHIVE_TGZ                   = Komprimovat do ${str1}
+TEXT_MENU_ARCHIVE_LZH                   = "Komprimovat do "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Komprimovat do "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Komprimovat do "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Komprimovat do "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Komprimovat do "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Komprimovat do "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Komprimovat každý do "NázevSouboru.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Komprimovat každý do "NázevSouboru.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Komprimovat do "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Přidat do archivu (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Komprimovat jako administrátor
+
+TEXT_MENU_EXTRACT_HERE                  = &Rozbalit sem
+TEXT_MENU_EXTRACT_AUTO                  = Rozbalit &automaticky
+TEXT_MENU_EXTRACT_AUTO_EACH             = Rozbalit auto&maticky (každý)
+TEXT_MENU_EXTRACT_SUB                   = Rozbalit každý archiv do vlastní složky
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Rozbalit &do ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Vyberte umístění pro rozbalení...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Rozbalit jako administrátor
+TEXT_MENU_EXTRACT_HERE_DEL              = Rozbalit sem a odstranit
+TEXT_MENU_EXTRACT_AUTO_DEL              = Rozbalit sem (chytře) a odstranit
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Rozbalit vše chytře a odstranit
+TEXT_MENU_EXTRACT_SUB_DEL               = Rozbalit do samostatné složky a odstranit
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Rozbalit &do ${str1}\ a odstranit
+
+TEXT_MENU_PREVIEW                       = Náhled archivu
+TEXT_MENU_PREVIEW_BROKEN                = Tento soubor je v [br] neznámém formátu nebo je poškozen
+TEXT_MENU_PREVIEW_TIMEOUT               = Požadavek vypršel.
+TEXT_MENU_PREVIEW_EMPTY                 = Prázdný archiv
+TEXT_MENU_PREVIEW_ENCRYPTED             = Název souboru je šifrovaný
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Nelze použít funkci pro Náhled archivu. [br][br]Restartujte explorer nebo [br]počítač.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Nelze načíst seznam souborů
+
+TEXT_MENU_OPENING                       = Otevírání...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Aktualizace Bandizip
+TEXT_UPDATER_TEXT1                      = Je dostupná aktualizace pro Bandizip
+TEXT_UPDATER_TEXT_DL                    = Chcete ji nyní stáhnout?
+TEXT_UPDATER_BTN_UPDATE                 = Aktualizovat
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = Zrušit
+TEXT_UPDATER_DOWNLOAD_ERROR             = Neúspěšné stažení.
+TEXT_UPDATER_SETTING_UPDATE             = Nastavení
+TEXT_UPDATER_SETTING_SKIPTHIS           = Přeskočit tuto verzi
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Cílová cesta:
+BTN_SELECT_FOLDER                       = Procházet...
+BTN_EXTRACT                             = Spustit
+BTN_CLOSE                               = Zavřít
+BTN_CANCEL                              = Zrušit
+BTN_OPEN_FOLDER                         = Otevřít
+CHK_OVERWRITE                           = Přepsat
+ERR_ERROR_OCCURRED                      = Nastala chyba
+ERR_INVALID_PASSWORD                    = Neplatné heslo
+ASK_OVERWRITE                           = Stejný soubor již existuje. Chcete jej přepsat?
+MSG_COMPLETED                           = Rozbalení bylo úspěšné!
+IDD_PASSWORD                            = Zadejte heslo
+IDC_STATIC_PASSWORD_MSG                 = Soubor je zašifrován.
+IDC_BTN_SHOW_PASSWORD                   = Zobrazit heslo
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Nelze rozbalit soubor.
+TEXT_ERR_CRC                            = CRC chyba.
+TEXT_ERR_INVALID_PASSWD                 = Neplatné heslo.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Nainstalovat ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = Odinstalovat ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Pro odinstalování programu klikněte na tlačítko Odinstalovat.
+
+$BTN_CLOSE                              = Zavřít
+$BTN_CANCEL                             = Zrušit
+$BTN_INSTALL                            = Souhlasím a instalovat
+$BTN_UNINSTALL                          = Odinstalovat
+$BTN_OPEN_LICENSE                       = [Zobrazit licenční ujednání]
+$BTN_HELP_LINK                          = [Nápověda]
+
+$TEXT_PATH                              = Cílová složka
+$TEXT_INSTALL_STATIC                    = Probíhá instalace...
+$TEXT_INST_COMPLETED                    = Instalace dokončena
+$TEXT_INST_FAILED                       = Instalace se nezdařila
+$TEXT_UNINSTALLING                      = Odinstalovávání...
+
+$CHK_AUTO_REPORT                        = Automaticky odesílat statistické informace o používání a pádech programu.
+$EMAIL                                  = E-mailová adresa
+$PRODUCT_KEY                            = Klíč k produktu
+
+ERR_CANT_CREATE_FOLDER                  = Nepodařilo se vytvořit složku: ${str1}
+ERR_CANT_OPEN_FILE                      = Nepodařilo se otevřít soubor: ${str1}
+ERR_CANT_WRITE_FILE                     = Nepodařilo se zapsat do souboru: ${str1}
+ERR_BROKEN_ARCHIVE                      = Tento archiv je poškozený: ${str1}
+ERR_CRC_ERROR                           = CRC chyba: ${str1}
+ERR_NOT_ENOUGH_MEM                      = Nedostatek paměti: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = Během otevírání souboru z důvodu zápisu nastala chyba: "${str1}"[br]Pro ukončení instalace klikněte na tlačítko Přerušit, zkuste to znovu pomocí tlačítka Opakovat nebo tento soubor přeskočte a klikněte na tlačítko Ignorovat.
+MSG_SUCCESS                             = Instalace byla dokončena
+MSG_DLL_REGISTERING                     = Registrace rozšíření shellu Exploreru...
+MSG_DLL_UNREGISTERING                   = Zrušení registrace rozšíření Explorer shell...
+MSG_ERROR                               = Nastala chyba
+MSG_ERROR_REGISTER                      = Chyba registrace
+MSG_SELECT_FOLDER                       = Vyberte složku.
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip stále běží. Nejprve jej ukončete.
+MSG_XP_IS_NOT_SUPPORTED                 = Tato aplikace bude správně fungovat pouze na Windows Vista a novějším.
+MSG_NEED_ADMIN_PRIVILEGE                = Tuto aplikaci může nainstalovat pouze uživatel s administrátorským oprávněním.[br][br]Bez tohoto oprávnění se instalace aplikace nezdaří.[br][br]Chcete přerušit instalaci
+MSG_NEWVERSION_FOUND                    = V současné době je k dispozici nová verze. Chcete si ji stáhnout nyní?
+SHORTCUT_LINK_DESCRIPTOIN               = Spustit ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = Tento instalační soubor nepodporuje 32bitový (x86) operační systém. Stáhněte si prosím nový instalační soubor na webových stránkách.
+MSG_ERR_ARM_NOTSUPPORT                  = Tento instalační soubor nepodporuje procesor ARM64. Stáhněte si prosím nový instalační soubor z webových stránek.
+ERR_INST_FAILED                         = Instalace se nezdařila. Restartujte prosím počítač a zkuste to znovu.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = Kontrola verze se nezdařila. Stáhněte si prosím offline instalační soubor.
+TEXT_VERSION_CHECKING                   = Kontrola verze...
+TEXT_DOWNLOAD_FAILED                    = Stažení se nezdařilo. Stáhněte si prosím offline instalační soubor.
+TEXT_DOWNLOAD_COMPLETED                 = Stažení dokončeno
+TEXT_HOMEPAGE                           = [Otevřít webovou stránku]
+TEXT_XP                                 = Podpora systému Windows XP byla ukončena.
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = Vyberte tlačítka na panelu nástrojů
+
+

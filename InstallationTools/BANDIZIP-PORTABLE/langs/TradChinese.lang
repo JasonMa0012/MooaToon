@@ -1,0 +1,1195 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = 中文(繁體)
+TRANSLATORS                             = GT Wang (mkvq.blogspot.com)[br]Hulen(破滅刃) (shift0106hulen.com)[br]Gaz (mu2uu4@gmail.com)[br]章汭 (ilovecuteruirui@gmail.com)[br]min (min918422@gmail.com)[br]Bosco Fong[br]SiderealArt (hi@siderealart.me)[br]Changhui Hu (Harren) (me@nicehch.com)[br]LiZerui（李澤瑞）（szsd5257@foxmail.com）[br]浅兮（QianXi.life@outlook.com）
+DLG_FONT_NAME                           = Segoe UI
+DLG_FONT_SIZE                           = 9
+
+
+[TEXT]
+TEXT_BUILDNO                            = 版本號
+TEXT_FILE                               = 檔案
+TEXT_FOLDER                             = 資料夾
+TEXT_ARCHIVE_SIZE                       = 壓縮檔大小
+TEXT_ORIGINAL_SIZE                      = 原始大小
+TEXT_ARCHIVE_FORMAT                     = 壓縮檔類型
+TEXT_COMPRESSED_SIZE                    = 壓縮後大小
+TEXT_SOLID                              = 結實壓縮
+TEXT_BETA                               = 測試版本
+TEXT_ASSOC                              = 壓縮 (${str1}) 檔案
+TEXT_PORTABLE                           = 便攜版本
+TEXT_NEW_FOLDER                         = 新增資料夾
+TEXT_FILESIZE_UNKNOWN                   = 未知檔案大小
+TEXT_FILEDATE_UNKNOWN                   = 未知檔案日期
+TEXT_HELP_LINK                          = [說明]
+TEXT_APP_DESC                           = Bandizip 是一個輕量、快速、且免費的多功能壓縮文件管理器。可以處理Zip、7z、Rar...等壓縮格式。
+
+TEXT_MESSAGEBOX_OK                      = 確定
+TEXT_MESSAGEBOX_CANCEL                  = 取消
+TEXT_MESSAGEBOX_ABORT                   = 中止
+TEXT_MESSAGEBOX_RETRY                   = 重試
+TEXT_MESSAGEBOX_IGNORE                  = 忽略
+TEXT_MESSAGEBOX_YES                     = 是
+TEXT_MESSAGEBOX_NO                      = 否
+TEXT_MESSAGEBOX_CONTINUE                = 繼續
+TEXT_MESSAGEBOX_HELP                    = 說明
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = 不再顯示此訊息
+
+TEXT_COLUMN_NAME                        = 名稱
+TEXT_COLUMN_COMPSIZE                    = 壓縮後大小
+TEXT_COLUMN_ORIGSIZE                    = 原始大小
+TEXT_COLUMN_KIND                        = 類型
+TEXT_COLUMN_DATE_MOD                    = 修改日期
+TEXT_COLUMN_COMPMETHOD                  = 壓縮方式
+TEXT_COLUMN_ENCRMETHOD                  = 加密演算法
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = 屬性
+TEXT_COLUMN_COMMENT                     = 註解
+TEXT_COLUMN_EXT                         = 附加資訊
+TEXT_COLUMN_PATHNAME                    = 路徑
+
+TEXT_ICONPACK_NAME                      = 名稱
+TEXT_ICONPACK_DESIGNER                  = 設計者
+TEXT_ICONPACK_COPYRIGHT                 = 版權資訊
+
+TEXT_ARCHIVE_COLUMN_NAME                = 名稱
+TEXT_ARCHIVE_COLUMN_FILESIZE            = 大小
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = 資料夾路徑
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = 總大小
+
+TEXT_SELECT_ARCHIVE_FILE                = 選擇檔案
+TEXT_SELECT_TEXT_FILE                   = 選擇檔案
+TEXT_SELECT_DEST_FOLDER                 = 選擇目的資料夾
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = 壓縮檔案
+TEXT_REGISTRY_FILE                      = 登錄檔案
+
+TEXT_OPENDLG_ARCHIVEFILES               = 壓縮檔案
+TEXT_OPENDLG_ARCHIVEFILE                = 壓縮檔案
+TEXT_OPENDLG_ALLFILES                   = 所有檔案
+TEXT_OPENDLG_EXEFILES                   = 可執行檔案
+
+TEXT_ABOUTBOX_TAB1                      = 關於 Bandizip
+
+TEXT_ASSOC_GROUP0                       = 壓縮檔
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = 其他
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = 若要開啟此檔案，請下載最新版的 Bandizip。
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = 請選擇壓縮檔的第一分割檔。
+TEXT_OPENERR_CANT_OPEN_FILE             = 無法開啟 (${str1}) 檔案
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = 無法開啟 (${str1}) 檔案，因為該檔案正在被另一個程序使用。
+TEXT_OPENERR_GENERAL                    = 無法開啟 (${str1}) 檔案 (錯誤代碼：${xnum1})
+TEXT_OPENERR_USER_ABORT                 = 已取消
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = (${str1}) 為未知檔案格式
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = 「${str1}」不是壓縮檔。
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = 不支援 (${str1}) 檔案格式
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = 不支援 (${str1}) 加密算法
+TEXT_OPENERR_PASSWORD_NOT_SET           = 請輸入密碼
+TEXT_OPENERR_INVALID_PASSWORD           = 密碼錯誤。
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = 無法開啟該檔案，因為該檔案的檔頭已經被破壞。
+
+TEXT_ERR_INIT_FAILED                    = 初始化錯誤。
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = 密碼不正確，或是在壓縮檔中沒有任何檔案。
+TEXT_ERR_PASSOWRD_NOT_MATCH             = 密碼不相符。
+TEXT_ERR_PASSWORD_NOT_SET               = 請輸入密碼。
+TEXT_ERR_INVALID_PASSWORD_CHAR          = 您使用了無效的字串。請使用字母/數字或符號文字。
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = 錯誤的分割檔大小。
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (自解檔) 檔案的大小限制為 4 GB。
+TEXT_ERR_INTERNAL_ERROR                 = 內部錯誤
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = 無法修改壓縮檔。
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = 修改壓縮檔時發生錯誤。
+TEXT_ERR_INVALID_FOLDER_PATH            = 無效的資料夾路徑
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = 僅可編輯 ZIP 壓縮檔。
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = 無法編輯分割檔案。
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = 無法編輯自解檔 (*.exe)。
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = 無法編輯損壞的檔案。
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = 無法編輯檔案名稱/副檔名。
+TEXT_ERR_CANT_CHANGE_FILENAME           = 無法修改檔案名稱。
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "檔案名稱無法使用以下字元 [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = 無法編輯 (${str1}) 檔案名稱，因為存在相同名稱的檔案或資料夾
+TEXT_ERR_CANT_CREATE_FOLDER             = 無法建立資料夾。
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = 沒有檔案要壓縮
+TEXT_ERR_INVALID_PARAM                  = 參數無效。
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = 無法新增該檔案到壓縮檔中。[br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = 無法開啟壓縮檔 [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = 已存在相同資料夾。
+TEXT_ERR_FILENAME_EMPTY                 = 檔案名稱無效。
+TEXT_ERR_AT_DRAGANDDROP                 = 拖曳操作失敗。
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = 拖曳失敗。[br]Bandizip 關閉了「快速拖曳」功能，請再試一次。
+TEXT_ERR_AT_CANT_OPEN_MMF               = 無法開啟 MMF (mmf：${str1})
+TEXT_ERR_NO_FILES_SELECTED              = 未選擇檔案
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = 安裝圖示包時無法建立資料夾。
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = 安裝圖示包時無法建立檔案。
+TEXT_ERR_AT_EXECUTE_DIRECT              = 無法開啟此檔案。解壓縮檔並再試一次。
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 無法建立大於 4 GB 的檔案。[br]請選擇一個不同的檔案格式 (ZIP 或 7Z)。
+TEXT_ERR_CANT_SAVE_AS                   = 無法儲存此檔案。
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip 在編輯檔案時遇到問題。(${str1})[br][br]您確定要將錯誤報告傳送給 Bandisoft 嗎？[br][br]傳送這份報告有助於 Bandisoft 改進 Bandizip。
+
+TEXT_MSG_TEST_OK                        = 測試操作期間未發現錯誤。
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = 解壓縮錯誤[br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = 已完成解壓縮。
+TEXT_MSG_EXTRACT_CANCELED               = 已取消解壓縮。
+TEXT_MSG_COMPRESS_SUCCESS               = 壓縮已完成。
+TEXT_MSG_INTERNAL_ERROR                 = 內部錯誤。
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = 無法在臨時資料夾中開啟以下檔案：[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = 無法刪除壓縮檔。
+TEXT_MSG_CRASH_REPORT                   = 程序發生嚴重錯誤。以致關閉程序。
+TEXT_MSG_CRASH_REPORT2                  = 程序遇到問題，即將退出程序。您要傳送崩潰報告給 Bandizip 開發人員嗎？
+TEXT_MSG_CRASH_REPORT3                  = 以下DLL引起了問題，需要關閉。[br]您是否要向 Bandizip 開發人員發送崩潰報告？
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip 程序無回應。[br][br]您要傳送崩潰報告給 Bandizip 開發人員並關閉程序嗎？
+TEXT_MSG_SET_TEMP_PATH                  = 設定暫存路徑
+TEXT_MSG_SET_PATH                       = 設定路徑
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = 成功安裝圖示包。
+TEXT_MSG_NOTICE_RESTART                 = 程序將重新啟動。
+TEXT_MSG_ARCHVIE_OPENING                = 正在開啟壓縮檔案。
+TEXT_MSG_COMPLETING                     = 完成度：${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = 無法建立資料夾。[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = 無法在 .GZ/XZ 壓縮檔中建立資料夾。
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = 不能壓縮多個檔案合併為 .GZ/XZ 壓縮檔。請勾選「壓縮到每個檔案/資料夾」選項。
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip 已最小化到系統匣。按一下系統匣圖示進行復原。
+TEXT_MSG_TRAY_COMPLETED                 = 操作完成。
+TEXT_MSG_BATCH_ARCHVING                 = 正在壓縮：${str1}
+TEXT_MSG_BATCH_EXTRACTING               = 正在解壓縮：${str1}
+TEXT_MSG_BATCH_TESTING                  = - 正在測試：${str1}
+TEXT_MSG_BATCH_DELETING                 = - 正在刪除：${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - 刪除失敗：${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = 仍在開發中...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = 如果字元顯示不正確 (亂碼)，請按一下上面的<font color=red><b>字碼頁</b></font>，然後嘗試<font color=red><b>自動偵測</b></font>選單。
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = 您想用Bandizip打開${ext}文件嗎？
+
+TEXT_ASK_DELETE_ARCHIVE                 = 原始檔案將被刪除。[br]您確定要刪除此檔案嗎？
+TEXT_ASK_DELETE_CUR_ARCHIVE             = 您確定要刪除目前檔案嗎？
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = 您確定要永久刪除目前檔案嗎？
+TEXT_ASK_CHANGE_FILENAME                = 已存在相同名稱的檔案。[br][br]您要將檔案名稱由 ${str1} 變更為 ${str2} 嗎？
+TEXT_ASK_DELETE_FILE                    = 您確定要刪除所選檔案嗎？
+TEXT_ASK_STOP_EXTRACT                   = 您確定要停止解壓縮嗎？
+TEXT_ASK_OVERWRITE_ARCHIVE              = 已存在相同名稱的檔案。[br][br]您確定要進行覆蓋嗎？
+TEXT_ASK_INIT_SETTING                   = 您確定要將設定復原為預設值嗎？Bandizip 將會重新啟動。
+TEXT_ASK_STOP_ARCHIVING                 = 您確定要停止壓縮嗎？
+TEXT_ASK_STOP_MODIFYING                 = 您確定要停止該操作嗎？
+TEXT_ASK_APPLY_MODIFIED_FILE            = 您確定要套用變更的檔案至壓縮檔中嗎？[br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = 您確定要安裝 (${str1}) 的圖示包嗎？
+TEXT_ASK_MAKE_FOLDER                    = 資料夾不存在。您確定要新建資料夾嗎？[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = 目的資料夾沒有寫入權限。[br][br]- ${str1}[br][br]您確定要繼續操作嗎？
+TEXT_ASK_CONT_NOFREESPACE               = 目的資料夾沒有足夠的空間。請變更目的資料夾。[br][br]- ${str1}[br][br]您確定要繼續操作嗎？
+TEXT_ASK_ASK_UAC_ELEVATION              = 您沒有權限變更這些檔案。[br][br]您確定要以管理員身份重新啟動程序嗎？
+TEXT_ASK_OPENERR_FIRST_VOLUME           = 無法開啟該壓縮檔。[br][br]您確定要開啟分割檔的第一部分嗎 (${str1})？
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = 如果您在壓縮後刪除原始檔案，您可能會在壓縮檔損壞時遺失重要檔案。[br][br]您確定要勾選「測試壓縮檔」選項嗎？
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = 解壓縮檔案縮缺少足夠的磁碟空間，是否繼續操作？[br][br]目的資料夾：${str1}[br]可用磁碟空間：${str2}[br]解壓縮後檔案大小：${str3}
+
+TEXT_WARN_BROKEN_FILE                   = 檔案已損壞
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = 該檔案已損壞或者需要另一個壓縮分割檔
+
+TEXT_BTN_PAUSE                          = 暫停
+TEXT_BTN_RESUME                         = 繼續
+
+TEXT_ERRDLG_ERROR_OCCURRED              = 發生錯誤
+TEXT_ERRDLG_USER_ABORT                  = 中斷操作
+
+TEXT_ARKERR_CANT_OPEN_FILE              = 無法開啟此檔案
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = 無法開啟該檔案，因為該檔案正在被另一個程序使用
+TEXT_ARKERR_PASSWORD_NOT_SET            = 需要輸入密碼
+TEXT_ARKERR_INVALID_PASSWD              = 無效的密碼
+TEXT_ARKERR_USER_ABORTED                = 中斷操作
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC 錯誤
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = 無法開啟此檔案
+TEXT_ARKERR_CANT_READ_DATA              = 無法讀取壓縮檔資料
+TEXT_ARKERR_INFLATE_FAILED              = 資料錯誤 - 此檔案已損壞
+TEXT_ARKERR_BZIP2_ERROR                 = 資料錯誤 - 此檔案已損壞
+TEXT_ARKERR_DATA_CORRUPTED              = 此檔案已損壞或需要其他部分的分割檔
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = 無法開啟此檔案
+TEXT_ARKERR_CANT_CREATE_FOLDER          = 無法建立資料夾
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = 不支援的壓縮方法
+TEXT_ARKERR_WRITE_FAIL                  = 寫入時發生一個錯誤
+TEXT_ARKERR_DISK_FULL                   = 磁碟空間不足
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = 檔案路徑與檔案名稱不得超過 260 字元。
+TEXT_ARKERR_CANT_CREATE_FILE            = 無法建立檔案
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = 無法建立檔案。請用管理員身分再執行一次。
+TEXT_ARKERR_USER_SKIP                   = 已略過
+TEXT_ARKERR_FILE_TRUNCATED              = 該檔案尾端已損壞或遺失
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = 密碼錯誤或壓縮檔已損毀
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = 檔案已損毀
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = 自解檔案 (*.exe) 大小超過 4 GB。您無法在 Windows 中執行大於 4 GB 的檔案。
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = 無法開啟此壓縮檔。需要以下壓縮分割檔 (.z01, .z02...)。
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = 無法開啟該 ZIP 檔案。需要以下壓縮分割檔 (.z01, .z02...)。
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = 無法開啟此壓縮檔。需要其他壓縮分割檔。
+TEXT_ARKERR_CORRUPTED_FILE              = 檔案已損毀
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = 沒有寫入該資料夾的權限
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = 沒有寫入該資料夾的權限。請用管理員身分再執行一次。
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = 不支援該加密演算法
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = 記憶體不足
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = 記憶體不足，請調整壓縮等級。
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = 不支援此操作
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = 解壓縮的檔案大小和壓縮檔的標頭資訊不同。
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = 無法建立大於 4 GB 的檔案。選擇一個不同的檔案格式 (ZIP 或 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = 已自動縮短長檔名。
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = 無法開啟要複製的原始檔案。
+TEXT_ARKERR_NOTIMPL                     = 未實現。
+TEXT_ARKERR_CANT_READ_FILE              = 無法讀取檔案。
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = 以管理員身份執行 Bandizip 並建立符號連結。
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = 無法建立符號連結。
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = 該檔案是可寫入的，但被另一個處理程序使用。
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = 沒有需要壓縮的文件。
+
+TEXT_SPLITCOMBO_NOSPLIT                 = 不分割
+TEXT_SPLITCOMBO_3MB                     = 3 MB
+TEXT_SPLITCOMBO_4MB                     = 4 MB
+TEXT_SPLITCOMBO_5MB                     = 5 MB
+TEXT_SPLITCOMBO_10MB                    = 10 MB
+TEXT_SPLITCOMBO_20MB                    = 20 MB
+TEXT_SPLITCOMBO_GMAIL                   = 25 MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100 MB
+TEXT_SPLITCOMBO_300MB                   = 300 MB
+TEXT_SPLITCOMBO_CD650                   = 650 MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700 MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4 GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7 GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = 使用者自訂
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-僅儲存
+TEXT_COMPRESSIONMETHOD_FAST             = 1-快速壓縮
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-正常壓縮
+TEXT_COMPRESSIONMETHOD_MAX              = 3-極致壓縮
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = 新增壓縮檔
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = 新增檔案至壓縮檔中
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = 重新命名(&R)：${str1}
+TEXT_TITLE_TEST_MODE                    = 測試壓縮檔
+TEXT_TITLE_TEMPFOLDER_MODE              = 解壓縮到暫存資料夾...
+TEXT_TITLE_MODIFYING                    = 修改中...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = 等待解壓縮的檔案
+TEXT_MSG_SELECTED_FILE                  = 已選擇 ${num1} 個檔案
+TEXT_MSG_SELECTED_FOLDER                = 已選擇 ${num1} 個資料夾
+TEXT_MSG_SELECTED_FILEFOLDER            = 已選擇 ${num1} 個檔案，${num2} 個資料夾
+TEXT_MSG_SELECTED_FILESIZESUM           = 已選擇檔案大小和數量：${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = 檢查版本失敗
+TEXT_UPDATE_VERSION_CHECKING            = 版本檢查中...
+TEXT_UPDATE_DOWNLOAD_FAILED             = 下載失敗
+TEXT_UPDATE_LATEST_VERSION              = 目前是最新版本
+TEXT_UPDATE_DO_DOWNLOAD                 = 有新版本提供下載
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = 下載完成
+
+TEXT_INSTALL_HONEYVIEW                  = 安裝 Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview 沒有安裝在您的電腦上。
+TEXT_INSTALL_HONEYVIEW_2                = 請嘗試由 Bandisoft 開發的 Honeyview。 <br>您可以直接檢視以 ZIP、RAR 或 7z 格式壓縮的圖片而無需解壓縮。
+
+TEXT_REGISTRATION_FAILED                = 註冊失敗。[br]請檢查您的電子郵件地址和產品金鑰。
+TEXT_REGISTRATION_SUCCEED               = 您的 Bandizip 已註冊。
+TEXT_REGISTRATION_ASK                   = 您確定要取消註冊 Bandizip？
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip 尚未註冊。[br]請購買並對其進行註冊，以享受沒有任何功能限制的 Bandizip。
+TEXT_REGISTER_INFO                      = Bandizip 的使用權授予：[br]電子郵件地址: ${str1}[br]產品金鑰: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = 掃描壓縮檔中的惡意軟體
+TEXT_SCAN_AMSI_PROVIDER                 = AMSI 初始化成功
+TEXT_SCAN_COMPLETED                     = 惡意軟體掃描完成。
+TEXT_SCAN_MALWARE_DETECTED              = 偵測到惡意軟體。
+TEXT_SCAN_MALWARE_NOTDETECTED           = 未偵測到惡意軟體。
+TEXT_SCAN_MALWARE_TOOBIG                = 掃描失敗。該檔案太大。
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = 已在壓縮檔中偵測到惡意軟體。
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= 在壓縮檔中偵測到惡意軟體。已取消解壓縮。
+TEXT_MSG_MALWARE_TEST_OK                = 未在壓縮檔中偵測到惡意軟體。
+TEXT_MSG_AMSI_INIT_FAILED               = 用於掃描的 AMSI 初始化失敗。有關詳細資訊，請瀏覽 https://go.bandisoft.com/amsi
+TEXT_MSG_AMSI_WIN10_NOTICE              = 反惡意軟體掃瞄僅在 Windows 10/11 提供服務。詳情請存取 https://go.bandisoft.com/amsi
+
+[MENU]
+MENUSTR_FILE                            = 檔案(&F)
+MENUSTR_EDIT                            = 編輯(&E)
+MENUSTR_SETTING                         = 選項(&O)
+MENUSTR_FIND                            = 尋找(&I)
+MENUSTR_VIEW                            = 檢視(&V)
+MENUSTR_TOOLS                           = 工具(&T)
+MENUSTR_HELP                            = 說明(&H)
+
+MENUSTR_OPEN                            = 開啟壓縮檔(&O)\tCtrl+O
+MENUSTR_RECENT                          = 最近使用的檔案
+MENUSTR_CLOSE_FILE                      = 關閉壓縮檔(&C)\tF4
+MENUSTR_CREATE_ARCHIVE                  = 新增壓縮檔(&N)\tCtrl+N
+MENUSTR_NEW_WINDOW                      = 新視窗 \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = 新視窗 (Administrator)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = 另存為
+MENUSTR_DELETE_ARCHIVE                  = 刪除壓縮檔 \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = 永久刪除壓縮檔 \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = 開啟壓縮檔所在位置
+MENUSTR_TEST_ARCHIVE                    = 測試壓縮檔(&T)\tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = 掃描壓縮檔中的惡意軟體\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = 解壓縮檔案(&E)\tCtrl+E
+MENUSTR_EXIT                            = 結束(&X)\tCtrl+W
+
+MENUSTR_RENAME_FILE                     = 重新命名(&R)\tF2
+MENUSTR_ADD_FILE                        = 新增檔案(&A)\tIns
+MENUSTR_DELETE_FILE                     = 刪除檔案(&D)\tDel
+MENUSTR_EDIT_COMMENT                    = 壓縮檔註釋
+MENUSTR_SETTING_SUB                     = 設定(&S)\t(F5)
+MENUSTR_REGISTER                        = 註冊 Bandizip
+MENUSTR_UNREGISTER                      = 取消註冊 Bandizip
+MENUSTR_PASSMAN                         = 密碼管理器...
+MENUSTR_FIND_ITEM                       = 尋找檔案(&I)\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = 將檔案複製到剪貼簿\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = 從剪貼簿貼上檔案\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = 複製文件完整路徑
+
+MENUSTR_VIEW_STARTSCREEN                = 開始畫面 \tF6
+MENUSTR_VIEW_TREECONTROL                = 樹形目錄 \tF7
+MENUSTR_VIEW_COMMENT                    = 壓縮檔註釋\tF8
+MENUSTR_VIEW_PREVIEW                    = 預覽影像
+MENUSTR_VIEW_STATUS_BAR                 = 狀態列
+MENUSTR_VIEW_TOOLBAR                    = 工具列
+MENUSTR_VIEW_TOOLBAR_NORMAL             = 大
+MENUSTR_VIEW_TOOLBAR_MINI               = 小
+MENUSTR_VIEW_TOOLBAR_OLD                = 舊樣式
+MENUSTR_VIEW_TOOLBAR_HIDE               = 隱藏
+MENUSTR_SET_TOOLBAR_ITEM                = 工具列按鈕設定
+MENUSTR_VIEW_LISTVIEW                   = 檢視樣式 (File List)
+MENUSTR_VIEW_LISTVIEW_ICON              = 圖示
+MENUSTR_VIEW_LISTVIEW_LIST              = 清單
+MENUSTR_VIEW_LISTVIEW_REPORT            = 詳細資料
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = 大圖示
+MENUSTR_VIEW_COLUMN                     = 欄位
+MENUSTR_VIEW_ALWAYS_ON_TOP              = 最上層顯示
+MENUSTR_VIEW_COLOR_SETTING              = 色彩設定...
+
+MENUSTR_TOOLS_REPAIR                    = 修復壓縮檔...
+MENUSTR_TOOLS_RECOVERY                  = 密碼復原...
+
+MENUSTR_ABOUT                           = 關於 Bandizip(&A)\tF1
+MENUSTR_HELPPAGE                        = 前往說明網頁(&G)
+MENUSTR_OPEN_FOLDER                     = 開啟 Bandizip 資料夾(&O)
+MENUSTR_FORUM                           = 前往 Bandizip 論壇(&F)
+MENUSTR_HOMEPAGE                        = 前往官方網頁(&W)
+
+POPUPMENU_VIEWITEM_COMPSIZE             = 壓縮後大小
+POPUPMENU_VIEWITEM_ORIGSIZE             = 原始大小
+POPUPMENU_VIEWITEM_KIND                 = 檔案類型
+POPUPMENU_VIEWITEM_DATE_MOD             = 修改日期
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = 壓縮方式
+POPUPMENU_VIEWITEM_ENCRMETHOD           = 加密演算法
+POPUPMENU_VIEWITEM_CRC                  = CRC 校驗
+POPUPMENU_VIEWITEM_ATTRIB               = 檔案內容
+POPUPMENU_VIEWITEM_COMMENT              = 檔案註解
+POPUPMENU_VIEWITEM_EXT                  = 附加資訊
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = 全部解壓縮... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = 解壓縮選取的檔案...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = 全部解壓縮到這裡
+
+POPUPMENU_LISTCONTROL_EXECUTE           = 開啟\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = 使用關聯程序開啟
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = 編輯\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = 用 Bandizip 開啟(&B)
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = 新增資料夾
+POPUPMENU_LISTCONTROL_ADD_FILE          = 新增檔案... \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = 刪除檔案 \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = 重新命名檔案
+POPUPMENU_LISTCONTROL_SELECT_ALL        = 全選 \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = 移至上層目錄\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = 刪除壓縮檔
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = 開啟壓縮檔路徑
+
+POPUPMENU_EXTRACT_AUTODEST              = 自動解壓縮至此\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = 解壓縮到目前資料夾\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = 解壓縮到「壓縮檔檔名」資料夾
+POPUPMENU_EXTRACT_DESKTOP               = 解壓縮到桌面
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = 自動解壓縮到桌面
+
+POPUPMENU_RECENT_CLEAR                  = 清除歷史記錄
+POPUPMENU_RECENT_NOITEM                 = 沒有最近使用的檔案
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = 用 Bandizip 開啟
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = 自動解壓縮至此
+
+POPUPMENU_CODEPAGE_DEFAULT              = 預設
+POPUPMENU_CODEPAGE_SIMPCHINESE          = 簡體中文
+POPUPMENU_CODEPAGE_TRADCHINESE          = 繁體中文
+POPUPMENU_CODEPAGE_JAPANESE             = 日文
+POPUPMENU_CODEPAGE_KOREAN               = 韓文
+POPUPMENU_CODEPAGE_WINDOWS1252          = 西歐語系
+POPUPMENU_CODEPAGE_WINDOWS1250          = 中歐語系
+POPUPMENU_CODEPAGE_WINDOWS1251          = 斯拉夫文
+POPUPMENU_CODEPAGE_WINDOWS1254          = 土耳其文
+POPUPMENU_CODEPAGE_WINDOWS737           = 希臘文
+POPUPMENU_CODEPAGE_ARABIC               = 阿拉伯文
+POPUPMENU_CODEPAGE_HEBREW               = 希伯來文
+POPUPMENU_CODEPAGE_BALTIC               = 波羅的海語系
+POPUPMENU_CODEPAGE_THAI                 = 泰文
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = 自動偵測
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = 用 Honeyview 檢視
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = 用關聯程序檢視
+
+DLG_MENUSTR_MINIMIZE2TRAY               = 最小化至系統匣
+DLG_MENUSTR_LOW_PRIORITY                = 低優先順序
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = 解壓縮後刪除原始檔案
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = 確定
+IDCANCEL                                = 取消
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = 關於 Bandizip
+IDC_BTN_HOMEPAGE                        = 首頁
+IDC_BTN_UPDATE                          = 更新
+IDC_BTN_REGIST                          = 立即註冊
+IDC_BTN_BUY                             = 立即購買
+IDC_BTN_LEARNMORE                       = 了解詳情...
+IDC_STATIC_LICENSE                      = Bandizip 註冊資訊
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = 開啟檔案
+IDC_STATIC_OPENING                      = 開啟中
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = 選擇解壓縮路徑
+IDC_STATIC_FOLDER                       = 目的路徑(&D)
+IDC_STATIC_FILES2EXTRACT                = 解壓縮：
+IDC_RADIO_FILES2EXTRACT_0               = 全部檔案(&A)
+IDC_RADIO_FILES2EXTRACT_1               = 選取的檔案(&S)
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = 解壓縮到選取資料夾下的「壓縮檔檔名」資料夾(&E)
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = 解壓縮後刪除原始檔案
+IDC_CHK_REMEMBER_SETTINGS               = 記住設定
+IDC_BTN_NEWFOLDER                       = 新增資料夾(&N)
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = 已解壓縮
+IDC_BTN_STOP                            = 停止
+IDC_BTN_CLOSE                           = 關閉
+IDC_BTN_PAUSE                           = 暫停
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = 新增壓縮檔
+IDC_STATIC_FILE_LIST                    = 新增檔案至壓縮檔
+IDC_STATIC_ARCHIVE_SETTING              = 壓縮設定
+IDC_STATIC_ARCHIVE_NAME                 = 檔案名稱
+IDC_STATIC_SET_DEST_FOLDER              = 目的資料夾
+IDC_STATIC_ARCHIVE_TYPE                 = 儲存類型
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = 檔案分割數
+IDC_STATIC_COMPRESSION_METHOD           = 壓縮等級
+IDC_STATIC_HELP_SPLIT                   = [說明]
+IDC_STATIC_HELP_7Z                      = [7Z 格式]
+IDC_BTN_SELECT_ARCHIVE_NAME             = 瀏覽(&B)...
+IDC_BTN_SET_PASSWORD                    = 設定密碼(&P)...
+IDC_BTN_TEST_ARCHIVE                    = 測試壓縮檔(&T)
+IDC_BTN_DELETE_SRC                      = 壓縮後刪除原始檔案
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = 個別壓縮為檔案/資料夾名稱
+IDC_BTN_SET_DEST_FOLDER                 = 變更目的資料夾
+IDC_BTN_TOGGLE_ADVANCED                 = 更多選項...
+IDC_BTN_SET_SFX                         = 自解模組設定...
+IDC_BTN_ADD                             = 新增(&A)...
+IDC_BTN_DEL                             = 刪除(&D)
+IDC_BTN_START                           = 開始(&S)
+IDC_BTN_COMP_ADVANCED                   = 進階選項
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = ZIP/ZIPX 壓縮設定
+IDC_AA_ZIP_ALGO                         = 壓縮方法
+IDC_AA_ZIP_ENC                          = 加密方法
+IDC_AA_ZIP_THREAD                       = CPU 執行緒數
+COMBO_TEXT_THREAD_AUTO                  = 自動
+IDC_CHK_ZIP_STORESYMLINK                = 儲存符號連結
+IDC_CHK_ZIP_COMMENT                     = 儲存留言
+IDD_AA_7Z                               = 7Z 壓縮設定
+IDC_AA_7Z_ALGO                          = 壓縮方法
+IDC_AA_7Z_SOLID                         = 固定資料大小
+IDC_CHK_7Z_ENC_FILENAMES                = 加密檔案名稱
+IDD_AA_TAR                              = TAR 壓縮設定
+IDC_CHK_TAR_SYMLINK                     = 儲存符號連結
+IDC_CHK_TAR_HARDLINK                    = 儲存硬連結
+COMBO_TEXT_SOLID_NONE                   = 非固定
+COMBO_TEXT_SOLID_SOLID                  = 固定
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = 輸入密碼
+IDC_STATIC_DESC_ARCHIVING               = 請輸入壓縮檔的密碼。建議使用至少 8 個字元的密碼，以提供更好的安全性。
+IDC_STATIC_DESC_MASTERPASS              = 請輸入密碼管理器的主密碼。建議使用至少 8 個字元的密碼，以提供更好的安全性。
+IDC_STATIC_DESC_EXTRACT                 = 請輸入加密檔案的密碼。
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = 密碼錯誤。請重新輸入密碼。
+IDC_STATIC_PWD                          = 輸入密碼
+IDC_STATIC_PWD2                         = 重新輸入密碼
+IDC_BTN_SHOW_PASSWORD                   = 顯示密碼
+IDC_BTN_PASSMAN                         = 密碼管理器...
+IDC_CHECK_APPLY_ALL                     = 全部套用(&A)
+IDC_STATIC_PASS_RECOVERY                = 忘記密碼？嘗試使用 Bandizip 密碼復原。
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = 密碼管理器
+TEXT_MSG_CORRUTP_DATA                   = 儲存的密碼資料已損壞。
+TEXT_PASSMAN_WARNING1                   = 除非設定了主密碼，否則密碼管理器中儲存的密碼不會加密。
+TEXT_PASSMAN_WARNING2                   = 如果您在公共或共用電腦上使用此功能，請謹慎小心。
+LIST_PASS_HEADER1                       = 密碼
+LIST_PASS_HEADER2                       = 顯示名稱
+IDC_BTN_ADD                             = 新增
+IDC_BTN_DEL                             = 刪除
+IDC_BTN_EDIT                            = 編輯
+IDC_BTN_SET_MASTERPASS                  = 設定主密碼...
+IDC_BTN_DEL_MASTERPASS                  = 刪除主密碼...
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = 輸入主密碼
+IDC_STATIC_MASTPASS_MSG                 = 請輸入主密碼以存取密碼管理器。重設以刪除系統中儲存的所有密碼資訊。
+IDC_BTN_INITPASSMAN                     = 重設
+TEXT_ASK_INIT_PASSMAN                   = 您確定要刪除所有密碼資訊？
+IDC_BTN_SHOW_PASSWORD                   = 顯示密碼
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = 密碼資訊
+IDC_STATIC_PASSWORD                     = 密碼
+IDC_STATIC_DISPNAME                     = 顯示名稱 (選用)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = 選擇
+IDC_BTN_OPEN                            = 開啟
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = 壓縮中
+TEXT_ARCHIVE_TESTING                    = 測試中
+IDC_BTN_STOP                            = 停止
+IDC_BTN_CLOSE                           = 關閉
+IDC_BTN_PAUSE                           = 暫停
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = 重複檔案
+IDC_STATIC_DUPE_MESSAGE                 = 存在相同檔案。
+IDC_STATIC_DUPEFILE_OLD                 = 原始檔案
+IDC_STATIC_DUPEFILE_NEW                 = 目前檔案
+IDC_STATIC_DUPE_ASK                     = 請從下方選擇一個選項：
+IDC_RADIO_DUPE_METHOD0                  = 保留(&S)
+IDC_RADIO_DUPE_METHOD1                  = 覆蓋(&O)
+IDC_RADIO_DUPE_METHOD2                  = 重新命名(&R)
+IDC_CHECK_DUPE_APPLY_ALL                = 套用至所有檔案(&A)
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = 壓縮檔選項
+IDC_STATIC_ASK_HANDLING                 = 從下方選擇一個選項：
+IDC_RADIO_HANDLE_METHOD0                = 開啟壓縮檔(&O)
+IDC_RADIO_HANDLE_METHOD1                = 新增壓縮檔(&N)
+IDC_RADIO_HANDLE_METHOD2                = 新增檔案至目前壓縮檔(&A)
+IDC_CHK_PASS                            = 使用密碼
+IDC_STATIC_PASSWORD_AGAIN               = 確認密碼
+IDC_CHK_SHOW_PASS                       = 顯示密碼
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = 設定
+IDC_BTN_INIT                            = 重設
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = 一般設定
+IDC_CHK_EXIT_WITH_ESC                   = 使用 ESC 鍵關閉視窗
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = 總是在新增/刪除/重新命名檔案時檢查檔案
+IDC_CHK_SNAP                            = 使用視窗邊緣吸附
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = 在壓縮檔案中顯示 [..] 目錄
+IDC_CHK_SHOW_GRID_AT_LIST               = 顯示網格線
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = 在壓縮檔中選取整行
+IDC_CHK_ONE_CLICK_ACTIVATE              = 按一下以開啟項目
+IDC_STATIC_UPDATE                       = 更新設定
+TEXT_UPDATE_0                           = 通知並安裝最新版本
+TEXT_UPDATE_1                           = 僅通知並安裝穩定版本
+TEXT_UPDATE_2                           = 不通知任何更新
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = 檔案關聯
+IDC_BTN_SELECT_MANDATORY                = 基本選項
+IDC_BTN_SELECT_ALL                      = 全部選擇
+IDC_BTN_CLEAR_ALL                       = 全部不選
+IDC_BTN_APPLY_NOW                       = 立即套用
+IDC_STATIC_ICON_PACK                    = 選擇圖示包：
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [圖示包下載]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - 設定預設程序
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = 副檔名關聯
+;IDC_STATIC_ASSOC_DESC1                 = 在 Windows 8 中，您可以將以下這些檔案格式關聯：
+;IDC_STATIC_ASSOC_DESC2                 = 1. 請按一下下方的「關聯設定」按鈕。
+;IDC_STATIC_ASSOC_DESC3                 = 2. 在程序的關聯設定視窗中，選取「全部選擇」。
+;IDC_STATIC_ASSOC_DESC4                 = 3. 按一下「儲存」按鈕。
+;IDC_STATIC_ASSOC_DESC1_10              = 在 Windows 10 中，您可以將以下這些檔案格式關聯：
+;IDC_STATIC_ASSOC_DESC2_10              = 1. 請按一下下方的「關聯設定」按鈕。
+;IDC_STATIC_ASSOC_DESC3_10              = 2. 在設定預設程序視窗選擇「Bandizip」。
+;IDC_STATIC_ASSOC_DESC4_10              = 3. 點選「將此程序設定成預設值」。
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = 關聯設定
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = 傳統方式
+LIST_COLUMN0                            = 檔案類型
+LIST_COLUMN1                            = 預設程式
+IDC_BTN_CHANGE                          = 變更
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = 按兩下動作
+IDC_RADIO_SHELL_OPEN_0                  = 用 Bandizip 開啟
+IDC_RADIO_SHELL_OPEN_1                  = 自動解壓縮至此
+IDC_RADIO_SHELL_OPEN_2                  = 顯示右鍵選單
+IDC_RADIO_SHELL_OPEN_3                  = 自動解壓縮到指定的資料夾
+IDC_BTN_SET_EXTRACT_FOLDER              = 瀏覽...
+IDC_RADIO_SHELL_OPEN_4                  = 解壓縮到「壓縮檔檔名」資料夾
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = 透過兩次點擊確認解壓縮後刪除原始檔案
+
+IDC_STATIC_SHELL_EXTRACT                = 選擇解壓縮選單
+IDC_CHK_SHELL_EXTRACT_HERE              = 解壓縮至此
+IDC_CHK_SHELL_EXTRACT_AUTO              = 自動解壓縮至此
+IDC_CHK_SHELL_EXTRACT_SUB               = 解壓縮到「壓縮檔檔名」資料夾
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = 解壓縮至此並刪除
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = 自動解壓縮至此並刪除
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = 解壓縮到「壓縮檔檔名」資料夾並刪除
+IDC_CHK_SHELL_EXTRACT_DLG               = 選擇解壓縮路徑...
+IDC_CHK_SHELL_EXTRACT_ADMIN             = 以管理員身份解壓縮
+IDC_CHK_SHELL_TEST_ARCHIVE              = 測試壓縮檔案
+IDC_CHK_SHELL_OPEN_ARCHIVE              = 以 Bandizip 開啟
+IDC_CHK_SHELL_PREVIEW                   = 預覽壓縮檔
+IDC_STATIC_SHELL_PREVIEW_SIZE           = 預覽檔案數量限制：
+IDC_CHK_SHELL_PREVIEW_TREE              = 用樹狀結構預覽壓縮檔
+
+IDC_STATIC_SHELL_ARCHIVING              = 壓縮選單
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = 壓縮為「檔名.zip」
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = 壓縮為「檔名.zip」並刪除
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = 壓縮為「檔名.zip」並郵寄
+IDC_CHK_SHELL_ADD_TO_ZIP                = 壓縮為「檔名.zip」
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = 壓縮為「檔名.zipx」
+IDC_CHK_SHELL_ARCHIVING_EXE             = 壓縮為「檔名.exe」
+IDC_CHK_SHELL_ARCHIVING_TAR             = 壓縮為「檔名.tar」
+IDC_CHK_SHELL_ARCHIVING_TGZ             = 壓縮為「檔名.tgz」
+IDC_CHK_SHELL_ARCHIVING_LZH             = 壓縮為「檔名.lzh」
+IDC_CHK_SHELL_ARCHIVING_ISO             = 壓縮為「檔名.iso」
+IDC_CHK_SHELL_ARCHIVING_7Z              = 壓縮為「檔名.7z」
+IDC_CHK_SHELL_ARCHIVING_GZ              = 壓縮為「檔名.gz」
+IDC_CHK_SHELL_ARCHIVING_XZ              = 壓縮為「檔名.xz」
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = 壓縮為「檔名.zpaq」
+IDC_CHK_SHELL_ARCHIVING_EACH            = 個別壓縮為「檔案/資料夾名稱.zip」
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = 個別壓縮為「檔案/資料夾名稱.7z」
+IDC_CHK_SHELL_ARCHIVING_POPUP           = 新增至壓縮檔 (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = 以管理員身份壓縮
+IDC_CHK_SHELL_ARCHIVING_RULE            = 壓縮為自訂檔案名稱
+IDC_STATIC_FILENAME_RULE_HELP           = 規則：${NAME}=檔名, %Y=年, %m=月, %d=日, %H=小時, %M=分鐘, %S=秒
+
+IDC_STATIC_SHELL_BKGND                  = 在「Windows 檔案總管」中的空白處按一下右鍵所彈出的選單選項
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = 使用「新增資料夾」功能
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = 開啟命令提示字元視窗 (cmd.exe) - 按住 Shift 以管理員權限執行
+
+IDC_STATIC_SHELL_ETC                    = 其他
+IDC_CHK_SHELL_DO_NOT_USE                = 停用右鍵選單
+IDC_CHK_SHELL_AS_SUB_MENU               = 串聯右鍵選單
+IDC_CHK_SHELL_HIDE_ICON                 = 隱藏 Bandizip 圖示
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = 區分壓縮檔內容
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = 即使多個壓縮檔案也顯示解壓縮選單
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = 在滑鼠游標使用選取的檔案/資料夾名稱
+IDC_CHK_SHELL_USE_DROP_HANDLER          = 在檔案總管中拖曳檔案將其加入至 ZIP 壓縮檔
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = 解壓縮設定
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = 如果只有一個資料夾則顯示檔案
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = 解壓縮後開啟資料夾
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = 解壓縮完成後不要關閉進度視窗
+IDC_CHK_FAST_DRAG_DROP                  = 解壓縮大型檔案時使用快速拖曳
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = 一次性解壓縮 TGZ, TBZ 檔案
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = 即使是大體積的 TGZ, TBZ 檔案
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = 使用「自動解壓縮」時，若壓縮檔中只有單一個檔案，則將之解壓縮為一個新資料夾
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = 自動刪除 Macintosh 字碼頁
+IDC_CHK_UNIXZIP_AS_UTF8                 = 從 UNIX 開啟 ZIP 檔案時使用 UTF-8 字碼頁
+IDC_CHK_PARALLEL_EXT                    = 對支援的格式使用平行解壓
+IDC_STATIC_CODEPAGE                     = 預設字碼頁
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = 當按兩下解壓縮所有檔案之後，執行下列下列檔案類型
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = 壓縮設定
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = 只壓縮單一資料夾時不使用根資料夾名稱
+IDC_CHK_USE_UTF8_COMPRESS               = 在 ZIP 檔案中使用 Unicode 檔名 (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = 在 ZIP 檔案額外的標頭欄位中儲存 Unicode 檔名 (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = 在 tar, tgz 檔案中使用 Unicode 檔名 (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = 總是使用 ZIP64 格式，即使檔案大小小於 2 GB (不建議)
+IDC_CHK_EXCLUDE_THUMBSDB                = 壓縮時排除 thumbs.db 檔案
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = 當建立 ZIP 壓縮檔時，儲存 NTFS 時間資訊
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = 使用「高速壓縮」
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = 壓縮完成後不要關閉進度視窗
+IDC_STATIC_COMPRESSION_METHOD           = 壓縮等級：
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = 壓縮後測試壓縮檔
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = 新增壓縮檔時使用最新的資料夾
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = 壓縮檔的預設資料夾
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = 瀏覽...
+IDC_CHK_EXCLUDE_FILTER                  = 壓縮時要排除的檔案類型
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = 檢視器設定
+IDC_CHK_SHOW_PREVIEW                    = 預覽影像
+IDC_CHK_SHOW_FOLDER_SIZE                = 顯示資料夾的壓縮後/原始大小
+IDC_CHK_SET_LISTCONTROL_FONT            = 變更檔案列表的字型
+IDC_BTN_SET_FONT                        = 字型設定...
+
+IDC_STATIC_SETTING_VIEWITEM             = 欄位
+IDC_CHK_VIEWITEM_COMPSIZE               = 壓縮後大小
+IDC_CHK_VIEWITEM_ORIGSIZE               = 原始大小
+IDC_CHK_VIEWITEM_KIND                   = 檔案類型
+IDC_CHK_VIEWITEM_DATE_MOD               = 修改日期
+IDC_CHK_VIEWITEM_COMPMETHOD             = 壓縮方式
+IDC_CHK_VIEWITEM_ENCRMETHOD             = 加密演算法
+IDC_CHK_VIEWITEM_CRC                    = CRC 校驗
+IDC_CHK_VIEWITEM_ATTRIB                 = 檔案內容
+IDC_CHK_VIEWITEM_COMMENT                = 檔案註解
+IDC_CHK_VIEWITEM_EXT                    = 附加資訊
+
+IDC_STATIC_IMAGE_VIEWER                 = 影像檢視器
+IDC_RADIO_IMAGE_VIEWER_0                = 使用內建影像檢視器
+IDC_RADIO_IMAGE_VIEWER_1                = 使用關聯程序
+IDC_RADIO_IMAGE_VIEWER_2                = 如果有安裝，則使用 Honeyview
+
+IDC_STATIC_EDITOR                       = 編輯器
+IDC_BTN_SET_EDITOR_PATH                 = 瀏覽...
+
+IDC_STATIC_COLOR                        = 色彩
+IDC_STATIC_COLOR_THEME                  = 主題色彩
+IDC_BTN_BKGND                           = 選取
+IDC_STATIC_COLOR_TEXT                   = 字型色彩
+IDC_STATIC_COLOR_TEXT_AUTO              = 自動
+IDC_STATIC_COLOR_TEXT_WHITE             = 白色
+IDC_STATIC_COLOR_TEXT_BLACK             = 黑色
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = 安全設定
+IDC_CHK_COPY_ZONE_IDENTIFIER            = 複製在解壓縮期間從網路下載的壓縮檔的 Zone.Identifier 資訊
+IDC_CHK_AMSI_BEFORE_EXTRACT             = 解壓檔案之前檢查惡意程序
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = 匯出 Bandizip 設定
+IDC_STATIC_ETC                          = 進階設定
+IDC_CHK_SET_TEMP_FOLDER                 = 設定暫存資料夾位置
+IDC_BTN_SET_TEMP_FOLDER                 = 瀏覽...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = 將以下檔案類型辨識為壓縮檔
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = 退出子程序時刪除暫存檔
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = 刪除時將檔案移動到資源回收筒
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = 顯示最近檔案歷史記錄
+IDC_CHK_USE_LONG_PATH_NAME              = 處理超過 260 個字元的長路徑名稱
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = 允許 Windows 檔案總管刪除開啟的壓縮檔
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = 自動展開資料夾樹
+IDC_CHK_USE_MODAL_DIALOG                = 執行壓縮/解壓縮時使用強制回應對話方塊
+IDC_CHK_USE_ELEGANT_UI                  = 使用 elegant UI 設計
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Bandizip 啟動時顯示「開始畫面」
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = 在標題列顯示完整路徑
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = 取消解壓縮時，刪除已解壓的檔案
+IDC_CHK_COPY_ZONE_IDENTIFIER            = 複製在解壓縮期間從網路下載的壓縮檔的 Zone.Identifier 資訊
+IDC_CHK_USE_SET_END_OF_FILE             = 預先分配輸出檔案的磁碟空間
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = 即使檔案被另一個處理程序使用，也要壓縮該檔案
+IDC_CHK_DO_NOT_USE_RICHEDIT             = 不使用 Rich Edit 控制項
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = 語言設定
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = 想要幫忙翻譯這套程式？按一下這裡...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = 自解檔設定
+IDC_STATIC_TARGET_PATH                  = 自解檔路徑：
+IDC_STATIC_TITLE                        = 自解檔標題：
+IDC_STATIC_RUN                          = 解壓縮後執行：
+IDC_STATIC_MESSAGE                      = 自解檔訊息：
+IDC_CHK_AUTO_CLOSE                      = 解壓縮完成後關閉自解檔視窗
+IDC_BTN_SAVE_SFX_SETTING                = 儲存設定
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = 尋找檔案
+IDC_STATIC_FIND                         = 尋找內容：
+IDC_BTN_CLOSE                           = 關閉
+IDC_BTN_DELETE                          = 刪除
+IDC_BTN_EXTRACT                         = 解壓縮
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = 壓縮檔註解
+IDC_STATIC_COMMENT                      = 加入/編輯檔案註解
+IDC_CHK_USE_UTF8                        = 使用 Unicode (UTF-8) 儲存註解
+IDC_BTN_LOAD_FROM_FILE                  = 從檔案中載入註解 (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = 警告
+IDC_STATIC_WARN_EXECUTABLE              = 此檔案是一個可執行檔。執行此程序可能會損害您的電腦。您要繼續嗎？
+IDC_CHK_DO_NOT_ASK_AGAIN                = 不要再問我
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = 註冊 Bandizip
+IDC_STATIC_DESC1                        = 請輸入您的電子郵寄地址和信件中的產品金鑰。
+IDC_STATIC_EMAIL                        = 電子郵件地址
+IDC_STATIC_PRDUCT_KEY                   = 產品金鑰
+IDC_BTN_REGISTER                        = 立即註冊
+IDC_STATIC_BUYNOW                       = 尚未購買 Bandizip？[立即購買]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Bandizip 授權指南
+TEXT_LIMIT_PASSMAN                      = 在 Bandizip 標準版的密碼管理器中只能儲存一個密碼。
+TEXT_SHOW_AD                            = 廣告會出現在 Bandizip 標準版上。[br]您可以購買付費版以移除廣告。
+TEXT_CANNOT_CHANGE                      = 此功能無法在 Bandizip 標準版上更改。[br]您可以購買付費版以更改該功能。
+TEXT_CANNOT_USE                         = 此功能不在 Bandizip 標準版上提供。[br]您可以購買付費版以使用該功能。
+TEXT_PORTABLE_NOTICE                    = 此功能不在 Bandizip 可攜式版本上提供。[br]您可以購買付費版以使用該功能。
+IDC_STATIC_COMPARISON                   = 比較版本...
+IDC_STATIC_HOWTOREGISTER                = 已經買了 Bandizip？[如何註冊]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = 修復壓縮檔
+IDC_STATIC_SRC                          = 要修復的檔案
+IDC_STATIC_DST                          = 檔案已修復
+IDC_BTN_START                           = 開始修復
+IDC_BTN_TEST                            = 測試修復檔案
+IDC_BTN_STOP                            = 停止
+TEXT_NOTICE                             = 瀏覽並選取要修復的檔案，然後按一下「開始修復」。
+TEXT_ERR_OCCURRED                       = 發生錯誤。
+TEXT_ERR_NOT_A_ZIP                      = 所選取的檔案格式不支援。目前僅支援 ZIP 格式。
+TEXT_ERR_NO_INFO                        = 所選取的檔案沒有要修復的資料。
+TEXT_MSG_START                          = 開始修復中。
+TEXT_MSG_FINISH                         = 修復已完成。
+TEXT_MSG_ANALYZING                      = 分析中…
+TEXT_MSG_CANCELED                       = 修復已取消。
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = 在開始修復之前，請選擇一個壓縮檔 (.zip)。
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = 您的系統中安裝了多個版本的 Bandizip。請刪除其中一個以防止程式出現問題。
+CMD_UNINST_MSSTORE                      = 移除 Bandizip MSE (微軟商店取得版本)
+CMD_UNINST_PROGFILES                    = 移除 Bandizip
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = 開啟
+$TOOLBAR_CLOSE_FILE                     = 關閉
+$TOOLBAR_EXTRACT_FILE                   = 解壓縮
+$TOOLBAR_CREATE_ARCHIVE                 = 新增壓縮檔
+$TOOLBAR_DELETE_FILE                    = 刪除
+$TOOLBAR_ADD_FILE                       = 新增
+$TOOLBAR_TEST_ARCHIVE                   = 測試
+$TOOLBAR_CODEPAGE                       = 字碼頁
+$TOOLBAR_VIEWITEM                       = 欄位
+$TOOLBAR_SCAN                           = 掃描
+
+$TOOLBAR_OPEN2                          = 開啟壓縮檔
+$TOOLBAR_CREATE_ARCHIVE2                = 新增壓縮檔
+
+$TEXT_DESKTOP                           = 桌面
+$TEXT_DOCUMENT                          = 我的文件
+$TEXT_PICTURE                           = 我的圖片
+$TEXT_COMPUTER                          = 電腦
+
+$TEXT_SETTINGTAB_GENERAL                = 一般設定
+$TEXT_SETTINGTAB_ASSOC                  = 檔案關聯
+$TEXT_SETTINGTAB_SHELL                  = 右鍵選單
+$TEXT_SETTINGTAB_EXTRACT                = 解壓縮設定
+$TEXT_SETTINGTAB_ARCHIVE                = 壓縮設定
+$TEXT_SETTINGTAB_VIEWER                 = 檢視器
+$TEXT_SETTINGTAB_SECURITY               = 安全
+$TEXT_SETTINGTAB_ETC                    = 其他設定
+$TEXT_SETTINGTAB_LANG                   = 語言設定
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = 開啟檔案所在位置
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = 開啟壓縮檔所在位置
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = 解壓縮後開啟檔案所在位置
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = 開啟壓縮檔案所在位置
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = 開啟目的資料夾
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = 解壓縮後不要關閉此視窗
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = 壓縮後不要關閉此視窗
+$TOOLTIP_ADVANCED_MENU                  = 其他設定
+$TOOLTIP_REGISTER                       = 註冊 Bandizip
+$TOOLTIP_UPDATE                         = 更新
+$TOOLTIP_PREVIEW                        = 檢視大圖示
+$TOOLTIP_REPORT                         = 檢視詳細資料
+
+$TEXT_INSTALL_START                     = 好，我會嘗試
+$TEXT_INSTALL_CLOSE                     = 不，謝謝
+$TEXT_INSTALL_HONEYVIEW_LINK            = 檢視更多...
+
+$TEXT_HELP_PAGE                         = 說明頁面
+$TEXT_AD                                = 廣告
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Bandizip 密碼復原
+TEXT_MSG_OPENING                        = 開啟壓縮檔: ${str1}
+TEXT_MSG_CANCELED                       = 已取消開啟壓縮檔。
+TEXT_MSG_BROKEN                         = 此壓縮檔已損壞。
+TEXT_MSG_NO_PASSWD                      = 此壓縮檔沒有設定密碼。
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = 此存檔已加密其檔頭；目前不支援這種類型的壓縮檔。
+TEXT_MSG_OPEN_FIRST                     = 在開始復原之前請開啟一個壓縮檔。
+TEXT_MSG_CANT_OPEN                      = 無法開啟壓縮檔。 (代碼:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = 選擇要復原的字元類型。
+TEXT_MSG_INIT_FAIL                      = 初始化失敗。
+TEXT_MSG_NOT_FOUND                      = 復原失敗。在 Bandizip 標準版，要復原的密碼不能超過 4 個字元長度。
+TEXT_MSG_FILE2FINDPWD                   = 上面的檔案將會處理以進行復原。
+TEXT_MSG_ERRORATFINDINDEX               = 找不到要復原的檔案。
+TEXT_MSG_COPY2CLIPBOARD                 = 復原的密碼已複製到剪貼簿。
+TEXT_STATE_MSG_READY                    = 按一下開始按鈕以復原。
+TEXT_STATE_MSG_WORKING                  = 正在復原密碼...
+TEXT_STATE_MSG_PAUSING                  = 已暫停
+TEXT_STATE_MSG_STOPPING                 = 取消...
+TEXT_STATE_MSG_FOUND                    = ${num1} 字元的密碼已在 ${str1} 秒內復原。(${str2})
+TEXT_ASK_EXIT                           = 你確定要離開？
+TEXT_COMBO_THREAD_AUTO                  = 自動
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = 設定
+IDC_STATIC_MULTI_CORE                   = 多核心處理
+IDC_STATIC_MULTI_CORE_DESC              = 指定用於復原的執行緒數。[br]建議選擇「自動」，或者選擇比系統上安裝的 CPU 核心數小的數字。
+IDC_STATIC_PREP_POSTP                   = 前置詞
+IDC_STATIC_PREP                         = 前置詞
+IDC_STATIC_PREP_DESC                    = 在處理密碼之前，在密碼的開頭加入前置詞。[br]例如 http://www.
+IDC_STATIC_SPECIFY                      = 指定字母
+IDC_STATIC_ETC                          = 雜項
+IDC_CHK_USE_SIGNATURE_BY_EXT            = 使用檔案的副檔名可以更快地恢復。
+
+[RECOVERY_SKIN]
+$STEP_1                                 = 開啟
+$STEP_2                                 = 檢查
+$STEP_3                                 = 設定
+$STEP_4                                 = 復原
+$STEP_5                                 = 完成
+$FILE_PATH_NAME                         = 位置
+$BTN_NEXT_PAGE                          = 繼續 >
+$BTN_PREV_PAGE                          = < 返回
+$BTN_OK                                 = 確定
+$BUTTON_BUY_NOW                         = 購買 Bandizip 專業版
+$STATIC_OPEN_DESC                       = 按一下「開啟壓縮檔」以瀏覽並選擇加密壓縮檔。<br>您也可以將壓縮檔直接拖曳到此對話方塊上。
+$STATIC_PRICE_DESC1                     = Bandizip 授權指南
+$STATIC_PRICE_DESC2                     = 密碼復原僅在 Bandizip 專業版上可用。[br]在 Bandizip 標準版，要復原的密碼不能超過 4 個字元長度。
+$STATIC_FILELIST_DESC                   = 以下檔案包含在此壓縮檔中。檢查它們，然後按一下「下一步」。
+$FILELIST_HEADER_NAME                   = 名稱
+$FILELIST_HEADER_SIZE                   = 大小
+$FILELIST_HEADER_DATE                   = 修改日期
+$FILELIST_HEADER_METHOD                 = 壓縮方式
+$FILELIST_HEADER_PWMETHOD               = 加密方式
+$STATIC_SYMBOL_DESC                     = 指定期望密碼中使用的字元類型。<br>如果選擇更多或所有類型，則復原需要更長的時間。
+$STATIC_CUR_PASSWORD                    = 處理中
+$STATIC_CUR_PASSLEN                     = 長度
+$STATIC_ELAPSED                         = 經過時間
+$STATIC_SPEED                           = 處理速度
+$STATIC_CLIPBOARD_DESC                  = 將復原的密碼複製到剪貼簿並貼上。
+$BUTTON_STOP                            = 取消
+$BUTTON_START                           = 開始
+$IDC_BTN_PAUSE                          = 暫停
+$IDC_BTN_UNPAUSE                        = 繼續
+$IDC_BTN_OPEN                           = 開啟
+$IDC_BTN_SETTING                        = 進階選項
+$IDC_BTN_COPY2CLIPBOARD                 = 複製
+$IDC_BTN_CANCEL_PAYMENT                 = 初始化
+$BUTTON_HELP_PAGE                       = 關於預估時間的說明
+$CHECK_SYMBOL_NUM                       = 數字 (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = 小寫字母 (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = 大寫字母 (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = 特殊字元 (!@#$...)
+$CHECK_SYMBOL_SPACE                     = 空白
+$CHECK_SYMBOL_ALL                       = 全選
+$CHECK_SYMBOL_SPECIFIED                 = 指定字母
+$FOUNDED_PASSWORD                       = 復原的密碼是...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = 新增資料夾
+
+TEXT_MENU_CREATE_NEW_FOLDER             = 新增資料夾(&N)
+TEXT_MENU_SUB_MENU                      = Bandizip (&B)
+TEXT_MENU_OPEN_ARCHIVE                  = 以 Bandizip 開啟...
+TEXT_MENU_TEST_ARCHIVE                  = 測試壓縮檔案
+TEXT_MENU_LAUNCH_CMD                    = 執行命令提示字元 (&L)
+TEXT_MENU_LAUNCH_CMD_ADMIN              = 以系統管理員身分執行命令提示字元
+
+TEXT_MENU_ARCHIVE_EACHNAME              = 個別壓縮為「檔案/資料夾名稱.zip」(&E)
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = 個別壓縮為「檔案/資料夾名稱.7z」
+TEXT_MENU_ARCHIVE_ZIP                   = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = 壓縮為「${str1}」並刪除
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = 壓縮為「${str1}」並郵寄(&I)...
+TEXT_MENU_ARCHIVE_ZIPX                  = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_EXE                   = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_TAR                   = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_TGZ                   = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_LZH                   = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_ISO                   = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_7ZFMT                 = 壓縮為「${str1}」(&7)
+TEXT_MENU_ARCHIVE_GZ                    = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_XZ                    = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_ZPAQ                  = 壓縮為「${str1}」
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = 個別壓縮為「檔名.gz」
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = 個別壓縮為「檔名.xz」
+TEXT_MENU_ARCHIVE_RULE                  = 壓縮為「${str1}」(&U)
+TEXT_MENU_ARCHIVE_POPUP                 = 新增至壓縮檔 (Bandizip)(&B)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = 以系統管理員身分進行壓縮(&Y)
+
+TEXT_MENU_EXTRACT_HERE                  = 解壓到當前資料夾 (&E)
+TEXT_MENU_EXTRACT_AUTO                  = 自動解壓縮至此 (&S)
+TEXT_MENU_EXTRACT_AUTO_EACH             = 自動解壓縮到個別資料夾 (&S)
+TEXT_MENU_EXTRACT_SUB                   = 解壓縮每個檔案至個別資料夾
+TEXT_MENU_EXTRACT_ARCHIVENAME           = 解壓縮到 ${str1}\(&T)
+TEXT_MENU_EXTRACT_DLG                   = 選擇解壓縮路徑(&B)...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = 以管理員身份解壓縮
+TEXT_MENU_EXTRACT_HERE_DEL              = 解壓縮至此並刪除
+TEXT_MENU_EXTRACT_AUTO_DEL              = 自動解壓縮至此並刪除
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = 自動解壓縮至個別資料夾並刪除
+TEXT_MENU_EXTRACT_SUB_DEL               = 解壓縮每個檔案至個別資料夾並刪除
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = 解壓縮到 ${str1}\ 並刪除 (&T)
+
+TEXT_MENU_PREVIEW                       = 預覽壓縮檔
+TEXT_MENU_PREVIEW_BROKEN                = 該檔案格式未知或已損壞。
+TEXT_MENU_PREVIEW_TIMEOUT               = 請求已逾時。
+TEXT_MENU_PREVIEW_EMPTY                 = 空的壓縮檔。
+TEXT_MENU_PREVIEW_ENCRYPTED             = 檔名已加密。
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = 無法使用預覽壓縮檔功能。[br][br]請重新啟動 Windows 資料總管 (explorer.exe) 或 [br]重新啟動您的電腦。
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = 無法讀取檔案清單
+
+TEXT_MENU_OPENING                       = 開啟中...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip 更新
+TEXT_UPDATER_TEXT1                      = Bandizip 已準備好更新。
+TEXT_UPDATER_TEXT_DL                    = 您想要立刻下載嗎？
+TEXT_UPDATER_BTN_UPDATE                 = 更新
+TEXT_UPDATER_BTN_OK                     = 確定
+TEXT_UPDATER_BTN_CANCEL                 = 取消
+TEXT_UPDATER_DOWNLOAD_ERROR             = 下載失敗。
+TEXT_UPDATER_SETTING_UPDATE             = 設定
+TEXT_UPDATER_SETTING_SKIPTHIS           = 跳過此版本
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = 目的路徑：
+BTN_SELECT_FOLDER                       = 瀏覽...
+BTN_EXTRACT                             = 開始
+BTN_CLOSE                               = 關閉
+BTN_CANCEL                              = 取消
+BTN_OPEN_FOLDER                         = 開啟
+CHK_OVERWRITE                           = 覆蓋
+ERR_ERROR_OCCURRED                      = 發生錯誤
+ERR_INVALID_PASSWORD                    = 密碼無效
+ASK_OVERWRITE                           = 已經存在相同的檔案，您要覆蓋它嗎？
+MSG_COMPLETED                           = 解壓縮成功！
+IDD_PASSWORD                            = 輸入密碼
+IDC_STATIC_PASSWORD_MSG                 = 檔案已加密
+IDC_BTN_SHOW_PASSWORD                   = 顯示密碼
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = 無法解壓縮檔案。
+TEXT_ERR_CRC                            = CRC 錯誤。
+TEXT_ERR_INVALID_PASSWD                 = 無效的密碼。
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = 安裝 ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = 移除 ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = 按一下 [移除] 來開始解除安裝。
+
+$BTN_CLOSE                              = 關閉
+$BTN_CANCEL                             = 取消
+$BTN_INSTALL                            = 同意並安裝
+$BTN_UNINSTALL                          = 移除
+$BTN_OPEN_LICENSE                       = [檢視授權合約]
+$BTN_HELP_LINK                          = [說明]
+
+$TEXT_PATH                              = 目的資料夾
+$TEXT_INSTALL_STATIC                    = 正在安裝...
+$TEXT_INST_COMPLETED                    = 安裝完成
+$TEXT_INST_FAILED                       = 安裝失敗
+$TEXT_UNINSTALLING                      = 正在解除安裝...
+
+$CHK_AUTO_REPORT                        = 自動傳送使用統計和崩潰報告，這有利於我們改進 Bandizip。
+$EMAIL                                  = 電子郵件地址
+$PRODUCT_KEY                            = 產品金鑰
+
+ERR_CANT_CREATE_FOLDER                  = 建立資料夾失敗：${str1}
+ERR_CANT_OPEN_FILE                      = 開啟檔案失敗：${str1}
+ERR_CANT_WRITE_FILE                     = 寫入檔案失敗：${str1}
+ERR_BROKEN_ARCHIVE                      = 壓縮檔案已損壞：${str1}
+ERR_CRC_ERROR                           = CRC 校驗錯誤：${str1}
+ERR_NOT_ENOUGH_MEM                      = 記憶體不足：${str1}
+
+MSG_FILE_OPEN_ERROR                     = 開啟要寫的檔案錯誤：[br]「${str1}」[br]按下 終止 以停止安裝，或[br]再試一次 以再試，或[br]忽略 以略過此檔案。
+MSG_SUCCESS                             = 安裝完成
+MSG_DLL_REGISTERING                     = 正在註冊檔案總管右鍵選單...
+MSG_DLL_UNREGISTERING                   = 正在刪除檔案總管右鍵選單...
+MSG_ERROR                               = 發生錯誤
+MSG_ERROR_REGISTER                      = 註冊失敗
+MSG_SELECT_FOLDER                       = 選擇一個資料夾。
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} 仍在執行。請先關閉該程序。
+MSG_XP_IS_NOT_SUPPORTED                 = 該程序不支援 Windows XP。
+MSG_NEED_ADMIN_PRIVILEGE                = 此程式只能由具有管理員權限的使用者安裝。[br][br]非管理員使用者可能無法正常安裝此程式。[br][br]您想要停止安裝？
+MSG_NEWVERSION_FOUND                    = 目前有新版本可用。您要立即下載它嗎？
+SHORTCUT_LINK_DESCRIPTOIN               = 啟動 ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = 此安裝程式不支援 32 位元 (x86) 作業系統。請在官方網站上下載一個新的安裝程式。
+MSG_ERR_ARM_NOTSUPPORT                  = 此安裝程式不支援 ARM 64 位元 CPU。請在官方網站上下載一個新的安裝程式。
+ERR_INST_FAILED                         = 安裝失敗，請重新啟動電腦後再次嘗試。
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = 版本檢查失敗。請下載離線安裝檔。
+TEXT_VERSION_CHECKING                   = 正在檢查版本...
+TEXT_DOWNLOAD_FAILED                    = 下載失敗。請下載離線安裝檔。
+TEXT_DOWNLOAD_COMPLETED                 = 下載已完成
+TEXT_HOMEPAGE                           = [開啟網頁]
+TEXT_XP                                 = 抱歉，我們對 Windows XP 的支援已結束。
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = 選擇工具列按鈕
+
+

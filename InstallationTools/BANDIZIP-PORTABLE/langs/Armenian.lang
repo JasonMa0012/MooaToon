@@ -1,0 +1,954 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Հայերեն
+TRANSLATORS                             = Aram Vardanyan (aramblogoff@gmail.com)
+
+
+[TEXT]
+TEXT_BUILDNO                            = Կառույց #
+TEXT_FILE                               = Ֆայլ
+TEXT_FOLDER                             = Պանակ
+TEXT_ARCHIVE_SIZE                       = Արխիվի չափ
+TEXT_ORIGINAL_SIZE                      = Օրիգինալ չափ
+TEXT_ARCHIVE_FORMAT                     = Արխիվի ձևաչափ
+TEXT_COMPRESSED_SIZE                    = Սեղմված չափ
+TEXT_SOLID                              = Կայուն տարբերակ
+TEXT_BETA                               = Բետա տարբերակ
+TEXT_ASSOC                              = Սեղմված ֆայլ (${str1})
+TEXT_PORTABLE                           = Շարժական
+TEXT_NEW_FOLDER                         = Նոր պանակ
+TEXT_FILESIZE_UNKNOWN                   = Անհայտ
+TEXT_FILEDATE_UNKNOWN                   = Անհայտ
+TEXT_HELP_LINK                          = [Օգնություն]
+TEXT_APP_DESC                           = Bandizip-ը թեթև, արագ և անվճարˋ բոլորը մեկում Zip արխիվացնող է։ Այն կառավարում է ամենահայտնի սեղմման ձևաչափերը, ներառելով Zip, 7z, Rar, և այլն։
+
+TEXT_MESSAGEBOX_OK                      = Լավ
+TEXT_MESSAGEBOX_CANCEL                  = Չեղարկել
+TEXT_MESSAGEBOX_ABORT                   = Ձախողել
+TEXT_MESSAGEBOX_RETRY                   = Կրկնել
+TEXT_MESSAGEBOX_IGNORE                  = Անտեսել
+TEXT_MESSAGEBOX_YES                     = Այո
+TEXT_MESSAGEBOX_NO                      = Ոչ
+TEXT_MESSAGEBOX_CONTINUE                = Շարունակել
+TEXT_MESSAGEBOX_HELP                    = Օգնություն
+
+TEXT_COLUMN_NAME                        = Անուն
+TEXT_COLUMN_COMPSIZE                    = Սեղմված
+TEXT_COLUMN_ORIGSIZE                    = Օրիգինալ
+TEXT_COLUMN_KIND                        = Տեսակ
+TEXT_COLUMN_DATE_MOD                    = Փոփոխված
+TEXT_COLUMN_COMPMETHOD                  = Սեղմման մեթոդ
+TEXT_COLUMN_ENCRMETHOD                  = Գաղտնագրման մեթոդ
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Հատկություններ
+TEXT_COLUMN_COMMENT                     = Մեկնաբանություն
+TEXT_COLUMN_PATHNAME                    = Ուղի
+
+TEXT_ICONPACK_NAME                      = Անուն
+TEXT_ICONPACK_DESIGNER                  = Ձևավորող
+TEXT_ICONPACK_COPYRIGHT                 = Հեղ․ իրավունք
+
+TEXT_ARCHIVE_COLUMN_NAME                = Անուն
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Չափ
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Պանակի ուղի
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Ընդհանուր չափ
+
+TEXT_SELECT_ARCHIVE_FILE                = Ընտրել ֆայլը
+TEXT_SELECT_TEXT_FILE                   = Ընտրել ֆայլը
+TEXT_SELECT_DEST_FOLDER                 = Ընտրել նշանակման պանակը
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Արխիվի ֆայլ
+TEXT_REGISTRY_FILE                      = Գրանցատեղիի ֆայլ
+
+TEXT_OPENDLG_ARCHIVEFILES               = Արխիվի ֆայլեր
+TEXT_OPENDLG_ARCHIVEFILE                = Արխիվի ֆայլ
+TEXT_OPENDLG_ALLFILES                   = Բոլոր ֆայլերը
+TEXT_OPENDLG_EXEFILES                   = Exe ֆայլեր
+
+TEXT_ABOUTBOX_TAB1                      = Bandizip-ի մասին
+
+TEXT_ASSOC_GROUP0                       = Արխիվի ֆայլեր
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Այլ
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Այս ֆայլը բացելու համար, ներբեռնեք Bandizip-ի ամենավերջին տարբերակը։
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Ընտրեք միայն հատման ֆայլի առաջին մասը։
+TEXT_OPENERR_CANT_OPEN_FILE             = Չի ստացվում բացել (${str1}) ֆայլը
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Չի ստացվում բացել (${str1}) ֆայլը, քանի որ ֆայլն օգտագործվում է այլ ծրագրի կողմից։
+TEXT_OPENERR_GENERAL                    = Չի ստացվում բացել (${str1}) ֆայլը (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Չեղարկված է
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Անհայտ ֆայլի ձևաչափˋ (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = «${str1} -ն» արխիվի ֆայլ չէ։
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Չաջակցվող ֆայլի ձևաչափˋ (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Չաջակցվող գաղտնագրման մեթոդˋ (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Մուտքագրեք գաղտնաբառը
+TEXT_OPENERR_INVALID_PASSWORD           = Գաղտնաբառը սխալ է։
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Չի ստացվում բացել այս ֆայլը, քանի որ ֆայլի գլխամասը վնասված է։
+
+TEXT_ERR_INIT_FAILED                    = Ձախողվել է նախապատրաստել։
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Գաղտնաբառը սխալ է կամ արխիվում չկա որևէ ֆայլ։
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Գաղտնաբառերը չեն համընկնում։
+TEXT_ERR_PASSWORD_NOT_SET               = Անհրաժեշտ է գաղտնաբառ։
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Ձեր գաղտնաբառը պարունակում է անվավեր գրանշաններ։ Կիրառեք միայն տառաթվային կամ հատուկ գրանշաններ։
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Անվավեր հատման ֆայլի չափ։
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Ինքնուրույն արդյունահանվող արխիվներ) ֆայլի չափերը սահմանված են մինչև 4GB։
+TEXT_ERR_INTERNAL_ERROR                 = Ներքին սխալ
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Չի ստացվում փոփոխել արխիվի ֆայլը։
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Սխալ է տեղի ունեցել, մինչ փոփոխվում էր արխիվը։
+TEXT_ERR_INVALID_FOLDER_PATH            = Անվավեր պանակի ուղի
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Միայն ZIP ֆայլը կարող է խմբագրվել։
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Չի ստացվում խմբագրել հատման ֆայլը։
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Չի ստացվում խմբագրել ինքնուրույն արդյունահանվող ֆայլը (*.exe)։
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Չի ստացվում խմբագրել վնասված ֆայլը։
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Չի ստացվում խմբագրել այս արխիվի ձևաչափը։
+TEXT_ERR_CANT_CHANGE_FILENAME           = Չի ստացվում փոխել այս ֆայլի անունը։
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = Չի ստացվում կիրառել ֆայլի անունը [br]? : \ / * < > | " -ի հետ
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Նույն ֆայլը/պանակը առկա է։ Չի ստացվում փոխել ֆայլի անունըˋ (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Չի ստացվում ստեղծել պանակ։
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Չկան ֆայլեր արխիվում
+TEXT_ERR_INVALID_PARAM                  = Անվավեր պարամետր։
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Չի ստացվում ավելացնել ֆայլը արխիվին։ [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Չի ստացվում բացել այս արխիվը [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Նույն պանակը առկա է։
+TEXT_ERR_FILENAME_EMPTY                 = Ֆայլի անունը սխալ է։
+TEXT_ERR_AT_DRAGANDDROP                 = Քաշել ու գցել գործողությունը ձախողվել է։
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Քաշել ու գցել գործողությունը ձախողվել է։ [br]Bandizip-ն ուղղակի անջատել է «Արագ քաշել ու գցել» գործառույթը, խնդրում ենք կրկին փորձել։
+TEXT_ERR_AT_CANT_OPEN_MMF               = Չի ստացվում բացել MMF-ը (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Ֆայլ ընտրված չէ
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Չի ստացվում ստեղծել պանակ, պատկերակի փաթեթի տեղադրման համար։
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Չի ստացվում ստեղծել ֆայլ, պատկերակի փաթեթի տեղադրման համար։
+TEXT_ERR_AT_EXECUTE_DIRECT              = Չի ստացվում բացել այս ֆայլը։ Արդյունահանեք ֆայլն ու փորձեք կրկին։
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Չի ստացվում ստեղծել ֆայլն ավելի խոշոր քան 4GB։[br]Խնդրում ենք ընտրել տարբերվող ֆայլի ձևաչափ (ZIP կամ 7Z)։
+TEXT_ERR_CANT_SAVE_AS                   = Չի ստացվում պահպանել այս ֆայլը։
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip-ը բախվել է խնդրի ֆայլը խմբագրելիս։(${str1})[br][br]Կցանկանայի՞ք ուղարկել սխալի զեկույցը Bandisoft-ին։[br][br]Այս զեկույցի ուղարկումն օգնում է Bandisoft-ին բարելավել Bandizip-ը։
+
+TEXT_MSG_TEST_OK                        = Այս արխիվում սխալ չկա։
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Արդյունահանումը ձախողվել է։ [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Արդյունահանումն ավարտվեց հաջողությամբ։
+TEXT_MSG_EXTRACT_CANCELED               = Արդյունահանումը չեղարկվել է։
+TEXT_MSG_COMPRESS_SUCCESS               = Արխիվացումն ավարտվեց հաջողությամբ։
+TEXT_MSG_INTERNAL_ERROR                 = Ներքին սխալ։
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Չի ստացվում բացել հետևյալ ֆայլը temp պանակում՝[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Չի ստացվում ջնջել այս արխիվի ֆայլը։
+TEXT_MSG_CRASH_REPORT                   = Bandizip-ը բախվել է խնդրի և պետք է փակվի։
+TEXT_MSG_CRASH_REPORT2                  = Bandizip-ը բախվել է խնդրի և պետք է փակվի։ Ցանկանո՞ւմ եք ուղարկել վթարի զեկույցը Bandizip-ը մշակողին։
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip-ը չի պատասխանում։                                                                              [br]Ցանկանո՞ւմ եք ուղարկել վթարի զեկույցը Bandizip-ը մշակողին և փակել ծրագիրը։
+TEXT_MSG_SET_TEMP_PATH                  = Նշեք ժամանակավոր ուղի
+TEXT_MSG_SET_PATH                       = Նշել ուղի
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Պատկերակի փաթեթը հաջողությամբ տեղադրվել է։
+TEXT_MSG_NOTICE_RESTART                 = Ծրագիրը կվերամեկնարկվի։
+TEXT_MSG_ARCHVIE_OPENING                = Բացվում է արխիվը։
+TEXT_MSG_COMPLETING                     = Ավարտվում էˋ ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Չի ստացվում ստեղծել պանակ։[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Չի ստացվում սեղմել պանակ .GZ/XZ արխիվով։
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Չի ստացվում սեղմել բազմաթիվ ֆայլեր .GZ/XZ արխիվով։ Խնդրում ենք փորձել «Սեղմել յուրաքանչյուր ֆայլի/պանակի անունով» ընտրանքը։
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip-ը փոքրացվել է համակարգի սկուտեղում։ Սեղմեք սկուտեղի պատկերակին, որ վերականգնվի։
+TEXT_MSG_TRAY_COMPLETED                 = Գործողությունն ավարտվել է։
+TEXT_MSG_BATCH_ARCHVING                 = Արխիվացվում է՝ ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Արդյունահանվում է՝ ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Փորձարկվում է՝ ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Ջնջվում է՝ ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Ձախողվեց ջնջել՝ ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Կատարվում է...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Եթե գրանշանները ճիշտ չեն ցուցադրվել, սեղմեք <font color=red><b>Էջի կոդ</b></font> վերևից և փորձեք <font color=red><b>Ավտոմատ հայտնաբերել</b></font>մենյուն։
+
+TEXT_ASK_DELETE_ARCHIVE                 = Արխիվի ֆայլը կջնջվի։[br]Ցանկանո՞ւմ եք ջնջել այս ֆայլը։
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Ցանկանո՞ւմ եք ջնջել ընթացիկ արխիվը։
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Ցանկանո՞ւմ եք ընդմիշտ ջնջել ընթացիկ արխիվը։
+TEXT_ASK_CHANGE_FILENAME                = Նույն ֆայլն առկա է։[br][br]Ցանկանո՞ւմ եք փոխել ֆայլի անունը ${str1} -ից ${str2} -ի։
+TEXT_ASK_DELETE_FILE                    = Ցանկանո՞ւմ եք ջնջել ընտրված ֆայլը։
+TEXT_ASK_STOP_EXTRACT                   = Ցանկանո՞ւմ եք կասեցնել արդյունահանումը։
+TEXT_ASK_OVERWRITE_ARCHIVE              = Նույն ֆայլն առկա է։[br][br]Ցանկանո՞ւմ եք վրագրել ֆայլը։
+TEXT_ASK_INIT_SETTING                   = Ցանկանում եք զրոյացնել լռելյայն վիճակի։ Bandizip-ը կվերամեկնարկվի։
+TEXT_ASK_STOP_ARCHIVING                 = Ցանկանո՞ւմ եք կասեցնել արխիվացումը։
+TEXT_ASK_STOP_MODIFYING                 = Ցանկանո՞ւմ եք կասեցնել այս գործողությունը։
+TEXT_ASK_APPLY_MODIFIED_FILE            = Ցանկանո՞ւմ եք հաստատել փոխված ֆայլն [br](${str1}) արխիվում։
+TEXT_ASK_INSTALL_ICONPACK               = Պատրաստվում եք տեղադրե՞լ ու հաստատե՞լ (${str1}) պատկերակի փաթեթը։
+TEXT_ASK_MAKE_FOLDER                    = Պանակը գոյություն չունի։ Ցանկանո՞ւմ եք ստեղծել։[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Նշանակման պանակը չունի գրման թույլտվություն։[br][br]- ${str1}[br][br]Ցանկանո՞ւմ եք շարունակել։
+TEXT_ASK_CONT_NOFREESPACE               = Նշանակման պանակում տեղը բավարար չէ։ Փոխեք պանակը։ [br][br]- ${str1}[br][br]Ցանկանո՞ւմ եք շարունակել։
+TEXT_ASK_ASK_UAC_ELEVATION              = Ձեզ չի թույլատրվել փոխել այս ֆայլերը։ [br][br]Ցանկանո՞ւմ եք վերամեկնարկել այս ծրագիրը որպես ադմինիստրատոր։
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Չի ստացվում բացել այս արխիվը։ [br][br]Ցանկանո՞ւմ եք բացել հատվող ֆայլի առաջին մասը (${str1})։
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Եթե արխիվացնելուց հետո ջնջեք ֆայլերը, ապա վնասված լինելիս կկորցնեք կարևոր ֆայլերը։[br][br]Ցանկանո՞ւմ եք նշել «Փորձարկել արխիվը» ընտրանքը։
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Սկավառակի տարածությունը բավարար չէ, որ արդյունահանվի։ Ցանկանո՞ւմ եք շարունակել։[br][br]Նշանակման պանակ՝ ${str1}[br]Ազատ տեղ սկավառակում՝ ${str2}[br]Արդյունահանվող ֆայլի չափ՝ ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Այս ֆայլը վնասված է
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Ֆայլը վնասված է կամ անհրաժեշտ է այլ հատման ֆայլ
+
+TEXT_BTN_PAUSE                          = Դադար
+TEXT_BTN_RESUME                         = Շարունակել
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Սխալ է տեղի ունեցել
+TEXT_ERRDLG_USER_ABORT                  = Ձախողվել է
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Չի ստացվում բացել այս ֆայլը
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Չի ստացվում բացել այս ֆայլը, քանի որ ֆայլն օգտագործվում է այլ ծրագրի կողմից
+TEXT_ARKERR_PASSWORD_NOT_SET            = Անհրաժեշտ է գաղտնաբառ
+TEXT_ARKERR_INVALID_PASSWD              = Անվավեր գաղտնաբառ
+TEXT_ARKERR_USER_ABORTED                = Ձախողվել է
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC-ի սխալ
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Չի ստացվում բացել ելքային ֆայլը
+TEXT_ARKERR_CANT_READ_DATA              = Չի ստացվում կարդալ արխիվի տվյալները
+TEXT_ARKERR_INFLATE_FAILED              = Տվյալների սխալ - Այս ֆայլը վնասված է
+TEXT_ARKERR_BZIP2_ERROR                 = Տվյալների սխալ - Այս ֆայլը վնասված է
+TEXT_ARKERR_DATA_CORRUPTED              = Ֆայլը վնասված է կամ անհրաժեշտ է այլ հատման ֆայլ
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Չի ստացվում բացել այս ֆայլը
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Չի ստացվում ստեղծել պանակ
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Չի աջակցվում սեղմման մեթոդը
+TEXT_ARKERR_WRITE_FAIL                  = Կա սխալ, մինչ գրվում էր
+TEXT_ARKERR_DISK_FULL                   = Սկավառակը լի է
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Ձախողվել է ստեղծել ֆայլը։ Ֆայլի ուղին և անունը չեն կարող գերազանցել 260 գրանշանը։
+TEXT_ARKERR_CANT_CREATE_FILE            = Ձախողվել է ստեղծել ֆայլը
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Ձախողվել է ստեղծել ֆայլը։ Գործարկե՛ք ծրագիրը ադմինիստրատորի իրավունքներով։
+TEXT_ARKERR_USER_SKIP                   = Բաց թողնված
+TEXT_ARKERR_FILE_TRUNCATED              = Այս ֆայլի վերջնամասը վնասված է կամ բացակայում է
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Գաղտնաբառն անվավեր է կամ ֆայլը վնասված է
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Այս ֆայլը վնասված է
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Ինքնուրույն արդյունահանվող ֆայլը (*.exe) ավելի քան 4GB է։ Չեք կարող իրագործել 4GB ֆայլը Windows-ում։
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Չի ստացվում բացել այս արխիվի ֆայլը։ Անհրաժեշտ է հետևյալ (.z01, .z02...) հատման ֆայլը։
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Չի ստացվում բացել այս Zip ֆայլը։ Անհրաժեշտ է հետևյալ (.z01, .z02...) հատման ֆայլը։
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Չի ստացվում բացել այս արխիվի ֆայլը։ Անհրաժեշտ է այլ հատման ֆայլ։
+TEXT_ARKERR_CORRUPTED_FILE              = Այս ֆայլը վնասված է
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Չկա թույլտվություն, այս պանակում գրելու համար
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Չկա թույլտվություն, այս պանակում գրելու համար։ Գործարկեք ծրագիրը ադմինիստրատորի իրավունքներով։
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Չի աջակցվում այս գաղտնագրման ալգորիթմը
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Հիշողությունը պակաս է
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Հիշողությունը պակաս է։ Փոխեք սեղմման մակարդակը։
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Չի աջակցվում այս գործողությունը
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Արդյունահանված ֆայլի չափը և արխիվի գլխամասի տեղեկությունը տարբեր են։
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Չի ստացվում ստեղծել ֆայլն ավելի խոշոր քան 4GB։ Ընտրե՛ք տարբերվող ֆայլի ձևաչափ (ZIP կամ 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Երկար ֆայլանունն ավտոմատ կրճատվել է։
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Չի ստացվում բացել աղբյուրի ֆայլը, որ պատճենվի։
+TEXT_ARKERR_NOTIMPL                     = Չի իրականացվել։
+TEXT_ARKERR_CANT_READ_FILE              = Չի ստացվում կարդալ ֆայլը։
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Գործարկեք Bandizip-ը որպես Ադմինիստրատոր, որ ստեղծվի սիմվոլիկ հղում։
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Չի ստացվում ստեղծել սիմվոլիկ հղում։
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Առանց հատման
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Ընտրովի չափ
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Առանց սեղմում
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Արագ սեղմում
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Նորմալ սեղմում
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Առավելագույն սեղմում
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Նոր սեղմում
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Ավելացնել ֆայլերն արխիվին
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Վերանվանելˋ ${str1}
+TEXT_TITLE_TEST_MODE                    = Արխիվի փորձարկում
+TEXT_TITLE_TEMPFOLDER_MODE              = Արդյունահանվում է ժամանակավոր պանակում...
+TEXT_TITLE_MODIFYING                    = Փոփոխվում է...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = ֆայլ, արդյունահանման համար
+TEXT_MSG_SELECTED_FILE                  = ընտրված է ${num1} ֆայլ(եր)
+TEXT_MSG_SELECTED_FOLDER                = ընտրված է ${num1} պանակ(ներ)
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} ֆայլ(եր), ${num2} պանակ(ներ)
+TEXT_MSG_SELECTED_FILESIZESUM           = Ընտրված ֆայլի չափˋ ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Տարբերակի ստուգումը ձախողվել է
+TEXT_UPDATE_VERSION_CHECKING            = Տարբերակի ստուգում
+TEXT_UPDATE_DOWNLOAD_FAILED             = Ներբեռնումը ձախողվել է
+TEXT_UPDATE_LATEST_VERSION              = Թարմ է
+TEXT_UPDATE_DO_DOWNLOAD                 = Անհրաժեշտ է թարմացնել
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Ներբեռնումն ավարտված է
+
+TEXT_INSTALL_HONEYVIEW                  = Տեղադրել Honeyview-ն
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview-ն տեղադրված չէ ձեր համակարգչում։
+TEXT_INSTALL_HONEYVIEW_2                = Խնդրում ենք փորձել Bandisoft-ի մշակած Honeyview ծրագիրը։<br> Այն աջակցում է նկարների դիտմանը սեղմված ZIP, RAR կամ 7z ֆայլերում առանց արդյունահանման։
+
+
+
+[MENU]
+MENUSTR_FILE                            = &Ֆայլ
+MENUSTR_EDIT                            = &Խմբագրել
+MENUSTR_SETTING                         = &Ընտրանքներ
+MENUSTR_FIND                            = Գ&տնել
+MENUSTR_VIEW                            = &Դիտել
+MENUSTR_HELP                            = &Օգնություն
+
+MENUSTR_OPEN                            = &Բացել արխիվ\tCtrl+O
+MENUSTR_RECENT                          = Վերջին ֆայլերը
+MENUSTR_CLOSE_FILE                      = &Փակել արխիվը\tF4
+MENUSTR_CREATE_ARCHIVE                  = &Նոր արխիվ\tCtrl+N
+MENUSTR_NEW_WINDOW                      = Նոր պատուհան \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Նոր պատուհան(Ադմինիստրատոր)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Պահպանել որպես
+MENUSTR_DELETE_ARCHIVE                  = Ջնջել արխիվը \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Ընդմիշտ ջնջել արխիվը \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Բացել արխիվի գտնվելու տեղը
+MENUSTR_TEST_ARCHIVE                    = &Փորձարկել արխիվը \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &Արդյունահանել ֆայլը \tCtrl+E
+MENUSTR_EXIT                            = Ե&լք \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Վերանվանել ֆայլը \tF2
+MENUSTR_ADD_FILE                        = &Ավելացնել ֆայլ \tIns
+MENUSTR_DELETE_FILE                     = &Ջնջել ֆայլը \tDel
+MENUSTR_EDIT_COMMENT                    = Արխիվի մեկնաբանություն
+MENUSTR_SETTING_SUB                     = &Կարգավորումներ (F5)
+MENUSTR_FIND_ITEM                       = Գ&տնել ֆայլեր\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Պատճենել ֆայլերը կցատարում\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Տեղադրել ֆայլերը կցատարից\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = Մեկնարկի էկրան \tF6
+MENUSTR_VIEW_TREECONTROL                = Ծառատեսքի կառավարում \tF7
+MENUSTR_VIEW_COMMENT                    = Արխիվի մեկնաբանություն\tF8
+MENUSTR_VIEW_PREVIEW                    = Նախադիտել նկարը
+MENUSTR_VIEW_TOOLBAR                    = Գործիքադարակ
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Խոշոր
+MENUSTR_VIEW_TOOLBAR_MINI               = Փոքր
+MENUSTR_VIEW_TOOLBAR_OLD                = Հին
+MENUSTR_VIEW_TOOLBAR_HIDE               = Թաքցնել
+MENUSTR_VIEW_LISTVIEW                   = Ֆայլի ցանկ
+MENUSTR_VIEW_LISTVIEW_ICON              = Պատկերակներ
+MENUSTR_VIEW_LISTVIEW_LIST              = Ցանկ
+MENUSTR_VIEW_LISTVIEW_REPORT            = Մանրամասն
+MENUSTR_VIEW_COLUMN                     = Սյունակ
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Միշտ վերևում
+MENUSTR_VIEW_COLOR_SETTING              = Գույնի կարգավորումներ...
+
+
+MENUSTR_ABOUT                           = &Bandizip-ի մասին \tF1
+MENUSTR_HELPPAGE                        = &Այցելել օգնության էջ
+MENUSTR_OPEN_FOLDER                     = &Բացել Bandizip-ի պանակը
+MENUSTR_FORUM                           = Այցելել Bandizip-ի &ֆորում
+MENUSTR_HOMEPAGE                        = Այցելել &Վեբկայք
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Սեղմված չափ
+POPUPMENU_VIEWITEM_ORIGSIZE             = Օրիգինալ չափ
+POPUPMENU_VIEWITEM_KIND                 = Ֆայլի տեսակ
+POPUPMENU_VIEWITEM_DATE_MOD             = Փոփոխման ամսաթիվ
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Սեղմման մեթոդ
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Գաղտնագրման մեթոդ
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Ֆայլի հատկություններ
+POPUPMENU_VIEWITEM_COMMENT              = Ֆայլի մեկնաբանություն
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Արդյունահանել բոլորը... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Արդյունահանել ընտրված ֆայլերը...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Բոլորն արդյունահանել այստեղ
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Բացել\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Բացել կապակցված ծրագրով
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Խմբագրել\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Բացել Bandizip-ով
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Նոր պանակ
+POPUPMENU_LISTCONTROL_ADD_FILE          = Ավելացնել ֆայլ... \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Ջնջել ֆայլը \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Վերանվանել ֆայլը
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Ընտրել բոլորը \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Տեղափոխել դեպի հարազատ պանակ\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Ջնջել արխիվը
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Բացել արխիվի պանակը
+
+POPUPMENU_EXTRACT_AUTODEST              = Ավտոմատ արդյունահանել\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Արդյունահանել ընթացիկ պանակում\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Արդյունահանել «Արխիվի անվան» պանակում
+POPUPMENU_EXTRACT_DESKTOP               = Արդյունահանել աշխատասեղանին
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Ավտոմատ արդյունահանել աշխատասեղանին
+
+POPUPMENU_RECENT_CLEAR                  = Ջնջել պատմությունը
+POPUPMENU_RECENT_NOITEM                 = Չկա վերջին ֆայլերից
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Բացել Bandizip-ով
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Ավտոմատ արդյունահանել
+
+POPUPMENU_CODEPAGE_DEFAULT              = Լռելյայն
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Չինարեն Պարզեցված
+POPUPMENU_CODEPAGE_TRADCHINESE          = Չինարեն Ավանդական
+POPUPMENU_CODEPAGE_JAPANESE             = Ճապոներեն
+POPUPMENU_CODEPAGE_KOREAN               = Կորեերեն
+POPUPMENU_CODEPAGE_WINDOWS1252          = Արևմտաեվրոպական
+POPUPMENU_CODEPAGE_WINDOWS1250          = Կենտրոնաեվրոպական
+POPUPMENU_CODEPAGE_WINDOWS1251          = Կիրիլիցա
+POPUPMENU_CODEPAGE_WINDOWS1254          = Թուրքերեն
+POPUPMENU_CODEPAGE_WINDOWS737           = Հունարեն
+POPUPMENU_CODEPAGE_ARABIC               = Արաբերեն
+POPUPMENU_CODEPAGE_HEBREW               = Եբրայերեն
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Ավտոմատ հայտնաբերել
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Դիտել Honeyview-ով
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Դիտել կապակցված ծրագրով
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Փոքրացնել սկուտեղում
+DLG_MENUSTR_LOW_PRIORITY                = Ցածր առաջնություն
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Արդյունահանումից հետո ջնջել արխիվը
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = Լավ
+IDCANCEL                                = Չեղարկել
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Bandizip-ի մասին
+IDC_BTN_HOMEPAGE                        = Վեբկայք
+IDC_BTN_UPDATE                          = Թարմացնել
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Բացել ֆայլը
+IDC_STATIC_OPENING                      = Բացվում է
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Ընտրեք արդյունահանման ուղին
+IDC_STATIC_FOLDER                       = &Նշանակման ուղի
+IDC_STATIC_FILES2EXTRACT                = Արդյունահանելˋ
+IDC_RADIO_FILES2EXTRACT_0               = &Բոլոր ֆայլերը
+IDC_RADIO_FILES2EXTRACT_1               = &Ընտրված ֆայլերը
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Արդյունահանել «Արխիվի անունով», ընտրված պանակի ներսում
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Արդյունահանումից հետո ջնջել օրիգինալ ֆայլերը
+IDC_CHK_REMEMBER_SETTINGS               = Հիշել կարգավորումները
+IDC_BTN_NEWFOLDER                       = &Նոր պանակ
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Արդյունահանել
+IDC_BTN_STOP                            = Կասեցնել
+IDC_BTN_CLOSE                           = Փակել
+IDC_BTN_PAUSE                           = Դադար
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Նոր արխիվ
+IDC_STATIC_FILE_LIST                    = Ավելացնել ֆայլերն արխիվին
+IDC_STATIC_ARCHIVE_SETTING              = Արխիվի կարգավորումներ
+IDC_STATIC_ARCHIVE_NAME                 = Ֆայլի անուն
+IDC_STATIC_SET_DEST_FOLDER              = Թիրախային պանակ
+IDC_STATIC_ARCHIVE_TYPE                 = Արխիվի ձևաչափ
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Հատել ծավալներով
+IDC_STATIC_COMPRESSION_METHOD           = Սեղմման մակարդակ
+IDC_STATIC_HELP_SPLIT                   = [Օգնություն]
+IDC_STATIC_HELP_7Z                      = [7Z ձևաչափ]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Դիտարկել...
+IDC_BTN_TEST_ARCHIVE                    = &Փորձարկել արխիվը
+IDC_BTN_DELETE_SRC                      = Արխիվացնելուց հետո ջնջել ֆայլերը
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Սեղմել յուրաքանչյուր ֆայլի/պանակի անվամբ
+IDC_BTN_SET_DEST_FOLDER                 = Փոխել նշանակման պանակը
+IDC_BTN_TOGGLE_ADVANCED                 = Այլ ընտրանքներ...
+IDC_BTN_SET_SFX                         = SFX կարգավորումներ...
+IDC_BTN_ADD                             = &Ավելացնել...
+IDC_BTN_DEL                             = &Ջնջել
+IDC_BTN_START                           = &Սկսել
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Գաղտնաբառն անվավեր է։ Վերամուտքագրեք այն։
+IDC_BTN_SHOW_PASSWORD                   = Ցուցադրել գաղտնաբառը
+IDC_CHECK_APPLY_ALL                     = &Հաստատել բոլորը
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = Ցուցադրել գաղտնաբառը
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Ընտրել
+IDC_BTN_OPEN                            = Բացել
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Արխիվացվում է
+TEXT_ARCHIVE_TESTING                    = Փորձարկվում է
+IDC_BTN_STOP                            = Կասեցնել
+IDC_BTN_CLOSE                           = Փակել
+IDC_BTN_PAUSE                           = Դադար
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Բազմացած ֆայլեր
+IDC_STATIC_DUPE_MESSAGE                 = Նույն ֆայլն առկա է։
+IDC_STATIC_DUPEFILE_OLD                 = Օրիգինալ ֆայլ
+IDC_STATIC_DUPEFILE_NEW                 = Ընթացիկ ֆայլ
+IDC_STATIC_DUPE_ASK                     = Ընտրեք ներքևի ընտրանքըˋ
+IDC_RADIO_DUPE_METHOD0                  = &Բաց թողնել
+IDC_RADIO_DUPE_METHOD1                  = &Վրագրել
+IDC_RADIO_DUPE_METHOD2                  = &Վերանվանել
+IDC_CHECK_DUPE_APPLY_ALL                = &Հաստատել բոլոր ֆայլերում
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Ընտրեք արխիվի ընտրանք
+IDC_STATIC_ASK_HANDLING                 = Ընտրեք ներքևի ընտրանքըˋ
+IDC_RADIO_HANDLE_METHOD0                = &Բացել արխիվը
+IDC_RADIO_HANDLE_METHOD1                = &Նոր արխիվ
+IDC_RADIO_HANDLE_METHOD2                = &Ավելացնել ֆայլն(երն) ընթացիկ արխիվին
+IDC_CHK_PASS                            = Կիրառել գաղտնաբառ
+IDC_STATIC_PASSWORD_AGAIN               = Վերամուտքագրել գաղտնաբառը
+IDC_CHK_SHOW_PASS                       = Ցուցադրել գաղտնաբառը
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Կարգավորումներ
+IDC_BTN_INIT                            = Զրոյացնել
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Գլխավոր կարգավորումներ
+IDC_CHK_EXIT_WITH_ESC                   = ESC ստեղն, պատուհանը փակելու համար
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Միշտ ստուգել ֆայլերը, երբ ֆայլը ավելացված/ջնջված/վերանվանված է
+IDC_CHK_SNAP                            = Կառչող պատուհան
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Ցուցադրել [..] հասցեագիրքն արխիվում
+IDC_CHK_SHOW_GRID_AT_LIST               = Ցուցադրել ցանց մանրամասն դիտելիս
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Լրիվ շարքի ընտրում
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Ֆայլի կապակցումներ
+IDC_BTN_SELECT_MANDATORY                = Կարևորները
+IDC_BTN_SELECT_ALL                      = Ընտրել բոլորը
+IDC_BTN_CLEAR_ALL                       = Հանել բոլորը
+IDC_BTN_APPLY_NOW                       = Հաստատել
+IDC_STATIC_ICON_PACK                    = Ընտրեք պատկերակի փաթեթˋ
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Պատկերակի փաթեթի ներբեռնում]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Ընդլայնման կապակցում
+;IDC_STATIC_ASSOC_DESC1                 = Windows 8 կամ ավելի նոր տարբերակների համար, կարող եք կապակցել ֆայլերն ըստ հետևյալիˋ
+;IDC_STATIC_ASSOC_DESC2                 = 1. Սեղմեք հետևյալ «Կապակցման կարգավորումներ» կոճակը։
+;IDC_STATIC_ASSOC_DESC3                 = 2. Սեղմեք «Ընտրել բոլորը» ծրագրի կապակցման կարգավորումների պատուհանում։
+;IDC_STATIC_ASSOC_DESC4                 = 3. Սեղմեք «Պահպանել» կոճակը։
+;IDC_STATIC_ASSOC_DESC1_10              = Windows 10 կամ ավելի նոր տարբերակների համար, կարող եք կապակցել ֆայլերն ըստ հետևյալիˋ
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Սեղմեք հետևյալ «Կապակցման կարգավորումներ» կոճակը։
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Ընտրեք «Bandizip» լռելյայն ծրագրերի նշման պատուհանում։
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Սեղմեք «Նշել այս ծրագիրը որպես լռելյայն»։
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Կապակցման կարգավորումնոր
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Դասական մեթոդ
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Կրկնակի մկնիկի սեղմման գործողություն
+IDC_RADIO_SHELL_OPEN_0                  = Բացել Bandizip-ով
+IDC_RADIO_SHELL_OPEN_1                  = Ավտոմատ արդյունահանել
+IDC_RADIO_SHELL_OPEN_2                  = Ցուցադրել համատեքստային ցանկը
+IDC_RADIO_SHELL_OPEN_3                  = Ավտոմատ արդյունահանել նշանակված պանակում
+IDC_BTN_SET_EXTRACT_FOLDER              = Դիտարկել...
+IDC_RADIO_SHELL_OPEN_4                  = Արդյունահանել «Արխիվի անվան» պանակում
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Արդյունահանումից հետո ջնջել արխիվը կրկնակի սեղմմամբ
+
+IDC_STATIC_SHELL_EXTRACT                = Արդյունահանման մենյու
+IDC_CHK_SHELL_EXTRACT_HERE              = Արդյունահանել այստեղ
+IDC_CHK_SHELL_EXTRACT_AUTO              = Ավտոմատ արդյունահանել
+IDC_CHK_SHELL_EXTRACT_SUB               = Արդյունահանել «Արխիվի անվան» պանակում
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Արդյունահանել այստեղ և ջնջել
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Ավտոմատ արդյունահանել այստեղ և ջնջել
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Արդյունահանել «Արխիվի անվան» պանակում և ջնջել
+IDC_CHK_SHELL_EXTRACT_DLG               = Արդյունահանել այլ պանակում
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Արդյունահանել որպես Ադմինիստրատոր
+IDC_CHK_SHELL_TEST_ARCHIVE              = Փորձարկել արխիվը
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Բացել Bandizip-ով
+IDC_CHK_SHELL_PREVIEW                   = Նախադիտել արխիվը
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Նախադիտման ֆայլերˋ
+IDC_CHK_SHELL_PREVIEW_TREE              = Նախադիտել արխիվը ծառաձև
+
+IDC_STATIC_SHELL_ARCHIVING              = Սեղմման մենյու
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = Սեղմել «ՖայլիԱնուն.zip-ում»
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Սեղմել «ՖայլիԱնուն.zip-ում» և ուղարկել փոստով
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = Սեղմել «ՖայլիԱնուն.zipx-ում»
+IDC_CHK_SHELL_ARCHIVING_EXE             = Սեղմել «ՖայլիԱնուն.exe-ում»
+IDC_CHK_SHELL_ARCHIVING_TAR             = Սեղմել «ՖայլիԱնուն.tar-ում»
+IDC_CHK_SHELL_ARCHIVING_TGZ             = Սեղմել «ՖայլիԱնուն.tgz-ում»
+IDC_CHK_SHELL_ARCHIVING_LZH             = Սեղմել «ՖայլիԱնուն.lzh-ում»
+IDC_CHK_SHELL_ARCHIVING_ISO             = Սեղմել «ՖայլիԱնուն.iso-ում»
+IDC_CHK_SHELL_ARCHIVING_7Z              = Սեղմել «ՖայլիԱնուն.7z-ում»
+IDC_CHK_SHELL_ARCHIVING_GZ              = Սեղմել «ՖայլիԱնուն.gz-ում»
+IDC_CHK_SHELL_ARCHIVING_XZ              = Սեղմել «ՖայլիԱնուն.xz-ում»
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = Սեղմել «ՖայլիԱնուն.zpaq-ում»
+IDC_CHK_SHELL_ARCHIVING_EACH            = Սեղմել յուրաքանչյուր «Ֆայլի/ՊանակիԱնուն.zip-ում»
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = Սեղմել յուրաքանչյուր «Ֆայլի/ՊանակիԱնուն.7z-ում»
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Ստեղծել արխիվ (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Սեղմել որպես ադմինիստրատոր
+IDC_CHK_SHELL_ARCHIVING_RULE            = Սեղմել ընտրովի ֆայլի անվամբ
+IDC_STATIC_FILENAME_RULE_HELP           = Կանոն՝ ${NAME}=Ֆայլանուն, %Y=Տարի, %m=Ամիս, %d=Օր, %H=Ժամ, %M=Րոպե, %S=Վայրկյան
+
+IDC_STATIC_SHELL_BKGND                  = Աջ սեղմումով Windows Explorer-ում բացվող վրադիր մենյու
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Կիրառել «Նոր պանակ» գործառույթը
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Բացել հրամանի պատուհանը (cmd.exe) - Սեղմեք Shift, որ բացվի ադմին․-ի անունից
+
+IDC_STATIC_SHELL_ETC                    = Այլ
+IDC_CHK_SHELL_DO_NOT_USE                = Անջատել համատեքստային ցանկը
+IDC_CHK_SHELL_AS_SUB_MENU               = Կասկադային ցանկ
+IDC_CHK_SHELL_HIDE_ICON                 = Թաքցնել Bandizip-ի պատկերակը
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Տարբերել արխիվի ֆայլը պարունակության միջից
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Ցուցադրել արխիվի համատեքստային ցանկը նույնիսկ արխիվի ֆայլերի համար
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Ընտրել առկա ֆայլի/պանակի անունով, երբ ընտրվում են բազմաթիվ ֆայլեր/պանակներ
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Explorer-ում եղած ZIP ֆայլում քաշել ու գցելով ֆայլերի ուղիղ ավելացում
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Արդյունահանման կարգավորումներ
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Եթե արխիվում հիմքային պանակը միայն մեկն է, ապա ցուցադրել պանակի ֆայլերը
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Արդյունահանումից հետո բացել պանակը
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Արդյունահանումից հետո չփակել առաջընթացի պատուհանը
+IDC_CHK_FAST_DRAG_DROP                  = Կիրառել արագ Քաշել ու Գցել հարմարանքը, եթե արդյունահանման ֆայլը խոշոր է
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Արդյունահանել TGZ, TBZ ֆայլը միաժամանակ
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Նույնիսկ TGZ, TBZ ֆայլի խոշոր չափի դեպքում
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = «Ավտոմատ արդյունահանել» նոր պանակում, եթե նույնիսկ արխիվացված ֆայլը մեկն է
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Ավտոմատ հայտնաբերել Macintosh-ի էջի կոդը
+IDC_CHK_UNIXZIP_AS_UTF8                 = Կիրառել UTF-8 էջի կոդ, երբ բացում եք zip ֆայլը UNIX-ից
+IDC_STATIC_CODEPAGE                     = Լռելյայն էջի կոդ
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Փաթեթից հանել ամեն ինչˋ
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Արխիվի սեղմման կարգավորումներ
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Չստեղծել հիմքային պանակ, երբ սեղմում եք միայն մեկ պանակ
+IDC_CHK_USE_UTF8_COMPRESS               = Կիրառել Unicode ֆայլի անուններ Zip ֆայլերում (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Պահել Unicode ֆայլի անունները Zip ֆայլերի լրացուցիչ գլխամասում (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Կիրառել Unicode ֆայլի անուններ tar,tgz ֆայլերում (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Միշտ օգտագործել ZIP64 ձևաչափը, նույնիսկ եթե ֆայլի չափն ավելի քիչ է քան 2GB (Չի առաջարկվում)
+IDC_CHK_EXCLUDE_THUMBSDB                = Բացառել thumbs.db ֆայլն արխիվացնելիս
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Պահպանել NTFS ժամային տեղեկությունը Zip ֆայլեր ստեղծելիս
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Կիրառել բարձր արագությամբ արխիվացում
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Արխիվացումից հետո չփակել առաջընթացի պատուհանը
+IDC_STATIC_COMPRESSION_METHOD           = Սեղմման մակարդակˋ
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Նոր արխիվի համար կիրառել ամենավերջին պանակը
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Լռելյայն պանակ, նոր արխիվի համար
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Դիտարկել...
+IDC_CHK_EXCLUDE_FILTER                  = Բացառման ենթակա ֆայլի տեսակներ, երբ արխիվացվում է
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Դիտողի կարգավորումներ
+IDC_CHK_SHOW_PREVIEW                    = Նախադիտել նկարը
+IDC_CHK_SHOW_FOLDER_SIZE                = Ցուցադրել պանակի սեղմված/օրիգինալ չափը
+
+IDC_STATIC_SETTING_VIEWITEM             = Սյունակներ
+IDC_CHK_VIEWITEM_COMPSIZE               = Սեղմված չափ
+IDC_CHK_VIEWITEM_ORIGSIZE               = Օրիգինալ չափ
+IDC_CHK_VIEWITEM_KIND                   = Ֆայլի տեսակ
+IDC_CHK_VIEWITEM_DATE_MOD               = Փոփոխման ամսաթիվ
+IDC_CHK_VIEWITEM_COMPMETHOD             = Սեղմման մեթոդ
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Գաղտնագրման մեթոդ
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Ֆայլի հատկություններ
+IDC_CHK_VIEWITEM_COMMENT                = Ֆայլի մեկնաբանություն
+
+IDC_STATIC_IMAGE_VIEWER                 = Նկարի դիտող
+IDC_RADIO_IMAGE_VIEWER_0                = Օգտագործել ներքին նկարի դիտողը
+IDC_RADIO_IMAGE_VIEWER_1                = Օգտագործել կապակցված ծրագիր
+IDC_RADIO_IMAGE_VIEWER_2                = Օգտագործել Honeyview-ն, եթե տեղադրված է
+
+IDC_STATIC_EDITOR                       = Խմբագրիչ
+IDC_BTN_SET_EDITOR_PATH                 = Դիտարկել...
+
+IDC_STATIC_COLOR                        = Գույն
+IDC_STATIC_COLOR_THEME                  = Թեմայի գույն
+IDC_BTN_BKGND                           = Ընտրված
+IDC_STATIC_COLOR_TEXT                   = Տառատեսակի գույն
+IDC_STATIC_COLOR_TEXT_AUTO              = Ավտոմատ
+IDC_STATIC_COLOR_TEXT_WHITE             = Սպիտակ
+IDC_STATIC_COLOR_TEXT_BLACK             = Սև
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Արտահանել կարգավորումները
+IDC_STATIC_ETC                          = Բազմազան կարգավորումներ
+IDC_CHK_SET_TEMP_FOLDER                 = Նշել ժամանակավոր պանակի վայրը
+IDC_BTN_SET_TEMP_FOLDER                 = Դիտարկել...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Հետևյալ ֆայլի տեսակները ճանաչել որպես արխիվներ
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Ջնջել ժամանակավոր ֆայլը, առնչվող պրոցեսը փակելիս
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Ֆայլերը տեղափոխել Աղբաման, երբ ջնջվում է
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Ցուցադրել ամենավերջին արխիվի պատմությունը
+IDC_CHK_USE_LONG_PATH_NAME              = Կառավարել երկար ուղու անունները, որոնք գերազանցում են 260 գրանշանը
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Թույլատրել Windows Explorer-ին ջնջել բացված արխիվի ֆայլերը
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Ավտոմատ ընդարձակել պանակի ծառը
+IDC_CHK_USE_MODAL_DIALOG                = Արխիվացնելիս/արդյունահանելիս կիրառել եղանակավոր երկխոսության պատուհան
+IDC_CHK_USE_ELEGANT_UI                  = Կիրառել նրբագեղ միջերեսի ոճ
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Ցուցադրել «Մեկնարկի էկրանը» Bandizip-ը մեկնարկելիս
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Ցուցադրել լրիվ ուղին վերնագրի տողում
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Ջնջել արդյունահանված ֆայլերն արդյունահանումը չեղարկելիս
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Լեզվի կարգավորումներ
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (Ինքնուրույն արդյունահանվող արխիվի) կարգավորումներ
+IDC_STATIC_TARGET_PATH                  = Արդյունահանման ուղիˋ
+IDC_STATIC_TITLE                        = SFX վերնագիրˋ
+IDC_STATIC_RUN                          = Արդյունահանումից հետո գործարկելˋ
+IDC_STATIC_MESSAGE                      = SFX գրությունˋ
+IDC_CHK_AUTO_CLOSE                      = Արդյունահանումից հետո փակել SFX պատուհանը
+IDC_BTN_SAVE_SFX_SETTING                = պահպանել կարգավորումները
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Գտնել ֆայլեր
+IDC_STATIC_FIND                         = Գտնել ինչˋ
+IDC_BTN_CLOSE                           = Փակել
+IDC_BTN_DELETE                          = Ջնջել
+IDC_BTN_EXTRACT                         = Արդյունահանել
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Արխիվի մեկնաբանություն
+IDC_STATIC_COMMENT                      = Ավելացնել/խմբագրել մեկնաբանությունն այս արխիվում
+IDC_CHK_USE_UTF8                        = Պահպանել մեկնաբանությունը որպես Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Բեռնել մեկնաբանություն (*.txt) ֆայլից...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = ՈՒՇԱԴՐՈՒԹՅՈՒՆ
+IDC_STATIC_WARN_EXECUTABLE              = Այս ֆայլը գործարկվող է։ Գործարկելով այս ծրագիրը, կարող է վնասվել Ձեր համակարգիչը։ Ցանկանո՞ւմ եք շարունակել։
+IDC_CHK_DO_NOT_ASK_AGAIN                = Չհարցնել կրկին
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Բացել
+$TOOLBAR_CLOSE_FILE                     = Փակել
+$TOOLBAR_EXTRACT_FILE                   = Հանել
+$TOOLBAR_CREATE_ARCHIVE                 = Նոր
+$TOOLBAR_DELETE_FILE                    = Ջնջել
+$TOOLBAR_ADD_FILE                       = Ավելացնել
+$TOOLBAR_TEST_ARCHIVE                   = Փորձարկել
+$TOOLBAR_CODEPAGE                       = Էջի կոդ
+$TOOLBAR_VIEWITEM                       = Սյունակ․
+
+$TOOLBAR_OPEN2                          = Բացել արխիվ
+$TOOLBAR_CREATE_ARCHIVE2                = Նոր արխիվ
+
+$TEXT_DESKTOP                           = Աշխատասեղան
+$TEXT_DOCUMENT                          = Փաստաթղթեր
+$TEXT_PICTURE                           = Նկարներ
+$TEXT_COMPUTER                          = Համակարգիչ
+
+$TEXT_SETTINGTAB_GENERAL                = Գլխավոր
+$TEXT_SETTINGTAB_ASSOC                  = Կապակցում
+$TEXT_SETTINGTAB_SHELL                  = Համատ․ ցանկ
+$TEXT_SETTINGTAB_EXTRACT                = Արդյունահանում
+$TEXT_SETTINGTAB_ARCHIVE                = Արխիվի սեղմում
+$TEXT_SETTINGTAB_VIEWER                 = Դիտող
+$TEXT_SETTINGTAB_ETC                    = Բազմազան
+$TEXT_SETTINGTAB_LANG                   = Լեզու
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Բացել ֆայլի տեղը
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Բացել արխիվի տեղը
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Արդյունահանումից հետո բացել ֆայլի տեղը
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Բացել արխիվի տեղը
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Բացել նշանակման պանակը
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Արդյունահանումից հետո չփակել այս պատուհանը
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Արխիվացումից հետո չփակել այս պատուհանը
+$TOOLTIP_ADVANCED_MENU                  = Բազմազան կարգավորումներ
+
+$TEXT_INSTALL_START                     = Լավ, կփորձեմ
+$TEXT_INSTALL_CLOSE                     = Ոչ, շնորհակալություն
+$TEXT_INSTALL_HONEYVIEW_LINK            = Տեսնել ավելին...
+
+$TEXT_HELP_PAGE                         = Օգնության էջ
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Նոր պանակ
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Նոր պանակ
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Բացել Bandizip-ով...
+TEXT_MENU_TEST_ARCHIVE                  = Փորձարկել արխիվը
+TEXT_MENU_LAUNCH_CMD                    = &Բացել հրահանգի պատուհանը
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Բացել հրահանգի պատուհանը (Ադմին)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Սեղմել յուրաքանչյուր ֆայլի/պանակի անունով
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = Սեղմել «յուրաքանչյուր ֆայլի/պանակի անունով.7z»
+TEXT_MENU_ARCHIVE_ZIP                   = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Սեղմել «${str1}-ում» և ուղարկել փոստով...
+TEXT_MENU_ARCHIVE_ZIPX                  = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_EXE                   = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_TAR                   = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_TGZ                   = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_LZH                   = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_ISO                   = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_7ZFMT                 = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_GZ                    = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_XZ                    = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_ZPAQ                  = Սեղմել «${str1}-ում»
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = Սեղմել յուրաքանչյուր «FileName.gz-ում»
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = Սեղմել յուրաքանչյուր «FileName.xz-ում»
+TEXT_MENU_ARCHIVE_RULE                  = Սեղմել «${str1}-ում» (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Ավելացնել արխիվին (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Սեղմել որպես Ադմինիստրատոր
+
+TEXT_MENU_EXTRACT_HERE                  = &Արդյունահանել այստեղ
+TEXT_MENU_EXTRACT_AUTO                  = Ավտոմատ արդյունահանել
+TEXT_MENU_EXTRACT_AUTO_EACH             = Ավտոմատ արդյունահանել (Յուրաքանչյուրը)
+TEXT_MENU_EXTRACT_SUB                   = Արդյունահանել յուրաքանչյուր արխիվն առանձին պանակում
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Արդյունահանել ${str1}-ում\
+TEXT_MENU_EXTRACT_DLG                   = Արդյունահանել այլ պանակում...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Արդյունահանել որպես Ադմինիստրատոր
+TEXT_MENU_EXTRACT_HERE_DEL              = Արդյունահանել այստեղ և ջնջել
+TEXT_MENU_EXTRACT_AUTO_DEL              = Ավտոմատ արդյունահանել այստեղ և ջնջել
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Ավտոմատ արդյունահանել (յուրաքանչյուրը) և ջնջել
+TEXT_MENU_EXTRACT_SUB_DEL               = Արդյունահանել առանձին պանակներում և ջնջել
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Արդյունահանել ${str1}-ում\ և ջնջել
+
+TEXT_MENU_PREVIEW                       = Նախադիտել արխիվը
+TEXT_MENU_PREVIEW_BROKEN                = Այս ֆայլը կամ [br] անհայտ ձևաչափ է կամ էլ վնասված
+TEXT_MENU_PREVIEW_TIMEOUT               = Հարցման ժամանակը սպառվել է։
+TEXT_MENU_PREVIEW_EMPTY                 = Դատարկ արխիվի ֆայլ
+TEXT_MENU_PREVIEW_ENCRYPTED             = Ֆայլանունը գաղտնագրված է
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Չի ստացվում կիրառել Նախադիտել արխիվը գործառույթը։ [br][br]Վերամեկնարկեք Windows Explorer-ը կամ [br]Ձեր համակարգիչը։
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Չի ստացվում կարդալ ֆայլի ցանկը
+
+TEXT_MENU_OPENING                       = Բացվում է...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip-ի թարմացումներ
+TEXT_UPDATER_TEXT1                      = Bandizip-ի թարմացումները պատրաստ են։
+TEXT_UPDATER_TEXT_DL                    = Կցանկանայի՞ք ներբեռնել այն։
+TEXT_UPDATER_BTN_UPDATE                 = Թարմացնել
+TEXT_UPDATER_BTN_OK                     = Լավ
+TEXT_UPDATER_BTN_CANCEL                 = Չեղարկել
+TEXT_UPDATER_DOWNLOAD_ERROR             = Ներբեռնումը ձախողվել է։
+TEXT_UPDATER_SETTING_UPDATE             = Կարգավորումներ
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Թիրախային ուղիˋ
+BTN_SELECT_FOLDER                       = Դիտարկել...
+BTN_EXTRACT                             = Սկսել
+BTN_CLOSE                               = Փակել
+BTN_CANCEL                              = Չեղարկել
+BTN_OPEN_FOLDER                         = Բացել
+CHK_OVERWRITE                           = Վրագրել
+ERR_ERROR_OCCURRED                      = Սխալ է տեղի ունեցել
+ERR_INVALID_PASSWORD                    = Գաղտնաբառն անվավեր է
+ASK_OVERWRITE                           = Նույն ֆայլն արդեն առկա է։ Ցանկանո՞ւմ եքվրագրել այն։
+MSG_COMPLETED                           = Արդյունահանումը հաջո՛ղ էր։
+IDD_PASSWORD                            = Մուտքագրել գաղտնաբառը
+IDC_STATIC_PASSWORD_MSG                 = Այս ֆայլը գաղտնագրված է։
+IDC_BTN_SHOW_PASSWORD                   = Ցուցադրել գաղտնաբառը
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Չի ստացվում արդյունահանել ֆայլերը։
+TEXT_ERR_CRC                            = CRC-ի սխալ։
+TEXT_ERR_INVALID_PASSWD                 = Անվավեր գաղտնաբառ։
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Տեղադրել ${APPNAME} ${APPVERSION}-ը
+$UNINSTALL_TITLE                        = Հեռացնել ${APPNAME} ${APPVERSION}-ը
+$UNINSTALL_STATIC                       = Սեղմեք Հեռացնել, որ սկսվի հեռացումը։
+
+$BTN_CLOSE                              = Փակել
+$BTN_CANCEL                             = Չեղարկել
+$BTN_INSTALL                            = Համաձայնել և տեղադրել
+$BTN_UNINSTALL                          = Հեռացնել
+$BTN_OPEN_LICENSE                       = [Տեսնել արտոնագրի համաձայնագիրը]
+$BTN_HELP_LINK                          = [Օգնություն]
+
+$TEXT_PATH                              = Նշանակման պանակ
+$TEXT_INSTALL_STATIC                    = Տեղադրվում է...
+
+$CHK_AUTO_REPORT                        = Ավտոմատ ուղարկել օգտագործման և վթարի տվյալները։
+
+ERR_CANT_CREATE_FOLDER                  = Ձախողվեց ստեղծել պանակ՝ ${str1}
+ERR_CANT_OPEN_FILE                      = Ձախողվեց բացել ֆայլ՝ ${str1}
+ERR_CANT_WRITE_FILE                     = Ձախողվեց գրել ֆայլ՝ ${str1}
+ERR_BROKEN_ARCHIVE                      = Այս սեղմված ֆայլը վնասված է՝ ${str1}
+ERR_CRC_ERROR                           = CRC սխալ՝ ${str1}
+ERR_NOT_ENOUGH_MEM                      = Հիշողությունը պակաս է՝ ${str1}
+
+MSG_FILE_OPEN_ERROR                     = Սխալ բացվող ֆայլ «${str1}-ի» գրման համար։[br]Սեղմեք Կասեցնել, կրկին փորձել կամ անտեսել ընտրանքներից որևէ մեկը։
+MSG_SUCCESS                             = Տեղադրումն ավարտվեց
+MSG_ERROR                               = Տեղի ունեցավ սխալ
+MSG_SELECT_FOLDER                       = Ընտրել պանակ։
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME}-ը դեռ գործարկվում է։ Առաջինը փակեք ծրագիրը։
+MSG_XP_IS_NOT_SUPPORTED                 = Այս ծրագրային ապահովումը պատշաճ կաշխատի միայն Windows Vista և ավելի նոր տարբերակներում։
+MSG_NEED_ADMIN_PRIVILEGE                = Այս ծրագիրը միայն կարող է տեղադրվելˋ օգտատերի կողմից, Ադմինիստրատորի արտոնություններով։[br][br]Ոչ-Ադմինիստրատոր օգտատերերը ճիշտ չեն կարող տեղադրել ծրագիրը։[br][br]Ցանկանո՞ւմ եք կասեցնել տեղադրումը։
+MSG_NEWVERSION_FOUND                    = Այս պահին հասանելի է նոր տարբերակ։ Կցանկանայի՞ք ներբեռնել այն։
+SHORTCUT_LINK_DESCRIPTOIN               = Բացել ${APPNAME}-ը
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

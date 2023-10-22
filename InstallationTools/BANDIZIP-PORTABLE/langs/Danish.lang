@@ -1,0 +1,1196 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Dansk
+TRANSLATORS                             = Jens Peter Nielsen
+DLG_FONT_NAME                           = Nunito
+DLG_FONT_SIZE                           = 8
+
+
+[TEXT]
+TEXT_BUILDNO                            = Opbygningsversion#
+TEXT_FILE                               = Fil
+TEXT_FOLDER                             = Mappe
+TEXT_ARCHIVE_SIZE                       = Total
+TEXT_ORIGINAL_SIZE                      = Original
+TEXT_ARCHIVE_FORMAT                     = Type
+TEXT_COMPRESSED_SIZE                    = Komprimeret
+TEXT_SOLID                              = Stabil
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Komprimeret fil (${str1})
+TEXT_PORTABLE                           = Transportabel
+TEXT_NEW_FOLDER                         = Ny mappe
+TEXT_FILESIZE_UNKNOWN                   = Ukendt
+TEXT_FILEDATE_UNKNOWN                   = Ukendt
+TEXT_HELP_LINK                          = [Hjælp - Online]
+TEXT_APP_DESC                           = Bandizip er en let, hurtig og gratis alt-i-én arkiveringsprogram. Den håndterer de mest populære komprimeringsformater, herunder Zip, 7z, Rar, og så videre.
+
+TEXT_MESSAGEBOX_OK                      = Ok
+TEXT_MESSAGEBOX_CANCEL                  = Annuller
+TEXT_MESSAGEBOX_ABORT                   = Afbryd
+TEXT_MESSAGEBOX_RETRY                   = Prøv igen
+TEXT_MESSAGEBOX_IGNORE                  = Ignorer
+TEXT_MESSAGEBOX_YES                     = Ja
+TEXT_MESSAGEBOX_NO                      = Nej
+TEXT_MESSAGEBOX_CONTINUE                = Fortsæt
+TEXT_MESSAGEBOX_HELP                    = Hjælp
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Vis dette ikke igen
+
+TEXT_COLUMN_NAME                        = Navn
+TEXT_COLUMN_COMPSIZE                    = Komprimeret
+TEXT_COLUMN_ORIGSIZE                    = Oprindelig
+TEXT_COLUMN_KIND                        = Type
+TEXT_COLUMN_DATE_MOD                    = Ændringsdato
+TEXT_COLUMN_COMPMETHOD                  = Kompressionsmetode
+TEXT_COLUMN_ENCRMETHOD                  = Krypteringsmetode
+TEXT_COLUMN_CRC                         = Cyklisk redundanstjek
+TEXT_COLUMN_ATTRIB                      = Egenskaber
+TEXT_COLUMN_COMMENT                     = Kommentar
+TEXT_COLUMN_EXT                         = Yderligere oplysninger
+TEXT_COLUMN_PATHNAME                    = Sti
+
+TEXT_ICONPACK_NAME                      = Navn
+TEXT_ICONPACK_DESIGNER                  = Designer
+TEXT_ICONPACK_COPYRIGHT                 = Ophavsretindehaver
+
+TEXT_ARCHIVE_COLUMN_NAME                = Navn
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Størrelse
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Mappe
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Total
+
+TEXT_SELECT_ARCHIVE_FILE                = Vælg arkiv
+TEXT_SELECT_TEXT_FILE                   = Vælg fil
+TEXT_SELECT_DEST_FOLDER                 = Vælg destinationsmappe
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Arkivfil
+TEXT_REGISTRY_FILE                      = Registreringsfil
+
+TEXT_OPENDLG_ARCHIVEFILES               = Arkiver filer
+TEXT_OPENDLG_ARCHIVEFILE                = Arkiver fil
+TEXT_OPENDLG_ALLFILES                   = Alle filer
+TEXT_OPENDLG_EXEFILES                   = Exe filer
+
+TEXT_ABOUTBOX_TAB1                      = Om Bandizip
+
+TEXT_ASSOC_GROUP0                       = Arkiver filer
+TEXT_ASSOC_GROUP1                       = Unix
+TEXT_ASSOC_GROUP2                       = Andre
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = For at åbne denne fil, hent venligst den nyeste version af Bandizip.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Vælg kun første del af opdelt fil
+TEXT_OPENERR_CANT_OPEN_FILE             = Åbning af fil mislykkedes (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Åbning af fil mislykkedes (${str1}) fordi filen bliver anvendt af et andet program
+TEXT_OPENERR_GENERAL                    = Åbning af fil mislykkedes (${str1}) (Kode:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Annulleret
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Ukendt filformat (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = (${str1}) er ikke en arkivfil
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Denne filtype understøttes ikke (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Denne krypteringsmetode understøttes ikke (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Indtast adgangskode
+TEXT_OPENERR_INVALID_PASSWORD           = Adgangskode er forkert
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Åbning af filen mislykkedes, fordi filens sidehoved er brudt
+
+TEXT_ERR_INIT_FAILED                    = Klargøring mislykkedes.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Forkert adgangskode eller ingen fil i arkivet
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Adgangskoderne stemmer ikke overens
+TEXT_ERR_PASSWORD_NOT_SET               = Adgangskode er nødvendig.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Din adgangskode indeholder ugyldige tegn. Sæt kun bogstaver/taltegn eller specialtegn
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Ugyldig opdelt filstørrelse
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Selvudpakkende) filstørrelse er begrænset til 4GB.
+TEXT_ERR_INTERNAL_ERROR                 = Intern fejl
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Ændring af arkivfilen mislykkedes
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Der opstod en fejl under arkiv-ændring
+TEXT_ERR_INVALID_FOLDER_PATH            = Ugyldig mappesti
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Kun ZIP-fil kan redigeres
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Redigering af opdelt fil mislykkedes
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Redigering af selvudpakningsfil (*.exe) mislykkedes
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Redigering af beskadiget fil mislykkedes
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Redigering af filformatet mislykkedes..
+TEXT_ERR_CANT_CHANGE_FILENAME           = Ændring af filnavnet mislykkedes
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Filnavnet må ikke indeholde disse tegn [br]? : \ / * < > | "'"
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Samme fil/mappe eksisterer. Ændring af filnavnet mislykkedes (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Oprettelse af mappe mislykkedes
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Ingen filer til arkiv
+TEXT_ERR_INVALID_PARAM                  = Ugyldig parameter.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Tilføjnng af fil til arkiv mislykkedes. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Åbning af arkivet mislykkedes [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Samme mappe eksisterer
+TEXT_ERR_FILENAME_EMPTY                 = Filnavnet er forkert
+TEXT_ERR_AT_DRAGANDDROP                 = Træk og slip mislykkedes
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Træk og slip mislykkedes. [br]Bandisoft har deaktiveret 'Hurtig Træk og slip' funktion og prøv igen
+TEXT_ERR_AT_CANT_OPEN_MMF               = Åbning af MMF-fil mislykkedes (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Ingen fil  er valgt
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Oprettelse af installationsmappe til ikonpakken mislykkedes
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Oprettelse af installationsfil til ikonpakken mislykkedes
+TEXT_ERR_AT_EXECUTE_DIRECT              = Åbning af filen mislykkedes. Udpak filen og prøv igen
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Oprettelse af større fil end 4GB mislykkedes.[br]Vælg en anden filformat (ZIP eller 7Z)
+TEXT_ERR_CANT_SAVE_AS                   = Det er ikke muligt at gemme filen.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip fandt et problem under redigering af filen.(${str1})[br][br]Vil du gerne sende en fejlrapport til Bandisoft?[br][br]Indsendelse af denne rapport hjælper Bandisoft forbedre Bandizip.
+
+TEXT_MSG_TEST_OK                        = Der er ingen fejl i dette arkiv
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Udpakning mislykkedes. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Udpakning lykkedes
+TEXT_MSG_EXTRACT_CANCELED               = Udpakning blev annulleret
+TEXT_MSG_COMPRESS_SUCCESS               = Arkivering blev fuldført
+TEXT_MSG_INTERNAL_ERROR                 = Intern fejl
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Det er ikke muligt at åbne følgende fil i den midlertidige mappe:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Sletning af arkivfilen mislykkedes
+TEXT_MSG_CRASH_REPORT                   = Bandizip har fundet en fejl og afsluttes.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip har fundet en fejl og afsluttes. [br]Ønsker du at sende en nedbrudsrapport til Bandizip's udvikler?
+TEXT_MSG_CRASH_REPORT3                  = Følgende DLL forårsager et problem og skal lukkes.[br]Vil du sende en nedbrudsrapport til Bandizip-udvikleren?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip reagerer ikke.[br][br]Ønsker du at sende et nedbrudsrapport til Bandizip-udvikleren og lukke programmet?
+TEXT_MSG_SET_TEMP_PATH                  = Angiv midlertidig sti
+TEXT_MSG_SET_PATH                       = Angiv sti
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Ikonpakken er korrekt installeret
+TEXT_MSG_NOTICE_RESTART                 = Programmet vil blive genstartet
+TEXT_MSG_ARCHVIE_OPENING                = Åbner arkivet
+TEXT_MSG_COMPLETING                     = Fuldfører: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Oprettelse af mappe mislykkedes. [br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Det er ikke muligt at komprimere til et .GZ/XZ arkiv.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Det er ikke muligt at komprimere flere filer til et .GZ/XZ arkiv. Undersøg venligst valgmuligheden "Komprimer til hver fil/mappenavn".
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip er minimeret til systembakken. [br]Klik på ikonen for at gendanne den.
+TEXT_MSG_TRAY_COMPLETED                 = Opgaven er fuldført.
+TEXT_MSG_BATCH_ARCHVING                 = Arkiverer: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Udpakker: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Tester: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Sletter: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Det lykkedes ikke at slette: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Igangværende arbejde...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Hvis tegnene ikke vises korrekt, så klik på<font color=red><b>Kodeside</b></font> ovenfor, og prøv derefter menuen <font color=red><b>Automatisk søgning</b></font>.
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = Vil du åbne ${ext]-filer med Bandizip?
+
+TEXT_ASK_DELETE_ARCHIVE                 = Denne arkivfil vil blive slettet.[br]Ønsker du at gøre det?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Ønsker du at slette denne arkiv?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Ønsker du at slette denne arkiv permanent?
+TEXT_ASK_CHANGE_FILENAME                = Den samme fil eksisterer.[br][br]Ønsker du at ændre filnavnet fra ${str1} til ${str2}?
+TEXT_ASK_DELETE_FILE                    = Ønsker du at slette den valgte fil?
+TEXT_ASK_STOP_EXTRACT                   = Ønsker du at stoppe udpakningen?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Den samme fil eksisterer.[br][br]Ønsker du at overskrive den?
+TEXT_ASK_INIT_SETTING                   = Ønsker du at nulstille til standard? Bandizip vil blive genstartet
+TEXT_ASK_STOP_ARCHIVING                 = Ønsker du at stoppe arkivering?
+TEXT_ASK_STOP_MODIFYING                 = Ønsker du at stoppe opgaven?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Ønsker du at anvende den ændrede fil til arkivet? [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Vil du installere og anvende ikonpakken (${str1})?
+TEXT_ASK_MAKE_FOLDER                    = Mappen findes ikke. Ønsker du at oprette den?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Destinationsmappen har ikke skrivetilladelse.[br][br]- ${str1}[br][br]Ønsker du at fortsætte?
+TEXT_ASK_CONT_NOFREESPACE               = Destinationsmappen har ikke plads nok. Skift destinationsmappen. [br][br]- ${str1}[br][br]Ønsker du at fortsætte?
+TEXT_ASK_ASK_UAC_ELEVATION              = Du har ikke tilladelse til at ændre disse filer. [br][br]Ønsker du at genstarte dette program som administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Åbning af denne arkivfil mislykkedes. [br][br]Ønsker du at åbne den første del af den opdelte fil (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Hvis du sletter filer efter arkivering, kan du miste vigtige filer, hvis filerne er brudt.[br][br]Ønsker du at bruge valgmuligheden "Test arkiv"?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Der er ikke nok diskplads til at udpakke. Ønsker du at fortsætte?[br][br]Destinationsmappe: ${str1}[br]Ledig plads: ${str2}[br]Udpakningsstørrelse: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Denne fil er defekt
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Filen er defekt eller en anden opdelt fil kræves
+
+TEXT_BTN_PAUSE                          = Pause
+TEXT_BTN_RESUME                         = Genoptag
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Der opstod en fejl
+TEXT_ERRDLG_USER_ABORT                  = Afbrudt
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Åbning af filen mislykkedes
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Åbning af filen mislykkedes, fordi filen benyttes af et andet program
+TEXT_ARKERR_PASSWORD_NOT_SET            = Adgangskode er påkrævet
+TEXT_ARKERR_INVALID_PASSWD              = Ugyldig adgangskode
+TEXT_ARKERR_USER_ABORTED                = Afbrudt
+TEXT_ARKERR_INVALID_FILE_CRC            = Fejl i cyklisk redundanstjek
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Åbning af uddata-filen mislykkedes
+TEXT_ARKERR_CANT_READ_DATA              = Læsning af arkivdata mislykkedes
+TEXT_ARKERR_INFLATE_FAILED              = Datafejl - Denne fil er defekt
+TEXT_ARKERR_BZIP2_ERROR                 = Datafejl - Denne fil er defekt
+TEXT_ARKERR_DATA_CORRUPTED              = Filen er defekt eller en anden opdelt fil kræves
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Åbning af filen mislykkedes
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Oprettelse af mappe mislykkedes
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Komprimeringsmetode understøttes ikke
+TEXT_ARKERR_WRITE_FAIL                  = Der er en fejl under skrivning
+TEXT_ARKERR_DISK_FULL                   = Diskplads er fuldt
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Oprettelse af fil fejlede. Filens sti og navn må ikke overstige 260 tegn
+TEXT_ARKERR_CANT_CREATE_FILE            = Oprettelse af fil fejlede
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Oprettelse af fil fejlede. Kør et program som administrator.
+TEXT_ARKERR_USER_SKIP                   = Sprunget over
+TEXT_ARKERR_FILE_TRUNCATED              = Denne afkortede fil er defekt eller mangler
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Adgangskoden er ugyldig, eller filen er defekt
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Denne fil er defekt
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Selvudpakkende fil (*.exe) er over 4 GB. Du kan ikke udføre 4GB fil i Windows.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Åbning af denne arkiv-fil mislykkedes. Følgende opdelt fil (.z01.z02..) er nødvendig.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Åbning af denne Zip-fil mislykkedes. Følgende opdelt fil (.z01.z02 ..) er nødvendig.
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Åbning af denne arkiv-fil mislykkedes. . Der er behov for en anden opdelt fil.
+TEXT_ARKERR_CORRUPTED_FILE              = Denne fil er defekt
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Du har ingen skrivetilladelse til denne mappe
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Du har ingen skrivetilladelse til denne mappe. Kør et program som administrator.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Understøt ikke denne krypteringsalgoritme
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Hukommelsestab
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Hukommelsestab. Skift komprimeringsniveau.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Understøt ikke denne handling
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Den udpakkede filstørrelse og arkivets hovedoplysninger er forskellige.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Oprettelse af større fil end 4GB. mislykkedes. Vælg et andet filformat (ZIP eller 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Det lange filnavn blev automatisk forkortet.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Åbning af kildefilen for at kopiere mislykkedes.
+TEXT_ARKERR_NOTIMPL                     = Ej gennemført.
+TEXT_ARKERR_CANT_READ_FILE              = Det er ikke muligt at læse filen.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Kør Bandizip som administrator for at oprette et symbolsk link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Det er ikke muligt at oprette et symbolsk link.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Filen er skrivbar og anvendes af en anden proces.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Der er ingen fil at arkivere.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Ingen opdeling
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Brugervalg
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-Ingen komprimering
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Hurtig komprimering
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Normal komprimering
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Maksimal komprimering
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Ny komprimering
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Tilføj filer til arkiv
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &Omdøb: ${str1}
+TEXT_TITLE_TEST_MODE                    = Arkiv test
+TEXT_TITLE_TEMPFOLDER_MODE              = Udpakker til midlertidig mappe...
+TEXT_TITLE_MODIFYING                    = Ændrer...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Fil til pakning
+TEXT_MSG_SELECTED_FILE                  = ${num1} fil(er) valgt
+TEXT_MSG_SELECTED_FOLDER                = ${num1} mappe(r) valgt
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} Fil, ${num2} Mappe
+TEXT_MSG_SELECTED_FILESIZESUM           = Valgt filstørrelse: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Versiontjek fejlede
+TEXT_UPDATE_VERSION_CHECKING            = Version tjekkes
+TEXT_UPDATE_DOWNLOAD_FAILED             = Overførslen mislykkedes
+TEXT_UPDATE_LATEST_VERSION              = Opdateret
+TEXT_UPDATE_DO_DOWNLOAD                 = En opdatering er påkrævet
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Overførslen blev fuldført
+
+TEXT_INSTALL_HONEYVIEW                  = Installér Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview er ikke installeret på din computer.
+TEXT_INSTALL_HONEYVIEW_2                = Prøv venligst Honeyview - udviklet af Bandisoft.<br> Det understøtter visning af billeder i komprimerede ZIP, RAR, eller 7z filer uden udpakning.
+
+TEXT_REGISTRATION_FAILED                = Registrering mislykkedes.[br]Kontroller din e-mailadresse og produktnøgle.
+TEXT_REGISTRATION_SUCCEED               = Din Bandizip er blevet registreret.
+TEXT_REGISTRATION_ASK                   = Er du sikker på, at du vil afregistrere Bandizip?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip er ikke registreret.[br]Køb og registrer Bandizip for at bruge det uden nogen begrænsede funktioner.
+TEXT_REGISTER_INFO                      = Følgende bruger har registreret Bandizip:[br]Email-adresse: ${str1}[br]Produktnøgle: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = Antimalware-scanning af arkiv
+TEXT_SCAN_AMSI_PROVIDER                 = AMSI-igangsættelse er veloverstået
+TEXT_SCAN_COMPLETED                     = Malwarescanning er afsluttet.
+TEXT_SCAN_MALWARE_DETECTED              = Malware blev fundet.
+TEXT_SCAN_MALWARE_NOTDETECTED           = Ingen malware blev fundet.
+TEXT_SCAN_MALWARE_TOOBIG                = Scanning mislykkedes. Filen er for stor.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = Der er fundet malware i arkivet.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= Der er fundet malware i arkivet. Udpakning er annulleret.
+TEXT_MSG_MALWARE_TEST_OK                = Ingen malware blev fundet i arkivet
+TEXT_MSG_AMSI_INIT_FAILED               = AMSI-igangsættelse til scanning er mislykket.[br]Besøg https://go.bandisoft.com/amsi for detaljer.
+TEXT_MSG_AMSI_WIN10_NOTICE              = Antimalware-scanning er kun tilgængelig i Windows 10/11.[br]Besøg https://go.bandisoft.com/amsi for detaljer.
+
+[MENU]
+MENUSTR_FILE                            = &Fil
+MENUSTR_EDIT                            = &Rediger
+MENUSTR_SETTING                         = &Valg
+MENUSTR_FIND                            = &Find
+MENUSTR_VIEW                            = &Vis
+MENUSTR_TOOLS                           = &Rebskaber
+MENUSTR_HELP                            = &Hjælp
+
+MENUSTR_OPEN                            = &Åbn arkiv \tCtrl+O
+MENUSTR_RECENT                          = Seneste filer
+MENUSTR_CLOSE_FILE                      = &Luk arkiv \tF4
+MENUSTR_CREATE_ARCHIVE                  = &Nyt arkiv\tCtrl+N
+MENUSTR_NEW_WINDOW                      = Nyt vindue \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Nyt vindue (Administrator)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Gem som...
+MENUSTR_DELETE_ARCHIVE                  = Slet arkiv \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Slet arkiv permanent \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Åbn arkivets placering
+MENUSTR_TEST_ARCHIVE                    = &Test arkiv \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = Antimalware-scanning af arkiv\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = &Udpak fil \tCtrl+E
+MENUSTR_EXIT                            = &Afslut \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &Omdøb fil \tF2
+MENUSTR_ADD_FILE                        = &Tilføj fil \tIns
+MENUSTR_DELETE_FILE                     = &Slet fil \tDel
+MENUSTR_EDIT_COMMENT                    = Arkiv kommentar
+MENUSTR_SETTING_SUB                     = &Indstillinger (F5)
+MENUSTR_REGISTER                        = Registrer Bandizip...
+MENUSTR_UNREGISTER                      = Afregistrer Bandizip...
+MENUSTR_PASSMAN                         = Håndtering af adgangskode...
+MENUSTR_FIND_ITEM                       = F&ind filer\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Kopiér filer til udklipsbordet\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Indsæt filer fra udklipsbordet\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = Kopier fulde navne til udklipsholder
+
+MENUSTR_VIEW_STARTSCREEN                = Startskærm \tF6
+MENUSTR_VIEW_TREECONTROL                = Trævisningskontrol \tF7
+MENUSTR_VIEW_COMMENT                    = Arkiv kommentar\tF8
+MENUSTR_VIEW_PREVIEW                    = Smugkig af billede
+MENUSTR_VIEW_STATUS_BAR                 = Statuslinie
+MENUSTR_VIEW_TOOLBAR                    = Værktøjslinie
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Stor
+MENUSTR_VIEW_TOOLBAR_MINI               = Lille
+MENUSTR_VIEW_TOOLBAR_OLD                = Forældret
+MENUSTR_VIEW_TOOLBAR_HIDE               = Skjul
+MENUSTR_SET_TOOLBAR_ITEM                = Vælg rebskabsknapperne
+MENUSTR_VIEW_LISTVIEW                   = Filliste
+MENUSTR_VIEW_LISTVIEW_ICON              = Ikoner
+MENUSTR_VIEW_LISTVIEW_LIST              = Liste
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detajler
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = Store ikoner
+MENUSTR_VIEW_COLUMN                     = Kolonne
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Vis altid
+MENUSTR_VIEW_COLOR_SETTING              = Farveindstillinger...
+
+MENUSTR_TOOLS_REPAIR                    = Reparér arkiv...
+MENUSTR_TOOLS_RECOVERY                  = Gendan adgangskode...
+
+MENUSTR_ABOUT                           = &Om Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Gå til Hjælp (Online)
+MENUSTR_OPEN_FOLDER                     = &Åbn mappen Bandizip
+MENUSTR_FORUM                           = Gå til &Forum
+MENUSTR_HOMEPAGE                        = Gå til &Hjemmeside
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Komprimeret
+POPUPMENU_VIEWITEM_ORIGSIZE             = Original
+POPUPMENU_VIEWITEM_KIND                 = Type
+POPUPMENU_VIEWITEM_DATE_MOD             = Ændringsdato
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Komprimeringsmetode
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Krypteringsmetode
+POPUPMENU_VIEWITEM_CRC                  = Cyklisk redundanstjek
+POPUPMENU_VIEWITEM_ATTRIB               = Egenskaber
+POPUPMENU_VIEWITEM_COMMENT              = Kommentar
+POPUPMENU_VIEWITEM_EXT                  = Yderligere oplysninger
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Udpak Alt \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Udpak valgte filer
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Udpak her
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Åbn\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Åbn med tilknyttet program
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Rediger\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Åbn med &Bandizip
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Ny mappe
+POPUPMENU_LISTCONTROL_ADD_FILE          = Tilføj fil \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Slet fil \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Omdøb fil
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Vælg alt \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Flyt til overordnet mappe \tTilbagetast
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Slet arkiv
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Åbn arkivmappe
+
+POPUPMENU_EXTRACT_AUTODEST              = Udpak automatisk\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Udpak her\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Udpak her som mappe
+POPUPMENU_EXTRACT_DESKTOP               = Udpak til skrivebordet
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Udpak automatisk til skrivebordet
+
+POPUPMENU_RECENT_CLEAR                  = Slet historik
+POPUPMENU_RECENT_NOITEM                 = Ingen nylige filer
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Åbn med Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Udpak automatisk
+
+POPUPMENU_CODEPAGE_DEFAULT              = Standard
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Kinesisk, forenklet
+POPUPMENU_CODEPAGE_TRADCHINESE          = Traditionelt kinesisk
+POPUPMENU_CODEPAGE_JAPANESE             = Japansk
+POPUPMENU_CODEPAGE_KOREAN               = Koreansk
+POPUPMENU_CODEPAGE_WINDOWS1252          = Vesteuropæisk
+POPUPMENU_CODEPAGE_WINDOWS1250          = Central Europæisk
+POPUPMENU_CODEPAGE_WINDOWS1251          = Kyrillisk
+POPUPMENU_CODEPAGE_WINDOWS1254          = Tyrkisk
+POPUPMENU_CODEPAGE_WINDOWS737           = Græsk
+POPUPMENU_CODEPAGE_ARABIC               = Arabisk
+POPUPMENU_CODEPAGE_HEBREW               = Hebraisk
+POPUPMENU_CODEPAGE_BALTIC               = Baltiske sprog
+POPUPMENU_CODEPAGE_THAI                 = Thailandsk
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Opdag automatisk
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Vis med Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Vis med tilknyttet program
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Minimér til systembakken
+DLG_MENUSTR_LOW_PRIORITY                = Lav prioritet
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Slet arkivet efter udpakning
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = Ok
+IDCANCEL                                = Annuller
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Om Bandizip
+IDC_BTN_HOMEPAGE                        = Hjemmeside
+IDC_BTN_UPDATE                          = Opdater
+IDC_BTN_REGIST                          = Registrer nu
+IDC_BTN_BUY                             = Køb nu
+IDC_BTN_LEARNMORE                       = Lær mere
+IDC_STATIC_LICENSE                      = Information om Bandizip-registrering
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Åbn fil
+IDC_STATIC_OPENING                      = Åbner
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Vælg udpakningssted
+IDC_STATIC_FOLDER                       = &Mappe
+IDC_STATIC_FILES2EXTRACT                = Udpak:
+IDC_RADIO_FILES2EXTRACT_0               = &Alle Filer
+IDC_RADIO_FILES2EXTRACT_1               = &Valgte filer
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Udpak til "arkivnavn" - mappe under den valgte mappe
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Slet arkivet efter udpakning
+IDC_CHK_REMEMBER_SETTINGS               = &Husk indstillingerne
+IDC_BTN_NEWFOLDER                       = &Ny mappe
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Udpak
+IDC_BTN_STOP                            = Stop
+IDC_BTN_CLOSE                           = Luk
+IDC_BTN_PAUSE                           = Pause
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Nyt arkiv
+IDC_STATIC_FILE_LIST                    = Tilføj filer til arkiv
+IDC_STATIC_ARCHIVE_SETTING              = Indstillinger
+IDC_STATIC_ARCHIVE_NAME                 = Filnavn
+IDC_STATIC_SET_DEST_FOLDER              = Udpakningsmappe
+IDC_STATIC_ARCHIVE_TYPE                 = Gem som
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Opdelt i mængder
+IDC_STATIC_COMPRESSION_METHOD           = Komprimeringsniveau
+IDC_STATIC_HELP_SPLIT                   = [Hjælp]
+IDC_STATIC_HELP_7Z                      = [7Z format]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Gennemse...
+IDC_BTN_SET_PASSWORD                    = Indstil &adgangskode...
+IDC_BTN_TEST_ARCHIVE                    = &Test arkiv
+IDC_BTN_DELETE_SRC                      = Slet filer efter arkivering
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Komprimer til hver fil/mappe
+IDC_BTN_SET_DEST_FOLDER                 = Ændr destinationsmappen
+IDC_BTN_TOGGLE_ADVANCED                 = Flere valg...
+IDC_BTN_SET_SFX                         = SFX indstillinger...
+IDC_BTN_ADD                             = &Tilføj...
+IDC_BTN_DEL                             = &Slet
+IDC_BTN_START                           = &Start
+IDC_BTN_COMP_ADVANCED                   = Avanceret
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = ZIP/ZIPX komprimeringsindstillinger
+IDC_AA_ZIP_ALGO                         = Komprimeringsmetode
+IDC_AA_ZIP_ENC                          = Krypteringsmetode
+IDC_AA_ZIP_THREAD                       = Antal CPU-tråde
+COMBO_TEXT_THREAD_AUTO                  = Auto
+IDC_CHK_ZIP_STORESYMLINK                = Gem symbolske links
+IDC_CHK_ZIP_COMMENT                     = Gem kommentar
+IDD_AA_7Z                               = 7Z komprimeringsindstillinger
+IDC_AA_7Z_ALGO                          = Komprimeringsmetode
+IDC_AA_7Z_SOLID                         = Stabil blokstørrelse
+IDC_CHK_7Z_ENC_FILENAMES                = Krypter filnavne
+IDD_AA_TAR                              = TAR-arkiveringsindstillinger
+IDC_CHK_TAR_SYMLINK                     = Gem symbolske links
+IDC_CHK_TAR_HARDLINK                    = Gem hårde links
+COMBO_TEXT_SOLID_NONE                   = Ikke stabil
+COMBO_TEXT_SOLID_SOLID                  = Stabil
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Indtast adgangskode
+IDC_STATIC_DESC_ARCHIVING               = Indtast en adgangskode til dit arkiv. En adgangskode på mindst 8 tegn anbefales for bedre sikkerhed.
+IDC_STATIC_DESC_MASTERPASS              = Indtast en hovedadgangskode til Adgangskode-håndteringen. En adgangskode på mindst 8 tegn anbefales for bedre sikkerhed.
+IDC_STATIC_DESC_EXTRACT                 = Indtast adgangskode til den krypterede fil.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Ugyldig adgangskode. Genindtast adgangskode.
+IDC_STATIC_PWD                          = Indtast adgangskode
+IDC_STATIC_PWD2                         = Genindtast adgangskode
+IDC_BTN_SHOW_PASSWORD                   = Vis adgangskode
+IDC_BTN_PASSMAN                         = Håndtering af adgangskode...
+IDC_CHECK_APPLY_ALL                     = &Anvend alt
+IDC_STATIC_PASS_RECOVERY                = Glemt adgangskoden? Prøv at bruge Bandizip's Gendannelse af Adgangskode.
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Håndtering af adgangskode
+TEXT_MSG_CORRUTP_DATA                   = Det gemte adgangskodedata er beskadiget.
+TEXT_PASSMAN_WARNING1                   = Medmindre hovedadgangskoden er indstillet, krypteres de gemte adgangskoder ikke.
+TEXT_PASSMAN_WARNING2                   = Din forsigtighed er påkrævet, hvis du bruger denne funktion på en offentlig eller delt computer.
+LIST_PASS_HEADER1                       = Adgangskode
+LIST_PASS_HEADER2                       = Visningsnavn
+IDC_BTN_ADD                             = Tilføj
+IDC_BTN_DEL                             = Slet
+IDC_BTN_EDIT                            = Rediger
+IDC_BTN_SET_MASTERPASS                  = Indstil hovedadgangskode...
+IDC_BTN_DEL_MASTERPASS                  = Fjern hovedadgangskode
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Indtast hovedadgangskode
+IDC_STATIC_MASTPASS_MSG                 = Indtast en hovedadgangskode for at få adgang til håndtering af adgangskoden. Nulstil for at slette alle adgangskodeoplysninger, der er gemt i systemet.
+IDC_BTN_INITPASSMAN                     = Nulstil
+TEXT_ASK_INIT_PASSMAN                   = Er du sikker på, at du vil slette alle adgangskodeoplysninger?
+IDC_BTN_SHOW_PASSWORD                   = Vis adgangskode
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Adgangskodeoplysninger
+IDC_STATIC_PASSWORD                     = Adgangskode
+IDC_STATIC_DISPNAME                     = Visningsnavn (valgfrit)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Vælg
+IDC_BTN_OPEN                            = Åbn
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Arkiverer
+TEXT_ARCHIVE_TESTING                    = Tester
+IDC_BTN_STOP                            = Stop
+IDC_BTN_CLOSE                           = Luk
+IDC_BTN_PAUSE                           = Pause
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Kopierede filer
+IDC_STATIC_DUPE_MESSAGE                 = Filen eksisterer allerede
+IDC_STATIC_DUPEFILE_OLD                 = Fil - Før
+IDC_STATIC_DUPEFILE_NEW                 = Fil - Nu
+IDC_STATIC_DUPE_ASK                     = Vælg nedenfor:
+IDC_RADIO_DUPE_METHOD0                  = &Spring Over
+IDC_RADIO_DUPE_METHOD1                  = &Overskriv
+IDC_RADIO_DUPE_METHOD2                  = &Omdøb
+IDC_CHECK_DUPE_APPLY_ALL                = &Anvend alt
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Arkivmuligheder
+IDC_STATIC_ASK_HANDLING                 = Vælg nedenfor:
+IDC_RADIO_HANDLE_METHOD0                = &Åbn arkiv
+IDC_RADIO_HANDLE_METHOD1                = &Ny arkiv
+IDC_RADIO_HANDLE_METHOD2                = &Tilføj fil(er) til arkiv
+IDC_CHK_PASS                            = Brug adgangskode
+IDC_STATIC_PASSWORD_AGAIN               = Gentast adgangskode
+IDC_CHK_SHOW_PASS                       = Vis adgangskode
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Indstillinger
+IDC_BTN_INIT                            = Nulstil
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Generelle indstillinger
+IDC_CHK_EXIT_WITH_ESC                   = "Brug ESC-tasten som 'Luk vinduet'"
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Kontrollér altid filer, der er tilføjet/slettet/omdøbt
+IDC_CHK_SNAP                            = Fastgør vindue
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Vis [..] mappe i arkiv
+IDC_CHK_SHOW_GRID_AT_LIST               = Vis gitterlinjer i detaljevisning
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Vælg hel række i arkiv
+IDC_CHK_ONE_CLICK_ACTIVATE              = Enkeltklik for at åbne et element
+IDC_STATIC_UPDATE                       = Opdateringsindstilling
+TEXT_UPDATE_0                           = Indberet og installer den nyeste version
+TEXT_UPDATE_1                           = Indberet og installer kun den stabile version
+TEXT_UPDATE_2                           = Indberet ingen opdateringer
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Tilknytninger
+IDC_BTN_SELECT_MANDATORY                = Vælg nødvendige
+IDC_BTN_SELECT_ALL                      = Vælg alt
+IDC_BTN_CLEAR_ALL                       = Fravælg alt
+IDC_BTN_APPLY_NOW                       = Anvend nu
+IDC_STATIC_ICON_PACK                    = Vælg ikonpakke:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Hent en ny ikonpakke - Online]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - Indstil standardprogrammer
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Udvidet tilknytning
+;IDC_STATIC_ASSOC_DESC1                 = På Windows 8-versioner, kan du tilknytte filerne som følgende:
+;IDC_STATIC_ASSOC_DESC2                 = "1. Klik på knappen "Tilknytningsindstillinger""
+;IDC_STATIC_ASSOC_DESC3                 = 2. Sæt flueben ved "Vælg alt" i programtilknytningsvinduet
+;IDC_STATIC_ASSOC_DESC4                 = 3. Klik på knappen "Gem".
+;IDC_STATIC_ASSOC_DESC1_10              = På Windows 10-versioner, kan du tilknytte filerne som følgende:
+;IDC_STATIC_ASSOC_DESC2_10              = "1. Klik på knappen "Tilknytningsindstillinger""
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Vælg "Bandizip" i 'Sæt som standard program's vindue
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Klik "Sæt dette program som standard".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Tilknytningsindstillinger
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Klassisk tilgang
+LIST_COLUMN0                            = Udvidelse
+LIST_COLUMN1                            = Standard app
+IDC_BTN_CHANGE                          = Ændr
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Dobbeltklik
+IDC_RADIO_SHELL_OPEN_0                  = Åbn med Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Udpak automatisk
+IDC_RADIO_SHELL_OPEN_2                  = Vis genvejsmenu
+IDC_RADIO_SHELL_OPEN_3                  = Udpak automatisk til den angivne mappe
+IDC_BTN_SET_EXTRACT_FOLDER              = Gennemse...
+IDC_RADIO_SHELL_OPEN_4                  = Udpak til Fil/Mappe
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Slet arkivet efter udpakning med et dobbeltklik
+
+IDC_STATIC_SHELL_EXTRACT                = Udpakningsmenu
+IDC_CHK_SHELL_EXTRACT_HERE              = Udpak her
+IDC_CHK_SHELL_EXTRACT_AUTO              = Udpak automatisk
+IDC_CHK_SHELL_EXTRACT_SUB               = Udpak til "mål" mappe
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Udpak her og slet
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Udpak automatisk og slet
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Udpak til "destination" mappe og slet
+IDC_CHK_SHELL_EXTRACT_DLG               = Udpak til anden mappe
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Udpak som administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Test arkiv
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Åbn med Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Smugkig af arkiv
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Begræns smugkig af filer til:
+IDC_CHK_SHELL_PREVIEW_TREE              = Smugkig arkiv med træstruktur
+
+IDC_STATIC_SHELL_ARCHIVING              = Komprimeringsmenu
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Komprimér til "Filnavn.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Komprimér til "Filnavn.zip" og slet
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Komprimér til "Filnavn.zip" og email
+IDC_CHK_SHELL_ADD_TO_ZIP                = "Føj til "Filnavn.zip""
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Komprimér til "Filnavn.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Komprimér til "Filnavn.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Komprimér til "Filnavn.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Komprimér til "Filnavn.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Komprimér til "Filnavn.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Komprimér til "Filnavn.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Komprimér til "Filnavn.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Komprimér til "Filnavn.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Komprimér til "Filnavn.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Komprimér til "Filnavn.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "Komprimér til hver "Fil/mappe.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Komprimér til hver "Fil/mappe.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Tilføj til arkiv (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Komprimér som administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Komprimér til brugertilpasset filnavn
+IDC_STATIC_FILENAME_RULE_HELP           = Regel: ${NAME}=Filnavn, %Y=År, %m=Måned, %d=Dag, %H=Timer, %M=Minutter, %S=Sekunder
+
+IDC_STATIC_SHELL_BKGND                  = Højreklik på den hvide plads til at åbne pop op-menuen i Windows Stifinder
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = "Brug funktion 'Ny mappe'"
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Åbn kommandovindue (cmd.exe) - Tryk på 'Shift' for at åbne det som administrator
+
+IDC_STATIC_SHELL_ETC                    = Andet
+IDC_CHK_SHELL_DO_NOT_USE                = Deaktiver genvejsmenu
+IDC_CHK_SHELL_AS_SUB_MENU               = Udvid genvejsmenu
+IDC_CHK_SHELL_HIDE_ICON                 = Skjul Bandizip ikon
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Adskil arkiv gennem indholdet
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Vis genvejsmenuen for arkiv, også for arkivfiler
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Brug filnavnet/mappenavnet udvalgt med musemarkøren når der vælges flere filer/mapper
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Direkte tilføjelse af filer til en ZIP-fil ved træk og slip i Stifinder
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Udpakningsindstillinger
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Hvis der kun er én rod mappe i arkivet, vises filerne i mappen
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Åbn mappe efter udpakning
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Luk ikke for procesvinduet efter udpakning
+IDC_CHK_FAST_DRAG_DROP                  = Brug "Hurtig Træk og slip", hvis filen er stor
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Udpak TGZ/TBZ fil på en gang
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Selv de store TGZ/TBZ filstørrelser
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Ved brug af 'Udpak automatisk': Udpak fil i en ny mappe, hvis der kun er én fil i et arkiv
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Opdag Macintosh kodeside automatisk
+IDC_CHK_UNIXZIP_AS_UTF8                 = Brug UTF-8 kode ved åbning af en .zip fil fra UNIX
+IDC_CHK_PARALLEL_EXT                    = Brug paralleludpakning, hvis det er muligt
+IDC_STATIC_CODEPAGE                     = Standard kodeside
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Udfør følgende filtyper efter udpakning af alt, når der dobbelt-klikkes
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Komprimeringsindstillinger
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Opret ikke en grundlæggende mappe, når du komprimerer kun én mappe
+IDC_CHK_USE_UTF8_COMPRESS               = Brug Unicode filnavne i zip-filer (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Opbevar Unicode-filnavne i et ekstra overskriftsfelt af Zip-filer (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Brug Unicode filnavne i tar/tgz filer (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Brug altid Zip64 format selvom filstørrelsen er mindre end 2 GB (Anbefales ikke)
+IDC_CHK_EXCLUDE_THUMBSDB                = Udeluk thumbs.db fil under komprimering
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Gem NTFS tidsinformation under komprimering
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Brug højhastigheds-arkivering
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Luk ikke for procesvinduet efter udpakning
+IDC_STATIC_COMPRESSION_METHOD           = Komprimeringssniveau:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Test arkivet efter komprimering
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = "Brug den seneste mappe som 'Ny arkiv'"
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = "Standardmappe for 'Ny arkiv'"
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Gennemse...
+IDC_CHK_EXCLUDE_FILTER                  = Udeluk filtyper under arkivering
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Indstillinger
+IDC_CHK_SHOW_PREVIEW                    = Smugkig af billede uden udpakning
+IDC_CHK_SHOW_FOLDER_SIZE                = Vis mappes komprimeret/oprindelige størrelse
+IDC_CHK_SET_LISTCONTROL_FONT            = Indstil skrifttypen på fillisten
+IDC_BTN_SET_FONT                        = Indstil skrifttype...
+
+IDC_STATIC_SETTING_VIEWITEM             = Kolonner
+IDC_CHK_VIEWITEM_COMPSIZE               = Komprimeret
+IDC_CHK_VIEWITEM_ORIGSIZE               = Original
+IDC_CHK_VIEWITEM_KIND                   = Type
+IDC_CHK_VIEWITEM_DATE_MOD               = Ændringsdato
+IDC_CHK_VIEWITEM_COMPMETHOD             = Komprimeringsmetode
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Krypteringsmetode
+IDC_CHK_VIEWITEM_CRC                    = Cyklisk redundanstjek
+IDC_CHK_VIEWITEM_ATTRIB                 = Egenskaber
+IDC_CHK_VIEWITEM_COMMENT                = Kommentarer
+IDC_CHK_VIEWITEM_EXT                    = Yderligere oplysninger
+
+IDC_STATIC_IMAGE_VIEWER                 = Billedfremviser
+IDC_RADIO_IMAGE_VIEWER_0                = Brug standard billedfremviser
+IDC_RADIO_IMAGE_VIEWER_1                = Brug tilknyttet program
+IDC_RADIO_IMAGE_VIEWER_2                = Brug Honeyview, hvis det er installeret
+
+IDC_STATIC_EDITOR                       = Redigeringsprogram
+IDC_BTN_SET_EDITOR_PATH                 = Gennemse...
+
+IDC_STATIC_COLOR                        = Farve
+IDC_STATIC_COLOR_THEME                  = Temafarve
+IDC_BTN_BKGND                           = Valgt
+IDC_STATIC_COLOR_TEXT                   = Skriftfarve
+IDC_STATIC_COLOR_TEXT_AUTO              = Automatisk
+IDC_STATIC_COLOR_TEXT_WHITE             = Hvid
+IDC_STATIC_COLOR_TEXT_BLACK             = Sort
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Sikkerhedsindstillinger
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopier Zone.Identifier-oplysninger om et arkiv, der hentes fra internettet under udpakning
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Tjek efter malware inden udpakning
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Eksportér Bandizip's indstillinger
+IDC_STATIC_ETC                          = Diverse indstillinger
+IDC_CHK_SET_TEMP_FOLDER                 = Angiv placeringen af ​​midlertidig mappe
+IDC_BTN_SET_TEMP_FOLDER                 = Gennemse...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Genkend følgende filtyper som arkivfiler
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Slet midlertidige fil, når delprocessen afsluttes
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Flyt filer til papirkurven under sletning
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Vis den seneste historik
+IDC_CHK_USE_LONG_PATH_NAME              = Håndter lange stinavne på mere end 260 tegn
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Tillad Windows Stifinder til at slette åbnede arkivfiler
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Udvid mappestrukturen automatisk
+IDC_CHK_USE_MODAL_DIALOG                = Brug en dialogboks under arkivering/udpakning
+IDC_CHK_USE_ELEGANT_UI                  = Brug elegant grænsefladedesign
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Vis 'Startskærm', når Bandizip opstartes
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Vis den fulde sti i titellinjen
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Slet udpakkede filer, når udpakning annulleres
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopier Zone.Identifier-oplysninger om et arkiv, der hentes fra internettet under udpakning
+IDC_CHK_USE_SET_END_OF_FILE             = Fordel allokeret diskplads til en uddata-fil
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Komprimer en fil, selv når filen bruges af en anden proces
+IDC_CHK_DO_NOT_USE_RICHEDIT             = Brug ikke Rich Edit-kontrol
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Sprogindstillinger
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Vil du hjælpe med at oversætte dette program? Klik her...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = Indstillinger
+IDC_STATIC_TARGET_PATH                  = Sti til udpakning:
+IDC_STATIC_TITLE                        = Titel:
+IDC_STATIC_RUN                          = Kør efter udpakning:
+IDC_STATIC_MESSAGE                      = Besked:
+IDC_CHK_AUTO_CLOSE                      = Luk vinduet efter udpakning
+IDC_BTN_SAVE_SFX_SETTING                = Gem indstillinger
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Find Filer
+IDC_STATIC_FIND                         = Find det ønskede:
+IDC_BTN_CLOSE                           = Luk
+IDC_BTN_DELETE                          = Slet
+IDC_BTN_EXTRACT                         = Udpak
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Arkiv kommentar
+IDC_STATIC_COMMENT                      = Tilføj/rediger kommentar i arkivet
+IDC_CHK_USE_UTF8                        = Gem kommentar som Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Indlæs kommentar fra fil (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = ADVARSEL
+IDC_STATIC_WARN_EXECUTABLE              = Denne fil er en kørbar fil. Ved at starte dette program kan måske skade din computer. Ønsker du at fortsætte?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Spørg mig ikke igen
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Registrer Bandizip
+IDC_STATIC_DESC1                        = Indtast din e-mailadresse og produktnøglen du har modtaget via e-mail.
+IDC_STATIC_EMAIL                        = E-mailadresse
+IDC_STATIC_PRDUCT_KEY                   = Produktnøgle
+IDC_BTN_REGISTER                        = Registrer nu
+IDC_STATIC_BUYNOW                       = Har du ikke købt Bandizip endnu? [Køb nu]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Vejledning til Bandizip-licens
+TEXT_LIMIT_PASSMAN                      = Kun én adgangskode kan gemmes i Bandizip Standard Edition via Håndtering af adgangskode.
+TEXT_SHOW_AD                            = Annoncer vises på Bandizip Standard Edition.[br]Du kan købe programmet for at fjerne annoncerne.
+TEXT_CANNOT_CHANGE                      = Denne funktion kan ikke ændres i Bandizip Standard Edition.[br]Du kan købe programmet for at ændre funktionen.
+TEXT_CANNOT_USE                         = Denne funktion er ikke tilgængelig i Bandizip Standard Edition.[br]Du kan købe programmet for at bruge funktionen.
+TEXT_PORTABLE_NOTICE                    = Denne funktion er ikke tilgængelig på Bandizip Portable Edition.[br]Du kan købe programmet for at bruge funktionen.
+IDC_STATIC_COMPARISON                   = Sammenligning mellem udgaverne...
+IDC_STATIC_HOWTOREGISTER                = Har du allerede købt Bandizip? [Sådan registrerer du]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Reparation af arkiv
+IDC_STATIC_SRC                          = Fil til reparation
+IDC_STATIC_DST                          = Repareret fil
+IDC_BTN_START                           = Start reparation
+IDC_BTN_TEST                            = Test reparation
+IDC_BTN_STOP                            = Stop
+TEXT_NOTICE                             = "Gennemse og vælg en fil, der skal repareres, og klik derefter på" Start reparation.""
+TEXT_ERR_OCCURRED                       = Der opstod en fejl.
+TEXT_ERR_NOT_A_ZIP                      = Den valgte fil er i et ikke-understøttet format. Kun ZIP-format er tilgængeligt i øjeblikket.
+TEXT_ERR_NO_INFO                        = Den valgte fil har ingen data til reparation.
+TEXT_MSG_START                          = Starter reparation.
+TEXT_MSG_FINISH                         = Reparation er afsluttet.
+TEXT_MSG_ANALYZING                      = Analyser...
+TEXT_MSG_CANCELED                       = Reparation er annulleret.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Vælg en fil (.zip), inden du starter reparationen.
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = Der er installeret flere Bandizip på dit system. Slet venligst en af dem for at forhindre problemer.
+CMD_UNINST_MSSTORE                      = Afinstaller Bandizip MSE
+CMD_UNINST_PROGFILES                    = Afinstaller Bandizip
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Åbn
+$TOOLBAR_CLOSE_FILE                     = Luk
+$TOOLBAR_EXTRACT_FILE                   = Udpak
+$TOOLBAR_CREATE_ARCHIVE                 = Ny
+$TOOLBAR_DELETE_FILE                    = Slet
+$TOOLBAR_ADD_FILE                       = Tilføj
+$TOOLBAR_TEST_ARCHIVE                   = Test
+$TOOLBAR_CODEPAGE                       = Kodeside
+$TOOLBAR_VIEWITEM                       = Kolonner
+$TOOLBAR_SCAN                           = Scan
+
+$TOOLBAR_OPEN2                          = Åbn arkiv
+$TOOLBAR_CREATE_ARCHIVE2                = Nyt arkiv
+
+$TEXT_DESKTOP                           = Skrivebord
+$TEXT_DOCUMENT                          = Dokumenter
+$TEXT_PICTURE                           = Billeder
+$TEXT_COMPUTER                          = Computer
+
+$TEXT_SETTINGTAB_GENERAL                = Generelt
+$TEXT_SETTINGTAB_ASSOC                  = Tilknytning
+$TEXT_SETTINGTAB_SHELL                  = Genvejsmenu
+$TEXT_SETTINGTAB_EXTRACT                = Udpakning
+$TEXT_SETTINGTAB_ARCHIVE                = Komprimering
+$TEXT_SETTINGTAB_VIEWER                 = Fremviser
+$TEXT_SETTINGTAB_SECURITY               = Sikkerhed
+$TEXT_SETTINGTAB_ETC                    = Diverse
+$TEXT_SETTINGTAB_LANG                   = Sprog
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Åbn placering af fil
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Åbn placering af arkiv
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Åbn filplacering efter udpakning
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Åbn placering af arkiv
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Åben destinationsmappe
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Luk ikke vinduet efter udpakning
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Luk ikke vinduet efter arkivering
+$TOOLTIP_ADVANCED_MENU                  = Diverse indstillinger
+$TOOLTIP_REGISTER                       = Registrer Bandizip
+$TOOLTIP_UPDATE                         = Opdater
+$TOOLTIP_PREVIEW                        = Vis store ikoner
+$TOOLTIP_REPORT                         = Vis detajler
+
+$TEXT_INSTALL_START                     = Ok, Jeg prøver det
+$TEXT_INSTALL_CLOSE                     = Nej tak
+$TEXT_INSTALL_HONEYVIEW_LINK            = Læs mere...
+
+$TEXT_HELP_PAGE                         = Hjælpeside
+$TEXT_AD                                = REKLAMER
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Bandizip - Gendannelse af adgangskode
+TEXT_MSG_OPENING                        = Åbning af arkivet: ${str1}
+TEXT_MSG_CANCELED                       = Åbning af arkivet er blevet annulleret.
+TEXT_MSG_BROKEN                         = Dette arkiv er blevet beskadiget.
+TEXT_MSG_NO_PASSWD                      = Dette arkiv har ingen adgangskode indstillet.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = Dette arkiv har sin filhoved krypteret; Denne type arkiv understøttes ikke i øjeblikket.
+TEXT_MSG_OPEN_FIRST                     = Åbn et arkiv, før du starter gendannelsen.
+TEXT_MSG_CANT_OPEN                      = Det mislykkedes at åbne arkivet. (Code:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = Vælg typer af tegn til gendannelse.
+TEXT_MSG_INIT_FAIL                      = Igangsættelse mislykkedes.
+TEXT_MSG_NOT_FOUND                      = Gendannelsen mislykkedes. Adgangskoden, der skal gendannes, må ikke overstige den maksimale længde på 4 tegn i Bandizip Standard Edition.
+TEXT_MSG_FILE2FINDPWD                   = Fil(erne) ovenfor behandles til gendannelse.
+TEXT_MSG_ERRORATFINDINDEX               = Det lykkedes ikke at finde nogen fil til gendannelse.
+TEXT_MSG_COPY2CLIPBOARD                 = Den gendannede adgangskode er blevet kopieret til udklipsholderen.
+TEXT_STATE_MSG_READY                    = Klik på START for at starte gendannelsen.
+TEXT_STATE_MSG_WORKING                  = Gendanner adgangskode...
+TEXT_STATE_MSG_PAUSING                  = Pauset
+TEXT_STATE_MSG_STOPPING                 = Annullerer...
+TEXT_STATE_MSG_FOUND                    = Adgangskoden på ${num1} tegn er gendannet på ${str1} sekunder. (${str2})
+TEXT_ASK_EXIT                           = Er du sikker på, at du vil stoppe?
+TEXT_COMBO_THREAD_AUTO                  = Automatisk
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = Indstillinger
+IDC_STATIC_MULTI_CORE                   = Fler-kerne behandling
+IDC_STATIC_MULTI_CORE_DESC              = Angiv antallet af tråde, der skal bruges til gendannelse.[br]Det anbefales at vælge "Automatisk" eller et mindre antal end antallet af CPU-kerner, der er installeret på dit system.
+IDC_STATIC_PREP_POSTP                   = Forstavelse
+IDC_STATIC_PREP                         = Forstavelse
+IDC_STATIC_PREP_DESC                    = Tilføj forstavelsen i begyndelsen af adgangskoder, før du behandler dem.[br]F.eks. http://www.
+IDC_STATIC_SPECIFY                      = Angiv tegn
+IDC_STATIC_ETC                          = Diverse
+IDC_CHK_USE_SIGNATURE_BY_EXT            = Brug filens udvidelse til hurtigere gendannelse.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = Åbn
+$STEP_2                                 = Tjek
+$STEP_3                                 = Indstillinger
+$STEP_4                                 = Gendannelse
+$STEP_5                                 = Fuldført
+$FILE_PATH_NAME                         = Placering
+$BTN_NEXT_PAGE                          = Næste >
+$BTN_PREV_PAGE                          = < Tilbage
+$BTN_OK                                 = OK
+$BUTTON_BUY_NOW                         = Køb Bandizip Professional Edition
+$STATIC_OPEN_DESC                       = Klik på "Åbn arkiv" for at gennemse og vælge et krypteret arkiv.<br>Du kan også trække og slippe arkivet direkte i denne dialogboks.
+$STATIC_PRICE_DESC1                     = Vejledning til Bandizip-licens
+$STATIC_PRICE_DESC2                     = Adgang til adgangskode er kun tilgængelig i Bandizip Professional Edition.[br]Adgangskoden, der skal gendannes, må ikke overstige den maksimale længde på 4 tegn i Bandizip Standard Edition.
+$STATIC_FILELIST_DESC                   = Følgende filer findes i dette arkiv. Tjek dem, og klik på Næste.
+$FILELIST_HEADER_NAME                   = Navn
+$FILELIST_HEADER_SIZE                   = Størrelse
+$FILELIST_HEADER_DATE                   = Ændringsdato
+$FILELIST_HEADER_METHOD                 = Komprimeringsmetode
+$FILELIST_HEADER_PWMETHOD               = Krypteringsmetode
+$STATIC_SYMBOL_DESC                     = Angiv typer af tegn, der bruges i det forventede adgangskode.<br>Hvis du vælger flere eller alle tegn, gør at gendannelsen kræver længere tid.
+$STATIC_CUR_PASSWORD                    = Behandler
+$STATIC_CUR_PASSLEN                     = Længde
+$STATIC_ELAPSED                         = Forløbet tid
+$STATIC_SPEED                           = Behandlingstid
+$STATIC_CLIPBOARD_DESC                  = Kopier det gendannede adgangskode til udklipsholderen og indsæt det.
+$BUTTON_STOP                            = Annuller
+$BUTTON_START                           = START
+$IDC_BTN_PAUSE                          = Pause
+$IDC_BTN_UNPAUSE                        = Genstart
+$IDC_BTN_OPEN                           = Åbn
+$IDC_BTN_SETTING                        = Avanceret
+$IDC_BTN_COPY2CLIPBOARD                 = Kopier
+$IDC_BTN_CANCEL_PAYMENT                 = Igangsætter
+$BUTTON_HELP_PAGE                       = Hjælp ang. den anslåede tid (Online - Engelsk)
+$CHECK_SYMBOL_NUM                       = Numre (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = Små bogstaver (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = Store bogstaver (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = Specialtegn (!@#$...)
+$CHECK_SYMBOL_SPACE                     = Mellemrum
+$CHECK_SYMBOL_ALL                       = Alle
+$CHECK_SYMBOL_SPECIFIED                 = Angivet tegn
+$FOUNDED_PASSWORD                       = Den gendannede adgangskode er...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Ny Mappe
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &Ny mappe
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Åbn med Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Test arkiv
+TEXT_MENU_LAUNCH_CMD                    = &Åbn kommandovinduet
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Åbn kommandovinduet som adminstrator
+
+TEXT_MENU_ARCHIVE_EACHNAME              = "Komprimér til &hver "Fil/mappenavn.zip""
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Komprimér til hver "Fil/mappenavn.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "&Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Komprimér til "${str1}" og slet
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Komprimér til "${str1}" og ema&il...
+TEXT_MENU_ADD_TO_ZIP                    = "Føj til "${str1}""
+TEXT_MENU_ARCHIVE_ZIPX                  = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Komprimér til "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Komprimér til hver "Filnavn.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Komprimér til hver "Filnavn.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Komprimér til "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Tilføj til arkiv (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Komprimér som administrator
+
+TEXT_MENU_EXTRACT_HERE                  = &Udpak Her
+TEXT_MENU_EXTRACT_AUTO                  = Udpak automatisk
+TEXT_MENU_EXTRACT_AUTO_EACH             = Udpak hvert arkiv automatisk
+TEXT_MENU_EXTRACT_SUB                   = Udpak til adskilte mapper
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Udpak &til ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Vælg udpakningsmappe...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Udpak som administrator
+TEXT_MENU_EXTRACT_HERE_DEL              = Udpak her og slet
+TEXT_MENU_EXTRACT_AUTO_DEL              = Udpak automatisk og slet
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Udpak hvert arkiv automatisk og slet
+TEXT_MENU_EXTRACT_SUB_DEL               = Udpak til adskilte mapper og slet
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Udpak &til ${str1}\ og slet
+
+TEXT_MENU_PREVIEW                       = Smugkig arkiv
+TEXT_MENU_PREVIEW_BROKEN                = Denne fil er enten i ukendt format eller er beskadiget
+TEXT_MENU_PREVIEW_TIMEOUT               = Forespørgslen udløb.
+TEXT_MENU_PREVIEW_EMPTY                 = Tom arkiv/fil
+TEXT_MENU_PREVIEW_ENCRYPTED             = Denne fil er krypteret
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Brug af smugkig-funktion mislykkedes. [br][br]Genstart Stifinderen eller [br]Genstart din PC.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Læsning af fil-listen mislykkedes
+
+TEXT_MENU_OPENING                       = Åbner...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Opdateringer
+TEXT_UPDATER_TEXT1                      = Opdateringer er tilgængelige
+TEXT_UPDATER_TEXT_DL                    = Ønsker du at hente det nu?
+TEXT_UPDATER_BTN_UPDATE                 = Opdatér
+TEXT_UPDATER_BTN_OK                     = Ok
+TEXT_UPDATER_BTN_CANCEL                 = Annullér
+TEXT_UPDATER_DOWNLOAD_ERROR             = Overførslen mislykkedes.
+TEXT_UPDATER_SETTING_UPDATE             = Indstillinger
+TEXT_UPDATER_SETTING_SKIPTHIS           = Overspring denne version
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Mål:
+BTN_SELECT_FOLDER                       = Gennemse...
+BTN_EXTRACT                             = Start
+BTN_CLOSE                               = Luk
+BTN_CANCEL                              = Annuller
+BTN_OPEN_FOLDER                         = Åbn
+CHK_OVERWRITE                           = Overskriv
+ERR_ERROR_OCCURRED                      = Der opstod en fejl
+ERR_INVALID_PASSWORD                    = Ugyldig adgangskode
+ASK_OVERWRITE                           = Den samme fil eksisterer allerede. Ønsker du at overskrive den?
+MSG_COMPLETED                           = Udpakningen var vellykket!
+IDD_PASSWORD                            = Indtast adgangskode
+IDC_STATIC_PASSWORD_MSG                 = Denne fil er krypteret.
+IDC_BTN_SHOW_PASSWORD                   = Vis adgangskode
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Filudpakning mislykkedes.
+TEXT_ERR_CRC                            = Fejl under cyklisk redundanstjek.
+TEXT_ERR_INVALID_PASSWD                 = Forkert adgangskode.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Installér ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = Afinstallér ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Tryk på Afinstallér for at starte afinstallationen
+
+$BTN_CLOSE                              = Luk
+$BTN_CANCEL                             = Annullér
+$BTN_INSTALL                            = Acceptér og installér
+$BTN_UNINSTALL                          = Afinstallér
+$BTN_OPEN_LICENSE                       = [Vis licensaftale]
+$BTN_HELP_LINK                          = [Hjælp - Online]
+
+$TEXT_PATH                              = Destinationsmappe
+$TEXT_INSTALL_STATIC                    = Installerer...
+$TEXT_INST_COMPLETED                    = Gennemført
+$TEXT_INST_FAILED                       = Installationen mislykkedes
+$TEXT_UNINSTALLING                      = Afinstallerer...
+
+$CHK_AUTO_REPORT                        = Send automatisk brugsstatistikker og nedbrudsrapporter.
+$EMAIL                                  = E-mailadresse
+$PRODUCT_KEY                            = Produktnøgle
+
+ERR_CANT_CREATE_FOLDER                  = Oprettelse af mappe fejlede: $(str1)
+ERR_CANT_OPEN_FILE                      = Åbning af fil fejlede: $(str1)
+ERR_CANT_WRITE_FILE                     = Skrivning af fil fejlede: $(str1)
+ERR_BROKEN_ARCHIVE                      = Denne komprimerede fil er beskadiget: $(str1)
+ERR_CRC_ERROR                           = Fejl i cyklisk redundanstjek: $(str1)
+ERR_NOT_ENOUGH_MEM                      = Hukommelsestab: $(str1)
+
+MSG_FILE_OPEN_ERROR                     = Fejl ved åbning af fil til skrivning:[br] "${Str1}"[br]Klik Afbryd for at stoppe installationen,[br]Forsøg for at prøve igen, eller[br]Ignorer for at springe denne fil.
+MSG_SUCCESS                             = Installationen er fuldført
+MSG_DLL_REGISTERING                     = Registrerer Stifinder shell-udvidelse...
+MSG_DLL_UNREGISTERING                   = Afregistrerer Stifinder shell-udvidelse...
+MSG_ERROR                               = Der opstod en fejl
+MSG_ERROR_REGISTER                      = Registreringen fejlede
+MSG_SELECT_FOLDER                       = Vælg en mappe
+MSG_STILLRUN_EXIT_PROGRAM               = $(APPNAME) kører stadig. Luk programmet først.
+MSG_XP_IS_NOT_SUPPORTED                 = Denne software vil fungere korrekt kun i Windows Vista og nyere.
+MSG_NEED_ADMIN_PRIVILEGE                = Dette program kan kun installeres af en bruger med administratorrettigheder.[br][br]Ikke-administrative brugere kan ikke installere programmet korrekt.[br][br]Ønsker du at stoppe installationen?
+MSG_NEWVERSION_FOUND                    = En ny version er tilgængelig i øjeblikket.[br]Vil du hente den nu?
+SHORTCUT_LINK_DESCRIPTOIN               = Start $(APPNAME)
+MSG_ERR_X86_NOTSUPPORT                  = Denne installationsfil understøtter ikke 32-bit (x86) OS. Hent en ny installationsfil på webstedet.
+MSG_ERR_ARM_NOTSUPPORT                  = Denne installationsfil understøtter ikke ARM64 CPU. Hent en ny installationsfil på webstedet.
+ERR_INST_FAILED                         = Installationen mislykkedes. Prøv igen, når du har genstartet din computer.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = Versionstjek mislykkedes. Hent offline-installationsfilen.
+TEXT_VERSION_CHECKING                   = Tjekker version...
+TEXT_DOWNLOAD_FAILED                    = Nedhentning mislykkedes. Hent offline-installationsfilen.
+TEXT_DOWNLOAD_COMPLETED                 = Nedhentning er fuldført
+TEXT_HOMEPAGE                           = [Åbn hjemmeside]
+TEXT_XP                                 = Windows XP-support er stoppet.
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = Vælg værktøjslinjeknapper
+
+

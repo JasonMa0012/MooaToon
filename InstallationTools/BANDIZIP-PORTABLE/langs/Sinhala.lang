@@ -1,0 +1,900 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Sinhala-සිංහල-රන්දික
+TRANSLATORS                             = Randika (දිල්ෂාන්) Bandaranayake College Gampaha /Dilshanperera077@gmail.com
+
+
+[TEXT]
+TEXT_BUILDNO                            = build#
+TEXT_FILE                               = ගොනුව
+TEXT_FOLDER                             = ෆෝල්ඩරය
+TEXT_ARCHIVE_SIZE                       = ලේකම්මිටියේ ප්‍රමාණය
+TEXT_ORIGINAL_SIZE                      = මුල් ප්‍රමාණය
+TEXT_ARCHIVE_FORMAT                     = ලේකම්මිටියේ ආකෘතිය
+TEXT_COMPRESSED_SIZE                    = හැකිලූ ප්‍රමාණය
+TEXT_SOLID                              = ඝනකම්
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = හැකිලූ  ගොනුව (${str1})
+TEXT_PORTABLE                           = ජංගම
+TEXT_NEW_FOLDER                         = නව ගොනුව
+TEXT_FILESIZE_UNKNOWN                   = නාදුනන
+TEXT_FILEDATE_UNKNOWN                   = නාදුනන
+TEXT_HELP_LINK                          = [උදව්]
+TEXT_APP_DESC                           = Bandizip යනු සැහැල්ලු, ඉක්මන් සහ නොමිලේ ලබාදෙන සියල්ල සපිරි මෘදුකාංගයකි. එයට වඩාත්ප්‍රසිද්ද හැකිලීමේ ක්‍රම සහය දක්වනු ලබයි, Zip, 7z, Rar, ආදිය ඇතුලත්ව සහ තවත්.
+
+TEXT_MESSAGEBOX_OK                      = හරි
+TEXT_MESSAGEBOX_CANCEL                  = අවලංගු කරනවා
+TEXT_MESSAGEBOX_ABORT                   = නවත්වනවා
+TEXT_MESSAGEBOX_RETRY                   = නැවත උත්සාහ කරන්න
+TEXT_MESSAGEBOX_IGNORE                  = නොසලකා හරිනවා
+TEXT_MESSAGEBOX_YES                     = ඔව්
+TEXT_MESSAGEBOX_NO                      = නැත
+TEXT_MESSAGEBOX_CONTINUE                = කරගෙන යනවා
+TEXT_MESSAGEBOX_HELP                    = Help
+
+TEXT_COLUMN_NAME                        = නම
+TEXT_COLUMN_COMPSIZE                    = හැකිලූ
+TEXT_COLUMN_ORIGSIZE                    = සත්‍ය
+TEXT_COLUMN_KIND                        = ආකාරය
+TEXT_COLUMN_DATE_MOD                    = නවීකරනය කෙරෑ
+TEXT_COLUMN_COMPMETHOD                  = හැකිලූ ක්‍රමය
+TEXT_COLUMN_ENCRMETHOD                  = අගුලුඇරීමේ ක්‍රමය
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = උපලක්ෂණ
+TEXT_COLUMN_COMMENT                     = අදහස්
+TEXT_COLUMN_PATHNAME                    = පතය
+
+TEXT_ICONPACK_NAME                      = නම
+TEXT_ICONPACK_DESIGNER                  = මෝස්තර රචකයා
+TEXT_ICONPACK_COPYRIGHT                 = ප්‍රකාශන හමිකම
+
+TEXT_ARCHIVE_COLUMN_NAME                = නම
+TEXT_ARCHIVE_COLUMN_FILESIZE            = ප්‍රමාණය
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = ෆෝල්ඩරය පතය
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = මුලු ප්‍රමාණය
+
+TEXT_SELECT_ARCHIVE_FILE                = තෝරන්න ගොනුව
+TEXT_SELECT_TEXT_FILE                   = තෝරන්න ගොනුව
+TEXT_SELECT_DEST_FOLDER                 = තෝරන්න ෆෝල්ඩරයේ නියමිත ස්ථානය
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = ලේකම්මිටි ගොනුව තෝරන්න
+TEXT_REGISTRY_FILE                      = Registry file
+
+TEXT_OPENDLG_ARCHIVEFILES               = ලේකම්මිටි ගොනු
+TEXT_OPENDLG_ARCHIVEFILE                = Archive File
+TEXT_OPENDLG_ALLFILES                   = සෑම ගොනු
+TEXT_OPENDLG_EXEFILES                   = Exe ගොනු
+
+TEXT_ABOUTBOX_TAB1                      = Bandizip ගැන
+
+TEXT_ASSOC_GROUP0                       = ලේකම්මිටි ගොනු
+TEXT_ASSOC_GROUP1                       = යුනික්ස්
+TEXT_ASSOC_GROUP2                       = වෙනත්
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = මෙම ගොනුව විවෘත කිරීමට නවතම Bandizip මෘදුකාංගය බාගත කරගන්න.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = ගොනුවේ මුල්කොටස පමණක් තෝරන්න.
+TEXT_OPENERR_CANT_OPEN_FILE             = මෙම ගොනුව විවෘත කල නොහැක (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = මෙම ගොනුව විවෘත කල නොහැක  (${str1}) ගොනුව වෙනත් මෘදුකාංගයක් භාවිත කරන නිසා.
+TEXT_OPENERR_GENERAL                    = මෙම ගොනුව විවෘත කල නොහැක (${str1}) (Code:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = අවලංගු කලා
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = නොදන්නා ගොනු ආකෘතියක් (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" ලේකම්මිටි ගොනුවක් නොවේ."
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = සහය දක්වන ගොනු ආකෘතියක් නොවේ (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = සහය දක්වන අගුලුඇරීමේ ක්‍රමයක්  නොවේ(${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = මුරපදය ඇතුලත් කරන්න
+TEXT_OPENERR_INVALID_PASSWORD           = මුරපදය වැරදි.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = මෙම ගොනුව විවෘත කල නොසලකා ගොනුවේ ශීර්ෂය විනාශවී ඇති නිසා.
+
+TEXT_ERR_INIT_FAILED                    = ඇරඹීමට අසමත් වුණා.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = මුරපදය වැරදි නැතිනම් ලේකම්මිටි තුල කිසිදු ගොනුවක් නැත.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = මුරපදය නොගැලපේ.
+TEXT_ERR_PASSWORD_NOT_SET               = මුරපදයක් අවශ්‍යවේ.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = ඹබගේ මුරපදයේ අක්ෂර වලංගු නොවේ. අක්ෂර හා ඉලක්කම් පමණක් යොදන්න නැතිනම් විශේෂ අක්ෂර යොදන්න.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = වලංගු නොවන ගොනු කොටස් ප්‍රමාණයක්.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Self Extracting Archives) ගොනුවේ ප්‍රමාණය 4GB සීමාකර ඇත.
+TEXT_ERR_INTERNAL_ERROR                 = ඇතුලාන්තයේ දෝෂයක්
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = ගොනුව වෙනස් කල නොහැක.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = ගොනුව වෙනස් කිරීමේදී දෝෂයක් සිදුවුණා.
+TEXT_ERR_INVALID_FOLDER_PATH            = වලංගු නොවන ෆෝල්ඩර පතයක්
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = ZIP ගොනු පමණක් සංස්කරණය කල හැක.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = ගොනු කොටස සංස්කරණය කල නොහැක.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Self-Extracting ගොනු සංස්කරණය කල නොහැක (*.exe).
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = විනාශ වූ ගොනු සංස්කරණය කල නොහැක.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = මෙම ගොනු ආකෘතිය සංස්කරණය කල නොහැක.
+TEXT_ERR_CANT_CHANGE_FILENAME           = මෙම ගොනුවේ නම වෙනස් කල නොහැක.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "ගොනුවේ නම සමග භාවිත කල නොහැක [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = සමාන ගොනු/ෆෝල්ඩර තිබේ. ගොනුවේ නම වෙනස් කල නොහැක (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = ‍ෆෝල්ඩරයක් සෑදිය නොහැක.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = ලේකම්මිටිය තුල කිසිදු ගොනුවක් නොමැත
+TEXT_ERR_INVALID_PARAM                  = වලංගු නොවන පරාමිතියකි.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = ලේකම්මිටියට ගොනු එකතු කල නොහැක. [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = මෙම ලේකම්මිටිය විවෘත කල නොහැක [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = සමාන ‍ෆෝල්ඩර තිබේ.
+TEXT_ERR_FILENAME_EMPTY                 = ගොනුවේ නම වැරදියි.
+TEXT_ERR_AT_DRAGANDDROP                 = ඇදීම සහ අතහැරීම අසාර්ථකයි.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = ඇදීම සහ අතහැරීම අසාර්ථකයි. [br]Bandizip 'ඉක්මන් ඇදීම සහ අතහැරීම' පහසුකම අක්‍රිය කරඇත, කරැණාකර නැවත උත්සාහ කරන්න.
+TEXT_ERR_AT_CANT_OPEN_MMF               = MMF විවෘත කල නොහැක (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = ගොනු තෝරා නොමැත
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = අයිකන පිහිටුවීමට ෆෝල්ඩරයක් සෑදිය නොහැක.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = අයිකන පිහිටුවීමට ගොනු සෑදිය නොහැක.
+TEXT_ERR_AT_EXECUTE_DIRECT              = මෙම ගොනුව විවෘත කල නොහැක. ගොනුව විහිදුවන්න සහ නැවත උත්සාහ කරන්න.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 4GB අධික ගොනු සෑදිය නොහැක.[br]කරැණාකර වෙනත් ආකෘතියක් තෝරන්න (ZIP නැතිනම් 7Z).
+TEXT_ERR_CANT_SAVE_AS                   = මෙම ගොනුව සුරැකිය නොහැක.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip has encountered a problem while editing the file.(${str1})[br][br]Would you like to send an error report to Bandisoft?[br][br]Submitting this report helps Bandisoft improve Bandizip.
+
+TEXT_MSG_TEST_OK                        = මෙම ලේකම්මිටිය තුල දෝෂයක් නොමැත.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = විහිදුවීම අසාර්ථකයි. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = විහිදුවීම සාර්ථකයි.
+TEXT_MSG_EXTRACT_CANCELED               = විහිදුවීම අවලංගුයි.
+TEXT_MSG_COMPRESS_SUCCESS               = ලේකම්මිටිගැන්වීම සාර්ථකයි.
+TEXT_MSG_INTERNAL_ERROR                 = ඇතුලාන්තයේ දෝෂයක්.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Cannot open the following file in the temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = මෙම ‍ලේකම්මිටි ගොනුව මකාදැමිය නොහැක.
+TEXT_MSG_CRASH_REPORT                   = මෘදුකාංගය බිදවැටී ඇත. මෘදුකාංගයෙන් ඉවත්වෙන්න.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip has encountered a problem and needs to close. Do you want to send a crash report to the Bandizip developer?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip is not responding.[br][br]Do you want to send a crash report to the Bandizip developer and close the program?
+TEXT_MSG_SET_TEMP_PATH                  = තාවකාලික මග නියම කරන්න
+TEXT_MSG_SET_PATH                       = මග නියම කරන්න
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = අයිකන සාර්ථකව පිහිටුවන ලදි.
+TEXT_MSG_NOTICE_RESTART                 = මෙම වැඩසටහන නැවත පටන්ගනීවි.
+TEXT_MSG_ARCHVIE_OPENING                = ලේකම්මිටිය විවෘත වෙමින්පවතී.
+TEXT_MSG_COMPLETING                     = සම්පූර්ණ වෙමින්පවතී: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Cannot create a folder.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Cannot compress a folder into a .GZ/XZ archive.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Cannot compress multiple files into a .GZ/XZ archive. Please check the "Compress to each file/folder name" option.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip has been minimized to the system tray. Click the tray icon to restore it.
+TEXT_MSG_TRAY_COMPLETED                 = The operation has been completed.
+TEXT_MSG_BATCH_ARCHVING                 = Archiving: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Extracting: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testing: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Deleting: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Failed to delete: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Work in progress...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = අක්ෂර හරිආකාරයෙන් දර්ශනය නොවේනම්, click the <font color=red><b>Code Page</b></font> above and then try the <font color=red><b>Auto detect</b></font>menu.
+
+TEXT_ASK_DELETE_ARCHIVE                 = ලේකම්මිටි ගොනුව මකාදමන ලදි.[br]ඔබට මෙම ගොනුව මකාදැමීමට අවශ්‍යද?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = ඔබට දැන් පවතිනා ලේකම්මිටි මකාදැමීමට අවශ්‍යද?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Do you want to delete the current archive permanently?
+TEXT_ASK_CHANGE_FILENAME                = එකම ගොනු තිබේ.[br][br]ඔබට ගොනුවේ නම  ${str1} සිට ${str2}ට වෙනස්කිරීමට අවශ්‍යද?
+TEXT_ASK_DELETE_FILE                    = ඔබට තෝරාගත් ගොනුව මකාදැමීමට අවශ්‍යද?
+TEXT_ASK_STOP_EXTRACT                   = ඔබට විහිදුවීම නැවැත්වීමට අවශ්‍යද?
+TEXT_ASK_OVERWRITE_ARCHIVE              = එකම ගොනු තිබේ.[br][br]ඔබට ගොනු උඩින් ලිවීමට අවශ්‍යද?
+TEXT_ASK_INIT_SETTING                   = ඔබට පෙරපරිදි යලි පිහිටුවීමට අවශ්‍යද? Bandizip නැවත ආරම්බභවේවි.
+TEXT_ASK_STOP_ARCHIVING                 = ඔබට ලේකම්මිටි පිහිටුවීම නැවැත්වීමට අවශ්‍යද?
+TEXT_ASK_STOP_MODIFYING                 = ඔබට මෙම මෙහෙයුම නැවැත්වීමට අවශ්‍යද?
+TEXT_ASK_APPLY_MODIFIED_FILE            = ඔබට වෙනස්කල ගොනුව ලේකම්මිටිය තුලට ඇතුලුකිරීමට අවශ්‍යද  [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = ඔබ අයිකන පිහිටුවීමට හා යොමු කරීමටද යන්නෙ(${str1})?
+TEXT_ASK_MAKE_FOLDER                    = The folder doesn't exist. Do you want to create it?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = The destination folder doesn't have write permission.[br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_CONT_NOFREESPACE               = The destination folder doesn't have enough space. Change the destination folder. [br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_ASK_UAC_ELEVATION              = You do not have permission to change these files. [br][br]Do you want to restart this program as an administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Cannot open this archive file. [br][br]Do you want to open the first part of the split file (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = If you delete files after archiving, you could lose important files if the files are broken.[br][br]Do you want to check the "Test Archive" option?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Not enough disk space to extract. Do you want to proceed?[br][br]Destination Folder: ${str1}[br]Free disk space: ${str2}[br]Extracting file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = මෙම ගොනුව විනාශවී ඇත
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = මෙම ගොනුව විනාශවී හෝ වෙනත් ගොනුකොටසක් අවශ්‍යයි
+
+TEXT_BTN_PAUSE                          = විරාමය
+TEXT_BTN_RESUME                         = නැවත ආරම්භ කරනවා
+
+TEXT_ERRDLG_ERROR_OCCURRED              = දෝෂයක් සිදුවුණා
+TEXT_ERRDLG_USER_ABORT                  = අසාර්ථක වෙනවා
+
+TEXT_ARKERR_CANT_OPEN_FILE              = මෙම ගොනුව විවෘත කලනොහැක
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = වෙනත් මෘදුකාංගයක් ගොනුව භාවිත කරන නිසා මෙම ගොනුව විවෘත කලනොහැක
+TEXT_ARKERR_PASSWORD_NOT_SET            = මුරපදයක් අවශ්‍යවේ
+TEXT_ARKERR_INVALID_PASSWD              = වලංගු නොවන මුරපදයකි
+TEXT_ARKERR_USER_ABORTED                = අසාර්ථකය වුණා
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC දෝෂයක්
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = නිකුත් කල ගොනුව විවෘත කලනොහැක
+TEXT_ARKERR_CANT_READ_DATA              = ලේකම්මිටියේ දත්ත කියවිය නොහැක
+TEXT_ARKERR_INFLATE_FAILED              = දත්ත දෝෂයක් - මෙම ගොනුව විනාශවී ඇත
+TEXT_ARKERR_BZIP2_ERROR                 = දත්ත දෝෂයක් - මෙම ගොනුව විනාශවී ඇත
+TEXT_ARKERR_DATA_CORRUPTED              = ගොනුව විනාශවී හෝ වෙනත් කොටසක් අවශ්‍යවේ
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = මෙම ගොනුව විවෘත කලනොහැක
+TEXT_ARKERR_CANT_CREATE_FOLDER          = ෆෝල්ඩරයක් සෑදිය නොහැක
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = සහය දක්වන හැකිලීමේ ක්‍රමයක් නොවේ
+TEXT_ARKERR_WRITE_FAIL                  = ලියනා අතරතුරේ ඇතිවූ දෝෂයකි
+TEXT_ARKERR_DISK_FULL                   = තැටිය පිරීඇත
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = ගොනුවක් සෑදිය නොහැක. ගොනු මාර්ගය සහ ගොනුවේ නම අක්ෂර 260 ඉක්මවා යානොහැක.
+TEXT_ARKERR_CANT_CREATE_FILE            = ගොනුවක් සෑදිය නොහැක
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = ගොනුවක් සෑදිය නොහැක. administrator හිමිකම සහිතව මෘදුකාංගය ධාවනය කරන්න.
+TEXT_ARKERR_USER_SKIP                   = පැහැරහැරියා
+TEXT_ARKERR_FILE_TRUNCATED              = මෙම ගොනුවේ අවසානය විනාශවී හෝ දක්නට නොමැත
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = මුරපදය වලංගු නොවේ හෝ ගොනුව විනාශවී ඇත
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = මෙම ගොනුව විනාශවී ඇත
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = තනිව-විහිදුවෙන ගොනුව (*.exe) 4GBකට වඩා වැඩිය. ඔබට 4GBකට වඩා ගොනුවක් Windows තුල ක්‍රියාත්මක කලනොහැක.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = මෙම ලේකම්මිටි ගොනුව විවෘත කලනොහැක. පරිවාර ගොනු කොටස් (.z01, .z02...) අවශ්‍යවේ.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = මෙම Zip ගොනුව විවෘත කලනොහැක. පරිවාර ගොනු කොටස්( .z01, .z02...) අවශ්‍යවේ.
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = මෙම ලේකම්මිටි ගොනුව විවෘත කලනොහැක. වෙනත් ගොනුකොටසක් අවශ්‍යයි.
+TEXT_ARKERR_CORRUPTED_FILE              = මෙම ගොනුව විනාශවී ඇත
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = මෙම ෆෝල්ඩරය තුල ලිවීමට අවසර නොමැත
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = මෙම ෆෝල්ඩරය තුල ලිවීමට අවසර නොමැත. administrator හිමිකම සහිතව මෘදුකාංගය ධාවනය කරන්න.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = මෙම අගුලුඇරීමේ ගණිතක්‍රමය සහය නොදක්වයි
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = මතකධාරිතාව අඩුය
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = මතකධාරිතාව අඩුය. හැකිලීමේ මට්ටම වෙනස්කරන්න.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = මෙම ක්‍රියාවලිය සහය නොදක්වයි
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = විහිදුවන ලද ගොනුවේ ප්‍රමාණය හා ලේකම්මිටියේ ශීර්ෂ තොරතුරැ වෙනස්වේ.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = 4GBකට වඩා විශාල ගොනු සෑදිය නොහැක. වෙනත් ගොනු ආකෘතියක් තෝරන්න (ZIP හෝ 7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = ස්වයංක්‍රීයව දිගු ගොනු නාමය කෙටි කරන ලදි.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = විවෘත ප්‍රභවය පිටපත් කල නොහැක.
+TEXT_ARKERR_NOTIMPL                     = ක්‍රියාවට නංවා නැත.
+TEXT_ARKERR_CANT_READ_FILE              = Cannot read file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Run Bandizip as administrator to create a symbolic link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Cannot create a symbolic link.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = කොටස් නොමැත
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = භාවිත කරන්නාගේ යෙදවුම්
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-හකුලන්නේ නැත
+TEXT_COMPRESSIONMETHOD_FAST             = 1-ඉක්මන් හැකිලීම
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-සාමාන්‍ය හැකිලීම
+TEXT_COMPRESSIONMETHOD_MAX              = 3-උපරිම හැකිලීම
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = නව හැකිලුමක්
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = ලේකම්මිටියට ගොනු එකතු කරන්න
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = &නම වෙනස් කරන්න: ${str1}
+TEXT_TITLE_TEST_MODE                    = ලේකම්මිටි පරීක්ෂා කිරීම
+TEXT_TITLE_TEMPFOLDER_MODE              = තාවකාලික ෆෝල්ඩරයකට විහිදුවනවා...
+TEXT_TITLE_MODIFYING                    = වෙනස්‍ වෙමින් පවතිනවා...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = විහිදුවීමට ගොනුව
+TEXT_MSG_SELECTED_FILE                  = ${num1} ගොනුව(s) තේරැවා
+TEXT_MSG_SELECTED_FOLDER                = ${num1} ෆෝල්ඩර(s) තේරැවා
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} ගොනුව(s), ${num2} ෆෝල්ඩරය(s)
+TEXT_MSG_SELECTED_FILESIZESUM           = තෝරාගත් ගොනුවේ ප්‍රමාණය: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = යාවත්කාල කිරීම අසමත්
+TEXT_UPDATE_VERSION_CHECKING            = නව සංස්කරණය සොයාබලනවා
+TEXT_UPDATE_DOWNLOAD_FAILED             = බාගත කිරීම අසාර්ථකයි
+TEXT_UPDATE_LATEST_VERSION              = දින අලුත් කලා
+TEXT_UPDATE_DO_DOWNLOAD                 = යාවත්කාල කිරීමක් අවශ්‍යයි
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = බාගතකිරීම සම්පූර්ණයි
+
+TEXT_INSTALL_HONEYVIEW                  = Install Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview isn't installed on your computer.
+TEXT_INSTALL_HONEYVIEW_2                = Please try Honeyview developed by Bandisoft.<br> It supports viewing the images in compressed ZIP, RAR, or 7z files without extraction.
+
+
+
+[MENU]
+MENUSTR_FILE                            = &ගොනු
+MENUSTR_EDIT                            = &සංස්කරණය කිරීම
+MENUSTR_SETTING                         = &විකල්ප
+MENUSTR_FIND                            = &සොයන්න
+MENUSTR_VIEW                            = &View
+MENUSTR_HELP                            = &උදව්
+
+MENUSTR_OPEN                            = &ලේකම්මිටි විවෘත කිරීම\tCtrl+O
+MENUSTR_RECENT                          = Recent Files
+MENUSTR_CLOSE_FILE                      = &ලේකම්මිටි වසාදැමීම\tF4
+MENUSTR_CREATE_ARCHIVE                  = &නව ලේකම්මිටි\tCtrl+N
+MENUSTR_SAVE_AS_ARCHIVE                 = සුරකින ආකාරය
+MENUSTR_DELETE_ARCHIVE                  = ලේකම්මිටි මකාදැමීම \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Delete Archive Permanently \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Open Archive Location
+MENUSTR_TEST_ARCHIVE                    = &ලේකම්මිටි පරීක්ෂා කරනවා \tCtrl+T
+MENUSTR_EXTRACT_FILE                    = &ගොනු විහිදුවනවා \tCtrl+E
+MENUSTR_EXIT                            = &ඉවත්වෙනවා \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = &ගොනුවල නම් වෙනස්කිරීම \tF2
+MENUSTR_ADD_FILE                        = &නව ගොනු එකතුකිරීම \tIns
+MENUSTR_DELETE_FILE                     = &ගොනු මකාදැමීම \tDel
+MENUSTR_EDIT_COMMENT                    = ලේකම්මිටි ගැන අර්ථකථනය
+MENUSTR_SETTING_SUB                     = &අංග කට්ටලය (F5)
+MENUSTR_FIND_ITEM                       = &ගොනු සෙවීම\tCtrl+F
+
+
+
+MENUSTR_ABOUT                           = &Bandizip ගැන \tF1
+MENUSTR_HELPPAGE                        = &උදව් පිටුවට යාම
+MENUSTR_OPEN_FOLDER                     = &Bandizip ගොනුව විවෘත කිරීම
+MENUSTR_FORUM                           = Bandizip  &ෆෝරමය වෙත පිවිසීම
+MENUSTR_HOMEPAGE                        = වෙබ්පලට &යාමට
+
+POPUPMENU_VIEWITEM_COMPSIZE             = හැකිලූ ප්‍රමාණය
+POPUPMENU_VIEWITEM_ORIGSIZE             = සත්‍ය ප්‍රමාණය
+POPUPMENU_VIEWITEM_KIND                 = ගොනුවේ ස්වභාවය
+POPUPMENU_VIEWITEM_DATE_MOD             = නවීකරණය කල දිනය
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = හැකිලූ ක්‍රමය
+POPUPMENU_VIEWITEM_ENCRMETHOD           = අගුලුඇරීමේ ක්‍රමය
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = ගොනුවේ ගුණාංග
+POPUPMENU_VIEWITEM_COMMENT              = ගොනුවේ අර්ථකථනය
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = සියල්ල විහිදුවන්න... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = තෝරාගත් ගොනු විහිදුවන්න...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = සියල්ල මෙහිම විහිදුවන්න
+
+POPUPMENU_LISTCONTROL_EXECUTE           = විවෘත කිරීම\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = සහය දක්වන මෘදුකාංග සමග විවෘතවීම
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = වෙනස්කම් සිදුකිරීම\tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = නව ෆෝල්ඩරය
+POPUPMENU_LISTCONTROL_ADD_FILE          = ගොනු එකතුකිරීම... \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = ගොනු මකාදැමීම \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = ගොනුවල නම් වෙනස්කිරීම
+POPUPMENU_LISTCONTROL_SELECT_ALL        = සියල්ල තෝරන්න \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = මුල් ෆෝල්ඩරය තුලට මාරැකිරීම\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = ලේකම්මිටිය මකාදැමීම
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = ලේකම්මිටි ෆෝල්ඩරය විවෘත කිරීම
+
+POPUPMENU_EXTRACT_AUTODEST              = ස්වයංක්‍රීයව විහිදුවන්න\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = පවත්නා ෆෝල්ඩරයට විහිදුවන්න\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = ගොනුවට "ලේකම්මිටිය-නම" විහිදුවන්න
+POPUPMENU_EXTRACT_DESKTOP               = Desktop මතට විහිදුවන්න
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = ස්වයංක්‍රීයව  Desktop මතට විහිදුවන්න
+
+POPUPMENU_RECENT_CLEAR                  = යටගියාව මකාදමන්න
+POPUPMENU_RECENT_NOITEM                 = නවතම ගොනු නොමැත
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Bandizip සමග විවෘත වෙන්න
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = ස්වයංක්‍රීයව විහිදුවන්න
+
+POPUPMENU_CODEPAGE_DEFAULT              = Default
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Chinese Simplified
+POPUPMENU_CODEPAGE_TRADCHINESE          = Chinese Traditional
+POPUPMENU_CODEPAGE_JAPANESE             = Japanese
+POPUPMENU_CODEPAGE_KOREAN               = Korean
+POPUPMENU_CODEPAGE_WINDOWS1252          = Western European
+POPUPMENU_CODEPAGE_WINDOWS1250          = Central European
+POPUPMENU_CODEPAGE_WINDOWS1251          = Cyrillic
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turkish
+POPUPMENU_CODEPAGE_WINDOWS737           = Greek
+POPUPMENU_CODEPAGE_ARABIC               = Arabic
+POPUPMENU_CODEPAGE_HEBREW               = Hebrew
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = ස්වයංක්‍රීයව හදුනාගැනීම
+
+
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = හරි
+IDCANCEL                                = අවලංගු කරනවා
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Bandizip ගැන
+IDC_BTN_HOMEPAGE                        = වෙබ්පල
+IDC_BTN_UPDATE                          = යාවත්කාල කිරීම
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = ගොනුවක් විවෘත කිරීම
+IDC_STATIC_OPENING                      = විවෘතවෙමින් පවතී
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = විහිදුවන මග තෝරන්න
+IDC_STATIC_FOLDER                       = &නියමිත මග
+IDC_STATIC_FILES2EXTRACT                = විහිදුවීම:
+IDC_RADIO_FILES2EXTRACT_0               = &ගොනු සියල්ල
+IDC_RADIO_FILES2EXTRACT_1               = &තෝරාගත් ගොනු
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &තෝරාගත් ෆෝල්ඩරය "ලේකම්මිටිය-නම"  යටතේ ඇති ෆෝල්ඩරයට විහිදුවන්න
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = විහිදුවීමට පසු මුල් ගොනු මකාදමන්න
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = &නව ෆෝල්ඩරයක්
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = විහිදුවන්න
+IDC_BTN_STOP                            = නවත්වන්න
+IDC_BTN_CLOSE                           = වහන්න
+IDC_BTN_PAUSE                           = විරාමය
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = නව ලේකම්මිටි
+IDC_STATIC_FILE_LIST                    = ලේකම්මිටි තුලට ගොනු එකතුකිරීම
+IDC_STATIC_ARCHIVE_SETTING              = ලේකම්මිටි අංග කට්ටලය
+IDC_STATIC_ARCHIVE_NAME                 = ගොනුවේ නම
+IDC_STATIC_SET_DEST_FOLDER              = ඉලක්කගත ෆෝල්ඩරය
+IDC_STATIC_ARCHIVE_TYPE                 = ලේකම්මිටියේ ආකෘතිය
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = ධාරිතාවට කොටස්
+IDC_STATIC_COMPRESSION_METHOD           = හකුලුවන මට්ටම
+IDC_STATIC_HELP_SPLIT                   = [උදව්]
+IDC_STATIC_HELP_7Z                      = [7Z ආකෘතිය]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &විමසනවා...
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = ලේකම්මිටි ගැන්වීමෙන් පසු ගොනු මකාදමන්න
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = එක් එක් ෆෝල්ඩර/ගොනු නමට හකුලුවන්න
+IDC_BTN_SET_DEST_FOLDER                 = නියමිත ෆෝල්ඩරය වෙනස්කරන්න
+IDC_BTN_TOGGLE_ADVANCED                 = තවත් විකල්ප...
+IDC_BTN_SET_SFX                         = SFX අංග කට්ටලය...
+IDC_BTN_ADD                             = &එකතු කරනවා...
+IDC_BTN_DEL                             = &මකාදැමීම
+IDC_BTN_START                           = &අරඹනවා
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = මුරපදය වලංගු නොවේ. මුරපදය නැවත ඇතුලත් කරන්න.
+IDC_BTN_SHOW_PASSWORD                   = මුරපදය පෙන්වන්න
+IDC_CHECK_APPLY_ALL                     = &සියල්ල යොදනවා
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = මුරපදය පෙන්වන්න
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = තෝරනවා
+IDC_BTN_OPEN                            = විවෘත කරනවා
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = ලේකම්මිටිගැන්වීම
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = නවත්වනවා
+IDC_BTN_CLOSE                           = වහන්න
+IDC_BTN_PAUSE                           = විරාමය
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = අනුපිටපත් කල ගොනු
+IDC_STATIC_DUPE_MESSAGE                 = එකම ආකාරයේ ගොනුඇත .
+IDC_STATIC_DUPEFILE_OLD                 = මුල් ගොනුව
+IDC_STATIC_DUPEFILE_NEW                 = පවත්නා ගොනුව
+IDC_STATIC_DUPE_ASK                     = පහත විකල්ප තෝරන්න:
+IDC_RADIO_DUPE_METHOD0                  = &මගහරිනවා
+IDC_RADIO_DUPE_METHOD1                  = &මතින් ලිවීමට
+IDC_RADIO_DUPE_METHOD2                  = &නම වෙනස්කිරීම
+IDC_CHECK_DUPE_APPLY_ALL                = &සියලු ගොනු තුලට ඇතුලුකරන්න
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = ලේකම්මිටි විකල්ප තෝරන්න
+IDC_STATIC_ASK_HANDLING                 = පහත විකල්ප තෝරන්න:
+IDC_RADIO_HANDLE_METHOD0                = &ලේකම්මිටි විවෘත කරන්න
+IDC_RADIO_HANDLE_METHOD1                = &නව ලේකම්මිටිය
+IDC_RADIO_HANDLE_METHOD2                = &පවතින ලේකම්මිටියට (s)ගොනු එකතුකිරීම
+IDC_CHK_PASS                            = මුරපදයක් භාවිත කිරීම
+IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
+IDC_CHK_SHOW_PASS                       = Show Password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = අංග කට්ටලය
+IDC_BTN_INIT                            = යලි පිහිටුවනවා
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = General Settings
+IDC_CHK_EXIT_WITH_ESC                   = ESC යතුර ඉවත්වීමට
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = ගොනු මකාදැමීමේදී/වෙනස්කිරීමේදී/නම් වෙනස්කිරීමේදී නිතර සොයාබලන්න
+IDC_CHK_SNAP                            = Snap තිරය
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = ලේකම්මිටි තුල [..] එක එල්ලේ පෙන්වන්න
+IDC_CHK_SHOW_GRID_AT_LIST               = Show gridlines in details view
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = සම්පූර්ණ පෙළම තෝරන්න
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = ගොනු ආශ්‍රිත සේවා
+IDC_BTN_SELECT_MANDATORY                = වැදගත් දෑ තෝරන්න
+IDC_BTN_SELECT_ALL                      = සියල්ල තෝරන්න
+IDC_BTN_CLEAR_ALL                       = තේරෑ සියල්ල නොසලකා හරින්න
+IDC_BTN_APPLY_NOW                       = දැන් යොදන්න
+IDC_STATIC_ICON_PACK                    = අයිකන තෝරන්න:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [අයිකන බාගතකරන්න]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = එක්කරන ලද ආශ්‍රිත
+;IDC_STATIC_ASSOC_DESC1                 = Windows 8 හෝ නව මෙහෙයුම පද්දතියක, ඔබට ගොනු පහත පරිදි සැකසිය හැක:
+;IDC_STATIC_ASSOC_DESC2                 = 1. "එක්කරන ලද ආශ්‍රිත" බොත්තම මත Click කරන්න.
+;IDC_STATIC_ASSOC_DESC3                 = 2. එක්කරන ලද ආශ්‍රිත අංග කට්ටල තිරයේ ඇති "සියල්ල තෝරන්න" යන්නට හරියක් යොදන්න.
+;IDC_STATIC_ASSOC_DESC4                 = 3. "සුරකින්න" බොත්තම click කරන්න.
+;IDC_STATIC_ASSOC_DESC1_10              = Windows 10 හෝ නව මෙහෙයුම පද්දතියක, ඔබට ගොනු පහත පරිදි සැකසිය හැක:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. "එක්කරන ලද ආශ්‍රිත" බොත්තම මත Click කරන්න.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Select "Bandizip" in Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = ආශ්‍රිත අංග කට්ටල
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = ගොනු ආශ්‍රිත සේවා
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = දෙවරක්-click කරීමේ ක්‍රියාව
+IDC_RADIO_SHELL_OPEN_0                  = Bandizip සමග විවෘත වන්න
+IDC_RADIO_SHELL_OPEN_1                  = ස්වයංක්‍රීයව විහිදුවන්න
+IDC_RADIO_SHELL_OPEN_2                  = සම්බන්ද මෙනුව පෙන්වන්න
+IDC_RADIO_SHELL_OPEN_3                  = නියම කල ගොනුවට ස්වයංක්‍රීයව විහිදුවන්න
+IDC_BTN_SET_EXTRACT_FOLDER              = විමසනවා...
+IDC_RADIO_SHELL_OPEN_4                  = ෆෝල්ඩරයට "ලේකම්මිටිය-නම" විහිදුවන්න
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = ඇද දැමීමේ මෙනුව
+IDC_CHK_SHELL_EXTRACT_HERE              = මෙහි විහිදුවන්න
+IDC_CHK_SHELL_EXTRACT_AUTO              = ස්වයංක්‍රීයව විහිදුවන්න
+IDC_CHK_SHELL_EXTRACT_SUB               = ෆෝල්ඩරයට "ලේකම්මිටි-නම" විහිදුවන්න
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Here and Delete
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Here (Smart) and Delete
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = වෙනත් ෆෝල්ඩරයකට විහිදුවන්න
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extract as administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = ලේකම්මිටි අත්හදා බලන්න
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Bandizip සමග විවෘත කරන්න
+IDC_CHK_SHELL_PREVIEW                   = ලේකම්මිටියේ පූර්වදර්ශනය
+IDC_STATIC_SHELL_PREVIEW_SIZE           = ගොනුවල පූර්වදර්ශනය සීමාකිරීමට:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = සම්පීඩිත ලේකනය
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = FileName.zip
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = හකුලුවනවා "FileName.zip" and email
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "හකුලුවනවා "FileName.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "හකුලුවනවා "FileName.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "හකුලුවනවා "FileName.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "හකුලුවනවා "FileName.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "හකුලුවනවා "FileName.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "හකුලුවනවා "FileName.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "හකුලුවනවා "FileName.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Compress to "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Compress to "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Compress to "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = "එක් එක් හැකිලිවීමට "FileFolderName.zip""
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "එක් එක් හැකිලිවීමට "FileFolderName.7z""
+IDC_CHK_SHELL_ARCHIVING_POPUP           = ලේකම්මිටියට එකතුකිරීමට (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Compress as administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Compress to custom file name
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${NAME}=Filename, %Y=Year, %m=Month, %d=Day, %H=Hour, %M=Minute, %S=Second
+
+IDC_STATIC_SHELL_BKGND                  = සුදු හිස්පෙදෙසේ Right click කර pop up මෙනුව Windows Explorer එකෙන් ගතහැක
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = ""New Folder" පහසුකම භාවිත කරන්න"
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Command තිරය දියත් කරන්න (cmd.exe) - Shift ඔබල cmd.exe administrator ලෙස දියත් කරන්න
+
+IDC_STATIC_SHELL_ETC                    = අන්‍ය දෑ
+IDC_CHK_SHELL_DO_NOT_USE                = අන්වය මෙනුව අක්‍රිය කිරීම
+IDC_CHK_SHELL_AS_SUB_MENU               = Cascaded අන්වය මෙනුව
+IDC_CHK_SHELL_HIDE_ICON                 = Bandizip අයිකනය සගවන්න
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = ලේකම්මිටි ගොනු අතරින් දක්වනවා
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = ලේකම්මිටි ගොනු සදහා අන්වය මෙනුව පවා පෙන්වන්න
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = ගොඩක් ෆෝල්ඩර/ගොනු භාවිත කරනවිට මවුසයෙන් තේරෑ ෆෝල්ඩර/ගොනු නම භාවිත කිරීමට මෙය ඔබන්න
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = විහිදුවීමේ අංග කට්ටලය
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = root ‍ෆෝල්ඩර එකක් පමණක් ලේකම්මිටි තුල අඩංගු නම්,ෆෝල්ඩරය තුල ගොනු පෙන්වන්න
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = විහිදුවීමෙන් පසු ෆෝල්ඩරය විවෘත කරන්න
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = විහිදුවීමෙන් පසු ක්‍රියාවලිය තිරය විවෘතවම පවතින්න
+IDC_CHK_FAST_DRAG_DROP                  = ඇද දමන ගොනුව විශාල නම් ඉක්මන් ඇද දැමීම හා අතහැරීම භාවිත කරන්න
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = වෙලාවකට TGZ, TBZ ගොනු පමණක් විහිදුවන්න
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Even for the big file size of TGZ, TBZ
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = ස්වයංක්‍රීයව විහිදුවීම' භාවිත කරනවිට, ලේකම්මිටි තුල එක ගොනුවක් පමණක් අඩංගු නම් එම ගොනුව නව ෆෝල්ඩරයකට විහිදුවන්න
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = ස්වයංක්‍රීයව Macintosh code පිටු හදුනාගන්න
+IDC_CHK_UNIXZIP_AS_UTF8                 = UNIX වර්ගයේ සිට zip ගොනු විවෘත කරනවිට UTF-8 code පිටු භාවිත කරන්න
+IDC_STATIC_CODEPAGE                     = සාමාන්‍යයෙන් පවතින Code පිටුව
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = හැමදේම විහිදුවීම සදහා
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = හැකිලීමේ අංග කට්ටලය
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = එක ෆෝල්ඩරයක් පමණක් හකුලුවන විට මුල් ෆෝල්ඩරයක් නොසෑදීමට
+IDC_CHK_USE_UTF8_COMPRESS               = Zip ගොනු සදහා යුනිකෝඩ්  (UTF-8) ගොනු නම් භාවිත කරන්න
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = tar,tgz ගොනු සදහා යුනිකෝඩ්(UTF-8) ගොනු නම් භාවිත කරන්න
+IDC_CHK_FORCE_ZIP64                     = 2GBක කට අඩුවන විට පවා නිතරම ZIP64 ආකෘතිය භාවිත කරන්න (Do not recommend)
+IDC_CHK_EXCLUDE_THUMBSDB                = ලේකම්මිටි සැකසීමේදී  thumbs.db ගොනු මගහරින්න
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Zip ගොනු සැකසීමේදී NTFS කාල පිලිබද තොරතුරැ ආරක්ෂා කරන්න
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = ඉතා ඉක්මන් ලේකම්මිටි ගැසීම
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = ලේකම්මිටිගැන්වීමෙන් පසු ක්‍රියාවලි තීරය විවෘතවම පවතින්න
+IDC_STATIC_COMPRESSION_METHOD           = හැකිලීමේ මට්ටම:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = නවතම ෆෝල්ඩරය ලේකම්මිටි ගැන්වීමට භාවිත කරන්න
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = නව ලේකම්මිටි සදහා Default ෆෝල්ඩරය භාවිත කරන්න
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = උඩින් කියවීම...
+IDC_CHK_EXCLUDE_FILTER                  = ලේකම්මිටි සැකසීමේදී ඉවත්කල යුතු ගොනු ආකාර
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = අංග කට්ටල පෙන්වන්නා
+IDC_CHK_SHOW_PREVIEW                    = රෑප පෙන්වීම
+
+IDC_STATIC_SETTING_VIEWITEM             = තීරැ
+IDC_CHK_VIEWITEM_COMPSIZE               = හැකිලූ ප්‍රමාණය
+IDC_CHK_VIEWITEM_ORIGSIZE               = සත්‍ය ප්‍රමාණය
+IDC_CHK_VIEWITEM_KIND                   = ගොනුවේ වර්ගය
+IDC_CHK_VIEWITEM_DATE_MOD               = වෙනස්කම් කල දිනය
+IDC_CHK_VIEWITEM_COMPMETHOD             = හකුලා ඇති ක්‍රමය
+IDC_CHK_VIEWITEM_ENCRMETHOD             = අගුලුඇරීමේ ක්‍රමය
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = ගොනුවේ උපලක්ෂණ
+IDC_CHK_VIEWITEM_COMMENT                = ගොනුව ගැන අදහස්
+
+IDC_STATIC_IMAGE_VIEWER                 = රෑප පෙන්වන්නා
+IDC_RADIO_IMAGE_VIEWER_0                = අන්තර්ගත  රෑප පෙන්වන්නා භාවිත කරන්න
+IDC_RADIO_IMAGE_VIEWER_1                = ඇසුරැකරගත් මෘදුකාංගය භාවිත කරන්න
+IDC_RADIO_IMAGE_VIEWER_2                = Honeyview ඉන්ස්ටෝල් කරඇත්නම් භාවිත කරන්න
+
+IDC_STATIC_EDITOR                       = සංස්කාරකයා
+IDC_BTN_SET_EDITOR_PATH                 = පිවිසෙන්න...
+
+IDC_STATIC_COLOR                        = Color
+IDC_STATIC_COLOR_THEME                  = Theme color
+IDC_BTN_BKGND                           = Selected
+IDC_STATIC_COLOR_TEXT                   = Font color
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = White
+IDC_STATIC_COLOR_TEXT_BLACK             = Black
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Export Bandizip Settings
+IDC_STATIC_ETC                          = විවිධ අංග කට්ටලය
+IDC_CHK_SET_TEMP_FOLDER                 = තාවකාලික ෆෝල්ඩරයේ ස්ථානය සකස් කරන්න
+IDC_BTN_SET_TEMP_FOLDER                 = පිවිසීම...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Recognize the following file types as archive files
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Delete temporary file when exit the child process
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = මකාදැමූ ගොනු Recycle Binනයට යන්න
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = නවතම ලේකම්මිටි ගොනු විත්ති පෙන්වන්න
+IDC_CHK_USE_LONG_PATH_NAME              = අක්ෂර 260 ඉක්මවායන ගොනු තැන්පත් කරන ස්ථාන  නම් සොයාබලන්න
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Windows Explorerයට විවෘත කල ලේකම්මිටි ගොනු මකාදැමීමට අවසර දෙන්න
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = ෆෝල්ඩර ස්වයංක්‍රීයව ප්‍රසාරණය වන්න
+IDC_CHK_USE_MODAL_DIALOG                = Use a modal dialog box when archiving/extracting
+IDC_CHK_USE_ELEGANT_UI                  = Use elegant UI design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Show 'Start Screen' when Bandizip starts
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Display the full path in the title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Delete extracted files when extraction is cancelled
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = භාෂා අංග කට්ටල
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (ඉබේ විහිදුවන ලේකම්මිටි) අංග කට්ටල
+IDC_STATIC_TARGET_PATH                  = විහිදුවීමේ ස්ථානය:
+IDC_STATIC_TITLE                        = SFX මාතෘකාව:
+IDC_STATIC_RUN                          = විහිදුවීමෙන් පසු ධාවනය වන්න:
+IDC_STATIC_MESSAGE                      = SFX පණිවිඩ:
+IDC_CHK_AUTO_CLOSE                      = විහිදුවීමෙන් පසු SFX තිරය වැසෙන්න
+IDC_BTN_SAVE_SFX_SETTING                = වෙනස්කිරීම් සුරකින්න
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = ගොනු සොයන්න
+IDC_STATIC_FIND                         = සොයන්නේ කුමක්ද:
+IDC_BTN_CLOSE                           = වසන්න
+IDC_BTN_DELETE                          = මකාදමන්න
+IDC_BTN_EXTRACT                         = විහිදුවන්න
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = ලේකම්මිටියගැන අර්ථකථනය
+IDC_STATIC_COMMENT                      = මෙම ලේකම්මිටියේ අර්ථකථනයට එකතු කරන්න/වෙනස් කරන්න
+IDC_CHK_USE_UTF8                        = අර්ථකථන Unicode (UTF-8) ලෙස සුරකින්න
+IDC_BTN_LOAD_FROM_FILE                  = ගොනුවකින් අර්ථකථන එකතු කරගන්න (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = අවවාදයයි
+IDC_STATIC_WARN_EXECUTABLE              = මෙම ගොනුව ඉවත්කල හැක. මෙම මෘදුකාංගය ධාවනය කිරීම ඹබගේ පරිගනකයට හානි පැමිණවිය හැක. ඹබට ක්‍රියාකරවීමට අවශ්‍යද?
+IDC_CHK_DO_NOT_ASK_AGAIN                = නැවත මගෙන් අහන්න එපා
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = විවෘතකිරීම
+$TOOLBAR_CLOSE_FILE                     = වහන්න
+$TOOLBAR_EXTRACT_FILE                   = විහිදුවන්න
+$TOOLBAR_CREATE_ARCHIVE                 = නව
+$TOOLBAR_DELETE_FILE                    = මකාදැමීම
+$TOOLBAR_ADD_FILE                       = එක්කිරීම
+$TOOLBAR_TEST_ARCHIVE                   = පරීක්ෂාව
+$TOOLBAR_CODEPAGE                       = දත්ත පිටුවට
+$TOOLBAR_VIEWITEM                       = වගු
+
+$TOOLBAR_OPEN2                          = Open Archive
+$TOOLBAR_CREATE_ARCHIVE2                = New Archive
+
+$TEXT_DESKTOP                           = Desktop
+$TEXT_DOCUMENT                          = Documents
+$TEXT_PICTURE                           = Pictures
+$TEXT_COMPUTER                          = Computer
+
+$TEXT_SETTINGTAB_GENERAL                = පොදු
+$TEXT_SETTINGTAB_ASSOC                  = ආශ්‍රිතයන්
+$TEXT_SETTINGTAB_SHELL                  = අන්වය මෙනුව
+$TEXT_SETTINGTAB_EXTRACT                = විහිදුවීම්
+$TEXT_SETTINGTAB_ARCHIVE                = හැකිලීම්
+$TEXT_SETTINGTAB_VIEWER                 = පෙන්වන්නා
+$TEXT_SETTINGTAB_ETC                    = සංකීර්ණ
+$TEXT_SETTINGTAB_LANG                   = භාෂා
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = ගොනුවේ ස්ථානය විවෘතකරන්න
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = ලේකම්මිටියේ ස්ථානය විවෘතකරන්න
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = විහිදුවීමෙන් පසු ගොනුවේ ස්ථානය විවෘතකරන්න
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = ලේකම්මිටියේ ස්ථානය විවෘතකරන්න
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = බලාපොරොත්තු වන ෆෝල්ඩරය විවෘතකරන්න
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = විහිදුවීමෙන් පසු මෙම තිරය වැසෙන්න එපා
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = ලේකම්මිටිගැන්වීමෙන් පසු  මෙම තිරය වැසෙන්න එපා
+$TOOLTIP_ADVANCED_MENU                  = Miscellaneous Settings
+
+$TEXT_INSTALL_START                     = OK, I'll try it
+$TEXT_INSTALL_CLOSE                     = No, thanks
+$TEXT_INSTALL_HONEYVIEW_LINK            = See more...
+
+$TEXT_HELP_PAGE                         = Help Page
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = New Folder
+
+TEXT_MENU_CREATE_NEW_FOLDER             = &නව ෆෝල්ඩරය
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Bandizip සමග විවෘතකරන්න...
+TEXT_MENU_TEST_ARCHIVE                  = ලේකම්මිටි පරීක්ෂා කරන්න
+TEXT_MENU_LAUNCH_CMD                    = &Command තිරය දියත්කරන්න
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Command තිරය දියත්කරන්න (Admin)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = ඒ ඒ  "ගොනුවේ/ෆෝල්ඩරයේ" නමට හැකිලවීමට
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "ඒ ඒ  "ගොනුවේ/ෆෝල්ඩරයේ" නමට හැකිලවීමට.7z""
+TEXT_MENU_ARCHIVE_ZIP                   = "&හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = හැකිලීමට "${str1}" සහ &email...
+TEXT_MENU_ARCHIVE_ZIPX                  = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "හැකිලීමට "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Compress to each "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Compress to each "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Compress to "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = ලේකම්මිටියට එකතුකිරීමට (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Administrator ආකාරයෙන් හැකිලවීමට
+
+TEXT_MENU_EXTRACT_HERE                  = &මෙහි විහිදුවන්න
+TEXT_MENU_EXTRACT_AUTO                  = ස්වයංක්‍රීයව &විහිදුවන්න
+TEXT_MENU_EXTRACT_AUTO_EACH             = ස්වයංක්‍රීයව &විහිදුවන්න (එක එක)
+TEXT_MENU_EXTRACT_SUB                   = එක් එක් ගොනුවේ &වෙන වෙන ෆෝල්ඩර වලට විහිදුවන්න
+TEXT_MENU_EXTRACT_ARCHIVENAME           = විහිදුවීම &ට ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = වෙනත් ෆෝල්ඩරයකට විහිදුවන්න...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Administrator අයුරින් විහිදුවන්න
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = ලේකම්මිටියේ පූර්වදර්ශනය
+TEXT_MENU_PREVIEW_BROKEN                = මෙම ගොනුවේ එක්කෝ [br] නාදුනන ආකෘතියක් හෝ විනාශවී ඇත
+TEXT_MENU_PREVIEW_TIMEOUT               = අයදුම් කල කාලය අවසානයි.
+TEXT_MENU_PREVIEW_EMPTY                 = ලේකම්මිටි ගොනුව හිස්ව ඇත
+TEXT_MENU_PREVIEW_ENCRYPTED             = ගොනුවේ නම අගුලුහැරියා
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = ලේකම්මිටියේ පූර්වදර්ශනය පෙන්වීමේ පහසුකම භාවිත කල නොහැක. [br][br]Windows Explorerය නැවත ආරම්භ කරන්න හෝ [br]ඹබගේ computerය නැවත ආරම්භ කරන්න.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = ගොනු ලැයිස්තුව කියවිය නොහැක
+
+TEXT_MENU_OPENING                       = විවෘතවෙනවා...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip යාවත්කාල කිරීම්
+TEXT_UPDATER_TEXT1                      = Bandizip යාවත්කාල කිරීම් සූදානම්.
+TEXT_UPDATER_TEXT_DL                    = දැන්ම ඹබ එය බාගතකිරීමට කැමතිද?
+TEXT_UPDATER_BTN_UPDATE                 = යාවත්කාල කිරීම
+TEXT_UPDATER_BTN_OK                     = හරි
+TEXT_UPDATER_BTN_CANCEL                 = අවලංගු
+TEXT_UPDATER_DOWNLOAD_ERROR             = බාගතකිරීම අසාර්ථකයි.
+TEXT_UPDATER_SETTING_UPDATE             = අංග කට්ටල
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = ඉලක්කගත ස්ථානය:
+BTN_SELECT_FOLDER                       = පිවිසෙන්න...
+BTN_EXTRACT                             = පටන්ගන්න
+BTN_CLOSE                               = වහන්න
+BTN_CANCEL                              = අවලංගුකරන්න
+BTN_OPEN_FOLDER                         = විවෘතකරන්න
+CHK_OVERWRITE                           = මතින්ලිවීම
+ERR_ERROR_OCCURRED                      = දෝෂයක් පැනනැග්ගා
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = එකම ගොනුව පෙරසිටම පවතිනවා. ඹබට එය මතින්ලිවීමට අවශ්‍යද?
+MSG_COMPLETED                           = විහිදුවීම සාර්ථකයි!
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = මුරපදය පෙන්වන්න
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = ගොනු විහිදුවිය නොහැක.
+TEXT_ERR_CRC                            = CRC දෝෂයක්.
+TEXT_ERR_INVALID_PASSWD                 = වලංගු නොවන මුරපදයකි.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [උදව්]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip තවමත් ධාවනයවේ. ප්‍රථමයෙන් මෘදුකාංගය වහන්න.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+

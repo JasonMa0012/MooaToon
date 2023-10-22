@@ -1,6 +1,6 @@
 @echo off
 
-cd InstallTools
+cd InstallationTools
 echo Installing Visual Studio 2022...
 
 

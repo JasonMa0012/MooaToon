@@ -35,7 +35,7 @@ if len(sys.argv) > 4:
 current_date = datetime.date.today().strftime("%Y.%m.%d")
 release_name = engine_version + "-" + current_date
 
-bandizip_path = mooatoon_root_path + r"\InstallTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
+bandizip_path = mooatoon_root_path + r"\InstallationTools\BANDIZIP-PORTABLE\Bandizip.x64.exe"
 zip_path = mooatoon_root_path + r"\ReleaseTools\Zip"
 engine_path = mooatoon_root_path + r"\MooaToon-Engine"
 project_path = mooatoon_root_path + r"\MooaToon-Project"

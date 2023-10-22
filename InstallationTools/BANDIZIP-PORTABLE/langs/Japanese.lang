@@ -1,0 +1,1192 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = 日本語
+TRANSLATORS                             = Rukoto, 朧星夜
+DLG_FONT_NAME                           = ICONTITLELOGFONT
+DLG_FONT_SIZE                           = 9
+
+
+[TEXT]
+TEXT_BUILDNO                            = ビルド
+TEXT_FILE                               = ファイル
+TEXT_FOLDER                             = フォルダー
+TEXT_ARCHIVE_SIZE                       = アーカイブ サイズ
+TEXT_ORIGINAL_SIZE                      = 元のサイズ
+TEXT_ARCHIVE_FORMAT                     = アーカイブ形式
+TEXT_COMPRESSED_SIZE                    = 圧縮されたサイズ
+TEXT_SOLID                              = ソリッド
+TEXT_BETA                               = ベータ
+TEXT_ASSOC                              = 圧縮ファイル (${str1})
+TEXT_PORTABLE                           = ポータブル
+TEXT_NEW_FOLDER                         = 新しいフォルダー
+TEXT_FILESIZE_UNKNOWN                   = 不明
+TEXT_FILEDATE_UNKNOWN                   = 不明
+TEXT_HELP_LINK                          = [ヘルプ]
+TEXT_APP_DESC                           = Bandizipは、迅速・軽量の無料圧縮・解凍ソフトです。ZIP、7Z、RARなどの様々な圧縮形式に対応しています。
+
+TEXT_MESSAGEBOX_OK                      = OK
+TEXT_MESSAGEBOX_CANCEL                  = キャンセル
+TEXT_MESSAGEBOX_ABORT                   = 中止
+TEXT_MESSAGEBOX_RETRY                   = 再試行
+TEXT_MESSAGEBOX_IGNORE                  = 無視
+TEXT_MESSAGEBOX_YES                     = はい
+TEXT_MESSAGEBOX_NO                      = いいえ
+TEXT_MESSAGEBOX_CONTINUE                = 続行
+TEXT_MESSAGEBOX_HELP                    = ヘルプ
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = 今後、このメッセージを表示しない
+
+TEXT_COLUMN_NAME                        = 名前
+TEXT_COLUMN_COMPSIZE                    = 圧縮済みのサイズ
+TEXT_COLUMN_ORIGSIZE                    = 元のサイズ
+TEXT_COLUMN_KIND                        = 種類
+TEXT_COLUMN_DATE_MOD                    = 更新日時
+TEXT_COLUMN_COMPMETHOD                  = 圧縮方式
+TEXT_COLUMN_ENCRMETHOD                  = 暗号化方式
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = 属性
+TEXT_COLUMN_COMMENT                     = コメント
+TEXT_COLUMN_EXT                         = 追加情報
+TEXT_COLUMN_PATHNAME                    = パス
+
+TEXT_ICONPACK_NAME                      = 名前
+TEXT_ICONPACK_DESIGNER                  = デザイナー
+TEXT_ICONPACK_COPYRIGHT                 = Copyright
+
+TEXT_ARCHIVE_COLUMN_NAME                = 名前
+TEXT_ARCHIVE_COLUMN_FILESIZE            = サイズ
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = フォルダーパス
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = 合計サイズ
+
+TEXT_SELECT_ARCHIVE_FILE                = ファイルを選択
+TEXT_SELECT_TEXT_FILE                   = テキストファイルを選択
+TEXT_SELECT_DEST_FOLDER                 = 保存先フォルダーを選択
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = 圧縮ファイル
+TEXT_REGISTRY_FILE                      = レジストリファイル
+
+TEXT_OPENDLG_ARCHIVEFILES               = 圧縮ファイル
+TEXT_OPENDLG_ARCHIVEFILE                = 圧縮ファイル
+TEXT_OPENDLG_ALLFILES                   = すべてのファイル
+TEXT_OPENDLG_EXEFILES                   = 実行ファイル
+
+TEXT_ABOUTBOX_TAB1                      = Bandizipについて
+
+TEXT_ASSOC_GROUP0                       = 圧縮ファイル
+TEXT_ASSOC_GROUP1                       = UNIX系の圧縮ファイル
+TEXT_ASSOC_GROUP2                       = その他の圧縮ファイル
+TEXT_ASSOC_GROUP3                       = CD/DVDイメージ
+
+TEXT_OPENERR_INVALIDVERSION             = ファイルを開くには、Bandizipを最新版にアップデートしてください。
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = 分割圧縮ファイルの一番目のファイルを開いてください。
+TEXT_OPENERR_CANT_OPEN_FILE             = ファイル${str1}を開くことができません。
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = 他のプログラムが"${str1}"を使用している為、ファイルを開くことができません。
+TEXT_OPENERR_GENERAL                    = ${str1} を開けません。(コード: ${xnum1})
+TEXT_OPENERR_USER_ABORT                 = キャンセルしました。
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = "不明なファイル形式 "${str1}""
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ""${str1}" はアーカイブではありません。"
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = ${str1} はサポートしていないファイル形式です。
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = ${str1} はサポートしていない暗号化方式です。
+TEXT_OPENERR_PASSWORD_NOT_SET           = パスワードが必要です。
+TEXT_OPENERR_INVALID_PASSWORD           = パスワードが違います。
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = ファイルのヘッダーが壊れているため、ファイルを開けません。
+
+TEXT_ERR_INIT_FAILED                    = 初期化に失敗しました。
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = パスワードが間違っているか、ファイルが含まれていません。
+TEXT_ERR_PASSOWRD_NOT_MATCH             = パスワードが違います。
+TEXT_ERR_PASSWORD_NOT_SET               = パスワードを入力してください。
+TEXT_ERR_INVALID_PASSWORD_CHAR          = パスワードに無効な文字が含まれています。英数字または特殊文字のみを入力してください。
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = 分割ファイル サイズが正しくありません。
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (自己展開アーカイブ) のファイル サイズは 4GB に制限されています。
+TEXT_ERR_INTERNAL_ERROR                 = 内部エラーが発生しました。
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = アーカイブを更新できません。
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = アーカイブの更新中にエラーが発生しました。
+TEXT_ERR_INVALID_FOLDER_PATH            = フォルダー パスが正しくありません。
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = ZIP/ZIPX ファイルのみ編集可能です。
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = 分割ファイルは編集できません。
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = 自己展開 ファイル (*.exe) は編集できません。
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = ファイルが壊れているため、編集できません。
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = このアーカイブ形式は編集できません。
+TEXT_ERR_CANT_CHANGE_FILENAME           = ファイル名を変更できません。
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "ファイル名には次の文字を使用できません:[br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = 同じ名前のファイル/フォルダーが既に存在しているため、ファイル名を "${str1}" に変更できません。
+TEXT_ERR_CANT_CREATE_FOLDER             = フォルダーを作成できません。
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = アーカイブするファイルがありません。
+TEXT_ERR_INVALID_PARAM                  = パラメーターが正しくありません。
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = "ファイルをアーカイブに追加できません。[br] - "${str1}""
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = "アーカイブを開けません。[br] - "${str1}""
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = 同じ名前のフォルダーが既に存在しています。
+TEXT_ERR_FILENAME_EMPTY                 = ファイル名が正しくありません。
+TEXT_ERR_AT_DRAGANDDROP                 = ドラッグアンドドロップに失敗しました。
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = ドラッグアンドドロップに失敗しました。[br]「高速ドラッグアンドドロップ」機能を無効にしましたので、もう一度お試しください。
+TEXT_ERR_AT_CANT_OPEN_MMF               = MMF を開けません (mmf: ${str1})
+TEXT_ERR_NO_FILES_SELECTED              = ファイルが選択されていません。
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = アイコン パックをインストールするためのフォルダーを作成できません。
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = アイコン パックをインストールするためのファイルを作成できません。
+TEXT_ERR_AT_EXECUTE_DIRECT              = このファイルを開けきません。展開後にエクスプローラーで開いてください。
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 4GB を超えるファイルを作成できません。[br]別のファイル形式 (ZIP または 7Z) を選択してください。
+TEXT_ERR_CANT_SAVE_AS                   = ファイルを保存できません。
+TEXT_ERR_ERROR_AT_EDIT                  = アーカイブの編集中に問題が発生しました。"${str1}"[br][br]問題の内容をサーバーに転送しますか?[br][br]送信いただいた内容はプログラムの改善に役立てます。
+
+TEXT_MSG_TEST_OK                        = ファイルに問題は見つかりません。
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = 展開に失敗しました。[br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = 展開が正常に完了しました。
+TEXT_MSG_EXTRACT_CANCELED               = 展開がキャンセルされました。
+TEXT_MSG_COMPRESS_SUCCESS               = 圧縮が正常に完了しました。
+TEXT_MSG_INTERNAL_ERROR                 = 内部エラーが発生しました。
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = 一時フォルダーの以下のファイルを開けません。[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = ファイルを削除できません。
+TEXT_MSG_CRASH_REPORT                   = 問題が発生しました。Bandizip を終了します。
+TEXT_MSG_CRASH_REPORT2                  = 問題が発生しました。Bandizip を終了します。[br]Bandizip の開発者にクラッシュ レポートを送信しますか?
+TEXT_MSG_CRASH_REPORT3                  = 次の DLL は問題を引き起こしているため、閉じる必要があります。[br]Bandizip の開発者にクラッシュ レポートを送信しますか?
+TEXT_MSG_HANGAPP_REPORT                 = 応答がありません。[br][br]問題のレポートをサーバーに送信し、プログラムを終了しますか?
+TEXT_MSG_SET_TEMP_PATH                  = 一時フォルダーを設定します。
+TEXT_MSG_SET_PATH                       = フォルダーを設定します。
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = アイコン パックのインストールを完了しました。
+TEXT_MSG_NOTICE_RESTART                 = Bandizip を再起動します。
+TEXT_MSG_ARCHVIE_OPENING                = ファイルを開いています。
+TEXT_MSG_COMPLETING                     = ファイナライズしています: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = "フォルダーの作成に失敗しました。[br] - "${str1}""
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = GZ/XZ 形式ではフォルダーを圧縮できません。
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = GZ/XZ 形式では複数のファイルを圧縮できません。[それぞれのファイル/フォルダー名で圧縮する] オプションを有効にしてください。
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip がタスクトレイに最小化されました。アイコンをクリックするとプログラムが表示されます。
+TEXT_MSG_TRAY_COMPLETED                 = 操作を完了しました。
+TEXT_MSG_BATCH_ARCHVING                 = 圧縮中: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = 展開中: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - テスト中: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - 削除中: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - 削除失敗: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = タスクを実行しています...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = このアーカイブは別の文字コードで圧縮されています。メニューの<font color=red><b>文字コード</b></font>をクリックして<font color=red><b>自動検出</b></font>を選択してください。
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = Bandizip で ${ext} ファイルを開きますか?
+
+TEXT_ASK_DELETE_ARCHIVE                 = アーカイブは削除されます。[br]削除しますか?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = 現在のアーカイブを削除しますか?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = 現在のアーカイブを完全に削除しますか?
+TEXT_ASK_CHANGE_FILENAME                = 同じ名前のファイルが既に存在しています。[br][br]"${str1}" から "${str2}" に[br]名前を変更しますか?
+TEXT_ASK_DELETE_FILE                    = 選択したファイルを削除しますか?
+TEXT_ASK_STOP_EXTRACT                   = 展開を中止しますか?
+TEXT_ASK_OVERWRITE_ARCHIVE              = 同じ名前のファイルが既に存在しています。[br][br]上書きしすか?
+TEXT_ASK_INIT_SETTING                   = 設定をデフォルトにリセットしますか? Bandizip は再起動されます。
+TEXT_ASK_STOP_ARCHIVING                 = 圧縮を中止しますか?
+TEXT_ASK_STOP_MODIFYING                 = 操作を中止しますか?
+TEXT_ASK_APPLY_MODIFIED_FILE            = "変更されたファイルをアーカイブに適用しますか?[br]"${str1}""
+TEXT_ASK_INSTALL_ICONPACK               = アイコン パック "${str1}" をインストールして適用しますか?
+TEXT_ASK_MAKE_FOLDER                    = "フォルダーがありません。フォルダーを作成しますか?[br][br]- "${str1}""
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = 宛先フォルダーに書き込み権限がありません。[br][br]- "${str1}"[br][br]続行しますか?
+TEXT_ASK_CONT_NOFREESPACE               = 宛先フォルダーの空き容量が不足しています。宛先フォルダーを変更してください。[br][br]- "${str1}"[br][br]続行しますか?
+TEXT_ASK_ASK_UAC_ELEVATION              = これらのファイルを変更する権限がありません。[br]管理者権限で再実行しますか?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = アーカイブを開けません。[br][br]分割ファイルの最初のファイル "${str1}" を開きますか?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = 圧縮後に元のファイルを削除すると、アーカイブに異常があった場合、重要なファイルが失われる可能性があります。[br][br][圧縮後にテストする] を有効にしますか?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = 展開するのに十分な空きディスク領域がありません。続行しますか?[br][br]展開先: ${str1}[br]空きディスク領域: ${str2}[br]展開中のファイル サイズ: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = ファイルが壊れています。
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = ファイルが壊れているか、別の分割ファイルが必要です。
+
+TEXT_BTN_PAUSE                          = 一時停止
+TEXT_BTN_RESUME                         = 再開
+
+TEXT_ERRDLG_ERROR_OCCURRED              = エラーが発生しました。
+TEXT_ERRDLG_USER_ABORT                  = キャンセルしました。
+
+TEXT_ARKERR_CANT_OPEN_FILE              = ファイルを開けません。
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = 他のプログラムがファイルを使用しているため、ファイルを開けません。
+TEXT_ARKERR_PASSWORD_NOT_SET            = パスワードが必要です。
+TEXT_ARKERR_INVALID_PASSWD              = パスワードが違います。
+TEXT_ARKERR_USER_ABORTED                = キャンセルしました。
+TEXT_ARKERR_INVALID_FILE_CRC            = アーカイブが壊れています。(CRC エラー)
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = 出力ファイルを開けません。
+TEXT_ARKERR_CANT_READ_DATA              = アーカイブ データを読み取りできません。
+TEXT_ARKERR_INFLATE_FAILED              = データ エラー - ファイルが壊れています。
+TEXT_ARKERR_BZIP2_ERROR                 = データ エラー - ファイルが壊れています。
+TEXT_ARKERR_DATA_CORRUPTED              = ファイルが壊れているか、分割ファイルの一部が不足しています。
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = 出力ファイルを作成できません。
+TEXT_ARKERR_CANT_CREATE_FOLDER          = フォルダーを作成できません。
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = サポートされていない圧縮方式です。
+TEXT_ARKERR_WRITE_FAIL                  = 書き込み中にエラーが発生しました。
+TEXT_ARKERR_DISK_FULL                   = 空き容量が不足しています。
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = ファイルを作成できません。 パスとファイル名は 260 文字を超えることはできません。
+TEXT_ARKERR_CANT_CREATE_FILE            = ファイルを作成できません。
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = ファイルを作成できません。管理者権限で再度お試しください。
+TEXT_ARKERR_USER_SKIP                   = スキップしました。
+TEXT_ARKERR_FILE_TRUNCATED              = ファイルのデータが途中で切れているか、分割ファイルの最後の部分がありません。
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = パスワードが間違っているか、ファイルが壊れています。
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = ファイルが壊れています。
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = 自己展開ファイル (*.exe) のサイズが 4GB を超えています。Windows は 4GB を超えるファイルを実行できません。
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = アーカイブを開けません。次の分割ファイル (.z01, z02...) が必要です。
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = ZIP ファイルを開けません。次の分割ファイル (.z01, z02...) が必要です。
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = アーカイブを開けません。別の分割ファイルが必要です。
+TEXT_ARKERR_CORRUPTED_FILE              = ファイルが壊れています。
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = 展開先フォルダーに書き込み権限がありません。
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = 展開先フォルダーに書き込み権限がありません。管理者権限により再度展開をお試しください。
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = サポートしていない暗号化方式です。
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = メモリが不足しています。
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = メモリが不足しています。圧縮レベルを変更してください。
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = サポートしていない操作を実行しようとしました。
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = 展開後のファイル サイズがアーカイブ ヘッダー情報と一致しません。
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = 4GB を超えるファイルは保存できません。
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = 長いファイル名は自動的に短く変更されました。
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = コピーする元のファイルを開けません。
+TEXT_ARKERR_NOTIMPL                     = 実装されていません。
+TEXT_ARKERR_CANT_READ_FILE              = ファイルを読み込めません。
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = シンボリックリンクを作成するには、Bandizip を管理者権限で実行する必要があります。
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = シンボリックリンクを作成できません。
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = ファイルは書き込み可能であり、別のプロセスで使用されています。
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = アーカイブするファイルがありません。
+
+TEXT_SPLITCOMBO_NOSPLIT                 = 分割なし
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (片面一層 DVD)
+TEXT_SPLITCOMBO_USERINPUT               = サイズ指定
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-無圧縮
+TEXT_COMPRESSIONMETHOD_FAST             = 1-高速圧縮
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-標準圧縮
+TEXT_COMPRESSIONMETHOD_MAX              = 3-最高圧縮
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = 新規圧縮
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = アーカイブに追加
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = "名前を変更(&R): "${str1}""
+TEXT_TITLE_TEST_MODE                    = アーカイブのテスト
+TEXT_TITLE_TEMPFOLDER_MODE              = 一時フォルダーに展開しています...
+TEXT_TITLE_MODIFYING                    = 更新しています...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = 展開するファイル
+TEXT_MSG_SELECTED_FILE                  = ${num1} 個のファイルを選択
+TEXT_MSG_SELECTED_FOLDER                = ${num1} 個のフォルダーを選択
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} 個のファイルと ${num2} 個のフォルダーを選択
+TEXT_MSG_SELECTED_FILESIZESUM           = 選択されたファイルのサイズ: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = バージョン チェック失敗
+TEXT_UPDATE_VERSION_CHECKING            = バージョン チェック中
+TEXT_UPDATE_DOWNLOAD_FAILED             = ダウンロード失敗
+TEXT_UPDATE_LATEST_VERSION              = 最新版を使用中
+TEXT_UPDATE_DO_DOWNLOAD                 = アップデート可能
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = ダウンロード完了
+
+TEXT_INSTALL_HONEYVIEW                  = Honeyview のインストール
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview がインストールされていません。
+TEXT_INSTALL_HONEYVIEW_2                = Bandisoft によって開発された Honeyview をお試しください。<br>ZIP、RAR、または 7z 形式で圧縮されたイメージを展開せずに表示できます。
+
+TEXT_REGISTRATION_FAILED                = 登録に失敗しました。[br]メール アドレスとプロダクト キーを確認してください。
+TEXT_REGISTRATION_SUCCEED               = Bandizip は登録されました。
+TEXT_REGISTRATION_ASK                   = Bandizip の登録を解除してもよろしいですか?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip は登録されていません。[br]機能制限なしで使用するには、Bandizip を購入して登録してください。
+TEXT_REGISTER_INFO                      = Bandizip は以下のユーザーに 登録されています。[br]メール アドレス: ${str1}[br]プロダクト キー: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = アーカイブ内のマルウェア対策スキャン
+TEXT_SCAN_AMSI_PROVIDER                 = AMSI の初期化に成功しました
+TEXT_SCAN_COMPLETED                     = マルウェアのスキャンが完了しました。
+TEXT_SCAN_MALWARE_DETECTED              = マルウェアが検出されました。
+TEXT_SCAN_MALWARE_NOTDETECTED           = マルウェアは検出されません。
+TEXT_SCAN_MALWARE_TOOBIG                = スキャンに失敗しました。ファイルが大きすぎます。
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = アーカイブでマルウェアが検出されました。
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= アーカイブでマルウェアが検出されました。展開はキャンセルされました。
+TEXT_MSG_MALWARE_TEST_OK                = アーカイブでマルウェアは検出されていません。
+TEXT_MSG_AMSI_INIT_FAILED               = スキャンの AMSI 初期化に失敗しました。詳細については、https://go.bandisoft.com/amsi にアクセスしてください。
+TEXT_MSG_AMSI_WIN10_NOTICE              = マルウェア対策スキャンは Windows 10 でのみ利用可能です。詳細については、https://go.bandisoft.com/amsi にアクセスしてください。
+
+[MENU]
+MENUSTR_FILE                            = ファイル(&F)
+MENUSTR_EDIT                            = 編集(&E)
+MENUSTR_SETTING                         = 設定(&O)
+MENUSTR_FIND                            = 検索(&I)
+MENUSTR_VIEW                            = 表示(&V)
+MENUSTR_TOOLS                           = ツール(&T)
+MENUSTR_HELP                            = ヘルプ(&H)
+
+MENUSTR_OPEN                            = アーカイブを開く(&O)...\tCtrl+O
+MENUSTR_RECENT                          = 最近使ったファイル
+MENUSTR_CLOSE_FILE                      = アーカイブを閉じる(&C)\tF4
+MENUSTR_CREATE_ARCHIVE                  = 新規圧縮(&N)...\tCtrl+N
+MENUSTR_NEW_WINDOW                      = 新しいウィンドウを開く\tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = 新しいウィンドウを開く (管理者権限)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = 名前を付けて保存...
+MENUSTR_DELETE_ARCHIVE                  = アーカイブを削除\tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = アーカイブを完全に削除\tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = アーカイブの場所を開く
+MENUSTR_TEST_ARCHIVE                    = アーカイブのテスト(&T)...\tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = アーカイブ内のマルウェア対策スキャン...\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = ファイルを展開(&E)...\tCtrl+E
+MENUSTR_EXIT                            = 終了(&X)\tCtrl+W
+
+MENUSTR_RENAME_FILE                     = 名前の変更(&R)\tF2
+MENUSTR_ADD_FILE                        = ファイルの追加(&A)\tIns
+MENUSTR_DELETE_FILE                     = ファイルの削除(&D)\tDel
+MENUSTR_EDIT_COMMENT                    = アーカイブのコメント
+MENUSTR_SETTING_SUB                     = 環境設定(&S)... (F5)
+MENUSTR_REGISTER                        = Bandizip を登録...
+MENUSTR_UNREGISTER                      = Bandizip の登録を解除...
+MENUSTR_PASSMAN                         = パスワード マネージャー...
+MENUSTR_FIND_ITEM                       = ファイル検索(&I)\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = クリップボードにファイルをコピー\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = クリップボードからファイルを貼り付け\tCtrl+V
+
+MENUSTR_VIEW_STARTSCREEN                = スタート画面\tF6
+MENUSTR_VIEW_TREECONTROL                = ツリービュー コントロール\tF7
+MENUSTR_VIEW_COMMENT                    = アーカイブのコメント\tF8
+MENUSTR_VIEW_PREVIEW                    = イメージのプレビュー
+MENUSTR_VIEW_STATUS_BAR                 = ステータス バー
+MENUSTR_VIEW_TOOLBAR                    = ツールバー
+MENUSTR_VIEW_TOOLBAR_NORMAL             = 大きい
+MENUSTR_VIEW_TOOLBAR_MINI               = 小さい
+MENUSTR_VIEW_TOOLBAR_OLD                = クラシック
+MENUSTR_VIEW_TOOLBAR_HIDE               = 非表示
+MENUSTR_SET_TOOLBAR_ITEM                = ツールバーのボタンを選択
+MENUSTR_VIEW_LISTVIEW                   = ファイル リスト
+MENUSTR_VIEW_LISTVIEW_ICON              = 小アイコン
+MENUSTR_VIEW_LISTVIEW_LIST              = 一覧
+MENUSTR_VIEW_LISTVIEW_REPORT            = 詳細
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = 大アイコン
+MENUSTR_VIEW_COLUMN                     = 列の表示
+MENUSTR_VIEW_ALWAYS_ON_TOP              = 常に手前に表示
+MENUSTR_VIEW_COLOR_SETTING              = 色の設定...
+
+MENUSTR_TOOLS_REPAIR                    = アーカイブの修復...
+MENUSTR_TOOLS_RECOVERY                  = パスワード リカバリー...
+
+MENUSTR_ABOUT                           = Bandizip について(&A)\tF1
+MENUSTR_HELPPAGE                        = ヘルプ ページ(&G)
+MENUSTR_OPEN_FOLDER                     = Bandizip フォルダーを開く(&O)
+MENUSTR_FORUM                           = フォーラム(&F)
+MENUSTR_HOMEPAGE                        = 公式サイト(&W)
+
+POPUPMENU_VIEWITEM_COMPSIZE             = 格納
+POPUPMENU_VIEWITEM_ORIGSIZE             = サイズ
+POPUPMENU_VIEWITEM_KIND                 = 種類
+POPUPMENU_VIEWITEM_DATE_MOD             = 更新日時
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = 圧縮方式
+POPUPMENU_VIEWITEM_ENCRMETHOD           = 暗号化方式
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = 属性
+POPUPMENU_VIEWITEM_COMMENT              = コメント
+POPUPMENU_VIEWITEM_EXT                  = 追加情報
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = すべて展開...\tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = 選択したファイルを展開...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = ここにすべて展開
+
+POPUPMENU_LISTCONTROL_EXECUTE           = 開く\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = 関連付けされたプログラムで開く
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = 編集\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = &Bandizip で開く
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = 新しいフォルダーを作成
+POPUPMENU_LISTCONTROL_ADD_FILE          = ファイルを追加...\tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = ファイルを削除\tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = 名前の変更
+POPUPMENU_LISTCONTROL_SELECT_ALL        = すべて選択\tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = 親フォルダーに移動\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = アーカイブを削除
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = アーカイブの場所を開く
+
+POPUPMENU_EXTRACT_AUTODEST              = ここに即時展開\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = 現在のフォルダーに展開\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = ""アーカイブ名"フォルダーに展開"
+POPUPMENU_EXTRACT_DESKTOP               = デスクトップに展開
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = デスクトップに即時展開
+
+POPUPMENU_RECENT_CLEAR                  = 履歴を消去
+POPUPMENU_RECENT_NOITEM                 = 最近使ったファイルがありません
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Bandizip で開く
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = ここに即時展開
+
+POPUPMENU_CODEPAGE_DEFAULT              = デフォルト
+POPUPMENU_CODEPAGE_SIMPCHINESE          = 簡体字中国語
+POPUPMENU_CODEPAGE_TRADCHINESE          = 繁体字中国語
+POPUPMENU_CODEPAGE_JAPANESE             = 日本語
+POPUPMENU_CODEPAGE_KOREAN               = 韓国語
+POPUPMENU_CODEPAGE_WINDOWS1252          = 西ヨーロッパ言語
+POPUPMENU_CODEPAGE_WINDOWS1250          = 中央ヨーロッパ言語
+POPUPMENU_CODEPAGE_WINDOWS1251          = キリル言語
+POPUPMENU_CODEPAGE_WINDOWS1254          = トルコ語
+POPUPMENU_CODEPAGE_WINDOWS737           = ギリシャ語
+POPUPMENU_CODEPAGE_ARABIC               = アラビア語
+POPUPMENU_CODEPAGE_HEBREW               = ヘブライ語
+POPUPMENU_CODEPAGE_BALTIC               = バルト諸国言語
+POPUPMENU_CODEPAGE_THAI                 = タイ語
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = 自動検出
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Honeyview で開く
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = 関連付けられたプログラムで開く
+
+DLG_MENUSTR_MINIMIZE2TRAY               = タスクトレイに最小化
+DLG_MENUSTR_LOW_PRIORITY                = 優先度: 低
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = 展開後にアーカイブを削除
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = OK
+IDCANCEL                                = キャンセル
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Bandizip について
+IDC_BTN_HOMEPAGE                        = 公式サイト
+IDC_BTN_UPDATE                          = アップデート
+IDC_BTN_REGIST                          = 今すぐ登録
+IDC_BTN_BUY                             = 今すぐ購入
+IDC_BTN_LEARNMORE                       = 詳細情報
+IDC_STATIC_LICENSE                      = Bandizip 登録情報
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = ファイルを開く
+IDC_STATIC_OPENING                      = 開いています
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = 展開先を選択
+IDC_STATIC_FOLDER                       = 展開先(&D)
+IDC_STATIC_FILES2EXTRACT                = 展開するファイル:
+IDC_RADIO_FILES2EXTRACT_0               = すべてのファイル(&A)
+IDC_RADIO_FILES2EXTRACT_1               = 選択したファイル(&S)
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = 選択したフォルダーの "アーカイブ名" フォルダーに展開(&E)
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = 展開後にアーカイブを削除(&L)
+IDC_CHK_REMEMBER_SETTINGS               = 設定を記憶(&R)
+IDC_BTN_NEWFOLDER                       = 新しいフォルダー(&N)
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = 展開
+IDC_BTN_STOP                            = 中止
+IDC_BTN_CLOSE                           = 閉じる
+IDC_BTN_PAUSE                           = 一時停止
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = 新規圧縮
+IDC_STATIC_FILE_LIST                    = アーカイブに追加するファイル
+IDC_STATIC_ARCHIVE_SETTING              = アーカイブ設定
+IDC_STATIC_ARCHIVE_NAME                 = ファイル名
+IDC_STATIC_SET_DEST_FOLDER              = 保存先フォルダー
+IDC_STATIC_ARCHIVE_TYPE                 = アーカイブ形式
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = ボリューム分割
+IDC_STATIC_COMPRESSION_METHOD           = 圧縮レベル
+IDC_STATIC_HELP_SPLIT                   = [ヘルプ]
+IDC_STATIC_HELP_7Z                      = [7Z 形式]
+IDC_BTN_SELECT_ARCHIVE_NAME             = 参照(&B)...
+IDC_BTN_SET_PASSWORD                    = パスワードの設定(&P)...
+IDC_BTN_TEST_ARCHIVE                    = アーカイブのテスト(&T)
+IDC_BTN_DELETE_SRC                      = 圧縮後にファイルを削除
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = それぞれのファイル/フォルダー名で圧縮
+IDC_BTN_SET_DEST_FOLDER                 = 保存先フォルダーを変更
+IDC_BTN_TOGGLE_ADVANCED                 = 詳細設定
+IDC_BTN_SET_SFX                         = SFX 設定...
+IDC_BTN_ADD                             = 追加(&A)...
+IDC_BTN_DEL                             = 削除(&D)
+IDC_BTN_START                           = 開始(&S)
+IDC_BTN_COMP_ADVANCED                   = 高度な設定
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = ZIP/ZIPX 圧縮設定
+IDC_AA_ZIP_ALGO                         = 圧縮方式
+IDC_AA_ZIP_ENC                          = 暗号化方式
+IDC_AA_ZIP_THREAD                       = CPU スレッド数
+COMBO_TEXT_THREAD_AUTO                  = 自動
+IDC_CHK_ZIP_STORESYMLINK                = シンボリック リンクを保存
+IDC_CHK_ZIP_COMMENT                     = コメントを保存する
+IDD_AA_7Z                               = 7Z 圧縮設定
+IDC_AA_7Z_ALGO                          = 圧縮方式
+IDC_AA_7Z_SOLID                         = ソリッド ブロック サイズ
+IDC_CHK_7Z_ENC_FILENAMES                = ファイル名を暗号化する
+IDD_AA_TAR                              = TAR アーカイブの設定
+IDC_CHK_TAR_SYMLINK                     = シンボリック リンクを保存
+IDC_CHK_TAR_HARDLINK                    = ハードリンクを保存
+COMBO_TEXT_SOLID_NONE                   = ソリッドなし
+COMBO_TEXT_SOLID_SOLID                  = 無制限
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = パスワードの入力
+IDC_STATIC_DESC_ARCHIVING               = アーカイブのパスワードを入力します。セキュリティを強化するために、8 文字以上のパスワードを推奨します。
+IDC_STATIC_DESC_MASTERPASS              = パスワード マネージャーのマスター パスワードを入力します。セキュリティを強化するために、8 文字以上のパスワードを推奨します。
+IDC_STATIC_DESC_EXTRACT                 = 暗号化ファイルのパスワードを入力してください。
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = パスワードが違います。パスワードをもう一度入力してください。
+IDC_STATIC_PWD                          = パスワード入力
+IDC_STATIC_PWD2                         = パスワード再入力
+IDC_BTN_SHOW_PASSWORD                   = パスワードを隠さない
+IDC_BTN_PASSMAN                         = パスワード マネージャー
+IDC_CHECK_APPLY_ALL                     = すべてに適用(&A)
+IDC_STATIC_PASS_RECOVERY                = パスワードを忘れましたか? Bandizip Password Recovery を使用してみてください。
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = パスワード マネージャー
+TEXT_MSG_CORRUTP_DATA                   = 保存されたパスワード データが破損しています。
+TEXT_PASSMAN_WARNING1                   = マスター パスワードが設定されない限り、パスワード マネージャーに保存されているパスワードは暗号化されません。
+TEXT_PASSMAN_WARNING2                   = 公共または共有コンピューターでこの機能を使用する場合は注意が必要です。
+LIST_PASS_HEADER1                       = パスワード
+LIST_PASS_HEADER2                       = 表示名
+IDC_BTN_ADD                             = 追加
+IDC_BTN_DEL                             = 削除
+IDC_BTN_EDIT                            = 編集
+IDC_BTN_SET_MASTERPASS                  = マスター パスワードの設定...
+IDC_BTN_DEL_MASTERPASS                  = マスター パスワードの削除
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = マスター パスワードの入力
+IDC_STATIC_MASTPASS_MSG                 = マスター パスワードを入力して、パスワード マネージャーにアクセスします。リセットするとシステムに保存されているすべてのパスワード情報が削除されます。
+IDC_BTN_INITPASSMAN                     = リセット
+TEXT_ASK_INIT_PASSMAN                   = すべてのパスワード情報を削除してもよろしいですか？
+IDC_BTN_SHOW_PASSWORD                   = パスワードを隠さない
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = パスワード情報
+IDC_STATIC_PASSWORD                     = パスワード
+IDC_STATIC_DISPNAME                     = 表示名 (省略可能)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = 選択
+IDC_BTN_OPEN                            = 開く
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = 圧縮中
+TEXT_ARCHIVE_TESTING                    = テスト中
+IDC_BTN_STOP                            = 中止
+IDC_BTN_CLOSE                           = 閉じる
+IDC_BTN_PAUSE                           = 一時停止
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = 置き換えるファイルの確認
+IDC_STATIC_DUPE_MESSAGE                 = 同じ名前のファイルが既に存在しています。
+IDC_STATIC_DUPEFILE_OLD                 = 現在のファイル
+IDC_STATIC_DUPEFILE_NEW                 = 圧縮するファイル
+IDC_STATIC_DUPE_ASK                     = 以下から処理を選択:
+IDC_RADIO_DUPE_METHOD0                  = スキップ(&S)
+IDC_RADIO_DUPE_METHOD1                  = 上書き(&O)
+IDC_RADIO_DUPE_METHOD2                  = 名前を変更(&R)
+IDC_CHECK_DUPE_APPLY_ALL                = すべてのファイルに適用(&A)
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = 処理の選択
+IDC_STATIC_ASK_HANDLING                 = 以下から処理を選択:
+IDC_RADIO_HANDLE_METHOD0                = アーカイブを開く(&O)
+IDC_RADIO_HANDLE_METHOD1                = 新規圧縮(&N)
+IDC_RADIO_HANDLE_METHOD2                = 現在のアーカイブに追加(&A)
+IDC_CHK_PASS                            = パスワードを使用
+IDC_STATIC_PASSWORD_AGAIN               = パスワード再入力
+IDC_CHK_SHOW_PASS                       = パスワードを表示
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = 環境設定
+IDC_BTN_INIT                            = リセット
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = 全般設定
+IDC_CHK_EXIT_WITH_ESC                   = Esc キーで終了する
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = アーカイブの変更 (追加/削除/名前の変更) 時に、ファイルを毎回チェックする
+IDC_CHK_SNAP                            = ウィンドウ スナップを有効にする
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = 親フォルダー [..] を表示する
+IDC_CHK_SHOW_GRID_AT_LIST               = ファイル リストにグリッドの線を表示する
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = ファイル リストで行選択を使用する
+IDC_CHK_ONE_CLICK_ACTIVATE              = シングルクリックでアイテムを開く
+IDC_STATIC_UPDATE                       = アップデート設定
+TEXT_UPDATE_0                           = 最新バージョンを通知してインストールする
+TEXT_UPDATE_1                           = 安定版のみ通知してインストールする
+TEXT_UPDATE_2                           = アップデートを通知しない
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Bandizip に関連付けする拡張子
+IDC_BTN_SELECT_MANDATORY                = 推奨設定
+IDC_BTN_SELECT_ALL                      = すべて選択
+IDC_BTN_CLEAR_ALL                       = すべて選択解除
+IDC_BTN_APPLY_NOW                       = 今すぐ適用
+IDC_STATIC_ICON_PACK                    = アイコン パック選択:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [アイコン パック ダウンロード]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - 既定のプログラムの設定
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = 拡張子の関連付け
+;IDC_STATIC_ASSOC_DESC1                 = Windows 8 では次の方法でファイルを関連付ける必要があります:
+;IDC_STATIC_ASSOC_DESC2                 = 1. [関連付け設定] ボタンをクリックする。
+;IDC_STATIC_ASSOC_DESC3                 = 2. プログラム関連付けウィンドウで [すべて選択] にチェックする。
+;IDC_STATIC_ASSOC_DESC4                 = 3. [保存] ボタンをクリックする。
+;IDC_STATIC_ASSOC_DESC1_10              = Windows 10 以降の OS では次の方法でファイルを関連付ける必要があります:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. [関連付け設定] ボタンをクリックする。
+;IDC_STATIC_ASSOC_DESC3_10              = 2. [既定のプログラム] 画面にて [Bandizip] を選択する。
+;IDC_STATIC_ASSOC_DESC4_10              = 3. [すべての項目に対し、既定のプログラムとして設定する] を選択する。
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = 関連付け設定
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = 従来の方法で関連付け
+LIST_COLUMN0                            = 拡張子
+LIST_COLUMN1                            = 既定のアプリ
+IDC_BTN_CHANGE                          = 変更
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = ダブルクリック時の動作設定
+IDC_RADIO_SHELL_OPEN_0                  = Bandizip で開く
+IDC_RADIO_SHELL_OPEN_1                  = ここに即時展開
+IDC_RADIO_SHELL_OPEN_2                  = コンテキストメニューを表示
+IDC_RADIO_SHELL_OPEN_3                  = 指定したフォルダーに即時展開
+IDC_BTN_SET_EXTRACT_FOLDER              = 参照...
+IDC_RADIO_SHELL_OPEN_4                  = ""アーカイブ名" フォルダーに展開"
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = ダブルクリックで展開後にアーカイブを削除
+
+IDC_STATIC_SHELL_EXTRACT                = 展開関連メニューの表示設定
+IDC_CHK_SHELL_EXTRACT_HERE              = ここに展開
+IDC_CHK_SHELL_EXTRACT_AUTO              = 即時展開
+IDC_CHK_SHELL_EXTRACT_SUB               = ""アーカイブ名" フォルダーに展開"
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = ここに展開して削除
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = ここに即時展開して削除
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = ""アーカイブ名" フォルダー に展開して削除"
+IDC_CHK_SHELL_EXTRACT_DLG               = 展開
+IDC_CHK_SHELL_EXTRACT_ADMIN             = 管理者権限で展開
+IDC_CHK_SHELL_TEST_ARCHIVE              = アーカイブのテスト
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Bandizip で開く
+IDC_CHK_SHELL_PREVIEW                   = アーカイブのプレビュー
+IDC_STATIC_SHELL_PREVIEW_SIZE           = プレビューに表示するファイル数:
+IDC_CHK_SHELL_PREVIEW_TREE              = ツリー表示
+
+IDC_STATIC_SHELL_ARCHIVING              = 圧縮関連メニューの表示設定
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = ""ファイル名.zip" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = ""ファイル名.zip" に圧縮して削除"
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = ""ファイル名.zip" に圧縮してメール送信"
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = ""ファイル名.zipx" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_EXE             = ""ファイル名.exe" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_TAR             = ""ファイル名.tar" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_TGZ             = ""ファイル名.tgz" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_LZH             = ""ファイル名.lzh" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_ISO             = ""ファイル名.iso" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_7Z              = ""ファイル名.7z" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_GZ              = ""ファイル名.gz" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_XZ              = ""ファイル名.xz" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = ""ファイル名.zpaq" に圧縮"
+IDC_CHK_SHELL_ARCHIVING_EACH            = それぞれの "ファイル/"フォルダー名.zip" に圧縮
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = それぞれの "ファイル/フォルダー名.7z" に圧縮
+IDC_CHK_SHELL_ARCHIVING_POPUP           = 圧縮
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = 管理者権限で圧縮
+IDC_CHK_SHELL_ARCHIVING_RULE            = ファイル名をカスタマイズして圧縮
+IDC_STATIC_FILENAME_RULE_HELP           = 書式: ${NAME}=ファイル名, %Y=年, %m=月, %d=日, %H=時間, %M=分, %S=秒
+
+IDC_STATIC_SHELL_BKGND                  = エクスプローラーの空白でのコンテキストメニュー設定
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = [新しいフォルダー] を追加する
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = [コマンド プロンプト] を追加する - (Shift を押すと管理者権限で実行できます)
+
+IDC_STATIC_SHELL_ETC                    = その他
+IDC_CHK_SHELL_DO_NOT_USE                = コンテキストメニューを無効にする
+IDC_CHK_SHELL_AS_SUB_MENU               = サブメニューにする
+IDC_CHK_SHELL_HIDE_ICON                 = メニューにアイコンを表示しない
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = ファイルの内容でアーカイブを判別する
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = アーカイブにも圧縮関連のメニューを表示する
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = 複数アイテムの圧縮時は選択したアイテム名を使用する
+IDC_CHK_SHELL_USE_DROP_HANDLER          = エクスプローラーでのドラッグアンドドロップで ZIP ファイルに直接ファイルを追加する
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = 展開設定
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = アーカイブ内のルートフォルダーが 1 つの場合は、そのフォルダー内を表示する
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = 展開後にフォルダーを開く
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = 展開後に進捗ウィンドウを閉じない
+IDC_CHK_FAST_DRAG_DROP                  = 大きなファイルの展開には高速ドラッグアンドドロップ機能を使用する
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = TGZ、TBZ ファイルは一度に開いて展開する
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = ファイル サイズが大きい場合にも適用する
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = [ここに即時展開] 実行時、中身が 1 ファイルのアーカイブでもフォルダー内に展開する
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Mac で圧縮されたファイルの文字コードを自動検出する
+IDC_CHK_UNIXZIP_AS_UTF8                 = UNIX で圧縮された ZIP ファイルには文字コードに UTF-8 を使用する
+IDC_CHK_PARALLEL_EXT                    = 可能であれば抽出に並列処理を適用する
+IDC_STATIC_CODEPAGE                     = 文字コード:のデフォルト
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = 以下のファイルの種類をダブルクリックした場合は、すべて展開してから実行します:
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = 圧縮設定
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = エクスプローラーの右クリックで 1 つのフォルダーのみを圧縮する場合は、ルート フォルダーを作成しない
+IDC_CHK_USE_UTF8_COMPRESS               = ZIP ファイル内のファイルには Unicode (UTF-8) を使用する
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = ZIP ファイルの拡張フィールドに Unicode (UTF-8) ファイル名を格納する
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = TAR/TGZ ファイル内のファイルには Unicode (UTF-8) を使用する
+IDC_CHK_FORCE_ZIP64                     = ファイル サイズが 2GB 未満の場合でも、常に ZIP64 形式を使用する (非推奨)
+IDC_CHK_EXCLUDE_THUMBSDB                = 圧縮時に Thumbs.db ファイルを除外する
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = ZIP 形式への圧縮時に作成日時とアクセス日時も保存する
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = 高速圧縮処理を有効にする
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = 圧縮後に進捗ウィンドウを閉じる
+IDC_STATIC_COMPRESSION_METHOD           = 圧縮レベル:のデフォルト
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = 圧縮後にアーカイブをテストする
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = [新規圧縮] は最後に使用したフォルダーを使用
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = [新規圧縮] はデフォルト フォルダーを使用
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = 参照...
+IDC_CHK_EXCLUDE_FILTER                  = 圧縮時に以下のファイルの種類を除外する
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = 表示設定
+IDC_CHK_SHOW_PREVIEW                    = 展開せずにイメージをプレビュー
+IDC_CHK_SHOW_FOLDER_SIZE                = フォルダーの格納/サイズも表示する
+IDC_CHK_SET_LISTCONTROL_FONT            = ファイル一覧のフォントを設定
+IDC_BTN_SET_FONT                        = フォントを設定...
+
+IDC_STATIC_SETTING_VIEWITEM             = 列の表示
+IDC_CHK_VIEWITEM_COMPSIZE               = 格納
+IDC_CHK_VIEWITEM_ORIGSIZE               = サイズ
+IDC_CHK_VIEWITEM_KIND                   = 種類
+IDC_CHK_VIEWITEM_DATE_MOD               = 更新日時
+IDC_CHK_VIEWITEM_COMPMETHOD             = 圧縮方式
+IDC_CHK_VIEWITEM_ENCRMETHOD             = 暗号化方式
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = 属性
+IDC_CHK_VIEWITEM_COMMENT                = コメント
+IDC_CHK_VIEWITEM_EXT                    = 追加情報
+
+IDC_STATIC_IMAGE_VIEWER                 = イメージ ビューアー
+IDC_RADIO_IMAGE_VIEWER_0                = 内蔵イメージ ビューアーを使用
+IDC_RADIO_IMAGE_VIEWER_1                = 関連付けされたプログラム
+IDC_RADIO_IMAGE_VIEWER_2                = Honeyview を使用 (Honeyview がインストールされている場合)
+
+IDC_STATIC_EDITOR                       = エディター
+IDC_BTN_SET_EDITOR_PATH                 = 参照...
+
+IDC_STATIC_COLOR                        = 色の設定
+IDC_STATIC_COLOR_THEME                  = テーマの色
+IDC_BTN_BKGND                           = 選択
+IDC_STATIC_COLOR_TEXT                   = 文字の色
+IDC_STATIC_COLOR_TEXT_AUTO              = 自動
+IDC_STATIC_COLOR_TEXT_WHITE             = ホワイト
+IDC_STATIC_COLOR_TEXT_BLACK             = ブラック
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = セキュリティ設定
+IDC_CHK_COPY_ZONE_IDENTIFIER            = 展開時にインターネットからダウンロードしたアーカイブのゾーン識別子をコピーする
+IDC_CHK_AMSI_BEFORE_EXTRACT             = 展開前にマルウェアをチェック
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = 設定をエクスポート
+IDC_STATIC_ETC                          = その他の設定
+IDC_CHK_SET_TEMP_FOLDER                 = 一時フォルダーの場所を指定する
+IDC_BTN_SET_TEMP_FOLDER                 = 参照...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = 以下のファイルの種類をアーカイブ ファイルとして扱う
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = 子プロセスを終了終了時、一時ファイルを削除する
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = 削除したファイルはごみ箱に移動する
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = 最近使ったファイルの一覧を表示する
+IDC_CHK_USE_LONG_PATH_NAME              = 260 文字以上の長いパス名を使用する
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = 開いているアーカイブのエクスプローラーでの削除を許可する
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = フォルダー ツリーを自動的に展開する
+IDC_CHK_USE_MODAL_DIALOG                = 圧縮/展開時、モーダル ダイアログボックスを使用する
+IDC_CHK_USE_ELEGANT_UI                  = エレガントなデザインで表示する
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Bandizip の起動時、[スタート画面] を表示する
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = タイトル バーにフルパスを表示する
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = 展開がキャンセルされた場合は、展開されたファイルを削除する
+IDC_CHK_COPY_ZONE_IDENTIFIER            = 展開時にインターネットからダウンロードしたアーカイブのゾーン識別子をコピーする
+IDC_CHK_USE_SET_END_OF_FILE             = 出力ファイル用にディスク領域を事前割り当てる
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = ファイルが別のプロセスで使用されている場合でもファイルを圧縮する
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = 言語設定
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = このプログラムの翻訳をお手伝いいただけますか? ここをクリック...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (自己展開アーカイブ) 設定
+IDC_STATIC_TARGET_PATH                  = 展開先:
+IDC_STATIC_TITLE                        = タイトル:
+IDC_STATIC_RUN                          = 展開後実行:
+IDC_STATIC_MESSAGE                      = メッセージ:
+IDC_CHK_AUTO_CLOSE                      = 展開後に自己展開ウィンドウを閉じる
+IDC_BTN_SAVE_SFX_SETTING                = 設定を保存
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = ファイル検索
+IDC_STATIC_FIND                         = 検索する文字列(&F):
+IDC_BTN_CLOSE                           = 閉じる
+IDC_BTN_DELETE                          = 削除
+IDC_BTN_EXTRACT                         = 展開
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = アーカイブのコメント
+IDC_STATIC_COMMENT                      = コメントの追加/編集
+IDC_CHK_USE_UTF8                        = コメントを Unicode (UTF-8) で保存
+IDC_BTN_LOAD_FROM_FILE                  = ファイル (*.txt) からコメントを読み込み...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = 警告
+IDC_STATIC_WARN_EXECUTABLE              = ファイルは実行ファイルです。プログラムを実行すると、コンピューターに害を及ぼす可能性があります。続行しますか?
+IDC_CHK_DO_NOT_ASK_AGAIN                = 今後確認しない
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Bandizip の登録
+IDC_STATIC_DESC1                        = メール アドレスとメールで受け取ったプロダクト キーを入力してください。
+IDC_STATIC_EMAIL                        = メール アドレス
+IDC_STATIC_PRDUCT_KEY                   = プロダクト キー
+IDC_BTN_REGISTER                        = 今すぐ登録
+IDC_STATIC_BUYNOW                       = まだ Bandizip を購入していませんか? [今すぐ購入]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Bandizip ライセンス ガイド
+TEXT_LIMIT_PASSMAN                      = Bandizip Standard Edition のパスワード マネージャーに保存できるパスワードは 1 つだけです。
+TEXT_SHOW_AD                            = Bandizip Standard Edition では広告が表示されます。[br]有料版を購入すると広告は削除されます。
+TEXT_CANNOT_CHANGE                      = Bandizip Standard Edition ではこの機能を変更できません。[br]有料版を購入すると機能を変更することができます。
+TEXT_CANNOT_USE                         = この機能は Bandizip Standard Edition では使用できません。[br]この機能を使用するには、有料版を購入してください。
+TEXT_PORTABLE_NOTICE                    = この機能は Bandizip Portable Edition では使用できません。[br]この機能を使用するには、有料版を購入してください。
+IDC_STATIC_COMPARISON                   = エディション間の比較...
+IDC_STATIC_HOWTOREGISTER                = 既に Bandizip を購入されましたか? [登録方法]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = アーカイブの修復
+IDC_STATIC_SRC                          = 修復前のファイル
+IDC_STATIC_DST                          = 修復後のファイル
+IDC_BTN_START                           = 修復を開始
+IDC_BTN_TEST                            = 修復のテスト
+IDC_BTN_STOP                            = 停止
+TEXT_NOTICE                             = 修復するファイルを参照して選択し、[修復を開始] をクリックします。
+TEXT_ERR_OCCURRED                       = エラーが発生しました。
+TEXT_ERR_NOT_A_ZIP                      = 選択したファイルはサポートされていない形式です。現在利用できるのは ZIP 形式のみです。
+TEXT_ERR_NO_INFO                        = 選択したファイルには修復するデータがありません。
+TEXT_MSG_START                          = 修理を開始しています。
+TEXT_MSG_FINISH                         = 修復が完了しました。
+TEXT_MSG_ANALYZING                      = 分析しています...
+TEXT_MSG_CANCELED                       = 修理がキャンセルされました。
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = 修復を開始する前にファイル (.zip) を選択してください。
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = 複数の Bandizip がシステムにインストールされています。問題を防ぐために、そのうちの 1 つを削除してください。
+CMD_UNINST_MSSTORE                      = Bandizip MSE のアンインストール
+CMD_UNINST_PROGFILES                    = Bandizip のアンインストール
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = 開く
+$TOOLBAR_CLOSE_FILE                     = 閉じる
+$TOOLBAR_EXTRACT_FILE                   = 展開
+$TOOLBAR_CREATE_ARCHIVE                 = 新規圧縮
+$TOOLBAR_DELETE_FILE                    = 削除
+$TOOLBAR_ADD_FILE                       = 追加
+$TOOLBAR_TEST_ARCHIVE                   = テスト
+$TOOLBAR_CODEPAGE                       = 文字コード
+$TOOLBAR_VIEWITEM                       = 列の表示
+$TOOLBAR_SCAN                           = スキャン
+
+$TOOLBAR_OPEN2                          = アーカイブを開く
+$TOOLBAR_CREATE_ARCHIVE2                = 新規圧縮
+
+$TEXT_DESKTOP                           = デスクトップ
+$TEXT_DOCUMENT                          = ドキュメント
+$TEXT_PICTURE                           = ピクチャ
+$TEXT_COMPUTER                          = PC
+
+$TEXT_SETTINGTAB_GENERAL                = 全般
+$TEXT_SETTINGTAB_ASSOC                  = 関連付け
+$TEXT_SETTINGTAB_SHELL                  = コンテキストメニュー
+$TEXT_SETTINGTAB_EXTRACT                = 展開
+$TEXT_SETTINGTAB_ARCHIVE                = 圧縮
+$TEXT_SETTINGTAB_VIEWER                 = 表示
+$TEXT_SETTINGTAB_SECURITY               = セキュリティ
+$TEXT_SETTINGTAB_ETC                    = その他
+$TEXT_SETTINGTAB_LANG                   = 言語
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = ファイルの場所を開く
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = アーカイブの場所を開く
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = 展開後ににファイルの場所を開く
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = アーカイブの場所を開く
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = 展開先を開く
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = 展開後にウィンドウを閉じない
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = 圧縮後にウィンドウを閉じない
+$TOOLTIP_ADVANCED_MENU                  = その他の設定
+$TOOLTIP_REGISTER                       = Bandizip を登録
+$TOOLTIP_UPDATE                         = アップデート
+$TOOLTIP_PREVIEW                        = 大アイコン表示
+$TOOLTIP_REPORT                         = 詳細表示
+
+$TEXT_INSTALL_START                     = 使ってみる
+$TEXT_INSTALL_CLOSE                     = 閉じる
+$TEXT_INSTALL_HONEYVIEW_LINK            = 詳細はこちら...
+
+$TEXT_HELP_PAGE                         = Bandizip のヘルプ ページ
+$TEXT_AD                                = 広告
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Bandizip パスワード リカバリー
+TEXT_MSG_OPENING                        = アーカイブを開いています: ${str1}
+TEXT_MSG_CANCELED                       = アーカイブを開くのがキャンセルされました。
+TEXT_MSG_BROKEN                         = このアーカイブは破損しています。
+TEXT_MSG_NO_PASSWD                      = このアーカイブにはパスワードが設定されていません。
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = このアーカイブのファイル ヘッダーは暗号化されています。このタイプのアーカイブは現在サポートされていません。
+TEXT_MSG_OPEN_FIRST                     = 復元を開始する前にアーカイブを開いてください。
+TEXT_MSG_CANT_OPEN                      = アーカイブを開けません。(Code:0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = 復元に使用する文字の種類を選択します。
+TEXT_MSG_INIT_FAIL                      = 初期化に失敗しました。
+TEXT_MSG_NOT_FOUND                      = 復元に失敗しました。Bandizip Standard Edition では復元するパスワードが 4 文字を超えることはできません。
+TEXT_MSG_FILE2FINDPWD                   = 上記のファイルは、復元のために処理されます。
+TEXT_MSG_ERRORATFINDINDEX               = 復元用のファイルが見つかりません。
+TEXT_MSG_COPY2CLIPBOARD                 = 復元されたパスワードはクリップボードにコピーされました。
+TEXT_STATE_MSG_READY                    = 「開始」をクリックして、復元を開始します。
+TEXT_STATE_MSG_WORKING                  = パスワードを復元しています...
+TEXT_STATE_MSG_PAUSING                  = 一時停止
+TEXT_STATE_MSG_STOPPING                 = キャンセルしています...
+TEXT_STATE_MSG_FOUND                    = ${num1} 文字のパスワードを ${str1} 秒で復元しました。(${str2})）
+TEXT_ASK_EXIT                           = 終了してもよろしいですか?
+TEXT_COMBO_THREAD_AUTO                  = 自動
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = 設定
+IDC_STATIC_MULTI_CORE                   = マルチコア処理
+IDC_STATIC_MULTI_CORE_DESC              = 復元に使用するスレッドの数を指定します。[br]「自動」またはシステムにインストールされている CPU コアの数よりも小さい数を選択することをお勧めします。
+IDC_STATIC_PREP_POSTP                   = プレフィックス
+IDC_STATIC_PREP                         = プレフィックス
+IDC_STATIC_PREP_DESC                    = パスワードの前にプレフィックスを追加します。[br]例: http://www.
+IDC_STATIC_SPECIFY                      = 文字を指定
+IDC_STATIC_ETC                          = その他の設定
+IDC_CHK_USE_SIGNATURE_BY_EXT            = ファイルの拡張子を使用して復元を高速化する
+
+[RECOVERY_SKIN]
+$STEP_1                                 = 開く
+$STEP_2                                 = 確認
+$STEP_3                                 = 設定
+$STEP_4                                 = 復元
+$STEP_5                                 = 完了
+$FILE_PATH_NAME                         = 場所
+$BTN_NEXT_PAGE                          = 次へ >
+$BTN_PREV_PAGE                          = < 戻る
+$BTN_OK                                 = OK
+$BUTTON_BUY_NOW                         = Bandizip Professional Edition を購入
+$STATIC_OPEN_DESC                       = 「開く」をクリックして、暗号化されたアーカイブを参照して選択します。<br>このダイアログ ボックスにアーカイブを直接ドラッグアンドドロップすることもできます。
+$STATIC_PRICE_DESC1                     = Bandizip ライセンス ガイド
+$STATIC_PRICE_DESC2                     = パスワードの復元は Bandizip Professional Edition でのみ利用可能です。[br]Bandizip Standard Edition で復元するパスワードの長さは、最大 4 文字を超えることができません。
+$STATIC_FILELIST_DESC                   = アーカイブには次のファイルが含まれています。確認したら「次へ」をクリックしてください。
+$FILELIST_HEADER_NAME                   = 名前
+$FILELIST_HEADER_SIZE                   = サイズ
+$FILELIST_HEADER_DATE                   = 更新日時
+$FILELIST_HEADER_METHOD                 = 圧縮方式
+$FILELIST_HEADER_PWMETHOD               = 暗号化方式
+$STATIC_SYMBOL_DESC                     = パスワードで使用されている文字の種類を予想して指定してください。<br>多くの種類を選択するほど、復元に時間がかかります。
+$STATIC_CUR_PASSWORD                    = 処理内容
+$STATIC_CUR_PASSLEN                     = 文字数
+$STATIC_ELAPSED                         = 経過時間
+$STATIC_SPEED                           = 処理速度
+$STATIC_CLIPBOARD_DESC                  = 復元したパスワードをクリップボードにコピーして貼り付けます。
+$BUTTON_STOP                            = キャンセル
+$BUTTON_START                           = 開始
+$IDC_BTN_PAUSE                          = 一時停止
+$IDC_BTN_UNPAUSE                        = 再開
+$IDC_BTN_OPEN                           = 開く
+$IDC_BTN_SETTING                        = 高度な設定
+$IDC_BTN_COPY2CLIPBOARD                 = コピー
+$IDC_BTN_CANCEL_PAYMENT                 = 初期化
+$BUTTON_HELP_PAGE                       = 予測時間に関するヘルプ
+$CHECK_SYMBOL_NUM                       = 数字 (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = 英小文字 (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = 英大文字 (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = 特殊文字 (!@#$...)
+$CHECK_SYMBOL_SPACE                     = スペース
+$CHECK_SYMBOL_ALL                       = すべて
+$CHECK_SYMBOL_SPECIFIED                 = 指定文字
+$FOUNDED_PASSWORD                       = 復元したパスワードは...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = 新しいフォルダー
+
+TEXT_MENU_CREATE_NEW_FOLDER             = 新しいフォルダー(&N)
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Bandizip で開く...
+TEXT_MENU_TEST_ARCHIVE                  = アーカイブのテスト
+TEXT_MENU_LAUNCH_CMD                    = コマンド プロンプト(&L)
+TEXT_MENU_LAUNCH_CMD_ADMIN              = コマンド プロンプト (管理者) を起動
+
+TEXT_MENU_ARCHIVE_EACHNAME              = それぞれの "ファイル/フォルダー名.zip" に圧縮(&E)
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = それぞれの "ファイル/フォルダー名.7z" に圧縮
+TEXT_MENU_ARCHIVE_ZIP                   = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = ""${str1}" に圧縮して削除"
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = ""${str1}" に圧縮してメール送信(&I)..."
+TEXT_MENU_ARCHIVE_ZIPX                  = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_EXE                   = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_TAR                   = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_TGZ                   = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_LZH                   = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_ISO                   = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_7ZFMT                 = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_GZ                    = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_XZ                    = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_ZPAQ                  = ""${str1}" に圧縮"
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = それぞれの "ファイル名.gz" に圧縮
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = それぞれの "ファイル名.xz" に圧縮
+TEXT_MENU_ARCHIVE_RULE                  = ""${str1}" に圧縮(&U)"
+TEXT_MENU_ARCHIVE_POPUP                 = 圧縮(&B)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = 管理者権限で圧縮(&Y)...
+
+TEXT_MENU_EXTRACT_HERE                  = ここに展開(&E)
+TEXT_MENU_EXTRACT_AUTO                  = ここに即時展開(&S)
+TEXT_MENU_EXTRACT_AUTO_EACH             = ここにすべて即時展開(&S)
+TEXT_MENU_EXTRACT_SUB                   = フォルダーに分けて展開
+TEXT_MENU_EXTRACT_ARCHIVENAME           = ""${str1}\" に展開(&T)"
+TEXT_MENU_EXTRACT_DLG                   = 展開...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = 管理者権限で展開...
+TEXT_MENU_EXTRACT_HERE_DEL              = ここに展開して削除
+TEXT_MENU_EXTRACT_AUTO_DEL              = ここに即時展開して削除(&E)
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = ここにすべて即時展開して削除
+TEXT_MENU_EXTRACT_SUB_DEL               = フォルダーに分けて展開して削除
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = ""${str1}\" に展開して削除"
+
+TEXT_MENU_PREVIEW                       = プレビュー
+TEXT_MENU_PREVIEW_BROKEN                = ファイルは不明な形式であるか破損しています。
+TEXT_MENU_PREVIEW_TIMEOUT               = 要求はタイムアウトしました。
+TEXT_MENU_PREVIEW_EMPTY                 = アーカイブの中身が空です。
+TEXT_MENU_PREVIEW_ENCRYPTED             = ファイル名が暗号化されています。
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = アーカイブのプレビュー機能を使用できません。[br][br]エクスプローラーを再度開くか[br]システムを再起動してください。
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = ファイル リストを読み取りできません。
+
+TEXT_MENU_OPENING                       = 開いています...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip のアップデート
+TEXT_UPDATER_TEXT1                      = Bandizip のアップデート準備が整いました。
+TEXT_UPDATER_TEXT_DL                    = 今すぐダウンロードしますか?
+TEXT_UPDATER_BTN_UPDATE                 = アップデート
+TEXT_UPDATER_BTN_OK                     = OK
+TEXT_UPDATER_BTN_CANCEL                 = キャンセル
+TEXT_UPDATER_DOWNLOAD_ERROR             = ダウンロードに失敗しました。
+TEXT_UPDATER_SETTING_UPDATE             = アップデート設定
+TEXT_UPDATER_SETTING_SKIPTHIS           = このバージョンをスキップ
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = 展開先:
+BTN_SELECT_FOLDER                       = 参照...
+BTN_EXTRACT                             = 開始
+BTN_CLOSE                               = 閉じる
+BTN_CANCEL                              = キャンセル
+BTN_OPEN_FOLDER                         = 開く
+CHK_OVERWRITE                           = 上書き確認しない
+ERR_ERROR_OCCURRED                      = エラーが発生しました。
+ERR_INVALID_PASSWORD                    = パスワードが違います。
+ASK_OVERWRITE                           = 同じ名前のファイルが既に存在しています。上書きしますか?
+MSG_COMPLETED                           = 展開が完了しました。
+IDD_PASSWORD                            = パスワードを入力
+IDC_STATIC_PASSWORD_MSG                 = このファイルはパスワードにより、保護されています。
+IDC_BTN_SHOW_PASSWORD                   = パスワードを隠さない
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = 展開できません。
+TEXT_ERR_CRC                            = ファイルが壊れています。
+TEXT_ERR_INVALID_PASSWD                 = パスワードが違います。
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = ${APPNAME} ${APPVERSION} のインストール
+$UNINSTALL_TITLE                        = ${APPNAME} ${APPVERSION} のアンインストール
+$UNINSTALL_STATIC                       = ${APPNAME} をアンインストールしますか?
+
+$BTN_CLOSE                              = 閉じる
+$BTN_CANCEL                             = キャンセル
+$BTN_INSTALL                            = 同意してインストール
+$BTN_UNINSTALL                          = アンインストール
+$BTN_OPEN_LICENSE                       = [利用規約を表示]
+$BTN_HELP_LINK                          = [ヘルプ]
+
+$TEXT_PATH                              = インストール先
+$TEXT_INSTALL_STATIC                    = インストールしています...
+$TEXT_INST_COMPLETED                    = インストール完了
+$TEXT_INST_FAILED                       = インストール失敗
+$TEXT_UNINSTALLING                      = アンインストールしています...
+
+$CHK_AUTO_REPORT                        = 使用統計情報とクラッシュ レポートを自動的に送信する
+$EMAIL                                  = メール アドレス
+$PRODUCT_KEY                            = プロダクト キー
+
+ERR_CANT_CREATE_FOLDER                  = フォルダー生成失敗: ${str1}
+ERR_CANT_OPEN_FILE                      = ファイルを開けません: ${str1}
+ERR_CANT_WRITE_FILE                     = ファイル書き込みエラー: ${str1}
+ERR_BROKEN_ARCHIVE                      = アーカイブが壊れています: ${str1}
+ERR_CRC_ERROR                           = CRC エラー: ${str1}
+ERR_NOT_ENOUGH_MEM                      = メモリ不足: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = 次のファイルを開けません。: "${str1}"[br][中断] を押してインストールを終了するか、[再試行] を押して再度お試しいただくか、[無視] を押してこのファイルをスキップできます。いずれかを選択してください。
+MSG_SUCCESS                             = インストールが完了しました。
+MSG_DLL_REGISTERING                     = エクスプローラーのシェル拡張を登録しています...
+MSG_DLL_UNREGISTERING                   = エクスプローラーのシェル拡張の登録を解除しています...
+MSG_ERROR                               = エラーが発生しました。
+MSG_ERROR_REGISTER                      = 登録に失敗しました。
+MSG_SELECT_FOLDER                       = フォルダーを選択してください。
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} が実行中です。プログラムを終了してください。
+MSG_XP_IS_NOT_SUPPORTED                 = このプログラムは、Windows XP には対応していません。
+MSG_NEED_ADMIN_PRIVILEGE                = このプログラムは、管理者権限 (Administrator) を持つユーザーのみインストールできます。[br][br]管理者権限がない場合、正常にインストールできません。[br][br]インストールを中止しますか?
+MSG_NEWVERSION_FOUND                    = 新しいバージョンが利用できます。今すぐダウンロードしますか?
+SHORTCUT_LINK_DESCRIPTOIN               = ${APPNAME} を実行する
+MSG_ERR_X86_NOTSUPPORT                  = このセットアップ ファイルは、32-bit (x86) OS には対応していません。Webサイトから新しいセットアップ ファイルをダウンロードしてください。
+MSG_ERR_ARM_NOTSUPPORT                  = このセットアップ ファイルは ARM64 CPU をサポートしていません。Webサイトから新しいセットアップ ファイルをダウンロードしてください。
+ERR_INST_FAILED                         = インストールに失敗しました。PC を再起動して、もう一度お試しください。
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = バージョン チェックに失敗しました。新しいセットアップ ファイルをダウンロードして、もう一度お試しください。
+TEXT_VERSION_CHECKING                   = バージョンを確認しています...
+TEXT_DOWNLOAD_FAILED                    = ダウンロード失敗
+TEXT_DOWNLOAD_COMPLETED                 = ダウンロード完了
+TEXT_HOMEPAGE                           = [Webページを開く]
+TEXT_XP                                 = Windows XP のサポートは終了しました
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = ツールバーのボタンを選択
+
+

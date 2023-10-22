@@ -1,6 +1,6 @@
 @echo off
 
-cd InstallTools
+cd InstallationTools
 
 echo Installing Git...
 

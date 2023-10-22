@@ -1,0 +1,900 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Uyghurche
+TRANSLATORS                             = NurMuhemmed Ismaiyil | uyghun@sina.com
+
+
+[TEXT]
+TEXT_BUILDNO                            = Neshri#
+TEXT_FILE                               = Höjjet
+TEXT_FOLDER                             = Höjjet qisquch
+TEXT_ARCHIVE_SIZE                       = Omumi chongluqi
+TEXT_ORIGINAL_SIZE                      = Esli chongluqi
+TEXT_ARCHIVE_FORMAT                     = Siqilma höjjet türi
+TEXT_COMPRESSED_SIZE                    = Siqilma höjjet chongluqi
+TEXT_SOLID                              = Zich siqish
+TEXT_BETA                               = Sinaq neshri
+TEXT_ASSOC                              = Siqilghan höjjet (${str1})
+TEXT_PORTABLE                           = Köchme neshri
+TEXT_NEW_FOLDER                         = Yëngi höjjet qisquch
+TEXT_FILESIZE_UNKNOWN                   = Höjjetning chongluqi ëniq emes
+TEXT_FILEDATE_UNKNOWN                   = Höjjetning waqti ëniq emes
+TEXT_HELP_LINK                          = [Yardem]
+TEXT_APP_DESC                           = Bandizip is a lightweight, fast and free all-in-one Zip archiver. It handles the most popular compression formats, including Zip, 7z, Rar, and so on.
+
+TEXT_MESSAGEBOX_OK                      = Jezimlesh
+TEXT_MESSAGEBOX_CANCEL                  = Wazkëchish
+TEXT_MESSAGEBOX_ABORT                   = Toxtitish
+TEXT_MESSAGEBOX_RETRY                   = Qayta sënap bëqish
+TEXT_MESSAGEBOX_IGNORE                  = Ötküzüwitish
+TEXT_MESSAGEBOX_YES                     = He e
+TEXT_MESSAGEBOX_NO                      = Yaq
+TEXT_MESSAGEBOX_CONTINUE                = Dawamlashturush
+TEXT_MESSAGEBOX_HELP                    = Help
+
+TEXT_COLUMN_NAME                        = Nami
+TEXT_COLUMN_COMPSIZE                    = Siqilghan chongluqi
+TEXT_COLUMN_ORIGSIZE                    = Esli chongluqi
+TEXT_COLUMN_KIND                        = Türi
+TEXT_COLUMN_DATE_MOD                    = Özgertken waqti
+TEXT_COLUMN_COMPMETHOD                  = Siqish usuli
+TEXT_COLUMN_ENCRMETHOD                  = Shifirlesh usuli
+TEXT_COLUMN_CRC                         = CRC Tekshürüshi
+TEXT_COLUMN_ATTRIB                      = Xasliqi
+TEXT_COLUMN_COMMENT                     = Eskertish
+TEXT_COLUMN_PATHNAME                    = Höjjet yoli
+
+TEXT_ICONPACK_NAME                      = Nami
+TEXT_ICONPACK_DESIGNER                  = Lahiyeligüchi
+TEXT_ICONPACK_COPYRIGHT                 = neshir hoquqi uchuri
+
+TEXT_ARCHIVE_COLUMN_NAME                = Nami
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Chongluqi
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Höjjet qisquch yoli
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Omumi chongluqi
+
+TEXT_SELECT_ARCHIVE_FILE                = Höjjet tallash
+TEXT_SELECT_TEXT_FILE                   = Tëkst höjjiti tallash
+TEXT_SELECT_DEST_FOLDER                 = Nishan höjjet qisquchni tallash
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Siqilma höjjet
+TEXT_REGISTRY_FILE                      = Registry file
+
+TEXT_OPENDLG_ARCHIVEFILES               = Siqilma höjjetler
+TEXT_OPENDLG_ARCHIVEFILE                = Archive File
+TEXT_OPENDLG_ALLFILES                   = Barliq höjjet
+TEXT_OPENDLG_EXEFILES                   = Exe Höjjiti
+
+TEXT_ABOUTBOX_TAB1                      = Bandizip heqqide
+
+TEXT_ASSOC_GROUP0                       = Siqilma höjjetler
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Bashqilar
+TEXT_ASSOC_GROUP3                       = CD/DVD teswiri
+
+TEXT_OPENERR_INVALIDVERSION             = Bu höjjetni ëchish üchün Bandizipning këyinki neshrini chüshüring
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Bölünme höjjetning birinchi parchisinila tallang
+TEXT_OPENERR_CANT_OPEN_FILE             = Höjjet ëchilmidi (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Höjjet ëchilmidi (${str1}) chünki bu höjjetni bashqa programma ishlitiwitiptu
+TEXT_OPENERR_GENERAL                    = Höjjet ëchilmidi (${str1}) (kodi:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Emeldin qalduruldi
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Bilinmigen höjjet pichimi (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = Siqilma höjjet emes (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Qollimaydighan höjjet pichimi (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Not supported encryption method (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Shifirni kigüzing
+TEXT_OPENERR_INVALID_PASSWORD           = Shifir xata
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Höjjet ëchilmidi.Sewebi höjjet bëshi buzulghan
+
+TEXT_ERR_INIT_FAILED                    = Bashlitish meghlup boldi
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = The password is incorrect or there is no file in the archive.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Shifir maslashmidi
+TEXT_ERR_PASSWORD_NOT_SET               = Shifirni kigüzing
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Shifiringizda inawetsiz belgiler bar.herp,san yaki alahide belgilernila kigüzing
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Inawetsiz bölünme höjjet chongluqi
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (Özlikidin yëshilidighan höjjet) Höjjet chongluqi 4GB da cheklinidu.
+TEXT_ERR_INTERNAL_ERROR                 = Ichki xataliq
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Siqilma höjjetni özgertelmidi
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Siqilma höjjetni özgertiwatqanda xataliq körüldi
+TEXT_ERR_INVALID_FOLDER_PATH            = Inawetsiz höjjet qisquch yoli
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = ZIP höjjitinila tüzitishke bolidu
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Bölünme höjjetni tüzitelmeysiz
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Özi yëshilidighan höjjetni tüzitelmeysiz (*.exe)
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Buzuq höjjetni tüzitelmeysiz
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Bu höjjetni we uning këngeytilgen namini tüzitelmeysiz
+TEXT_ERR_CANT_CHANGE_FILENAME           = Höjjet namini özgertelmeysiz
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Höjjet namida bularni qollinalmaysiz [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Oxshash höjjet/höjjet qisquch bar. Höjjet namini özgertelmeysiz (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Höjjet qisquch quralmaysiz
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Qisidighan höjjet yoq
+TEXT_ERR_INVALID_PARAM                  = Inawetsiz paramëtër
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Bu höjjetni siqilma höjjetke qoshalmaysiz [br] - ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Bu siqilma höjjetni achalmaysiz [br] - ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Oxshash höjjet qisquch bar
+TEXT_ERR_FILENAME_EMPTY                 = Höjjet nami xata
+TEXT_ERR_AT_DRAGANDDROP                 = Sürush we qoyuwëtsh meghlup boldi
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Drag and Drop failed. [br]Bandizip has just turned off the 'Fast Drag and Drop' function, please try it again.
+TEXT_ERR_AT_CANT_OPEN_MMF               = MMF höjjiti ëchilmidi (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Tallanghan höjjet yoq
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Sinbelge boghchisini qachilashqa höjjet qisquch quralmidi
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Sinbelge boghchisini qachilashqa höjjet quralmidi
+TEXT_ERR_AT_EXECUTE_DIRECT              = Bu höjjet biwaste ëchilmidi. höjjetni yëship qayta sinap bëqing
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = 4GBdin chong höjjet qurghili bolmaydu. [br]Bashqa höjjet pichimini tallang (7Z yaki ZIP)
+TEXT_ERR_CANT_SAVE_AS                   = Cannot save this file.
+TEXT_ERR_ERROR_AT_EDIT                  = Bandizip has encountered a problem while editing the file.(${str1})[br][br]Would you like to send an error report to Bandisoft?[br][br]Submitting this report helps Bandisoft improve Bandizip.
+
+TEXT_MSG_TEST_OK                        = Bu siqilma höjjette xataliq yoq
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Yëshish meghlup boldi: xataliq kodi [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Yëshish tamamlandi
+TEXT_MSG_EXTRACT_CANCELED               = Yëshish emeldin qalduruldi
+TEXT_MSG_COMPRESS_SUCCESS               = Siqish tamamlandi
+TEXT_MSG_INTERNAL_ERROR                 = Ichki xataliq
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Cannot open the following file in the temp folder:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Bu siqilma höjjetni öchürelmidi
+TEXT_MSG_CRASH_REPORT                   = Programma toqiniship qaldi. programmidin chëkining
+TEXT_MSG_CRASH_REPORT2                  = Bandizip has encountered a problem and needs to close. Do you want to send a crash report to the Bandizip developer?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip is not responding.[br][br]Do you want to send a crash report to the Bandizip developer and close the program?
+TEXT_MSG_SET_TEMP_PATH                  = Waqitliq höjjet yolini  belgilesh
+TEXT_MSG_SET_PATH                       = Yol belgilesh
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Sin belge boghchisi otuqluq ornitildi
+TEXT_MSG_NOTICE_RESTART                 = Programma qayta qozghilidu
+TEXT_MSG_ARCHVIE_OPENING                = Siqilma höjjet ëchiliwatidu
+TEXT_MSG_COMPLETING                     = Tamamliniwatidu: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Cannot create a folder.[br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Cannot compress a folder into a .GZ/XZ archive.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Cannot compress multiple files into a .GZ/XZ archive. Please check the "Compress to each file/folder name" option.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip has been minimized to the system tray. Click the tray icon to restore it.
+TEXT_MSG_TRAY_COMPLETED                 = The operation has been completed.
+TEXT_MSG_BATCH_ARCHVING                 = Archiving: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Extracting: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Testing: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Deleting: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Failed to delete: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Work in progress...
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Herp-belgiler toghra körünmise yuqiridiki <font color=red><b>Kod bëti</b></font>ni chëkip <font color=red><b>Özi tallash</b></font> tizimlikini sinap bëqing.
+
+TEXT_ASK_DELETE_ARCHIVE                 = Esli höjjet öchürwitilidu. [br]Bu höjjetni öchürwitemsiz?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Nöwettiki höjjetni öchürwitemsiz?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Do you want to delete the current archive permanently?
+TEXT_ASK_CHANGE_FILENAME                = Oxshash höjjet bar. [br][br]Höjjet namini ${str1} din ${str2} gha özgertemsiz?
+TEXT_ASK_DELETE_FILE                    = Tallanghan höjjetni öchürwitemsiz?
+TEXT_ASK_STOP_EXTRACT                   = Yëshishni toxtitamsiz?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Oxshash höjjet bar. [br][br]Uni qapliwitemsiz?
+TEXT_ASK_INIT_SETTING                   = Eslidiki tengshekke qayturamsiz? Bandizip qayta qozghilidu.
+TEXT_ASK_STOP_ARCHIVING                 = Siqishni toxtitamsiz?
+TEXT_ASK_STOP_MODIFYING                 = Bu meshghulatni Toxtitamsiz?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Siqilma höjjettiki özgertilgen höjjetni tebiqlamsiz? [br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Sinbelge boghchisini qachilap Ishlitemsiz(${str1})?
+TEXT_ASK_MAKE_FOLDER                    = The folder doesn't exist. Do you want to create it?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = The destination folder doesn't have write permission.[br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_CONT_NOFREESPACE               = The destination folder doesn't have enough space. Change the destination folder. [br][br]- ${str1}[br][br]Do you want to proceed?
+TEXT_ASK_ASK_UAC_ELEVATION              = You do not have permission to change these files. [br][br]Do you want to restart this program as an administrator?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Cannot open this archive file. [br][br]Do you want to open the first part of the split file (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = If you delete files after archiving, you could lose important files if the files are broken.[br][br]Do you want to check the "Test Archive" option?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Not enough disk space to extract. Do you want to proceed?[br][br]Destination Folder: ${str1}[br]Free disk space: ${str2}[br]Extracting file size: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Bu höjjet buzuq
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Bu höjjet buzuq yaki bashqa bir bölünme höjjet kërek
+
+TEXT_BTN_PAUSE                          = Waqitliq toxtitish
+TEXT_BTN_RESUME                         = Dawamlashturush
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Xataliq körüldi
+TEXT_ERRDLG_USER_ABORT                  = Emeldin qalduruldi
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Bu höjjet ëchilmidi
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Höjjet ëchilmidi.Chünki bu höjjetni bashqa programma ishlitiwitiptu.
+TEXT_ARKERR_PASSWORD_NOT_SET            = Shifir kërek
+TEXT_ARKERR_INVALID_PASSWD              = Inawetsiz shifir
+TEXT_ARKERR_USER_ABORTED                = Toxtitildi
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC tekshürüsh xataliqi
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Bu höjjet ëchilmidi
+TEXT_ARKERR_CANT_READ_DATA              = Siqilma höjjet sanliq melumatini oquyalmidi
+TEXT_ARKERR_INFLATE_FAILED              = Sanliq melumat xataliqi - Bu höjjet buzuq
+TEXT_ARKERR_BZIP2_ERROR                 = Sanliq melumat xataliqi - Bu höjjet buzuq
+TEXT_ARKERR_DATA_CORRUPTED              = Bu höjjet buzuq yaki bashqa bir bölünme höjjet kërek
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Bu höjjet ëchilmidi
+TEXT_ARKERR_CANT_CREATE_FOLDER          = höjjet qisquch quralmidi
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Not supported compression method
+TEXT_ARKERR_WRITE_FAIL                  = Yëziwatqanda xataliq körüldi
+TEXT_ARKERR_DISK_FULL                   = Diska tolshuq
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Höjjet yoli we höjjet nami 260 ierp-belgidin ëship ketmesliki kërek
+TEXT_ARKERR_CANT_CREATE_FILE            = Höjjet quralmidi
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Höjjet quralmidi. Programmini bashqurghuchiliq hoquqi bilen yurgüzing.
+TEXT_ARKERR_USER_SKIP                   = Atlap ketti
+TEXT_ARKERR_FILE_TRUNCATED              = Bu höjjetning axiri buzuq yaki yoqap ketken
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Inawetsiz shifir yaki buzuq höjjet
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Bu höjjet buzuq
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Özi yëshilidighan (*.exe) höjjiti 4GB din ëship ketti. Windows sistëmisida 4GB din chong höjjetni yürgüzelmeysiz
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Bu höjjet ëchilmidi. töwendiki bölünme höjjet kërek (.z01, .z02..)
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Bu Zip höjjiti ëchilmidi. töwendiki bölünme höjjet kërek (.z01, .z02..)
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Bu höjjet ëchilmidi.bashqa bir bölünme höjjet kërek
+TEXT_ARKERR_CORRUPTED_FILE              = Bu höjjet buzuq
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Bu höjjet qisquchqa yëzish hoquqi yoq
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Bu höjjet qisquchqa yëzish hoquqi yoq.programmini bashqurghuchiliq hoquqi bilen yurgüzing.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Bu shifirlesh usulini qollimaydu
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Ichki saqlighuch kemchil
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Ichki saqlighuch kemchil. siqish derijisini tengsheng
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Bu meshghulanti qollimaydu
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Yëshilgen höjjet chongluqi bilen siqilma höjjet bëshi uchuri mas kelmidi
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = 4GBdin chong höjjet quralmaydu. Bashqa höjjet  pichimini tallang (ZIP yaki7Z)
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Uzun höjjet nami özlikidin qisqartildi
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Cannot open source file to copy.
+TEXT_ARKERR_NOTIMPL                     = Not implemented.
+TEXT_ARKERR_CANT_READ_FILE              = Cannot read file.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Run Bandizip as administrator to create a symbolic link.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Cannot create a symbolic link.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Bölünmisun
+TEXT_SPLITCOMBO_3MB                     = 3MB
+TEXT_SPLITCOMBO_4MB                     = 4MB
+TEXT_SPLITCOMBO_5MB                     = 5MB
+TEXT_SPLITCOMBO_10MB                    = 10MB
+TEXT_SPLITCOMBO_20MB                    = 20MB
+TEXT_SPLITCOMBO_GMAIL                   = 25MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100MB
+TEXT_SPLITCOMBO_300MB                   = 300MB
+TEXT_SPLITCOMBO_CD650                   = 650MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4.7GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Ishletküchi kirgüzsun
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0-siqmisun
+TEXT_COMPRESSIONMETHOD_FAST             = 1-tëz siqsun
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-adettikidek siqsun
+TEXT_COMPRESSIONMETHOD_MAX              = 3-eng yuquri derijide siqsun
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Yëngi siqilma höjjet
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Siqilma höjjetke höjjet qoshush
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = Qayta namlash (&R): ${str1}
+TEXT_TITLE_TEST_MODE                    = Siqilma höjjetni sinash
+TEXT_TITLE_TEMPFOLDER_MODE              = Waqitliq höjjet qisquchqa yëshish...
+TEXT_TITLE_MODIFYING                    = Özgertiwatidu...
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Yëshidighan höjjet
+TEXT_MSG_SELECTED_FILE                  = ${num1} Dane höjjettallandi
+TEXT_MSG_SELECTED_FOLDER                = ${num1} Dane höjjet qisquch tallandi
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} Dane höjjet, ${num2} dane höjjet qisquch
+TEXT_MSG_SELECTED_FILESIZESUM           = Tallanghan höjjet chongluqi: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Neshrini tekshürüsh meghlup boldi
+TEXT_UPDATE_VERSION_CHECKING            = Neshrini tekshüriwatidu
+TEXT_UPDATE_DOWNLOAD_FAILED             = Chüshürüsh meghlup boldi
+TEXT_UPDATE_LATEST_VERSION              = Yëngilanghan
+TEXT_UPDATE_DO_DOWNLOAD                 = Yëngilash zörür
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Chüshürüsh tügidi
+
+TEXT_INSTALL_HONEYVIEW                  = Install Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview isn't installed on your computer.
+TEXT_INSTALL_HONEYVIEW_2                = Please try Honeyview developed by Bandisoft.<br> It supports viewing the images in compressed ZIP, RAR, or 7z files without extraction.
+
+
+
+[MENU]
+MENUSTR_FILE                            = Höjjet (&F)
+MENUSTR_EDIT                            = Tehrirlesh (&E)
+MENUSTR_SETTING                         = Tallash (&O)
+MENUSTR_FIND                            = Izdesh (&I)
+MENUSTR_VIEW                            = &View
+MENUSTR_HELP                            = Yardem (&H)
+
+MENUSTR_OPEN                            = Siqilma höjjetni ëchish (&O)\tCtrl+O
+MENUSTR_RECENT                          = Recent Files
+MENUSTR_CLOSE_FILE                      = Siqilma höjjetni taqash (&C)\tF4
+MENUSTR_CREATE_ARCHIVE                  = Yëngi siqilma höjjet (&N)\tCtrl+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Save as
+MENUSTR_DELETE_ARCHIVE                  = Siqilma höjjetni öchürüsh \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Delete Archive Permanently \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Open Archive Location
+MENUSTR_TEST_ARCHIVE                    = Siqilma höjjetni sënash (&T)\tCtrl+T
+MENUSTR_EXTRACT_FILE                    = Höjjet yëshish (&E)\tCtrl+E
+MENUSTR_EXIT                            = Chëkinish (&X)\tCtrl+W
+
+MENUSTR_RENAME_FILE                     = Höjjetni yëngidin namlash (&R)\tF2
+MENUSTR_ADD_FILE                        = Höjjet qoshush (&A)\tIns
+MENUSTR_DELETE_FILE                     = Höjjet öchürüsh (&D)\tDel
+MENUSTR_EDIT_COMMENT                    = Siqilma höjjet izahati
+MENUSTR_SETTING_SUB                     = Tengshesh (&S)\tF5
+MENUSTR_FIND_ITEM                       = Höjjet izdesh (&I)\tCtrl+F
+
+
+
+MENUSTR_ABOUT                           = Bandizip heqqide (&A)\tF1
+MENUSTR_HELPPAGE                        = Yadem bëtige almishish (&G)
+MENUSTR_OPEN_FOLDER                     = Bandizip höjjitini ëchish (&O)
+MENUSTR_FORUM                           = Bandizip munbirige almishish (&F)
+MENUSTR_HOMEPAGE                        = Bash betke amishish (&H)
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Siqilghandin këyinki chongluqi
+POPUPMENU_VIEWITEM_ORIGSIZE             = Esli chongluqi
+POPUPMENU_VIEWITEM_KIND                 = Höjjet türi
+POPUPMENU_VIEWITEM_DATE_MOD             = Özgertilgen waqti
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Siqish usuli
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Shifirlesh usuli
+POPUPMENU_VIEWITEM_CRC                  = CRC Tekshürüshi
+POPUPMENU_VIEWITEM_ATTRIB               = Höjjet xasliqi
+POPUPMENU_VIEWITEM_COMMENT              = Höjjet izahati
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Hemmini yëshish... \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Tallighan höjjetni yëshish...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Mushu yerge yëshish
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Ëchish \tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Munasiwetlik programmida ëchish
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Tehrirlesh \tF3
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Yëngi höjjet qisquch
+POPUPMENU_LISTCONTROL_ADD_FILE          = Höjjet qoshush \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Höjjet öchürüsh \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Höjjetni qayta namlash
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Hemmini tallash \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Ana höjjet qisquchqa yötkesh \tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Siqilma höjjetni öchürüsh
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Siqilma höjjetning qisquchini ëchish
+
+POPUPMENU_EXTRACT_AUTODEST              = Özlikidin yëshilish\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Mushu yerge yëshish\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = ""Siqilma höjjet nami" diki höjjet qisquchqa yëshish"
+POPUPMENU_EXTRACT_DESKTOP               = Üsel yüzige yëshish
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Özlikidin üsel yüzige yëshilish
+
+POPUPMENU_RECENT_CLEAR                  = Ishtitish xatirisini öchürüsh
+POPUPMENU_RECENT_NOITEM                 = Eng yëngi höjjet yoq
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Bandizip ta ëchish
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Özlikidin yëshilish
+
+POPUPMENU_CODEPAGE_DEFAULT              = Esli Tengshek
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Addi Xenzuche
+POPUPMENU_CODEPAGE_TRADCHINESE          = Murekkep Xenzuche
+POPUPMENU_CODEPAGE_JAPANESE             = Yaponche
+POPUPMENU_CODEPAGE_KOREAN               = Koriyanche
+POPUPMENU_CODEPAGE_WINDOWS1252          = Gherni Yawropache
+POPUPMENU_CODEPAGE_WINDOWS1250          = Ottura Yawropache
+POPUPMENU_CODEPAGE_WINDOWS1251          = Kirilche
+POPUPMENU_CODEPAGE_WINDOWS1254          = Türkche
+POPUPMENU_CODEPAGE_WINDOWS737           = Girikche
+POPUPMENU_CODEPAGE_ARABIC               = Erebche
+POPUPMENU_CODEPAGE_HEBREW               = Ibrayche
+POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
+POPUPMENU_CODEPAGE_AUTODETECT           = Özi tallash
+
+
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = Jezmlesh
+IDCANCEL                                = Emeldin qaldurush
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Bandizip Heqqide
+IDC_BTN_HOMEPAGE                        = Bashbet
+IDC_BTN_UPDATE                          = Yëngilash
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Höjjet ëchish
+IDC_STATIC_OPENING                      = Ëchiwatidu
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Yëshish yolini tallash
+IDC_STATIC_FOLDER                       = Nishan yol (&D)
+IDC_STATIC_FILES2EXTRACT                = gha yëshish:
+IDC_RADIO_FILES2EXTRACT_0               = Barliq höjjetler (&A)
+IDC_RADIO_FILES2EXTRACT_1               = Tallanghan höjjetler (&S)
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Tallanghan höjjet qisquchtiki "nishan" höjjet qisquchqa yëshish
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Yëship bolghandin këyin esli höjjetni öchürwitish
+IDC_CHK_REMEMBER_SETTINGS               = Remember settings
+IDC_BTN_NEWFOLDER                       = Yëngi höjjet qisquch
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Yëshish
+IDC_BTN_STOP                            = Toxtishish
+IDC_BTN_CLOSE                           = Taqash
+IDC_BTN_PAUSE                           = Waqitliq toxtitish
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Yëngi siqilma höjjet churush
+IDC_STATIC_FILE_LIST                    = Yëngi siqilma höjjetke höjjet qoshush
+IDC_STATIC_ARCHIVE_SETTING              = Siqilma höjjet tengshiki
+IDC_STATIC_ARCHIVE_NAME                 = Höjjet nami
+IDC_STATIC_SET_DEST_FOLDER              = Nishan höjjet qisquch
+IDC_STATIC_ARCHIVE_TYPE                 = Saqlash türi
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Höjjet bölünmisi
+IDC_STATIC_COMPRESSION_METHOD           = Siqish derijisi
+IDC_STATIC_HELP_SPLIT                   = [Yardem]
+IDC_STATIC_HELP_7Z                      = [7Z pichimi]
+IDC_BTN_SELECT_ARCHIVE_NAME             = Arilash (&B)...
+IDC_BTN_TEST_ARCHIVE                    = &Test archive
+IDC_BTN_DELETE_SRC                      = Yëship bolghandin këyin esli höjjetni öchürwitish
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Herbir höjjet/höjjet qisquchni ayrim siqilma höjjetke qoshush
+IDC_BTN_SET_DEST_FOLDER                 = Siqilma höjjet yolini özgertish
+IDC_BTN_TOGGLE_ADVANCED                 = Tëximu jiq tallashlar...
+IDC_BTN_SET_SFX                         = Özlikidin yëshilishni tengshesh (&S)
+IDC_BTN_ADD                             = Qoshush (&A)
+IDC_BTN_DEL                             = Öchürüsh (&D)
+IDC_BTN_START                           = Bashlash
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Inawetsiz shifir, qayta kirgüzing.
+IDC_BTN_SHOW_PASSWORD                   = Shifirni körsitish
+IDC_CHECK_APPLY_ALL                     = Hemmini qollinish (&A)
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDC_BTN_SHOW_PASSWORD                   = Shifirni körsitish
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Tallash
+IDC_BTN_OPEN                            = Ëchish
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Siqiwatidu
+TEXT_ARCHIVE_TESTING                    = Testing
+IDC_BTN_STOP                            = Toxtitish
+IDC_BTN_CLOSE                           = Taqash
+IDC_BTN_PAUSE                           = Waqitliq toxtitish
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Qaytilanghan höjjet
+IDC_STATIC_DUPE_MESSAGE                 = Oxshash höjjet bar
+IDC_STATIC_DUPEFILE_OLD                 = Esli höjjet
+IDC_STATIC_DUPEFILE_NEW                 = Nöwettiki höjjet
+IDC_STATIC_DUPE_ASK                     = Töwendiki tallashlarni tallang:
+IDC_RADIO_DUPE_METHOD0                  = Atlash (&S)
+IDC_RADIO_DUPE_METHOD1                  = Qapliwitish (&O)
+IDC_RADIO_DUPE_METHOD2                  = Yëngidin namlash (&R)
+IDC_CHECK_DUPE_APPLY_ALL                = Barliq höjjetlerge qollinish (&A)
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Siqilma höjjet tallashliri
+IDC_STATIC_ASK_HANDLING                 = Töwendiki tallashlarni tallang:
+IDC_RADIO_HANDLE_METHOD0                = siqilma höjjet ëchish (&O)
+IDC_RADIO_HANDLE_METHOD1                = Yëngi siqilma höjjet (&N)
+IDC_RADIO_HANDLE_METHOD2                = Höjjetlerni nöwettiki siqilma höjjetke qoshung (&A)
+IDC_CHK_PASS                            = Shifir ishlitish
+IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
+IDC_CHK_SHOW_PASS                       = Show Password
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Tengshesh
+IDC_BTN_INIT                            = Esli tengshek
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = General Settings
+IDC_CHK_EXIT_WITH_ESC                   = Esc ni bilen chëkinish
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Höjjet qoshulghan/öchürülgen/qayta namlanghanda höjjetni tekshürüsh
+IDC_CHK_SNAP                            = Köznek bashqurush
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Siqilma höjjette [..] munderijini körsitish
+IDC_CHK_SHOW_GRID_AT_LIST               = Show gridlines in details view
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Siqilma höjjettiki qurlarni toluq tallash
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Höjjet baghlinishi
+IDC_BTN_SELECT_MANDATORY                = Asasi tallash
+IDC_BTN_SELECT_ALL                      = Hemmini tallash
+IDC_BTN_CLEAR_ALL                       = Hemmini tallimasliq
+IDC_BTN_APPLY_NOW                       = Derhal qollinish
+IDC_STATIC_ICON_PACK                    = Sinbelge boghchisi tallash:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Sinbelge boliqi chüshürüsh]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Extension Association
+;IDC_STATIC_ASSOC_DESC1                 = For Windows 8 or later versions, you can associate the files as follows:
+;IDC_STATIC_ASSOC_DESC2                 = 1. Click the following "Association Settings" button.
+;IDC_STATIC_ASSOC_DESC3                 = 2. Check "Select All" in Program Association Settings window.
+;IDC_STATIC_ASSOC_DESC4                 = 3. Click "Save" button.
+;IDC_STATIC_ASSOC_DESC1_10              = For Windows 10 or later versions, you can associate the files as follows:
+;IDC_STATIC_ASSOC_DESC2_10              = 1. Click the following "Association Settings" button.
+;IDC_STATIC_ASSOC_DESC3_10              = 2. Select "Bandizip" in Set Default Programs window.
+;IDC_STATIC_ASSOC_DESC4_10              = 3. Click "Set this program as default".
+;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Association Settings
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Classic method
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Qosh chëkish herikiti
+IDC_RADIO_SHELL_OPEN_0                  = Bandizip bilen ëchish
+IDC_RADIO_SHELL_OPEN_1                  = Özlikidin yëshilish
+IDC_RADIO_SHELL_OPEN_2                  = Baghlanma tizimlikni körsitish
+IDC_RADIO_SHELL_OPEN_3                  = Belgilengen höjjet qisquchqa özlikidin yëshilish
+IDC_BTN_SET_EXTRACT_FOLDER              = Arilash...
+IDC_RADIO_SHELL_OPEN_4                  = Höjjet namidiki höjjet qisquchqa özlikidin yëshilish
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Delete the archive after extracting by double-clicking
+
+IDC_STATIC_SHELL_EXTRACT                = Sëshish tizimliki
+IDC_CHK_SHELL_EXTRACT_HERE              = Mushu yerge yëshish
+IDC_CHK_SHELL_EXTRACT_AUTO              = Özlikidin yëshilish
+IDC_CHK_SHELL_EXTRACT_SUB               = ... gha yëshish
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extract Here and Delete
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extract Here (Smart) and Delete
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extract to "Archive-Name" folder and Delete
+IDC_CHK_SHELL_EXTRACT_DLG               = Yëshish yolini tallash
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Extract as administrator
+IDC_CHK_SHELL_TEST_ARCHIVE              = Siqilma höjjetni sinash
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Bandizip bilen ëchish
+IDC_CHK_SHELL_PREVIEW                   = Siqilma höjjetni aldin körüsh
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Aldin körüsh chëki:
+IDC_CHK_SHELL_PREVIEW_TREE              = Preview archive with tree structure
+
+IDC_STATIC_SHELL_ARCHIVING              = Siqish tizimliki
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = ""siqilma höjjet nami.zip"gha qoshush"
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = ""siqilma höjjet nami.zip"gha qoshush hem ëlxet bilen yollash"
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = ""siqilma höjjet nami.zipx"gha qoshush"
+IDC_CHK_SHELL_ARCHIVING_EXE             = ""siqilma höjjet nami.exe"gha qoshush"
+IDC_CHK_SHELL_ARCHIVING_TAR             = ""siqilma höjjet nami.tar"gha qoshush"
+IDC_CHK_SHELL_ARCHIVING_TGZ             = ""siqilma höjjet nami.tgz"gha qoshush"
+IDC_CHK_SHELL_ARCHIVING_LZH             = ""siqilma höjjet nami.lzh"gha qoshush"
+IDC_CHK_SHELL_ARCHIVING_ISO             = ""siqilma höjjet nami.iso"gha qoshush"
+IDC_CHK_SHELL_ARCHIVING_7Z              = ""siqilma höjjet nami.7z"gha qoshush"
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Compress to "FileName.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Compress to "FileName.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Compress to "FileName.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = Herbir höjjet/höjjet qisquchni ayrim siqilma höjjetke qoshush
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = ""siqilma höjjet  qisquch nami.7z" gha ayrim qoshush"
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Siqilma höjjetke qoshush (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Compress as administrator
+IDC_CHK_SHELL_ARCHIVING_RULE            = Compress to custom file name
+IDC_STATIC_FILENAME_RULE_HELP           = Rule: ${NAME}=Filename, %Y=Year, %m=Month, %d=Day, %H=Hour, %M=Minute, %S=Second
+
+IDC_STATIC_SHELL_BKGND                  = Teglik tizimliki
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Yëngi höjjet qisquch
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Buyruq köznikini ëchish (cmd.exe)
+
+IDC_STATIC_SHELL_ETC                    = Bashqilar
+IDC_CHK_SHELL_DO_NOT_USE                = Baghlanma tizimlikni cheklesh
+IDC_CHK_SHELL_AS_SUB_MENU               = Baghlanma tizimlikni qatlash
+IDC_CHK_SHELL_HIDE_ICON                 = Bandizip sinbelgisini yoshurush
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Siqilma höjjet mezmunini perqlendürüsh
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Jiq siqilma höjjet bolsimu yëshish siqish tizimlikini körsitish
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Chashqinek bilen tallanghan höjjet/höjjet qisquch namini qollinish
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Yëshishni tengshesh
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Siqilma höjjette birla bash höjjet qisquch bar bolsa, Höjjet qisquchtiki höjjetlerni körsitish
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Yeshkendin këyin höjjet qisquchni ëchish
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Yëshish axirlashqanda sür'et közniki taqalmisun
+IDC_CHK_FAST_DRAG_DROP                  = Chong höjjetlerni yeshkende "tëz sürüsh we qoyuwitish"ni qollinish
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = TGZ,TBZ höjjetlirini bir qëtimda yëshish
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Chong hejimdiki TGZ, TBZ höjjiti bolsimu boliwiridu
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = ""Özlikidin yëshilish" ni qollanghanda, yuqiriqi munderijide höjjet jiq bolsa, yëngidin höjjet qisquch qurush"
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Macintosh kod bëtini özlikidin öchürwitish
+IDC_CHK_UNIXZIP_AS_UTF8                 = UNIX tin Zip höjjiti achqanda UTF-8 kod bëtini qolliniSH
+IDC_STATIC_CODEPAGE                     = Esli kod bëti
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Töwendiki türdiki barliq höjjetlerni yëshish
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Siqishni tengshesh
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Birla höjjetni siqqanda,bash höjjet qisquch namini qollanmisun
+IDC_CHK_USE_UTF8_COMPRESS               = Zip höjjitide Unicode luq höjjet namini qollinish (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = tar, tgz höjjitide Unicode luq höjjet namini qollinish (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Daim  ZIP64  pichimini qollinish,höjjet chongliqi 2GBdin kichik bolsimu meyli(tewsiye qilinmaydu)
+IDC_CHK_EXCLUDE_THUMBSDB                = Siqqanda thumbs.db höjjitini chiqirwëtish
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Save NTFS time information when creating Zip files
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = ""Yuqiri sür'ette siqish"ni qollinish"
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Siqish axirlashqanda, sür'et köziniki taqalmisun
+IDC_STATIC_COMPRESSION_METHOD           = Siqish usuli:
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Aldinqi qëtim siqqanda Ishletken höjjet qisquchni qollinish
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Arxipqa tewe bolghan esli tengshektiki höjjet qisquchni siqish
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Arilash...
+IDC_CHK_EXCLUDE_FILTER                  = Siqqanda chiqirwëtidighan höjjet türi
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Tekshürgüchni tengshesh
+IDC_CHK_SHOW_PREVIEW                    = Resimni aldin körüsh
+
+IDC_STATIC_SETTING_VIEWITEM             = KörünüSH tengshiki U tengshiki
+IDC_CHK_VIEWITEM_COMPSIZE               = Siqilghandiki chongluqi
+IDC_CHK_VIEWITEM_ORIGSIZE               = Esli chongluqi
+IDC_CHK_VIEWITEM_KIND                   = Höjjet türi
+IDC_CHK_VIEWITEM_DATE_MOD               = Özgertken waqit
+IDC_CHK_VIEWITEM_COMPMETHOD             = Siqilish usuli
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Shifirlesh usuli
+IDC_CHK_VIEWITEM_CRC                    = CRC tekshürüshi
+IDC_CHK_VIEWITEM_ATTRIB                 = Höjjet xasliqi
+IDC_CHK_VIEWITEM_COMMENT                = Höjjet eskertmisi
+
+IDC_STATIC_IMAGE_VIEWER                 = Resim tekshürgüch
+IDC_RADIO_IMAGE_VIEWER_0                = Ichki qisimdiki resim tekshürgüchni qollinish
+IDC_RADIO_IMAGE_VIEWER_1                = Tashqi baghlinishliq programmini qollinish
+IDC_RADIO_IMAGE_VIEWER_2                = Use Honeyview if installed
+
+IDC_STATIC_EDITOR                       = Tehrirligüch
+IDC_BTN_SET_EDITOR_PATH                 = Arilash...
+
+IDC_STATIC_COLOR                        = Color
+IDC_STATIC_COLOR_THEME                  = Theme color
+IDC_BTN_BKGND                           = Selected
+IDC_STATIC_COLOR_TEXT                   = Font color
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = White
+IDC_STATIC_COLOR_TEXT_BLACK             = Black
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Export Bandizip Settings
+IDC_STATIC_ETC                          = Bashqa tengshekler
+IDC_CHK_SET_TEMP_FOLDER                 = Waqitliq höjjet qisquch
+IDC_BTN_SET_TEMP_FOLDER                 = Arilash...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Recognize the following file types as archive files
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Delete temporary file when exit the child process
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Öchürgende höjjetni exlet sëwitige yötkesh
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Yëqinqi höjjetlerning ishlitish xatirisini körsitish
+IDC_CHK_USE_LONG_PATH_NAME              = Uzunluqi 260 herb-belgidin ashidighan höjjet yoli namini bir terep qilish
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Menbe arilighuchta ëchilghan siqilma höjjetlerni öchürwëtishke yol qoyush
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Höjjet qisquch derixni özlikidin ëchish
+IDC_CHK_USE_MODAL_DIALOG                = Use a modal dialog box when archiving/extracting
+IDC_CHK_USE_ELEGANT_UI                  = Use elegant UI design
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Show 'Start Screen' when Bandizip starts
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Display the full path in the title bar
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Delete extracted files when extraction is cancelled
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Til tengshesh
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = Özlikidin yëshilish uchuri
+IDC_STATIC_TARGET_PATH                  = Özlikidin yëshilish yoli:
+IDC_STATIC_TITLE                        = Özlikidin yëshilidighan höjjet mawzusi
+IDC_STATIC_RUN                          = Yeshkendin këyin yürgüzish:
+IDC_STATIC_MESSAGE                      = Özlikidin yëshilish uchuri:
+IDC_CHK_AUTO_CLOSE                      = Yëshish axirlashqanda özlikidin yëshilish köznikini özlikidin taqash
+IDC_BTN_SAVE_SFX_SETTING                = Saqlashni tengshesh
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Höjjet izdesh
+IDC_STATIC_FIND                         = Izdesh
+IDC_BTN_CLOSE                           = Taqash
+IDC_BTN_DELETE                          = Öchürüsh
+IDC_BTN_EXTRACT                         = Yëshish
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Siqilma höjjet izahati
+IDC_STATIC_COMMENT                      = Höjjet izahatini qoshush/tehrirlesh
+IDC_CHK_USE_UTF8                        = Izahatni Unicode (UTF-8)ta saqlash
+IDC_BTN_LOAD_FROM_FILE                  = Höjjettin izahat qoshush (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = WARNING
+IDC_STATIC_WARN_EXECUTABLE              = This file is an executable file. Running this program might harm your computer. Do you want to proceed?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Do not ask me again
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+
+[IDD_UNINSTALL]
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Ëchish
+$TOOLBAR_CLOSE_FILE                     = Taqash
+$TOOLBAR_EXTRACT_FILE                   = Yëshish
+$TOOLBAR_CREATE_ARCHIVE                 = Yëngi
+$TOOLBAR_DELETE_FILE                    = Öchürüsh
+$TOOLBAR_ADD_FILE                       = Qoshush
+$TOOLBAR_TEST_ARCHIVE                   = Sinash
+$TOOLBAR_CODEPAGE                       = Kod bëti
+$TOOLBAR_VIEWITEM                       = Körünishi
+
+$TOOLBAR_OPEN2                          = Open Archive
+$TOOLBAR_CREATE_ARCHIVE2                = New Archive
+
+$TEXT_DESKTOP                           = Üstel yüzi
+$TEXT_DOCUMENT                          = Arxiplirim
+$TEXT_PICTURE                           = Resimlirim
+$TEXT_COMPUTER                          = Kompyutërim
+
+$TEXT_SETTINGTAB_GENERAL                = Adettikidek tengshesh
+$TEXT_SETTINGTAB_ASSOC                  = Höjjet baghlinishi
+$TEXT_SETTINGTAB_SHELL                  = Baghlanma tizimlik
+$TEXT_SETTINGTAB_EXTRACT                = Yëshishni tengshesh
+$TEXT_SETTINGTAB_ARCHIVE                = Siqishni tengshesh
+$TEXT_SETTINGTAB_VIEWER                 = Tekshürgüch
+$TEXT_SETTINGTAB_ETC                    = Bashqa tengshekler
+$TEXT_SETTINGTAB_LANG                   = Til tengshesh
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Höjjet jaylashqan orunni ëchsh
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Siqilma höjjet jaylashqan orunni ëchsh
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Yeshkendin këyin höjjet jaylashqan orunni ëchsh
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Siqilma höjjet jaylashqan orunni ëchsh
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Nishan höjjetni ëchish
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Yeshkendin këyin bu köznekni taqash
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Siqqandin këyin bu köznekni taqash
+$TOOLTIP_ADVANCED_MENU                  = Miscellaneous Settings
+
+$TEXT_INSTALL_START                     = OK, I'll try it
+$TEXT_INSTALL_CLOSE                     = No, thanks
+$TEXT_INSTALL_HONEYVIEW_LINK            = See more...
+
+$TEXT_HELP_PAGE                         = Help Page
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+
+[IDD_RECOVERY_SETTING]
+
+[RECOVERY_SKIN]
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Yëngi höjjet qisquch
+
+TEXT_MENU_CREATE_NEW_FOLDER             = Yëngi höjjet qisquch (&N)
+TEXT_MENU_SUB_MENU                      = Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Bandizip bilen ëchish...
+TEXT_MENU_TEST_ARCHIVE                  = Siqilma höjjetni sinash
+TEXT_MENU_LAUNCH_CMD                    = Buyruq köznikini ëchish (&L)
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Buyruq köznikini bashqughuchiliq salahiyiti bilen ëchish
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Herbir höjjet / höjjet  qisquchni ayrim siqilma höjjetke qoshush (&E)
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = ""Siqilma höjjet/höjjet qisquch nami.7z" gha ayrim qoshush"
+TEXT_MENU_ARCHIVE_ZIP                   = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = gha qoshush hem ëlxetke yollash "${str1}" (&I)...
+TEXT_MENU_ARCHIVE_ZIPX                  = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "gha qoshush "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = "Compress to each "FileName.gz""
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = "Compress to each "FileName.xz""
+TEXT_MENU_ARCHIVE_RULE                  = Compress to "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Siqilma höjjetke qoshush (Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Bashqurghuchiliq salahiyiti bilen siqish
+
+TEXT_MENU_EXTRACT_HERE                  = Mushu yerge yëshish
+TEXT_MENU_EXTRACT_AUTO                  = Özlikidin yëshilish
+TEXT_MENU_EXTRACT_AUTO_EACH             = Özlikidin ayrim höjjet qisquchqa yëshilish
+TEXT_MENU_EXTRACT_SUB                   = Herbir siqilma höjjetni ayrim höjjet qisquchqa yëshish
+TEXT_MENU_EXTRACT_ARCHIVENAME           = gha yëshish ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = ... yëshish yolini tallash
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Bashqurghuchiliq salahiyiti bilen siqish
+TEXT_MENU_EXTRACT_HERE_DEL              = Extract Here and Delete
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extract Here (Smart) and Delete
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extract Smart (Each) and Delete
+TEXT_MENU_EXTRACT_SUB_DEL               = Extract to separate folders and Delete
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extract &to ${str1}\ and Delete
+
+TEXT_MENU_PREVIEW                       = Siqilma höjjetni aldin körüsh
+TEXT_MENU_PREVIEW_BROKEN                = Bu höjjet pichimi namelum yaki buzuq
+TEXT_MENU_PREVIEW_TIMEOUT               = Iltimasning waqti ötüp ketti
+TEXT_MENU_PREVIEW_EMPTY                 = Quruq siqilmq höjjet
+TEXT_MENU_PREVIEW_ENCRYPTED             = Filename is encrypted
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Siqilma höjjetni aldin körüsh iqtidari ishlimidi. [br][br]Menbe arilighuchni qayta qozghiting yaki [br]Kompyutërni qayta qozghiting.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Höjjet tizimlikini oquyalmidi
+
+TEXT_MENU_OPENING                       = Ëchiliwatidu...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip yëngilighuchisi
+TEXT_UPDATER_TEXT1                      = Bandizip yëngilighuchisi teyyar.
+TEXT_UPDATER_TEXT_DL                    = Would you like to download it now?
+TEXT_UPDATER_BTN_UPDATE                 = Yëngilash
+TEXT_UPDATER_BTN_OK                     = Jezmlesh
+TEXT_UPDATER_BTN_CANCEL                 = Emeldin qaldurush
+TEXT_UPDATER_DOWNLOAD_ERROR             = Chüshürüsh meghlup boldi.
+TEXT_UPDATER_SETTING_UPDATE             = Tengshesh
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Nishan yol:
+BTN_SELECT_FOLDER                       = Arilash...
+BTN_EXTRACT                             = Bashlash
+BTN_CLOSE                               = Taqash
+BTN_CANCEL                              = Emeldin qaldurush
+BTN_OPEN_FOLDER                         = Ëchish
+CHK_OVERWRITE                           = Qapliwitish
+ERR_ERROR_OCCURRED                      = Xataliq körüldi
+ERR_INVALID_PASSWORD                    = Invalid Password
+ASK_OVERWRITE                           = Oxshash höjjet bar, Uni qapliwitemsiz?
+MSG_COMPLETED                           = Yëshish utuqluq boldi!
+IDD_PASSWORD                            = Enter Password
+IDC_STATIC_PASSWORD_MSG                 = This file is encrypted.
+IDC_BTN_SHOW_PASSWORD                   = Shifirni körsitish
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Höjjetlerni yëshelmidi.
+TEXT_ERR_CRC                            = CRC tekshürüsh xataliqi.
+TEXT_ERR_INVALID_PASSWD                 = Inawetsiz shifir
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+
+$BTN_HELP_LINK                          = [Yardem]
+
+
+
+
+MSG_STILLRUN_EXIT_PROGRAM               = Bandizip yenila ishlewatidu. Awal programmini taqang
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+
+[IDD_TOOLBAR_SETTINGS]
+
+
