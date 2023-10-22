@@ -7,7 +7,6 @@ echo ============================================================^
 
 setlocal enabledelayedexpansion
 
-git init
 
 call _2_5_Settings.bat
 
@@ -15,6 +14,7 @@ call _2_5_Settings.bat
 if not exist %projectFolderName% mkdir %projectFolderName%
 cd %projectFolderName%
 
+git init
 
 :loop
 git fetch --depth=1 %repoURL% %projectBranchName%

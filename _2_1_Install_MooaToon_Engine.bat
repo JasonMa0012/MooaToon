@@ -7,13 +7,13 @@ echo ============================================================^
 
 setlocal enabledelayedexpansion
 
-git init
 
 call _2_5_Settings.bat
 
 if not exist %engineFolderName% mkdir %engineFolderName%
 cd %engineFolderName%
 
+git init
 
 :loop
 git fetch --depth=1 %repoURL% %engineBranchName%
