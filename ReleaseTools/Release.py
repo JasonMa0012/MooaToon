@@ -46,6 +46,10 @@ engine_user = 'Jason-Ma-0012'
 engine_repo = 'MooaToon-Engine'
 
 
+if not os.path.exists(zip_path):
+    os.makedirs(zip_path)
+
+
 # ============ Functions ==============
 def get_onedrive_env_path():
     # 打开 OneDrive 注册表项
