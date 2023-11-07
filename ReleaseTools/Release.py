@@ -60,7 +60,7 @@ def get_onedrive_env_path():
     return os.path.join(envPath, '_Data', 'envs', 'MooaToon.env')
 
 
-def get_release_comment(last_release_date, branch_name):
+def get_release_comment(branch_name, last_release_date):
     g = gh.login(token=os.getenv('MOOATOON_ENGINE_TOKEN'))
     repo : gh.github.repo.Repository = g.repository(engine_user, engine_repo)
     comment = ''
