@@ -23,7 +23,7 @@ if len(sys.argv) > 2:
 
 project_branch_name = "5.3_MooaToonProject"
 if len(sys.argv) > 3:
-    engine_version = sys.argv[3]
+    project_branch_name = sys.argv[3]
 
 # Default Input
 argv = [
