@@ -1,5 +1,7 @@
 # MooaToon
 
+[![](https://dcbadge.vercel.app/api/server/ZHhT5ESpfg)](https://discord.gg/ZHhT5ESpfg)
+
 ![Mooa (5)](README.assets/Mooa_gif.gif)
 
 **MooaToon**是一个旨在彻底解决 UE5 三渲二 痛点的插件, 结合了UE原生的光照特性和强大的材质系统, 释放美术师的潜力.
