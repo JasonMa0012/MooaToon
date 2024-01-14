@@ -114,6 +114,7 @@ if '--ZipProject' in argv:
             project_path + r"\Art",
             project_path + r"\Config",
             project_path + r"\Content",
+            project_path + r"\Plugins",
             project_path + r"\MooaToon_Project.uproject", ]
     async_run(args)
 
