@@ -1,17 +1,15 @@
 @echo off
 
-echo ^============================================================
+echo ============================================================
 echo ==               Updating MooaToon Engine                 ==
-echo ============================================================^
+echo ============================================================
 
 
 call _2_5_Settings.bat
 
 cd %engineFolderName%
 
-git checkout %engineBranchName%
-git pull --depth=50 origin %engineBranchName%
-git merge origin/%engineBranchName%
+git pull --depth=50
 
 if not %errorlevel% == 0 (
     color 04

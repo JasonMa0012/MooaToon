@@ -1,17 +1,15 @@
 @echo off
 
-echo ^============================================================
+echo ============================================================
 echo ==               Updating MooaToon Project                ==
-echo ============================================================^
+echo ============================================================
 
 
 call _2_5_Settings.bat
 
 cd %projectFolderName%
 
-git checkout %projectBranchName%
-git pull --depth=50 origin %projectBranchName%
-git merge origin/%projectBranchName%
+git pull --depth=50
 
 if not %errorlevel% == 0 (
     color 04

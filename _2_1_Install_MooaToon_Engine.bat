@@ -1,8 +1,8 @@
 @echo off
 
-echo ^============================================================
+echo ============================================================
 echo ==               Installing MooaToon Engine               ==
-echo ============================================================^
+echo ============================================================
 
 
 setlocal enabledelayedexpansion
@@ -13,21 +13,14 @@ call _2_5_Settings.bat
 if not exist %engineFolderName% mkdir %engineFolderName%
 cd %engineFolderName%
 
+
 git init
-
-:loop
-git fetch --depth=1 %repoURL% %engineBranchName%
-if not %errorlevel% == 0 (
-   echo Fetch failed, retrying in 5 seconds...
-   timeout /t 10 /nobreak
-   goto loop
-)
-
-git checkout FETCH_HEAD
 git remote add origin %repoURL%
-git pull origin %engineBranchName%
-git checkout %engineBranchName%
-git merge origin/%engineBranchName%
+git checkout -b temp
+git branch -D %branchName%
+git pull --depth=1 origin %branchName%
+git checkout %branchName% -f
+git branch -D temp
 
 
 echo %engineFolderName% successfully cloned.
