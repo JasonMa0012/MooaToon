@@ -10,17 +10,8 @@ setlocal enabledelayedexpansion
 
 call _2_5_Settings.bat
 
-if not exist %projectFolderName% mkdir %projectFolderName%
-cd %projectFolderName%
 
-
-git init
-git remote add origin %repoURL%
-git checkout -b temp
-git branch -D %branchName%
-git pull --depth=1 origin %branchName%
-git checkout %branchName% -f
-git branch -D temp
+git clone %repoURL% %projectFolderName% -b %projectBranchName% --depth=1
 
 
 echo %projectFolderName% successfully cloned.
