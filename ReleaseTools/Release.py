@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import winreg
 
 
-# Inputs: MooaRootDir engineBranchName projectBranchName [--Clean --BuildEngine --CleanEngine --ZipEngine --ZipProject --Release --Reupload]
+# Inputs: MooaRootDir engineBranchName projectBranchName [--Clean --BuildEngine --ZipEngine --ZipProject --Release --Reupload]
 
 # ================= Defines =================
 repo_name = "JasonMa0012/MooaToon"
@@ -98,10 +98,6 @@ if '--BuildEngine' in argv:
     print("======Build Engine======")
     os.chdir(engine_path)
     async_run([engine_path + r"\_build.bat"])
-
-if '--CleanEngine' in argv:
-    print("======Clean Engine======")
-    async_run([engine_path + r"\_clean.bat"])
 
 if '--ZipEngine' in argv:
     print("======Zip Engine======")
