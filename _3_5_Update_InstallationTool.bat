@@ -13,7 +13,7 @@ set branchName=main
 
 
 if exist .git (
-    git pull --depth=50
+    git pull origin %branchName% --depth=50
 ) ^
 else (
     git init
