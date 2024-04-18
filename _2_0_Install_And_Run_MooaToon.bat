@@ -3,3 +3,5 @@ call _2_1_Install_MooaToon_Engine.bat
 call _2_2_Install_MooaToon_Project.bat
 call _2_3_Setup_Unreal_Engine.bat
 call _4_0_Build_And_Run_MooaToon.bat
+
+pause
