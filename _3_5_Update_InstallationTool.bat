@@ -2,6 +2,8 @@
 
 setlocal enabledelayedexpansion
 
+call _0_2_Set_CMD_And_Git_Proxy.bat
+
 
 echo ============================================================
 echo ==               Updating Installation Tool               ==
