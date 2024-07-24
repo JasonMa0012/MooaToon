@@ -3,7 +3,7 @@
 
 call _2_5_Settings.bat
 
-cd %projectFolderName%
+pushd %projectFolderName%
 
 echo ===================================================
 git status -s | find "."
@@ -15,6 +15,8 @@ if %errorlevel% == 0 (
 
 git reset --hard
 git clean -df
+
+popd
 
 echo %projectFolderName% successfully clean.
 timeout /t 10

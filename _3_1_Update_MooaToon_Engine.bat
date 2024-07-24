@@ -7,10 +7,12 @@ echo ============================================================
 
 call _2_5_Settings.bat
 
-cd %engineFolderName%
+pushd %engineFolderName%
 
 git pull --depth=50
 git submodule update --init --recursive
+
+popd
 
 if not %errorlevel% == 0 (
     color 04

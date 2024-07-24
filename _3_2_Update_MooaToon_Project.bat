@@ -7,9 +7,11 @@ echo ============================================================
 
 call _2_5_Settings.bat
 
-cd %projectFolderName%
+pushd %projectFolderName%
 
 git pull --depth=50
+
+popd
 
 if not %errorlevel% == 0 (
     color 04
