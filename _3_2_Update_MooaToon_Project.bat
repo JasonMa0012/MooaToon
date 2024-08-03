@@ -9,7 +9,7 @@ call _2_5_Settings.bat
 
 pushd %projectFolderName%
 
-git pull --depth=50
+git pull origin %projectBranchName% --depth=100
 
 popd
 

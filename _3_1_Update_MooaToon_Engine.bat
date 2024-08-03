@@ -9,7 +9,7 @@ call _2_5_Settings.bat
 
 pushd %engineFolderName%
 
-git pull --depth=50
+git pull origin %engineBranchName% --depth=100
 git submodule update --init --recursive
 
 popd
