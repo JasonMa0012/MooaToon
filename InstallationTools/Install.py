@@ -129,8 +129,8 @@ for release in ghr.get_releases(repo_name):
         latest_release_info = release
         break
 
-if engine_version == None :
-    input(f"\nCant not find {engine_version} release! Press Enter to continue...")
+if latest_release_info == None :
+    input(f"\nCant not find {engine_version} release! \nMake sure your network has access to github.com and that _2_5_Settings.bat settings are correct! \n\nPress Enter to continue...")
     exit(1)
 
 print("\n=============================================\n")
