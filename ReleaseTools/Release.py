@@ -6,6 +6,7 @@ import github_release as ghr
 import github3 as gh
 from dotenv import load_dotenv
 import winreg
+import locale
 
 
 # Inputs: MooaRootDir engineBranchName projectBranchName [--Clean --BuildEngine --ZipEngine --ZipProject --Release --Reupload]
@@ -72,8 +73,10 @@ def get_release_comment(branch_name, last_release_date):
 
 
 def async_run(args):
+    # 获取系统的默认编码
+    encoding = locale.getpreferredencoding()
     # 使用 subprocess.Popen() 函数异步执行 bat 文件，并获取 stdout 和 stderr 输出
-    process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+    process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding=encoding, errors='ignore')
 
     while True:
         output = process.stdout.readline()
