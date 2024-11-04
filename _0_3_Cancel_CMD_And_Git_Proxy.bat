@@ -6,11 +6,10 @@ chcp 65001
 rem :: Ask user if they want to unset previously set proxy
 echo.
 echo ========================================================
-echo 是否需要取消设置代理?
 echo Do you want to unset the proxy?
 echo ========================================================
 echo.
-set /p userChoiceCancel=请输入y/n / Please enter y/n:
+set /p userChoiceCancel=Please enter y/n:
 echo.
 
 if /I "!userChoiceCancel!"=="y" (
@@ -19,7 +18,6 @@ if /I "!userChoiceCancel!"=="y" (
     set https_proxy=
 
     echo.
-    echo CMD代理已取消
     echo CMD proxy has been unset.
     echo.
 
@@ -28,7 +26,6 @@ if /I "!userChoiceCancel!"=="y" (
     git config --global --unset https.proxy
 
     echo.
-    echo Git代理已取消
     echo Git proxy has been unset.
     echo.
 )
