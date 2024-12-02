@@ -8,7 +8,7 @@ rem https://learn.microsoft.com/zh-cn/visualstudio/install/workload-component-id
 rem https://learn.microsoft.com/zh-cn/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022
 
 vs_Community.exe --wait --addProductLang En-us ^
- --add Microsoft.VisualStudio.Component.Windows10SDK.18362 ^
+ --add Microsoft.VisualStudio.Component.Windows11SDK.22621 ^
  --add Microsoft.VisualStudio.Component.VC.14.38.17.8.x86.x64 ^
  --add Microsoft.VisualStudio.Component.VC.14.38.17.8.x86.x64.Spectre ^
  --add Microsoft.VisualStudio.Component.VC.14.38.17.8.CLI.Support ^
