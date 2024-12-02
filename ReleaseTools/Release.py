@@ -18,17 +18,17 @@ mooatoon_root_path = r"X:\MooaToon"
 if len(sys.argv) > 1:
     mooatoon_root_path = sys.argv[1]
 
-engine_version = "5.3"
+engine_version = "5.5"
 if len(sys.argv) > 2:
     engine_version = sys.argv[2]
 
-project_branch_name = "5.3_MooaToonProject"
+project_branch_name = "5.5_MooaToonProject"
 if len(sys.argv) > 3:
     project_branch_name = sys.argv[3]
 
 # Default Input
 argv = [
-    '--Release'
+    '--Reupload'
 ]
 if len(sys.argv) > 4:
     argv = sys.argv[4:]
@@ -123,8 +123,11 @@ for file_name in os.listdir(zip_path):
     file_paths.append(file_path)
 
 last_release_info = None
+last_draft_info = None
 for release in ghr.get_releases(repo_name):
-    if (not release['draft']) and (release['tag_name'].startswith(engine_version)):
+    if release['draft']:
+        last_draft_info = release
+    elif release['tag_name'].startswith(engine_version):
         last_release_info = release
         break
 
@@ -147,17 +150,16 @@ if '--Release' in argv:
 
 if '--Reupload' in argv:
     print("======Reupload======")
-    current_release_info = ghr.get_release(repo_name, release_name)
-    tag_name = current_release_info['tag_name']
+    if last_draft_info is not None:
+        # 仅上传失败的文件
+        for asset in last_draft_info['assets']:
+            for file_path in file_paths:
+                if file_path.endswith(asset['name']):
+                    file_paths.remove(file_path)
 
-    # 仅上传失败的文件
-    for asset in current_release_info['assets']:
-        for file_path in file_paths:
-            if file_path.endswith(asset['name']):
-                file_paths.remove(file_path)
-
-    ghr.gh_asset_upload(repo_name, tag_name, file_paths)
-    ghr.gh_release_publish(repo_name, tag_name)
-
+        ghr.gh_asset_upload(repo_name, last_draft_info['tag_name'], file_paths)
+        ghr.gh_release_publish(repo_name, last_draft_info['tag_name'])
+    else:
+        print("\nThere is no draft!\n")
 
 input("\nPress Enter to continue...")
