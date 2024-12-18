@@ -8,7 +8,7 @@
 
 [GENERAL]
 LANG_NAME                               = Tiếng Việt
-TRANSLATORS                             = Siyoung / Keuneil.R[br]M.L. [br]Last modified by Quach Phat Thang (fb.me/pst502).
+TRANSLATORS                             = Siyoung / Keuneil.R[br]M.L. [br]Last modified by Quach Phat Thang (fb.me/pst502).[br]Nguyen Duy Khanh (khanhnd@izmaze.com)
 
 
 [TEXT]
@@ -38,6 +38,7 @@ TEXT_MESSAGEBOX_YES                     = Có
 TEXT_MESSAGEBOX_NO                      = Không
 TEXT_MESSAGEBOX_CONTINUE                = Tiếp tục
 TEXT_MESSAGEBOX_HELP                    = Trợ giúp
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Không hiện lại nữa
 
 TEXT_COLUMN_NAME                        = Tên
 TEXT_COLUMN_COMPSIZE                    = Dung lượng nén
@@ -49,6 +50,7 @@ TEXT_COLUMN_ENCRMETHOD                  = Cách mã hoá
 TEXT_COLUMN_CRC                         = CRC
 TEXT_COLUMN_ATTRIB                      = Thuộc tính
 TEXT_COLUMN_COMMENT                     = Ghi chú
+TEXT_COLUMN_EXT                         = Thông tin bổ sung
 TEXT_COLUMN_PATHNAME                    = Đường dẫn
 
 TEXT_ICONPACK_NAME                      = Tên
@@ -119,6 +121,7 @@ TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Không thể mở tập tin nén này.
 TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Tên thư mục đã tồn tại.
 TEXT_ERR_FILENAME_EMPTY                 = Tên tập tin không chính xác.
 TEXT_ERR_AT_DRAGANDDROP                 = Kéo thả không thành công.
+TEXT_ERR_AT_DRAGANDDROP_MULTI           = Thao tác kéo và thả khác đang được thực hiện.
 TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Kéo và thả lỗi. [br]Bandizip đã tắt 'Kéo và thả nhanh', xin vui lòng thử lại.
 TEXT_ERR_AT_CANT_OPEN_MMF               = Không thể mở MMF. (mmf:${str1})
 TEXT_ERR_NO_FILES_SELECTED              = Chưa có tập tin nào được chọn.
@@ -159,6 +162,7 @@ TEXT_MSG_BATCH_DEL_FAILED               = - Xóa thất bại: ${str1}
 TEXT_MSG_WORK_IN_PROGRESS               = Đang xử lý…
 
 TEXT_NOTICE_AUTODETECTCODEPAGE          = Nếu các ký tự không hiện ra đúng click vào <font color=red><b>Code Page</b></font> ở trên sau đó thử lại <font color=red><b>Auto detect</b></font>menu.
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = Bạn có muốn mở các tệp ${ext} bằng Bandizip không?
 
 TEXT_ASK_DELETE_ARCHIVE                 = Xoá tập tin gốc.[br]Bạn có muốn xoá tập tin này không?
 TEXT_ASK_DELETE_CUR_ARCHIVE             = Bạn có muốn xoá tập tin hiện tại không?
@@ -231,6 +235,9 @@ TEXT_ARKERR_NOTIMPL                     = Không thể thực hiện.
 TEXT_ARKERR_CANT_READ_FILE              = Không thể đọc tập tin.
 TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Chạy Bandizip với quyền administrator để tạo liên kết biểu tượng.
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = Không thể tạo liên kết biểu tượng.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Tập tin đang có thể ghi hoặc đang được sử dụng bởi một tiến trình khác.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Không có tập tin để nén.
+TEXT_ARKERR_DICT_SIZE_OVER              = Cần nhiều bộ nhớ hơn để giải nén. Tăng mức sử dụng bộ nhớ cho phép trong Cài đặt.
 
 TEXT_SPLITCOMBO_NOSPLIT                 = Không chia
 TEXT_SPLITCOMBO_3MB                     = 3MB
@@ -275,15 +282,32 @@ TEXT_INSTALL_HONEYVIEW                  = Cài đặt Honeyview
 TEXT_INSTALL_HONEYVIEW_1                = Honeyview chưa được cài đặt trên máy tính của bạn.
 TEXT_INSTALL_HONEYVIEW_2                = Vui lòng thử Honeyview cũng được phát triển bởi Bandisoft. <br> Nó hỗ trợ xem hình ảnh trong tập tin nén ZIP, RAR, hoặc các tập tin 7z mà không cần giải nén.
 
+TEXT_REGISTRATION_FAILED                = Đăng ký không thành công.[br]Vui lòng kiểm tra địa chỉ email và khoá sản phẩm của bạn.
+TEXT_REGISTRATION_SUCCEED               = Bandizip của bạn đã được đăng ký.
+TEXT_REGISTRATION_ASK                   = Bạn chắc chắn muốn hủy đăng ký Bandizip?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip chưa được đăng ký.[br]Vui lòng mua và đăng ký Bandizip để sử dụng mà không bị hạn chế các tính năng.
+TEXT_REGISTER_INFO                      = Thông tin người dùng đã đăng ký Bandizip:[br]Địa chỉ Email: ${str1}[br]Khoá sản phẩm: ${str2}
 
+TEXT_TITLE_SCAN_MODE                    = Quét phần mềm độc hại trên tập tin nén
+TEXT_SCAN_AMSI_PROVIDER                 = AMSI khởi tạo thành công
+TEXT_SCAN_COMPLETED                     = Quét phần mềm độc hại đã hoàn thành.
+TEXT_SCAN_MALWARE_DETECTED              = Phát hiện phần mềm độc hại.
+TEXT_SCAN_MALWARE_NOTDETECTED           = Không phát hiện phần mềm độc hại.
+TEXT_SCAN_MALWARE_TOOBIG                = Quét thất bại. Tập tin quá lớn.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = Đã phát hiện phần mềm độc hại trong tập tin nén.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= Đã phát hiện phần mềm độc hại trong tập tin nén.[br]Việc giải nén đã bị hủy.
+TEXT_MSG_MALWARE_TEST_OK                = Không phát hiện phần mềm độc hại trong tập tin nén.
+TEXT_MSG_AMSI_INIT_FAILED               = AMSI khởi tạo quét đã thất bại.[br]Truy cập https://go.bandisoft.com/amsi để biết chi tiết.
+TEXT_MSG_AMSI_WIN10_NOTICE              = Quét phần mềm độc hại chỉ có sẵn trên Windows 10/11.[br]Truy cập https://go.bandisoft.com/amsi để biết chi tiết.
 
 [MENU]
-MENUSTR_FILE                            = tập tin (&F)
+MENUSTR_FILE                            = Tập tin (&F)
 MENUSTR_EDIT                            = Chỉnh sửa (&E)
-MENUSTR_SETTING                         = Cài đặt (&S)
+MENUSTR_SETTING                         = Cài đặt (&O)
 MENUSTR_FIND                            = Tìm (&I)
-MENUSTR_VIEW                            = &View
-MENUSTR_HELP                            = Trợ giúp (&A)
+MENUSTR_VIEW                            = Xem (&V)
+MENUSTR_TOOLS                           = Công cụ (&T)
+MENUSTR_HELP                            = Trợ giúp (&H)
 
 MENUSTR_OPEN                            = Mở tập tin nén \tCtrl+O
 MENUSTR_RECENT                          = Tập tin đã mở gần đây
@@ -296,6 +320,7 @@ MENUSTR_DELETE_ARCHIVE                  = Xoá tập tin nén \tCtrl+Del
 MENUSTR_PERM_DELETE_ARCHIVE             = Xóa tập tin nén vĩnh viễn \tShift+Ctrl+Del
 MENUSTR_OPEN_ARCHIVE_FOLDER             = Mở thư mục chứa tập tin nén
 MENUSTR_TEST_ARCHIVE                    = Kiểm tra tập tin nén \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = Quét phần mềm độc hại trên file nén\tCtrl+I
 MENUSTR_EXTRACT_FILE                    = Giải nén \tCtrl+E
 MENUSTR_EXIT                            = Thoát \tCtrl+W
 
@@ -304,9 +329,13 @@ MENUSTR_ADD_FILE                        = Thêm tập tin \tIns
 MENUSTR_DELETE_FILE                     = Xoá tập tin \tDel
 MENUSTR_EDIT_COMMENT                    = Ghi chú
 MENUSTR_SETTING_SUB                     = Tuỳ chọn (F5)
+MENUSTR_REGISTER                        = Đăng ký Bandizip...
+MENUSTR_UNREGISTER                      = Hủy đăng ký Bandizip...
+MENUSTR_PASSMAN                         = Quản lý mật khẩu...
 MENUSTR_FIND_ITEM                       = Tìm tập tin \tCtrl+F
 MENUSTR_COPY_FILES2CLIPBOARD            = Sao chép tập tin vào clipboard\tCtrl+C
 MENUSTR_PASTE_FILESFROMCLIPBOARD        = Dán tập tin từ clipboard\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = Sao chép tên đầy đủ vào bảng ghi tạm
 
 MENUSTR_VIEW_STARTSCREEN                = Màn hình Khởi động \tF6
 MENUSTR_VIEW_TREECONTROL                = Điều khiển Xem dạng nhánh cây\tF7
@@ -321,10 +350,13 @@ MENUSTR_VIEW_LISTVIEW                   = Danh sách tập tin
 MENUSTR_VIEW_LISTVIEW_ICON              = Biểu tượng
 MENUSTR_VIEW_LISTVIEW_LIST              = Danh sách
 MENUSTR_VIEW_LISTVIEW_REPORT            = Chi tiết
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = Biểu tượng lớn
 MENUSTR_VIEW_COLUMN                     = Cột
 MENUSTR_VIEW_ALWAYS_ON_TOP              = Luôn ở trên đầu
 MENUSTR_VIEW_COLOR_SETTING              = Thiết lập Màu...
 
+MENUSTR_TOOLS_REPAIR                    = Sửa chữa tệp tin nén...
+MENUSTR_TOOLS_RECOVERY                  = Khôi phục mật khẩu...
 
 MENUSTR_ABOUT                           = Giới thiệu \tF1
 MENUSTR_HELPPAGE                        = Đến trang trợ giúp
@@ -342,6 +374,7 @@ POPUPMENU_VIEWITEM_ENCRMETHOD           = Cách mã hoá
 POPUPMENU_VIEWITEM_CRC                  = CRC
 POPUPMENU_VIEWITEM_ATTRIB               = Thuộc tính
 POPUPMENU_VIEWITEM_COMMENT              = Ghi chú
+POPUPMENU_VIEWITEM_EXT                  = Thông tin bổ sung
 
 POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Giải nén tất cả \tCtrl+E
 POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Giải nén tập tin đã chọn
@@ -389,6 +422,7 @@ POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
 POPUPMENU_CODEPAGE_AUTODETECT           = Tự động phát hiện
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Xem với Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Xem với BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Xem với chương trình liên kết
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Thu nhỏ xuống khay hệ thống
@@ -407,6 +441,10 @@ IDCANCEL                                = Huỷ
 IDD_ABOUT                               = Giới thiệu Bandizip
 IDC_BTN_HOMEPAGE                        = Trang chủ
 IDC_BTN_UPDATE                          = Cập nhật
+IDC_BTN_REGIST                          = Đăng ký ngay
+IDC_BTN_BUY                             = Mua ngay
+IDC_BTN_LEARNMORE                       = Tìm hiểu thêm...
+IDC_STATIC_LICENSE                      = Thông tin đăng ký Bandizip
 
 ;------------------------------------------------------------------------------
 [IDD_OPEN_PROGRESS]
@@ -418,8 +456,8 @@ IDC_STATIC_OPENING                      = Đang mở...
 IDD_SELECT_FOLDER                       = Chọn thư mục giải nén
 IDC_STATIC_FOLDER                       = Thư mục đích (&D)
 IDC_STATIC_FILES2EXTRACT                = Giải nén:
-IDC_RADIO_FILES2EXTRACT_0               = Tất cả tập tin (&1)
-IDC_RADIO_FILES2EXTRACT_1               = tập tin đã chọn (&2)
+IDC_RADIO_FILES2EXTRACT_0               = Tất cả tập tin (&A)
+IDC_RADIO_FILES2EXTRACT_1               = tập tin đã chọn (&S)
 IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = Giải nén vào thư mục đích trong thư mục ban đã lựa chọn.
 IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Xóa tập tin nén sau khi giải nén
 IDC_CHK_REMEMBER_SETTINGS               = Cài đặt ghi nhớ
@@ -445,6 +483,7 @@ IDC_STATIC_COMPRESSION_METHOD           = Cách nén
 IDC_STATIC_HELP_SPLIT                   = [Trợ giúp]
 IDC_STATIC_HELP_7Z                      = [Định dạng 7Z]
 IDC_BTN_SELECT_ARCHIVE_NAME             = ...
+IDC_BTN_SET_PASSWORD                    = Đặt mật khẩu... (&P)
 IDC_BTN_TEST_ARCHIVE                    = &Kiểm tra tập tin nén
 IDC_BTN_DELETE_SRC                      = Xoá tập tin sau khi nén (&E)
 IDC_BTN_ARCHIVE_AS_EACH_NAME            = Nén thành từng tập tin/thư mục
@@ -454,25 +493,68 @@ IDC_BTN_SET_SFX                         = Cài đặt E&XE
 IDC_BTN_ADD                             = Thêm (&A)
 IDC_BTN_DEL                             = Xoá (&D)
 IDC_BTN_START                           = Bắt đầu
+IDC_BTN_COMP_ADVANCED                   = Nâng cao
 
 ;------------------------------------------------------------------------------
 [IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = Cài đặt nén ZIP/ZIPX
+IDC_AA_ZIP_ALGO                         = Phương pháp nén
+IDC_AA_ZIP_ENC                          = Phương pháp mã hóa
+IDC_AA_ZIP_THREAD                       = Số lượng luồng CPU
+COMBO_TEXT_THREAD_AUTO                  = Tự động
+IDC_CHK_ZIP_STORESYMLINK                = Lưu trữ các liên kết tượng trưng
+IDC_CHK_ZIP_COMMENT                     = Lưu ý
+IDD_AA_7Z                               = Cài đặt nén 7Z
+IDC_AA_7Z_ALGO                          = Phương pháp nén
+IDC_AA_7Z_SOLID                         = Kích thước khối
+IDC_CHK_7Z_ENC_FILENAMES                = Ma hoá tên tệp
+IDD_AA_TAR                              = Cài đặt Lưu trữ TAR
+IDC_CHK_TAR_SYMLINK                     = Lưu trữ các liên kết tượng trưng
+IDC_CHK_TAR_HARDLINK                    = Giữ các liên kết cứng
+COMBO_TEXT_SOLID_NONE                   = Không chặt chẽ
+COMBO_TEXT_SOLID_SOLID                  = Chặt chẽ
 
 ;------------------------------------------------------------------------------
 [IDD_PASSWORD_INPUT]
-IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Mật khẩu không chính xác. Xin vui lòng nhập lại.
+IDD_PASSWORD_INPUT                      = Nhập mật khẩu
+IDC_STATIC_DESC_ARCHIVING               = Nhập mật khẩu cho bản lưu trữ của bạn. Đề xuất sử dụng mật khẩu có ít nhất 8 ký tự để đảm bảo an toàn tốt hơn.
+IDC_STATIC_DESC_MASTERPASS              = Nhập mật khẩu chính cho trình quản lý mật khẩu. Đề xuất sử dụng mật khẩu có ít nhất 8 ký tự để đảm bảo an toàn tốt hơn.
+IDC_STATIC_DESC_EXTRACT                 = Nhập mật khẩu cho tập tin được mã hóa.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Bạn đã nhập một mật khẩu không hợp lệ. Vui lòng nhập lại mật khẩu.
+IDC_STATIC_PWD                          = Nhập mật khẩu
+IDC_STATIC_PWD2                         = Nhập lại mật khẩu
 IDC_BTN_SHOW_PASSWORD                   = Hiện mật khẩu
+IDC_BTN_PASSMAN                         = Quản lý mật khẩu...
 IDC_CHECK_APPLY_ALL                     = Áp dụng cho tất cả (&A)
+IDC_STATIC_PASS_RECOVERY                = Quên mật khẩu? Hãy thử sử dụng Bandizip Password Recovery.
 
 ;------------------------------------------------------------------------------
 [IDD_PASSMAN]
+IDD_PASSMAN                             = Quản lý mật khẩu
+TEXT_MSG_CORRUTP_DATA                   = Mật khẩu lưu trữ đã bị hỏng
+TEXT_PASSMAN_WARNING1                   = Trừ khi mật khẩu chính được thiết lập, các mật khẩu được lưu trữ trong quản lý mật khẩu sẽ không được mã hóa.
+TEXT_PASSMAN_WARNING2                   = Cảnh báo: Bạn cần phải cẩn trọng khi sử dụng tính năng này trên máy tính công cộng hoặc máy tính được chia sẻ.
+LIST_PASS_HEADER1                       = Mật khẩu
+LIST_PASS_HEADER2                       = Tên hiển thị
+IDC_BTN_ADD                             = Thêm
+IDC_BTN_DEL                             = Xoá
+IDC_BTN_EDIT                            = Chỉnh sửa
+IDC_BTN_SET_MASTERPASS                  = Thiết lập mật khẩu chính...
+IDC_BTN_DEL_MASTERPASS                  = Gỡ bỏ mật khẩu chính
 
 ;------------------------------------------------------------------------------
 [IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Nhập mật khẩu chính
+IDC_STATIC_MASTPASS_MSG                 = Nhập mật khẩu chính để truy cập quản lý mật khẩu. "Đặt lại" để xóa tất cả thông tin mật khẩu được lưu trữ trong hệ thống.
+IDC_BTN_INITPASSMAN                     = Đặt lại
+TEXT_ASK_INIT_PASSMAN                   = Bạn chắc chắn muốn xóa tất cả thông tin mật khẩu không?
 IDC_BTN_SHOW_PASSWORD                   = Hiện mật khẩu
 
 ;------------------------------------------------------------------------------
 [IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Thông tin mật khẩu
+IDC_STATIC_PASSWORD                     = Mật khẩu
+IDC_STATIC_DISPNAME                     = Tên hiển thị (Tuỳ chọn)
 
 ;------------------------------------------------------------------------------
 [IDD_FILE_SELECT]
@@ -509,6 +591,7 @@ IDC_RADIO_HANDLE_METHOD2                = Thêm vào tập tin hiện tại (&3)
 IDC_CHK_PASS                            = Sử dụng mật khẩu
 IDC_STATIC_PASSWORD_AGAIN               = Nhập lại mật khẩu
 IDC_CHK_SHOW_PASS                       = Hiển thị mật khẩu
+IDC_CHK_DELETE_FILES                    = Xoá tập tin sau khi nén (&E)
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -524,6 +607,11 @@ IDC_CHK_SNAP                            = Sử dụng chức năng Snap
 IDC_CHK_SHOW_DOTDOT_AT_LIST             = Hiện thư mục [...] trên danh sách tập tin
 IDC_CHK_SHOW_GRID_AT_LIST               = Hiển thị đường lưới trong kiểu xem chi tiết
 IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Chọn tất cả trong danh sách
+IDC_CHK_ONE_CLICK_ACTIVATE              = Nhấp một lần để mở một mục
+IDC_STATIC_UPDATE                       = Cập nhật cài đặt
+TEXT_UPDATE_0                           = Thông báo và cài đặt phiên bản mới nhất
+TEXT_UPDATE_1                           = Thông báo và chỉ cài đặt phiên bản ổn định
+TEXT_UPDATE_2                           = Không thông báo bất kỳ cập nhật nào
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_ASSOC]
@@ -548,6 +636,9 @@ IDC_STATIC_ASSOC_LIST                   = Liên kết mở rộng
 ;IDC_STATIC_ASSOC_DESC4_10              = 3. Chọn "Đặt chương trình này làm mặc định".
 ;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Cài đặt liên kết
 ;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Phương pháp cổ điển
+LIST_COLUMN0                            = Mở rộng
+LIST_COLUMN1                            = Ứng dụng Mặc định
+IDC_BTN_CHANGE                          = Thay đổi
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_SHELL]
@@ -576,22 +667,24 @@ IDC_STATIC_SHELL_PREVIEW_SIZE           = Giới hạn tập tin xem trước:
 IDC_CHK_SHELL_PREVIEW_TREE              = Xem trước tập tin nén với cấu trúc dạng nhánh cây
 
 IDC_STATIC_SHELL_ARCHIVING              = Phương thức nén.
-IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Nén thành "Tên-Tậptin.zip""
-IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Nén thành "Tên-Tậptin.zip" và gửi mail.
-IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Nén thành "Tên-Tậptin.zipx""
-IDC_CHK_SHELL_ARCHIVING_EXE             = "Nén thành "Tên-Tậptin.exe""
-IDC_CHK_SHELL_ARCHIVING_TAR             = "Nén thành "Tên-Tậptin.tar""
-IDC_CHK_SHELL_ARCHIVING_TGZ             = "Nén thành "Tên-Tậptin.tgz""
-IDC_CHK_SHELL_ARCHIVING_LZH             = "Nén thành  "Tên-Tậptin.lzh""
-IDC_CHK_SHELL_ARCHIVING_ISO             = "Nén thành  "Tên-Tậptin.iso""
-IDC_CHK_SHELL_ARCHIVING_7Z              = "Nén thành  "Tên-Tậptin.7z""
-IDC_CHK_SHELL_ARCHIVING_GZ              = "Nén thành "Tên-Tậptin.gz""
-IDC_CHK_SHELL_ARCHIVING_XZ              = "Nén thành "Tên-Tậptin.xz""
-IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Nén thành "Tên-Tậptin.zpaq""
-IDC_CHK_SHELL_ARCHIVING_EACH            = "Nén thành "Tên-Tậptin.zip" hoặc "Tên_Thư_mục.zip""
-IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "Nén thành "Tên_Tậptin_Thưmục.7z""
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Nén thành "TênTệp.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Nén thành "TênTệp.zip" và xóa
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Nén thành "TênTệp.zip" và gửi mail.
+IDC_CHK_SHELL_ADD_TO_ZIP                = "Thêm vào "TênTệp.zip""
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Nén thành "TênTệp.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Nén thành "TênTệp.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Nén thành "TênTệp.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Nén thành "TênTệp.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Nén thành "TênTệp.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Nén thành "TênTệp.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Nén thành "TênTệp.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Nén thành "TênTệp.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Nén thành "TênTệp.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Nén thành "TênTệp.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = Nén vào mỗi "TênTệp/ThưMục.zip".
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = Nén vào mỗi "TênTệp/ThưMục.7z".
 IDC_CHK_SHELL_ARCHIVING_POPUP           = Nén bằng Bandizip
-IDC_CHK_SHELL_ARCHIVING_ADMIN           = Nén với quyền administrator
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Nén với quyền Administrator
 IDC_CHK_SHELL_ARCHIVING_RULE            = Nén với tên tập tin tùy chỉnh
 IDC_STATIC_FILENAME_RULE_HELP           = Quy ước: ${NAME}=tên tập tin, %Y=Năm, %m=Tháng, %d=Ngày, %H=Giờ, %M=Phút, %S=Giây
 
@@ -619,7 +712,9 @@ IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Giải nén đồng bộ TGZ, TBZ cả
 IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Khi sử dụng "Giải nén tự động", tạo thư mục mới khi có nhiều hơn một tập tin
 IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Tự động tìm kiếm trang mã trong trường hợp tập tin được nén trên Mac
 IDC_CHK_UNIXZIP_AS_UTF8                 = Sử dụng trang mã UTF-8 khi mở tập tin nén từ UNIX
+IDC_CHK_PARALLEL_EXT                    = Sử dụng trích xuất song song nếu có thể
 IDC_STATIC_CODEPAGE                     = Trang mã mặc định
+IDC_STATIC_MAX_MEM_USAGE                = Sử dụng bộ nhớ tối đa cho phép:
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Giải nén tất cả những loại tập tin sau (khi click kép chuột)
 
 ;------------------------------------------------------------------------------
@@ -635,6 +730,7 @@ IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Lưu thông tin thời gian NTFS khi t
 IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = "Sử dụng "Nén tốc độ cao""
 IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Không đóng trang sau khi hoàn tất nén tập tin
 IDC_STATIC_COMPRESSION_METHOD           = Cấp độ nén:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Kiểm tra bản lưu trữ sau khi nén.
 IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = "Sử dụng thư mục mới nhất để lưu "tập tin nén mới""
 IDC_RADIO_FOLDER4NEWARCHIVE_SET         = "Thư mục mặc định cho "tập tin nén mới""
 IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Duyệt...
@@ -644,6 +740,10 @@ IDC_CHK_EXCLUDE_FILTER                  = Loại trừ những tập tin dưới
 [IDD_SETTING_VIEWER]
 IDC_STATIC_VIEWER                       = Cài đặt hiển thị
 IDC_CHK_SHOW_PREVIEW                    = Xem trước ảnh
+IDC_CHK_SET_LISTCONTROL_FONT            = Thiết lập font chữ cho danh sách tệp
+IDC_BTN_SET_FONT                        = Cài đặt font chữ...
+IDC_CHK_SET_TREECONTROL_FONT            = Thiết lập font chữ cho điều khiển TreeView
+IDC_CHK_SET_COMMENTCONTROL_FONT         = Thiết lập font chữ cho ghi chú
 
 IDC_STATIC_SETTING_VIEWITEM             = Xem danh sách
 IDC_CHK_VIEWITEM_COMPSIZE               = Dung lượng nén
@@ -655,11 +755,12 @@ IDC_CHK_VIEWITEM_ENCRMETHOD             = Cách mã hoá
 IDC_CHK_VIEWITEM_CRC                    = CRC
 IDC_CHK_VIEWITEM_ATTRIB                 = Thuộc tính tập tin
 IDC_CHK_VIEWITEM_COMMENT                = Ghi chú
+IDC_CHK_VIEWITEM_EXT                    = Thông tin thêm
 
 IDC_STATIC_IMAGE_VIEWER                 = Xem ảnh
 IDC_RADIO_IMAGE_VIEWER_0                = Sử dụng chức năng xem ảnh của Bandizip
 IDC_RADIO_IMAGE_VIEWER_1                = Sử dụng chương trình khác
-IDC_RADIO_IMAGE_VIEWER_2                = Sử dụng Honeyview nếu đã cài đặt
+IDC_RADIO_IMAGE_VIEWER_2                = Sử dụng BandiView/Honeyview nếu đã cài đặt
 
 IDC_STATIC_EDITOR                       = Sử dụng chương trình Sửa ảnh
 IDC_BTN_SET_EDITOR_PATH                 = Duyệt...
@@ -674,6 +775,8 @@ IDC_STATIC_COLOR_TEXT_BLACK             = Đen
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Cài đặt bảo mật
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Kiểm tra phần mềm độc hại trước khi giải nén.
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_ETC]
@@ -693,6 +796,9 @@ IDC_CHK_USE_ELEGANT_UI                  = Sử dụng thiết kế giao diện E
 IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Hiển thị 'Màn hình khởi động' khi mở Bandizip
 IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Hiển thị đường dẫn đầy đủ ở thanh tiêu đề
 IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Xóa các tập tin được giải nén khi tiến trình giải nén bị hủy
+IDC_CHK_USE_SET_END_OF_FILE             = Phân bổ trước dung lượng đĩa cho tệp đầu ra
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Nén tệp ngay cả khi tệp được sử dụng bởi một tiến trình khác
+IDC_CHK_DO_NOT_USE_RICHEDIT             = Không sử dụng Rich Edit
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_LANG]
@@ -706,6 +812,7 @@ IDC_STATIC_TITLE                        = Tên :
 IDC_STATIC_RUN                          = Chạy sau khi giải nén :
 IDC_STATIC_MESSAGE                      = Tin nhắn :
 IDC_CHK_AUTO_CLOSE                      = Đóng trang sau khi giải nén
+IDC_CHK_RUN_AS_ADMIN                    = Chạy với quyền Administrator
 IDC_BTN_SAVE_SFX_SETTING                = Lưu cài đặt
 
 ;------------------------------------------------------------------------------
@@ -731,14 +838,46 @@ IDC_CHK_DO_NOT_ASK_AGAIN                = Không hỏi lại
 
 ;------------------------------------------------------------------------------
 [IDD_REGISTER]
+IDD_REGISTER                            = Đăng ký Bandizip
+IDC_STATIC_DESC1                        = Nhập địa chỉ email và khoá sản phẩm bạn nhận được qua email.
+IDC_STATIC_EMAIL                        = Địa chỉ email
+IDC_STATIC_PRDUCT_KEY                   = Khoá sản phẩm
+IDC_BTN_REGISTER                        = Đăng ký Ngay
+IDC_STATIC_BUYNOW                       = Chưa mua Bandizip? [Mua Ngay]
 
 ;------------------------------------------------------------------------------
 [IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Hướng dẫn cấp giấy phép Bandizip
+TEXT_LIMIT_PASSMAN                      = Chỉ có thể lưu trữ một mật khẩu trong quản lý mật khẩu trên phiên bản Bandizip Standard.
+TEXT_SHOW_AD                            = Quảng cáo xuất hiện trên phiên bản Bandizip Standard.[br]Bạn có thể mua phiên bản trả phí để loại bỏ quảng cáo.
+TEXT_CANNOT_CHANGE                      = Không thể thay đổi tính năng này trên phiên bản Bandizip Standard.[br]Bạn có thể mua phiên bản trả phí để thay đổi tính năng.
+TEXT_CANNOT_USE                         = Tính năng này không có sẵn trên phiên bản Bandizip Standard.[br]Bạn có thể mua phiên bản trả phí để sử dụng tính năng.
+TEXT_PORTABLE_NOTICE                    = Tính năng này không có sẵn trên phiên bản Bandizip Portable.[br]Bạn có thể mua phiên bản trả phí để sử dụng tính năng.
+IDC_STATIC_COMPARISON                   = So sánh giữa các phiên bản...
+IDC_STATIC_HOWTOREGISTER                = Bạn đã mua Bandizip chưa? [Cách Đăng Ký]
 
 ;------------------------------------------------------------------------------
 [IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Sửa chữa lưu trữ
+IDC_STATIC_SRC                          = Tệp cần sửa chữa
+IDC_STATIC_DST                          = Tệp đã sửa chữa
+IDC_BTN_START                           = Bắt đầu sửa chữa
+IDC_BTN_TEST                            = Kiểm tra sửa chữa
+IDC_BTN_STOP                            = Dừng
+TEXT_NOTICE                             = "Duyệt và chọn một tập tin cần sửa chữa, sau đó nhấn "Bắt đầu sửa chữa.""
+TEXT_ERR_OCCURRED                       = Đã xảy ra lỗi.
+TEXT_ERR_NOT_A_ZIP                      = Tập tin đã chọn có định dạng không được hỗ trợ. Hiện chỉ có định dạng ZIP.
+TEXT_ERR_NO_INFO                        = Tập tin đã chọn không có dữ liệu để sửa chữa.
+TEXT_MSG_START                          = Đang bắt đầu sửa chữa.
+TEXT_MSG_FINISH                         = Sửa chữa hoàn tất.
+TEXT_MSG_ANALYZING                      = Đang phân tích...
+TEXT_MSG_CANCELED                       = Hủy sửa chữa.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Chọn một tập tin (.zip) trước khi bạn bắt đầu sửa chữa.
 
 [IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = Nhiều Bandizips đã được cài đặt trên hệ thống của bạn. Vui lòng xóa một trong số chúng để tránh sự cố.
+CMD_UNINST_MSSTORE                      = Gỡ cài đặt Bandizip MSE
+CMD_UNINST_PROGFILES                    = Gỡ cài đặt Bandizip
 
 
 
@@ -753,6 +892,7 @@ $TOOLBAR_ADD_FILE                       = Thêm
 $TOOLBAR_TEST_ARCHIVE                   = Kiểm tra
 $TOOLBAR_CODEPAGE                       = Trang mã
 $TOOLBAR_VIEWITEM                       = Xem
+$TOOLBAR_SCAN                           = Quét
 
 $TOOLBAR_OPEN2                          = Mở tập tin nén
 $TOOLBAR_CREATE_ARCHIVE2                = Tập tin nén mới
@@ -768,6 +908,7 @@ $TEXT_SETTINGTAB_SHELL                  = Menu phụ
 $TEXT_SETTINGTAB_EXTRACT                = Giải nén
 $TEXT_SETTINGTAB_ARCHIVE                = Nén
 $TEXT_SETTINGTAB_VIEWER                 = Xem
+$TEXT_SETTINGTAB_SECURITY               = Bảo mật
 $TEXT_SETTINGTAB_ETC                    = Khác
 $TEXT_SETTINGTAB_LANG                   = Ngôn ngữ
 
@@ -779,12 +920,17 @@ $TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Mở Thư mục giải nén
 $TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Không đóng trang sau khi giải nén
 $TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Không đóng trang sau khi nén
 $TOOLTIP_ADVANCED_MENU                  = Cài đặt khác
+$TOOLTIP_REGISTER                       = Đăng ký Bandizip
+$TOOLTIP_UPDATE                         = Cập nhật
+$TOOLTIP_PREVIEW                        = Xem biểu tượng lớn
+$TOOLTIP_REPORT                         = Xem chi tiết
 
 $TEXT_INSTALL_START                     = Có, tôi sẽ thử nó
 $TEXT_INSTALL_CLOSE                     = Không, cảm ơn
 $TEXT_INSTALL_HONEYVIEW_LINK            = Xem thêm…
 
 $TEXT_HELP_PAGE                         = Trang trợ giúp
+$TEXT_AD                                = Quảng cáo
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -792,10 +938,82 @@ $TEXT_HELP_PAGE                         = Trang trợ giúp
 ; TEXT FOR PASSWORD RECOVERY
 ;
 [RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Khôi phục mật khẩu Bandizip
+TEXT_MSG_OPENING                        = Mở bản lưu trữ: ${str1}
+TEXT_MSG_CANCELED                       = Việc mở bản lưu trữ đã bị hủy.
+TEXT_MSG_BROKEN                         = Bản lưu trữ này đã bị hỏng.
+TEXT_MSG_NO_PASSWD                      = Bản lưu trữ này không có mật khẩu được thiết lập.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = Bản lưu trữ này có phần đầu tệp tin được mã hóa; Loại bản lưu trữ này hiện không được hỗ trợ.
+TEXT_MSG_OPEN_FIRST                     = Mở một bản lưu trữ trước khi bạn bắt đầu khôi phục.
+TEXT_MSG_CANT_OPEN                      = Không thể mở bản lưu trữ. (Mã: 0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = Chọn loại ký tự cho quá trình khôi phục.
+TEXT_MSG_INIT_FAIL                      = Khởi tạo thất bại.
+TEXT_MSG_NOT_FOUND                      = Khôi phục thất bại. Mật khẩu cần khôi phục không được vượt quá độ dài tối đa là 4 ký tự trên phiên bản Bandizip Standard.
+TEXT_MSG_FILE2FINDPWD                   = Các tệp trên sẽ được xử lý để khôi phục.
+TEXT_MSG_ERRORATFINDINDEX               = Không tìm thấy bất kỳ tệp nào để khôi phục.
+TEXT_MSG_COPY2CLIPBOARD                 = Mật khẩu đã khôi phục được sao chép vào bộ nhớ tạm.
+TEXT_STATE_MSG_READY                    = Nhấn vào BẮT ĐẦU để bắt đầu quá trình khôi phục.
+TEXT_STATE_MSG_WORKING                  = Đang khôi phục mật khẩu...
+TEXT_STATE_MSG_PAUSING                  = Tạm dừng
+TEXT_STATE_MSG_STOPPING                 = Đang hủy...
+TEXT_STATE_MSG_FOUND                    = Mật khẩu gồm ${num1} ký tự đã được khôi phục trong ${str1} giây. (${str2})
+TEXT_ASK_EXIT                           = Bạn có chắc chắn muốn thoát không?
+TEXT_COMBO_THREAD_AUTO                  = Tự động
 
 [IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = Cài đặt
+IDC_STATIC_MULTI_CORE                   = Xử lý đa lõi
+IDC_STATIC_MULTI_CORE_DESC              = Chỉ định số luồng được sử dụng cho việc khôi phục.[br]Đề xuất chọn "Tự động" hoặc một số nhỏ hơn số lõi CPU được cài đặt trên hệ thống của bạn.
+IDC_STATIC_PREP_POSTP                   = Tiền tố
+IDC_STATIC_PREP                         = Tiền tố
+IDC_STATIC_PREP_DESC                    = Thêm tiền tố vào đầu mật khẩu trước khi xử lý chúng.[br]ví dụ http://www.
+IDC_STATIC_SPECIFY                      = Ký tự đặc biệt
+IDC_STATIC_ETC                          = Hỗn hợp
+IDC_CHK_USE_SIGNATURE_BY_EXT            = Sử dụng phần mở rộng của tệp để tăng tốc quá trình khôi phục.
 
 [RECOVERY_SKIN]
+$STEP_1                                 = Mở
+$STEP_2                                 = Kiểm tra
+$STEP_3                                 = Cài đặt
+$STEP_4                                 = Khôi phục
+$STEP_5                                 = Hoàn tất
+$FILE_PATH_NAME                         = Vị trí
+$BTN_NEXT_PAGE                          = Tiếp theo >
+$BTN_PREV_PAGE                          = < Quay lại
+$BTN_OK                                 = Đồng ý
+$BUTTON_BUY_NOW                         = Mua phiên bản Bandizip Professional
+$STATIC_OPEN_DESC                       = Nhấp vào "Mở Bản lưu trữ" để duyệt và chọn một bản lưu trữ được mã hóa.<br>Bạn cũng có thể kéo và thả bản lưu trữ trực tiếp vào hộp thoại này.
+$STATIC_PRICE_DESC1                     = Hướng dẫn cấp giấy phép Bandizip
+$STATIC_PRICE_DESC2                     = Chức năng khôi phục mật khẩu chỉ có sẵn trên phiên bản Bandizip Professional. Mật khẩu cần khôi phục không thể vượt quá độ dài tối đa là 4 ký tự trên phiên bản Bandizip Standard.
+$STATIC_FILELIST_DESC                   = Các tập tin sau được chứa trong bản ghi này. Kiểm tra chúng và nhấn Tiếp theo.
+$FILELIST_HEADER_NAME                   = Tên
+$FILELIST_HEADER_SIZE                   = Kích thước
+$FILELIST_HEADER_DATE                   = Ngày sửa đổi
+$FILELIST_HEADER_METHOD                 = Phương pháp nén
+$FILELIST_HEADER_PWMETHOD               = Phương pháp mã hóa
+$STATIC_SYMBOL_DESC                     = Chỉ định các loại ký tự được sử dụng trong mật khẩu dự kiến.<br>Nếu bạn chọn nhiều hoặc tất cả các loại, điều này làm cho việc khôi phục mất thời gian hơn.
+$STATIC_CUR_PASSWORD                    = Đang xử lý
+$STATIC_CUR_PASSLEN                     = Độ dài
+$STATIC_ELAPSED                         = Thời gian đã trôi qua
+$STATIC_SPEED                           = Tốc độ xử lý
+$STATIC_CLIPBOARD_DESC                  = Sao chép mật khẩu đã khôi phục vào bộ nhớ tạm và dán nó.
+$BUTTON_STOP                            = Hủy
+$BUTTON_START                           = BẮT ĐẦU
+$IDC_BTN_PAUSE                          = Tạm dừng
+$IDC_BTN_UNPAUSE                        = Khởi động lại
+$IDC_BTN_OPEN                           = Mở
+$IDC_BTN_SETTING                        = Nâng cao
+$IDC_BTN_COPY2CLIPBOARD                 = Sao chép
+$IDC_BTN_CANCEL_PAYMENT                 = Khởi tạo
+$BUTTON_HELP_PAGE                       = Trợ giúp về thời gian ước lượng
+$CHECK_SYMBOL_NUM                       = Chữ số (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = Chữ thường (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = Chữ hoa (ABCD...Z)
+$CHECK_SYMBOL_SYMBOL                    = Ký tự đặc biệt (!@#$...)
+$CHECK_SYMBOL_SPACE                     = Khoảng trắng
+$CHECK_SYMBOL_ALL                       = Tất cả
+$CHECK_SYMBOL_SPECIFIED                 = Các ký tự đã chỉ định
+$FOUNDED_PASSWORD                       = Mật khẩu đã khôi phục là...
 
 
 
@@ -816,7 +1034,9 @@ TEXT_MENU_LAUNCH_CMD_ADMIN              = Mở trang cmd (Admin)
 TEXT_MENU_ARCHIVE_EACHNAME              = Nén thành từng tên tập tin/Thư mục (&U)
 TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Nén thành mỗi tập tin/Thư mục.7z""
 TEXT_MENU_ARCHIVE_ZIP                   = Nén thành ${str1}(&Z)
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Nén thành "${str1}" và xóa
 TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Nén thành ${str1} và gửi thư (&I)
+TEXT_MENU_ADD_TO_ZIP                    = "Thêm vào "${str1}""
 TEXT_MENU_ARCHIVE_ZIPX                  = Nén thành ${str1}
 TEXT_MENU_ARCHIVE_EXE                   = "Nén thành "${str1}""
 TEXT_MENU_ARCHIVE_TAR                   = Nén thành ${str1}
@@ -870,6 +1090,7 @@ TEXT_UPDATER_BTN_OK                     = OK
 TEXT_UPDATER_BTN_CANCEL                 = Huỷ
 TEXT_UPDATER_DOWNLOAD_ERROR             = Tải tập tin bị lỗi
 TEXT_UPDATER_SETTING_UPDATE             = Cài đặt
+TEXT_UPDATER_SETTING_SKIPTHIS           = Bỏ qua phiên bản này
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
@@ -911,17 +1132,38 @@ TEXT_ERR_INVALID_PASSWD                 = Sai mật khẩu
 
 $BTN_HELP_LINK                          = [Trợ giúp]
 
+$TEXT_INST_COMPLETED                    = Cài đặt hoàn tất
+$TEXT_INST_FAILED                       = Cài đặt thất bại
+$TEXT_UNINSTALLING                      = Đang gỡ bỏ...
+
+$EMAIL                                  = Địa chỉ email
+$PRODUCT_KEY                            = Khóa sản phẩm
 
 
-
+MSG_DLL_REGISTERING                     = Đang đăng ký tiện ích mở rộng Explorer...
+MSG_DLL_UNREGISTERING                   = Đang hủy đăng ký tiện ích mở rộng Explorer...
+MSG_ERROR                               = Đã xảy ra lỗi.
+MSG_ERROR_REGISTER                      = Đăng ký thất bại.
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip vẫn đang chạy. Hãy đóng chương trình.
 MSG_XP_IS_NOT_SUPPORTED                 = Phần mềm này sẽ hoạt động ổn định trên Windows Vista và các bản về sau.
 MSG_NEED_ADMIN_PRIVILEGE                = Phần mềm này chỉ có thể được cài đặt bởi 1 người dùng có quyền admin.[br][br]Người dùng Phi admin có thể không cài ổn định phần mềm.[br][br]Bạn có muốn dừng cài đặt?
+MSG_NEWVERSION_FOUND                    = Một phiên bản mới hiện đang có sẵn. Bạn có muốn tải xuống ngay bây giờ không?
+SHORTCUT_LINK_DESCRIPTOIN               = Khởi chạy ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = Phiên bản cài đặt này không hỗ trợ hệ điều hành 32-bit (x86). Vui lòng tải xuống một tập tin cài đặt mới trên trang web.
+MSG_ERR_ARM_NOTSUPPORT                  = Phiên bản cài đặt này không hỗ trợ ARM64 CPU. Vui lòng tải xuống một tập tin cài đặt mới trên trang web.
+ERR_INST_FAILED                         = Cài đặt thất bại. Vui lòng khởi động lại máy tính của bạn và thử lại.
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup
 ;
 [ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = Kiểm tra cập nhật không thành công. Vui lòng tải tệp cài đặt ngoại tuyến.
+TEXT_VERSION_CHECKING                   = Kiểm tra cập nhật...
+TEXT_DOWNLOAD_FAILED                    = Tải xuống không thành công. Vui lòng tải tệp cài đặt ngoại tuyến.
+TEXT_DOWNLOAD_COMPLETED                 = Tải xuống hoàn tất
+TEXT_HOMEPAGE                           = [Mở Trang Web]
+TEXT_XP                                 = Hỗ trợ Windows XP đã kết thúc.
 
 [IDD_TOOLBAR_SETTINGS]
 

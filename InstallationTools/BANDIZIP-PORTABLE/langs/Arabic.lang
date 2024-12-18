@@ -415,6 +415,7 @@ POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
 POPUPMENU_CODEPAGE_AUTODETECT           = كشف تلقائي
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = عرض باستخدام Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = عرض باستخدام BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = عرض مع البرنامج المرتبطة بها
 
 DLG_MENUSTR_MINIMIZE2TRAY               = التصغير إلى درج النظام
@@ -576,6 +577,7 @@ IDC_RADIO_HANDLE_METHOD2                = &اضافة الملفات الى ال
 IDC_CHK_PASS                            = استخدام كلمة مرور
 IDC_STATIC_PASSWORD_AGAIN               = إعادة إدخال كلمة المرور
 IDC_CHK_SHOW_PASS                       = عرض كلمة المرور
+IDC_CHK_DELETE_FILES                    = حذف الملفات بعد الأرشفة
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -734,7 +736,7 @@ IDC_CHK_VIEWITEM_EXT                    = معلومة اضافية
 IDC_STATIC_IMAGE_VIEWER                 = عارض الصور
 IDC_RADIO_IMAGE_VIEWER_0                = استخدم عارض الصور الداخلي
 IDC_RADIO_IMAGE_VIEWER_1                = استخدام البرنامج المرتبط
-IDC_RADIO_IMAGE_VIEWER_2                = استخدام Honeyview إذا تم تثبيته
+IDC_RADIO_IMAGE_VIEWER_2                = استخدام BandiView/Honeyview إذا تم تثبيته
 
 IDC_STATIC_EDITOR                       = محرر
 IDC_BTN_SET_EDITOR_PATH                 = استعراض...
@@ -1089,6 +1091,8 @@ MSG_XP_IS_NOT_SUPPORTED                 = هذا البرنامج لا يعمل 
 MSG_NEED_ADMIN_PRIVILEGE                = يمكن تثبيت هذا البرنامج فقط بواسطة مستخدم لديه امتيازات المسؤول.[br] [br] قد لا يقوم المستخدمون غير الاداريين بتثبيت البرنامج بشكل صحيح.[br] [br] هل تريد ايقاف التثبيت ؟
 MSG_NEWVERSION_FOUND                    = يتوفر حاليا اصدار جديد. هل ترغب في تنزيله الان ؟
 SHORTCUT_LINK_DESCRIPTOIN               = بدأ ${APPNAME}
+$IDC_STATIC_BUYNOW                      = لم تشترى Bandizip بعد؟ [b]اشتري الآن[/b]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

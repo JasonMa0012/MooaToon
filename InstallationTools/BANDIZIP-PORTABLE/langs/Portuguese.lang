@@ -424,6 +424,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Detetar automaticamente
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Ver com o Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Ver com o BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Ver com o programa por defeito
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimizar para a Barra de Tarefas
@@ -591,6 +592,7 @@ IDC_RADIO_HANDLE_METHOD2                = Adicionar ficheiros à compressão atu
 IDC_CHK_PASS                            = Usar password
 IDC_STATIC_PASSWORD_AGAIN               = Reintroduzir password
 IDC_CHK_SHOW_PASS                       = Mostrar password
+IDC_CHK_DELETE_FILES                    = Remover ficheiros após compressão
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -758,7 +760,7 @@ IDC_CHK_VIEWITEM_EXT                    = Informação adicional
 IDC_STATIC_IMAGE_VIEWER                 = Visualizador de imagem
 IDC_RADIO_IMAGE_VIEWER_0                = Utilizar visualizador interno de imagem
 IDC_RADIO_IMAGE_VIEWER_1                = Utilizar programa associado
-IDC_RADIO_IMAGE_VIEWER_2                = Utilizar Honeyview se instalado
+IDC_RADIO_IMAGE_VIEWER_2                = Utilizar BandiView/Honeyview se instalado
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Selecionar...
@@ -1170,6 +1172,7 @@ SHORTCUT_LINK_DESCRIPTOIN               = Iniciar ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = O ficheiro de instalação não suporta sistemas operativos de 32 bits (x86).
 MSG_ERR_ARM_NOTSUPPORT                  = O instalador não suporta sistemas ARM64.
 ERR_INST_FAILED                         = A instalação falhou. Por favor reinicie o computador e tente novamente.
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

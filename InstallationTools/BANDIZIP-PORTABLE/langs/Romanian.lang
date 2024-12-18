@@ -32,13 +32,13 @@ TEXT_APP_DESC                           = Bandizip este un arhivator complet Zip
 TEXT_MESSAGEBOX_OK                      = OK
 TEXT_MESSAGEBOX_CANCEL                  = Anulare
 TEXT_MESSAGEBOX_ABORT                   = Abandonare
-TEXT_MESSAGEBOX_RETRY                   = Repetare
+TEXT_MESSAGEBOX_RETRY                   = Reluare
 TEXT_MESSAGEBOX_IGNORE                  = Ignorare
 TEXT_MESSAGEBOX_YES                     = Da
 TEXT_MESSAGEBOX_NO                      = Nu
 TEXT_MESSAGEBOX_CONTINUE                = Continuare
 TEXT_MESSAGEBOX_HELP                    = Ajutor
-TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Nu mai afișa
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Nu mai afișa asta
 
 TEXT_COLUMN_NAME                        = Nume
 TEXT_COLUMN_COMPSIZE                    = Comprimat
@@ -94,9 +94,9 @@ TEXT_OPENERR_PASSWORD_NOT_SET           = Introdu parola
 TEXT_OPENERR_INVALID_PASSWORD           = Parolă incorectă
 TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Imposibilă deschiderea fişierului, având antetul corupt
 
-TEXT_ERR_INIT_FAILED                    = Iniţializare ratată.
+TEXT_ERR_INIT_FAILED                    = Inițializare ratată.
 TEXT_ERR_NOFILE_OR_INVALIDPASS          = Parolă incorectă sau niciun fișier în arhivă.
-TEXT_ERR_PASSOWRD_NOT_MATCH             = Parola nu se potriveşte
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Parola nu se potrivește
 TEXT_ERR_PASSWORD_NOT_SET               = Parolă necesară.
 TEXT_ERR_INVALID_PASSWORD_CHAR          = Parola conține caractere nevalabile. Inserează caractere literale/numerice/simbolice
 TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Mărime invalidă a fişierului secţionat.
@@ -120,8 +120,10 @@ TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Imposibilă adăugarea fişierului ptr
 TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Imposibilă deschiderea arhivei [br] - ${str1}
 TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Dosar deja existent
 TEXT_ERR_FILENAME_EMPTY                 = Nume incorect al fişierului.
-TEXT_ERR_AT_DRAGANDDROP                 = „Trage și Lasă” ratat
-TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = „Trage și Lasă” ratat. [br]Bandizip tocmai a oprit funcția „Trage și Lasă Rapid”. Te rog, mai încearcă.
+TEXT_ERR_AT_DRAGANDDROP                 = Funcția „Trage-și-Lasă” eșuată.
+TEXT_ERR_AT_DRAGANDDROP_MULTI           = Funcția „Trage-și-Lasă” rulează deja.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Vrei să dezactivezi „Trage-și-Lasă” și să încerci din nou?
+TEXT_ERR_AT_DRAGANDDROP_FASTDND_OFF_ASK = Funcția „Trage-și-Lasă” eșuată.[br]Vrei s-o dezactivezi și să încerci din nou?
 TEXT_ERR_AT_CANT_OPEN_MMF               = Imposibilă deschiderea MMF (mmf:${str1})
 TEXT_ERR_NO_FILES_SELECTED              = Niciun fişier selectat
 TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Imposibil de creat dosar pentru instalare Pachet de Pictograme.
@@ -131,7 +133,7 @@ TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Imposibil de creat un fişier mai mare
 TEXT_ERR_CANT_SAVE_AS                   = Imposibil de salvat acest fișier.
 TEXT_ERR_ERROR_AT_EDIT                  = Bandizip are o problemă la editarea fişierului.(${str1})[br][br]Trimiți un raport al erorii către Bandisoft?[br][br]Prezentarea acestui raport ajută ca Bandizip să fie îmbunătăţit.
 
-TEXT_MSG_TEST_OK                        = Arhiva nu conţine erori în timpul testării.
+TEXT_MSG_TEST_OK                        = Testarea arhivei nu a înregistrat erori
 TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Extragere ratată. [br](${str1})
 TEXT_MSG_EXTRACT_SUCCESS                = Extragere reuşită.
 TEXT_MSG_EXTRACT_CANCELED               = Extragere anulată.
@@ -149,9 +151,9 @@ TEXT_MSG_NOTICE_RESTART                 = Programul se va restarta.
 TEXT_MSG_ARCHVIE_OPENING                = Deschiderea arhivei.
 TEXT_MSG_COMPLETING                     = Completat: ${num1}%
 TEXT_MSG_CANT_CREATE_FOLDER             = Imposibilă crearea unui dosar.[br] - ${str1}
-TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = De necomprimat un dosar într-o arhivă *.GZ/XZ.
-TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = De necomprimat fișiere multiple într-o arhivă *.GZ/XZ. Bifează opțiunea „Compr. cu numele fiecărui fișier/dosar”.
-TEXT_MSG_TRAY_MINIMIZED                 = Bandizip s-a minimizat în tăvița de sistem. Pentru restabilire, click pe pictograma din tăviță.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Imposibilă comprimarea unui dosar într-o arhivă *.GZ/XZ.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Imposibilă comprimarea unui dosar într-o arhivă *.GZ/XZ.[br]Bifează opțiunea „Compr. cu numele fiecărui fișier/dosar”.
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip s-a minimizat în tăvița de sistem.[br]Pentru restabilire, click pe pictograma din tăviță.
 TEXT_MSG_TRAY_COMPLETED                 = Operațiunea s-a efectuat.
 TEXT_MSG_BATCH_ARCHVING                 = Arhivare: ${str1}
 TEXT_MSG_BATCH_EXTRACTING               = Extragere: ${str1}
@@ -161,6 +163,7 @@ TEXT_MSG_BATCH_DEL_FAILED               = - Ștergere ratată: ${str1}
 TEXT_MSG_WORK_IN_PROGRESS               = Operațiune în derulare...
 
 TEXT_NOTICE_AUTODETECTCODEPAGE          = Dacă afişarea caracterelor nu e corectă, click pe <font color=red><b>Codare</b></font> de mai sus şi apoi încearcă <font color=red><b>Auto detect</b></font>menu.
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = Vrei să deschizi fișierele ${ext} cu Bandizip?
 
 TEXT_ASK_DELETE_ARCHIVE                 = Fişierul original va fi şters.[br]Ştergi acest fişier?
 TEXT_ASK_DELETE_CUR_ARCHIVE             = Ştergi arhiva curentă?
@@ -234,6 +237,8 @@ TEXT_ARKERR_CANT_READ_FILE              = Imposibilă citirea fișierului.
 TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Rulează Bandizip ca Administrator ca să creezi o conexiune simbolică.
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = Imposibil de creat o conexiune simbolică.
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Fișierul este inscriptibil și este utilizat de un alt proces.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Niciun fișier pentru arhivare.
+TEXT_ARKERR_DICT_SIZE_OVER              = Este nevoie de mai multă memorie pentru dezarhivare.[br]Măriți în Setări valoarea permisă a memoriei utilizate.
 
 TEXT_SPLITCOMBO_NOSPLIT                 = Nicio secţionare
 TEXT_SPLITCOMBO_3MB                     = 3MB
@@ -277,28 +282,33 @@ TEXT_UPDATE_DOWNLOAD_COMPLETED          = Descărcare realizată
 TEXT_INSTALL_HONEYVIEW                  = Instalează Honeyview
 TEXT_INSTALL_HONEYVIEW_1                = Honeyview nu este instalat pe calculator.
 TEXT_INSTALL_HONEYVIEW_2                = Încearcă Honeyview dezvoltat de Bandisoft.<br> Permite vizualizarea imaginilor comprimate în fișiere ZIP, RAR sau 7z fără extracție.
+TEXT_INSTALL_BANDIVIEW                  = Instalare BandiView
+TEXT_INSTALL_BANDIVIEW_1                = BandiView nu este instalat pe acest calculator.
+TEXT_INSTALL_BANDIVIEW_2                = Încercați BandiView dezvoltat de Bandisoft.<br> Vizualizați imaginile comprimate în arhive ZIP, RAR sau 7Z fără extragerea fișierelor.
 
 TEXT_REGISTRATION_FAILED                = Înregistrare ratată.[br]Verifică-ți adresa de email și codul produsului.
 TEXT_REGISTRATION_SUCCEED               = Bandizip a fost înregistrat.
 TEXT_REGISTRATION_ASK                   = Sigur dorești ca Bandizip să fie neînregistrat?
 TEXT_REGISTER_NOT_REGISTERED            = Bandizip nu este înregistrat.[br]Pentru a folosi Bandizip fără nicio restricție, te rugăm să-l cumperi și să-l înregistrezi.
-TEXT_REGISTER_INFO                      = Următorul utilizator a înregistrat Bandizip:[br]Adresă Email: ${str1}[br]Codul Produsului: ${str2}
+TEXT_REGISTER_INFO                      = Bandizip este înregistrat cu:[br]Adresa de email: ${str1}[br]Codul produsului: ${str2}
 
 TEXT_TITLE_SCAN_MODE                    = Scanare antimalware a arhivei
 TEXT_SCAN_AMSI_PROVIDER                 = Inițierea AMSI reușită
+TEXT_SCAN_COMPLETED                     = Scanarea malware a fost finalizată.
 TEXT_SCAN_MALWARE_DETECTED              = Malware detectat.
 TEXT_SCAN_MALWARE_NOTDETECTED           = Niciun malware detectat.
 TEXT_SCAN_MALWARE_TOOBIG                = Scanare ratată. Fișierul este prea mare.
 TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = Malware detectat în arhivă.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= S-a detectat malware în arhivă.[br]Extragerea a fost anulată.
 TEXT_MSG_MALWARE_TEST_OK                = Niciun malware detectat în arhivă.
 TEXT_MSG_AMSI_INIT_FAILED               = Inițierea AMSI pentru scanare ratată. Pentru detalii, vizitează https://go.bandisoft.com/amsi.
-TEXT_MSG_AMSI_WIN10_NOTICE              = Scanarea antimalware e valabilă doar pe Windows 10. Pentru detalii, vizitează https://go.bandisoft.com/amsi.
+TEXT_MSG_AMSI_WIN10_NOTICE              = Scanarea antimalware e valabilă doar pe Windows 10/11. Pentru detalii, vizitează https://go.bandisoft.com/amsi.
 
 [MENU]
 MENUSTR_FILE                            = &Fişier
 MENUSTR_EDIT                            = &Editare
 MENUSTR_SETTING                         = &Opţiuni
-MENUSTR_FIND                            = G&ăsire
+MENUSTR_FIND                            = L&ocalizare
 MENUSTR_VIEW                            = &Vizualizare
 MENUSTR_TOOLS                           = &Unelte
 MENUSTR_HELP                            = &Ajutor
@@ -325,10 +335,11 @@ MENUSTR_EDIT_COMMENT                    = Comentarii arhivă
 MENUSTR_SETTING_SUB                     = &Setări (F5)
 MENUSTR_REGISTER                        = Înregistrare Bandizip...
 MENUSTR_UNREGISTER                      = Neînregistrare Bandizip...
-MENUSTR_PASSMAN                         = Manager parole...
-MENUSTR_FIND_ITEM                       = G&ăsire fişiere\tCtrl+F
+MENUSTR_PASSMAN                         = Manager de parole...
+MENUSTR_FIND_ITEM                       = L&ocalizare fişiere\tCtrl+F
 MENUSTR_COPY_FILES2CLIPBOARD            = Copiază fișierele în clipboard\tCtrl+C
 MENUSTR_PASTE_FILESFROMCLIPBOARD        = Lipește fișierele din clipboard\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = Copiază numele complet în clipboard
 
 MENUSTR_VIEW_STARTSCREEN                = Start Ecran \tF6
 MENUSTR_VIEW_TREECONTROL                = Control Vizualizare arbore \tF7
@@ -340,6 +351,7 @@ MENUSTR_VIEW_TOOLBAR_NORMAL             = Mare
 MENUSTR_VIEW_TOOLBAR_MINI               = Mică
 MENUSTR_VIEW_TOOLBAR_OLD                = Veche
 MENUSTR_VIEW_TOOLBAR_HIDE               = Ascunsă
+MENUSTR_SET_TOOLBAR_ITEM                = Selectează uneltele din bară
 MENUSTR_VIEW_LISTVIEW                   = Listă fișiere
 MENUSTR_VIEW_LISTVIEW_ICON              = Pictograme
 MENUSTR_VIEW_LISTVIEW_LIST              = Listă
@@ -389,17 +401,17 @@ POPUPMENU_LISTCONTROL_MOVE2PARENT       = Mută în dosarul superior\tBackspace
 POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Şterge arhiva
 POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Deschide dosarul arhivă
 
-POPUPMENU_EXTRACT_AUTODEST              = Extrage aici (Inteligent)\tCtrl+Shift+S
+POPUPMENU_EXTRACT_AUTODEST              = Extrage inteligent aici\tCtrl+Shift+S
 POPUPMENU_EXTRACT_CURRENT               = Extrage în dosarul prezent\tCtrl+Shift+C
 POPUPMENU_EXTRACT_ARCHIVENAME           = Extrage în dosarul cu numele arhivei
 POPUPMENU_EXTRACT_DESKTOP               = Extrage în Desktop
-POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Extrage în Desktop (Inteligent)
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Extrage inteligent în Desktop
 
 POPUPMENU_RECENT_CLEAR                  = Şterge istoricul
 POPUPMENU_RECENT_NOITEM                 = Niciun fişier recent
 
 POPUPMENU_SHELLOPEN_OPENARCHIVE         = Deschide cu Bandizip
-POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Extrage aici (Inteligent)
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Extrage inteligent aici
 
 POPUPMENU_CODEPAGE_DEFAULT              = Implicit
 POPUPMENU_CODEPAGE_SIMPCHINESE          = Chineză simplificată
@@ -419,6 +431,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Auto-detectare
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Vizualizare cu Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Vizualizare cu BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Vizualizare cu program asociat
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimizare în tăviță.
@@ -439,6 +452,7 @@ IDC_BTN_HOMEPAGE                        = Website
 IDC_BTN_UPDATE                          = Actualizări
 IDC_BTN_REGIST                          = Înregistrează acum
 IDC_BTN_BUY                             = Cumpără acum
+IDC_BTN_LEARNMORE                       = Află mai multe...
 IDC_STATIC_LICENSE                      = Informații despre înregistrare Bandizip
 
 ;------------------------------------------------------------------------------
@@ -453,8 +467,8 @@ IDC_STATIC_FOLDER                       = &Destinaţia
 IDC_STATIC_FILES2EXTRACT                = Extrage:
 IDC_RADIO_FILES2EXTRACT_0               = &Toate fişierele
 IDC_RADIO_FILES2EXTRACT_1               = &Fişierele selectate
-IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Extragere în dosarul de destinaţie al subdirectorului selectat
-IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Ște&rgerea arhivei după extragere
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Extrage în dosarul de destinaţie al subdirectorului selectat
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Ște&rge arhiva după extragere
 IDC_CHK_REMEMBER_SETTINGS               = &Memorează setările
 IDC_BTN_NEWFOLDER                       = &Dosar nou
 
@@ -477,7 +491,7 @@ IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Secţionare fişier
 IDC_STATIC_COMPRESSION_METHOD           = Nivelul compresiei
 IDC_STATIC_HELP_SPLIT                   = [Ajutor]
 IDC_STATIC_HELP_7Z                      = [Format 7Z]
-IDC_BTN_SELECT_ARCHIVE_NAME             = &Caută...
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Localizează...
 IDC_BTN_SET_PASSWORD                    = Alege &parola...
 IDC_BTN_TEST_ARCHIVE                    = &Testează arhiva
 IDC_BTN_DELETE_SRC                      = Şterge fişierele după arhivare
@@ -497,9 +511,15 @@ IDC_AA_ZIP_ALGO                         = Metoda compresiei
 IDC_AA_ZIP_ENC                          = Metoda criptării
 IDC_AA_ZIP_THREAD                       = Numărul de CPU threads
 COMBO_TEXT_THREAD_AUTO                  = Auto
+IDC_CHK_ZIP_STORESYMLINK                = Stocare link-uri simbolice
+IDC_CHK_ZIP_COMMENT                     = Stocare comentarii
 IDD_AA_7Z                               = Setările compresiei 7Z
 IDC_AA_7Z_ALGO                          = Metoda compresiei
 IDC_AA_7Z_SOLID                         = Mărimea blocului solid
+IDC_CHK_7Z_ENC_FILENAMES                = Criptare nume de fișier
+IDD_AA_TAR                              = Setări arhivare TAR
+IDC_CHK_TAR_SYMLINK                     = Stocare link-uri simbolice
+IDC_CHK_TAR_HARDLINK                    = Stocare link-uri fizice
 COMBO_TEXT_SOLID_NONE                   = Non-solid
 COMBO_TEXT_SOLID_SOLID                  = Solid
 
@@ -580,6 +600,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Adăugă fişiere la arhiva prezentă
 IDC_CHK_PASS                            = Foloseşte parola
 IDC_STATIC_PASSWORD_AGAIN               = Reintrodu parola
 IDC_CHK_SHOW_PASS                       = Arată parola
+IDC_CHK_DELETE_FILES                    = Şterge fişierele după arhivare
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -609,7 +630,7 @@ IDC_BTN_SELECT_ALL                      = Selectează tot
 IDC_BTN_CLEAR_ALL                       = Deselectează tot
 IDC_BTN_APPLY_NOW                       = Aplică acum
 IDC_STATIC_ICON_PACK                    = Alege Pachet Pictograme:
-IDC_STATIC_ICON_PACK_HOMEPAGE           = [Descarcă Pachett Pictograme]
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Descarcă Pachet Pictograme]
 IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows - Setează programele implicite
 
 ;------------------------------------------------------------------------------
@@ -625,24 +646,27 @@ IDC_STATIC_ASSOC_LIST                   = Asocierea extensiei
 ;IDC_STATIC_ASSOC_DESC4_10              = 3. Clic „Setează acest program ca implicit”.
 ;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Setările asocierii
 ;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Metoda clasică
+LIST_COLUMN0                            = Extensie
+LIST_COLUMN1                            = Aplicație predefinită
+IDC_BTN_CHANGE                          = Schimbare
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_SHELL]
 IDC_STATIC_SHELL_OPEN                   = Acţiune cu dublu-clic
-IDC_RADIO_SHELL_OPEN_0                  = Deschidere cu Bandizip
-IDC_RADIO_SHELL_OPEN_1                  = Extragere automată (Inteligent)
-IDC_RADIO_SHELL_OPEN_2                  = Arătarea meniului contextual
-IDC_RADIO_SHELL_OPEN_3                  = Extragere automată în dosarul stabilit (Inteligent)
-IDC_BTN_SET_EXTRACT_FOLDER              = Căutare...
-IDC_RADIO_SHELL_OPEN_4                  = Extragere în dosarul cu numele arhivei
-IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Ștergerea prin dublu-clic a arhivei după extragere
+IDC_RADIO_SHELL_OPEN_0                  = Deschide cu Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Extrage inteligent aici
+IDC_RADIO_SHELL_OPEN_2                  = Arată meniul contextual
+IDC_RADIO_SHELL_OPEN_3                  = Extrage inteligent în dosarul stabilit
+IDC_BTN_SET_EXTRACT_FOLDER              = Localizează...
+IDC_RADIO_SHELL_OPEN_4                  = Extrage în dosarul cu numele arhivei
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Șterge cu dublu-clic arhiva după extragere
 
 IDC_STATIC_SHELL_EXTRACT                = Meniul extragerii
 IDC_CHK_SHELL_EXTRACT_HERE              = Extrage aici
-IDC_CHK_SHELL_EXTRACT_AUTO              = Extrage aici (Inteligent)
+IDC_CHK_SHELL_EXTRACT_AUTO              = Extrage inteligent aici
 IDC_CHK_SHELL_EXTRACT_SUB               = Extrage în dosarul cu „Numele-Arhivei”
 IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Extrage aici și șterge
-IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extrage aici (Inteligent) și șterge
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Extrage inteligent aici și șterge
 IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Extrage în dosarul cu „Numele-Arhivei” și șterge
 IDC_CHK_SHELL_EXTRACT_DLG               = Extrage în alt dosar...
 IDC_CHK_SHELL_EXTRACT_ADMIN             = Extrage ca administrator
@@ -656,6 +680,7 @@ IDC_STATIC_SHELL_ARCHIVING              = Meniul compresiei
 IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = Compresie cu „NumeFişier.zip”
 IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Compresie cu „NumeFişier.zip” și ștergere
 IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Compresie cu „NumeFişier.zip” şi trimitere email
+IDC_CHK_SHELL_ADD_TO_ZIP                = Adaugă la „NumeFișier.zip”
 IDC_CHK_SHELL_ARCHIVING_ZIPX            = Compresie cu „NumeFişier.zipx”
 IDC_CHK_SHELL_ARCHIVING_EXE             = Compresie cu „NumeFişier.exe”
 IDC_CHK_SHELL_ARCHIVING_TAR             = Compresie cu „NumeFişier.tar”
@@ -684,7 +709,7 @@ IDC_CHK_SHELL_HIDE_ICON                 = Ascunderea pictogramei Bandizip
 IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Recunoaşterea contextuală a fişierului arhivat
 IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Arătarea meniului, inclusiv a fişierelor arhivate
 IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Folosirea numelui fişierului/dosarului selectat cu mouse-ul la alegerea fișierelor/dosarelor multiple
-IDC_CHK_SHELL_USE_DROP_HANDLER          = Adăugare de fișiere direct într-o arhivă ZIP cu „Trage și Lasă” în Explorer
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Adăugare de fișiere direct într-o arhivă ZIP cu „Trage-și-Lasă” în Explorer
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_EXTRACT]
@@ -692,12 +717,13 @@ IDC_STATIC_EXTRACT                      = Setările extragerii
 IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Arată fişierele din dosar, doar dacă există rădăcina dosarului în arhivă
 IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Deschide dosarul după extragere
 IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Nu închide fereastra arhivării după extragere
-IDC_CHK_FAST_DRAG_DROP                  = Foloseşte „Trage și Lasă Rapid”, dacă extragerea fişierului e mare
+IDC_CHK_FAST_DRAG_DROP                  = „Trage și Lasă Rapid” pentru extragerea fişierului mare
 IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Deschide și extrage deodată fişiere tip TGZ, TBZ
 IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Chiar şi pentru fişiere mari tip TGZ, TBZ
-IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Când se folosește „Extrage aici (Inteligent)”, extrage în dosar nou, chiar dacă nu există fișier arhivat
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = Când se folosește „Extrage inteligent aici”,[br]extrage în dosar nou, chiar în lipsa fișierului arhivat
 IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Detectează automat pagina cu codul Macintosh
 IDC_CHK_UNIXZIP_AS_UTF8                 = La deschiderea unui fişier tip zip de la UNIX, se foloseşte codarea UTF-8
+IDC_CHK_PARALLEL_EXT                    = Extragere în paralel, dacă este posibil
 IDC_STATIC_CODEPAGE                     = Codare implicită
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Execută cu dublu-click următoarele tipuri de fișier după fiecare extragere
 
@@ -714,16 +740,21 @@ IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Salvează informațiile NTFS, atunci c
 IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Foloseşte „Viteză ridicată de arhivare”
 IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Nu închide fereastra activă după arhivare
 IDC_STATIC_COMPRESSION_METHOD           = Nivelul compresiei:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Testarea arhivei după compresie
 IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Folosește ultimul dosar pentru Arhivă Nouă
 IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Dosarul implicit pentru Arhivă Nouă
-IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Caută...
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Localizează...
 IDC_CHK_EXCLUDE_FILTER                  = Tipul fişierelor excluse pentru arhivare
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_VIEWER]
-IDC_STATIC_VIEWER                       = Vizualizator
+IDC_STATIC_VIEWER                       = Vizualizor
 IDC_CHK_SHOW_PREVIEW                    = Previzualizare imagine
 IDC_CHK_SHOW_FOLDER_SIZE                = Se arată dimensiunea comprimată/originală a dosarului
+IDC_CHK_SET_LISTCONTROL_FONT            = Setează font-ul din listă
+IDC_BTN_SET_FONT                        = Setează font-ul...
+IDC_CHK_SET_TREECONTROL_FONT            = Setează fontul pentru controlul TreeView
+IDC_CHK_SET_COMMENTCONTROL_FONT         = Setează fontul pentru comentariile din arhivă
 
 IDC_STATIC_SETTING_VIEWITEM             = Coloane
 IDC_CHK_VIEWITEM_COMPSIZE               = Dimensiunea comprimată
@@ -737,13 +768,13 @@ IDC_CHK_VIEWITEM_ATTRIB                 = Atributele fișierului
 IDC_CHK_VIEWITEM_COMMENT                = Comentariile fişierului
 IDC_CHK_VIEWITEM_EXT                    = Informații suplimentare
 
-IDC_STATIC_IMAGE_VIEWER                 = Vizualizator imagine
-IDC_RADIO_IMAGE_VIEWER_0                = Folosește vizualizator intern de imagine
+IDC_STATIC_IMAGE_VIEWER                 = Vizualizor imagine
+IDC_RADIO_IMAGE_VIEWER_0                = Folosește vizualizor intern de imagine
 IDC_RADIO_IMAGE_VIEWER_1                = Folosește programul asociat
-IDC_RADIO_IMAGE_VIEWER_2                = Folosește Honeyview, dacă e instalat
+IDC_RADIO_IMAGE_VIEWER_2                = Folosește BandiView/Honeyview, dacă e instalat
 
 IDC_STATIC_EDITOR                       = Editor
-IDC_BTN_SET_EDITOR_PATH                 = Căutare...
+IDC_BTN_SET_EDITOR_PATH                 = Localizează...
 
 IDC_STATIC_COLOR                        = Culoare
 IDC_STATIC_COLOR_THEME                  = Culoarea tematică
@@ -755,34 +786,37 @@ IDC_STATIC_COLOR_TEXT_BLACK             = Negru
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Setări de securitate
 IDC_CHK_COPY_ZONE_IDENTIFIER            = Zonă de copiere. Informații de identificare a unei arhive descărcate de pe internet în timpul extragerii
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Verifică malware înaintea extragerii
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_ETC]
 IDC_BTN_EXPORT_SETTINGS                 = Exportare setări Bandizip
 IDC_STATIC_ETC                          = Setări avansate
 IDC_CHK_SET_TEMP_FOLDER                 = Setează destinaţia dosarului temporar
-IDC_BTN_SET_TEMP_FOLDER                 = Căutare...
+IDC_BTN_SET_TEMP_FOLDER                 = Localizează...
 IDC_CHK_SET_USER_ARCHIVE_EXT            = Recunoaște următoarele tipuri de fișier ca arhive
 IDC_CHK_DELETE_TEMP_FILE_ASAP           = Șterge fișierul temporar la ieșirea din procesul de bază
-IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = La ştergere, se mută fişierele în Coşul de reciclare
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = La ştergere, fişierele ajung în Coşul de reciclare
 IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Arată istoricul ultimelor arhivări
 IDC_CHK_USE_LONG_PATH_NAME              = Prelucrează denumirile lungi ale destinaţiei depăşind 260 de caractere
-IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Pemite Windows Explorer să şteargă arhivele deschise
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Permite Windows Explorer să şteargă arhivele deschise
 IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Extinde automat arborele dosarului
 IDC_CHK_USE_MODAL_DIALOG                = Folosește o casetă de dialog la arhivare/extragere
 IDC_CHK_USE_ELEGANT_UI                  = Folosește o interfață UI elegantă
-IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Ecrã Inicial \tF6
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Start Ecran \tF6
 IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Afișează calea completă în bara de titlu
-IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Șterge fișierele extrase, atunci când extragerea este anulată
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Șterge fișierele extrase, la anularea extragerii
 IDC_CHK_COPY_ZONE_IDENTIFIER            = Zonă de copiere. Informații de identificare a unei arhive descărcate de pe internet în timpul extragerii
 IDC_CHK_USE_SET_END_OF_FILE             = Pre-alocare spațiu de disc pentru un fișier de ieșire
 IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Compresia unui fișier, chiar dacă fișierul e folosit de alt proces
+IDC_CHK_DO_NOT_USE_RICHEDIT             = Nu folosi comanda Rich Edit
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_LANG]
 IDC_STATIC_LANG                         = Setările limbii folosite
-IDC_STATIC_OPEN_TRANSLATION_PAGE        = Vrei să ajuți la traducerea acestui program?[br] Click aici...
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Vrei să ajuți la traducerea acestui program?[br]Click aici...
 
 ;------------------------------------------------------------------------------
 [IDD_SFX_SETTING]
@@ -792,6 +826,7 @@ IDC_STATIC_TITLE                        = Titlul SFX:
 IDC_STATIC_RUN                          = De executat după extragere:
 IDC_STATIC_MESSAGE                      = Mesaj SFX:
 IDC_CHK_AUTO_CLOSE                      = După extragere, se închide fereastra SFX
+IDC_CHK_RUN_AS_ADMIN                    = Rulează ca Administrator
 IDC_BTN_SAVE_SFX_SETTING                = Salvează setările
 
 ;------------------------------------------------------------------------------
@@ -841,6 +876,7 @@ IDD_REPAIR_ARCHIVE                      = Reparare arhivă
 IDC_STATIC_SRC                          = Fișier de reparat
 IDC_STATIC_DST                          = Fișier reparat
 IDC_BTN_START                           = Start reparare
+IDC_BTN_TEST                            = Test de reparare
 IDC_BTN_STOP                            = Stop
 TEXT_NOTICE                             = Caută și selectează un fișier pentru reparat, apoi dă click pe „Start reparare”.
 TEXT_ERR_OCCURRED                       = A apărut o eroare.
@@ -853,6 +889,9 @@ TEXT_MSG_CANCELED                       = Reparare anulată.
 TEXT_MSG_SELECT_ARCHIVE_FIRST           = Selectează un fișier (.zip) înainte de a începe repararea.
 
 [IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = Numeroase Bandizip-uri sunt instalate pe sistemul tău.[br]Pentru a preveni problemele renunță la unul dintre ele.
+CMD_UNINST_MSSTORE                      = Dezinstalare Bandizip MSE
+CMD_UNINST_PROGFILES                    = Dezinstalare Bandizip
 
 
 
@@ -864,7 +903,7 @@ $TOOLBAR_EXTRACT_FILE                   = Extrage
 $TOOLBAR_CREATE_ARCHIVE                 = Arhivează
 $TOOLBAR_DELETE_FILE                    = Şterge
 $TOOLBAR_ADD_FILE                       = Adaugă
-$TOOLBAR_TEST_ARCHIVE                   = Verifică
+$TOOLBAR_TEST_ARCHIVE                   = Testare arhivă
 $TOOLBAR_CODEPAGE                       = Codare
 $TOOLBAR_VIEWITEM                       = Coloane
 $TOOLBAR_SCAN                           = Scanează
@@ -883,6 +922,7 @@ $TEXT_SETTINGTAB_SHELL                  = Meniu contextual
 $TEXT_SETTINGTAB_EXTRACT                = Extragere
 $TEXT_SETTINGTAB_ARCHIVE                = Comprimare
 $TEXT_SETTINGTAB_VIEWER                 = Vizualizator
+$TEXT_SETTINGTAB_SECURITY               = Securitate
 $TEXT_SETTINGTAB_ETC                    = Avansat
 $TEXT_SETTINGTAB_LANG                   = Limbă
 
@@ -899,8 +939,8 @@ $TOOLTIP_UPDATE                         = Actualizare
 $TOOLTIP_PREVIEW                        = Vizualizare pictograme mari
 $TOOLTIP_REPORT                         = Vizualizare detalii
 
-$TEXT_INSTALL_START                     = Bine, am să-l încerc
-$TEXT_INSTALL_CLOSE                     = Nu, mersi
+$TEXT_INSTALL_START                     = Bine, am să-l încerc!
+$TEXT_INSTALL_CLOSE                     = Nu, mersi!
 $TEXT_INSTALL_HONEYVIEW_LINK            = Vezi mai multe...
 
 $TEXT_HELP_PAGE                         = Pagina de ajutor
@@ -946,7 +986,7 @@ IDC_CHK_USE_SIGNATURE_BY_EXT            = Folosește extensia fișierului pentru
 
 [RECOVERY_SKIN]
 $STEP_1                                 = Deschide
-$STEP_2                                 = Verifică
+$STEP_2                                 = Teestare arhivă
 $STEP_3                                 = Setări
 $STEP_4                                 = Recuperare
 $STEP_5                                 = Complet
@@ -955,7 +995,7 @@ $BTN_NEXT_PAGE                          = Înainte >
 $BTN_PREV_PAGE                          = Înapoi <
 $BTN_OK                                 = OK
 $BUTTON_BUY_NOW                         = Cumpără Bandizip Professional Edition
-$STATIC_OPEN_DESC                       = Click pe „Deschide arhivă” pentru a căuta și a selecta o arhivă criptată. <br>Mai poți trage & lăsa arhiva direct în caseta de dialog.
+$STATIC_OPEN_DESC                       = Click pe „Deschide arhivă” pentru a căuta și a selecta o arhivă criptată. <br>Mai poți „Trage-și-Lăsa” arhiva direct în caseta de dialog.
 $STATIC_PRICE_DESC1                     = Ghid pentru licența Bandizip
 $STATIC_PRICE_DESC2                     = Recuperarea parolei este permisă doar la Bandizip Professional Edition. Parola de recuperat nu poate depăși lungimea de maxim 4 caractere la Bandizip Standard Edition.
 $STATIC_FILELIST_DESC                   = Această arhivă conține următoarele fișiere. Verifică-le și dă click pe „Înainte”.
@@ -985,6 +1025,7 @@ $CHECK_SYMBOL_UPPERCASE                 = Majuscule (ABCD...Z)
 $CHECK_SYMBOL_SYMBOL                    = Caractere speciale (!@#$...)
 $CHECK_SYMBOL_SPACE                     = Spațiu
 $CHECK_SYMBOL_ALL                       = Toate
+$CHECK_SYMBOL_SPECIFIED                 = Caractere specificate
 $FOUNDED_PASSWORD                       = Parola recuperată este...
 
 
@@ -1008,6 +1049,7 @@ TEXT_MENU_ARCHIVE_EACHNAME_7Z           = Compresie cu fiecare „NumeFișier/Do
 TEXT_MENU_ARCHIVE_ZIP                   = "Compresie pentru "${str1}""
 TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Compresie pentru "${str1}" și șterge
 TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Compresie pentru ${str1} şi pentru email...
+TEXT_MENU_ADD_TO_ZIP                    = "Adăugare la "${str1}""
 TEXT_MENU_ARCHIVE_ZIPX                  = Compresie pentru ${str1}
 TEXT_MENU_ARCHIVE_EXE                   = "Compresie pentru "${str1}""
 TEXT_MENU_ARCHIVE_TAR                   = Compresie pentru ${str1}
@@ -1025,15 +1067,15 @@ TEXT_MENU_ARCHIVE_POPUP                 = Creează o arhivă (&Bandizip)...
 TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Comprimă ca Administrator
 
 TEXT_MENU_EXTRACT_HERE                  = &Extrage aici
-TEXT_MENU_EXTRACT_AUTO                  = Extrage aici (&Inteligent)
-TEXT_MENU_EXTRACT_AUTO_EACH             = Extrage fiecare arhivă aici (&Inteligent)
+TEXT_MENU_EXTRACT_AUTO                  = Extrage &inteligent aici
+TEXT_MENU_EXTRACT_AUTO_EACH             = Extrage &inteligent aici fiecare arhivă
 TEXT_MENU_EXTRACT_SUB                   = Extrage fiecare arhivă în dosare separate
 TEXT_MENU_EXTRACT_ARCHIVENAME           = Extrage în ${str1}\
 TEXT_MENU_EXTRACT_DLG                   = Extrage în alt dosar...
 TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Extrage ca Administrator
 TEXT_MENU_EXTRACT_HERE_DEL              = Extrage aici și șterge
-TEXT_MENU_EXTRACT_AUTO_DEL              = Extrage aici (Inteligent) și șterge
-TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extrage fiecare arhivă aici (Inteligent) și șterge
+TEXT_MENU_EXTRACT_AUTO_DEL              = Extrage inteligent aici și șterge
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Extrage inteligent aici fiecare arhivă și șterge
 TEXT_MENU_EXTRACT_SUB_DEL               = Extrage în dosare separate și șterge
 TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Extrage &în ${str1}\ și șterge
 
@@ -1045,7 +1087,7 @@ TEXT_MENU_PREVIEW_ENCRYPTED             = Denumirea fișierului este criptată.
 TEXT_MENU_PREVIEW_DLLLOADFAILED         = Imposibil de folosit Previzualizare Arhivă. [br][br]Restartează Windows Explorer sau [br]Restartează calculatorul.
 TEXT_MENU_PREVIEW_CANTREADFILELIST      = Imposibil de citit Lista fişierelor
 
-TEXT_MENU_OPENING                       = Deschiderea...
+TEXT_MENU_OPENING                       = Deschidere...
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1061,6 +1103,7 @@ TEXT_UPDATER_BTN_OK                     = OK
 TEXT_UPDATER_BTN_CANCEL                 = Anulare
 TEXT_UPDATER_DOWNLOAD_ERROR             = Descărcare ratată
 TEXT_UPDATER_SETTING_UPDATE             = Setări
+TEXT_UPDATER_SETTING_SKIPTHIS           = Ignoră această versiune
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
@@ -1068,7 +1111,7 @@ TEXT_UPDATER_SETTING_UPDATE             = Setări
 ;
 [SFX]
 STATIC_TARGET_PATH                      = Ţinta de destinaţie:
-BTN_SELECT_FOLDER                       = Găseşte ţinta...
+BTN_SELECT_FOLDER                       = Localizează ţinta...
 BTN_EXTRACT                             = Start
 BTN_CLOSE                               = Închis
 BTN_CANCEL                              = Anulare
@@ -1112,6 +1155,9 @@ $BTN_HELP_LINK                          = [Ajutor]
 
 $TEXT_PATH                              = Dosarul de destinație
 $TEXT_INSTALL_STATIC                    = Instalare...
+$TEXT_INST_COMPLETED                    = Instalare completă...
+$TEXT_INST_FAILED                       = Instalare ratată
+$TEXT_UNINSTALLING                      = Dezinstalare
 
 $CHK_AUTO_REPORT                        = Trimite automat statistici de utilizare şi rapoarte de avarie.
 $EMAIL                                  = Adresa de email
@@ -1124,21 +1170,45 @@ ERR_BROKEN_ARCHIVE                      = Acest fișier comprimat este deteriora
 ERR_CRC_ERROR                           = Eroare a CRC: ${str1}
 ERR_NOT_ENOUGH_MEM                      = Memorie deficitară: ${str1}
 
-MSG_FILE_OPEN_ERROR                     = Eroare de deschidere a fișierului ptr. editare:[br]"${str1}"[br]Apasă Abandonare ptr. oprirea instalării,[br]Repetare ptr. reîncercarea instalării sau[br]Ignorare pentru omiterea acestui fișier.
+MSG_FILE_OPEN_ERROR                     = Eroare de deschidere a fișierului ptr. editare:[br]"${str1}"[br]Apasă Abandonare ptr. oprirea instalării,[br]Reluare ptr. reîncercarea instalării sau[br]Ignorare pentru omiterea acestui fișier.
 MSG_SUCCESS                             = Instalare finalizată
+MSG_DLL_REGISTERING                     = Înregistrarea extensiei Explorer shell...
+MSG_DLL_UNREGISTERING                   = Dezînregistrarea extensiei Explorer shell...
 MSG_ERROR                               = S-a produs o eroare
+MSG_ERROR_REGISTER                      = Înregistrare ratată
 MSG_SELECT_FOLDER                       = Selectează un dosar
 MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} este încă în funcţiune. Închide mai întâi programul.
 MSG_XP_IS_NOT_SUPPORTED                 = Acest program nu funcționează pe Windows XP.
 MSG_NEED_ADMIN_PRIVILEGE                = Acest program se poate instala doar de un utilizator cu drepturi autorizate.[br][br]Utilizatorii neautorizați nu pot instala corespunzător programul.[br][br]Vrei să oprești instalarea?
-MSG_NEWVERSION_FOUND                    = O nouă versiune e disponibilă. Ai dori s-o descarci acum?
+MSG_NEWVERSION_FOUND                    = O nouă versiune e disponibilă. Vrei s-o descarci acum?
 SHORTCUT_LINK_DESCRIPTOIN               = Lansează ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = Acest fișier de instalare nu este compatibil cu sistemele de operare pe 32 de biți (x86).[br]Descarcă un nou fișier de instalare de pe site-ul web.
+MSG_ERR_ARM_NOTSUPPORT                  = Acest fișier de instalare nu este compatibil cu sprocesorul ARM64.[br]Descarcă un nou fișier de instalare de pe site-ul web.
+ERR_INST_FAILED                         = Instalare ratată. Restartează PC-ul și încearcă din nou
+$MSG_SELECT_LICENSE                     = Alege tipul versiunii
+$EDITION_FREE                           = De încercare
+$EDITION_PRO                            = Profesională
+$FREE_1                                 = Gratuită
+$FREE_3                                 = Afișare reclame, restricționări ale unor funcții
+$PRO_1                                  = Disponibilă pentru plată
+$PRO_2                                  = La Domiciliu & În Afaceri & Pentru Profesioniști
+$PRO_5                                  = Alte funcții exclusive
+$IDC_STATIC_BUYNOW                      = Bandizip este încă necumpărat?[br][b]Cumpără-l acum[/b]
+$IDC_STATIC_COMPARISON                  = Compară versiunile...
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup
 ;
 [ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = Verificare ratată a versiunii.
+TEXT_VERSION_CHECKING                   = Verificarea versiunii...
+TEXT_DOWNLOAD_FAILED                    = Descărcare eșuată. Descarcă fișierul de instalare offline.
+TEXT_DOWNLOAD_COMPLETED                 = Descărcare reușită.
+TEXT_HOMEPAGE                           = [Deschidere pagina web]
+TEXT_XP                                 = Suport încheiat pentru Windows XP
 
 [IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = Selectează uneltele din bară
 
 

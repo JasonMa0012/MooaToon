@@ -427,6 +427,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = 自動検出
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Honeyview で開く
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = BandiView/Honeyview で開く
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = 関連付けられたプログラムで開く
 
 DLG_MENUSTR_MINIMIZE2TRAY               = タスクトレイに最小化
@@ -595,6 +596,7 @@ IDC_RADIO_HANDLE_METHOD2                = 現在のアーカイブに追加(&A)
 IDC_CHK_PASS                            = パスワードを使用
 IDC_STATIC_PASSWORD_AGAIN               = パスワード再入力
 IDC_CHK_SHOW_PASS                       = パスワードを表示
+IDC_CHK_DELETE_FILES                    = 圧縮後にファイルを削除
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -762,7 +764,7 @@ IDC_CHK_VIEWITEM_EXT                    = 追加情報
 IDC_STATIC_IMAGE_VIEWER                 = イメージ ビューアー
 IDC_RADIO_IMAGE_VIEWER_0                = 内蔵イメージ ビューアーを使用
 IDC_RADIO_IMAGE_VIEWER_1                = 関連付けされたプログラム
-IDC_RADIO_IMAGE_VIEWER_2                = Honeyview を使用 (Honeyview がインストールされている場合)
+IDC_RADIO_IMAGE_VIEWER_2                = BandiView/Honeyview を使用 (BandiView/Honeyview がインストールされている場合)
 
 IDC_STATIC_EDITOR                       = エディター
 IDC_BTN_SET_EDITOR_PATH                 = 参照...
@@ -1174,6 +1176,17 @@ SHORTCUT_LINK_DESCRIPTOIN               = ${APPNAME} を実行する
 MSG_ERR_X86_NOTSUPPORT                  = このセットアップ ファイルは、32-bit (x86) OS には対応していません。Webサイトから新しいセットアップ ファイルをダウンロードしてください。
 MSG_ERR_ARM_NOTSUPPORT                  = このセットアップ ファイルは ARM64 CPU をサポートしていません。Webサイトから新しいセットアップ ファイルをダウンロードしてください。
 ERR_INST_FAILED                         = インストールに失敗しました。PC を再起動して、もう一度お試しください。
+$MSG_SELECT_LICENSE                     = ライセンスを選択してください。
+$EDITION_FREE                           = 無料版
+$EDITION_PRO                            = プロフェッショナル版
+$FREE_1                                 = 無料
+$FREE_3                                 = ディスプレイ広告、機能制限あり
+$PRO_1                                  = お金を払って買う
+$PRO_2                                  = 個人/ビジネス/プロフェッショナル
+$PRO_5                                  = Pro バージョン限定の機能
+$IDC_STATIC_BUYNOW                      = まだ Bandizip を購入していませんか? [b]今すぐ購入[/b]
+$IDC_STATIC_COMPARISON                  = 無料版(Trial Edition)と有料版(Professional Edition)の比較
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

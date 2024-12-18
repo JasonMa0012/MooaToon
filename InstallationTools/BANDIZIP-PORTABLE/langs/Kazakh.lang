@@ -505,6 +505,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Add File(s) to Current Archive
 IDC_CHK_PASS                            = Use Password
 IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
 IDC_CHK_SHOW_PASS                       = Show Password
+IDC_CHK_DELETE_FILES                    = Delete files after archiving
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -652,7 +653,7 @@ IDC_CHK_VIEWITEM_COMMENT                = File Comment
 IDC_STATIC_IMAGE_VIEWER                 = Image viewer
 IDC_RADIO_IMAGE_VIEWER_0                = Use internal image viewer
 IDC_RADIO_IMAGE_VIEWER_1                = Use associated program
-IDC_RADIO_IMAGE_VIEWER_2                = Use Honeyview if installed
+IDC_RADIO_IMAGE_VIEWER_2                = Use BandiView/Honeyview if installed
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Browse...
@@ -933,6 +934,7 @@ MSG_XP_IS_NOT_SUPPORTED                 = This program doesn't work on Windows X
 MSG_NEED_ADMIN_PRIVILEGE                = This program can only be installed by a user with administrator privileges.[br][br]Non-administrative users may not install the program properly.[br][br]Do you want to stop installation?
 MSG_NEWVERSION_FOUND                    = A new version is currently available. Would you like to download it now?
 SHORTCUT_LINK_DESCRIPTOIN               = Launch ${APPNAME}
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

@@ -419,6 +419,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Automaticky detekovat
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Zobrazit v Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Zobrazit v BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Zobrazit v přiřazené aplikaci
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimalizovat do systray
@@ -586,6 +587,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Přidat soubory do aktuálního archi
 IDC_CHK_PASS                            = Použít heslo
 IDC_STATIC_PASSWORD_AGAIN               = Znovu zadejte heslo
 IDC_CHK_SHOW_PASS                       = Zobrazit heslo
+IDC_CHK_DELETE_FILES                    = Po archivování vymazat soubory
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -750,7 +752,7 @@ IDC_CHK_VIEWITEM_EXT                    = Další informace
 IDC_STATIC_IMAGE_VIEWER                 = Prohlížeč obrázků
 IDC_RADIO_IMAGE_VIEWER_0                = Použít vestavěný prohlížeč obrázků
 IDC_RADIO_IMAGE_VIEWER_1                = Použít asociovaný program
-IDC_RADIO_IMAGE_VIEWER_2                = Použít Honeyview, pokud je nainstalovaný
+IDC_RADIO_IMAGE_VIEWER_2                = Použít BandiView/Honeyview, pokud je nainstalovaný
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Procházet...
@@ -1161,6 +1163,8 @@ SHORTCUT_LINK_DESCRIPTOIN               = Spustit ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Tento instalační soubor nepodporuje 32bitový (x86) operační systém. Stáhněte si prosím nový instalační soubor na webových stránkách.
 MSG_ERR_ARM_NOTSUPPORT                  = Tento instalační soubor nepodporuje procesor ARM64. Stáhněte si prosím nový instalační soubor z webových stránek.
 ERR_INST_FAILED                         = Instalace se nezdařila. Restartujte prosím počítač a zkuste to znovu.
+$IDC_STATIC_BUYNOW                      = Ještě jste si nekoupili Bandizip? [b]Koupit nyní[/b]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

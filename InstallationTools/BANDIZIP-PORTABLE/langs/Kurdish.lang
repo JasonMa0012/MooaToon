@@ -513,6 +513,7 @@ IDC_RADIO_HANDLE_METHOD2                = زیادکردنی فایل بۆ ئە�
 IDC_CHK_PASS                            = بەکارهێنانی تێپەڕە ووشە
 IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
 IDC_CHK_SHOW_PASS                       = Show Password
+IDC_CHK_DELETE_FILES                    = سڕینەوەی فایلەکان دوای کردن بە ئەرشیف
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -662,7 +663,7 @@ IDC_CHK_VIEWITEM_COMMENT                = لێدوانی فایل
 IDC_STATIC_IMAGE_VIEWER                 = پیشاندەری وێنە
 IDC_RADIO_IMAGE_VIEWER_0                = بەکارهێنانی پیشاندەری وێنەی ناوخۆیی
 IDC_RADIO_IMAGE_VIEWER_1                = بەکارهێنانی بەرنامەی دیاریکراو
-IDC_RADIO_IMAGE_VIEWER_2                = بەکارهێنانی Honeyview ئەگەر دابەزێنرا بوو
+IDC_RADIO_IMAGE_VIEWER_2                = بەکارهێنانی BandiView/Honeyview ئەگەر دابەزێنرا بوو
 
 IDC_STATIC_EDITOR                       = دەستکاریکەر
 IDC_BTN_SET_EDITOR_PATH                 = کردنەوە...
@@ -926,6 +927,7 @@ $BTN_HELP_LINK                          = [یارمەتی]
 MSG_STILLRUN_EXIT_PROGRAM               = لە کاردایە. لەپێشدا بەرنامەکە دابخە Bandizip
 MSG_XP_IS_NOT_SUPPORTED                 = This software will work properly only in Windows Vista and later.
 MSG_NEED_ADMIN_PRIVILEGE                = This program can only be installed by a user with administrator privileges.[br][br]Non-administrative users may not install the program properly.[br][br]Do you want to stop installation?
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

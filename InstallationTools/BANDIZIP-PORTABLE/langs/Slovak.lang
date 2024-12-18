@@ -120,8 +120,10 @@ TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Nemožno pridať súbor do archívu. [
 TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Nemožno otvoriť tento archív [br] - ${str1}
 TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Totožný súbor už existuje.
 TEXT_ERR_FILENAME_EMPTY                 = Názov súboru je nesprávny.
-TEXT_ERR_AT_DRAGANDDROP                 = Zlyhala funkcia "ťahaj a pusti".
+TEXT_ERR_AT_DRAGANDDROP                 = Funkcia "ťahaj a pusti" zlyhala.
+TEXT_ERR_AT_DRAGANDDROP_MULTI           = Už prebieha ďalšia operácia "ťahaj a pusti".
 TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Zlyhala funkcia "ťahaj a pusti".[br]Funkcia "ťahaj a pusti" bola v Bandizipe vypnutá, skúste to prosím znovu.
+TEXT_ERR_AT_DRAGANDDROP_FASTDND_OFF_ASK = Funkcia "ťahaj a pusti" zlyhala.[br]Chcete deaktivovať funkciu "ťahaj a pusti" a skúsiť to znova?
 TEXT_ERR_AT_CANT_OPEN_MMF               = Nemožno otvoriť MMF (mmf:${str1})
 TEXT_ERR_NO_FILES_SELECTED              = Nebol vybraný žiadny súbor
 TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Nemožno vytvoriť inštalačný priečinok pre balík s ikonami.
@@ -171,8 +173,8 @@ TEXT_ASK_CHANGE_FILENAME                = Totožný súbor už existuje.[br][br]
 TEXT_ASK_DELETE_FILE                    = Chcete vymazať vybraný súbor(y)?
 TEXT_ASK_STOP_EXTRACT                   = Chcete zastaviť rozbalovanie?
 TEXT_ASK_OVERWRITE_ARCHIVE              = Tento súbor už existuje.[br][br]Chcete ho prepísať?
-TEXT_ASK_INIT_SETTING                   = Chcete resetovať predvolené nastavenia? Bandizip bude reštartovaný.
-TEXT_ASK_STOP_ARCHIVING                 = Chcete zastaviť komprimovanie?
+TEXT_ASK_INIT_SETTING                   = Chcete resetovať predvolené nastavenie? Bandizip bude reštartovaný.
+TEXT_ASK_STOP_ARCHIVING                 = Chcete zastaviť archiváciu?
 TEXT_ASK_STOP_MODIFYING                 = Chcete zastaviť túto operáciu?
 TEXT_ASK_APPLY_MODIFIED_FILE            = Chcete priložiť zmenený súbor do archívu?[br](${str1})
 TEXT_ASK_INSTALL_ICONPACK               = Chystáte sa nainštalovať a nastaviť balík s ikonami (${str1})?
@@ -225,7 +227,7 @@ TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Nemáte oprávnenie k zápisu tohto pr
 TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Nemáte oprávnenie k zápisu tohto priečinka. Spustite program ako správca.
 TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Algoritmus šifrovania nie je podporovaný.
 TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Nedostatok pamäte:${str1}
-TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Nedostatok pamäte. Zmeňte úroveň kompresie.
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Nedostatok pamäte. Zmeňte metódu kompresie.
 TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Táto operácia nie je podporovaná.
 TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Informácie o veľkosti súboru po rozbalení a v hlavičke archívu sa líšia.
 TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Nemožno vytvoriť súbor väčší ako 4 GB.
@@ -237,6 +239,7 @@ TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Spustiť Bandizip ako správca a vytvo
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = Nemožno vytvoriť symbolický odkaz.
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Súbor je zapisovateľný a používa ho iný proces.
 TEXT_ARKERR_NOFILE_TO_ARCHIVE           = K dispozícii nie je žiadny súbor na archiváciu.
+TEXT_ARKERR_DICT_SIZE_OVER              = Rozbalenie si vyžaduje viac pamäte. V nastaveniach zväčšite povolenú pamäť.
 
 TEXT_SPLITCOMBO_NOSPLIT                 = Nedeliť
 TEXT_SPLITCOMBO_3MB                     = 3 MB
@@ -268,7 +271,7 @@ TEXT_DLG_STATIC_DUPEFILE_NEW            = Súbor na rozbalenie
 TEXT_MSG_SELECTED_FILE                  = Vybraných súborov: ${num1}
 TEXT_MSG_SELECTED_FOLDER                = Vybraných priečinkov ${num1}
 TEXT_MSG_SELECTED_FILEFOLDER            = Súborov ${num1}, priečinkov ${num2}
-TEXT_MSG_SELECTED_FILESIZESUM           = Vybraná veľkosť súboru: ${str1}
+TEXT_MSG_SELECTED_FILESIZESUM           = Veľkosť vybraného súboru: ${str1}
 
 TEXT_UPDATE_VERSION_CHECK_FAILED        = Zlyhala kontrola verzie
 TEXT_UPDATE_VERSION_CHECKING            = Kontrola verzie
@@ -280,6 +283,9 @@ TEXT_UPDATE_DOWNLOAD_COMPLETED          = Sťahovanie dokončené
 TEXT_INSTALL_HONEYVIEW                  = Inštalovať Honeyview
 TEXT_INSTALL_HONEYVIEW_1                = Honeyview nie je nainštalovaný v počítači.
 TEXT_INSTALL_HONEYVIEW_2                = Skúste prosím Honeyview od Bandisoftu.<br> Podporuje prezeranie obrázkov v komprimovanom ZIP, RAR, alebo 7z súbory bez rozbalenia.
+TEXT_INSTALL_BANDIVIEW                  = Inštalovať BandiView
+TEXT_INSTALL_BANDIVIEW_1                = BandiView nie je nainštalovaný vo vašom počítači.
+TEXT_INSTALL_BANDIVIEW_2                = Vyskúšajte BandiView od spoločnosi Bandisoft.<br>Prezerajte si obrázky komprimované v archívoch ZIP, RAR alebo 7Z bez rozbalenia súborov.
 
 TEXT_REGISTRATION_FAILED                = Registrácia zlyhala.[br]Skontrolujte svoj e-mail a produktový kľúč.
 TEXT_REGISTRATION_SUCCEED               = Váš Bandizip bol registrovaný.
@@ -354,7 +360,7 @@ MENUSTR_VIEW_LISTVIEW_REPORT            = Podrobnosti
 MENUSTR_VIEW_LISTVIEW_PREVIEW           = Veľké ikony
 MENUSTR_VIEW_COLUMN                     = Stĺpce
 MENUSTR_VIEW_ALWAYS_ON_TOP              = Vždy na vrchu
-MENUSTR_VIEW_COLOR_SETTING              = Nastavenia farby...
+MENUSTR_VIEW_COLOR_SETTING              = Nastavenie farby...
 
 MENUSTR_TOOLS_REPAIR                    = Oprava archívu ...
 MENUSTR_TOOLS_RECOVERY                  = Obnova hesla ...
@@ -370,7 +376,7 @@ POPUPMENU_VIEWITEM_ORIGSIZE             = Originálna veľkosť
 POPUPMENU_VIEWITEM_KIND                 = Typ súboru
 POPUPMENU_VIEWITEM_DATE_MOD             = Upravené dňa
 
-POPUPMENU_VIEWITEM_COMPMETHOD           = Úroveň kompresie
+POPUPMENU_VIEWITEM_COMPMETHOD           = Metóda kompresie
 POPUPMENU_VIEWITEM_ENCRMETHOD           = Metóda šifrovania
 POPUPMENU_VIEWITEM_CRC                  = CRC
 POPUPMENU_VIEWITEM_ATTRIB               = Vlastnosti
@@ -426,9 +432,10 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Auto detekcia
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Zobraziť v programe Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Zobraziť v programe BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Zobraziť v predvolenom programe
 
-DLG_MENUSTR_MINIMIZE2TRAY               = Minimalizovať do oblasti tray
+DLG_MENUSTR_MINIMIZE2TRAY               = Minimalizovať na panel úloh
 DLG_MENUSTR_LOW_PRIORITY                = Nízka priorita
 DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Vymazať archív po rozbalení
 
@@ -500,18 +507,18 @@ IDC_BTN_COMP_ADVANCED                   = Pokročilé
 
 ;------------------------------------------------------------------------------
 [IDD_ARCHIVE_ADVANCED]
-IDD_AA_ZIP                              = Nastavenia kompresie ZIP/ZIPX
-IDC_AA_ZIP_ALGO                         = Kompresia
-IDC_AA_ZIP_ENC                          = Šifrovanie
+IDD_AA_ZIP                              = Nastavenie kompresie ZIP/ZIPX
+IDC_AA_ZIP_ALGO                         = Metóda kompresie
+IDC_AA_ZIP_ENC                          = Metóda šifrovania
 IDC_AA_ZIP_THREAD                       = Počet vlákien CPU
 COMBO_TEXT_THREAD_AUTO                  = Automaticky
 IDC_CHK_ZIP_STORESYMLINK                = Uložiť symbolické odkazy
 IDC_CHK_ZIP_COMMENT                     = Uložiť komentár
-IDD_AA_7Z                               = Nastavenia kompresie 7Z
+IDD_AA_7Z                               = Nastavenie farby...
 IDC_AA_7Z_ALGO                          = Kompresia
 IDC_AA_7Z_SOLID                         = Veľkosť položiek v archíve
 IDC_CHK_7Z_ENC_FILENAMES                = Šifrovať názvy súborov
-IDD_AA_TAR                              = Nastavenia archivácie TAR
+IDD_AA_TAR                              = Nastavenie archivácie TAR
 IDC_CHK_TAR_SYMLINK                     = Ukladať symbolické odkazy
 IDC_CHK_TAR_HARDLINK                    = Ukladať pevné odkazy
 COMBO_TEXT_SOLID_NONE                   = Jednotlivo
@@ -594,6 +601,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Pridať súbory do súčasného arch�
 IDC_CHK_PASS                            = Použiť heslo
 IDC_STATIC_PASSWORD_AGAIN               = Znovu vložiť heslo
 IDC_CHK_SHOW_PASS                       = Ukázať heslo
+IDC_CHK_DELETE_FILES                    = Vymazať súbory po zbalení
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -602,11 +610,11 @@ IDC_BTN_INIT                            = Resetovať
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_GENERAL]
-IDC_STATIC_GENERAL                      = Všeobecné nastavenia
+IDC_STATIC_GENERAL                      = Všeobecné nastavenie
 IDC_CHK_EXIT_WITH_ESC                   = Použiť kláves ESC na ukončenie okna
 IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Vždy skontrolovať súbory, ak je súbor pridaný/vyzmazaný/premenovaný
 IDC_CHK_SNAP                            = Použiť zachytenie okna
-IDC_CHK_SHOW_DOTDOT_AT_LIST             = Ukázať v archíve [..] adresár
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Zobraziť [..] adresár v archíve
 IDC_CHK_SHOW_GRID_AT_LIST               = Zobraziť mriežku v detailnom zobrazení
 IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Vybrať v archíve celý riadok
 IDC_CHK_ONE_CLICK_ACTIVATE              = Otvoriť položku jedným kliknutím
@@ -702,7 +710,7 @@ IDC_CHK_SHELL_HIDE_ICON                 = Skryť ikonu Bandizipu
 IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Rozpoznať súbor archívu pomocou obsahu
 IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Ukázať ponuku archivácie ešte pred archivovaním súborov
 IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Použiť vybraný názov súboru/priečinka po označení myšou
-IDC_CHK_SHELL_USE_DROP_HANDLER          = Pridávať súbory do ZIP súboru pretiahnutím priamo na ikonu Bandizip v Prieskumníkovi
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Pridávať súbory do ZIP súboru pretiahnutím priamo na ikonu Bandizipu v Prieskumníkovi
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_EXTRACT]
@@ -718,6 +726,7 @@ IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Zisťovať automaticky kódovanie str�
 IDC_CHK_UNIXZIP_AS_UTF8                 = Použiť kódovanie stránok UTF - 8 po otvorení ZIP súboru v UNIXe
 IDC_CHK_PARALLEL_EXT                    = Ak je to možné, použiť paralelné rozbalenie
 IDC_STATIC_CODEPAGE                     = Nastaviť kódovanie stránky
+IDC_STATIC_MAX_MEM_USAGE                = Maximálne povolené využitie pamäte:
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Po rozbalení spustiť nasledujúce typy súborov po dvojkliku
 
 ;------------------------------------------------------------------------------
@@ -741,11 +750,13 @@ IDC_CHK_EXCLUDE_FILTER                  = Vylúčené typy súborov na archivác
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_VIEWER]
-IDC_STATIC_VIEWER                       = Nastavenia prehliadača
+IDC_STATIC_VIEWER                       = Nastavenie prehliadača
 IDC_CHK_SHOW_PREVIEW                    = Náhľad obrázku bez rozbalenia
 IDC_CHK_SHOW_FOLDER_SIZE                = Zobraziť v priečinku Veľkosť po zbalení / originálnu
 IDC_CHK_SET_LISTCONTROL_FONT            = Nastaviť písmo zoznamu súborov
 IDC_BTN_SET_FONT                        = Nastaviť písmo ...
+IDC_CHK_SET_TREECONTROL_FONT            = Nastaviť písmo ovládacieho prvku TreeView
+IDC_CHK_SET_COMMENTCONTROL_FONT         = Nastaviť písmo komentárov v archíve
 
 IDC_STATIC_SETTING_VIEWITEM             = Stĺpce
 IDC_CHK_VIEWITEM_COMPSIZE               = Veľkosť po zbalení
@@ -762,7 +773,7 @@ IDC_CHK_VIEWITEM_EXT                    = Ďalšie informácie
 IDC_STATIC_IMAGE_VIEWER                 = Prehliadač obrázkov
 IDC_RADIO_IMAGE_VIEWER_0                = Použiť interný prehliadač obrázkov
 IDC_RADIO_IMAGE_VIEWER_1                = Použiť pridružený program
-IDC_RADIO_IMAGE_VIEWER_2                = Použiť Honeyview, ak je nainštalovaný
+IDC_RADIO_IMAGE_VIEWER_2                = Použiť BandiView/Honeyview, ak je nainštalovaný
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Vyhľadať...
@@ -777,8 +788,8 @@ IDC_STATIC_COLOR_TEXT_BLACK             = Čierna
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_SECURITY]
-IDC_STATIC_SECURITY                     = Nastavenia zabezpečenia
-IDC_CHK_COPY_ZONE_IDENTIFIER            = ""Kopírovať informácie Zone.Identifier" do archívu stiahnutého z internetu počas [br]extrakcie"
+IDC_STATIC_SECURITY                     = Nastavenie zabezpečenia
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopírovať informácie Zone.Identifier zo súborov archívu stiahnutého z internetu do rozbaleného súboru.
 IDC_CHK_AMSI_BEFORE_EXTRACT             = Pred  rozbalením skontrolovať na malvér
 
 ;------------------------------------------------------------------------------
@@ -806,7 +817,7 @@ IDC_CHK_DO_NOT_USE_RICHEDIT             = Nepoužívať ovládací prvok Rich Ed
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_LANG]
-IDC_STATIC_LANG                         = Nastavenia jazyka
+IDC_STATIC_LANG                         = Nastavenie jazyka
 IDC_STATIC_OPEN_TRANSLATION_PAGE        = Chcete pomôcť s prekladom tohto programu? Kliknite tu...
 
 ;------------------------------------------------------------------------------
@@ -817,6 +828,7 @@ IDC_STATIC_TITLE                        = Názov SFX:
 IDC_STATIC_RUN                          = Spustiť po rozbalení:
 IDC_STATIC_MESSAGE                      = Správa SFX:
 IDC_CHK_AUTO_CLOSE                      = Zavrieť okno SFX po rozbalení
+IDC_CHK_RUN_AS_ADMIN                    = Spustiť ako správca
 IDC_BTN_SAVE_SFX_SETTING                = Uložiť nastavenia
 
 ;------------------------------------------------------------------------------
@@ -908,7 +920,7 @@ $TEXT_COMPUTER                          = Počítač
 
 $TEXT_SETTINGTAB_GENERAL                = Hlavné
 $TEXT_SETTINGTAB_ASSOC                  = Asociácia
-$TEXT_SETTINGTAB_SHELL                  = Kontextové menu
+$TEXT_SETTINGTAB_SHELL                  = Kontextová ponuka
 $TEXT_SETTINGTAB_EXTRACT                = Rozbalenie
 $TEXT_SETTINGTAB_ARCHIVE                = Zbalenie
 $TEXT_SETTINGTAB_VIEWER                 = Prehliadač
@@ -965,7 +977,7 @@ TEXT_ASK_EXIT                           = Ste si istí, že chcete skončiť?
 TEXT_COMBO_THREAD_AUTO                  = Automaticky
 
 [IDD_RECOVERY_SETTING]
-IDD_RECOVERY_SETTING                    = Nastavenia
+IDD_RECOVERY_SETTING                    = Nastavenie
 IDC_STATIC_MULTI_CORE                   = Viacjadrové spracovanie
 IDC_STATIC_MULTI_CORE_DESC              = Zadajte počet vlákien, ktoré sa majú použiť na obnovenie.[br]Odporúča sa zvoliť možnosť „Automaticky“ alebo menšie číslo, ako je počet jadier CPU nainštalovaných vo vašom systéme.
 IDC_STATIC_PREP_POSTP                   = Predpona
@@ -978,7 +990,7 @@ IDC_CHK_USE_SIGNATURE_BY_EXT            = Na rýchlejšiu obnovu použite prípo
 [RECOVERY_SKIN]
 $STEP_1                                 = Otvorenie
 $STEP_2                                 = Kontrola
-$STEP_3                                 = Nastavenia
+$STEP_3                                 = Nastavenie
 $STEP_4                                 = Obnova
 $STEP_5                                 = Dokončenie
 $FILE_PATH_NAME                         = Umiestnenie
@@ -1035,8 +1047,8 @@ TEXT_MENU_TEST_ARCHIVE                  = Testovať archív
 TEXT_MENU_LAUNCH_CMD                    = &Spustiť príkazový riadok
 TEXT_MENU_LAUNCH_CMD_ADMIN              = Spustiť príkazový riadok (správca)
 
-TEXT_MENU_ARCHIVE_EACHNAME              = "Zbaliť do &jedného "Názov súboru/ priečinka.zip""
-TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Zbaliť do jedného "Názov súboru/ priečinka.7z""
+TEXT_MENU_ARCHIVE_EACHNAME              = "Zbaliť do &jedného "Názov súboru/priečinka.zip""
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Zbaliť do jedného "Názov súboru/priečinka.7z""
 TEXT_MENU_ARCHIVE_ZIP                   = "Zbaliť do "${str1}""
 TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Zbaliť do "${str1}" a vymazať.
 TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Zbaliť do "${str1}" a poslať ema&ilom...
@@ -1066,7 +1078,7 @@ TEXT_MENU_EXTRACT_DLG                   = Vybrať cestu na rozbalenie...
 TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Rozbaliť ako správca
 TEXT_MENU_EXTRACT_HERE_DEL              = Rozbaliť sem a vymazať
 TEXT_MENU_EXTRACT_AUTO_DEL              = Rozbaliť sem (automaticky) a vymazať
-TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Rozbaliť sem automaticky každý archív a vymazať
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Rozbaliť sem (automaticky) každý archív a vymazať
 TEXT_MENU_EXTRACT_SUB_DEL               = Rozbaliť do samostatného priečinka a vymazať
 TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Rozbaliť &do ${str1}\ a vymazať
 
@@ -1075,7 +1087,7 @@ TEXT_MENU_PREVIEW_BROKEN                = Tento súbor je buď [br]poškodený, 
 TEXT_MENU_PREVIEW_TIMEOUT               = Vypršal požadovaný časový limit.
 TEXT_MENU_PREVIEW_EMPTY                 = Prázdny súbor archívu
 TEXT_MENU_PREVIEW_ENCRYPTED             = Názov súboru je zašifrovaný
-TEXT_MENU_PREVIEW_DLLLOADFAILED         = Nemožno použiť funkciu náhľad archívu. [br][br]Reštartujte  prieskumníka Windows alebo [br]reštartujte počítač.
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Nemožno použiť funkciu 'Náhľad archívu'. [br][br]Reštartujte  prieskumníka Windows alebo [br]reštartujte počítač.
 TEXT_MENU_PREVIEW_CANTREADFILELIST      = Nemožno načítať zoznam súborov
 
 TEXT_MENU_OPENING                       = Otváranie...
@@ -1093,7 +1105,7 @@ TEXT_UPDATER_BTN_UPDATE                 = Aktualizovať
 TEXT_UPDATER_BTN_OK                     = OK
 TEXT_UPDATER_BTN_CANCEL                 = Koniec
 TEXT_UPDATER_DOWNLOAD_ERROR             = Sťahovanie zlyhalo.
-TEXT_UPDATER_SETTING_UPDATE             = Nastavenia
+TEXT_UPDATER_SETTING_UPDATE             = Nastavenie
 TEXT_UPDATER_SETTING_SKIPTHIS           = Preskočiť túto verziu
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1145,9 +1157,9 @@ $BTN_OPEN_LICENSE                       = [Prezrieť si licenčnú zmluvu]
 $BTN_HELP_LINK                          = [Nápoveda]
 
 $TEXT_PATH                              = Výstupný priečinok
-$TEXT_INSTALL_STATIC                    = Inštalácia ...
-$TEXT_INST_COMPLETED                    = inštalácia je dokončená
-$TEXT_INST_FAILED                       = inštalácia zlyhala
+$TEXT_INSTALL_STATIC                    = Inštaluje sa...
+$TEXT_INST_COMPLETED                    = inštalácia je dokončená.
+$TEXT_INST_FAILED                       = inštalácia zlyhala.
 $TEXT_UNINSTALLING                      = Odinštalováva sa ...
 
 $CHK_AUTO_REPORT                        = Automaticky odosielať štatistiky o používaní a správy o zlyhaní.
@@ -1162,11 +1174,11 @@ ERR_CRC_ERROR                           = Chyba CRC: ${str1}
 ERR_NOT_ENOUGH_MEM                      = Nedostatok pamäte:${str1}
 
 MSG_FILE_OPEN_ERROR                     = Chyba pri otváraní súboru pri zápise: "${str1}". Ak chcete zastaviť inštaláciu, kliknite na tlačidlo 'Prerušiť', ak to chcete skúsiť znova na 'Opakovať', alebo na 'Ignorovať', ak chcete tento súbor preskočiť.
-MSG_SUCCESS                             = Inštalácia dokončená
+MSG_SUCCESS                             = Inštalácia je dokončená.
 MSG_DLL_REGISTERING                     = Registrácia rozšírenej ponuky Prieskumníka...
 MSG_DLL_UNREGISTERING                   = Odstraňuje sa registrácia rozšírenej ponuky Prieskumníka...
-MSG_ERROR                               = Vyskytla sa chyba
-MSG_ERROR_REGISTER                      = Registrácia zlyhala
+MSG_ERROR                               = Vyskytla sa chyba.
+MSG_ERROR_REGISTER                      = Registrácia zlyhala.
 MSG_SELECT_FOLDER                       = Vyberte priečinok.
 MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} je už spustený. Najskôr program zavrite.
 MSG_XP_IS_NOT_SUPPORTED                 = Tento softvér bude správne fungovať len v systéme Windows Vista a vyššom.
@@ -1176,6 +1188,19 @@ SHORTCUT_LINK_DESCRIPTOIN               = Spustiť ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Tento inštalačný súbor nepodporuje 32-bitový (x86) OS. Stiahnite si nový inštalačný súbor na webovej stránke.
 MSG_ERR_ARM_NOTSUPPORT                  = Tento inštalačný súbor nepodporuje procesor ARM64. Stiahnite si nový inštalačný súbor na webovej stránke.
 ERR_INST_FAILED                         = Inštalácia zlyhala. Reštartujte počítač a skúste to znova.
+$MSG_SELECT_LICENSE                     = Prosím, vyberte si typ edície.
+$EDITION_FREE                           = Skúšobná
+$EDITION_PRO                            = Profesionálna
+$FREE_1                                 = Zadarmo
+$FREE_2                                 = Na domáce a podnikateľské účely
+$FREE_3                                 = Zobrazenie reklám, obmedzenie niektorých funkcií
+$PRO_1                                  = Vyžaduje sa zakúpenie licencie
+$PRO_2                                  = Domov / Podnikanie / Profesionalita
+$PRO_3                                  = Žiadne reklamy
+$PRO_5                                  = Ďalšie exkluzívne funkcie
+$IDC_STATIC_BUYNOW                      = Ešte ste si nekúpili Bandizip? [b]Kúpiť teraz[/b]
+$IDC_STATIC_COMPARISON                  = Porovnanie edícií...
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

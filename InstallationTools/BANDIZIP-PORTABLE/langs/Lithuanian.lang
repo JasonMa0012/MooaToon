@@ -416,6 +416,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Aptikti automatiškai
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Žiūrėti su Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Žiūrėti su BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Žiūrėti su priskirta programa
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimizuoti į sitemos juostą
@@ -581,6 +582,7 @@ IDC_RADIO_HANDLE_METHOD2                = Pridėti f&ailus į esamą archyvą
 IDC_CHK_PASS                            = Naudoti slaptažodį
 IDC_STATIC_PASSWORD_AGAIN               = Kartoti slaptažodį
 IDC_CHK_SHOW_PASS                       = Rodyti slaptažodį
+IDC_CHK_DELETE_FILES                    = Trinti failus po archyvavimo
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -743,7 +745,7 @@ IDC_CHK_VIEWITEM_EXT                    = Daugiau informacijos
 IDC_STATIC_IMAGE_VIEWER                 = Peržiūros programa
 IDC_RADIO_IMAGE_VIEWER_0                = Naudoti vidinę peržiūros programą
 IDC_RADIO_IMAGE_VIEWER_1                = Naudoti susietą programą
-IDC_RADIO_IMAGE_VIEWER_2                = Naudoti Honeyview jei įdiegta
+IDC_RADIO_IMAGE_VIEWER_2                = Naudoti BandiView/Honeyview jei įdiegta
 
 IDC_STATIC_EDITOR                       = Redaktorius
 IDC_BTN_SET_EDITOR_PATH                 = Naršyti...
@@ -1140,6 +1142,7 @@ MSG_NEWVERSION_FOUND                    = Yra naujesnė programos versija. Ar no
 SHORTCUT_LINK_DESCRIPTOIN               = Paleisti ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Ši versija nepalaiko 32-bitų (x86) sistemų. Atsisiųskite naują įdiegimo versiją mūsų tinklapyje.
 MSG_ERR_ARM_NOTSUPPORT                  = Ši versija nepalaiko ARM64 procesorių. Atsisiųskite naują įdiegimo versiją mūsų tinklapyje.
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

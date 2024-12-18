@@ -12,7 +12,7 @@ TRANSLATORS                             = Styb (styb.styb@gmail.com)
 
 
 [TEXT]
-TEXT_BUILDNO                            = Versione#
+TEXT_BUILDNO                            = Build#
 TEXT_FILE                               = File
 TEXT_FOLDER                             = Cartelle
 TEXT_ARCHIVE_SIZE                       = Dimensione dell'archivio
@@ -38,7 +38,7 @@ TEXT_MESSAGEBOX_YES                     = Sì
 TEXT_MESSAGEBOX_NO                      = No
 TEXT_MESSAGEBOX_CONTINUE                = Continua
 TEXT_MESSAGEBOX_HELP                    = Aiuto
-TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Non mostrare di nuovo
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Non mostrare più
 
 TEXT_COLUMN_NAME                        = Nome
 TEXT_COLUMN_COMPSIZE                    = Compresso
@@ -111,7 +111,7 @@ TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Non è possibile modificare il file au
 TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Non è possibile modificare il file corrotto.
 TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Non è possibile modificare questo formato di archivio.
 TEXT_ERR_CANT_CHANGE_FILENAME           = Non è possibile cambiare il nome di questo file.
-TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Non è possibile usare un nome file con [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Non è possibile usare un nome file con[br]? : \ / * < > | ""
 TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = File/cartella già esistente. Non è possibile modificare il nome del file (${str1})
 TEXT_ERR_CANT_CREATE_FOLDER             = Non è possibile creare una cartella.
 TEXT_ERR_NO_FILES_TO_ARCHIVE            = Nessun file da archiviare.
@@ -121,7 +121,9 @@ TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Non è possibile aprire questo archivi
 TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Cartella già esistente.
 TEXT_ERR_FILENAME_EMPTY                 = Il nome del file non è corretto.
 TEXT_ERR_AT_DRAGANDDROP                 = ""Drag and Drop" non riuscito."
+TEXT_ERR_AT_DRAGANDDROP_MULTI           = È già in corso un'altra attività di "Drag and Drop".
 TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = ""Drag and Drop" non riuscito. [br]Bandizip ha disabilitato la funzione "Fast Drag and Drop", prova di nuovo."
+TEXT_ERR_AT_DRAGANDDROP_FASTDND_OFF_ASK = ""Drag and Drop" non riuscito.[br]Vuoi disabilitare la funzione "Fast Drag & Drop" e riprovare?"
 TEXT_ERR_AT_CANT_OPEN_MMF               = Non è possibile aprire il file MMF (mmf:${str1})
 TEXT_ERR_NO_FILES_SELECTED              = Nessun file selezionato
 TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Non è possibile creare una cartella per l'installazione del pacchetto di icone.
@@ -141,7 +143,7 @@ TEXT_MSG_TEMP_FILE_NOT_EXIST            = Non è possibile aprire il seguente fi
 TEXT_MSG_CANT_DELETE_ARCHIVE            = Non è possibile eliminare questo file archivio.
 TEXT_MSG_CRASH_REPORT                   = Bandizip ha riscontrato un problema e verrà chiuso.
 TEXT_MSG_CRASH_REPORT2                  = Bandizip ha riscontrato un problema e verrà chiuso.[br]Vuoi inviare una segnalazione di arresto anomalo allo sviluppatore di Bandizip?
-TEXT_MSG_CRASH_REPORT3                  = La seguente libreria DLL è causa di un problema ed è necessario chiudere.[br]Vuoi inviare una segnalazione di arresto anomalo allo sviluppatore di Bandizip?
+TEXT_MSG_CRASH_REPORT3                  = La seguente libreria DLL è causa di un problema e verrà chiusa.[br]Vuoi inviare una segnalazione di arresto anomalo allo sviluppatore di BandiView?
 TEXT_MSG_HANGAPP_REPORT                 = Bandizip non risponde.[br][br]Vuoi inviare una segnalazione di arresto anomalo allo sviluppatore di Bandizip e chiudere il programma?
 TEXT_MSG_SET_TEMP_PATH                  = Impostare una cartella temporanea
 TEXT_MSG_SET_PATH                       = Selezionare una cartella
@@ -237,6 +239,7 @@ TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Esegui Bandizip come amministratore pe
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = Impossibile creare un collegamento simbolico.
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Il file è scrivibile e utilizzato da un altro processo.
 TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Non ci sono file da archiviare.
+TEXT_ARKERR_DICT_SIZE_OVER              = È richiesta ulteriore memoria per la decompressione. Aumenta l'utilizzo massimo di memoria nelle Impostazioni.
 
 TEXT_SPLITCOMBO_NOSPLIT                 = Nessuna suddivisione
 TEXT_SPLITCOMBO_3MB                     = 3MB
@@ -280,6 +283,9 @@ TEXT_UPDATE_DOWNLOAD_COMPLETED          = Download completato
 TEXT_INSTALL_HONEYVIEW                  = Installa Honeyview
 TEXT_INSTALL_HONEYVIEW_1                = Honeyview non è installato sul tuo computer.
 TEXT_INSTALL_HONEYVIEW_2                = Prova a usare Honeyview sviluppato dalla Bandisoft.<br> Supporta la visualizzazione delle immagini nei file compressi ZIP, RAR o 7z senza estrazione.
+TEXT_INSTALL_BANDIVIEW                  = Installa BandiView
+TEXT_INSTALL_BANDIVIEW_1                = BandiView non è installato sul tuo computer.
+TEXT_INSTALL_BANDIVIEW_2                = Prova BandiView sviluppato dalla Bandisoft.<br> Visualizza le immagini nei file compressi ZIP, RAR o 7z senza estrazione.
 
 TEXT_REGISTRATION_FAILED                = Registrazione non riuscita.[br]Verificare l'indirizzo email e il codice prodotto.
 TEXT_REGISTRATION_SUCCEED               = Bandizip è stato registrato.
@@ -312,11 +318,11 @@ MENUSTR_OPEN                            = Apri archivi&o \tCtrl+O
 MENUSTR_RECENT                          = File recenti
 MENUSTR_CLOSE_FILE                      = &Chiudi archivio \tF4
 MENUSTR_CREATE_ARCHIVE                  = &Nuovo archivio \tCtrl+N
-MENUSTR_NEW_WINDOW                      = Nuova finestra \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW                      = Nuova finestra \tCtrl+Maiusc+N
 MENUSTR_NEW_WINDOW_ADMIN                = Nuova finestra (Amministratore)\tCtrl+Alt+N
 MENUSTR_SAVE_AS_ARCHIVE                 = Salva con nome
-MENUSTR_DELETE_ARCHIVE                  = Elimina archivio \tCtrl+Del
-MENUSTR_PERM_DELETE_ARCHIVE             = Elimina definitivamente l'archivio \tShift+Ctrl+Del
+MENUSTR_DELETE_ARCHIVE                  = Elimina archivio \tCtrl+Canc
+MENUSTR_PERM_DELETE_ARCHIVE             = Elimina definitivamente l'archivio \tMaiusc+Ctrl+Canc
 MENUSTR_OPEN_ARCHIVE_FOLDER             = Apri il percorso dell'archivio
 MENUSTR_TEST_ARCHIVE                    = &Verifica archivio \tCtrl+T
 MENUSTR_SCAN_ARCHIVE                    = Scansione antimalware dell'archivio\tCtrl+I
@@ -325,7 +331,7 @@ MENUSTR_EXIT                            = E&sci \tCtrl+W
 
 MENUSTR_RENAME_FILE                     = &Rinomina file \tF2
 MENUSTR_ADD_FILE                        = &Aggiungi file \tIns
-MENUSTR_DELETE_FILE                     = &Elimina file \tDel
+MENUSTR_DELETE_FILE                     = &Elimina file \tCanc
 MENUSTR_EDIT_COMMENT                    = Commento dell'archivio
 MENUSTR_SETTING_SUB                     = &Impostazioni (F5)
 MENUSTR_REGISTER                        = Registra Bandizip...
@@ -388,7 +394,7 @@ POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Apri con &Bandizip
 
 POPUPMENU_LISTCONTROL_NEW_FOLDER        = Nuova cartella
 POPUPMENU_LISTCONTROL_ADD_FILE          = Aggiungi file... \tIns
-POPUPMENU_LISTCONTROL_DELETE_FILE       = Elimina file \tDel
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Elimina file \tCanc
 POPUPMENU_LISTCONTROL_RENAME_FILE       = Rinomina file
 POPUPMENU_LISTCONTROL_SELECT_ALL        = Seleziona tutto \tCtrl+A
 POPUPMENU_LISTCONTROL_MOVE2PARENT       = Vai alla cartella superiore\tBackspace
@@ -396,8 +402,8 @@ POPUPMENU_LISTCONTROL_MOVE2PARENT       = Vai alla cartella superiore\tBackspace
 POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Elimina archivio
 POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Apri la cartella dell'archivio
 
-POPUPMENU_EXTRACT_AUTODEST              = Estrai qui (Smart)\tCtrl+Shift+S
-POPUPMENU_EXTRACT_CURRENT               = Estrai nella cartella corrente\tCtrl+Shift+C
+POPUPMENU_EXTRACT_AUTODEST              = Estrai qui (Smart)\tCtrl+Maiusc+S
+POPUPMENU_EXTRACT_CURRENT               = Estrai nella cartella corrente\tCtrl+Maiusc+C
 POPUPMENU_EXTRACT_ARCHIVENAME           = Estrai in una cartella con il nome dell'archivio
 POPUPMENU_EXTRACT_DESKTOP               = Estrai sul Desktop
 POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Estrai sul Desktop (Smart)
@@ -426,6 +432,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Scelta automatica
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Visualizza con Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Visualizza con BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Visualizza con il programma associato
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Riduci nell'area di notifica
@@ -594,6 +601,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Aggiungi file all'archivio corrente
 IDC_CHK_PASS                            = Usa password
 IDC_STATIC_PASSWORD_AGAIN               = Reinserire la password
 IDC_CHK_SHOW_PASS                       = Mostra la password
+IDC_CHK_DELETE_FILES                    = Elimina i file dopo l'archiviazione
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -693,7 +701,7 @@ IDC_STATIC_FILENAME_RULE_HELP           = Regole: ${NAME}=Nome file, %Y=Anno, %m
 
 IDC_STATIC_SHELL_BKGND                  = Elementi aggiuntivi del menu contestuale di Windows
 IDC_CHK_SHELL_BKGND_NEW_FOLDER          = "Aggiungi la funzione "Nuova cartella""
-IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = ""Avvia il prompt dei comandi" (cmd.exe) - Premere Shift per aprire cmd.exe come amministratore"
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = ""Avvia il prompt dei comandi" (cmd.exe) - Premere Maiusc per aprire cmd.exe come amministratore"
 
 IDC_STATIC_SHELL_ETC                    = Altro
 IDC_CHK_SHELL_DO_NOT_USE                = Disattiva il menu contestuale
@@ -718,6 +726,7 @@ IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Rileva automaticamente la pagina di co
 IDC_CHK_UNIXZIP_AS_UTF8                 = Usa la pagina di codice UTF-8 durante l'apertura dei file zip di UNIX
 IDC_CHK_PARALLEL_EXT                    = Usa l'estrazione parallela quando possibile
 IDC_STATIC_CODEPAGE                     = Pagina di codice predefinita:
+IDC_STATIC_MAX_MEM_USAGE                = Utilizzo massimo consentito di memoria
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Scompatta l'intero archivio per aprire con il doppio clic i seguenti tipi di file archiviati
 
 ;------------------------------------------------------------------------------
@@ -742,10 +751,12 @@ IDC_CHK_EXCLUDE_FILTER                  = Tipi di file da escludere durante l'ar
 ;------------------------------------------------------------------------------
 [IDD_SETTING_VIEWER]
 IDC_STATIC_VIEWER                       = Visualizza
-IDC_CHK_SHOW_PREVIEW                    = Anteprima immagine senza estrazione
+IDC_CHK_SHOW_PREVIEW                    = Anteprima immagini prima dell'estrazione
 IDC_CHK_SHOW_FOLDER_SIZE                = Mostra la dimensione compressa e originale delle cartelle
 IDC_CHK_SET_LISTCONTROL_FONT            = Imposta il carattere per l'elenco dei file
 IDC_BTN_SET_FONT                        = Imposta carattere...
+IDC_CHK_SET_TREECONTROL_FONT            = Imposta il carattere per il controllo TreeView
+IDC_CHK_SET_COMMENTCONTROL_FONT         = Imposta il carattere per il commento dell'archivio
 
 IDC_STATIC_SETTING_VIEWITEM             = Colonne
 IDC_CHK_VIEWITEM_COMPSIZE               = Dimensione compressa
@@ -762,7 +773,7 @@ IDC_CHK_VIEWITEM_EXT                    = Informazioni aggiuntive
 IDC_STATIC_IMAGE_VIEWER                 = Visualizzatore immagini
 IDC_RADIO_IMAGE_VIEWER_0                = Usa il visualizzatore immagini interno
 IDC_RADIO_IMAGE_VIEWER_1                = Usa il programma associato
-IDC_RADIO_IMAGE_VIEWER_2                = Usa Honeyview se installato
+IDC_RADIO_IMAGE_VIEWER_2                = Usa BandiView/Honeyview se installato
 
 IDC_STATIC_EDITOR                       = Editor di modifica
 IDC_BTN_SET_EDITOR_PATH                 = Sfoglia...
@@ -817,6 +828,7 @@ IDC_STATIC_TITLE                        = Titolo del file SFX:
 IDC_STATIC_RUN                          = Dopo l'estrazione esegui:
 IDC_STATIC_MESSAGE                      = Messaggio del file SFX:
 IDC_CHK_AUTO_CLOSE                      = Chiudi la finestra SFX dopo l'estrazione
+IDC_CHK_RUN_AS_ADMIN                    = Esegui come amministratore
 IDC_BTN_SAVE_SFX_SETTING                = Salva impostazioni
 
 ;------------------------------------------------------------------------------
@@ -842,7 +854,7 @@ IDC_CHK_DO_NOT_ASK_AGAIN                = Non chiedere di nuovo
 
 ;------------------------------------------------------------------------------
 [IDD_REGISTER]
-IDD_REGISTER                            = Registra Bandizip
+IDD_REGISTER                            = Registrazione di Bandizip
 IDC_STATIC_DESC1                        = Inserire l'indirizzo email e il codice prodotto ricevuto tramite email.
 IDC_STATIC_EMAIL                        = Indirizzo email
 IDC_STATIC_PRDUCT_KEY                   = Codice prodotto
@@ -851,7 +863,7 @@ IDC_STATIC_BUYNOW                       = Non hai ancora comprato Bandizip? [Com
 
 ;------------------------------------------------------------------------------
 [IDD_LICENSE_GUIDE]
-IDD_LICENSE_GUIDE                       = Guida per la licenza di Bandizip
+IDD_LICENSE_GUIDE                       = Informazioni sulla licenza di Bandizip
 TEXT_LIMIT_PASSMAN                      = Nella gestione password dell'edizione standard di Bandizip può essere memorizzata solo una password.
 TEXT_SHOW_AD                            = Le pubblicità compaiono nell'edizione standard di Bandizip.[br]È possibile acquistare l'edizione a pagamento per rimuovere gli annunci.
 TEXT_CANNOT_CHANGE                      = Questa funzione non può essere modificata nell'edizione standard di Bandizip.[br]È possibile acquistare l'edizione a pagamento per modificare la funzione.
@@ -1176,6 +1188,19 @@ SHORTCUT_LINK_DESCRIPTOIN               = Lancia ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Questo file d'installazione non supporta il sistema operativo a 32-bit (x86). Si prega di scaricare un nuovo file d'installazione dal sito web.
 MSG_ERR_ARM_NOTSUPPORT                  = Questo file d'installazione non supporta la CPU ARM64. Si prega di scaricare un nuovo file d'installazione dal sito web.
 ERR_INST_FAILED                         = Installazione non riuscita. Si prega di riavviare il PC e riprovare.
+$MSG_SELECT_LICENSE                     = Seleziona il tipo di edizione
+$EDITION_FREE                           = Free
+$EDITION_PRO                            = Professional
+$FREE_1                                 = Gratuita
+$FREE_2                                 = Uso personale e commerciale
+$FREE_3                                 = Mostra annunci, limita alcune funzionalità
+$PRO_1                                  = Disponibile a pagamento
+$PRO_2                                  = Uso personale, commerciale e professionale
+$PRO_3                                  = Senza annunci
+$PRO_5                                  = Altre caratteristiche esclusive
+$IDC_STATIC_BUYNOW                      = Non hai ancora comprato Bandizip? [b]Compra ora[/b]
+$IDC_STATIC_COMPARISON                  = Confronto tra le edizioni...
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

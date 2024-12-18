@@ -104,12 +104,13 @@ if '--BuildEngine' in argv:
 
 if '--ZipEngine' in argv:
     print("======Zip Engine======")
-    args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:60", engine_zip_path, engine_path + r"\LocalBuilds\Engine", ]
+    # https://www.bandisoft.com/bandizip/help/parameter/
+    args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:120", engine_zip_path, engine_path + r"\LocalBuilds\Engine", ]
     async_run(args)
 
 if '--ZipProject' in argv:
     print("======Zip Project======")
-    args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:60", project_zip_path,
+    args = [bandizip_path, "a", "-l:9", "-y", "-v:2000MB", "-t:120", project_zip_path,
             project_path + r"\Art",
             project_path + r"\Config",
             project_path + r"\Content",

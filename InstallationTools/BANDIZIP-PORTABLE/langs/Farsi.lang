@@ -422,6 +422,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = تشخیص خودکار
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = مشاهده با هانی ویو
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = مشاهده با هانی ویو
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = مشاهده با برنامه وابسته سازی شده
 
 DLG_MENUSTR_MINIMIZE2TRAY               = کمینه کنار ساعت
@@ -583,6 +584,7 @@ IDC_RADIO_HANDLE_METHOD2                = افزودن فایل ها به آرش
 IDC_CHK_PASS                            = استفاده از رمزعبور
 IDC_STATIC_PASSWORD_AGAIN               = دوباره وارد کنید
 IDC_CHK_SHOW_PASS                       = نمایش رمزعبور
+IDC_CHK_DELETE_FILES                    = حذف فایل ها بعد از آرشیو سازی
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -1137,6 +1139,7 @@ MSG_XP_IS_NOT_SUPPORTED                 = این برنامه از ویندوز 
 MSG_NEED_ADMIN_PRIVILEGE                = این برنامه فقط توسط کاربری با سطح دسترسی آدمین قابل نصب است[br][br]کاربران غیر آدمین قادر به نصب صحیح برنامه نیستند[br][br]آیا میخواهید نصب را متوقف کنید؟
 MSG_NEWVERSION_FOUND                    = یک نسخه جدید موجود است.آیا میخواهید آن را حالا دانلود کنید؟
 SHORTCUT_LINK_DESCRIPTOIN               = اِجرای ${APPNAME}
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

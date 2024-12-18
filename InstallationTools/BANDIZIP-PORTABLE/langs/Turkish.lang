@@ -404,6 +404,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Otomatik Algıla
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Honeyview ile görüntüle
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = BandiView/Honeyview ile görüntüle
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = İlişkilendirilmiş program ile görüntüle
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Sistem tepsisine küçült
@@ -564,6 +565,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Dosyaları Şimdiki Arşive Ekle
 IDC_CHK_PASS                            = Şifre Kullan
 IDC_STATIC_PASSWORD_AGAIN               = Şifreyi Tekrar Girin
 IDC_CHK_SHOW_PASS                       = Şifreyi Göster
+IDC_CHK_DELETE_FILES                    = Arşivleme bitince dosyaları sil.
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -718,7 +720,7 @@ IDC_CHK_VIEWITEM_EXT                    = Ek Bilgiler
 IDC_STATIC_IMAGE_VIEWER                 = Arşivlerdeki resim dosyalarını açmak için
 IDC_RADIO_IMAGE_VIEWER_0                = Bandizip dahili resim görüntüleyicisini kullan.
 IDC_RADIO_IMAGE_VIEWER_1                = Her bir resim formatı ile hangi program ilişkilendirilmişse onu kullan.
-IDC_RADIO_IMAGE_VIEWER_2                = Yüklüyse Honeyview görüntüleyicisini kullan
+IDC_RADIO_IMAGE_VIEWER_2                = Yüklüyse BandiView/Honeyview görüntüleyicisini kullan
 
 IDC_STATIC_EDITOR                       = Metin dosyalarını açmak ve düzenlemek için
 IDC_BTN_SET_EDITOR_PATH                 = Gözat...
@@ -1018,6 +1020,7 @@ MSG_XP_IS_NOT_SUPPORTED                 = Bu program Windows XP üzerinde çalı
 MSG_NEED_ADMIN_PRIVILEGE                = Bu program sadece yönetici haklarına sahip bir kullanıcı tarafından kurulabilir.[br][br]Yönetici olmayan kullanıcılar programı doğru şekilde kuramayabilir.[br][br]Kurulumu durdurmak istiyor musunuz?
 MSG_NEWVERSION_FOUND                    = Yeni bir sürüm kullanıbilir durumda. Şimdi indirmek ister misiniz?
 SHORTCUT_LINK_DESCRIPTOIN               = Başlat: ${APPNAME}
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

@@ -123,7 +123,9 @@ TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = 파일을 열지 못하였습니다.[b
 TEXT_ERR_SAME_NAME_FOLDER_EXIST         = 압축 파일과 같은 이름을 가진 폴더가 이미 있습니다.
 TEXT_ERR_FILENAME_EMPTY                 = 파일명이 바르지 않습니다.
 TEXT_ERR_AT_DRAGANDDROP                 = 드래그&드롭을 처리할 수 없습니다.
+TEXT_ERR_AT_DRAGANDDROP_MULTI           = 다른 드래그&드롭 작업이 이미 진행 중입니다.
 TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = 드래그&드롭을 처리할 수 없습니다. [br]'빠른 드래그&드롭'을 사용하지 않도록 설정하였으니 다시 시도해 보시기 바랍니다.
+TEXT_ERR_AT_DRAGANDDROP_FASTDND_OFF_ASK = 드래그&드롭을 처리할 수 없습니다. [br]"빠른 드래그&드롭"을 사용하지 않도록 설정 후 다시 시도하시겠습니까?
 TEXT_ERR_AT_CANT_OPEN_MMF               = MMF를 열 수 없습니다. (mmf:${str1})
 TEXT_ERR_NO_FILES_SELECTED              = 선택된 파일이 없습니다.
 TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = 아이콘팩을 설치하기 위한 폴더를 생성할 수 없습니다.
@@ -239,6 +241,7 @@ TEXT_ARKERR_NEED_ADMIN_SYMLINK          = 심볼릭 링크를 만들기 위해�
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = 심볼릭 링크를 생성할 수 없습니다.
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = 쓰기 가능 상태로 다른 프로세스가 사용 중인 파일입니다.
 TEXT_ARKERR_NOFILE_TO_ARCHIVE           = 압축할 파일이 없습니다.
+TEXT_ARKERR_DICT_SIZE_OVER              = 압축 해제에 더 많은 메모리가 필요합니다. 환경 설정에서 허용되는 메모리 사용량를 늘려 주세요.
 
 TEXT_SPLITCOMBO_NOSPLIT                 = 분할하지 않음
 TEXT_SPLITCOMBO_3MB                     = 3MB
@@ -282,6 +285,9 @@ TEXT_UPDATE_DOWNLOAD_COMPLETED          = 내려받기 완료
 TEXT_INSTALL_HONEYVIEW                  = 꿀뷰 설치
 TEXT_INSTALL_HONEYVIEW_1                = 시스템에 꿀뷰가 설치되어 있지 않습니다.
 TEXT_INSTALL_HONEYVIEW_2                = 압축을 풀지 않고 이미지를 볼 수 있는 편리한 이미지 뷰어인 꿀뷰를 한번 설치해 보시겠습니까?
+TEXT_INSTALL_BANDIVIEW                  = 반디뷰 설치
+TEXT_INSTALL_BANDIVIEW_1                = 컴퓨터에 반디뷰가 설치되어 있지 않습니다.
+TEXT_INSTALL_BANDIVIEW_2                = 압축 해제 없이도 이미지를 바로 볼 수 있는 편리한 이미지 뷰어 반디뷰를 설치해 보시겠습니까?
 
 TEXT_REGISTRATION_FAILED                = 제품 등록을 실패하였습니다. 이메일 주소와 제품 키를 확인해 보시기 바랍니다.
 TEXT_REGISTRATION_SUCCEED               = 제품을 등록하였습니다.
@@ -428,6 +434,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = 자동 인식
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = 꿀뷰로 보기
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = 반디뷰/꿀뷰로 보기
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = 연결된 프로그램으로 보기
 
 DLG_MENUSTR_MINIMIZE2TRAY               = 트레이로 최소화
@@ -596,6 +603,7 @@ IDC_RADIO_HANDLE_METHOD2                = 현재 파일에 추가하기(&3)
 IDC_CHK_PASS                            = 암호 사용
 IDC_STATIC_PASSWORD_AGAIN               = 암호 확인
 IDC_CHK_SHOW_PASS                       = 암호 보이기
+IDC_CHK_DELETE_FILES                    = 압축 후 원본 파일 삭제(&E)
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -720,6 +728,7 @@ IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = 맥에서 압축한 파일일 경우 �
 IDC_CHK_UNIXZIP_AS_UTF8                 = 유닉스에서 압축한 ZIP 파일의 코드페이지를 UTF8으로 처리
 IDC_CHK_PARALLEL_EXT                    = 지원하는 포맷인 경우 병렬 압축 해제 사용
 IDC_STATIC_CODEPAGE                     = 프로그램 시작할 때 기본 코드페이지
+IDC_STATIC_MAX_MEM_USAGE                = 허용되는 최대 메모리 사용량:
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = 더블 클릭으로 실행할 때 다음 파일 종류는 모두 풀고 실행
 
 ;------------------------------------------------------------------------------
@@ -744,10 +753,12 @@ IDC_CHK_EXCLUDE_FILTER                  = 압축할 때 다음 파일은 제외
 ;------------------------------------------------------------------------------
 [IDD_SETTING_VIEWER]
 IDC_STATIC_VIEWER                       = 보기 설정
-IDC_CHK_SHOW_PREVIEW                    = 이미지 파일 미리 보기 사용
-IDC_CHK_SHOW_FOLDER_SIZE                = 폴더의 압축/원본 크기 보여주기
-IDC_CHK_SET_LISTCONTROL_FONT            = 파일 목록의 글꼴 변경하기
+IDC_CHK_SHOW_PREVIEW                    = 이미지 파일 미리보기 사용
+IDC_CHK_SHOW_FOLDER_SIZE                = 폴더의 압축/원본 크기 보기
+IDC_CHK_SET_LISTCONTROL_FONT            = 파일 목록의 글꼴 바꾸기
 IDC_BTN_SET_FONT                        = 글꼴 설정...
+IDC_CHK_SET_TREECONTROL_FONT            = 트리 컨트롤의 글꼴 바꾸기
+IDC_CHK_SET_COMMENTCONTROL_FONT         = 압축 파일 설명 창의 글꼴 바꾸기
 
 IDC_STATIC_SETTING_VIEWITEM             = 칼럼 설정
 IDC_CHK_VIEWITEM_COMPSIZE               = 압축 크기
@@ -764,7 +775,7 @@ IDC_CHK_VIEWITEM_EXT                    = 부가 정보
 IDC_STATIC_IMAGE_VIEWER                 = 이미지 파일 뷰어
 IDC_RADIO_IMAGE_VIEWER_0                = 내장 뷰어 사용
 IDC_RADIO_IMAGE_VIEWER_1                = 연결된 프로그램
-IDC_RADIO_IMAGE_VIEWER_2                = 꿀뷰가 설치된 경우 꿀뷰 사용
+IDC_RADIO_IMAGE_VIEWER_2                = 반디뷰/꿀뷰가 설치된 경우 반디뷰/꿀뷰 사용
 
 IDC_STATIC_EDITOR                       = 편집기
 IDC_BTN_SET_EDITOR_PATH                 = 지정
@@ -819,6 +830,7 @@ IDC_STATIC_TITLE                        = 제목:
 IDC_STATIC_RUN                          = 압축 풀기 후 실행:
 IDC_STATIC_MESSAGE                      = 메시지:
 IDC_CHK_AUTO_CLOSE                      = 압축 풀기 성공 후 창 닫기
+IDC_CHK_RUN_AS_ADMIN                    = 관리자 권한으로 실행
 IDC_BTN_SAVE_SFX_SETTING                = 현재 설정을 기본 설정으로
 
 ;------------------------------------------------------------------------------
@@ -1061,7 +1073,7 @@ TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = 관리자 권한으로 압축하기(&Y
 
 TEXT_MENU_EXTRACT_HERE                  = 여기에 풀기(&X)
 TEXT_MENU_EXTRACT_AUTO                  = 알아서 풀기(&Z)
-TEXT_MENU_EXTRACT_AUTO_EACH             = 각각 알아서 풀기(&Z)
+TEXT_MENU_EXTRACT_AUTO_EACH             = 각각 알아서 풀기(&1)
 TEXT_MENU_EXTRACT_SUB                   = 각각 파일명 폴더에 풀기(&E)
 TEXT_MENU_EXTRACT_ARCHIVENAME           = ${str1}\ 에 풀기(&E)
 TEXT_MENU_EXTRACT_DLG                   = 반디집으로 압축 풀기(&B)...
@@ -1178,6 +1190,19 @@ SHORTCUT_LINK_DESCRIPTOIN               = ${APPNAME}을 실행합니다.
 MSG_ERR_X86_NOTSUPPORT                  = 이 설치 파일은 32비트(x86) OS를 지원하지 않습니다. 홈페이지에서 설치 파일을 새로 받으시기 바랍니다.
 MSG_ERR_ARM_NOTSUPPORT                  = 이 설치 파일은 ARM64 CPU를 지원하지 않습니다. 홈페이지에서 설치 파일을 새로 받으시기 바랍니다.
 ERR_INST_FAILED                         = 프로그램 설치에 실패했습니다. 컴퓨터를 다시 시작하고 다시 시도해 보시기 바랍니다.
+$MSG_SELECT_LICENSE                     = 라이선스를 선택해 주세요.
+$EDITION_FREE                           = 무료 에디션
+$EDITION_PRO                            = 프로페셔널 에디션
+$FREE_1                                 = 무료 사용
+$FREE_2                                 = 가정, 기업, 관공서등 모든 장소에서 사용 가능
+$FREE_3                                 = 광고 표시, 제휴사 바로가기 링크, 기능 제한
+$PRO_1                                  = 라이선스 구매 필요 (유료)
+$PRO_2                                  = 가정 & 기업 & 전문가
+$PRO_3                                  = 광고 없음
+$PRO_5                                  = 프로페셔널 전용 고급 기능
+$IDC_STATIC_BUYNOW                      = 제품을 아직 구매하지 않으셨나요? [b]구매하기[/b]
+$IDC_STATIC_COMPARISON                  = 에디션 비교
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

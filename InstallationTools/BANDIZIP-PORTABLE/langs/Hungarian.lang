@@ -421,6 +421,7 @@ POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
 POPUPMENU_CODEPAGE_AUTODETECT           = Aut. észlelés
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Megtekintés Honeyview-val
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Megtekintés BandiView/Honeyview-val
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Megtekintés a hozzárendelt programmal
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Tálcára minimalizálás
@@ -582,6 +583,7 @@ IDC_RADIO_HANDLE_METHOD2                = Fájlok &hozzáadása az archívumhoz
 IDC_CHK_PASS                            = Jelszó használata
 IDC_STATIC_PASSWORD_AGAIN               = Jelszó újra megadása
 IDC_CHK_SHOW_PASS                       = Jelszó mutatása
+IDC_CHK_DELETE_FILES                    = Fájlok törlése tömörítés után
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -745,7 +747,7 @@ IDC_CHK_VIEWITEM_EXT                    = További információ
 IDC_STATIC_IMAGE_VIEWER                 = Képnézegető
 IDC_RADIO_IMAGE_VIEWER_0                = Belső képnézegető használata
 IDC_RADIO_IMAGE_VIEWER_1                = Hozzárendelt program használata
-IDC_RADIO_IMAGE_VIEWER_2                = Honeyview használata (ha telepítve van)
+IDC_RADIO_IMAGE_VIEWER_2                = BandiView/Honeyview használata (ha telepítve van)
 
 IDC_STATIC_EDITOR                       = Szerkesztő
 IDC_BTN_SET_EDITOR_PATH                 = Tallózás...
@@ -1153,6 +1155,7 @@ SHORTCUT_LINK_DESCRIPTOIN               = ${APPNAME} indítása
 MSG_ERR_X86_NOTSUPPORT                  = Ez a telepítő nem támogatja a 32 bites (x86) operációs rendszert. Kérjük, töltsön le egy új telepítőt a weboldalról!
 MSG_ERR_ARM_NOTSUPPORT                  = Ez a telepítő nem támogatja az ARM64 processzort. Kérjük, töltsön le egy új telepítőt a weboldalról!
 ERR_INST_FAILED                         = A telepítés nem sikerült. Kérjük, indítsa újra a számítógépet, és próbálja meg ismét!
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

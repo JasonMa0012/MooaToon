@@ -426,6 +426,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Detección automática
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Ver con Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Ver con BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Ver con programa asociado
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimizar al área de notificación
@@ -594,6 +595,7 @@ IDC_RADIO_HANDLE_METHOD2                = Aña&dir archivo(s) al archivo comprim
 IDC_CHK_PASS                            = Usar contraseña
 IDC_STATIC_PASSWORD_AGAIN               = Repetir contraseña
 IDC_CHK_SHOW_PASS                       = Mostrar contraseña
+IDC_CHK_DELETE_FILES                    = Eliminar archivos después de comprimir
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -716,7 +718,7 @@ IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Extraer incluso si el archivo TGZ y TB
 IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = "Extraer en una nueva carpeta si solo hay un archivo al usar "Extraer aquí (Inteligente)""
 IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Detectar página de códigos de Macintosh automáticamente
 IDC_CHK_UNIXZIP_AS_UTF8                 = Usar la página de códigos UTF-8 al abrir un archivo ZIP de UNIX
-IDC_CHK_PARALLEL_EXT                    = Use extracción paralela si es posible
+IDC_CHK_PARALLEL_EXT                    = Usar extracción paralela si es posible
 IDC_STATIC_CODEPAGE                     = Página de códigos predeterminada
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Ejecutar los siguientes tipos de archivo después de descomprimir todo al hacer doble clic
 
@@ -762,7 +764,7 @@ IDC_CHK_VIEWITEM_EXT                    = Información adicional
 IDC_STATIC_IMAGE_VIEWER                 = Visor de imágenes
 IDC_RADIO_IMAGE_VIEWER_0                = Utilizar visor de imágenes interno
 IDC_RADIO_IMAGE_VIEWER_1                = Utilizar programa asociado
-IDC_RADIO_IMAGE_VIEWER_2                = Utilizar Honeyview si está instalado
+IDC_RADIO_IMAGE_VIEWER_2                = Utilizar BandiView/Honeyview si está instalado
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Explorar...
@@ -817,6 +819,7 @@ IDC_STATIC_TITLE                        = Nombre SFX:
 IDC_STATIC_RUN                          = Ejecutar después extracción:
 IDC_STATIC_MESSAGE                      = Mensaje SFX:
 IDC_CHK_AUTO_CLOSE                      = Cerrar ventana SFX después de la extracción
+IDC_CHK_RUN_AS_ADMIN                    = Ejecutar como administrador
 IDC_BTN_SAVE_SFX_SETTING                = Guardar opciones
 
 ;------------------------------------------------------------------------------
@@ -1176,6 +1179,17 @@ SHORTCUT_LINK_DESCRIPTOIN               = Iniciar ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Este archivo de instalación no es compatible con el sistema operativo de 32 bits (x86). Descargue un nuevo archivo de instalación en el sitio web.
 MSG_ERR_ARM_NOTSUPPORT                  = Este archivo de instalación no es compatible con la CPU ARM64. Descargue un nuevo archivo de instalación en el sitio web.
 ERR_INST_FAILED                         = Instalación fallida. Reinicie su PC y vuelva a intentarlo.
+$MSG_SELECT_LICENSE                     = Seleccione una Version.
+$EDITION_FREE                           = Version de Prueba
+$EDITION_PRO                            = Version Pro
+$FREE_1                                 = Gratis
+$FREE_3                                 = Tiene anuncios, algunas caracteristicas estan limitadas.
+$PRO_1                                  = Disponible por un unico precio
+$PRO_2                                  = Hogar, empresas y profesionales
+$PRO_5                                  = Otras funciones exclusivas
+$IDC_STATIC_BUYNOW                      = ¿Aun no has comprado Bandizip? [b]Compra Ahora[/b]
+$IDC_STATIC_COMPARISON                  = Comparacion entre versiones...
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

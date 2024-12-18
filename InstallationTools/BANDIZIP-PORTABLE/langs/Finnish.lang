@@ -502,6 +502,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Lisää tiedosto(ja) nykyiseen arkist
 IDC_CHK_PASS                            = Käytä salasanaa
 IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
 IDC_CHK_SHOW_PASS                       = Show Password
+IDC_CHK_DELETE_FILES                    = Poista tiedostot arkistoinnin jälkeen
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -907,6 +908,7 @@ $BTN_HELP_LINK                          = [Ohje]
 
 
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip on yhä käynnissä. Sulje ohjelma ensin.
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

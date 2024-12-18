@@ -121,7 +121,9 @@ TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Não é possível abrir este arquivo [
 TEXT_ERR_SAME_NAME_FOLDER_EXIST         = A pasta já existe.
 TEXT_ERR_FILENAME_EMPTY                 = Nome de arquivo incorreto.
 TEXT_ERR_AT_DRAGANDDROP                 = Falha ao arrastar e soltar.
+TEXT_ERR_AT_DRAGANDDROP_MULTI           = Outra operação de arrastar e soltar já está em andamento.
 TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Falha ao arrastar e soltar. [br]Bandizip acabou de desligar a função "Arrastar e Soltar Rápido", por favor tente novamente..
+TEXT_ERR_AT_DRAGANDDROP_FASTDND_OFF_ASK = Falha ao arrastar e soltar.[br]Gostaria de desativar o "Arrastar e Soltar Rápido" e tentar novamente?
 TEXT_ERR_AT_CANT_OPEN_MMF               = Não é possível abrir o MMF (mmf:${str1})
 TEXT_ERR_NO_FILES_SELECTED              = Sem arquivos seleciados.
 TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Não é possível criar uma pasta para a instalação do "Icon Pack".
@@ -237,6 +239,7 @@ TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Execute Bandizip como Administrador ou
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = Não foi possível criar o link simbólico.
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = O arquivo é gravável e está sendo usado por outro processo.
 TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Não há nenhum arquivo para arquivar.
+TEXT_ARKERR_DICT_SIZE_OVER              = Mais memória é necessária para descompactação. Aumente o uso permitido de memória nas configurações.
 
 TEXT_SPLITCOMBO_NOSPLIT                 = Não dividir
 TEXT_SPLITCOMBO_3MB                     = 3MB
@@ -280,6 +283,9 @@ TEXT_UPDATE_DOWNLOAD_COMPLETED          = Download completo
 TEXT_INSTALL_HONEYVIEW                  = Instalar Honeyview
 TEXT_INSTALL_HONEYVIEW_1                = Honeyview não está instalado em seu computador.
 TEXT_INSTALL_HONEYVIEW_2                = Por favor, teste Honeyview desenvolvido pela Bandisoft.<br> Ele suporta visualizar imagens em arquivos comprimidos como ZIP, RAR, 7Z sem a necessidade de extraí-los.
+TEXT_INSTALL_BANDIVIEW                  = Instalar BandiView
+TEXT_INSTALL_BANDIVIEW_1                = BandiView não está instalado no seu computador.
+TEXT_INSTALL_BANDIVIEW_2                = Experimente o BandiView desenvolvido pela Bandisoft.<br>Veja imagens compactadas em arquivos ZIP, RAR ou 7Z sem extração de arquivo.
 
 TEXT_REGISTRATION_FAILED                = Registro falhou.[br]Verifique seu endereço de e-mail e chave do produto.
 TEXT_REGISTRATION_SUCCEED               = Seu Bandizip foi registrado.
@@ -426,6 +432,7 @@ POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
 POPUPMENU_CODEPAGE_AUTODETECT           = Auto detectar
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Visualizar com Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Visualizar com BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Visualizar com o programa associado
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimizar para a barra de tarefas
@@ -594,6 +601,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Adicionar arquivo(s) à compressão a
 IDC_CHK_PASS                            = Usar senha
 IDC_STATIC_PASSWORD_AGAIN               = Digite novamente a senha
 IDC_CHK_SHOW_PASS                       = Mostrar senha
+IDC_CHK_DELETE_FILES                    = Remover arquivos após compressão
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -718,6 +726,7 @@ IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Detectar codificação Macintosh autom
 IDC_CHK_UNIXZIP_AS_UTF8                 = Utilizar codificação UTF-8 ao abrir arquivo ZIP gerado em UNIX
 IDC_CHK_PARALLEL_EXT                    = Use extração paralela, se possível
 IDC_STATIC_CODEPAGE                     = Codificação padrão
+IDC_STATIC_MAX_MEM_USAGE                = Uso máximo de memória permitido:
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Execute os seguintes tipos de arquivo depois de descompactar tudo ao clicar duas vezes
 
 ;------------------------------------------------------------------------------
@@ -746,6 +755,8 @@ IDC_CHK_SHOW_PREVIEW                    = Pré-visualizar imagem
 IDC_CHK_SHOW_FOLDER_SIZE                = Mostrar o tamanho Comprimido/Original da pasta
 IDC_CHK_SET_LISTCONTROL_FONT            = Defina a fonte da lista de arquivos
 IDC_BTN_SET_FONT                        = Definir fonte...
+IDC_CHK_SET_TREECONTROL_FONT            = Defina a fonte do controle TreeView
+IDC_CHK_SET_COMMENTCONTROL_FONT         = Defina a fonte para comentários de arquivo
 
 IDC_STATIC_SETTING_VIEWITEM             = Colunas
 IDC_CHK_VIEWITEM_COMPSIZE               = Tamanho comprimido
@@ -762,7 +773,7 @@ IDC_CHK_VIEWITEM_EXT                    = Informação adicional
 IDC_STATIC_IMAGE_VIEWER                 = Visualizador de imagem
 IDC_RADIO_IMAGE_VIEWER_0                = Utilizar visualizador interno de imagem
 IDC_RADIO_IMAGE_VIEWER_1                = Utilizar programa associado
-IDC_RADIO_IMAGE_VIEWER_2                = Utilizar Honeyview se instalado
+IDC_RADIO_IMAGE_VIEWER_2                = Utilizar BandiView/Honeyview se instalado
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Selecionar...
@@ -817,6 +828,7 @@ IDC_STATIC_TITLE                        = Título de SFX:
 IDC_STATIC_RUN                          = Executar após extração:
 IDC_STATIC_MESSAGE                      = Mensagem de SFX:
 IDC_CHK_AUTO_CLOSE                      = Fechar janela de SFX após extração
+IDC_CHK_RUN_AS_ADMIN                    = Executar como administrador
 IDC_BTN_SAVE_SFX_SETTING                = Salvar configurações
 
 ;------------------------------------------------------------------------------
@@ -1176,6 +1188,19 @@ SHORTCUT_LINK_DESCRIPTOIN               = Iniciar ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Este arquivo de configuração não oferece suporte a sistemas operacionais de 32-bits (x86). Baixe um novo arquivo de configuração no site.
 MSG_ERR_ARM_NOTSUPPORT                  = Este arquivo de configuração não suporta CPU ARM64. Baixe um novo arquivo de configuração no site.
 ERR_INST_FAILED                         = Instalação falhou. Reinicie o seu PC e tente novamente.
+$MSG_SELECT_LICENSE                     = Selecione um tipo de edição.
+$EDITION_FREE                           = Grátis
+$EDITION_PRO                            = Profissional
+$FREE_1                                 = Grátis
+$FREE_2                                 = Casa & Negócios
+$FREE_3                                 = Exibir anúncios, restringir alguns recursos
+$PRO_1                                  = Licença paga necessária
+$PRO_2                                  = Casa & Negócios & Profissional
+$PRO_3                                  = Sem anúncios
+$PRO_5                                  = Outros recursos exclusivos
+$IDC_STATIC_BUYNOW                      = Ainda não comprou Bandizip? [b]Compre agora[/b]
+$IDC_STATIC_COMPARISON                  = Comparação entre as edições...
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

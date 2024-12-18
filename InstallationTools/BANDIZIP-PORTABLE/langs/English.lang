@@ -115,7 +115,7 @@ TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Cannot edit the Self-Extracting file (
 TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Cannot edit the broken file.
 TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Cannot edit this archive format.
 TEXT_ERR_CANT_CHANGE_FILENAME           = Cannot change this file name.
-TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Cannot use the file name with [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Cannot use the file name with[br]? : \ / * < > | ""
 TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = The same file/folder exists. Cannot change the file name (${str1})
 TEXT_ERR_CANT_CREATE_FOLDER             = Cannot create a folder.
 TEXT_ERR_NO_FILES_TO_ARCHIVE            = No files to archive.
@@ -124,8 +124,10 @@ TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Cannot add the file to archive. [br] -
 TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Cannot open this archive [br] - ${str1}
 TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Same folder exists.
 TEXT_ERR_FILENAME_EMPTY                 = The filename is incorrect.
-TEXT_ERR_AT_DRAGANDDROP                 = Drag and Drop failed.
+TEXT_ERR_AT_DRAGANDDROP                 = Drag & Drop failed.
+TEXT_ERR_AT_DRAGANDDROP_MULTI           = Another Drag & Drop task is already in progress.
 TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Drag and Drop failed. [br]Bandizip has just turned off the 'Fast Drag and Drop' function, please try it again.
+TEXT_ERR_AT_DRAGANDDROP_FASTDND_OFF_ASK = Drag & Drop failed.[br]Would you like to disable "Fast Drag & Drop" and try again?
 TEXT_ERR_AT_CANT_OPEN_MMF               = Cannot open the MMF (mmf:${str1})
 TEXT_ERR_NO_FILES_SELECTED              = No file selected
 TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Cannot create a folder for the Icon Pack installation.
@@ -241,6 +243,7 @@ TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Run Bandizip as Administrator to creat
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = Cannot create a symbolic link.
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = The file is writable and being used by another process.
 TEXT_ARKERR_NOFILE_TO_ARCHIVE           = There is no file to archive.
+TEXT_ARKERR_DICT_SIZE_OVER              = More memory is required for decompression. Increase the allowable usage of memory in the Settings.
 
 TEXT_SPLITCOMBO_NOSPLIT                 = No split
 TEXT_SPLITCOMBO_3MB                     = 3MB
@@ -284,6 +287,9 @@ TEXT_UPDATE_DOWNLOAD_COMPLETED          = Download complete
 TEXT_INSTALL_HONEYVIEW                  = Install Honeyview
 TEXT_INSTALL_HONEYVIEW_1                = Honeyview isn't installed on your computer.
 TEXT_INSTALL_HONEYVIEW_2                = Please try Honeyview developed by Bandisoft.<br> It supports viewing the images in compressed ZIP, RAR, or 7z files without extraction.
+TEXT_INSTALL_BANDIVIEW                  = Install BandiView
+TEXT_INSTALL_BANDIVIEW_1                = BandiView is not installed on your computer.
+TEXT_INSTALL_BANDIVIEW_2                = Try BandiView developed by Bandisoft.<br>View images compressed in ZIP, RAR, or 7Z archives without file extraction.
 
 TEXT_REGISTRATION_FAILED                = Registration failed.[br]Check your email address and product key.
 TEXT_REGISTRATION_SUCCEED               = Your Bandizip has been registered.
@@ -430,6 +436,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Auto-detect
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = View with Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = View with BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = View with associated program
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimize to tray
@@ -598,6 +605,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Add File(s) to Current Archive
 IDC_CHK_PASS                            = Use Password
 IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
 IDC_CHK_SHOW_PASS                       = Show Password
+IDC_CHK_DELETE_FILES                    = Delete files after archving
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -722,6 +730,7 @@ IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Detect Macintosh code page automatical
 IDC_CHK_UNIXZIP_AS_UTF8                 = Use UTF-8 code page when you open a zip file from UNIX
 IDC_CHK_PARALLEL_EXT                    = Use parallel extraction if possible
 IDC_STATIC_CODEPAGE                     = Default Code page
+IDC_STATIC_MAX_MEM_USAGE                = Maximum allowable memory usage:
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Execute the following file types after unpacking everything when double-clicked
 
 ;------------------------------------------------------------------------------
@@ -746,10 +755,12 @@ IDC_CHK_EXCLUDE_FILTER                  = File types to exclude when archiving
 ;------------------------------------------------------------------------------
 [IDD_SETTING_VIEWER]
 IDC_STATIC_VIEWER                       = View
-IDC_CHK_SHOW_PREVIEW                    = Preview image without extracting
-IDC_CHK_SHOW_FOLDER_SIZE                = Show folder's Compressed/Original size
-IDC_CHK_SET_LISTCONTROL_FONT            = Set the font of the file list
-IDC_BTN_SET_FONT                        = Set font...
+IDC_CHK_SHOW_PREVIEW                    = Preview images before extraction
+IDC_CHK_SHOW_FOLDER_SIZE                = Show folder's compressed/original size
+IDC_CHK_SET_LISTCONTROL_FONT            = Set the font for file lists
+IDC_BTN_SET_FONT                        = Font settings...
+IDC_CHK_SET_TREECONTROL_FONT            = Set the font for TreeView control
+IDC_CHK_SET_COMMENTCONTROL_FONT         = Set the font for archive comments
 
 IDC_STATIC_SETTING_VIEWITEM             = Columns
 IDC_CHK_VIEWITEM_COMPSIZE               = Compressed Size
@@ -766,7 +777,7 @@ IDC_CHK_VIEWITEM_EXT                    = Additional Information
 IDC_STATIC_IMAGE_VIEWER                 = Image viewer
 IDC_RADIO_IMAGE_VIEWER_0                = Use internal image viewer
 IDC_RADIO_IMAGE_VIEWER_1                = Use associated program
-IDC_RADIO_IMAGE_VIEWER_2                = Use Honeyview if installed
+IDC_RADIO_IMAGE_VIEWER_2                = Use BandiView/Honeyview if installed
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Browse...
@@ -821,6 +832,7 @@ IDC_STATIC_TITLE                        = SFX Title:
 IDC_STATIC_RUN                          = Run after extracting:
 IDC_STATIC_MESSAGE                      = SFX Message:
 IDC_CHK_AUTO_CLOSE                      = Close SFX window after extracting
+IDC_CHK_RUN_AS_ADMIN                    = Run as administrator
 IDC_BTN_SAVE_SFX_SETTING                = Save Settings
 
 ;------------------------------------------------------------------------------
@@ -1180,6 +1192,19 @@ SHORTCUT_LINK_DESCRIPTOIN               = Launch ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = This setup file does not support 32-bit (x86) OS. Please download a new setup file on the website.
 MSG_ERR_ARM_NOTSUPPORT                  = This setup file does not support ARM64 CPU. Please download a new setup file on the website.
 ERR_INST_FAILED                         = Installation failed. Please restart your PC and try again.
+$MSG_SELECT_LICENSE                     = Please select an edition type.
+$EDITION_FREE                           = Free
+$EDITION_PRO                            = Professional
+$FREE_1                                 = Free of charge
+$FREE_2                                 = Home & Business
+$FREE_3                                 = Show ads, restrict some features
+$PRO_1                                  = Paid license required
+$PRO_2                                  = Home & Business & Professional
+$PRO_3                                  = No ads
+$PRO_5                                  = Other exclusive features
+$IDC_STATIC_BUYNOW                      = Not yet bought Bandizip? [b]Buy Now[/b]
+$IDC_STATIC_COMPARISON                  = Comparison between the editions...
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

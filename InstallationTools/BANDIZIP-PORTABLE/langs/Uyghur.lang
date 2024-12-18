@@ -485,6 +485,7 @@ IDC_RADIO_HANDLE_METHOD2                = ھۆججەتلەرنى نۆۋەتتى�
 IDC_CHK_PASS                            = شىفىر ئىشلىتىش
 IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
 IDC_CHK_SHOW_PASS                       = Show Password
+IDC_CHK_DELETE_FILES                    = يېشىپ بولغاندىن كېيىن ئەسلى ھۆججەتنى ئۆچۈرۋىتىش
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -634,7 +635,7 @@ IDC_CHK_VIEWITEM_COMMENT                = ھۆججەت ئەسكەرتمىسى
 IDC_STATIC_IMAGE_VIEWER                 = رەسىم تەكشۈرگۈچ
 IDC_RADIO_IMAGE_VIEWER_0                = ئىچكى قىسىمدىكى رەسىم تەكشۈرگۈچنى قوللىنىش
 IDC_RADIO_IMAGE_VIEWER_1                = تاشقى باغلىنىشلىق پروگراممىنى قوللىنىش
-IDC_RADIO_IMAGE_VIEWER_2                = ئورنىتىلغان بولسا Honeyview نى چوللىنىڭ
+IDC_RADIO_IMAGE_VIEWER_2                = ئورنىتىلغان بولسا BandiView/Honeyview نى چوللىنىڭ
 
 IDC_STATIC_EDITOR                       = تەھرىرلىگۈچ
 IDC_BTN_SET_EDITOR_PATH                 = ئارىلاش...
@@ -890,6 +891,7 @@ $BTN_HELP_LINK                          = [ياردەم]
 
 
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip يەنىلا ئىشلەۋاتىدۇ. ئاۋال پروگراممىنى تاقاڭ
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

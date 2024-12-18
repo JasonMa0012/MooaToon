@@ -9,6 +9,9 @@
 [GENERAL]
 LANG_NAME                               = Nederlands
 TRANSLATORS                             = Marc Holderbeke
+DLG_FONT_NAME                           = Tahoma
+DLG_FONT_SIZE                           = 8
+SKIN_FONT_NAME                          = Tahoma
 
 
 [TEXT]
@@ -140,7 +143,8 @@ TEXT_MSG_INTERNAL_ERROR                 = Interne fout
 TEXT_MSG_TEMP_FILE_NOT_EXIST            = kan het volgende bestand niet openen in de tijdelijke map:[br](${str1})
 TEXT_MSG_CANT_DELETE_ARCHIVE            = Kan dit archiefbestand niet verwijderen.
 TEXT_MSG_CRASH_REPORT                   = Bandizip heeft een probleem. Sluit het programma.
-TEXT_MSG_CRASH_REPORT2                  = Bandizip heeft een probleem en je moet het afsluiten. Wil je een crashrapport versturen naar de Bandizip ontwikkelaar?
+TEXT_MSG_CRASH_REPORT2                  = Bandizip heeft een probleem en je moet het afsluiten. <br>Wil je een crashrapport versturen naar de Bandizip ontwikkelaar?
+TEXT_MSG_CRASH_REPORT3                  = De volgende DLL veroorzaakt een probleem en moet worden gesloten. Wil je een crashrapport naar de Bandizip-ontwikkelaar sturen?
 TEXT_MSG_HANGAPP_REPORT                 = Bandizip reageert niet.[br][br]Wil je een crashrapport naar de ontwikkelaar van Bandizip sturen en het programma sluiten?
 TEXT_MSG_SET_TEMP_PATH                  = Tijdelijk pad instellen
 TEXT_MSG_SET_PATH                       = Pad instellen
@@ -161,6 +165,7 @@ TEXT_MSG_BATCH_DEL_FAILED               = - Verwijderen mislukt: ${str1}
 TEXT_MSG_WORK_IN_PROGRESS               = Bezig met bewerken...
 
 TEXT_NOTICE_AUTODETECTCODEPAGE          = Als de tekens niet juist worden weergegeven, klik op de <font color=red><b>Codepagina</b></font> hierboven en probeer het <font color=red><b>Autodetectie</b></font>menu.
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = Wil je ${ext} bestanden met Bandizip openen?
 
 TEXT_ASK_DELETE_ARCHIVE                 = Het origineel bestand zal verwijderd worden.[br]Wil je dit bestand verwijderen?
 TEXT_ASK_DELETE_CUR_ARCHIVE             = Wil je het huidig bestand verwijderen?
@@ -234,6 +239,7 @@ TEXT_ARKERR_CANT_READ_FILE              = Kan het bestand niet lezen.
 TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Gebruik Bandizip als beheerder om een symbolische link te maken.
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = Kan geen symbolische link maken.
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Het bestand is beschrijfbaar en wordt door een ander proces gebruikt.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Er is geen bestand om te archiveren.
 
 TEXT_SPLITCOMBO_NOSPLIT                 = Niet splitsen
 TEXT_SPLITCOMBO_3MB                     = 3MB
@@ -331,6 +337,7 @@ MENUSTR_PASSMAN                         = Paswoordbeheer ...
 MENUSTR_FIND_ITEM                       = Z&oek bestanden \tCtrl+F
 MENUSTR_COPY_FILES2CLIPBOARD            = Kopieer bestanden naar klembord\tCtrl+C
 MENUSTR_PASTE_FILESFROMCLIPBOARD        = Plak bestanden van klembord\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = Kopieer volledige namen naar klembord
 
 MENUSTR_VIEW_STARTSCREEN                = Startscherm \tF6
 MENUSTR_VIEW_TREECONTROL                = Boomstructuur Controle \tF7
@@ -421,6 +428,7 @@ POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
 POPUPMENU_CODEPAGE_AUTODETECT           = Autodetectie
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Toon met Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Toon met BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Toon met gekoppeld programma
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimaliseer naar werkbalk
@@ -441,6 +449,7 @@ IDC_BTN_HOMEPAGE                        = Startpagina
 IDC_BTN_UPDATE                          = Bijwerken
 IDC_BTN_REGIST                          = Registreer nu
 IDC_BTN_BUY                             = Koop nu
+IDC_BTN_LEARNMORE                       = Leer meer...
 IDC_STATIC_LICENSE                      = Informatie over Bandizip registratie
 
 ;------------------------------------------------------------------------------
@@ -499,6 +508,8 @@ IDC_AA_ZIP_ALGO                         = Compressiemethode
 IDC_AA_ZIP_ENC                          = Encryptiemethode
 IDC_AA_ZIP_THREAD                       = Aantal CPU-threads
 COMBO_TEXT_THREAD_AUTO                  = Automatisch
+IDC_CHK_ZIP_STORESYMLINK                = Symbolische koppelingen opslaan
+IDC_CHK_ZIP_COMMENT                     = Commentaar opslaan
 IDD_AA_7Z                               = 7Z Compressie-instellingen
 IDC_AA_7Z_ALGO                          = Compressiemethode
 IDC_AA_7Z_SOLID                         = Vaste blokgrootte
@@ -586,6 +597,7 @@ IDC_RADIO_HANDLE_METHOD2                = Voeg bestanden toe &aan huidig archief
 IDC_CHK_PASS                            = Gebruik paswoord
 IDC_STATIC_PASSWORD_AGAIN               = Vul paswoord opnieuw in
 IDC_CHK_SHOW_PASS                       = Toon paswoord
+IDC_CHK_DELETE_FILES                    = Verwijder bestanden na archivering
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -631,6 +643,9 @@ IDC_STATIC_ASSOC_LIST                   = Uitbreiding koppelingen
 ;IDC_STATIC_ASSOC_DESC4_10              = 3. Klik op "Stel dit programma als standaard".
 ;IDC_BTN_LAUNCH_ASSOC_REG_UI            = Koppelingsinstellingen
 ;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = Klassieke methode
+LIST_COLUMN0                            = Extensie
+LIST_COLUMN1                            = Standaard toepassing
+IDC_BTN_CHANGE                          = Wijzigen
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_SHELL]
@@ -662,6 +677,7 @@ IDC_STATIC_SHELL_ARCHIVING              = Comprimeermenu
 IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Comprimeer naar "Bestandnaam.zip""
 IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Comprimeer naar "Bestandsnaam.zip" en verwijder
 IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Comprimeer naar "Bestandnaam.zip" en e-mail
+IDC_CHK_SHELL_ADD_TO_ZIP                = "Toevoegen aan  "Bestandsnaam.zip""
 IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Comprimeer naar "Bestandsnaam.zipx""
 IDC_CHK_SHELL_ARCHIVING_EXE             = "Comprimeer naar "Bestandsnaam.exe""
 IDC_CHK_SHELL_ARCHIVING_TAR             = "Comprimeer naar "Bestandsnaam.tar""
@@ -733,6 +749,7 @@ IDC_STATIC_VIEWER                       = Viewer instellingen
 IDC_CHK_SHOW_PREVIEW                    = Voorbeeld weergeven
 IDC_CHK_SHOW_FOLDER_SIZE                = Toon bestandsgrootte van gecomprimeerde en oorspronkelijke mappen
 IDC_CHK_SET_LISTCONTROL_FONT            = Stel het lettertype van de bestandslijst in
+IDC_BTN_SET_FONT                        = Lettertype instellen...
 
 IDC_STATIC_SETTING_VIEWITEM             = Kolommen
 IDC_CHK_VIEWITEM_COMPSIZE               = Gecomprimeerde grootte
@@ -749,7 +766,7 @@ IDC_CHK_VIEWITEM_EXT                    = Bijkomende informatie
 IDC_STATIC_IMAGE_VIEWER                 = Beeldviewer
 IDC_RADIO_IMAGE_VIEWER_0                = Gebruik interne beeldviewer
 IDC_RADIO_IMAGE_VIEWER_1                = Gebruik gekoppelde beeldviewer
-IDC_RADIO_IMAGE_VIEWER_2                = Gebruik Honeyview indien geïnstalleerd
+IDC_RADIO_IMAGE_VIEWER_2                = Gebruik BandiView/Honeyview indien geïnstalleerd
 
 IDC_STATIC_EDITOR                       = Openen met gekoppeld programma
 IDC_BTN_SET_EDITOR_PATH                 = Bladeren...
@@ -789,6 +806,7 @@ IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Verwijder uitgepakte bestand als de ex
 IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopieerzone. Identificatie-informatie van een archief dat  gedownload is van het Internet
 IDC_CHK_USE_SET_END_OF_FILE             = Wijs vooraf schijfruimte toe voor een uitvoerbestand
 IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Comprimeer een bestand, zelfs alshet bestand door een ander proces gebruikt wordt
+IDC_CHK_DO_NOT_USE_RICHEDIT             = Gebruik de Uitgebreide bewerkingen niet
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_LANG]
@@ -803,6 +821,7 @@ IDC_STATIC_TITLE                        = SFX titel:
 IDC_STATIC_RUN                          = Uitvoeren na uitpakken:
 IDC_STATIC_MESSAGE                      = SFX-Bericht:
 IDC_CHK_AUTO_CLOSE                      = Sluit SFX-venster na uitpakken
+IDC_CHK_RUN_AS_ADMIN                    = Uitvoeren als beheerder
 IDC_BTN_SAVE_SFX_SETTING                = Instellingen bewaren
 
 ;------------------------------------------------------------------------------
@@ -865,6 +884,9 @@ TEXT_MSG_CANCELED                       = Herstel geannuleerd.
 TEXT_MSG_SELECT_ARCHIVE_FIRST           = Selecteer een bestand (.zip) vooraleer het herstellen begint.
 
 [IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = Er zijn meerdere Bandizips geïnstalleerd op je systeem. Verwijder er één om problemen te voorkomen.
+CMD_UNINST_MSSTORE                      = Bandizip MSE verwijderen
+CMD_UNINST_PROGFILES                    = Bandizip verwijderen
 
 
 
@@ -954,6 +976,7 @@ IDC_STATIC_MULTI_CORE_DESC              = Geef het aantal threads op dat moet wo
 IDC_STATIC_PREP_POSTP                   = Voorvoegsel
 IDC_STATIC_PREP                         = Voorvoegsel
 IDC_STATIC_PREP_DESC                    = Voeg het voorvoegsel aan het begin van de wachtwoorden toe voordat je ze verwerkt. Bijv. http: // www.
+IDC_STATIC_SPECIFY                      = Tekens opgeven
 IDC_STATIC_ETC                          = Diversen
 IDC_CHK_USE_SIGNATURE_BY_EXT            = Gebruik de bestandsextensie voor sneller herstel.
 
@@ -1022,6 +1045,7 @@ TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "Comprimeer naar "elk bestands/mapnaam
 TEXT_MENU_ARCHIVE_ZIP                   = "Comprimeer naar "${str1}""
 TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Comprimeer naar "${str1}" en verwijder
 TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Comprimeer naar ${str1} en e-ma&il...
+TEXT_MENU_ADD_TO_ZIP                    = "Toevoegen aan "${str1}""
 TEXT_MENU_ARCHIVE_ZIPX                  = Comprimeer naar ${str1}
 TEXT_MENU_ARCHIVE_EXE                   = "Comprimeer naar "${str1}""
 TEXT_MENU_ARCHIVE_TAR                   = Comprimeer naar ${str1}
@@ -1144,6 +1168,8 @@ ERR_NOT_ENOUGH_MEM                      = Gebrek aan geheugen: ${str1}
 
 MSG_FILE_OPEN_ERROR                     = Fout bij openen bestand om te schrijven:[br] "${str1}"[br]Klik Afbreken om de installatie te stoppen,[br]Opnieuw om opnieuw te proberen, of [br]Negeren om dit bestand over te slaan.
 MSG_SUCCESS                             = Installatie beëindigd
+MSG_DLL_REGISTERING                     = Verkenner shell-extensie registreren...
+MSG_DLL_UNREGISTERING                   = Verkenner shell-extensie afmelden...
 MSG_ERROR                               = Er is een fout opgetreden
 MSG_ERROR_REGISTER                      = Registratie mislukt
 MSG_SELECT_FOLDER                       = Selecteer een map.
@@ -1155,6 +1181,8 @@ SHORTCUT_LINK_DESCRIPTOIN               = Begin ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Dit setup-bestand ondersteunt geen 32-bit (x86) OS. Download een nieuw installatiebestand op de website.
 MSG_ERR_ARM_NOTSUPPORT                  = Dit installatiebestand ondersteunt geen ARM64 CPU. Download een nieuw installatiebestand van de website.
 ERR_INST_FAILED                         = Installatie mislukt. Start uw PC opnieuw op en probeer het opnieuw.
+$IDC_STATIC_BUYNOW                      = Bandizip nog niet gekocht? [b]Nu kopen[/b]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

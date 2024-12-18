@@ -502,6 +502,7 @@ IDC_RADIO_HANDLE_METHOD2                = &वर्तमान संग्र
 IDC_CHK_PASS                            = कूटशब्द व्यवहृत
 IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
 IDC_CHK_SHOW_PASS                       = Show Password
+IDC_CHK_DELETE_FILES                    = संग्रहण के बाद फाइलें मिटाएं
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -651,7 +652,7 @@ IDC_CHK_VIEWITEM_COMMENT                = File Comment
 IDC_STATIC_IMAGE_VIEWER                 = छवि दर्शक
 IDC_RADIO_IMAGE_VIEWER_0                = आंतरिक छवि दर्शक व्यवहृत
 IDC_RADIO_IMAGE_VIEWER_1                = संगत कार्यक्रम व्यवहार करें
-IDC_RADIO_IMAGE_VIEWER_2                = Use Honeyview if installed
+IDC_RADIO_IMAGE_VIEWER_2                = Use BandiView/Honeyview if installed
 
 IDC_STATIC_EDITOR                       = संपादक
 IDC_BTN_SET_EDITOR_PATH                 = भ्रमण...
@@ -907,6 +908,7 @@ $BTN_HELP_LINK                          = [मदद]
 
 
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip अभी भी चलमान है। पहले कार्यक्रम बंद करें।
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

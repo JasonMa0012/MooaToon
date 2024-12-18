@@ -484,6 +484,7 @@ IDC_RADIO_HANDLE_METHOD2                = &පවතින ලේකම්මි
 IDC_CHK_PASS                            = මුරපදයක් භාවිත කිරීම
 IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
 IDC_CHK_SHOW_PASS                       = Show Password
+IDC_CHK_DELETE_FILES                    = ලේකම්මිටි ගැන්වීමෙන් පසු ගොනු මකාදමන්න
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -633,7 +634,7 @@ IDC_CHK_VIEWITEM_COMMENT                = ගොනුව ගැන අදහස
 IDC_STATIC_IMAGE_VIEWER                 = රෑප පෙන්වන්නා
 IDC_RADIO_IMAGE_VIEWER_0                = අන්තර්ගත  රෑප පෙන්වන්නා භාවිත කරන්න
 IDC_RADIO_IMAGE_VIEWER_1                = ඇසුරැකරගත් මෘදුකාංගය භාවිත කරන්න
-IDC_RADIO_IMAGE_VIEWER_2                = Honeyview ඉන්ස්ටෝල් කරඇත්නම් භාවිත කරන්න
+IDC_RADIO_IMAGE_VIEWER_2                = BandiView/Honeyview ඉන්ස්ටෝල් කරඇත්නම් භාවිත කරන්න
 
 IDC_STATIC_EDITOR                       = සංස්කාරකයා
 IDC_BTN_SET_EDITOR_PATH                 = පිවිසෙන්න...
@@ -889,6 +890,7 @@ $BTN_HELP_LINK                          = [උදව්]
 
 
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip තවමත් ධාවනයවේ. ප්‍රථමයෙන් මෘදුකාංගය වහන්න.
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

@@ -423,6 +423,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Detecció automàtica
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Visualitza amb el Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Visualitza amb el BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Visualitza amb el programa associat
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimitza a la safata
@@ -590,6 +591,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Afegeix fitxers a l'arxiu actual
 IDC_CHK_PASS                            = Contrasenya
 IDC_STATIC_PASSWORD_AGAIN               = Torneu a introduir la contrasenya
 IDC_CHK_SHOW_PASS                       = Mostra la contrasenya
+IDC_CHK_DELETE_FILES                    = Suprimeix els fitxers després de l'arxivament
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -757,7 +759,7 @@ IDC_CHK_VIEWITEM_EXT                    = Informació addicional
 IDC_STATIC_IMAGE_VIEWER                 = Visualitzador d'imatges
 IDC_RADIO_IMAGE_VIEWER_0                = Utilitza el visualitzador d'imatges intern
 IDC_RADIO_IMAGE_VIEWER_1                = Utilitza el programa associat
-IDC_RADIO_IMAGE_VIEWER_2                = Utilitza el Honeyview si està instal·lat
+IDC_RADIO_IMAGE_VIEWER_2                = Utilitza el BandiView/Honeyview si està instal·lat
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Navega...
@@ -1169,6 +1171,8 @@ SHORTCUT_LINK_DESCRIPTOIN               = Inicia el ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Aquest fitxer d'instal·lació no és compatible amb la versió de 32 bits (x86) del sistema operatiu.[br]Baixeu un nou fitxer d'instal·lació del lloc web.
 MSG_ERR_ARM_NOTSUPPORT                  = Aquest fitxer d'instal·lació no és compatible amb processadors ARM64.[br]Baixeu un nou fitxer d'instal·lació del lloc web.
 ERR_INST_FAILED                         = La instal·lació ha fallat. Reinicieu l'ordinador i torneu a provar-ho
+$IDC_STATIC_BUYNOW                      = Encara no heu comprat el Bandizip? [b]Compreu-lo ara[/b]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

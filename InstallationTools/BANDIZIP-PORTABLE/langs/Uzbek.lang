@@ -416,6 +416,7 @@ $BTN_HELP_LINK                          = [Yordam]
 MSG_SELECT_FOLDER                       = Papkani tanlang
 MSG_NEWVERSION_FOUND                    = Dasturning yangi naqli xozirda mavjud. Yuklash olishni xohlaysizmi?
 SHORTCUT_LINK_DESCRIPTOIN               = Ishga tushirish ${APPNAME}
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

@@ -484,6 +484,7 @@ IDC_RADIO_HANDLE_METHOD2                = Höjjetlerni nöwettiki siqilma höjje
 IDC_CHK_PASS                            = Shifir ishlitish
 IDC_STATIC_PASSWORD_AGAIN               = Reenter Password
 IDC_CHK_SHOW_PASS                       = Show Password
+IDC_CHK_DELETE_FILES                    = Yëship bolghandin këyin esli höjjetni öchürwitish
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -633,7 +634,7 @@ IDC_CHK_VIEWITEM_COMMENT                = Höjjet eskertmisi
 IDC_STATIC_IMAGE_VIEWER                 = Resim tekshürgüch
 IDC_RADIO_IMAGE_VIEWER_0                = Ichki qisimdiki resim tekshürgüchni qollinish
 IDC_RADIO_IMAGE_VIEWER_1                = Tashqi baghlinishliq programmini qollinish
-IDC_RADIO_IMAGE_VIEWER_2                = Use Honeyview if installed
+IDC_RADIO_IMAGE_VIEWER_2                = Use BandiView/Honeyview if installed
 
 IDC_STATIC_EDITOR                       = Tehrirligüch
 IDC_BTN_SET_EDITOR_PATH                 = Arilash...
@@ -889,6 +890,7 @@ $BTN_HELP_LINK                          = [Yardem]
 
 
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip yenila ishlewatidu. Awal programmini taqang
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

@@ -8,7 +8,7 @@
 
 [GENERAL]
 LANG_NAME                               = 中文(繁體)
-TRANSLATORS                             = GT Wang (mkvq.blogspot.com)[br]Hulen(破滅刃) (shift0106hulen.com)[br]Gaz (mu2uu4@gmail.com)[br]章汭 (ilovecuteruirui@gmail.com)[br]min (min918422@gmail.com)[br]Bosco Fong[br]SiderealArt (hi@siderealart.me)[br]Changhui Hu (Harren) (me@nicehch.com)[br]LiZerui（李澤瑞）（szsd5257@foxmail.com）[br]浅兮（QianXi.life@outlook.com）
+TRANSLATORS                             = GT Wang (mkvq.blogspot.com)[br]Hulen(破滅刃) (shift0106hulen.com)[br]Gaz (mu2uu4@gmail.com)[br]min (min918422@gmail.com)[br]Bosco Fong[br]SiderealArt (hi@siderealart.me)[br]Changhui Hu (胡昌暉) (me@nicehch.com)[br]LiZerui（李澤瑞）（szsd5257@foxmail.com）[br]浅兮（QianXi.life@outlook.com）
 DLG_FONT_NAME                           = Segoe UI
 DLG_FONT_SIZE                           = 9
 
@@ -124,6 +124,7 @@ TEXT_ERR_SAME_NAME_FOLDER_EXIST         = 已存在相同資料夾。
 TEXT_ERR_FILENAME_EMPTY                 = 檔案名稱無效。
 TEXT_ERR_AT_DRAGANDDROP                 = 拖曳操作失敗。
 TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = 拖曳失敗。[br]Bandizip 關閉了「快速拖曳」功能，請再試一次。
+TEXT_ERR_AT_DRAGANDDROP_FASTDND_OFF_ASK = 拖曳失敗。[br]請問是否要關閉「快速拖曳」並重試？
 TEXT_ERR_AT_CANT_OPEN_MMF               = 無法開啟 MMF (mmf：${str1})
 TEXT_ERR_NO_FILES_SELECTED              = 未選擇檔案
 TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = 安裝圖示包時無法建立資料夾。
@@ -164,7 +165,7 @@ TEXT_MSG_BATCH_DEL_FAILED               = - 刪除失敗：${str1}
 TEXT_MSG_WORK_IN_PROGRESS               = 仍在開發中...
 
 TEXT_NOTICE_AUTODETECTCODEPAGE          = 如果字元顯示不正確 (亂碼)，請按一下上面的<font color=red><b>字碼頁</b></font>，然後嘗試<font color=red><b>自動偵測</b></font>選單。
-TEXT_NOTICE_CHANGE_DEFAULT_PROG         = 您想用Bandizip打開${ext}文件嗎？
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = 您想使用 Bandizip 開啟 ${ext} 檔案嗎？
 
 TEXT_ASK_DELETE_ARCHIVE                 = 原始檔案將被刪除。[br]您確定要刪除此檔案嗎？
 TEXT_ASK_DELETE_CUR_ARCHIVE             = 您確定要刪除目前檔案嗎？
@@ -238,7 +239,8 @@ TEXT_ARKERR_CANT_READ_FILE              = 無法讀取檔案。
 TEXT_ARKERR_NEED_ADMIN_SYMLINK          = 以管理員身份執行 Bandizip 並建立符號連結。
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = 無法建立符號連結。
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = 該檔案是可寫入的，但被另一個處理程序使用。
-TEXT_ARKERR_NOFILE_TO_ARCHIVE           = 沒有需要壓縮的文件。
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = 沒有需要壓縮的檔案。
+TEXT_ARKERR_DICT_SIZE_OVER              = 解壓縮此檔案需要更多記憶體，請在設定中增加允許使用的最大記憶體。
 
 TEXT_SPLITCOMBO_NOSPLIT                 = 不分割
 TEXT_SPLITCOMBO_3MB                     = 3 MB
@@ -282,6 +284,9 @@ TEXT_UPDATE_DOWNLOAD_COMPLETED          = 下載完成
 TEXT_INSTALL_HONEYVIEW                  = 安裝 Honeyview
 TEXT_INSTALL_HONEYVIEW_1                = Honeyview 沒有安裝在您的電腦上。
 TEXT_INSTALL_HONEYVIEW_2                = 請嘗試由 Bandisoft 開發的 Honeyview。 <br>您可以直接檢視以 ZIP、RAR 或 7z 格式壓縮的圖片而無需解壓縮。
+TEXT_INSTALL_BANDIVIEW                  = 安裝 Bandiview
+TEXT_INSTALL_BANDIVIEW_1                = Bandiview 尚未在此電腦安裝。
+TEXT_INSTALL_BANDIVIEW_2                = 嘗試使用 Bandisoft 開發的 BandiView。<br>無需解壓縮檔案即可檢視 ZIP、RAR 或 7Z 壓縮檔中的圖像。
 
 TEXT_REGISTRATION_FAILED                = 註冊失敗。[br]請檢查您的電子郵件地址和產品金鑰。
 TEXT_REGISTRATION_SUCCEED               = 您的 Bandizip 已註冊。
@@ -428,6 +433,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = 自動偵測
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = 用 Honeyview 檢視
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = 用 BandiView/Honeyview 檢視
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = 用關聯程序檢視
 
 DLG_MENUSTR_MINIMIZE2TRAY               = 最小化至系統匣
@@ -596,6 +602,7 @@ IDC_RADIO_HANDLE_METHOD2                = 新增檔案至目前壓縮檔(&A)
 IDC_CHK_PASS                            = 使用密碼
 IDC_STATIC_PASSWORD_AGAIN               = 確認密碼
 IDC_CHK_SHOW_PASS                       = 顯示密碼
+IDC_CHK_DELETE_FILES                    = 壓縮後刪除原始檔案
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -720,6 +727,7 @@ IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = 自動刪除 Macintosh 字碼頁
 IDC_CHK_UNIXZIP_AS_UTF8                 = 從 UNIX 開啟 ZIP 檔案時使用 UTF-8 字碼頁
 IDC_CHK_PARALLEL_EXT                    = 對支援的格式使用平行解壓
 IDC_STATIC_CODEPAGE                     = 預設字碼頁
+IDC_STATIC_MAX_MEM_USAGE                = 允許使用的最大記憶體:
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = 當按兩下解壓縮所有檔案之後，執行下列下列檔案類型
 
 ;------------------------------------------------------------------------------
@@ -748,6 +756,8 @@ IDC_CHK_SHOW_PREVIEW                    = 預覽影像
 IDC_CHK_SHOW_FOLDER_SIZE                = 顯示資料夾的壓縮後/原始大小
 IDC_CHK_SET_LISTCONTROL_FONT            = 變更檔案列表的字型
 IDC_BTN_SET_FONT                        = 字型設定...
+IDC_CHK_SET_TREECONTROL_FONT            = 設定目錄樹的字型
+IDC_CHK_SET_COMMENTCONTROL_FONT         = 設定壓縮檔註解的字型
 
 IDC_STATIC_SETTING_VIEWITEM             = 欄位
 IDC_CHK_VIEWITEM_COMPSIZE               = 壓縮後大小
@@ -764,7 +774,7 @@ IDC_CHK_VIEWITEM_EXT                    = 附加資訊
 IDC_STATIC_IMAGE_VIEWER                 = 影像檢視器
 IDC_RADIO_IMAGE_VIEWER_0                = 使用內建影像檢視器
 IDC_RADIO_IMAGE_VIEWER_1                = 使用關聯程序
-IDC_RADIO_IMAGE_VIEWER_2                = 如果有安裝，則使用 Honeyview
+IDC_RADIO_IMAGE_VIEWER_2                = 如果有安裝，則使用 BandiView/Honeyview
 
 IDC_STATIC_EDITOR                       = 編輯器
 IDC_BTN_SET_EDITOR_PATH                 = 瀏覽...
@@ -819,6 +829,7 @@ IDC_STATIC_TITLE                        = 自解檔標題：
 IDC_STATIC_RUN                          = 解壓縮後執行：
 IDC_STATIC_MESSAGE                      = 自解檔訊息：
 IDC_CHK_AUTO_CLOSE                      = 解壓縮完成後關閉自解檔視窗
+IDC_CHK_RUN_AS_ADMIN                    = 以系統管理員身分執行
 IDC_BTN_SAVE_SFX_SETTING                = 儲存設定
 
 ;------------------------------------------------------------------------------
@@ -845,7 +856,7 @@ IDC_CHK_DO_NOT_ASK_AGAIN                = 不要再問我
 ;------------------------------------------------------------------------------
 [IDD_REGISTER]
 IDD_REGISTER                            = 註冊 Bandizip
-IDC_STATIC_DESC1                        = 請輸入您的電子郵寄地址和信件中的產品金鑰。
+IDC_STATIC_DESC1                        = 請輸入您的電子信箱地址和信件中的產品金鑰。
 IDC_STATIC_EMAIL                        = 電子郵件地址
 IDC_STATIC_PRDUCT_KEY                   = 產品金鑰
 IDC_BTN_REGISTER                        = 立即註冊
@@ -1042,6 +1053,7 @@ TEXT_MENU_ARCHIVE_EACHNAME_7Z           = 個別壓縮為「檔案/資料夾名�
 TEXT_MENU_ARCHIVE_ZIP                   = 壓縮為「${str1}」
 TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = 壓縮為「${str1}」並刪除
 TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = 壓縮為「${str1}」並郵寄(&I)...
+TEXT_MENU_ADD_TO_ZIP                    = 新增為「${str1}」
 TEXT_MENU_ARCHIVE_ZIPX                  = 壓縮為「${str1}」
 TEXT_MENU_ARCHIVE_EXE                   = 壓縮為「${str1}」
 TEXT_MENU_ARCHIVE_TAR                   = 壓縮為「${str1}」
@@ -1177,6 +1189,17 @@ SHORTCUT_LINK_DESCRIPTOIN               = 啟動 ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = 此安裝程式不支援 32 位元 (x86) 作業系統。請在官方網站上下載一個新的安裝程式。
 MSG_ERR_ARM_NOTSUPPORT                  = 此安裝程式不支援 ARM 64 位元 CPU。請在官方網站上下載一個新的安裝程式。
 ERR_INST_FAILED                         = 安裝失敗，請重新啟動電腦後再次嘗試。
+$MSG_SELECT_LICENSE                     = 請選擇一種版本類型
+$EDITION_FREE                           = 試用版
+$EDITION_PRO                            = 專業版
+$FREE_1                                 = 免費
+$FREE_3                                 = 顯示廣告，功能受限
+$PRO_1                                  = 付費購買
+$PRO_2                                  = 個人/商業/專業
+$PRO_5                                  = 其他進階功能
+$IDC_STATIC_BUYNOW                      = 尚未購買 Bandizip？[b]立即購買[/b]
+$IDC_STATIC_COMPARISON                  = 版本比較...
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

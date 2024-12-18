@@ -122,7 +122,9 @@ TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = לא יכול לפתוח את הארכ
 TEXT_ERR_SAME_NAME_FOLDER_EXIST         = אותה תיקייה קיימת
 TEXT_ERR_FILENAME_EMPTY                 = שם קובץ אינו נכון
 TEXT_ERR_AT_DRAGANDDROP                 = פעולת גרירה ושחרור נכשלה
+TEXT_ERR_AT_DRAGANDDROP_MULTI           = תהליך של גרירה ושחרור אחר נמצא כבר בפעולה
 TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = גרירה ושחרור נכשלה.[br]Bandizip עתה כיבה את פונקציית 'גרירה ושחרור מהיר', נא לנסות שוב.
+TEXT_ERR_AT_DRAGANDDROP_FASTDND_OFF_ASK = גרירה ושחרור נכשלה.[br]האם ברצונך לבטל את "גרירה ושחרור מהירים" ולנסות שוב?
 TEXT_ERR_AT_CANT_OPEN_MMF               = לא יכול לפתוח את MMF (mmf:${str1})
 TEXT_ERR_NO_FILES_SELECTED              = לא נבחר קובץ
 TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = לא יכול ליצור תיקייה להתקנת חבילת האייקונים
@@ -162,7 +164,7 @@ TEXT_MSG_BATCH_DEL_FAILED               = - נכשל במחיקה: ${str1}
 TEXT_MSG_WORK_IN_PROGRESS               = העבודה מתבצעת...
 
 TEXT_NOTICE_AUTODETECTCODEPAGE          = אם הדמויות אינן מוצגת בצורה נכונה, לחץ על <font color=red><b>קידוד</b></font> לעיל ולאחר מכן נסה את <font color=red><b>זיהוי אוטומטי</b></font>menu.
-TEXT_NOTICE_CHANGE_DEFAULT_PROG         = האם ברצונך לפתוח ${ext} קבצים עם באנדיזיפ?
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = האם ברצונך לפתוח ${ext} קבצים עם Bandizip?
 
 TEXT_ASK_DELETE_ARCHIVE                 = הקובץ המקורי יימחק.[br]האם ברצונך למחוק קובץ זה
 TEXT_ASK_DELETE_CUR_ARCHIVE             = האם ברצונך למחוק את הקובץ הנוכחי?
@@ -237,6 +239,7 @@ TEXT_ARKERR_NEED_ADMIN_SYMLINK          = הפעל Bandizip כמנהל כדי ל
 TEXT_ARKERR_CANT_MAKE_SYMLINK           = לא ניתן ליצור קישור סימבולי.
 TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = הקובץ אפשרי לשכתוב ונמצא בשימוש ע"י תהליך אחר
 TEXT_ARKERR_NOFILE_TO_ARCHIVE           = לא נמצא קובץ להכניס לארכיון
+TEXT_ARKERR_DICT_SIZE_OVER              = דרוש יותר זיכרון לביטול דחיסה. [br]הגדל בהגדרות את השימוש המותר בזיכרון .
 
 TEXT_SPLITCOMBO_NOSPLIT                 = ללא פיצול
 TEXT_SPLITCOMBO_3MB                     = 3MB
@@ -280,6 +283,9 @@ TEXT_UPDATE_DOWNLOAD_COMPLETED          = הורדה הושלמה
 TEXT_INSTALL_HONEYVIEW                  = התקן Honeyview
 TEXT_INSTALL_HONEYVIEW_1                = Honeyview לא מותקן על המחשב שלך.
 TEXT_INSTALL_HONEYVIEW_2                = בבקשה נסה את Honeyview שפותחה על ידי Bandisoft.<br> הוא תומך הצגת התמונות ב- ZIP, RAR, או קבצי 7z ללא חילוץ.
+TEXT_INSTALL_BANDIVIEW                  = התקן BandiView
+TEXT_INSTALL_BANDIVIEW_1                = BandiView אינו מותקן במחשבך
+TEXT_INSTALL_BANDIVIEW_2                = נסה את  BandiView שפותח ע"י Bandisoft.<br>ראה קבצים שנדחסו בתור ארכיוני ZIP, RAR, או 7Z בלא חילוץ קובץ
 
 TEXT_REGISTRATION_FAILED                = הרישום נכשל[br]בדוק את כתובת האימייל והמספר סידורי שלך
 TEXT_REGISTRATION_SUCCEED               = Bandizip נרשם בהצלחה
@@ -289,12 +295,14 @@ TEXT_REGISTER_INFO                      = המשתמש הבא נרשם ל-Bandiz
 
 TEXT_TITLE_SCAN_MODE                    = אנטי תוכנות זדוניות בארכיונים
 TEXT_SCAN_AMSI_PROVIDER                 = הפעלת תכונת אנטי תז"ב הושלמה
+TEXT_SCAN_COMPLETED                     = סריקת רוגלות הושלמה
 TEXT_SCAN_MALWARE_DETECTED              = תוכנה זדונית זוהתה
 TEXT_SCAN_MALWARE_NOTDETECTED           = לא זוהתה תוכנה זדונית
 TEXT_SCAN_MALWARE_TOOBIG                = סריקה נכשלה. הקובץ גדול מדי
 TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = תוכנה זדונית זוהתה בתוך הארכיון
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= התחלת סריקת תז"ב נכשלה. בקר באתר
 TEXT_MSG_MALWARE_TEST_OK                = לא זוהתה תוכנה זדונית בתוך הארכיון
-TEXT_MSG_AMSI_INIT_FAILED               = הפעלת סריקת תכונת אנטי תז"ב נכשלה. עבור פרטים בקר ב:[br]https://go.bandisoft.com/amsi
+TEXT_MSG_AMSI_INIT_FAILED               = הפעלת סריקת תכונת אנטי תז"ב נכשלה. עבור פרטים בקר ב:[br]https://go.bandisoft.com/amsi לפרטים נוספים.
 TEXT_MSG_AMSI_WIN10_NOTICE              = סריקת תוכנת אנטי תוכנה זדונית זמינה ב-Windows בלבד.[br]לפרטים בקר ב: https://go.bandisoft.com/amsi
 
 [MENU]
@@ -332,6 +340,7 @@ MENUSTR_PASSMAN                         = מנהל הסיסמאות...
 MENUSTR_FIND_ITEM                       = מצא קבצים\tCtrl+F
 MENUSTR_COPY_FILES2CLIPBOARD            = העתקת קבצים ללוח\tCtrl+C
 MENUSTR_PASTE_FILESFROMCLIPBOARD        = הדבק קבצים מהלוח\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = העתק שם מלא ללוח
 
 MENUSTR_VIEW_STARTSCREEN                = חלון התחלה \tF6
 MENUSTR_VIEW_TREECONTROL                = תצוגת עץ הקבצים \tF7
@@ -421,6 +430,7 @@ POPUPMENU_CODEPAGE_UTF8                 = (UTF-8)
 POPUPMENU_CODEPAGE_AUTODETECT           = זיהוי אוטומטי
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = הצג עם Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = הצג עם BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = הצג באמצעות התוכנה שהוגדרה
 
 DLG_MENUSTR_MINIMIZE2TRAY               = מזער לסרגל מערכת
@@ -589,6 +599,7 @@ IDC_RADIO_HANDLE_METHOD2                = &הוסף קבצים לארכיון נ
 IDC_CHK_PASS                            = השתמש בסיסמא
 IDC_STATIC_PASSWORD_AGAIN               = הזן סיסמה שוב
 IDC_CHK_SHOW_PASS                       = הצג סיסמה
+IDC_CHK_DELETE_FILES                    = מחיקת קבצים לאחר הוספה לארכיון
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -634,6 +645,9 @@ IDC_STATIC_ASSOC_LIST                   = הגדרות שיוך קבצים
 ;IDC_STATIC_ASSOC_DESC4_10              = 3. לחץ על "קבע תוכנית זו כברירת מחדל".
 ;IDC_BTN_LAUNCH_ASSOC_REG_UI            = הגדרות שיוך
 ;IDC_BTN_SHOW_CLASSIC_ASSOC_UI          = השיטה הקלאסית
+LIST_COLUMN0                            = תוסף
+LIST_COLUMN1                            = אפליקצית ברירת מחדל
+IDC_BTN_CHANGE                          = שינוי
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_SHELL]
@@ -665,15 +679,16 @@ IDC_STATIC_SHELL_ARCHIVING              = תפריט דחיסה
 IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "כווץ ל"שם הקובץ.zip""
 IDC_CHK_SHELL_ARCHIVING_AND_DEL         = כווץ ל- "שםקובץ.zip" ומחק
 IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = כווץ ל"שםהקובץ.zip" ודוא"ל
-IDC_CHK_SHELL_ARCHIVING_ZIPX            = "כווץ ל"שםהקובץ.zipx""
-IDC_CHK_SHELL_ARCHIVING_EXE             = "כווץ ל"שםהקובץ.exe""
-IDC_CHK_SHELL_ARCHIVING_TAR             = "כווץ ל"שםהקובץ.tar""
-IDC_CHK_SHELL_ARCHIVING_TGZ             = "כווץ ל"שםהקובץ.tgz""
-IDC_CHK_SHELL_ARCHIVING_LZH             = "כווץ ל"שםהקובץ.lzh""
-IDC_CHK_SHELL_ARCHIVING_ISO             = "כווץ ל"שםהקובץ.iso""
-IDC_CHK_SHELL_ARCHIVING_7Z              = "כווץ ל"שםהקובץ.7z""
-IDC_CHK_SHELL_ARCHIVING_GZ              = "כווץ ל"שםהקובץ.gz""
-IDC_CHK_SHELL_ARCHIVING_XZ              = "כווץ ל"שםהקובץ.xz""
+IDC_CHK_SHELL_ADD_TO_ZIP                = "הוסף ל- "שםקובץ.zip""
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "כווץ ל"שםקובץ.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "כווץ ל"שםקובץ.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "כווץ ל"שםקובץ.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "כווץ ל"שםקובץ.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "כווץ ל"שםקובץ.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "כווץ ל"שםקובץ.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "כווץ ל"שםקובץ.7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "כווץ ל"שםקובץ.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "כווץ ל"שםקובץ.xz""
 IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "כווץ ל"שםהקובץ.zpaq""
 IDC_CHK_SHELL_ARCHIVING_EACH            = "כווץ לכל "שםקובץ/תיקייה.zip""
 IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = "כווץ לכל "שםקובץ/תיקייה.7z""
@@ -709,6 +724,7 @@ IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = זיהוי קוד דף מקינטוש 
 IDC_CHK_UNIXZIP_AS_UTF8                 = השתמש בקידוד UTF-8 בעת פתיחת קובץ zip מ-UNIX
 IDC_CHK_PARALLEL_EXT                    = השתמש בחילוץ מקביל במידת האפשר
 IDC_STATIC_CODEPAGE                     = קוד דף ברירת מחדל
+IDC_STATIC_MAX_MEM_USAGE                = שימוש מקסימלי מותר בזיכרון:
 IDC_STATIC_TYPE_OF_EXTRACT_ALL          = הפעל את סוגי הקבצים הבאים לאחר פריקת הכל בלחיצה כפולה
 
 ;------------------------------------------------------------------------------
@@ -737,6 +753,8 @@ IDC_CHK_SHOW_PREVIEW                    = תצוגה מקדימה של תמונ�
 IDC_CHK_SHOW_FOLDER_SIZE                = הצג גודל מקורי/מכווץ של תיקייה
 IDC_CHK_SET_LISTCONTROL_FONT            = הגדר את הגופן של רשימת הקבצים
 IDC_BTN_SET_FONT                        = הגדר גופן ...
+IDC_CHK_SET_TREECONTROL_FONT            = הגדר את הגופן עבור בקרת TreeView
+IDC_CHK_SET_COMMENTCONTROL_FONT         = הגדר את הגופן להערות בארכיון
 
 IDC_STATIC_SETTING_VIEWITEM             = עמודות
 IDC_CHK_VIEWITEM_COMPSIZE               = גודל דחוס
@@ -753,7 +771,7 @@ IDC_CHK_VIEWITEM_EXT                    = מידע נוסף
 IDC_STATIC_IMAGE_VIEWER                 = מציג התמונה
 IDC_RADIO_IMAGE_VIEWER_0                = השתמש במציג תמונה פנימי
 IDC_RADIO_IMAGE_VIEWER_1                = השתמש בתוכנה מקושרת
-IDC_RADIO_IMAGE_VIEWER_2                = השתמש ב-Honeyview אם מותקן
+IDC_RADIO_IMAGE_VIEWER_2                = השתמש ב-BandiView/Honeyview אם מותקן
 
 IDC_STATIC_EDITOR                       = עורך
 IDC_BTN_SET_EDITOR_PATH                 = עיין...
@@ -793,6 +811,7 @@ IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = מחיקת קבצים שחולצו כ�
 IDC_CHK_COPY_ZONE_IDENTIFIER            = העתק אזור. מידע מזהה של ארכיון שהורד מהאינטרנט במהלך החילוץ
 IDC_CHK_USE_SET_END_OF_FILE             = הקצה מראש שטח דיסק לקובץ פלט
 IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = כווץ קובץ אפי' אם הקובץ בשימוש ע"י תהליך האחר
+IDC_CHK_DO_NOT_USE_RICHEDIT             = אל תשתמש בפקד עריכה עשירה
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING_LANG]
@@ -807,6 +826,7 @@ IDC_STATIC_TITLE                        = כותרת SFX:
 IDC_STATIC_RUN                          = הפעל אחרי חילוץ:
 IDC_STATIC_MESSAGE                      = הודעת SFX:
 IDC_CHK_AUTO_CLOSE                      = סגור חלון SFX לאחר חילוץ
+IDC_CHK_RUN_AS_ADMIN                    = הפעל כמנהל מערכת
 IDC_BTN_SAVE_SFX_SETTING                = שמור הגדרות
 
 ;------------------------------------------------------------------------------
@@ -869,9 +889,9 @@ TEXT_MSG_CANCELED                       = התיקון בוטל
 TEXT_MSG_SELECT_ARCHIVE_FIRST           = בחר קובץ (.zip) לפני שאתה מתחיל את התיקון.
 
 [IDD_UNINSTALL]
-TEXT_UNINST_NOTICE                      = מספר באנדזיפים מותקנים במערכת שלך. אנא מחק אחד מהם כדי למנוע בעיות.
-CMD_UNINST_MSSTORE                      = הסר את באנדיזיפ MSE
-CMD_UNINST_PROGFILES                    = הסר את באנדיזיפ
+TEXT_UNINST_NOTICE                      = מספר Bandizip מותקנים במערכת שלך. אנא מחק אחד מהם כדי למנוע בעיות.
+CMD_UNINST_MSSTORE                      = הסר את Bandizip MSE
+CMD_UNINST_PROGFILES                    = הסר את Bandizip
 
 
 
@@ -1029,7 +1049,8 @@ TEXT_MENU_ARCHIVE_EACHNAME              = דחוס ל &כל שם קובץ/תיק
 TEXT_MENU_ARCHIVE_EACHNAME_7Z           = "דחוס ל "כל קובץ/תיקייה שם.7z""
 TEXT_MENU_ARCHIVE_ZIP                   = "דחוס ל "${str1}""
 TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = דחוס ל- "$ {str1}" ומחק
-TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = דחוס ל "${str1}" ודוא"ל...
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = דחוס ל "${str1}" ודוא"ל
+TEXT_MENU_ADD_TO_ZIP                    = "הוסף ל- "${str1}""
 TEXT_MENU_ARCHIVE_ZIPX                  = "דחוס ל "${str1}""
 TEXT_MENU_ARCHIVE_EXE                   = "דחוס ל "${str1}""
 TEXT_MENU_ARCHIVE_TAR                   = "דחוס ל "${str1}""
@@ -1153,7 +1174,7 @@ ERR_NOT_ENOUGH_MEM                      = חסר בזיכרון: ${str1}
 MSG_FILE_OPEN_ERROR                     = שגיאה בפתיחת קובץ לכתיבה:[br] "${str1}"[br]לחץ על הפסק כדי להפסיק את ההתקנה,[br]או נסה שוב כדי לנסות שוב, או[br]התעלם כדי לדלג על קובץ זה.
 MSG_SUCCESS                             = התקנה הושלמה
 MSG_DLL_REGISTERING                     = רשום סיומת מעטפת של אקספלורר...
-MSG_DLL_UNREGISTERING                   = בטל רישום של סיומת מעטפת של אקספלורר...
+MSG_DLL_UNREGISTERING                   = מבטל רישום מעטפת תוסף של אקספלורר...
 MSG_ERROR                               = שגיאה התרחשה
 MSG_ERROR_REGISTER                      = רישום נכשל
 MSG_SELECT_FOLDER                       = בחר תיקייה
@@ -1165,6 +1186,10 @@ SHORTCUT_LINK_DESCRIPTOIN               = הרץ ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = קובץ התקנה זה אינו תומך במערכת הפעלה של 32 סיביות (x86). [br]אנא הורד קובץ התקנה חדש באתר.
 MSG_ERR_ARM_NOTSUPPORT                  = קובץ התקנה זה אינו תומך במעבד ARM64. אנא הורד קובץ התקנה חדש באתר.
 ERR_INST_FAILED                         = ההתקנה נכשלה. אנא הפעל מחדש את המחשב ונסה שוב.
+$FREE_2                                 = בית & ועסקים
+$PRO_3                                  = ללא פרסומות
+$IDC_STATIC_BUYNOW                      = עדיין לא רכשת רישיון עבור Bandizip? [b]קנה עכשיו[/b]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

@@ -1,0 +1,1210 @@
+;
+; Auto generated file by doc2langs (bandizip7)
+; 
+; DO NOT MODIFY THIS FILE MANUALLY!!!
+; 
+; If you want to modify this file, please visit https://go.bandi.so/apptranslation for more information.
+;
+
+[GENERAL]
+LANG_NAME                               = Latviešu
+TRANSLATORS                             = Juris Hasjanovs
+
+
+[TEXT]
+TEXT_BUILDNO                            = Būvējums#
+TEXT_FILE                               = Fails
+TEXT_FOLDER                             = Mape
+TEXT_ARCHIVE_SIZE                       = Arhīva izmērs
+TEXT_ORIGINAL_SIZE                      = Oriģinālais izmērs
+TEXT_ARCHIVE_FORMAT                     = Arhīva formāts
+TEXT_COMPRESSED_SIZE                    = Saspiests izmērs
+TEXT_SOLID                              = Viengabala
+TEXT_BETA                               = Beta
+TEXT_ASSOC                              = Saspiests fails (${str1})
+TEXT_PORTABLE                           = Pārnēsājams
+TEXT_NEW_FOLDER                         = Jauna mape
+TEXT_FILESIZE_UNKNOWN                   = Nezināms
+TEXT_FILEDATE_UNKNOWN                   = Nezināms
+TEXT_HELP_LINK                          = [Palīdzība]
+TEXT_APP_DESC                           = Bandizip ir viegls, ātrs un bezmaksas viss vienā Zip arhivētājs. Tas apstrādā populārākos saspiešanas formātus, tostarp Zip, 7z, Rar un tā tālāk.
+
+TEXT_MESSAGEBOX_OK                      = Labi
+TEXT_MESSAGEBOX_CANCEL                  = Atcelt
+TEXT_MESSAGEBOX_ABORT                   = Pārtraukt
+TEXT_MESSAGEBOX_RETRY                   = Atkārtot
+TEXT_MESSAGEBOX_IGNORE                  = Ignorēt
+TEXT_MESSAGEBOX_YES                     = Jā
+TEXT_MESSAGEBOX_NO                      = Nē
+TEXT_MESSAGEBOX_CONTINUE                = Turpināt
+TEXT_MESSAGEBOX_HELP                    = Palīdzība
+TEXT_MESSAGEBOX_DONOTSHOWTHISMSGAGAIN   = Vairāk nerādīt
+
+TEXT_COLUMN_NAME                        = Nosaukums
+TEXT_COLUMN_COMPSIZE                    = Saspiests
+TEXT_COLUMN_ORIGSIZE                    = Oriģināls
+TEXT_COLUMN_KIND                        = Tips
+TEXT_COLUMN_DATE_MOD                    = Pārveidots
+TEXT_COLUMN_COMPMETHOD                  = Saspiešanas metode
+TEXT_COLUMN_ENCRMETHOD                  = Šifrēšanas metode
+TEXT_COLUMN_CRC                         = CRC
+TEXT_COLUMN_ATTRIB                      = Atribūti
+TEXT_COLUMN_COMMENT                     = Komentāri
+TEXT_COLUMN_EXT                         = Papildus informācija
+TEXT_COLUMN_PATHNAME                    = Ceļš
+
+TEXT_ICONPACK_NAME                      = Nosaukums
+TEXT_ICONPACK_DESIGNER                  = Izstrādātājs
+TEXT_ICONPACK_COPYRIGHT                 = Autortiesības
+
+TEXT_ARCHIVE_COLUMN_NAME                = Nosaukums
+TEXT_ARCHIVE_COLUMN_FILESIZE            = Izmērs
+TEXT_ARCHIVE_COLUMN_FOLDERPATH          = Mapes ceļš
+TEXT_ARCHIVEDLG_FILESIZE_SUM            = Kopējais izmērs
+
+TEXT_SELECT_ARCHIVE_FILE                = Izvēlēties failu
+TEXT_SELECT_TEXT_FILE                   = Izvēlēties failu
+TEXT_SELECT_DEST_FOLDER                 = Izvēlēties mērķa mapi
+TEXT_SELECT_ARCHIVE_FILE_FILETERNAME    = Arhīva fails
+TEXT_REGISTRY_FILE                      = Reģistra fails
+
+TEXT_OPENDLG_ARCHIVEFILES               = Arhīvu faili
+TEXT_OPENDLG_ARCHIVEFILE                = Arhīva fails
+TEXT_OPENDLG_ALLFILES                   = Visi faili
+TEXT_OPENDLG_EXEFILES                   = Exe faili
+
+TEXT_ABOUTBOX_TAB1                      = Par Bandizipu
+
+TEXT_ASSOC_GROUP0                       = Arhīvi
+TEXT_ASSOC_GROUP1                       = UNIX
+TEXT_ASSOC_GROUP2                       = Citi
+TEXT_ASSOC_GROUP3                       = CD/DVD
+
+TEXT_OPENERR_INVALIDVERSION             = Lai atvērtu šo failu, lejuplādējiet jaunāko Bandizip versiju.
+TEXT_OPENERR_NOT_A_FIRST_VOLUME_FILE    = Atlasīt tikai pirmo sadalītā faila daļu.
+TEXT_OPENERR_CANT_OPEN_FILE             = Nevar atvērt failu (${str1})
+TEXT_OPENERR_CANT_OPEN_FILE_LOCKED      = Nevar atvērt failu (${str1}), jo failu izmanto cita programma.
+TEXT_OPENERR_GENERAL                    = Nevar atvērt failu (${str1}) (Kods:${xnum1})
+TEXT_OPENERR_USER_ABORT                 = Atcelts
+TEXT_OPENERR_UNKNOWN_FILEFORMAT         = Nezināms faila formāts (${str1})
+TEXT_OPENERR_NOT_ARCHIVE_FILE           = ${str1}" nav arhīva fails.
+TEXT_OPENERR_NOT_SUPPORTED_FILEFORMAT   = Neatbalstīts faila formāts (${str1})
+TEXT_OPENERR_NOT_SUPPORTED_ENC_METHOD   = Neatbalstīta šifrēšanas metode (${str1})
+TEXT_OPENERR_PASSWORD_NOT_SET           = Ievadiet paroli
+TEXT_OPENERR_INVALID_PASSWORD           = Parole ir nepareiza.
+TEXT_OPENERR_INVALID_CONTAINER_HEADER   = Šo failu nevar atvērt, jo faila galvene ir bojāta.
+
+TEXT_ERR_INIT_FAILED                    = Neizdevās inicializēt.
+TEXT_ERR_NOFILE_OR_INVALIDPASS          = Parole ir nepareiza vai arhīvā nav faila.
+TEXT_ERR_PASSOWRD_NOT_MATCH             = Paroles nesakrīt.
+TEXT_ERR_PASSWORD_NOT_SET               = Nepieciešama parole.
+TEXT_ERR_INVALID_PASSWORD_CHAR          = Jūsu parole satur nederīgas rakstzīmes. Ievietojiet tikai burtciparu vai speciālās rakstzīmes.
+TEXT_ERR_INVALID_SPLIT_FILE_SIZE        = Nederīgs sadalītā faila izmērs.
+TEXT_ERR_SFX_SPLIT_SIZE_4G_LIMIT        = SFX (pašizvilkšanas arhīvu) failu izmērs ir ierobežots līdz 4 GB.
+TEXT_ERR_INTERNAL_ERROR                 = Iekšēja kļūda
+TEXT_ERR_CANT_MODIFY_ARCHIVE            = Nevar modificēt arhīva failu.
+TEXT_ERR_OCCURRED_WHEN_MODIFY_ARCHIVE   = Pārveidojot arhīvu, radās kļūda.
+TEXT_ERR_INVALID_FOLDER_PATH            = Nederīgs mapes ceļš
+TEXT_ERR_EDIT_ZIPFILE_ONLY_SUPPORTED    = Var rediģēt tikai ZIP failu.
+TEXT_ERR_EDIT_SINGLEFILE_ONLY_SUPPORTED = Nevar rediģēt sadalīto failu.
+TEXT_ERR_EDIT_SFX_NOT_SUPPORTED         = Nevar rediģēt SFX arhīvus (*.exe).
+TEXT_ERR_EDIT_BROKENARCH_NOT_SUPPORTED  = Nevar rediģēt bojātu failu.
+TEXT_ERR_EDIT_NOT_SUPPORTED_ARCHIVE     = Šo arhīva formātu nevar rediģēt.
+TEXT_ERR_CANT_CHANGE_FILENAME           = Nevar mainīt šī faila nosaukumu.
+TEXT_ERR_CANT_CHANGE_FILENAME_WITH      = "Nevar lietot faila nosaukumā [br]? : \ / * < > | ""
+TEXT_ERR_CANT_CHANGE_FILENAME_SAMENAME  = Tāds fails/mape jau pastāv. Nevar mainīt faila nosaukumu (${str1})
+TEXT_ERR_CANT_CREATE_FOLDER             = Nevar izveidot mapi.
+TEXT_ERR_NO_FILES_TO_ARCHIVE            = Nav failu, ko arhivēt.
+TEXT_ERR_INVALID_PARAM                  = Nederīgs parametrs.
+TEXT_ERR_CANT_ADD_TO_ARCHIVE            = Failu nevar pievienot arhīvam. [br] — ${str1}
+TEXT_ERR_CANT_OPEN_THIS_ARCHIVE         = Nevar atvērt šo arhīvu [br] — ${str1}
+TEXT_ERR_SAME_NAME_FOLDER_EXIST         = Tāda pati mape jau pastāv.
+TEXT_ERR_FILENAME_EMPTY                 = Faila nosaukums nav pareizs.
+TEXT_ERR_AT_DRAGANDDROP                 = Vilkšana un nomešana neizdevās.
+TEXT_ERR_AT_DRAGANDDROP_OFF_FAST_DND    = Vilkšana un nomešana neizdevās. [br]Bandizip tikko izslēdza funkciju Ātrā vilkšana un nomešana.  Lūdzu, mēģināt vēlreiz.
+TEXT_ERR_AT_CANT_OPEN_MMF               = Nevar atvērt MMF (mmf:${str1})
+TEXT_ERR_NO_FILES_SELECTED              = Nav atlasīts neviens fails
+TEXT_ERR_ICONPACK_CANTCREATEFOLDER      = Nevar izveidot mapi Icon Pack instalēšanai.
+TEXT_ERR_ICONPACK_CANTCREATEFILE        = Nevar izveidot failu Icon Pack instalēšanai.
+TEXT_ERR_AT_EXECUTE_DIRECT              = Nevar atvērt šo failu. Izvelciet failu un mēģināt vēlreiz.
+TEXT_ERR_FILESIZE_OVER_4GB_INCLUDED     = Nevar izveidot failu, kas lielāks par 4 GB. [br]Lūdzu, izvēlēties citu faila formātu (ZIP vai 7Z).
+TEXT_ERR_CANT_SAVE_AS                   = Nevar saglabāt šo failu.
+TEXT_ERR_ERROR_AT_EDIT                  = Rediģējot failu, Bandizip radās problēma.  (${str1})[br][br]Vai vēlaties nosūtīt kļūdas ziņojumu Bandisoft?[br][br]Šī ziņojuma iesniegšana palīdz Bandisoft uzlabot Bandizip.
+
+TEXT_MSG_TEST_OK                        = Pārbaudes laikā kļūdas netika atrastas.
+TEXT_MSG_EXTRACT_FAIL_WITH_ERRCODE      = Izvilkšana neizdevās. [br](${str1})
+TEXT_MSG_EXTRACT_SUCCESS                = Izvilkšana ir veiksmīgi pabeigta.
+TEXT_MSG_EXTRACT_CANCELED               = Izvilkšana ir atcelta.
+TEXT_MSG_COMPRESS_SUCCESS               = Arhivēšana ir veiksmīgi pabeigta.
+TEXT_MSG_INTERNAL_ERROR                 = Iekšēja kļūda.
+TEXT_MSG_TEMP_FILE_NOT_EXIST            = Nevar atvērt šo failu pagaidu mapē:[br](${str1})
+TEXT_MSG_CANT_DELETE_ARCHIVE            = Šo arhīva failu nevar izdzēst.
+TEXT_MSG_CRASH_REPORT                   = Bandizip ir radusies problēma, un tas ir jāaizver.
+TEXT_MSG_CRASH_REPORT2                  = Bandizip ir radusies problēma, un tā ir jāaizver. [br]Vai vēlaties nosūtīt avārijas ziņojumu Bandizip izstrādātājam?
+TEXT_MSG_CRASH_REPORT3                  = Tālāk norādītais DLL rada problēmu, un tas ir jāaizver. [br]Vai vēlaties nosūtīt avārijas ziņojumu Bandizip izstrādātājam?
+TEXT_MSG_HANGAPP_REPORT                 = Bandizip nereaģē. [br][br]Vai vēlaties nosūtīt avārijas ziņojumu Bandizip izstrādātājam un aizvērt programmu?
+TEXT_MSG_SET_TEMP_PATH                  = Iestatīt pagaidu mapes ceļu
+TEXT_MSG_SET_PATH                       = Iestatīt ceļu
+TEXT_MSG_ICONPACK_INSTALL_COMPLETED     = Ikonu pakotne ir veiksmīgi instalēta.
+TEXT_MSG_NOTICE_RESTART                 = Šī programma tiks restartēta.
+TEXT_MSG_ARCHVIE_OPENING                = Arhīva atvēršana.
+TEXT_MSG_COMPLETING                     = Pabeigšana: ${num1}%
+TEXT_MSG_CANT_CREATE_FOLDER             = Nevar izveidot mapi. [br] - ${str1}
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_FOLDER      = Nevar saspiest mapi .GZ/XZ arhīvā.
+TEXT_MSG_GX_XZ_CANT_ARCHIVE_MULTI       = Nevar saspiest vairākus failus .GZ/XZ arhīvā. Lūdzu, atzīmēt opciju "Saspiest katru failu/mapi savā arhīvā".
+TEXT_MSG_TRAY_MINIMIZED                 = Bandizip ir minimizēts sistēmas teknē. Noklikšķiniet uz teknes ikonas, lai to atjaunotu.
+TEXT_MSG_TRAY_COMPLETED                 = Operācija ir pabeigta.
+TEXT_MSG_BATCH_ARCHVING                 = Arhivēšana: ${str1}
+TEXT_MSG_BATCH_EXTRACTING               = Izvilkšana: ${str1}
+TEXT_MSG_BATCH_TESTING                  = - Pārbaude: ${str1}
+TEXT_MSG_BATCH_DELETING                 = - Dzēšana: ${str1}
+TEXT_MSG_BATCH_DEL_FAILED               = - Neizdevās izdzēst: ${str1}
+TEXT_MSG_WORK_IN_PROGRESS               = Darbs progresā. . .
+
+TEXT_NOTICE_AUTODETECTCODEPAGE          = Ja rakstzīmes netiek parādītas pareizi, noklikšķiniet uz <font color=red><b>Koda lapa</b></font> un pēc tam izmēģiniet <font color=red><b>Automātiska noteikšana</b><. /font> izvēlni.
+TEXT_NOTICE_CHANGE_DEFAULT_PROG         = Vai vēlaties atvērt ${ext} failus, izmantojot Bandizip?
+
+TEXT_ASK_DELETE_ARCHIVE                 = Arhīva fails tiks dzēsts. [br]Vai vēlaties dzēst šo failu?
+TEXT_ASK_DELETE_CUR_ARCHIVE             = Vai vēlaties dzēst šo arhīvu?
+TEXT_ASK_PERM_DELETE_CUR_ARCHIVE        = Vai vēlaties neatgriezeniski dzēst šo arhīvu?
+TEXT_ASK_CHANGE_FILENAME                = Tāds fails jau pastāv. [br][br]Vai vēlaties mainīt faila nosaukumu no ${str1} uz ${str2}?
+TEXT_ASK_DELETE_FILE                    = Vai vēlaties dzēst atlasīto(-s) failu(s)?
+TEXT_ASK_STOP_EXTRACT                   = Vai vēlaties pārtraukt izvilkšanu?
+TEXT_ASK_OVERWRITE_ARCHIVE              = Tāds fails jau pastāv. [br][br]Vai vēlaties pārrakstīt failu?
+TEXT_ASK_INIT_SETTING                   = Vai vēlaties atiestatīt uz noklusējuma iestatījumiem? Bandizip tiks restartēts.
+TEXT_ASK_STOP_ARCHIVING                 = Vai vēlaties pārtraukt arhivēšanu?
+TEXT_ASK_STOP_MODIFYING                 = Vai vēlaties pārtraukt šo darbību?
+TEXT_ASK_APPLY_MODIFIED_FILE            = Vai vēlaties atjaunot failu arhīvā?[br](${str1})
+TEXT_ASK_INSTALL_ICONPACK               = Vai plānojat instalēt un lietot ikonu pakotni (${str1})?
+TEXT_ASK_MAKE_FOLDER                    = Mape neeksistē. Vai vēlaties to izveidot?[br][br]- ${str1}
+TEXT_ASK_CONT_WITHOUTWRITEPERMISSION    = Galamērķa mapei nav rakstīšanas atļaujas.[br][br]- ${str1}[br][br]Vai vēlaties turpināt?
+TEXT_ASK_CONT_NOFREESPACE               = Mērķa mapē nav pietiekami daudz vietas. Nomainiet mērķa mapi. [br][br]- ${str1}[br][br]Vai vēlaties turpināt?
+TEXT_ASK_ASK_UAC_ELEVATION              = Jums nav atļauts mainīt šos failus. [br][br]Vai vēlaties restartēt šo programmu kā administrators?
+TEXT_ASK_OPENERR_FIRST_VOLUME           = Nevar atvērt šo arhīva failu. [br][br]Vai vēlaties atvērt sadalītā faila pirmo daļu (${str1})?
+TEXT_ASK_DELSRC_TURN_ON_TEST_ARCHIVE    = Ja pēc arhivēšanas izdzēsīsiet failus, varat zaudēt svarīgus failus, ja arhīvs ir bojāts. [br][br]Vai vēlaties pārbaudīt opciju Pārbaudīt arhīvu?
+TEXT_ASK_DEST_FOLDER_SPACE_NOT_ENOUGH   = Nav pietiekami daudz vietas diskā, lai to izvilktu. Vai vēlaties turpināt?[br][br]Galamērķa mape: ${str1}[br]Brīva vieta diskā: ${str2}[br]Faila izvilkšanas izmērs: ${str3}
+
+TEXT_WARN_BROKEN_FILE                   = Šis fails ir bojāts
+TEXT_WARN_BROKEN_OR_MULTIVOL_PROBLEM    = Fails ir bojāts vai ir nepieciešams cits sējuma fails
+
+TEXT_BTN_PAUSE                          = Pauze
+TEXT_BTN_RESUME                         = Turpināt
+
+TEXT_ERRDLG_ERROR_OCCURRED              = Notika kļūda
+TEXT_ERRDLG_USER_ABORT                  = Pārtraukts
+
+TEXT_ARKERR_CANT_OPEN_FILE              = Nevar atvērt šo failu
+TEXT_ARKERR_CANT_OPEN_FILE_LOCKED       = Šo failu nevar atvērt, jo to izmanto cita programma
+TEXT_ARKERR_PASSWORD_NOT_SET            = Nepieciešama parole
+TEXT_ARKERR_INVALID_PASSWD              = Nepareiza parole
+TEXT_ARKERR_USER_ABORTED                = Pārtraukts
+TEXT_ARKERR_INVALID_FILE_CRC            = CRC kļūda
+TEXT_ARKERR_CANT_OPEN_FILE_TO_WRITE     = Nevar atvērt izvades failu
+TEXT_ARKERR_CANT_READ_DATA              = Nevar nolasīt arhīva datus
+TEXT_ARKERR_INFLATE_FAILED              = Datu kļūda — šis fails ir bojāts
+TEXT_ARKERR_BZIP2_ERROR                 = Datu kļūda — šis fails ir bojāts
+TEXT_ARKERR_DATA_CORRUPTED              = Fails ir bojāts vai ir nepieciešams cits arhīva sējums
+TEXT_ARKERR_CANT_OPEN_DEST_FILE         = Nevar izveidot izvades failu.
+TEXT_ARKERR_CANT_CREATE_FOLDER          = Nevar izveidot mapi
+TEXT_ARKERR_UNKNOWN_COMPRESSION_METHOD  = Saspiešanas metode netiek atbalstīta
+TEXT_ARKERR_WRITE_FAIL                  = Rakstīšanas laikā radās kļūda
+TEXT_ARKERR_DISK_FULL                   = Disks ir pilns
+TEXT_ARKERR_FILENAME_EXCED_RANGE        = Neizdevās izveidot failu. Faila ceļš un faila nosaukums nedrīkst pārsniegt 260 rakstzīmes.
+TEXT_ARKERR_CANT_CREATE_FILE            = Neizdevās izveidot failu
+TEXT_ARKERR_CANT_CREATE_FILE_UAC        = Neizdevās izveidot failu. Palaidiet programmu ar administratora tiesībām.
+TEXT_ARKERR_USER_SKIP                   = Izlaists
+TEXT_ARKERR_FILE_TRUNCATED              = Šī faila beigas ir bojātas vai tās nav
+TEXT_ARKERR_INVALID_PASSWD_OR_BROKEN    = Parole nav derīga vai fails ir bojāts
+TEXT_ARKERR_7ZERR_BROKEN_ARCHIVE        = Šis fails ir bojāts
+TEXT_ARKERR_SFX_SIZE_OVER_4GB           = Pašizvilkšanas fails (*.exe) pārsniedz 4 GB. Sistēmā Windows nevar izpildīt 4 GB failu.
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY           = Nevar atvērt šo arhīva failu. Nepieciešams šāds sadalītais fails (.z01, .z02. . . ).
+TEXT_ARKERR_ZIP_LAST_VOL_ONLY_WARN      = Nevar atvērt šo ZIP failu. Nepieciešams šāds sadalītais fails (.z01, .z02. . . ).
+TEXT_ARKERR_CANNOT_FIND_NEXT_VOLUME     = Nevar atvērt šo arhīva failu. Ir nepieciešams vēl viens sadalīta faila sējums.
+TEXT_ARKERR_CORRUPTED_FILE              = Šis fails ir bojāts
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH     = Jums nav atļauts rakstīt mērķa mapē
+TEXT_ARKERR_ACCESS_DENIED_DEST_PATH_UAC = Jums nav atļauts rakstīt šajā mapē. Palaidiet programmu ar administratora tiesībām.
+TEXT_ARKERR_NOT_SUPPORTED_ENC_METHOD    = Neatbalsta šo šifrēšanas algoritmu
+TEXT_ARKERR_NOT_ENOUGH_MEMORY           = Atmiņas trūkums
+TEXT_ARKERR_NOT_ENOUGH_MEMORY_LZMA_ENC  = Atmiņas trūkums. Mainiet kompresijas līmeni.
+TEXT_ARKERR_NOT_SUPPORTED_OPERATION     = Darbība netiek atbalstīta
+TEXT_ARKERR_NOT_MATCH_FILE_SIZE         = Izvilktā faila izmērs un arhīva galvenes informācija atšķiras.
+TEXT_ARKERR_FILE_SIZE_OVER_4GB          = Nevar saspiest failu, kas lielāks par 4 GB.
+TEXT_ARKERR_TOO_LONG_NAME_AND_TRUNCATED = Garais faila nosaukums ir automātiski saīsināts.
+TEXT_ARKERR_CANT_OPEN_SRC_FILE_TO_COPY  = Nevar atvērt avota failu kopēšanai.
+TEXT_ARKERR_NOTIMPL                     = Nav īstenojams.
+TEXT_ARKERR_CANT_READ_FILE              = Nevar nolasīt failu.
+TEXT_ARKERR_NEED_ADMIN_SYMLINK          = Palaidiet Bandizip kā administrators, lai izveidotu simbolisko saiti.
+TEXT_ARKERR_CANT_MAKE_SYMLINK           = Nevar izveidot simbolisko saiti.
+TEXT_ARKERR_LOCKED_FILE_OPENED_TO_COMPR = Fails ir rakstāms, un to izmanto cits process.
+TEXT_ARKERR_NOFILE_TO_ARCHIVE           = Arhivējamā faila nav.
+
+TEXT_SPLITCOMBO_NOSPLIT                 = Nav sadalīts
+TEXT_SPLITCOMBO_3MB                     = 3 MB
+TEXT_SPLITCOMBO_4MB                     = 4 MB
+TEXT_SPLITCOMBO_5MB                     = 5 MB
+TEXT_SPLITCOMBO_10MB                    = 10 MB
+TEXT_SPLITCOMBO_20MB                    = 20 MB
+TEXT_SPLITCOMBO_GMAIL                   = 25 MB (Gmail)
+TEXT_SPLITCOMBO_100MB                   = 100 MB
+TEXT_SPLITCOMBO_300MB                   = 300 MB
+TEXT_SPLITCOMBO_CD650                   = 650 MB (CD)
+TEXT_SPLITCOMBO_CD700                   = 700 MB (CD)
+TEXT_SPLITCOMBO_FAT32                   = 4 GB (FAT32)
+TEXT_SPLITCOMBO_DVD                     = 4,7 GB (DVD)
+TEXT_SPLITCOMBO_USERINPUT               = Pielāgots izmērs
+
+TEXT_COMPRESSIONMETHOD_STORE            = 0 - Nav saspiešanas
+TEXT_COMPRESSIONMETHOD_FAST             = 1-Ātra saspiešana
+TEXT_COMPRESSIONMETHOD_NORMAL           = 2-Normāla saspiešana
+TEXT_COMPRESSIONMETHOD_MAX              = 3-Maksimālā saspiešana
+
+TEXT_NEW_ARCHIVE_FILE_NAME              = Jauns arhīvs
+TEXT_ADD_FILE_2_ARCHIVE_DLG_TITLE       = Pievienot failus arhīvam
+TEXT_DUPEFILE_PROCESS_METHOD_RENAME     = Pā&rdēvēt: ${str1}
+TEXT_TITLE_TEST_MODE                    = Arhīva pārbaude
+TEXT_TITLE_TEMPFOLDER_MODE              = Notiek izvilkšana pagaidu mapē. . .
+TEXT_TITLE_MODIFYING                    = Notiek modificēšana. . .
+TEXT_DLG_STATIC_DUPEFILE_NEW            = Fails, ko izvilkt
+TEXT_MSG_SELECTED_FILE                  = Atlasīts(-i) ${num1} fails(-i).
+TEXT_MSG_SELECTED_FOLDER                = Atlasīta(-as) ${num1} mape(-as).
+TEXT_MSG_SELECTED_FILEFOLDER            = ${num1} fails(-i), ${num2} mape(-es)
+TEXT_MSG_SELECTED_FILESIZESUM           = Atlasītā faila izmērs: ${str1}
+
+TEXT_UPDATE_VERSION_CHECK_FAILED        = Versijas pārbaude neizdevās
+TEXT_UPDATE_VERSION_CHECKING            = Versijas pārbaude
+TEXT_UPDATE_DOWNLOAD_FAILED             = Lejupielāde neizdevās
+TEXT_UPDATE_LATEST_VERSION              = Aktuāla versija
+TEXT_UPDATE_DO_DOWNLOAD                 = Nepieciešami atjauninājumi
+TEXT_UPDATE_DOWNLOAD_COMPLETED          = Lejupielāde pabeigta
+
+TEXT_INSTALL_HONEYVIEW                  = Instalēt Honeyview
+TEXT_INSTALL_HONEYVIEW_1                = Honeyview jūsu datorā nav instalēts.
+TEXT_INSTALL_HONEYVIEW_2                = Lūdzu, izmēģiniet Bandisoft izstrādāto programmu Honeyview. <br> Tā atbalsta attēlu skatīšanu saspiestos ZIP, RAR vai 7z failos bez izvilkšanas.
+
+TEXT_REGISTRATION_FAILED                = Reģistrācija neizdevās. [br]Pārbaudiet savu e-pasta adresi un produkta atslēgu.
+TEXT_REGISTRATION_SUCCEED               = Jūsu Bandizip versija ir reģistrēta.
+TEXT_REGISTRATION_ASK                   = Vai tiešām vēlaties atcelt Bandizip reģistrāciju?
+TEXT_REGISTER_NOT_REGISTERED            = Bandizip nav reģistrēts. [br]Lūdzu, iegādājieties un reģistrējiet Bandizip, lai to lietotu bez ierobežojumiem.
+TEXT_REGISTER_INFO                      = Šis lietotājs ir reģistrējis Bandizip:[br]E-pasta adrese: ${str1}[br]Produkta atslēga: ${str2}
+
+TEXT_TITLE_SCAN_MODE                    = Pretļaunatūras skenēšana arhīvā
+TEXT_SCAN_AMSI_PROVIDER                 = AMSI inicializācija ir veiksmīga
+TEXT_SCAN_COMPLETED                     = Ļaunprātīgas programmatūras skenēšana ir pabeigta.
+TEXT_SCAN_MALWARE_DETECTED              = Atklāta ļaunprātīga programmatūra.
+TEXT_SCAN_MALWARE_NOTDETECTED           = Nav konstatēta neviena ļaunprātīga programmatūra.
+TEXT_SCAN_MALWARE_TOOBIG                = Skenēšana neizdevās. Fails ir pārāk liels.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED      = Arhīvā ir konstatēta ļaunprātīga programmatūra.
+TEXT_ERRDLG_ERROR_MALWARE_DETECTED_AND_CANCELED= Arhīvā ir konstatēta ļaunprātīga programmatūra. Izvilkšana ir atcelta.
+TEXT_MSG_MALWARE_TEST_OK                = Arhīvā nav konstatēta neviena ļaunprātīga programmatūra.
+TEXT_MSG_AMSI_INIT_FAILED               = AMSI inicializācija skenēšanai neizdevās. Lai iegūtu sīkāku informāciju, apmeklējiet vietni https://go.bandisoft.com/amsi.
+TEXT_MSG_AMSI_WIN10_NOTICE              = Pretļaunatūras skenēšana ir pieejama tikai operētājsistēmā Windows 10/11. Lai iegūtu sīkāku informāciju, apmeklējiet vietni https://go.bandisoft.com/amsi.
+
+[MENU]
+MENUSTR_FILE                            = &Fails
+MENUSTR_EDIT                            = R&ediģēt
+MENUSTR_SETTING                         = &Opcijas
+MENUSTR_FIND                            = &Atrast
+MENUSTR_VIEW                            = &Skatīt
+MENUSTR_TOOLS                           = &Rīki
+MENUSTR_HELP                            = &Palīdzība
+
+MENUSTR_OPEN                            = Atvērt arhīvu \tCtrl+&O
+MENUSTR_RECENT                          = Nesenie faili
+MENUSTR_CLOSE_FILE                      = &Aizvērt arhīvu \tF4
+MENUSTR_CREATE_ARCHIVE                  = Jau&ns arhīvs \tCtrl+N
+MENUSTR_NEW_WINDOW                      = Jauns logs \tCtrl+Shift+N
+MENUSTR_NEW_WINDOW_ADMIN                = Jauns logs (administrators)\tCtrl+Alt+N
+MENUSTR_SAVE_AS_ARCHIVE                 = Saglabāt kā
+MENUSTR_DELETE_ARCHIVE                  = Dzēst arhīvu \tCtrl+Del
+MENUSTR_PERM_DELETE_ARCHIVE             = Neatgriezeniski dzēst arhīvu \tShift+Ctrl+Del
+MENUSTR_OPEN_ARCHIVE_FOLDER             = Atvērt arhīva atrašanās vietu
+MENUSTR_TEST_ARCHIVE                    = &Pārbaudīt arhīvu \tCtrl+T
+MENUSTR_SCAN_ARCHIVE                    = Pretļaunatūras skenēšana arhīvā\tCtrl+I
+MENUSTR_EXTRACT_FILE                    = I&zvilkt failu \tCtrl+&E
+MENUSTR_EXIT                            = &Iziet \tCtrl+W
+
+MENUSTR_RENAME_FILE                     = Pā&rdēvēt failu \tF2
+MENUSTR_ADD_FILE                        = Pievienot f&ailu \tIns
+MENUSTR_DELETE_FILE                     = &Dzēst failu \tDel
+MENUSTR_EDIT_COMMENT                    = Arhīva komentārs
+MENUSTR_SETTING_SUB                     = Ie&statījumi (F5)
+MENUSTR_REGISTER                        = Reģistrēt Bandizip. . .
+MENUSTR_UNREGISTER                      = Atcelt Bandizip reģistrāciju. . .
+MENUSTR_PASSMAN                         = Paroļu pārvaldnieks. . .
+MENUSTR_FIND_ITEM                       = Atrast fa&ilus\tCtrl+F
+MENUSTR_COPY_FILES2CLIPBOARD            = Kopēt failus starpliktuvē\tCtrl+C
+MENUSTR_PASTE_FILESFROMCLIPBOARD        = Ielīmēt failus no starpliktuves\tCtrl+V
+MENUSTR_COPY_FULL_PATHNAMES             = Kopēt pilnus vārdus starpliktuvē
+
+MENUSTR_VIEW_STARTSCREEN                = Sākuma ekrāns \tF6
+MENUSTR_VIEW_TREECONTROL                = TreeView vadība \tF7
+MENUSTR_VIEW_COMMENT                    = Arhīva komentārs\tF8
+MENUSTR_VIEW_PREVIEW                    = Attēla priekšskatījums
+MENUSTR_VIEW_STATUS_BAR                 = Statusa josla
+MENUSTR_VIEW_TOOLBAR                    = Rīkjosla
+MENUSTR_VIEW_TOOLBAR_NORMAL             = Liels
+MENUSTR_VIEW_TOOLBAR_MINI               = Mazs
+MENUSTR_VIEW_TOOLBAR_OLD                = Vecs
+MENUSTR_VIEW_TOOLBAR_HIDE               = Slēpt
+MENUSTR_SET_TOOLBAR_ITEM                = Atlasīt rīkjoslas pogas
+MENUSTR_VIEW_LISTVIEW                   = Failu saraksts
+MENUSTR_VIEW_LISTVIEW_ICON              = Ikonas
+MENUSTR_VIEW_LISTVIEW_LIST              = Saraksts
+MENUSTR_VIEW_LISTVIEW_REPORT            = Detaļas
+MENUSTR_VIEW_LISTVIEW_PREVIEW           = Lielas ikonas
+MENUSTR_VIEW_COLUMN                     = Kolonna
+MENUSTR_VIEW_ALWAYS_ON_TOP              = Vienmēr virspusē
+MENUSTR_VIEW_COLOR_SETTING              = Krāsu iestatījumi. . .
+
+MENUSTR_TOOLS_REPAIR                    = Labot arhīvu. . .
+MENUSTR_TOOLS_RECOVERY                  = Paroles atkopšana. . .
+
+MENUSTR_ABOUT                           = Par &Bandizip \tF1
+MENUSTR_HELPPAGE                        = &Doties uz palīdzības lapu
+MENUSTR_OPEN_FOLDER                     = &Atvērt Bandizip mapi
+MENUSTR_FORUM                           = Doties uz Bandizip &forumu
+MENUSTR_HOMEPAGE                        = Doties uz &Tīmekļa vietni
+
+POPUPMENU_VIEWITEM_COMPSIZE             = Saspiests izmērs
+POPUPMENU_VIEWITEM_ORIGSIZE             = Oriģinālais izmērs
+POPUPMENU_VIEWITEM_KIND                 = Faila tips
+POPUPMENU_VIEWITEM_DATE_MOD             = Izmaiņu datums
+
+POPUPMENU_VIEWITEM_COMPMETHOD           = Saspiešanas metode
+POPUPMENU_VIEWITEM_ENCRMETHOD           = Šifrēšanas metode
+POPUPMENU_VIEWITEM_CRC                  = CRC
+POPUPMENU_VIEWITEM_ATTRIB               = Failu atribūti
+POPUPMENU_VIEWITEM_COMMENT              = Faila komentārs
+POPUPMENU_VIEWITEM_EXT                  = Papildus informācija
+
+POPUPMENU_LISTCONTROL_EXTRACT_ALL       = Izvilkt visu...  \tCtrl+E
+POPUPMENU_LISTCONTROL_EXTRACT_SELECTED  = Izvilkt atlasītos failus...
+POPUPMENU_LISTCONTROL_EXTRACT_HERE      = Izvilkt visu šeit
+
+POPUPMENU_LISTCONTROL_EXECUTE           = Atvērt\tEnter
+POPUPMENU_LISTCONTROL_EXECUTE_SYS       = Atvērt ar saistīto programmu
+POPUPMENU_LISTCONTROL_EDIT_SELECTED     = Rediģēt\tF3
+POPUPMENU_LISTCONTROL_OPENWITHBANDIZIP  = Atvērt ar &Bandizip
+
+POPUPMENU_LISTCONTROL_NEW_FOLDER        = Jauna mape
+POPUPMENU_LISTCONTROL_ADD_FILE          = Pievienot failu...  \tIns
+POPUPMENU_LISTCONTROL_DELETE_FILE       = Dzēst failu \tDel
+POPUPMENU_LISTCONTROL_RENAME_FILE       = Pārdēvēt failu
+POPUPMENU_LISTCONTROL_SELECT_ALL        = Atlasīt visu \tCtrl+A
+POPUPMENU_LISTCONTROL_MOVE2PARENT       = Pārvietot uz mātes mapi\tBackspace
+
+POPUPMENU_TREECONTROL_DELETE_ARCHIVE    = Dzēst arhīvu
+POPUPMENU_TREECONTROL_OPENARCHIVEFOLDER = Atvērt arhīva mapi
+
+POPUPMENU_EXTRACT_AUTODEST              = Izvilkt šeit (viedais)\tCtrl+Shift+S
+POPUPMENU_EXTRACT_CURRENT               = Izvilkt uz šo mapi\tCtrl+Shift+C
+POPUPMENU_EXTRACT_ARCHIVENAME           = Izvilkt uz mapi "Arhīvs-nosaukums".
+POPUPMENU_EXTRACT_DESKTOP               = Izvilkt uz darbvirsmu
+POPUPMENU_EXTRACT_DESKTOP_AUTODEST      = Izvilkt uz darbvirsmu (viedais)
+
+POPUPMENU_RECENT_CLEAR                  = Notīrīt vēsturi
+POPUPMENU_RECENT_NOITEM                 = Nav neseno failu
+
+POPUPMENU_SHELLOPEN_OPENARCHIVE         = Atvērt ar Bandizip
+POPUPMENU_SHELLOPEN_EXTRACTAUTO         = Izvilkt šeit (viedais)
+
+POPUPMENU_CODEPAGE_DEFAULT              = Noklusējums
+POPUPMENU_CODEPAGE_SIMPCHINESE          = Vienkāršotā ķīniešu
+POPUPMENU_CODEPAGE_TRADCHINESE          = Ķīniešu tradicionālā
+POPUPMENU_CODEPAGE_JAPANESE             = Japāņu
+POPUPMENU_CODEPAGE_KOREAN               = Korejiešu
+POPUPMENU_CODEPAGE_WINDOWS1252          = Rietumeiropas
+POPUPMENU_CODEPAGE_WINDOWS1250          = Centrāleiropas
+POPUPMENU_CODEPAGE_WINDOWS1251          = Kirilica
+POPUPMENU_CODEPAGE_WINDOWS1254          = Turku
+POPUPMENU_CODEPAGE_WINDOWS737           = Grieķu
+POPUPMENU_CODEPAGE_ARABIC               = Arābu
+POPUPMENU_CODEPAGE_HEBREW               = Ebreju
+POPUPMENU_CODEPAGE_BALTIC               = Baltu valodas
+POPUPMENU_CODEPAGE_THAI                 = Taju
+POPUPMENU_CODEPAGE_UTF8                 = UTF-8
+POPUPMENU_CODEPAGE_AUTODETECT           = Automātiska noteikšana
+
+POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Skatīt ar Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Skatīt ar BandiView/Honeyview
+POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Skatīt ar saistīto programmu
+
+DLG_MENUSTR_MINIMIZE2TRAY               = Samazināt teknē
+DLG_MENUSTR_LOW_PRIORITY                = Zema prioritāte
+DLG_MENUSTR_DEL_ARCHIVEAFTEREXTRACT     = Pēc izvilkšanas izdzēst arhīvu
+
+
+[DIALOG]
+;------------------------------------------------------------------------------
+; GENERAL
+IDOK                                    = Labi
+IDCANCEL                                = Atcelt
+
+;------------------------------------------------------------------------------
+[IDD_ABOUT]
+IDD_ABOUT                               = Par Bandizip
+IDC_BTN_HOMEPAGE                        = Tīmekļa vietne
+IDC_BTN_UPDATE                          = Atjaunināt
+IDC_BTN_REGIST                          = Reģistrēt tagad
+IDC_BTN_BUY                             = Pirkt tagad
+IDC_BTN_LEARNMORE                       = Uzzināt vairāk...
+IDC_STATIC_LICENSE                      = Bandizip reģistrācijas informācija
+
+;------------------------------------------------------------------------------
+[IDD_OPEN_PROGRESS]
+IDD_OPEN_PROGRESS                       = Atvērt failu
+IDC_STATIC_OPENING                      = Atvēršana
+
+;------------------------------------------------------------------------------
+[IDD_SELECT_FOLDER]
+IDD_SELECT_FOLDER                       = Izvēlēties izvilkšanas vietu
+IDC_STATIC_FOLDER                       = &Galamērķa ceļš
+IDC_STATIC_FILES2EXTRACT                = Izvilkts:
+IDC_RADIO_FILES2EXTRACT_0               = Visi f&aili
+IDC_RADIO_FILES2EXTRACT_1               = Atla&sītie faili
+IDC_CHK_CREATE_FOLDER_WITH_ARCHIVE_NAME = &Izvilkt uz mapi "Arhīva-Nosaukums" zem atlasītās mapes
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Pēc izvi&lkšanas izdzēst arhīvu
+IDC_CHK_REMEMBER_SETTINGS               = Atce&rēties iestatījumus
+IDC_BTN_NEWFOLDER                       = Jau&na mape
+
+;------------------------------------------------------------------------------
+[IDD_EXTRACT]
+IDD_EXTRACT                             = Izvilkt
+IDC_BTN_STOP                            = Apturēt
+IDC_BTN_CLOSE                           = Aizvērt
+IDC_BTN_PAUSE                           = Pauze
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE]
+IDD_ARCHIVE                             = Jauns arhīvs
+IDC_STATIC_FILE_LIST                    = Pievienot failus arhīvam
+IDC_STATIC_ARCHIVE_SETTING              = Arhīva iestatījumi
+IDC_STATIC_ARCHIVE_NAME                 = Faila nosaukums
+IDC_STATIC_SET_DEST_FOLDER              = Mērķa mape
+IDC_STATIC_ARCHIVE_TYPE                 = Arhīva formāts
+IDC_STATIC_ARCHIVE_VOLUME_SIZE          = Sadalīt sējumos
+IDC_STATIC_COMPRESSION_METHOD           = Kompresijas līmenis
+IDC_STATIC_HELP_SPLIT                   = [Palīdzība]
+IDC_STATIC_HELP_7Z                      = [7Z formāts]
+IDC_BTN_SELECT_ARCHIVE_NAME             = &Pārlūkot...
+IDC_BTN_SET_PASSWORD                    = Uzstādīt &paroli...
+IDC_BTN_TEST_ARCHIVE                    = &Pārbaudīt arhīvu
+IDC_BTN_DELETE_SRC                      = Dzēst failus pēc arhivēšanas
+IDC_BTN_ARCHIVE_AS_EACH_NAME            = Saspiest katru failu/mapi savā arhīvā
+IDC_BTN_SET_DEST_FOLDER                 = Mainīt mērķa mapi
+IDC_BTN_TOGGLE_ADVANCED                 = Vairāk iespēju
+IDC_BTN_SET_SFX                         = SFX iestatījumi...
+IDC_BTN_ADD                             = &Pievienot...
+IDC_BTN_DEL                             = &Dzēst
+IDC_BTN_START                           = &Sākt
+IDC_BTN_COMP_ADVANCED                   = Papildu
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVE_ADVANCED]
+IDD_AA_ZIP                              = ZIP/ZIPX saspiešanas iestatījumi
+IDC_AA_ZIP_ALGO                         = Saspiešanas metode
+IDC_AA_ZIP_ENC                          = Šifrēšanas metode
+IDC_AA_ZIP_THREAD                       = CPU pavedienu skaits
+COMBO_TEXT_THREAD_AUTO                  = Auto
+IDC_CHK_ZIP_STORESYMLINK                = Saglabāt simboliskās saites
+IDC_CHK_ZIP_COMMENT                     = Saglabāt komentārus
+IDD_AA_7Z                               = 7Z saspiešanas iestatījumi
+IDC_AA_7Z_ALGO                          = Saspiešanas metode
+IDC_AA_7Z_SOLID                         = Bloka izmērs
+IDC_CHK_7Z_ENC_FILENAMES                = Šifrēt failu nosaukumus
+IDD_AA_TAR                              = TAR arhivēšanas iestatījumi
+IDC_CHK_TAR_SYMLINK                     = Saglabāt simboliskās norādes
+IDC_CHK_TAR_HARDLINK                    = Saglabāt stingrās norādes
+COMBO_TEXT_SOLID_NONE                   = Pēc faila izmēra
+COMBO_TEXT_SOLID_SOLID                  = Nepārtraukts
+
+;------------------------------------------------------------------------------
+[IDD_PASSWORD_INPUT]
+IDD_PASSWORD_INPUT                      = Ievadīt paroli
+IDC_STATIC_DESC_ARCHIVING               = Ievadiet arhīva paroli. Labākai drošībai ieteicams ievadīt paroli, kas ir vismaz 8 rakstzīmes.
+IDC_STATIC_DESC_MASTERPASS              = Ievadiet paroļu pārvaldnieka galveno paroli. Labākai drošībai ieteicams ievadīt paroli, kas ir vismaz 8 rakstzīmes.
+IDC_STATIC_DESC_EXTRACT                 = Ievadīt šifrētā faila paroli.
+IDC_STATIC_DESC_EXTRACT_INVALIDPASS     = Jūs esat ievadījis nederīgu paroli. Ievadīt paroli vēlreiz.
+IDC_STATIC_PWD                          = Ievadīt paroli
+IDC_STATIC_PWD2                         = Ievadīt paroli vēlreiz
+IDC_BTN_SHOW_PASSWORD                   = Rādīt paroli
+IDC_BTN_PASSMAN                         = Paroļu pārvaldnieks...
+IDC_CHECK_APPLY_ALL                     = &Lietot visiem
+IDC_STATIC_PASS_RECOVERY                = Aizmirsāt paroli? Mēģiniet lietot Bandizip paroles atgūšanas funkciju.
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN]
+IDD_PASSMAN                             = Paroļu pārvaldnieks
+TEXT_MSG_CORRUTP_DATA                   = Saglabāto paroļu dati ir bojāti.
+TEXT_PASSMAN_WARNING1                   = Ja nav iestatīta galvenā parole, paroļu pārvaldniekā saglabātās paroles netiek šifrētas.
+TEXT_PASSMAN_WARNING2                   = Jāievēro piesardzība, ja izmantojat šo funkciju publiskā vai koplietotā datorā.
+LIST_PASS_HEADER1                       = Parole
+LIST_PASS_HEADER2                       = Parādāmais nosaukums
+IDC_BTN_ADD                             = Pievienot
+IDC_BTN_DEL                             = Dzēst
+IDC_BTN_EDIT                            = Rediģēt
+IDC_BTN_SET_MASTERPASS                  = Iestatīt galveno paroli...
+IDC_BTN_DEL_MASTERPASS                  = Noņemt galveno paroli
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_ENTERMASTPASS]
+IDD_PASSMAN_ENTERMASTPASS               = Ievadīt galveno paroli
+IDC_STATIC_MASTPASS_MSG                 = Ievadīt galveno paroli, lai piekļūtu paroļu pārvaldniekam. Atiestatīt, lai dzēstu visu sistēmā saglabāto paroļu informāciju.
+IDC_BTN_INITPASSMAN                     = Atiestatīt
+TEXT_ASK_INIT_PASSMAN                   = Vai tiešām vēlaties dzēst visu informāciju par parolēm?
+IDC_BTN_SHOW_PASSWORD                   = Rādīt paroli
+
+;------------------------------------------------------------------------------
+[IDD_PASSMAN_EDIT]
+IDD_PASSMAN_EDIT                        = Paroles informācija
+IDC_STATIC_PASSWORD                     = Parole
+IDC_STATIC_DISPNAME                     = Parādāmais nosaukums (neobligāti)
+
+;------------------------------------------------------------------------------
+[IDD_FILE_SELECT]
+IDD_FILE_SELECT                         = Izvēlēties
+IDC_BTN_OPEN                            = Atvērt
+
+;------------------------------------------------------------------------------
+[IDD_ARCHIVING]
+IDD_ARCHIVING                           = Arhivēšana
+TEXT_ARCHIVE_TESTING                    = Testēšana
+IDC_BTN_STOP                            = Apturēt
+IDC_BTN_CLOSE                           = Aizvērt
+IDC_BTN_PAUSE                           = Pauze
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DUPEFILE]
+IDD_ASK_DUPEFILE                        = Dublēti faili
+IDC_STATIC_DUPE_MESSAGE                 = Tāds fails jau pastāv.
+IDC_STATIC_DUPEFILE_OLD                 = Esošais fails
+IDC_STATIC_DUPEFILE_NEW                 = Fails, kas jāsaspiež
+IDC_STATIC_DUPE_ASK                     = Ko darīt:
+IDC_RADIO_DUPE_METHOD0                  = Izlai&st
+IDC_RADIO_DUPE_METHOD1                  = &Pārrakstīt
+IDC_RADIO_DUPE_METHOD2                  = Pā&rdēvēt
+IDC_CHECK_DUPE_APPLY_ALL                = Lietot visiem f&ailiem
+
+;------------------------------------------------------------------------------
+[IDD_ASK_DROPFILE]
+IDD_ASK_DROPFILE                        = Atlasīt Arhīva opcija
+IDC_STATIC_ASK_HANDLING                 = Ko darīt:
+IDC_RADIO_HANDLE_METHOD0                = &Atvērt arhīvu
+IDC_RADIO_HANDLE_METHOD1                = Jau&ns arhīvs
+IDC_RADIO_HANDLE_METHOD2                = Pievienot f&ailu(s) pašreizējam arhīvam
+IDC_CHK_PASS                            = Lietot paroli
+IDC_STATIC_PASSWORD_AGAIN               = Ievadīt paroli vēlreiz
+IDC_CHK_SHOW_PASS                       = Rādīt paroli
+IDC_CHK_DELETE_FILES                    = Dzēst failus pēc arhivēšanas
+
+;------------------------------------------------------------------------------
+[IDD_SETTING]
+IDD_SETTING                             = Iestatījumi
+IDC_BTN_INIT                            = Atiestatīt
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_GENERAL]
+IDC_STATIC_GENERAL                      = Vispārīgie iestatījumi
+IDC_CHK_EXIT_WITH_ESC                   = ESC taustiņš, lai izietu no loga
+IDC_CHK_TEST_ARCHIVE_AFTER_MODIFY       = Vienmēr pārbaudīt failus, kad fails tiek pievienots/dzēsts/pārdēvēts
+IDC_CHK_SNAP                            = Pielipt ekrāna malām
+IDC_CHK_SHOW_DOTDOT_AT_LIST             = Rādīt elementu [..] arhīvā
+IDC_CHK_SHOW_GRID_AT_LIST               = Rādīt režģlīnijas detalizētajā skatā
+IDC_CHK_FULL_ROW_SELECT_AT_LIST         = Pilnas rindas atlase
+IDC_CHK_ONE_CLICK_ACTIVATE              = Veikt vienu klikšķi, lai atvērtu vienumu
+IDC_STATIC_UPDATE                       = Atjaunināt iestatījumus
+TEXT_UPDATE_0                           = Informēt un instalēt jaunāko versiju
+TEXT_UPDATE_1                           = Informēt un instalēt tikai stabilo versiju
+TEXT_UPDATE_2                           = Neinformēt par atjauninājumiem
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC]
+IDC_STATIC_ASSOC_LIST                   = Failu asociācijas
+IDC_BTN_SELECT_MANDATORY                = Izvēlieties pamatlietas
+IDC_BTN_SELECT_ALL                      = Izvēlēties visus
+IDC_BTN_CLEAR_ALL                       = Neizvēlēties visu
+IDC_BTN_APPLY_NOW                       = Lietot tagad
+IDC_STATIC_ICON_PACK                    = Izvēlēties ikonu pakotni:
+IDC_STATIC_ICON_PACK_HOMEPAGE           = [Ikonu pakotnes lejupielāde]
+IDC_STATIC_DEFAULT_APP_SETTINGS         = Windows — iestatīt noklusējuma programmas
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ASSOC_NEW]
+IDC_STATIC_ASSOC_LIST                   = Failu tipu asociācija
+;IDC_STATIC_ASSOC_DESC1
+;IDC_STATIC_ASSOC_DESC2
+;IDC_STATIC_ASSOC_DESC3
+;IDC_STATIC_ASSOC_DESC4
+;IDC_STATIC_ASSOC_DESC1_10
+;IDC_STATIC_ASSOC_DESC2_10
+;IDC_STATIC_ASSOC_DESC3_10
+;IDC_STATIC_ASSOC_DESC4_10
+;IDC_BTN_LAUNCH_ASSOC_REG_UI
+;IDC_BTN_SHOW_CLASSIC_ASSOC_UI
+LIST_COLUMN0                            = Paplašinājums
+LIST_COLUMN1                            = Noklusējuma programma
+IDC_BTN_CHANGE                          = Mainīt
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SHELL]
+IDC_STATIC_SHELL_OPEN                   = Dubultklikšķa darbība
+IDC_RADIO_SHELL_OPEN_0                  = Atvērt ar Bandizip
+IDC_RADIO_SHELL_OPEN_1                  = Izvilkt šeit (Viedais)
+IDC_RADIO_SHELL_OPEN_2                  = Rādīt kontekstizvēlni
+IDC_RADIO_SHELL_OPEN_3                  = Izvilkt uz norādīto mapi (Viedais)
+IDC_BTN_SET_EXTRACT_FOLDER              = Pārlūkot...
+IDC_RADIO_SHELL_OPEN_4                  = Izvilkt uz mapi "Arhīva-nosaukums".
+IDC_CHK_DEL_ARCHIVE_AFTER_EXTRACT       = Izdzēst arhīvu pēc izvilkšanas, veicot dubultklikšķi
+
+IDC_STATIC_SHELL_EXTRACT                = Izvilkšanas izvēlne
+IDC_CHK_SHELL_EXTRACT_HERE              = Izvilkt šeit
+IDC_CHK_SHELL_EXTRACT_AUTO              = Izvilkt šeit (Viedais)
+IDC_CHK_SHELL_EXTRACT_SUB               = Izvilkt mapē "Arhīva nosaukums".
+IDC_CHK_SHELL_EXTRACT_HERE_DEL          = Izvilkt šeit un izdzēst
+IDC_CHK_SHELL_EXTRACT_AUTO_DEL          = Izvilkt šeit (viedais) un izdzēst
+IDC_CHK_SHELL_EXTRACT_SUB_DEL           = Izvilkt mapē "Arhīva nosaukums" un izdzēst
+IDC_CHK_SHELL_EXTRACT_DLG               = Izvilkt uz citu mapi...
+IDC_CHK_SHELL_EXTRACT_ADMIN             = Izvilkt kā administrators
+IDC_CHK_SHELL_TEST_ARCHIVE              = Pārbaudīt arhīvu
+IDC_CHK_SHELL_OPEN_ARCHIVE              = Atvērt ar Bandizip
+IDC_CHK_SHELL_PREVIEW                   = Priekšskatīt arhīvu
+IDC_STATIC_SHELL_PREVIEW_SIZE           = Ierobežot priekšskatījuma failus līdz:
+IDC_CHK_SHELL_PREVIEW_TREE              = Priekšskatīt arhīvu ar koka struktūru
+
+IDC_STATIC_SHELL_ARCHIVING              = Saspiešanas izvēlne
+IDC_CHK_SHELL_ARCHIVING_AS_FILENAME     = "Saspiest uz "FailaNosaukums.zip""
+IDC_CHK_SHELL_ARCHIVING_AND_DEL         = Saspiest uz "FailaNosaukums.zip" un izdzēst
+IDC_CHK_SHELL_ARCHIVING_AND_EMAIL       = Saspiest uz "FailaNosaukums.zip" un sūtīt pa e-pastu
+IDC_CHK_SHELL_ADD_TO_ZIP                = "Pievienot arhīvam "FailaNosaukums.zip""
+IDC_CHK_SHELL_ARCHIVING_ZIPX            = "Saspiest uz "FailaNosaukums.zipx""
+IDC_CHK_SHELL_ARCHIVING_EXE             = "Saspiest uz "FailaNosaukums.exe""
+IDC_CHK_SHELL_ARCHIVING_TAR             = "Saspiest uz "FailaNosaukums.tar""
+IDC_CHK_SHELL_ARCHIVING_TGZ             = "Saspiest uz "FailaNosaukums.tgz""
+IDC_CHK_SHELL_ARCHIVING_LZH             = "Saspiest uz "FailaNosaukums.lzh""
+IDC_CHK_SHELL_ARCHIVING_ISO             = "Saspiest uz "FailaNosaukums.iso""
+IDC_CHK_SHELL_ARCHIVING_7Z              = "Saspiest uz "FailaNosaukums. 7z""
+IDC_CHK_SHELL_ARCHIVING_GZ              = "Saspiest uz "FailaNosaukums.gz""
+IDC_CHK_SHELL_ARCHIVING_XZ              = "Saspiest uz "FailaNosaukums.xz""
+IDC_CHK_SHELL_ARCHIVING_ZPAQ            = "Saspiest uz "FailaNosaukums.zpaq""
+IDC_CHK_SHELL_ARCHIVING_EACH            = Saspiest katru Failu/Mapi atsevišķā zip arhīvā
+IDC_CHK_SHELL_ARCHIVING_EACH_7Z         = Saspiest katru Failu/Mapi atsevišķā 7z arhīvā
+IDC_CHK_SHELL_ARCHIVING_POPUP           = Izveidot arhīvu (Bandizip)
+IDC_CHK_SHELL_ARCHIVING_ADMIN           = Saspiest kā administrators
+IDC_CHK_SHELL_ARCHIVING_RULE            = Saspiest ar pielāgotu faila nosaukumu
+IDC_STATIC_FILENAME_RULE_HELP           = Noteikumi: ${NAME} = faila nosaukums, %Y = gads, %m = mēnesis, %d = diena, %H = stunda, %M = minūte, %S = sekunde
+
+IDC_STATIC_SHELL_BKGND                  = Ar peles labo pogu noklikšķiniet uz atstarpes, lai atvērtu uznirstošo izvēlni programmā Windows Explorer
+IDC_CHK_SHELL_BKGND_NEW_FOLDER          = Lietot funkciju "Jauna mape".
+IDC_CHK_SHELL_BKGND_LAUNCH_CMD          = Palaist komandu logu (cmd.exe) — nospiest taustiņu Shift, lai kā administrators atvērtu cmd.exe
+
+IDC_STATIC_SHELL_ETC                    = Citi
+IDC_CHK_SHELL_DO_NOT_USE                = Atspējot konteksta izvēlni
+IDC_CHK_SHELL_AS_SUB_MENU               = Kaskādes konteksta izvēlne
+IDC_CHK_SHELL_HIDE_ICON                 = Slēpt Bandizip ikonu
+IDC_CHK_SHELL_CHECK_ARCHIVE_DEEP        = Noteikt arhīvu pēc satura
+IDC_CHK_SHELL_CAN_COMPRESS_ARCHIVE      = Rādīt arhīva kontekstizvēlni arī arhīva failiem
+IDC_CHK_SHELL_USE_SELECTED_FILENAME     = Atlasot vairākus failus/mapes, lietot peles kursora atlasīto faila/mapes nosaukumu
+IDC_CHK_SHELL_USE_DROP_HANDLER          = Failu pievienošana tieši ZIP failam, velkot un nometot pārlūkprogrammā Explorer
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_EXTRACT]
+IDC_STATIC_EXTRACT                      = Izvilkšanas iestatījumi
+IDC_CHK_ENTERFOLDERWHENROOTFOLDERISONE  = Ja arhīvā ir tikai viena saknes mape, rādīt mapē esošos failus
+IDC_CHK_OPEN_FOLDER_EXTRACT_COMPLETE    = Pēc izvilkšanas atvērt mapi
+IDC_CHK_DO_NOT_CLOSE_EXTRACT_DLG        = Pēc izvilkšanas neaizvērt progresa logu
+IDC_CHK_FAST_DRAG_DROP                  = Lietot ātro vilkšanu un nomešanu, izvelkot lielus failus
+IDC_CHK_TREAT_TGZ_AS_SOLID_ARCHIVE      = Atvērt un izvilkt TGZ un TBZ failus vienlaikus
+IDC_CHK_TREAT_TGZ_AS_SOLID_WHEN_BIG     = Pat liela izmēra TGZ un TBZ failiem
+IDC_CHK_AUTODEST_ONEFILE2SUBFOLDER      = "Izvilkt uz jaunu mapi, pat ja ir viens arhivēts fails, izmantojot "Izvilkt šeit (Viedais)""
+IDC_CHK_AUTOCONVERTNFD2NFC_WHENMACOS    = Automātiski noteikt Macintosh kodu lapu
+IDC_CHK_UNIXZIP_AS_UTF8                 = Lietot UTF-8 kodu lapu, kad atverat zip failu no UNIX
+IDC_CHK_PARALLEL_EXT                    = Ja iespējams, lietot paralēlo izvilkšanu
+IDC_STATIC_CODEPAGE                     = Noklusējuma koda lapa
+IDC_STATIC_TYPE_OF_EXTRACT_ALL          = Palaist tālāk norādītos failu tipus pēc visa izpakošanas, veicot dubultklikšķi
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ARCHIVE]
+IDC_STATIC_ARCHIVE                      = Kompresijas iestatījumi
+IDC_CHK_DO_NOT_STORE_ROOT_FOLDER        = Neveidot saknes mapi, kad saspiež tikai vienu mapi ar Explorer peles labo pogu
+IDC_CHK_USE_UTF8_COMPRESS               = Lietot unikoda failu nosaukumus ZIP failos (UTF-8)
+IDC_CHK_USE_UTF8_EXTRA_FIELD            = Saglabāt unikoda failu nosaukumus ZIP failu papildu galvenes laukā (UTF-8)
+IDC_CHK_USE_UTF8_COMPRESS_TAR           = Lietot unikoda failu nosaukumus tar/tgz failos (UTF-8)
+IDC_CHK_FORCE_ZIP64                     = Vienmēr lietot ZIP64 formātu, pat ja faila izmērs ir mazāks par 2 GB (nav ieteicams)
+IDC_CHK_EXCLUDE_THUMBSDB                = Arhivēšanas laikā izslēgt tādus failus kā Thumbs.db
+IDC_CHK_SAVE_NTFS_TIME_TO_ZIP           = Saglabāt NTFS laika informāciju, veidojot ZIP failus
+IDC_CHK_DO_NOT_COMPRESS_UNCOMPRESSIBLE  = Lietot ātrgaitas arhivēšanu
+IDC_CHK_DO_NOT_CLOSE_COMPRESS_DLG       = Pēc arhivēšanas neaizvērt progresa logu
+IDC_STATIC_COMPRESSION_METHOD           = Kompresijas līmenis:
+IDC_CHK_TEST_ARCHIVE_AFTER_COMP         = Pēc saspiešanas pārbaudīt arhīvu
+IDC_RADIO_FOLDER4NEWARCHIVE_USELAST     = Jaunajam arhīvam lietot pēdējo izmantoto mapi
+IDC_RADIO_FOLDER4NEWARCHIVE_SET         = Noklusējuma mape jaunam arhīvam
+IDC_BTN_SET_NEW_ARCHIVE_FOLDER          = Pārlūkot...
+IDC_CHK_EXCLUDE_FILTER                  = Failu veidi, kas jāizslēdz, arhivējot
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_VIEWER]
+IDC_STATIC_VIEWER                       = Skatīt
+IDC_CHK_SHOW_PREVIEW                    = Priekšskatīt attēlus pirms izvilkšanas
+IDC_CHK_SHOW_FOLDER_SIZE                = Rādīt mapes saspiesto/oriģinālo izmēru
+IDC_CHK_SET_LISTCONTROL_FONT            = Iestatīt fontu failu sarakstiem
+IDC_BTN_SET_FONT                        = Fonta iestatījumi...
+IDC_CHK_SET_TREECONTROL_FONT            = Iestatīt TreeView vadīklas fontu
+IDC_CHK_SET_COMMENTCONTROL_FONT         = Iestatīt arhīva komentāru fontu
+
+IDC_STATIC_SETTING_VIEWITEM             = Kolonnas
+IDC_CHK_VIEWITEM_COMPSIZE               = Saspiests izmērs
+IDC_CHK_VIEWITEM_ORIGSIZE               = Oriģinālais izmērs
+IDC_CHK_VIEWITEM_KIND                   = Faila tips
+IDC_CHK_VIEWITEM_DATE_MOD               = Izmaiņu datums
+IDC_CHK_VIEWITEM_COMPMETHOD             = Saspiešanas metode
+IDC_CHK_VIEWITEM_ENCRMETHOD             = Šifrēšanas metode
+IDC_CHK_VIEWITEM_CRC                    = CRC
+IDC_CHK_VIEWITEM_ATTRIB                 = Faila atribūti
+IDC_CHK_VIEWITEM_COMMENT                = Faila komentārs
+IDC_CHK_VIEWITEM_EXT                    = Papildus informācija
+
+IDC_STATIC_IMAGE_VIEWER                 = Attēlu skatītājs
+IDC_RADIO_IMAGE_VIEWER_0                = Lietot iekšējo attēlu skatītāju
+IDC_RADIO_IMAGE_VIEWER_1                = Lietot saistīto programmu
+IDC_RADIO_IMAGE_VIEWER_2                = Lietot BandiView/Honeyview, ja tas ir instalēts
+
+IDC_STATIC_EDITOR                       = Redaktors
+IDC_BTN_SET_EDITOR_PATH                 = Pārlūkot...
+
+IDC_STATIC_COLOR                        = Krāsa
+IDC_STATIC_COLOR_THEME                  = Tēmas krāsa
+IDC_BTN_BKGND                           = Atlasīts
+IDC_STATIC_COLOR_TEXT                   = Fonta krāsa
+IDC_STATIC_COLOR_TEXT_AUTO              = Auto
+IDC_STATIC_COLOR_TEXT_WHITE             = Balts
+IDC_STATIC_COLOR_TEXT_BLACK             = Melns
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_SECURITY]
+IDC_STATIC_SECURITY                     = Drošības iestatījumi
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopēt Identifikācijas informāciju par arhīvu, kas lejupielādēts no interneta, izvikšanas laikā
+IDC_CHK_AMSI_BEFORE_EXTRACT             = Pirms izvilkšanas pārbaudīt uz ļaunprātīgu programmatūru
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_ETC]
+IDC_BTN_EXPORT_SETTINGS                 = Eksportēt Bandizip iestatījumus
+IDC_STATIC_ETC                          = Papildu iestatījumi
+IDC_CHK_SET_TEMP_FOLDER                 = Iestatīt pagaidu mapes atrašanās vietu
+IDC_BTN_SET_TEMP_FOLDER                 = Pārlūkot...
+IDC_CHK_SET_USER_ARCHIVE_EXT            = Atpazīt tālāk norādītos failu tipus kā arhīva failus
+IDC_CHK_DELETE_TEMP_FILE_ASAP           = Dzēst pagaidu failu, izejot no atvasinātā procesa
+IDC_CHK_DELETE_ARCHIVE_TO_TRASH         = Dzēšot, pārvietot failus uz atkritni
+IDC_CHK_SHOW_RECENT_ARCHIVE_LIST        = Parādīt nesen atvērto failu sarakstu
+IDC_CHK_USE_LONG_PATH_NAME              = Apstrādāt garus ceļu nosaukumus, kas pārsniedz 260 rakstzīmes
+IDC_CHK_OPEN_ARCHIVE_WITH_SHARE_DEL     = Ļaut programmai Windows Explorer dzēst atvērtos arhīva failus
+IDC_CHK_AUTO_EXPAND_TREE_CONTROL        = Automātiski izvērst mapju koku
+IDC_CHK_USE_MODAL_DIALOG                = Arhivēšanas/izvilkšanas laikā lietot modālo dialogu
+IDC_CHK_USE_ELEGANT_UI                  = Lietot elegantu lietotāja interfeisa dizainu
+IDC_CHK_SHOW_STARTSCREN_WHEN_LAUNCH     = Rādīt 'Sākuma ekrāns', kad Bandizip startējas
+IDC_CHK_DISP_FULL_PATH_IN_THE_TITLEBAR  = Parādīt pilnu ceļu virsrakstjoslā
+IDC_CHK_DEL_OUTFILE_WHEN_USER_CANCEL    = Dzēst izvilktos failus, kad izvilkšana tiek atcelta
+IDC_CHK_COPY_ZONE_IDENTIFIER            = Kopēt Identifikācijas informācija par arhīvu, kas lejupielādēts no interneta, izvilkšanas laikā
+IDC_CHK_USE_SET_END_OF_FILE             = Iepriekš piešķirt vietu diskā izvades failam
+IDC_CHK_COMP_FILE_USED_BY_ANOTHPER_PROC = Saspiest failu pat tad, ja failu izmanto cits process
+IDC_CHK_DO_NOT_USE_RICHEDIT             = Nelietot Rich Edit vadīklu
+
+;------------------------------------------------------------------------------
+[IDD_SETTING_LANG]
+IDC_STATIC_LANG                         = Valodas iestatījumi
+IDC_STATIC_OPEN_TRANSLATION_PAGE        = Vai vēlaties palīdzēt tulkot šo programmu? Noklikšķiniet šeit...
+
+;------------------------------------------------------------------------------
+[IDD_SFX_SETTING]
+IDD_SFX_SETTING                         = SFX (pašizvilkšanas arhīva) iestatījumi
+IDC_STATIC_TARGET_PATH                  = Izvilkšanas ceļš:
+IDC_STATIC_TITLE                        = SFX nosaukums:
+IDC_STATIC_RUN                          = Palaist pēc izvilkšanas:
+IDC_STATIC_MESSAGE                      = SFX ziņojums:
+IDC_CHK_AUTO_CLOSE                      = Pēc izvilkšanas aizvērt SFX logu
+IDC_CHK_RUN_AS_ADMIN                    = Izpildīt kā administratoram
+IDC_BTN_SAVE_SFX_SETTING                = Saglabāt iestatījumus
+
+;------------------------------------------------------------------------------
+[IDD_FIND]
+IDD_FIND                                = Atrast failus
+IDC_STATIC_FIND                         = &Atrast ko:
+IDC_BTN_CLOSE                           = Aizvērt
+IDC_BTN_DELETE                          = Dzēst
+IDC_BTN_EXTRACT                         = Izvilkt
+
+;------------------------------------------------------------------------------
+[IDD_EDIT_COMMENT]
+IDD_EDIT_COMMENT                        = Arhīva komentārs
+IDC_STATIC_COMMENT                      = Pievienot/rediģēt komentāru šajā arhīvā
+IDC_CHK_USE_UTF8                        = Saglabāt komentāru kā Unicode (UTF-8)
+IDC_BTN_LOAD_FROM_FILE                  = Ielādēt komentāru no faila (*.txt)...
+
+;------------------------------------------------------------------------------
+[IDD_ASK_EXECUTABLE]
+IDD_ASK_EXECUTABLE                      = BRĪDINĀJUMS
+IDC_STATIC_WARN_EXECUTABLE              = Šis fails ir izpildāms fails. Šīs programmas palaišana var kaitēt jūsu datoram. Vai vēlaties turpināt?
+IDC_CHK_DO_NOT_ASK_AGAIN                = Nejautāt man atkārtoti
+
+;------------------------------------------------------------------------------
+[IDD_REGISTER]
+IDD_REGISTER                            = Reģistrēt Bandizip
+IDC_STATIC_DESC1                        = Ievadiet savu e-pasta adresi un produkta atslēgu, ko saņēmāt pa e-pastu.
+IDC_STATIC_EMAIL                        = Epasta adrese
+IDC_STATIC_PRDUCT_KEY                   = Produkta atslēga
+IDC_BTN_REGISTER                        = Reģistrēt tagad
+IDC_STATIC_BUYNOW                       = Vēl neesat iegādājies Bandizip? [Pērc tagad]
+
+;------------------------------------------------------------------------------
+[IDD_LICENSE_GUIDE]
+IDD_LICENSE_GUIDE                       = Bandizip licences rokasgrāmata
+TEXT_LIMIT_PASSMAN                      = Bandizip standarta versijā paroļu pārvaldniekā var saglabāt tikai vienu paroli.
+TEXT_SHOW_AD                            = Bandizip standarta versijā tiek rādītas reklāmas. [br]Lai noņemtu reklāmas, varat iegādāties maksas versiju.
+TEXT_CANNOT_CHANGE                      = Šo funkciju nevar mainīt Bandizip standarta versijā.[br]Lai mainītu funkciju, varat iegādāties maksas versiju.
+TEXT_CANNOT_USE                         = Šī funkcija nav pieejama Bandizip standarta versijā.[br]Lai lietotu šo funkciju, varat iegādāties maksas versiju.
+TEXT_PORTABLE_NOTICE                    = Šī funkcija nav pieejama Bandizip Portable Edition versijā.[br]Lai izmantotu šo funkciju, varat iegādāties maksas versiju.
+IDC_STATIC_COMPARISON                   = Versiju salīdzinājums...
+IDC_STATIC_HOWTOREGISTER                = Vai jau iegādājāties Bandizip? [Kā reģistrēt]
+
+;------------------------------------------------------------------------------
+[IDD_REPAIR_ARCHIVE]
+IDD_REPAIR_ARCHIVE                      = Labot arhīvu
+IDC_STATIC_SRC                          = Bojātais fails
+IDC_STATIC_DST                          = Izlabotais fails
+IDC_BTN_START                           = Sākt labošanu
+IDC_BTN_TEST                            = Pārbaudīt labošanu
+IDC_BTN_STOP                            = Apturēt
+TEXT_NOTICE                             = "Pārlūkojiet un atlasiet labojamo failu, pēc tam noklikšķiniet uz "Sākt labošanu.""
+TEXT_ERR_OCCURRED                       = Notika kļūda.
+TEXT_ERR_NOT_A_ZIP                      = Atlasītais fails ir neatbalstītā formātā. Pašlaik ir pieejams tikai ZIP formāts.
+TEXT_ERR_NO_INFO                        = Atlasītajā failā nav labojamo datu.
+TEXT_MSG_START                          = Sākas labošana.
+TEXT_MSG_FINISH                         = Labošana pabeigta.
+TEXT_MSG_ANALYZING                      = Notiek analīze...
+TEXT_MSG_CANCELED                       = Labošana atcelta.
+TEXT_MSG_SELECT_ARCHIVE_FIRST           = Pirms labošanas sākšanas atlasiet arhīva failu (.zip).
+
+[IDD_UNINSTALL]
+TEXT_UNINST_NOTICE                      = Jūsu sistēmā ir instalētas vairākas Bandizip programmas. Lūdzu, izdzēsiet vienu no tām, lai novērstu problēmas.
+CMD_UNINST_MSSTORE                      = Atinstalēt Bandizip MSE
+CMD_UNINST_PROGFILES                    = Atinstalēt Bandizip
+
+
+
+
+[SKIN]
+$TOOLBAR_OPEN                           = Atvērt
+$TOOLBAR_CLOSE_FILE                     = Aizvērt
+$TOOLBAR_EXTRACT_FILE                   = Izvilkt
+$TOOLBAR_CREATE_ARCHIVE                 = Jauns
+$TOOLBAR_DELETE_FILE                    = Dzēst
+$TOOLBAR_ADD_FILE                       = Pievienot
+$TOOLBAR_TEST_ARCHIVE                   = Pārbaude
+$TOOLBAR_CODEPAGE                       = Koda lapa
+$TOOLBAR_VIEWITEM                       = Kolonnas
+$TOOLBAR_SCAN                           = Skenēt
+
+$TOOLBAR_OPEN2                          = Atvērt arhīvu
+$TOOLBAR_CREATE_ARCHIVE2                = Jauns arhīvs
+
+$TEXT_DESKTOP                           = Darbvirsma
+$TEXT_DOCUMENT                          = Dokumenti
+$TEXT_PICTURE                           = Bildes
+$TEXT_COMPUTER                          = Dators
+
+$TEXT_SETTINGTAB_GENERAL                = Vispārīgi
+$TEXT_SETTINGTAB_ASSOC                  = Asociācija
+$TEXT_SETTINGTAB_SHELL                  = Konteksta izvēlne
+$TEXT_SETTINGTAB_EXTRACT                = Izvilkšana
+$TEXT_SETTINGTAB_ARCHIVE                = Saspiešana
+$TEXT_SETTINGTAB_VIEWER                 = Skatīt
+$TEXT_SETTINGTAB_SECURITY               = Drošība
+$TEXT_SETTINGTAB_ETC                    = Papildu
+$TEXT_SETTINGTAB_LANG                   = Valoda
+
+$TOOLTIP_EXTRACTDLG_OPEN_DST            = Atvērt faila atrašanās vietu
+$TOOLTIP_EXTRACTDLG_OPEN_SRC            = Atvērt arhīva atrašanās vietu
+$TOOLTIP_EXTRACTDLG_OPEN_DST_OPTION     = Pēc izvilkšanas atvērt faila atrašanās vietu
+$TOOLTIP_COMPRESSDLG_OPEN_DST           = Atvērt arhīva atrašanās vietu
+$TOOLTIP_OPEN_LAST_EXTRACTED_FOLDER     = Atvērt mērķa mapi
+$TOOLTIP_DO_NOT_CLOSE_EXTRACT_DLG       = Pēc izvilkšanas neaizvērt šo logu
+$TOOLTIP_DO_NOT_CLOSE_COMPRESS_DLG      = Pēc arhivēšanas neaizvērt šo logu
+$TOOLTIP_ADVANCED_MENU                  = Dažādi iestatījumi
+$TOOLTIP_REGISTER                       = Reģistrēt Bandizip
+$TOOLTIP_UPDATE                         = Atjaunināt
+$TOOLTIP_PREVIEW                        = Skatīt lielas ikonas
+$TOOLTIP_REPORT                         = Skatīt detaļas
+
+$TEXT_INSTALL_START                     = Labi, pamēģināšu
+$TEXT_INSTALL_CLOSE                     = Aizvērt
+$TEXT_INSTALL_HONEYVIEW_LINK            = Skatīt vairāk...
+
+$TEXT_HELP_PAGE                         = Palīdzības lapa
+$TEXT_AD                                = AD
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR PASSWORD RECOVERY
+;
+[RECOVERY_TEXT]
+PASSWORD_RECOVERY_TITLE                 = Bandizip paroles atgūšana
+TEXT_MSG_OPENING                        = Arhīva atvēršana: ${str1}
+TEXT_MSG_CANCELED                       = Arhīva atvēršana ir atcelta.
+TEXT_MSG_BROKEN                         = Šis arhīvs ir bojāts.
+TEXT_MSG_NO_PASSWD                      = Šim arhīvam nav iestatīta parole.
+TEXT_MSG_NOT_SUPPORTED_PASSWORD         = Šī arhīva faila galvene ir šifrēta; Šis arhīva veids pašlaik netiek atbalstīts.
+TEXT_MSG_OPEN_FIRST                     = Pirms atgūšanas sākšanas atvērt arhīvu.
+TEXT_MSG_CANT_OPEN                      = Neizdevās atvērt arhīvu. (Kods: 0x%x)
+TEXT_MSG_NEED_CHECK_SYMBOLS             = Atlasīt atgūšanas rakstzīmju veidus.
+TEXT_MSG_INIT_FAIL                      = Inicializācija neizdevās.
+TEXT_MSG_NOT_FOUND                      = Atgūšana neizdevās. Bandizip standarta versijā atgūtamā parole nedrīkst pārsniegt maksimālo rakstzīmju garumu - 4 zīmes.
+TEXT_MSG_FILE2FINDPWD                   = Iepriekš minētais(-ie) fails(-i) tiks apstrādāti paroles atgūšanai.
+TEXT_MSG_ERRORATFINDINDEX               = Neizdevās atrast nevienu failu atgūšanai.
+TEXT_MSG_COPY2CLIPBOARD                 = Atgūtā parole ir kopēta starpliktuvē.
+TEXT_STATE_MSG_READY                    = Noklikšķiniet uz SĀKT, lai sāktu atgūšanu.
+TEXT_STATE_MSG_WORKING                  = Notiek paroles atgūšana...
+TEXT_STATE_MSG_PAUSING                  = Pauzēts
+TEXT_STATE_MSG_STOPPING                 = Notiek atcelšana...
+TEXT_STATE_MSG_FOUND                    = ${num1} rakstzīmju parole tika atgūta ${str1} sekundēs. (${str2})
+TEXT_ASK_EXIT                           = Vai tiešām vēlaties iziet?
+TEXT_COMBO_THREAD_AUTO                  = Auto
+
+[IDD_RECOVERY_SETTING]
+IDD_RECOVERY_SETTING                    = Iestatījumi
+IDC_STATIC_MULTI_CORE                   = Daudzkodolu apstrāde
+IDC_STATIC_MULTI_CORE_DESC              = Norādiet atgūšanai izmantojamo pavedienu skaitu. [br]Ieteicams atlasīt "Auto" vai mazāku skaitu nekā jūsu sistēmā instalēto CPU kodolu skaits.
+IDC_STATIC_PREP_POSTP                   = Priedēklis
+IDC_STATIC_PREP                         = Priedēklis
+IDC_STATIC_PREP_DESC                    = Pirms paroļu apstrādes pievienot prefiksu paroļu sākumā. [br]piem. http://www.
+IDC_STATIC_SPECIFY                      = Norādiet rakstzīmes
+IDC_STATIC_ETC                          = Dažādi
+IDC_CHK_USE_SIGNATURE_BY_EXT            = Lietot faila paplašinājumu ātrākai atgūšanai.
+
+[RECOVERY_SKIN]
+$STEP_1                                 = Atvērt
+$STEP_2                                 = Pārbaudīt
+$STEP_3                                 = Iestatījumi
+$STEP_4                                 = Atgūšana
+$STEP_5                                 = Pabeigts
+$FILE_PATH_NAME                         = Atrašanās vieta
+$BTN_NEXT_PAGE                          = Nākamais >
+$BTN_PREV_PAGE                          = < Atpakaļ
+$BTN_OK                                 = Labi
+$BUTTON_BUY_NOW                         = Iegādājieties Bandizip Professional Edition
+$STATIC_OPEN_DESC                       = Noklikšķiniet uz "Atvērt arhīvu", lai pārlūkotu un atlasītu šifrētu arhīvu. <br>Varat arī vilkt un nomest arhīvu tieši šajā dialogā.
+$STATIC_PRICE_DESC1                     = Bandizip licences rokasgrāmata
+$STATIC_PRICE_DESC2                     = Paroles atgūšana ir pieejama tikai Bandizip profesionālajā versijā. Atjaunojamā parole nedrīkst pārsniegt maksimālo Bandizip standarta versijas rakstzīmju garumu - 4 zīmes.
+$STATIC_FILELIST_DESC                   = Šajā arhīvā ir ietverti šādi faili. Pārbaudiet tos un noklikšķiniet uz Tālāk.
+$FILELIST_HEADER_NAME                   = Nosaukums
+$FILELIST_HEADER_SIZE                   = Izmērs
+$FILELIST_HEADER_DATE                   = Labošanas datums
+$FILELIST_HEADER_METHOD                 = Saspiešanas metode
+$FILELIST_HEADER_PWMETHOD               = Šifrēšanas metode
+$STATIC_SYMBOL_DESC                     = Norādiet paredzamajā parolē lietoto rakstzīmju veidus. <br>Ja atlasāt vairākus vai visus veidus, atgūšanai būs nepieciešams ilgāks laiks.
+$STATIC_CUR_PASSWORD                    = Apstrāde
+$STATIC_CUR_PASSLEN                     = Garums
+$STATIC_ELAPSED                         = Pagājušais laiks
+$STATIC_SPEED                           = Apstrādes ātrums
+$STATIC_CLIPBOARD_DESC                  = Kopēt atgūto paroli starpliktuvē un ielīmēt to.
+$BUTTON_STOP                            = Atcelt
+$BUTTON_START                           = SĀKT
+$IDC_BTN_PAUSE                          = Pauze
+$IDC_BTN_UNPAUSE                        = Restartēt
+$IDC_BTN_OPEN                           = Atvērt
+$IDC_BTN_SETTING                        = Papildu
+$IDC_BTN_COPY2CLIPBOARD                 = Kopēt
+$IDC_BTN_CANCEL_PAYMENT                 = Atcelt
+$BUTTON_HELP_PAGE                       = Palīdzība par paredzamo laiku
+$CHECK_SYMBOL_NUM                       = Cipari (0123...9)
+$CHECK_SYMBOL_LOWERCASE                 = Mazie burti (abcd...z)
+$CHECK_SYMBOL_UPPERCASE                 = Lielie burti (ABCD... Z)
+$CHECK_SYMBOL_SYMBOL                    = Speciālās rakstzīmes (!@#$... )
+$CHECK_SYMBOL_SPACE                     = Atstarpe
+$CHECK_SYMBOL_ALL                       = Visi
+$CHECK_SYMBOL_SPECIFIED                 = Norādītās rakstzīmes
+$FOUNDED_PASSWORD                       = Atgūtā parole ir...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; TEXT FOR EXPLORER SHELL CONTEXT MENU
+;
+[SHELL]
+TEXT_NEW_FOLDER                         = Jauna mape
+
+TEXT_MENU_CREATE_NEW_FOLDER             = Jau&na mape
+TEXT_MENU_SUB_MENU                      = &Bandizip
+TEXT_MENU_OPEN_ARCHIVE                  = Atvērt ar Bandizip...
+TEXT_MENU_TEST_ARCHIVE                  = Pārbaudīt arhīvu
+TEXT_MENU_LAUNCH_CMD                    = Pa&laist komandu logu
+TEXT_MENU_LAUNCH_CMD_ADMIN              = Palaist komandu logu (kā administrators)
+
+TEXT_MENU_ARCHIVE_EACHNAME              = Saspiest katru Failu/Mapi atsevišķā zip arhīvā
+TEXT_MENU_ARCHIVE_EACHNAME_7Z           = Saspiest katru Failu/Mapi atsevišķā 7z arhīvā
+TEXT_MENU_ARCHIVE_ZIP                   = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_ZIP_AND_DEL           = Saspiest uz "${str1}" un dzēst
+TEXT_MENU_ARCHIVE_ZIP_AND_EMAIL         = Sasp&iest uz "${str1}" un nosūtīt e-pasta ziņojumu...
+TEXT_MENU_ADD_TO_ZIP                    = "Pievienot "${str1}""
+TEXT_MENU_ARCHIVE_ZIPX                  = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_EXE                   = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_TAR                   = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_TGZ                   = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_LZH                   = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_ISO                   = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_7ZFMT                 = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_GZ                    = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_XZ                    = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_ZPAQ                  = "Saspiest uz "${str1}""
+TEXT_MENU_ARCHIVE_EACHNAME_GZ           = Saspiest katru Failu atsevišķā gz arhīvā
+TEXT_MENU_ARCHIVE_EACHNAME_XZ           = Saspiest katru Failu atsevišķā xz arhīvā
+TEXT_MENU_ARCHIVE_RULE                  = Saspiest uz "${str1}" (&U)
+TEXT_MENU_ARCHIVE_POPUP                 = Izveidot arhīvu (&Bandizip)...
+TEXT_MENU_ARCHIVE_POPUP_AS_ADMIN        = Saspiest kā administrators (&Y)
+
+TEXT_MENU_EXTRACT_HERE                  = Izvilkt š&eit
+TEXT_MENU_EXTRACT_AUTO                  = Izvilkt šeit (Viedai&s)
+TEXT_MENU_EXTRACT_AUTO_EACH             = Izvilkt katru arhīvu šeit (Viedai&s)
+TEXT_MENU_EXTRACT_SUB                   = Izvilkt atsevišķās mapēs
+TEXT_MENU_EXTRACT_ARCHIVENAME           = Izvilk&t uz ${str1}\
+TEXT_MENU_EXTRACT_DLG                   = Izvilkt uz citu mapi...
+TEXT_MENU_EXTRACT_DLG_AS_ADMIN          = Izvilkt kā administrators
+TEXT_MENU_EXTRACT_HERE_DEL              = Izvilkt šeit un izdzēst
+TEXT_MENU_EXTRACT_AUTO_DEL              = Izvilkt šeit (Viedais) un izdzēst
+TEXT_MENU_EXTRACT_AUTO_EACH_DEL         = Izvilkt katru arhīvu šeit (Viedais) un izdzēst
+TEXT_MENU_EXTRACT_SUB_DEL               = Izvilkt atsevišķās mapēs un Dzēst
+TEXT_MENU_EXTRACT_ARCHIVENAME_DEL       = Izvilkt uz ${str1}\ un dzēst
+
+TEXT_MENU_PREVIEW                       = Priekšskatījums
+TEXT_MENU_PREVIEW_BROKEN                = Šis fails ir [br] nezināmā formātā vai ir bojāts
+TEXT_MENU_PREVIEW_TIMEOUT               = Pieprasījumam ir iestājusies noildze.
+TEXT_MENU_PREVIEW_EMPTY                 = Tukšs arhīva fails
+TEXT_MENU_PREVIEW_ENCRYPTED             = Faila nosaukums ir šifrēts
+TEXT_MENU_PREVIEW_DLLLOADFAILED         = Nevar lietot priekšskatījuma arhīva funkciju. [br][br]Restartēt Windows Explorer vai [br]restartēt datoru.
+TEXT_MENU_PREVIEW_CANTREADFILELIST      = Nevar nolasīt failu sarakstu
+
+TEXT_MENU_OPENING                       = Notiek atvēršana...
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for updater
+;
+[UPDATER]
+TEXT_UPDATER_TITLE                      = Bandizip atjauninājumi
+TEXT_UPDATER_TEXT1                      = Bandizip atjauninājumi ir gatavi.
+TEXT_UPDATER_TEXT_DL                    = Vai vēlaties to lejupielādēt tagad?
+TEXT_UPDATER_BTN_UPDATE                 = Atjaunināt
+TEXT_UPDATER_BTN_OK                     = Labi
+TEXT_UPDATER_BTN_CANCEL                 = Atcelt
+TEXT_UPDATER_DOWNLOAD_ERROR             = Lejupielāde neizdevās.
+TEXT_UPDATER_SETTING_UPDATE             = Iestatījumi
+TEXT_UPDATER_SETTING_SKIPTHIS           = Izlaist šo versiju
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for sfx
+;
+[SFX]
+STATIC_TARGET_PATH                      = Mērķa ceļš:
+BTN_SELECT_FOLDER                       = Pārlūkot...
+BTN_EXTRACT                             = Sākt
+BTN_CLOSE                               = Aizvērt
+BTN_CANCEL                              = Atcelt
+BTN_OPEN_FOLDER                         = Atvērt
+CHK_OVERWRITE                           = Pārrakstīt
+ERR_ERROR_OCCURRED                      = Notika kļūda
+ERR_INVALID_PASSWORD                    = Nepareiza parole
+ASK_OVERWRITE                           = Tāds fails jau pastāv. Vai vēlaties to pārrakstīt?
+MSG_COMPLETED                           = Izvilkšana pabeigta.
+IDD_PASSWORD                            = Ievadīt paroli
+IDC_STATIC_PASSWORD_MSG                 = Šis fails ir šifrēts.
+IDC_BTN_SHOW_PASSWORD                   = Rādīt paroli
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for arkview
+;
+[ARKVIEW]
+TEXT_ERR_CANTEXTRACTFILE                = Nevar izvilkt failus.
+TEXT_ERR_CRC                            = CRC kļūda.
+TEXT_ERR_INVALID_PASSWD                 = Nepareiza parole.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for installer
+;
+[INSTALLER]
+$SETUP_TITLE                            = Instalēt ${APPNAME} ${APPVERSION}
+$UNINSTALL_TITLE                        = Atinstalēt ${APPNAME} ${APPVERSION}
+$UNINSTALL_STATIC                       = Noklikšķiniet uz Atinstalēt, lai sāktu atinstalēšanu.
+
+$BTN_CLOSE                              = Aizvērt
+$BTN_CANCEL                             = Atcelt
+$BTN_INSTALL                            = Piekrītu un instalēt
+$BTN_UNINSTALL                          = Atinstalēt
+$BTN_OPEN_LICENSE                       = [Skatīt licences līgumu]
+$BTN_HELP_LINK                          = [Palīdzība]
+
+$TEXT_PATH                              = Galamērķa mape
+$TEXT_INSTALL_STATIC                    = Notiek instalēšana...
+$TEXT_INST_COMPLETED                    = Instalēšana pabeigta
+$TEXT_INST_FAILED                       = Instalēšana neizdevās
+$TEXT_UNINSTALLING                      = Notiek atinstalēšana...
+
+$CHK_AUTO_REPORT                        = Automātiski nosūtiet lietojuma statistiku un avāriju pārskatus.
+$EMAIL                                  = Epasta adrese
+$PRODUCT_KEY                            = Produkta atslēga
+
+ERR_CANT_CREATE_FOLDER                  = Neizdevās izveidot mapi: ${str1}
+ERR_CANT_OPEN_FILE                      = Neizdevās atvērt failu: ${str1}
+ERR_CANT_WRITE_FILE                     = Neizdevās uzrakstīt failu: ${str1}
+ERR_BROKEN_ARCHIVE                      = Šis saspiestais fails ir bojāts: ${str1}
+ERR_CRC_ERROR                           = CRC kļūda: ${str1}
+ERR_NOT_ENOUGH_MEM                      = Atmiņas trūkums: ${str1}
+
+MSG_FILE_OPEN_ERROR                     = Atverot failu rakstīšanai, radās kļūda:[br] "${str1}"[br]Noklikšķiniet uz Pārtraukt, lai apturētu instalēšanu,[br]Mēģināt vēlreiz, vai [br]Ignorēt, lai izlaistu šo failu.
+MSG_SUCCESS                             = Instalēšana pabeigta
+MSG_DLL_REGISTERING                     = Notiek Explorer čaulas paplašinājuma reģistrācija...
+MSG_DLL_UNREGISTERING                   = Notiek Explorer čaulas paplašinājuma reģistrācijas atcelšana...
+MSG_ERROR                               = Notika kļūda.
+MSG_ERROR_REGISTER                      = Reģistrācija neizdevās
+MSG_SELECT_FOLDER                       = Izvēlēties mapi.
+MSG_STILLRUN_EXIT_PROGRAM               = ${APPNAME} joprojām darbojas. Vispirms vajag aizvērt programmu.
+MSG_XP_IS_NOT_SUPPORTED                 = Šī programma nedarbojas operētājsistēmā Windows XP.
+MSG_NEED_ADMIN_PRIVILEGE                = Šo programmu var instalēt tikai lietotājs ar administratora privilēģijām. [br][br]Lietotāji, kas nav administratori, var instalēt programmu nepilnīgi. [br][br]Vai vēlaties pārtraukt instalēšanu?
+MSG_NEWVERSION_FOUND                    = Pašlaik ir pieejama jauna versija. Vai vēlaties to lejupielādēt tagad?
+SHORTCUT_LINK_DESCRIPTOIN               = Palaist lietotni ${APPNAME}
+MSG_ERR_X86_NOTSUPPORT                  = Šis iestatīšanas fails neatbalsta 32 bitu (x86) OS. Lūdzu, lejupielādēt jaunu instalācijas failu tīmekļa vietnē.
+MSG_ERR_ARM_NOTSUPPORT                  = Šis iestatīšanas fails neatbalsta ARM64 centrālo procesoru. Lūdzu, lejupielādēt jaunu instalācijas failu tīmekļa vietnē.
+ERR_INST_FAILED                         = Instalēšana neizdevās. Lūdzu, restartēt datoru un mēģināt vēlreiz.
+$MSG_SELECT_LICENSE                     = Lūdzu, atlasīt izdevuma veidu.
+$EDITION_FREE                           = Izmēģinājuma versija
+$EDITION_PRO                            = Profesionāls
+$FREE_1                                 = Bez maksas
+$FREE_3                                 = Rādīt reklāmas, ierobežot dažas funkcijas
+$PRO_1                                  = Pieejams par cenu
+$PRO_2                                  = Mājas un biznesa un profesionāls
+$PRO_5                                  = Citas ekskluzīvas funkcijas
+$IDC_STATIC_BUYNOW                      = Vēl neesat iegādājies Bandizip? [b]Pirkt tūlīt[/b]
+$IDC_STATIC_COMPARISON                  = Izdevumu salīdzinājums...
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; text for online setup
+;
+[ONLINESETUP]
+TEXT_VERSION_CHECK_FAILED               = Versijas pārbaude neizdevās. Lūdzu, lejupielādēt bezsaistes instalācijas failu.
+TEXT_VERSION_CHECKING                   = Notiek versijas pārbaude...
+TEXT_DOWNLOAD_FAILED                    = Lejupielāde neizdevās. Lūdzu, lejupielādēt bezsaistes instalācijas failu.
+TEXT_DOWNLOAD_COMPLETED                 = Lejupielāde pabeigta
+TEXT_HOMEPAGE                           = [Atvērt tīmekļa lapu]
+TEXT_XP                                 = Windows XP atbalsts ir beidzies.
+
+[IDD_TOOLBAR_SETTINGS]
+IDD_TOOLBAR_SETTINGS                    = Atlasīt rīkjoslas pogas
+
+

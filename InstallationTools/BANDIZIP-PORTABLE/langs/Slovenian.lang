@@ -422,6 +422,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Samodejno zaznaj
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Ogled s Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Ogled s BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Ogled s povezanim programom
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Pomanjšaj v programsko vrstico
@@ -588,6 +589,7 @@ IDC_RADIO_HANDLE_METHOD2                = Dod&aj datoteke v trenutni arhiv
 IDC_CHK_PASS                            = Uporabi geslo
 IDC_STATIC_PASSWORD_AGAIN               = Potrdi geslo
 IDC_CHK_SHOW_PASS                       = Prikaži geslo
+IDC_CHK_DELETE_FILES                    = Izbriši datoteke po arhiviranju
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -752,7 +754,7 @@ IDC_CHK_VIEWITEM_EXT                    = Dodatne informacije
 IDC_STATIC_IMAGE_VIEWER                 = Pregledovalnik slik
 IDC_RADIO_IMAGE_VIEWER_0                = Uporabi notranji pregledovalnik slik
 IDC_RADIO_IMAGE_VIEWER_1                = Uporabi pridružen program
-IDC_RADIO_IMAGE_VIEWER_2                = Uporabi Honeyview, če je nameščen
+IDC_RADIO_IMAGE_VIEWER_2                = Uporabi BandiView/Honeyview, če je nameščen
 
 IDC_STATIC_EDITOR                       = Urejevalnik besedilnih (TXT) datotek
 IDC_BTN_SET_EDITOR_PATH                 = Prebrskaj...
@@ -1160,6 +1162,7 @@ SHORTCUT_LINK_DESCRIPTOIN               = Zaženi ${APPNAME}
 MSG_ERR_X86_NOTSUPPORT                  = Ta namestitvena datoteka ne podpira 32-bitnega (x86) OS. Prenesite novo namestitveno datoteko z domače strani.
 MSG_ERR_ARM_NOTSUPPORT                  = Ta namestitvena datoteka ne podpira CPE ARM64. Prenesite novo namestitveno datoteko z domače strani.
 ERR_INST_FAILED                         = Namestitev ni uspela. Vnovič zaženite svoj računalnik in poskusite znova.
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

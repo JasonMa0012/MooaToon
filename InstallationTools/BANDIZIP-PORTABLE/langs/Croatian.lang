@@ -389,6 +389,7 @@ POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
 POPUPMENU_CODEPAGE_AUTODETECT           = Odaberi automatski
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Pregledaj sa Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Pregledaj sa BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Pregledaj zadanim programom
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimiziraj u sistemsku traku
@@ -508,6 +509,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Dodaj u trenutnu datoteku
 IDC_CHK_PASS                            = Koristi zaporku
 IDC_STATIC_PASSWORD_AGAIN               = Ponovi zaporku
 IDC_CHK_SHOW_PASS                       = Pokaži zaporku
+IDC_CHK_DELETE_FILES                    = Izbriši datoteke nakon sažimanja
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -657,7 +659,7 @@ IDC_CHK_VIEWITEM_COMMENT                = Komentar
 IDC_STATIC_IMAGE_VIEWER                 = Preglednik slika
 IDC_RADIO_IMAGE_VIEWER_0                = Koristi interni Preglednik slika
 IDC_RADIO_IMAGE_VIEWER_1                = Koristi zadani program
-IDC_RADIO_IMAGE_VIEWER_2                = Koristi Honeyview ako je instaliran
+IDC_RADIO_IMAGE_VIEWER_2                = Koristi BandiView/Honeyview ako je instaliran
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Odaberi...
@@ -915,6 +917,7 @@ $BTN_HELP_LINK                          = [Pomoć]
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip je otvoren. Prvo zatvorite program.
 MSG_XP_IS_NOT_SUPPORTED                 = Ovaj program će ispravno raditi samo u sustavu Windows Vista i kasnijim.
 MSG_NEED_ADMIN_PRIVILEGE                = This program can only be installed by a user with administrator privileges.[br][br]Non-administrative users may not install the program properly.[br][br]Do you want to stop installation?
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

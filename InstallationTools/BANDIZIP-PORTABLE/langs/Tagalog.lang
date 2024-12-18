@@ -424,6 +424,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Auto detect
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Tignan gamit ang Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Tignan gamit ang BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Tignan ang associated program
 
 DLG_MENUSTR_MINIMIZE2TRAY               = I-Minimize sa tray
@@ -592,6 +593,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Mag-dagdag ng File(s) sa Current Arch
 IDC_CHK_PASS                            = Gumamit ng Password
 IDC_STATIC_PASSWORD_AGAIN               = Ilagay muli ang Password
 IDC_CHK_SHOW_PASS                       = Ipakita ang Password
+IDC_CHK_DELETE_FILES                    = Burahin ang files pagkatapos ma-archive
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -759,7 +761,7 @@ IDC_CHK_VIEWITEM_EXT                    = Karagdagang Impormasyon
 IDC_STATIC_IMAGE_VIEWER                 = Image viewer
 IDC_RADIO_IMAGE_VIEWER_0                = Gamitin ang internal image viewer
 IDC_RADIO_IMAGE_VIEWER_1                = Gamitin ang associated program
-IDC_RADIO_IMAGE_VIEWER_2                = Gamitin ang Honeyview kung naka-installed
+IDC_RADIO_IMAGE_VIEWER_2                = Gamitin ang BandiView/Honeyview kung naka-installed
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Browse...
@@ -1087,6 +1089,7 @@ MSG_XP_IS_NOT_SUPPORTED                 = Itong software Ay gagana lamang ng maa
 MSG_NEED_ADMIN_PRIVILEGE                = Itong program ma-install lamang sa pamamagitan ng isang user may administrator privileges.[br][br]Non-administrative users ay hindi maaring i-install ang program maayos.[br][br]Gusto mo bang Itigil ang installation?
 MSG_NEWVERSION_FOUND                    = Meron ng bagong Bersyon, Gusto mo bang I-download
 SHORTCUT_LINK_DESCRIPTOIN               = I-Launch ${APPNAME}
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

@@ -389,6 +389,7 @@ POPUPMENU_CODEPAGE_UTF8                 = UTF-8
 POPUPMENU_CODEPAGE_AUTODETECT           = Identifiera automatiskt
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Visa med Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Visa med BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Visa med associerat program
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimera till meddelandefältet
@@ -509,6 +510,7 @@ IDC_RADIO_HANDLE_METHOD2                = &Lägg till fil(er) i aktuellt arkiv
 IDC_CHK_PASS                            = Använd lösenord
 IDC_STATIC_PASSWORD_AGAIN               = Upprepa lösenord
 IDC_CHK_SHOW_PASS                       = Visa lösenord
+IDC_CHK_DELETE_FILES                    = Ta bort originalfiler efter arkivering
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -658,7 +660,7 @@ IDC_CHK_VIEWITEM_COMMENT                = Filkommentar
 IDC_STATIC_IMAGE_VIEWER                 = Bildvisare
 IDC_RADIO_IMAGE_VIEWER_0                = Använd intern bildvisare
 IDC_RADIO_IMAGE_VIEWER_1                = Använd associerad bildvisare
-IDC_RADIO_IMAGE_VIEWER_2                = Use Honeyview if installed
+IDC_RADIO_IMAGE_VIEWER_2                = Use BandiView/Honeyview if installed
 
 IDC_STATIC_EDITOR                       = Redigerare
 IDC_BTN_SET_EDITOR_PATH                 = Bläddra...
@@ -915,6 +917,7 @@ $BTN_HELP_LINK                          = [Hjälp]
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip är fortfarande igång. Stäng programmet först.
 MSG_XP_IS_NOT_SUPPORTED                 = Detta program fungerar endast i Windows Vista och senare.
 MSG_NEED_ADMIN_PRIVILEGE                = This program can only be installed by a user with administrator privileges.[br][br]Non-administrative users may not install the program properly.[br][br]Do you want to stop installation?
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup

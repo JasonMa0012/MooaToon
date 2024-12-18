@@ -390,6 +390,7 @@ POPUPMENU_CODEPAGE_UTF8                 = Linux (UTF-8)
 POPUPMENU_CODEPAGE_AUTODETECT           = Deteksi Otomatis
 
 POPUPMENU_PREVIEW_EXECUTE_HONEYVIEW     = Tampilkan dengan Honeyview
+POPUPMENU_PREVIEW_EXECUTE_BHONEYVIEW    = Tampilkan dengan BandiView/Honeyview
 POPUPMENU_PREVIEW_EXECUTE_ASSOC         = Tampilkan dengan program lain
 
 DLG_MENUSTR_MINIMIZE2TRAY               = Minimize ke tray
@@ -510,6 +511,7 @@ IDC_RADIO_HANDLE_METHOD2                = &tambahkan berkas ke arsip ini
 IDC_CHK_PASS                            = Gunakan Kata Sandi
 IDC_STATIC_PASSWORD_AGAIN               = Masukkan ulang Kata Sandi
 IDC_CHK_SHOW_PASS                       = Perlihatkan Kata Sandi
+IDC_CHK_DELETE_FILES                    = Hapus berkas-berkas setelah mengarsipkan
 
 ;------------------------------------------------------------------------------
 [IDD_SETTING]
@@ -659,7 +661,7 @@ IDC_CHK_VIEWITEM_COMMENT                = Komentar Berkas
 IDC_STATIC_IMAGE_VIEWER                 = Penampil gambar
 IDC_RADIO_IMAGE_VIEWER_0                = Gunakan Penampil gambar bawaan
 IDC_RADIO_IMAGE_VIEWER_1                = Gunakan Program yg terasosiasi
-IDC_RADIO_IMAGE_VIEWER_2                = Gunakan Honeyview jika terpasang
+IDC_RADIO_IMAGE_VIEWER_2                = Gunakan BandiView/Honeyview jika terpasang
 
 IDC_STATIC_EDITOR                       = Editor
 IDC_BTN_SET_EDITOR_PATH                 = Jelajahi...
@@ -917,6 +919,7 @@ $BTN_HELP_LINK                          = [Bantuan]
 MSG_STILLRUN_EXIT_PROGRAM               = Bandizip sedang berjalan. Tutup dulu programnya.
 MSG_XP_IS_NOT_SUPPORTED                 = Program ini untuk windows Vista atau terbaru.
 MSG_NEED_ADMIN_PRIVILEGE                = Program ini hanya bisa dipasang oleh user dengan hak administrator.[br][br]user Non-administrative tidak bisa memasang program ini dengan sempurna .[br][br]Apa anda ingin membatalkan pemasangan?
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ; text for online setup
