@@ -14,15 +14,15 @@ import locale
 # ================= Defines =================
 repo_name = "JasonMa0012/MooaToon"
 
-mooatoon_root_path = r"X:\MooaToon"
+mooatoon_root_path = r"E:\MooaToon"
 if len(sys.argv) > 1:
     mooatoon_root_path = sys.argv[1]
 
-engine_version = "5.5"
+engine_version = "5.6"
 if len(sys.argv) > 2:
     engine_version = sys.argv[2]
 
-project_branch_name = "5.5_MooaToonProject"
+project_branch_name = "5.6_MooaToonProject"
 if len(sys.argv) > 3:
     project_branch_name = sys.argv[3]
 
