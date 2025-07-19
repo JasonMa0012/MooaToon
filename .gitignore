@@ -12,3 +12,4 @@ InstallationTools/build/
 ReleaseTools/Zip/
 InstallationTools/Download/
 InstallationTools/BANDIZIP-PORTABLE/Bandizip.x64.ini
+ReleaseTools/__pycache__
