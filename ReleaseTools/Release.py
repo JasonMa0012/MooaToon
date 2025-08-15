@@ -9,6 +9,7 @@ import winreg
 import locale
 import threading
 import time
+import requests
 from concurrent.futures import ThreadPoolExecutor
 
 
@@ -17,7 +18,7 @@ from concurrent.futures import ThreadPoolExecutor
 # ================= Defines =================
 repo_name = "JasonMa0012/MooaToon"
 
-mooatoon_root_path = r"E:\Mooa"
+mooatoon_root_path = r"E:\MooaRel"
 if len(sys.argv) > 1:
     mooatoon_root_path = sys.argv[1]
 
@@ -31,8 +32,8 @@ if len(sys.argv) > 3:
 
 # Default Input
 argv = [
-    # '--Release'
-    '--Reupload'
+    '--Release'
+    # '--Reupload'
 ]
 if len(sys.argv) > 4:
     argv = sys.argv[4:]
@@ -205,13 +206,48 @@ if '--Release' in argv:
     else:
         comment = get_release_comment(engine_version, last_release_info['published_at'][0:10])
         comment += get_release_comment(project_branch_name, last_release_info['published_at'][0:10])
-    ghr.gh_release_create(
-        repo_name,
-        release_name,
-        publish=False,
-        body=comment,
-        name=release_name,
-    )
+
+    # Compose compare link (English) and enforce GitHub body length limit (125000)
+    MAX_BODY = 100000
+    compare_section = ""
+    if last_release_info is not None:
+        prev_tag = last_release_info['tag_name']
+        compare_url = f"https://github.com/{repo_name}/compare/{prev_tag}...{release_name}"
+        compare_section = f"\n\n**Full Changelog**:\n{compare_url}\n"
+    else:
+        compare_section = ""
+
+    if comment is None:
+        comment = ""
+
+    # Ensure the final body keeps the compare link while respecting the max length
+    reserved = len(compare_section)
+    if len(comment) + reserved > MAX_BODY:
+        notice = "\n\n(Commit list truncated due to length limit)\n"
+        allowed = MAX_BODY - reserved - len(notice)
+        if allowed < 0:
+            allowed = 0
+        comment = comment[:allowed] + notice
+
+    final_body = comment + compare_section
+
+    try:
+        ghr.gh_release_create(
+            repo_name,
+            release_name,
+            publish=False,
+            body=final_body,
+            name=release_name,
+        )
+    except Exception as e:
+        if isinstance(e, requests.HTTPError) and e.response is not None:
+            print("Create release failed:", e.response.status_code, e.response.reason)
+            try:
+                print("Details:", e.response.json())
+            except Exception:
+                print("Raw:", e.response.text[:1000])
+        raise
+
     # 使用多线程上传
     upload_success = multithread_upload(repo_name, release_name, file_paths)
     if upload_success:
