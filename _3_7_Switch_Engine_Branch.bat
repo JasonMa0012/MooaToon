@@ -17,8 +17,8 @@ color 07
 
 pushd %engineFolderName%
 
-git fetch origin %engineBranchName% --depth=1
-git checkout -B %engineBranchName% -f
+git fetch origin %engineBranchName%:refs/remotes/origin/%engineBranchName% --depth=1
+git checkout -B %engineBranchName% origin/%engineBranchName% -f
 git submodule update --init --recursive
 
 popd
