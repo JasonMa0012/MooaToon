@@ -19,7 +19,8 @@ vs_Community.exe --wait --addProductLang En-us ^
  --add Microsoft.VisualStudio.Component.VC.14.44.17.14.CLI.Support ^
  --add Microsoft.VisualStudio.Component.VC.14.44.17.14.ATL ^
  --add Microsoft.VisualStudio.Component.VC.14.44.17.14.MFC ^
- --add Microsoft.NetCore.Component.Runtime.8.0
+ --add Microsoft.NetCore.Component.Runtime.8.0 ^
+ --add Component.Microsoft.Windows.DriverKit
 
 
 rem --quiet --norestart
