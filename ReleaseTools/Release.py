@@ -4,8 +4,6 @@ import subprocess
 import datetime
 import github_release as ghr
 import github3 as gh
-from dotenv import load_dotenv
-import winreg
 import locale
 import threading
 import time
@@ -57,17 +55,18 @@ if not os.path.exists(zip_path):
 
 
 # ============ Functions ==============
-def get_onedrive_env_path():
-    # 打开 OneDrive 注册表项
-    with winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\OneDrive", 0, winreg.KEY_READ) as key:
-        # 获取 OneDrive 安装路径的值
-        envPath, _ = winreg.QueryValueEx(key, "UserFolder")
-
-    return os.path.join(envPath, '_Data', 'envs', 'MooaToon.env')
+def get_github_token():
+    """读取发布工具使用的 GitHub API Key。"""
+    token = os.getenv('MOOATOON_ENGINE_TOKEN') or os.getenv('GITHUB_TOKEN')
+    if not token:
+        raise RuntimeError(
+            '未找到系统环境变量 MOOATOON_ENGINE_TOKEN 或 GITHUB_TOKEN，请先设置 GitHub API Key 后再发布。'
+        )
+    return token
 
 
 def get_release_comment(branch_name, last_release_date):
-    g = gh.login(token=os.getenv('MOOATOON_ENGINE_TOKEN'))
+    g = gh.login(token=get_github_token())
     repo : gh.github.repo.Repository = g.repository(engine_user, engine_repo)
     comment = ''
     for commit in repo.commits(sha=branch_name, since=last_release_date):
@@ -155,7 +154,9 @@ def multithread_upload(repo_name, tag_name, file_paths):
 
 
 # ================= Main ==================
-load_dotenv(dotenv_path=get_onedrive_env_path())
+github_token = get_github_token()
+# github_release 默认读取 GITHUB_TOKEN；统一使用同一个 Key。
+os.environ['GITHUB_TOKEN'] = github_token
 
 if '--Clean' in argv:
     print("======Clean======")

@@ -1,1 +1,1 @@
-pip install githubrelease github3.py python-dotenv pyinstaller
+pip install githubrelease github3.py pyinstaller
