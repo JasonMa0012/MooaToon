@@ -2,6 +2,7 @@ import os
 import sys
 import subprocess
 import datetime
+import re
 import github_release as ghr
 import github3 as gh
 import locale
@@ -76,11 +77,19 @@ def get_release_comment(branch_name, last_release_date):
     return comment
 
 
-def async_run(args):
+def report_error_and_pause(message):
+    print(f"\nERROR: {message}")
+    input("\nPress Enter to continue...")
+    raise SystemExit(1)
+
+
+def async_run(args, detect_text=None):
     # 获取系统的默认编码
     encoding = locale.getpreferredencoding()
-    # 使用 subprocess.Popen() 函数异步执行 bat 文件，并获取 stdout 和 stderr 输出
-    process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding=encoding, errors='ignore')
+    # 合并 stdout 和 stderr，避免只读取 stdout 时漏掉编译错误或发生管道阻塞。
+    process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding=encoding, errors='ignore')
+    detected = False
+    detect_text_upper = detect_text.upper() if detect_text else None
 
     while True:
         output = process.stdout.readline()
@@ -88,7 +97,28 @@ def async_run(args):
             break
         if output:
             print(output.strip())
-    return process.poll()
+            if detect_text_upper and detect_text_upper in output.upper():
+                detected = True
+    return process.poll(), detected
+
+
+def validate_archive_names(file_paths, expected_release_name):
+    """校验待上传的分卷压缩包名称是否属于当前发布。"""
+    archive_pattern = re.compile(
+        rf"^(?:MooaToon-Engine-Precompiled|MooaToon-Project-Precompiled)-"
+        rf"{re.escape(expected_release_name)}\.(?:zip|z\d+)$"
+    )
+    invalid_paths = [
+        file_path
+        for file_path in file_paths
+        if not archive_pattern.fullmatch(os.path.basename(file_path))
+    ]
+    if invalid_paths:
+        invalid_names = "\n".join(os.path.basename(path) for path in invalid_paths)
+        report_error_and_pause(
+            f"压缩包名称校验失败，当前发布名称应为 {expected_release_name}，"
+            f"但发现以下文件：\n{invalid_names}"
+        )
 
 
 def upload_single_asset(repo_name, tag_name, file_path, lock):
@@ -168,7 +198,14 @@ if '--Clean' in argv:
 if '--BuildEngine' in argv:
     print("======Build Engine======")
     os.chdir(engine_path)
-    async_run([engine_path + r"\_build.bat"])
+    build_return_code, build_failed = async_run(
+        [engine_path + r"\_build.bat"],
+        detect_text="BUILD FAILED",
+    )
+    if build_failed:
+        report_error_and_pause('引擎编译输出包含 "BUILD FAILED"，已暂停发布。')
+    if build_return_code != 0:
+        report_error_and_pause(f"引擎编译进程失败，退出码为 {build_return_code}，已暂停发布。")
 
 if '--ZipEngine' in argv:
     print("======Zip Engine======")
@@ -189,7 +226,11 @@ if '--ZipProject' in argv:
 file_paths = []
 for file_name in os.listdir(zip_path):
     file_path = os.path.join(zip_path, file_name)
-    file_paths.append(file_path)
+    if os.path.isfile(file_path):
+        file_paths.append(file_path)
+
+if '--Release' in argv:
+    validate_archive_names(file_paths, release_name)
 
 last_release_info = None
 last_draft_info = None
@@ -259,6 +300,7 @@ if '--Release' in argv:
 if '--Reupload' in argv:
     print("======Reupload======")
     if last_draft_info is not None:
+        validate_archive_names(file_paths, last_draft_info['tag_name'])
         # 仅上传失败的文件
         for asset in last_draft_info['assets']:
             for file_path in file_paths[:]:  # 使用副本避免在迭代时修改列表
