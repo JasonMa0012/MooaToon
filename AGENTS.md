@@ -7,7 +7,6 @@ MooaRel 是 MooaToon 的安装和发布工具项目，主要通过 Windows 批�
 ## 关联项目与目录
 
 - `E:\MooaRel`：MooaToon 的安装和发布工具，及发布用的引擎/项目工作副本。
-- `E:\Mooa\`：MooaToon 主开发根目录。
 - `E:\Mooa\MooaToon-Engine`：MooaToon 引擎开发目录，是引擎源码修改的主要位置。
 - `E:\Mooa\MooaToon-Project`：MooaToon 项目开发目录。
 - `E:\Mooa\MooaToon-Engine\Engine\Plugins\MooaToonThirdparty\VRM4U`：VRM4U 插件，作为 Git submodule 管理。
@@ -16,7 +15,6 @@ MooaRel 是 MooaToon 的安装和发布工具项目，主要通过 Windows 批�
 - `E:\WorkSpace\_UE\KawaiiPhysics_MooaToon`：KawaiiPhysics 上游 fork 仓库，用于获取和合并上游更新。
 - `E:\WorkSpace\_UE\KawaiiPhysics_MooaToon\Plugins\KawaiiPhysics`：KawaiiPhysics 插件源目录。
 - `E:\WorkSpace\jason-ma-0012.github.io`：MooaToon 官方文档仓库（Docusaurus 站，发布于 https://mooatoon.com/）。`docs/` 存中文文档，`i18n/en/` 存英文翻译。
-- `E:\WorkSpace\jasonma0012.github.io`：Hexo 博客仓库（个人博客），**不是** MooaToon 官方文档仓库，注意区分。
 
 ## 本仓库中的发布工作副本
 
@@ -45,3 +43,6 @@ MooaRel 是 MooaToon 的安装和发布工具项目，主要通过 Windows 批�
 - 发布凭据只从系统环境变量读取：优先使用 `MOOATOON_ENGINE_TOKEN`，兼容 `GITHUB_TOKEN`；不得把 token 写入仓库文件、脚本或构建产物。
 - 清理、构建、压缩和发布操作应优先使用对应目录下已有的 `.bat` 入口，并在操作后检查 Git 状态和生成物。
 - 文档同步规则：当 AI 改动了文档中已有的内容，或引擎/插件/项目发生会影响文档的变更（如新增、修改、移除内置插件）时，必须同步更新 MooaToon 官方文档仓库 `E:\WorkSpace\jason-ma-0012.github.io` 中的对应文档；若改动的是中文文档，还需同步更新 `i18n/en` 下的英文翻译，保持中英文内容与结构一致。
+- 所有对于官方引擎代码的修改统一用 "// Mooa <描述>" 开始、"// Mooa End" 结束包裹, 便于之后升级.
+- 由于UE项目巨大, 所有大范围修改都应该尽可能广泛搜索收集上下文, 然后生成TODO List并逐个执行, 最后逐个验证以确保无遗漏.
+- 实际工作中若发现本文档有误或缺失, 或有新的通用经验, 需及时更新本文.
