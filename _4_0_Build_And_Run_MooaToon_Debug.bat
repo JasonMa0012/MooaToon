@@ -20,7 +20,7 @@ call "%scriptRoot%%engineFolderName%\Engine\Build\BatchFiles\Build.bat" -Target=
 if errorlevel 1 goto :failed
 
 echo Running MooaToon Project with hardware Ray Tracing enabled...
-call "%scriptRoot%%engineFolderName%\Engine\Binaries\Win64\UnrealEditor.exe" "%scriptRoot%%projectFolderName%\MooaToon_Project.uproject" -log
+call "%scriptRoot%%engineFolderName%\Engine\Binaries\Win64\UnrealEditor-Win64-Debug.exe" "%scriptRoot%%projectFolderName%\MooaToon_Project.uproject" -log
 set "exitCode=%errorlevel%"
 popd
 exit /b %exitCode%
