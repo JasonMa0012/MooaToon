@@ -17,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor
 # ================= Defines =================
 repo_name = "JasonMa0012/MooaToon"
 
-mooatoon_root_path = r"E:\MooaRel"
+mooatoon_root_path = r"C:\MooaToon"
 if len(sys.argv) > 1:
     mooatoon_root_path = sys.argv[1]
 
