@@ -10,7 +10,6 @@
 - `C:\MooaToon\MooaToon-Engine`：MooaToon 引擎开发目录，是引擎源码修改和本地构建的主要位置。
 - `C:\MooaToon\MooaToon-Project`：MooaToon 项目开发目录，也是本地运行和打包项目的工作副本。
 - `C:\MooaToon\MooaToon-Engine\Engine\Plugins\MooaToonThirdparty\VRM4U`：VRM4U 插件，作为 Git submodule 管理，当前位于引擎仓库内。
-- `C:\MooaToon\MooaToon-Engine\Engine\Plugins\MooaToonThirdparty\VibeUE`：VibeUE 插件，作为 Git submodule 管理，当前位于引擎仓库内。
 - `C:\MooaToon\MooaToon-Engine\Engine\Plugins\MooaToonThirdparty\KawaiiPhysics`：KawaiiPhysics 在引擎中的使用路径；这是一个 Junction，指向下面的外部插件源目录。
 - `C:\Users\jason\Workspace\KawaiiPhysics_MooaToon`：KawaiiPhysics 上游 fork 仓库，用于获取和合并上游更新；插件源目录为 `Plugins\KawaiiPhysics`。
 - `C:\Users\jason\Workspace\KawaiiPhysics_MooaToon\Plugins\KawaiiPhysics`：KawaiiPhysics 插件源目录，当前由引擎目录中的 Junction 使用。
@@ -36,7 +35,7 @@
 ## 基本规则
 
 - 引擎源码修改优先在 `C:\MooaToon\MooaToon-Engine` 进行；项目修改在 `C:\MooaToon\MooaToon-Project` 进行。
-- 插件都作为MooaToon内置插件与引擎一起发布.
+- 需要随 MooaToon 发布的插件作为内置插件与引擎一起发布.
 - VRM4U的改动需要先提交到VRM4U仓库, 引擎测提交Submodule的Commit变更即可.
 - KawaiiPhysics 的 Junction 是本机开发环境配置，实际源码在 `C:\Users\jason\Workspace\KawaiiPhysics_MooaToon\Plugins\KawaiiPhysics`；KawaiiPhysics 的改动需要同时提交到 `KawaiiPhysics_MooaToon` 和引擎仓库。
 - 发布凭据只从系统环境变量读取：优先使用 `MOOATOON_ENGINE_TOKEN`，兼容 `GITHUB_TOKEN`；不得把 token 写入仓库文件、脚本或构建产物。
