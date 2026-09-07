@@ -42,6 +42,7 @@
 - 发布凭据只从系统环境变量读取：优先使用 `MOOATOON_ENGINE_TOKEN`，兼容 `GITHUB_TOKEN`；不得把 token 写入仓库文件、脚本或构建产物。
 - 清理、构建、压缩和发布操作应优先使用对应目录下已有的 `.bat` 入口，并在操作后检查 Git 状态和生成物。
 - 引擎编译并打开项目统一使用 `C:\MooaToon\_4_0_Build_And_Run_MooaToon_Debug.bat`（从 `C:\MooaToon` 目录执行），构建 `UnrealEditor Win64 Debug` 与 `ShaderCompileWorker Win64 Debug`，并保持硬件 Ray Tracing 启用。编译期间每 15 分钟检查一次编译进度，并确认编译输出中没有报错。
+- 等待长时间编译或发布构建时，默认每 30 分钟检查一次进度以避免浪费 Token；只有检测到错误、进程异常退出，或用户明确要求时才提前检查。
 - 文档同步规则：当 AI 改动了文档中已有的内容，或引擎/插件/项目发生会影响文档的变更（如新增、修改、移除内置插件）时，必须同步更新 MooaToon 官方文档仓库 `C:\Users\jason\Workspace\jason-ma-0012.github.io` 中的对应文档；若改动的是中文文档，还需同步更新 `i18n/en` 下的英文翻译，保持中英文内容与结构一致。
 - 所有对于官方引擎和第三方插件代码的修改统一用 "// Mooa <描述>" 开始、"// Mooa End" 结束包裹, 便于之后升级.
 - 插件仓库或 submodule 应先提交插件改动，再更新引擎中的 submodule 指针.
